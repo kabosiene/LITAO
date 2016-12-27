@@ -327,22 +327,36 @@ ul.intro-left-border li {
   height: 40px;
   z-index:96;
 }
+
 .intro-column {
-  margin: 200px 150px 0 150px;
+  margin: 50px 30px 0 30px;
   letter-spacing: 1px;
-  position: relative;
 }
 .intro-title {
   font-size: 16px;
-  margin: 50px 0 0 20px;
+  margin: 50px 0 50px 20px;
   font-weight: bold;
 }
 .intro-content {
   font-size: 12px;
-  padding-top: 100px;
+  margin-top: 50px;
+}
+.intro-img {
+  margin-top: 100px;
+  width: 400px;
+}
+@media only screen and (min-width: 720px){
+  .intro-column {
+  margin: 200px 130px 0 130px;
+  letter-spacing: 1px;
+}
+.intro-content {
+  margin-top: 100px;
 }
 .intro-img {
   margin-top: 100px;
   margin-bottom: 100px;
   width: 400px;
 }
+}
+
