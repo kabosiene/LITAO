@@ -81,7 +81,7 @@ ul {
 @media only screen and (min-width: 1025px){
   .header .nav-open{top:20px;left:15px}
 }
-/*langiages---------------------------------------------*/
+/*languages---------------------------------------------*/
 .header-lang{
   position:fixed;
   top:.5em;
@@ -144,9 +144,56 @@ ul {
 /*-----header----*/
 
 /*borders*/
+
+.border {
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+.border-intro {
+  width: 100vh;
+  height: 60px;
+  transform-origin: top left;
+  position: fixed;
+  left: 0px;
+  top: 100%;
+  transform: rotate(-90deg);
+  border-bottom:1px solid #d7d8d3;
+  padding-right: 10vh;
+}
+ul.intro-left-border {
+  margin-top: 10px;
+}
+ul.intro-left-border li {
+  float:right;
+  height:100%;
+  line-height:45px;
+}
+.intro-left.list-inline-item:not(:last-child){
+  margin-right:20px;
+  margin-left: 20px;
+}
+.border-vertical {
+  top:120px;
+  bottom:0;
+  z-index:96 ;
+}
+.vertical-left-border {
+  width: 150px;
+  padding-left: 20px;
+}
+.intro-left-v{
+margin:20px 0 20px 0;
+text-align: center;
+}
+.border_link{
+  color:#d7d8d3;
+}
+.border_link.active{
+  color: #5a5b5b;
+}
 .border-left,.border-right{display:none;}
 @media only screen and (min-width: 540px){
-  .border-left,.border-right{
+  .border-left,.border-right,.border-vertical{
     position:fixed;
     display:block;
   }
@@ -284,43 +331,11 @@ ul {
 /*-----level1----*/
 
 /*------intro----*/
-.border {
-  font-size: 10px;
-  letter-spacing: 1px;
-}
-.border-intro {
-  width: 100vh;
-  height: 60px;
-  transform-origin: top left;
-  position: fixed;
-  left: 0px;
-  top: 100%;
-  transform: rotate(-90deg);
-  border-bottom:1px solid #d7d8d3;
-  padding-right: 10vh;
-}
-ul.intro-left-border {
-margin-top: 10px;
-}
-ul.intro-left-border li {
-  float:right;
-  height:100%;
-  line-height:45px;
-}
-.intro-left.list-inline-item:not(:last-child){
-  margin-right:20px;
-  margin-left: 20px;
-}
-.border_link{
-  color:#d7d8d3;
-}
-.border_link.active{
-  color: #5a5b5b;
-}
+
 .intro {
   padding-left: 75px;
 }
-.intro .left, .intro .right {
+.intro .left, .intro .right , .level-2 .left,.level-2 .right{
   height: 100vh;
   padding: 0;
 }
@@ -330,6 +345,7 @@ ul.intro-left-border li {
   padding-left: 10px;
   z-index:96;
 }
+
 
 .intro-column {
   margin: 50px 30px 0 30px;
@@ -350,16 +366,40 @@ ul.intro-left-border li {
 }
 @media only screen and (min-width: 720px){
   .intro-column {
-  margin: 200px 130px 0 130px;
+    margin: 200px 130px 0 130px;
+    letter-spacing: 1px;
+  }
+  .intro-content {
+    margin-top: 100px;
+  }
+  .intro-img {
+    margin-top: 100px;
+    margin-bottom: 80px;
+    width: 400px;
+  }
+}
+/*-----------level2---------*/
+.level2-logo {
+  margin: 5px 0 10px 50px;
+  height: 40px;
+  padding-left: 10px;
+  z-index:96;
+}
+.founder-img{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.founder-title {
+  font-size: 18px;
+  margin: 50px 0 50px 100px;
+  font-weight: bold;
+}
+.founder.column{
+  margin: 50px 30px 0 30px;
   letter-spacing: 1px;
 }
-.intro-content {
-  margin-top: 100px;
+@media only screen and (min-width: 720px){
+  .founder-column {
+    margin: 50px 0 0 130px;
+  }
 }
-.intro-img {
-  margin-top: 100px;
-  margin-bottom: 80px;
-  width: 400px;
-}
-}
-
