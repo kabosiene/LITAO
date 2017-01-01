@@ -16,6 +16,10 @@ a:active,a:hover,a:focus{
 ul {
   list-style: none;
 }
+h6 {
+  text-align: center;
+  font-size: 12px;
+}
 .padding-0 {
   padding: 0;
 }
@@ -81,6 +85,10 @@ ul {
 @media only screen and (min-width: 1025px){
   .header .nav-open{top:20px;left:15px}
 }
+
+.page-heading{
+  padding-top: 2em;
+}
 /*languages---------------------------------------------*/
 .header-lang{
   position:fixed;
@@ -98,7 +106,7 @@ ul {
   }
 }
 @media (min-width:62em){
-  .header-lang{top:2em;
+  .header-lang{top:1em;
   }
 }
 .header-lang-item{
@@ -402,4 +410,17 @@ text-align: center;
   .founder-column {
     margin: 50px 0 0 130px;
   }
+}
+/*--------contact-------*/
+.btn.sharp {
+  border-radius:0;
+  background:#e0ede3;
+  border: 0 none;
+}
+.contact-form{
+  margin-top: 200px;
+}
+address {
+  padding-left: 50px;
+  padding-right: 50px;
 }
