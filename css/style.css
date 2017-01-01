@@ -406,12 +406,20 @@ text-align: center;
   margin: 50px 30px 0 30px;
   letter-spacing: 1px;
 }
+.level-2 .col-md-1 {
+    visibility: hidden;
+    height: 0;
+  }
 @media only screen and (min-width: 720px){
   .founder-column {
     margin: 50px 0 0 130px;
   }
+  .level-2 .col-md-1 {
+    visibility: visible;
+    height: 100vh;
+  }
 }
-/*--------contact-------*/
+/*--------contact&raq-------*/
 .btn.sharp {
   border-radius:0;
   background:#e0ede3;
@@ -421,6 +429,24 @@ text-align: center;
   margin-top: 200px;
 }
 address {
-  padding-left: 50px;
+  padding-left: 80px;
   padding-right: 50px;
+}
+.raq-content {
+  padding-top: 80px;
+  padding-left: 80px;
+  padding-right: 60px;
+}
+.raq-content h4 {
+  padding-bottom: 40px;
+}
+.raq-content h5 {
+  padding-bottom: 10px;
+  padding-top: 30px;
+}
+.raq-content p {
+font-size: 14px;
+}
+.leading-text {
+  padding-bottom: 80px;
 }
