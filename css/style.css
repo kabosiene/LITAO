@@ -121,7 +121,6 @@ h6 {
   height:2em;
   line-height:2em;
   letter-spacing:.3em;
-  font-size: 1.1em;
   text-transform:uppercase;
   border:1px solid #5a5b5b;
   margin-right: -1px;
@@ -275,7 +274,7 @@ text-align: center;
     -webkit-transform-style:preserve-3d;
     text-align:center;
     font-size:14px;
-    line-height:60px;
+    /*line-height:60px;*/
     text-transform:uppercase;
     color:#5a5b5b;
     letter-spacing:0.4rem;
@@ -296,8 +295,11 @@ text-align: center;
   }
 }
 @media only screen and (min-width: 540px){
-  .border-left,.border-right{
+  .border-left{
     width:80px;
+  }
+  .border-right{
+    width:100px;
   }
 }
 /*-----/borders---*/
@@ -308,10 +310,14 @@ text-align: center;
   overflow: hidden;
 }
 .container {
-  height: 600px;
-  margin-top: 70px;
-  margin-bottom: 70px;
+  height: 550px;
 }
+@media only screen and (min-width: 540px){
+  .container {
+  margin-top: 60px;
+}
+}
+
 .container.level1-green,.container.level1-white {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -325,13 +331,18 @@ text-align: center;
 }
 
 .home-intro {
-  margin-top: 222px;
+  margin-top: 200px;
   letter-spacing: 0.1em;
 }
 
 .home-slash {
-  margin-top: 30px;
-  height: 35px;
+  margin-top: 25px;
+  height: 30px;
+  padding-left: 20px;
+}
+.home-text {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .level1-white img {
@@ -448,5 +459,5 @@ address {
 font-size: 14px;
 }
 .leading-text {
-  padding-bottom: 80px;
+  padding-bottom: 30px;
 }
