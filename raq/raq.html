@@ -16,12 +16,24 @@
 
 </head>
 <body>
-  <header class="header" id="header">
-    <a href="#" class="nav-open" id="buttonNavOpen">
+ <header class="header" id="header">
+    <a href="#" class="nav-open page-scroll " id="buttonNavOpen" onclick="openNav()">
       <span></span>
       <span></span>
       <span></span>
     </a>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="sidenav-links">
+      <a class="button page-scroll" href="../home.html" ><span>HOME</span></a>
+        <a class="button page-scroll" href="../home.html#about_us" ><span>ABOUT US</span></a>
+        <a class="button page-scroll" href="../home.html#why_us" ><span>WHY US</span></a>
+        <a class="button page-scroll" href="../home.html#our_work" ><span>OUR WORK</span></a>
+        <a class="button page-scroll" href="../home.html#about_china" ><span>ABOUT CHINA</span></a>
+        <a class="button page-scroll" href="raq.html" ><span>RAQ</span></a>
+        <a class="button page-scroll" href="../contact/contact.html" ><span>CONTACT US</span></a>
+      </div>
+    </div>
 
     <div class="header-lang nav">
       <div class="row">
@@ -90,6 +102,15 @@
    $(".nav").find(".active").removeClass("active");
    $(this).addClass("active");
  });
+   /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "50%";
+  }
+
+  /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
 </script>
 </body>
 </html>
