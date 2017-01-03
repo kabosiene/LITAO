@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>LITAO</title>
+
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="../icons&logo/logo.png">
+
+</head>
+<body>
+  <header class="header" id="header">
+    <a href="#" class="nav-open" id="buttonNavOpen">
+      <span></span>
+      <span></span>
+      <span></span>
+    </a>
+
+    <div class="header-lang nav">
+      <div class="row">
+        <div class="header-lang-item nav-item col-xs-6">
+          <a href="#" title="LITAO" class="header-lang-link nav-link " data-page="">
+            <span class="header-lang-text">CH</span>
+          </a>
+        </div>
+        <div class="header-lang-item  nav-item col-xs-6">
+          <a href="#" title="LITAO" class="header-lang-link nav-link active" data-page="">
+            <span class="header-lang-text">EN</span>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="header-lang-item  nav-item offset-xs-6">
+         <a href="#" title="LITAO" class="header-lang-link nav-link" data-page="">
+          <span class="header-lang-text">LT</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!--main-->
+<div class="container-fluid level-2">
+  <div class="row">
+   <div class="col-md-1 right color-green">
+   </div>
+    <div class="col-md-9 left color-grey">
+      <div class="level2-logo">
+        <img src="../icons&logo/logo-black-transparent.png" class="img-fluid intro-logo" alt="LITAO logo">
+      </div>
+      <div class="founder-column">
+        <p class="founder-title text-nowrap">ENDORSEMENTS</p>
+     </div>
+   </div>
+     <div class="col-md-2 right color-grey">
+<!-- borders -->
+
+      <div class="border" id="border">
+        <div class="border-vertical-r">
+          <ul class=" vertical-right-border">
+          <li class="intro-left-v ">
+              <a class="border_link " href="../home.html#why_us"><span class="border-text">INTRO</span></a>
+            </li>
+               <li class="intro-left-v ">
+              <a class="border_link" href="endorsements.html"><span class="border-text">ENDORSEMENTS</span></a>
+            </li>
+            <li class="intro-left-v ">
+              <a class="border_link" href="publications.html"><span class="border-text">PUBLICATIONS</span></a>
+            </li>
+            <li class="intro-left-v ">
+              <a class="border_link " href="people.html"><span class="border-text">PEOPLE</span></a>
+            </li>
+            <li class="intro-left-v ">
+              <a class="border_link active" href="clients.html"><span class="border-text">CLIENTS</span></a>
+            </li>
+            <li class="intro-left-v ">
+              <a class="border_link " href="people.html"><span class="border-text">PEOPLE</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+<!--/ borders -->
+   </div>
+ </div>
+</div>
+
+<!-- jQuery -->
+<script src="../js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="../js/bootstrap.min.js"></script>
+<script type="text/javascript">
+  $(".nav a").on("click", function(){
+   $(".nav").find(".active").removeClass("active");
+   $(this).addClass("active");
+ });
+
+  $(".border-intro a").on("click", function(){
+   $(".border-intro").find(".active").removeClass("active");
+   $(this).addClass("active");
+ });
+  $(".border-vertical a").on("click", function(){
+   $(".border-vertical").find(".active").removeClass("active");
+   $(this).addClass("active");
+ });
+</script>
+</body>
+</html>
+
