@@ -7,15 +7,13 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <title>LITAO</title>
-
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/scrolling-nav.css">
+  <link href="css/jquery.multiscroll.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
-    <script src="js/modernizr.js"></script> <!-- Modernizr -->
   <link rel="icon" type="image/png" href="icons&logo/logo.png">
 
 </head>
-<body data-hijacking="on" data-animation="fixed">
+<body>
 
   <header class="header" id="header">
     <a href="#" class="nav-open page-scroll " id="buttonNavOpen" onclick="openNav()">
@@ -59,213 +57,206 @@
   </div>
 </header>
 
-<div class="container-fluid intro">
+<div class="container-fluid intro" id="multiscroll">
+  <div class="row">
 
- <section id="index" class="index-section cd-section visible">
-  <div class="row ">
-    <div class="col-md-1 hidden-xs-down">
-      <div class="border" id="border">
-        <div class="border-left vertical" style="transform: translateX(0px);">
-          <a class="border__link link left" href="raq/raq.html">RAQ</a>
+    <div class="ms-left col-md-6">
+
+      <div class="ms-section" id="home">
+        <div class="col-md-1 hidden-xs-down">
+          <div class="border" id="border">
+            <div class="border-left vertical" style="transform: translateX(0px);">
+              <a class="border__link link left" href="raq/raq.html">RAQ</a>
+            </div>
+          </div>
+        </div>
+          <div class=" level1-green color-green content-left">
+            <img src="icons&logo/logo_transparent_home.png" class="img-fluid home-logo" alt="LITAO logo" width="60%">
+            <div class="home-intro row">
+              <p class=" col-xs-8 offset-xs-2 text-centered home-text">
+                Helping foreign companies China-fy and Chinese companies globalize
+              </p>
+              <img class="home-slash img-fluid offset-xs-5" src="icons&logo/slash.png" alt="Slash image">
+            </div>
+          </div>
+      </div>
+
+      <div class="ms-section" id="about_us">
+        <div class="col-md-1 hidden-xs-down">
+          <div class="border" id="border">
+            <div class="border-vertical">
+              <ul class=" vertical-left-border">
+                <li class="intro-left-v ">
+                  <a class="border_link active" href="home.html#about_us"><span class="border-text ">INTRO</span></a>
+                </li>
+                <li class="intro-left-v ">
+                  <a class="border_link" href="about_us/level2.html#founder"><span class="border-text">FOUNDER</span></a>
+                </li>
+                <li class="intro-left-v ">
+                  <a class="border_link " href="about_us/level2.html#values"><span class="border-text">VALUES</span></a>
+                </li>
+                <li class="intro-left-v ">
+                  <a class="border_link " href="about_us/level2.html#mission"><span class="border-text">MISSION / VISION</span></a>
+                </li>
+                <li class="intro-left-v">
+                  <a class="border_link " href="about_us/level2.html#team"><span class="border-text">TEAM</span></a>
+                </li>
+                <li class="intro-left-v">
+                  <a class="border_link " href="about_us/level2.html#download"><span class="border-text">DOWNLOAD</span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="left color-grey">
+          <div class="content-padding">
+            <div class="logo">
+              <img src="icons&logo/logo-black-transparent.png" class="img-fluid intro-logo" alt="LITAO logo">
+            </div>
+            <div class="intro-column">
+              <p class="intro-title color-red text-nowrap">ABOUT US</p>
+              <div class="intro-content text-justify">
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
+                  Praesent vel mauris id sem ultrices finibus.
+                  Donec tempor nulla vel odio tincidunt ultrices.
+                  Phasellus consequat congue ullamcorper.
+                  Praesent vel mauris id sem ultrices finibus.
+                  Donec tempor nulla vel odio tincidunt ultrices.
+                  Phasellus consequat congue ullamcorper.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ms-section" id="why_us">
+        <div class="col-md-1  hidden-xs-down">
+          <div class="border" id="border">
+            <div class="border-vertical">
+              <ul class=" vertical-left-border">
+                <li class="intro-left-v ">
+                  <a class="border_link active" href="why_us.html"><span class="border-text">INTRO</span></a>
+                </li>
+                <li class="intro-left-v ">
+                  <a class="border_link " href="why_us/endorsements.html"><span class="border-text">ENDORSEMENTS</span></a>
+                </li>
+                <li class="intro-left-v ">
+                  <a class="border_link " href="why_us/publications.html"><span class="border-text">PUBLICATIONS</span></a>
+                </li>
+                <li class="intro-left-v ">
+                  <a class="border_link " href="why_us/people.html"><span class="border-text">PEOPLE</span></a>
+                </li>
+                <li class="intro-left-v ">
+                  <a class="border_link " href="why_us/clients.html"><span class="border-text">CLIENTS</span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="left color-green">
+          <div class="content-padding">
+            <div class="logo">
+              <img src="icons&logo/logo-black-transparent.png" class="img-fluid intro-logo" alt="LITAO logo">
+            </div>
+            <img class="intro-img img-fluid mx-auto d-block " src="home-images/snowman.jpg" alt="Christmas Card">
+          </div>
+        </div>
+      </div>
+      <div class="ms-section" id="our_work">
+        <div class=" col-md-1 hidden-xs-down">
+          <div class="border" id="border">
+            <div class="border-vertical">
+              <ul class=" vertical-left-border">
+                <li class="intro-left-v ">
+                  <a class="border_link active" href="../our_work.html"><span class="border-text">INTRO</span></a>
+                </li>
+                <li class="intro-left-v ">
+                  <a class="border_link " href="our_work/case_studies.html"><span class="border-text">CASE STUDIES</span></a>
+                </li>
+                <li class="intro-left-v ">
+                  <a class="border_link " href="our_work/process.html"><span class="border-text">PROCESS</span></a>
+                </li>
+                <li class="intro-left-v ">
+                  <a class="border_link " href="our_work/services.html"><span class="border-text">SERVICES</span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="left color-grey">
+          <div class="content-padding">
+            <div class="logo">
+              <img src="icons&logo/logo-black-transparent.png" class="img-fluid intro-logo" alt="LITAO logo">
+            </div>
+            <div class="intro-column">
+              <p class="intro-title color-red text-nowrap">OUR WORK</p>
+              <div class="intro-content text-justify">
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
+                  Praesent vel mauris id sem ultrices finibus.
+                  Donec tempor nulla vel odio tincidunt ultrices.
+                  Phasellus consequat congue ullamcorper.
+                  Praesent vel mauris id sem ultrices finibus.
+                  Donec tempor nulla vel odio tincidunt ultrices.
+                  Phasellus consequat congue ullamcorper.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="container-i col-md-10 col-xs-12">
-      <div class="col-md-6 level1-green color-green content-left">
-        <img src="icons&logo/logo_transparent_home.png" class="img-fluid home-logo" alt="LITAO logo" width="60%">
-        <div class="home-intro row">
-          <p class=" col-xs-8 offset-xs-2 text-centered home-text">
-            Helping foreign companies China-fy and Chinese companies globalize
-          </p>
-          <img class="home-slash img-fluid offset-xs-5" src="icons&logo/slash.png" alt="Slash image">
-        </div>
-      </div>
-      <div class="col-md-6 level1-white  color-grey content-right padding-0">
+
+    <div class="ms-right col-md-6">
+      <div class="ms-section" id="home-r">
+      <div class="col-md-11 level1-white  color-grey content-right padding-0">
         <img class="img-fluid" src="home-images/snowman.jpg" alt="Christmas Card">
       </div>
-    </div>
-    <div class="col-md-1 hidden-xs-down">
-      <div class="border-right vertical"">
-        <a class="border__link link right" href="contact/contact.html">CONTACT US</a>
-      </div>
-    </div>
-  </div>
-
-</section>
-
-<section class="about_us-section cd-section" id="about_us">
-  <div class="row">
-    <div class="col-md-1 hidden-xs-down">
-
-      <div class="border" id="border">
-        <div class="border-vertical">
-          <ul class=" vertical-left-border">
-            <li class="intro-left-v ">
-              <a class="border_link active" href="home.html#about_us"><span class="border-text ">INTRO</span></a>
-            </li>
-            <li class="intro-left-v ">
-              <a class="border_link" href="about_us/level2.html#founder"><span class="border-text">FOUNDER</span></a>
-            </li>
-            <li class="intro-left-v ">
-              <a class="border_link " href="about_us/level2.html#values"><span class="border-text">VALUES</span></a>
-            </li>
-            <li class="intro-left-v ">
-              <a class="border_link " href="about_us/level2.html#mission"><span class="border-text">MISSION / VISION</span></a>
-            </li>
-            <li class="intro-left-v">
-              <a class="border_link " href="about_us/level2.html#team"><span class="border-text">TEAM</span></a>
-            </li>
-            <li class="intro-left-v">
-              <a class="border_link " href="about_us/level2.html#download"><span class="border-text">DOWNLOAD</span></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-5 left color-grey">
-      <div class="content-padding">
-        <div class="logo">
-          <img src="icons&logo/logo-black-transparent.png" class="img-fluid intro-logo" alt="LITAO logo">
-        </div>
-        <div class="intro-column">
-          <p class="intro-title color-red text-nowrap">ABOUT US</p>
-          <div class="intro-content text-justify">
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
-              Praesent vel mauris id sem ultrices finibus.
-              Donec tempor nulla vel odio tincidunt ultrices.
-              Phasellus consequat congue ullamcorper.
-              Praesent vel mauris id sem ultrices finibus.
-              Donec tempor nulla vel odio tincidunt ultrices.
-              Phasellus consequat congue ullamcorper.
-            </p>
+        <div class="offset-md-1 hidden-xs-down">
+          <div class="border-right vertical"">
+            <a class="border__link link right" href="contact/contact.html">CONTACT US</a>
           </div>
         </div>
       </div>
-    </div>
-    <div class="col-md-6 right color-green">
-      <img class="intro-img img-fluid mx-auto d-block " src="home-images/snowman.jpg" alt="Christmas Card">
-    </div>
-  </div>
-</section>
-
-<section id="why_us" class="why_us-section cd-section">
-
-  <div class="row">
-    <div class="col-md-1 hidden-xs-down">
-      <!-- borders -->
-      <div class="border" id="border">
-        <div class="border-vertical">
-          <ul class=" vertical-left-border">
-            <li class="intro-left-v ">
-              <a class="border_link active" href="why_us.html"><span class="border-text">INTRO</span></a>
-            </li>
-            <li class="intro-left-v ">
-              <a class="border_link " href="why_us/endorsements.html"><span class="border-text">ENDORSEMENTS</span></a>
-            </li>
-            <li class="intro-left-v ">
-              <a class="border_link " href="why_us/publications.html"><span class="border-text">PUBLICATIONS</span></a>
-            </li>
-            <li class="intro-left-v ">
-              <a class="border_link " href="why_us/people.html"><span class="border-text">PEOPLE</span></a>
-            </li>
-            <li class="intro-left-v ">
-              <a class="border_link " href="why_us/clients.html"><span class="border-text">CLIENTS</span></a>
-            </li>
-          </ul>
+      <div class="ms-section " id ="about_us-r">
+        <div class="right color-green">
+          <img class="intro-img img-fluid mx-auto d-block " src="home-images/snowman.jpg" alt="Christmas Card">
         </div>
       </div>
-      <!--/ borders -->
-    </div>
-    <div class="col-md-5 left color-green">
-      <div class="content-padding">
-        <div class="logo">
-          <img src="icons&logo/logo-black-transparent.png" class="img-fluid intro-logo" alt="LITAO logo">
-        </div>
-        <img class="intro-img img-fluid mx-auto d-block " src="home-images/snowman.jpg" alt="Christmas Card">
-      </div>
-    </div>
-    <div class="col-md-6 right color-grey">
-      <div class="intro-column">
-        <p class="intro-title color-red text-nowrap">WHY US</p>
-        <div class="intro-content text-justify">
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
-            Praesent vel mauris id sem ultrices finibus.
-            Donec tempor nulla vel odio tincidunt ultrices.
-            Phasellus consequat congue ullamcorper.
-            Praesent vel mauris id sem ultrices finibus.
-            Donec tempor nulla vel odio tincidunt ultrices.
-            Phasellus consequat congue ullamcorper.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section id="our_work" class="our_work-section cd-section">
-
-  <div class="row">
-    <div class="col-md-1 hidden-xs-down">
-
-      <div class="border" id="border">
-        <div class="border-vertical">
-          <ul class=" vertical-left-border">
-            <li class="intro-left-v ">
-              <a class="border_link active" href="../our_work.html"><span class="border-text">INTRO</span></a>
-            </li>
-            <li class="intro-left-v ">
-              <a class="border_link " href="our_work/case_studies.html"><span class="border-text">CASE STUDIES</span></a>
-            </li>
-            <li class="intro-left-v ">
-              <a class="border_link " href="our_work/process.html"><span class="border-text">PROCESS</span></a>
-            </li>
-            <li class="intro-left-v ">
-              <a class="border_link " href="our_work/services.html"><span class="border-text">SERVICES</span></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-5 left color-grey">
-      <div class="content-padding">
-        <div class="logo">
-          <img src="icons&logo/logo-black-transparent.png" class="img-fluid intro-logo" alt="LITAO logo">
-        </div>
-        <div class="intro-column">
-          <p class="intro-title color-red text-nowrap">OUR WORK</p>
-          <div class="intro-content text-justify">
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
-              Praesent vel mauris id sem ultrices finibus.
-              Donec tempor nulla vel odio tincidunt ultrices.
-              Phasellus consequat congue ullamcorper.
-              Praesent vel mauris id sem ultrices finibus.
-              Donec tempor nulla vel odio tincidunt ultrices.
-              Phasellus consequat congue ullamcorper.
-            </p>
+      <div class="ms-section" id="why_us-r">
+        <div class="right color-grey">
+          <div class="intro-column">
+            <p class="intro-title color-red text-nowrap">WHY US</p>
+            <div class="intro-content text-justify">
+              <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
+                Praesent vel mauris id sem ultrices finibus.
+                Donec tempor nulla vel odio tincidunt ultrices.
+                Phasellus consequat congue ullamcorper.
+                Praesent vel mauris id sem ultrices finibus.
+                Donec tempor nulla vel odio tincidunt ultrices.
+                Phasellus consequat congue ullamcorper.
+              </p>
+            </div>
           </div>
         </div>
       </div>
+      <div class="ms-section" id="our_work-r">
+        <div class="right color-green">
+          <img class="intro-img img-fluid mx-auto d-block " src="home-images/snowman.jpg" alt="Christmas Card">
+        </div>
+      </div>
     </div>
-    <div class="col-md-6 right color-green">
-      <img class="intro-img img-fluid mx-auto d-block " src="home-images/snowman.jpg" alt="Christmas Card">
-    </div>
+
   </div>
-</section>
 </div>
 
-
-<script src="js/jquery.js"></script>
+<script src="js/jquery-3.1.1.min.js"></script>
 <script src="js/jquery.easing.min.js"></script>
-<script src="js/scrolling-nav.js"></script>
+<script src="js/jquery.multiscroll.js"></script>
 
 <script src="js/bootstrap.min.js"></script>
-
-<script src="js/velocity.min.js"></script>
-<script src="js/velocity.ui.min.js"></script>
-<script src="js/main.js"></script> <!-- Resource jQuery -->
-
 
 <script type="text/javascript">
   $(".nav a").on("click", function(){
@@ -289,6 +280,10 @@
    $(".border-vertical").find(".active").removeClass("active");
    $(this).addClass("active");
  });
+
+  $(document).ready(function() {
+    $('#multiscroll').multiscroll();
+  });
 </script>
 </body>
 </html>
