@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,11 +9,13 @@
   <title>LITAO</title>
 
   <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/scrolling-nav.css">
   <link href="css/style.css" rel="stylesheet">
+    <script src="js/modernizr.js"></script> <!-- Modernizr -->
   <link rel="icon" type="image/png" href="icons&logo/logo.png">
 
 </head>
-<body>
+<body data-hijacking="on" data-animation="fixed">
 
   <header class="header" id="header">
     <a href="#" class="nav-open page-scroll " id="buttonNavOpen" onclick="openNav()">
@@ -26,7 +26,7 @@
     <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <div class="sidenav-links">
-      <a class="button page-scroll" href="#index" ><span>HOME</span></a>
+        <a class="button page-scroll" href="#index" ><span>HOME</span></a>
         <a class="button page-scroll" href="#about_us" ><span>ABOUT US</span></a>
         <a class="button page-scroll" href="#why_us" ><span>WHY US</span></a>
         <a class="button page-scroll" href="#our_work" ><span>OUR WORK</span></a>
@@ -61,7 +61,7 @@
 
 <div class="container-fluid intro">
 
- <section id="index" class="index-section">
+ <section id="index" class="index-section cd-section visible">
   <div class="row ">
     <div class="col-md-1 hidden-xs-down">
       <div class="border" id="border">
@@ -93,7 +93,7 @@
 
 </section>
 
-<section class="about_us-section" id="about_us">
+<section class="about_us-section cd-section" id="about_us">
   <div class="row">
     <div class="col-md-1 hidden-xs-down">
 
@@ -101,22 +101,22 @@
         <div class="border-vertical">
           <ul class=" vertical-left-border">
             <li class="intro-left-v ">
-              <a class="border_link active" href="../about_us.html"><span class="border-text ">INTRO</span></a>
+              <a class="border_link active" href="home.html#about_us"><span class="border-text ">INTRO</span></a>
             </li>
             <li class="intro-left-v ">
-              <a class="border_link" href="founder.html"><span class="border-text">FOUNDER</span></a>
+              <a class="border_link" href="about_us/level2.html#founder"><span class="border-text">FOUNDER</span></a>
             </li>
             <li class="intro-left-v ">
-              <a class="border_link " href="values.html"><span class="border-text">VALUES</span></a>
+              <a class="border_link " href="about_us/level2.html#values"><span class="border-text">VALUES</span></a>
             </li>
             <li class="intro-left-v ">
-              <a class="border_link " href="mission.html"><span class="border-text">MISSION / VISION</span></a>
+              <a class="border_link " href="about_us/level2.html#mission"><span class="border-text">MISSION / VISION</span></a>
             </li>
             <li class="intro-left-v">
-              <a class="border_link " href="team.html"><span class="border-text">TEAM</span></a>
+              <a class="border_link " href="about_us/level2.html#team"><span class="border-text">TEAM</span></a>
             </li>
             <li class="intro-left-v">
-              <a class="border_link " href="download.html"><span class="border-text">DOWNLOAD</span></a>
+              <a class="border_link " href="about_us/level2.html#download"><span class="border-text">DOWNLOAD</span></a>
             </li>
           </ul>
         </div>
@@ -149,7 +149,7 @@
   </div>
 </section>
 
-<section id="why_us" class="why_us-section">
+<section id="why_us" class="why_us-section cd-section">
 
   <div class="row">
     <div class="col-md-1 hidden-xs-down">
@@ -203,7 +203,7 @@
     </div>
   </div>
 </section>
-<section id="our_work" class="our_work-section">
+<section id="our_work" class="our_work-section cd-section">
 
   <div class="row">
     <div class="col-md-1 hidden-xs-down">
@@ -256,11 +256,17 @@
 </div>
 
 
-<!-- jQuery -->
 <script src="js/jquery.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/scrolling-nav.js"></script>
 
-<!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
+
+<script src="js/velocity.min.js"></script>
+<script src="js/velocity.ui.min.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+
+
 <script type="text/javascript">
   $(".nav a").on("click", function(){
    $(".nav").find(".active").removeClass("active");
@@ -269,18 +275,19 @@
   /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
   function openNav() {
     document.getElementById("mySidenav").style.width = "50%";
-  }
+  };
 
   /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
   function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
-  }
+  };
   $(".border-intro a").on("click", function(){
     $(".border-intro").find(".active").removeClass("active");
     $(this).addClass("active");
   });
-  $(window).scroll(function() {
-   closeNav();
+  $(".border-vertical a").on("click", function(){
+   $(".border-vertical").find(".active").removeClass("active");
+   $(this).addClass("active");
  });
 </script>
 </body>
