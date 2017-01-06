@@ -10,18 +10,31 @@
   <meta name="author" content="">
   <title>LITAO</title>
 
-  <link href="../css/bootstrap.min.css" rel="stylesheet">
-  <link href="../css/style.css" rel="stylesheet">
-  <link rel="icon" type="image/png" href="../icons&logo/logo.png">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="icons&logo/logo.png">
 
 </head>
 <body>
-  <header class="header" id="header">
-    <a href="#" class="nav-open" id="buttonNavOpen">
+<header class="header" id="header">
+    <button class="nav-open" id="buttonNavOpen" onclick="openNav()">
       <span></span>
       <span></span>
       <span></span>
-    </a>
+    </button>
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="sidenav-links">
+        <a class="" href="index.html#home" ><span>HOME</span></a>
+        <a class="" href="index.html#about_us" ><span>ABOUT US</span></a>
+        <a class="" href="index.html#why_us" ><span>WHY US</span></a>
+        <a class="" href="index.html#our_work" ><span>OUR WORK</span></a>
+        <a class="" href="index.html#about_china" ><span>ABOUT CHINA</span></a>
+        <a class="active" href="raq.html" ><span>RAQ</span></a>
+        <a class="" href="contact.html" ><span>CONTACT US</span></a>
+      </div>
+    </div>
 
     <div class="header-lang nav">
       <div class="row">
@@ -39,15 +52,12 @@
       <div class="row">
         <div class="header-lang-item  nav-item offset-xs-6">
          <a href="#" title="LITAO" class="header-lang-link nav-link" data-page="">
-          <span class="header-lang-text">LT</span>
-        </a>
+          <span class="header-lang-text">LT</span></a>
+        </div>
       </div>
     </div>
-  </div>
-</header>
+  </header>
 
-
-<!--main-->
 <div class="container-fluid level-2">
   <div class="row">
      <div class="col-md-1 right color-green">
@@ -68,16 +78,41 @@
  </div>
 </div>
 
-<!-- jQuery -->
-<script src="../js/jquery.js"></script>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.multiscroll.js"></script>
 
-<!-- Bootstrap Core JavaScript -->
-<script src="../js/bootstrap.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
 <script type="text/javascript">
   $(".nav a").on("click", function(){
    $(".nav").find(".active").removeClass("active");
    $(this).addClass("active");
  });
+  /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "50%";
+  };
+
+  /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  };
+  $(".border-intro a").on("click", function(){
+    $(".border-intro").find(".active").removeClass("active");
+    $(this).addClass("active");
+  });
+  $(".border-vertical a").on("click", function(){
+   $(".border-vertical").find(".active").removeClass("active");
+   $(this).addClass("active");
+ });
+
+  $(document).ready(function() {
+    $('#multiscroll').multiscroll({
+      anchors: ['home', 'about_us', 'why_us', 'our_work', 'about_china'],
+      menu: '#myMenu'
+     });
+  });
 </script>
 </body>
 </html>

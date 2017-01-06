@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>LITAO</title>
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="icons&logo/logo.png">
+
+</head>
+<body>
+<header class="header" id="header">
+    <button class="nav-open" id="buttonNavOpen" onclick="openNav()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="sidenav-links">
+        <a class="" href="index.html#home" ><span>HOME</span></a>
+        <a class="" href="index.html#about_us" ><span>ABOUT US</span></a>
+        <a class="" href="index.html#why_us" ><span>WHY US</span></a>
+        <a class="" href="index.html#our_work" ><span>OUR WORK</span></a>
+        <a class="" href="index.html#about_china" ><span>ABOUT CHINA</span></a>
+        <a class="" href="raq.html" ><span>RAQ</span></a>
+        <a class="active" href="contact.html" ><span>CONTACT US</span></a>
+      </div>
+    </div>
+
+    <div class="header-lang nav">
+      <div class="row">
+        <div class="header-lang-item nav-item col-xs-6">
+          <a href="#" title="LITAO" class="header-lang-link nav-link " data-page="">
+            <span class="header-lang-text">CH</span>
+          </a>
+        </div>
+        <div class="header-lang-item  nav-item col-xs-6">
+          <a href="#" title="LITAO" class="header-lang-link nav-link active" data-page="">
+            <span class="header-lang-text">EN</span>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="header-lang-item  nav-item offset-xs-6">
+         <a href="#" title="LITAO" class="header-lang-link nav-link" data-page="">
+          <span class="header-lang-text">LT</span></a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+<div class="container-fluid level-2">
+  <div class="row">
+   <div class="col-md-1 right color-green">
+   </div>
+   <div class="col-md-10 left color-grey">
+    <div class="page-heading"><h6> CONTACT US</h6></div>
+    <div class="row contact-form">
+      <div class="col-md-4">
+        <address >
+          <strong>Contact Us</strong><br>
+          <p class="text-justify">Tel: 86-21-0520631<br>
+            Tel: 86-21-0520631<br>
+            <strong>www.litao.lt</strong></p>
+            <button type="button" class="btn btn-primary btn-block sharp">CONTACT</button>
+          </address>
+        </div>
+        <div class="col-md-4">
+          <address>
+            <strong>Our Offices</strong><br>
+            1355 Market St, Suite 900<br>
+            San Francisco, CA 94103<br>
+          </address>
+        </div>
+        <div class="col-md-4">
+          <address>
+            <strong>Get a Quote</strong><br>
+            <p class="text-justify"> For a quick qoute get in contact. Write us an Email.</p>
+            <button type="button" class="btn btn-primary btn-block sharp">EMAIL</button>
+          </address>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-1 right color-green">
+    </div>
+  </div>
+</div>
+
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.multiscroll.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+  $(".nav a").on("click", function(){
+   $(".nav").find(".active").removeClass("active");
+   $(this).addClass("active");
+ });
+  /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "50%";
+  };
+
+  /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  };
+  $(".border-intro a").on("click", function(){
+    $(".border-intro").find(".active").removeClass("active");
+    $(this).addClass("active");
+  });
+  $(".border-vertical a").on("click", function(){
+   $(".border-vertical").find(".active").removeClass("active");
+   $(this).addClass("active");
+ });
+
+  $(document).ready(function() {
+    $('#multiscroll').multiscroll({
+      anchors: ['home', 'about_us', 'why_us', 'our_work', 'about_china'],
+      menu: '#myMenu'
+     });
+  });
+</script>
+</body>
+</html>
+
