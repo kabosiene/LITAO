@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>LITAO</title>
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="icons&logo/logo.png">
+
+</head>
+<body>
+  <header class="header" id="header">
+    <a href="#" class="nav-open" id="buttonNavOpen">
+      <span></span>
+      <span></span>
+      <span></span>
+    </a>
+
+    <div class="header-lang nav">
+      <div class="row">
+        <div class="header-lang-item nav-item col-xs-6">
+          <a href="#" title="LITAO" class="header-lang-link nav-link " data-page="">
+            <span class="header-lang-text">CH</span>
+          </a>
+        </div>
+        <div class="header-lang-item  nav-item col-xs-6">
+          <a href="#" title="LITAO" class="header-lang-link nav-link active" data-page="">
+            <span class="header-lang-text">EN</span>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="header-lang-item  nav-item offset-xs-6">
+         <a href="#" title="LITAO" class="header-lang-link nav-link" data-page="">
+          <span class="header-lang-text">LT</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="container-fluid intro">
+  <div class="row">
+    <div class="col-md-1">
+
+
+        <div class="border-vertical">
+          <ul class=" vertical-left-border">
+            <li class="intro-left-v ">
+            <a class="border_link active" href="home.html#our_work"><span class="border-text">INTRO</span></a>
+            </li>
+            <li class="intro-left-v ">
+              <a class="border_link " href="our_work/case_studies.html"><span class="border-text">CASE STUDIES</span></a>
+            </li>
+            <li class="intro-left-v ">
+              <a class="border_link " href="our_work/process.html"><span class="border-text">PROCESS</span></a>
+            </li>
+            <li class="intro-left-v ">
+              <a class="border_link " href="our_work/services.html"><span class="border-text">SERVICES</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    <div class="col-md-5 left color-grey">
+      <div class="content-padding">
+        <div class="logo">
+          <img src="icons&logo/logo-black-transparent.png" class="img-fluid intro-logo" alt="LITAO logo">
+        </div>
+        <div class="intro-column">
+          <p class="intro-title color-red text-nowrap">OUR WORK</p>
+          <div class="intro-content text-justify">
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
+              Praesent vel mauris id sem ultrices finibus.
+              Donec tempor nulla vel odio tincidunt ultrices.
+              Phasellus consequat congue ullamcorper.
+              Praesent vel mauris id sem ultrices finibus.
+              Donec tempor nulla vel odio tincidunt ultrices.
+              Phasellus consequat congue ullamcorper.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 right color-green">
+      <img class="intro-img img-fluid mx-auto d-block " src="home-images/snowman.jpg" alt="Christmas Card">
+    </div>
+  </div>
+</div>
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+  $(".nav a").on("click", function(){
+   $(".nav").find(".active").removeClass("active");
+   $(this).addClass("active");
+ });
+
+  $(".border-intro a").on("click", function(){
+   $(".border-intro").find(".active").removeClass("active");
+   $(this).addClass("active");
+ });
+</script>
+</body>
+</html>
+

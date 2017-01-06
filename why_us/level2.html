@@ -10,8 +10,8 @@
   <meta name="author" content="">
   <title>LITAO</title>
 
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet">
   <link rel="icon" type="image/png" href="../icons&logo/logo.png">
 
 </head>
@@ -25,13 +25,13 @@
     <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <div class="sidenav-links">
-        <a class=" page-scroll" href="index.html#home" ><span>HOME</span></a>
-        <a class=" page-scroll" href="index.html#about_us" ><span>ABOUT US</span></a>
-        <a class=" page-scroll" href="index.html#why_us" ><span>WHY US</span></a>
-        <a class=" page-scroll active " href="index.html#our_work" ><span>OUR WORK</span></a>
-        <a class=" page-scroll " href="index.html#about_china" ><span>ABOUT CHINA</span></a>
-        <a class=" page-scroll" href="raq/raq.html" ><span>RAQ</span></a>
-        <a class=" page-scroll" href="contact/contact.html" ><span>CONTACT US</span></a>
+        <a class="button page-scroll" href="#index" ><span>HOME</span></a>
+        <a class="button page-scroll" href="#about_us" ><span>ABOUT US</span></a>
+        <a class="button page-scroll" href="#why_us" ><span>WHY US</span></a>
+        <a class="button page-scroll" href="#our_work" ><span>OUR WORK</span></a>
+        <a class="button page-scroll" href="#about_china" ><span>ABOUT CHINA</span></a>
+        <a class="button page-scroll" href="raq/raq.html" ><span>RAQ</span></a>
+        <a class="button page-scroll" href="contact/contact.html" ><span>CONTACT US</span></a>
       </div>
     </div>
 
@@ -63,25 +63,57 @@
           <div class="border-vertical">
             <ul class=" vertical-left-border">
               <li class="intro-left-v ">
-                <a class="border_link" href="index.html#our_work"><span class="border-text">INTRO</span></a>
+                <a class="border_link" href="../home.html#about_us"><span class="border-text">INTRO</span></a>
               </li>
               <li class="intro-left-v ">
-                <a class="border_link active page-scroll" href="#case_studies"><span class="border-text">CASE STUDIES</span></a>
+                <a class="border_link active page-scroll" href="#founder"><span class="border-text">FOUNDER</span></a>
               </li>
               <li class="intro-left-v ">
-                <a class="border_link page-scroll" href="#process"><span class="border-text">PROCESS</span></a>
+                <a class="border_link page-scroll" href="#values"><span class="border-text">VALUES</span></a>
               </li>
               <li class="intro-left-v ">
-                <a class="border_link page-scroll" href="#services"><span class="border-text">SERVICES</span></a>
+                <a class="border_link page-scroll" href="#mission"><span class="border-text">MISSION / VISION</span></a>
+              </li>
+              <li class="intro-left-v">
+                <a class="border_link page-scroll" href="#team"><span class="border-text">TEAM</span></a>
+              </li>
+              <li class="intro-left-v">
+                <a class="border_link page-scroll" href="#download"><span class="border-text">DOWNLOAD</span></a>
               </li>
             </ul>
           </div>
         </div>
       </div>
       <div class="col-md-10 left color-grey">
-      <section id="case_studies">
-          <div class="case_studies-column">
-            <p class="case_studies-title text-nowrap">CASE STUDIES</p>
+        <section id="founder">
+          <div class="founder-column">
+            <p class="founder-title text-nowrap">LINA B</p>
+            <figure class="figure">
+             <img class="figure-img founder-img img-fluid mx-auto d-block " src="../home-images/ex-founder.png" alt="Founder image">
+             <figcaption class="figure-caption text-xs-center">
+               asdf    / asdf    /     asdf   /   asdf  /   asdf
+             </figcaption>
+           </figure>
+         </div>
+       </section>
+
+       <section id="values">
+        <div class="values-column">
+          <p class="values-title text-nowrap">VALUES</p>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
+            Praesent vel mauris id sem ultrices finibus.
+            Donec tempor nulla vel odio tincidunt ultrices.
+            Phasellus consequat congue ullamcorper.
+            Praesent vel mauris id sem ultrices finibus.
+            Donec tempor nulla vel odio tincidunt ultrices.
+            Phasellus consequat congue ullamcorper.</p>
+          </div>
+        </section>
+
+        <section id="mission">
+          <div class="mission-column">
+            <p class="mission-title text-nowrap">MISSION</p>
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
               Praesent vel mauris id sem ultrices finibus.
@@ -93,9 +125,9 @@
             </div>
           </section>
 
-          <section id="process">
-            <div class="process-column">
-              <p class="process-title text-nowrap">PROCESS</p>
+          <section id="team">
+            <div class="team-column">
+              <p class="team-title text-nowrap">TEAM</p>
               <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
                 Praesent vel mauris id sem ultrices finibus.
@@ -107,9 +139,9 @@
               </div>
             </section>
 
-            <section id="services">
-              <div class="services-column">
-                <p class="services-title text-nowrap">READY FOR CHINA</p>
+            <section id="download">
+              <div class="download-column">
+                <p class="download-title text-nowrap">Download</p>
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
                   Praesent vel mauris id sem ultrices finibus.
@@ -128,10 +160,10 @@
         </div>
 
 
-        <script src="js/jquery-3.1.1.min.js"></script>
-        <script src="js/jquery.easing.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/scrolling-nav.js"></script>
+        <script src="../js/jquery-3.1.1.min.js"></script>
+        <script src="../js/jquery.easing.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/scrolling-nav.js"></script>
 
         <script type="text/javascript">
           $(".nav a").on("click", function(){

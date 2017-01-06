@@ -1,7 +1,7 @@
 body{
-  background-color: #f8f6f4;
+  background-color: #f6f3f0;
   margin: 0;
-  color: #5a5b5b;
+  color: #595a5a;
   height: 100%;
 }
 
@@ -68,12 +68,12 @@ body::before {
 
 a{
   text-decoration:none;
-  color:#5a5b5b;
+  color:#595a5a;
 }
 a:active,a:hover,a:focus{
   text-decoration: none;
   outline:0;
-  color:#5a5b5b;
+  color:#595a5a;
 }
 
 ul {
@@ -83,6 +83,10 @@ h6 {
   text-align: center;
   font-size: 12px;
 }
+section {
+  height: 100%;
+  height: 100vh;
+}
 /*::-webkit-scrollbar {
     display: none;
     }*/
@@ -91,16 +95,19 @@ h6 {
       padding: 0;
     }
     .color-green {
-      background-color: #e0ede3;
+      background-color: #dfeae1;
     }
     .color-white {
       background-color: #fff;
     }
     .color-grey {
-      background-color: #f8f6f4;
+      background-color: #f6f3f0;
     }
     .color-red {
-      color: #a66061;
+      color: #a55f60;
+    }
+    .color-red-underline {
+      color: #ba8e8c;
     }
     .container-i.col-xs-12{
       padding-left:0;
@@ -115,17 +122,24 @@ h6 {
       top:20px;
       left:15px;
       display:block;
-      width:30px;
+      width:40px;
       height:20px;
       z-index:1;
+      background-color: transparent;
+      border: none;
     }
+    .header .nav-open :focus {
+      text-decoration: none;
+      outline: 0;
+    }
+
     .header .nav-open span{
       position:relative;
       display:block;
       width:100%;
       height:5px;
       margin-bottom:4px;
-      border-top:2px solid #5a5b5b;
+      border-top:2px solid #595a5a;
       overflow:hidden;
     }
     .header .nav-open span::before{
@@ -135,7 +149,7 @@ h6 {
       left:0;
       width:100%;
       height:2px;
-      background-color: #5a5b5b;
+      background-color: #595a5a;
       -moz-transform:translateX(-100%);
       -ms-transform:translateX(-100%);
       -webkit-transform:translateX(-100%);
@@ -162,7 +176,7 @@ h6 {
       z-index: 999; /* Stay on top */
       top: 0;
       left: 0;
-      background-color: #efece8; /* grey*/
+      background-color: #f6f3f0; /* grey*/
       overflow-x: hidden; /* Disable horizontal scroll */
       padding-top: 60px; /* Place content 60px from the top */
       transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -173,7 +187,7 @@ h6 {
       padding: 20px 8px 20px 32px;
       text-decoration: none;
       font-size: 14px;
-      color: #d8d7d3;
+      color: #cccbc5; /*should be grey 20%*/
       display: block;
       transition: 0.2s
     }
@@ -181,6 +195,9 @@ h6 {
     /* When you mouse over the navigation links, change their color */
     .sidenav a:hover, .offcanvas a:focus{
       color: #a55f60 ;
+    }
+    .sidenav .active {
+       color: #a55f60 ;
     }
 
     /* Position and style the close button (top right corner) */
@@ -237,8 +254,8 @@ h6 {
     }
 
     .header-lang-link.active{
-      color:#5a5b5b;
-      border:0px solid #5a5b5b;
+      color:#595a5a;
+      border:0px solid #595a5a;
       font-weight: bold;
     }
     .header-lang-text{
@@ -276,7 +293,7 @@ h6 {
       position: relative;
       top: 100%;
       transform: rotate(-90deg);
-      border-bottom:1px solid #d7d8d3;
+      border-bottom:1px solid #595a5a;
       padding-right: 10vh;
     }
     .intro-left-border {
@@ -287,7 +304,7 @@ h6 {
       /*border-right:1px solid #d7d8d3;*/
     }
     .border-vertical-r {
-      border-left:1px solid #d7d8d3;
+      border-left:1px solid #595a5a;
     }
     .vertical-left-border {
       padding-top:150px;
@@ -303,10 +320,10 @@ h6 {
       /*text-align: center;*/
     }
     .border_link{
-      color:#d7d8d3;
+      color:#cccbc5; /*should be grey 20%*/
     }
     .border_link.active{
-      color: #5a5b5b;
+      color: #595a5a;
     }
     .border-left,.border-right{display:none;}
     @media only screen and (min-width: 540px){
@@ -359,7 +376,7 @@ h6 {
       font-size:14px;
       line-height:60px;
       text-transform:uppercase;
-      color:#5a5b5b;
+      color:#595a5a;
       letter-spacing:0.4rem;
     }
     .border__link.right{
@@ -386,7 +403,7 @@ h6 {
       font-size:14px;
       /*line-height:60px;*/
       text-transform:uppercase;
-      color:#5a5b5b;
+      color:#595a5a;
       letter-spacing:0.4rem;
     }
     .border__link:hover{
@@ -555,7 +572,7 @@ h6 {
   /*--------contact&raq-------*/
   .btn.sharp {
     border-radius:0;
-    background:#e0ede3;
+    background:#dfeae1;
     border: 0 none;
   }
   .contact-form{
