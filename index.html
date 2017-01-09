@@ -60,27 +60,27 @@
 <div class="container-fluid intro" id="multiscroll">
   <div class="row">
     <div class="ms-left col-md-6">
-      <div class="ms-section active" data-anchor="home">
+      <div class="ms-section active row margin-0" data-anchor="home">
         <div class="col-md-1 hidden-xs-down">
-          <div class="border" >
+          <!-- <div class="border" >
             <div class="border-left vertical" style="transform: translateX(0px);">
               <a class="border__link link left" href="raq.html">RAQ</a>
             </div>
-          </div>
+          </div> -->
         </div>
-        <div class=" level1-green color-green content-left">
-          <img src="icons&logo/logo_transparent_home.png" class="img-fluid home-logo" alt="LITAO logo" width="60%">
+        <div class="col-md-11 color-green content-left">
+          <img src="icons&logo/logo_transparent_home.png" class="img-fluid home-logo" alt="LITAO logo" width="50%">
           <div class="home-intro row">
             <p class=" col-xs-8 offset-xs-2 text-centered home-text">
-              Helping foreign companies China-fy and Chinese companies globalize
+              Helping foreign companies China-fy <br/> and Chinese companies globalize
             </p>
             <img class="home-slash img-fluid offset-xs-5" src="icons&logo/slash.png" alt="Slash image">
           </div>
         </div>
       </div>
-      <div class="ms-section" data-anchor="about_us">
+      <div class="ms-section row" data-anchor="about_us">
         <div class="col-md-1 hidden-xs-down">
-          <div class="border">
+          <!--<div class="border">
             <div class="border-vertical">
               <ul class=" vertical-left-border">
                 <li class="intro-left-v ">
@@ -103,12 +103,13 @@
                 </li>
               </ul>
             </div>
-          </div>
+          </div>-->
         </div>
-        <div class="left color-grey">
+        <div class=" col-md-11 left color-grey">
+          <div id="square"></div>
           <div class="content-padding">
             <div class="intro-column">
-              <p class="intro-title color-red text-nowrap">ABOUT US</p>
+              <img class="title-img img-fluid" src="icons&logo/about_us.png" alt="ABOUT US" width="60%">
               <div class="intro-content text-justify">
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
@@ -126,7 +127,7 @@
       </div>
       <div class="ms-section" data-anchor="why_us">
         <div class="col-md-1  hidden-xs-down">
-          <div class="border">
+          <!--<div class="border">
             <div class="border-vertical">
               <ul class=" vertical-left-border">
                 <li class="intro-left-v ">
@@ -146,17 +147,15 @@
                 </li>
               </ul>
             </div>
-          </div>
+          </div>-->
         </div>
         <div class="left color-green">
-          <div class="content-padding">
-            <img class="intro-img img-fluid mx-auto d-block " src="home-images/snowman.jpg" alt="Christmas Card">
-          </div>
+          <img class="intro-img img-fluid mx-auto d-block " src="home-images/snowman.jpg" alt="Christmas Card">
         </div>
       </div>
-      <div class="ms-section" data-anchor="our_work">
+      <div class="ms-section row color-green" data-anchor="our_work">
         <div class=" col-md-1 hidden-xs-down">
-          <div class="border">
+         <!-- <div class="border">
             <div class="border-vertical">
               <ul class=" vertical-left-border">
                 <li class="intro-left-v ">
@@ -173,12 +172,13 @@
                 </li>
               </ul>
             </div>
-          </div>
+          </div>-->
         </div>
-        <div class="left color-grey">
+        <div class="col-md-11 left color-grey padding-0">
+          <div id="triangle-topleft"></div>
           <div class="content-padding">
             <div class="intro-column">
-              <p class="intro-title color-red text-nowrap">OUR WORK</p>
+              <img class="title-img img-fluid" src="icons&logo/our_work.png" alt="OUR WORK" width="60%">
               <div class="intro-content text-justify">
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
@@ -196,7 +196,7 @@
       </div>
       <div class="ms-section" data-anchor="about_china">
         <div class="col-md-1  hidden-xs-down">
-          <div class="border">
+          <!--<div class="border">
             <div class="border-vertical">
               <ul class=" vertical-left-border">
                 <li class="intro-left-v ">
@@ -216,25 +216,21 @@
                 </li>
               </ul>
             </div>
-          </div>
+          </div>-->
         </div>
-        <div class="left color-green">
-          <div class="content-padding">
-            <img class="intro-img img-fluid mx-auto d-block " src="home-images/snowman.jpg" alt="Christmas Card">
-          </div>
+        <div class="left about-china-img">
         </div>
       </div>
     </div>
-
     <div class="ms-right col-md-6">
-      <div class="ms-section active" data-anchor="home">
-        <div class="col-md-11 level1-white  color-grey content-right padding-0">
-          <img class="img-fluid" src="home-images/snowman.jpg" alt="Christmas Card">
+      <div class="ms-section active row margin-0" data-anchor="home">
+        <div class="col-md-11 content-right padding-0 carousel">
+          <div class="photo-carousel"></div>
         </div>
-        <div class="offset-md-1 hidden-xs-down">
-          <div class="border-right vertical"">
+        <div class="col-md-1 hidden-xs-down">
+         <!-- <div class="border-right vertical"">
             <a class="border__link link right" href="contact.html">CONTACT US</a>
-          </div>
+          </div>-->
         </div>
       </div>
       <div class="ms-section " data-anchor="about_us">
@@ -242,49 +238,55 @@
           <img class="intro-img img-fluid mx-auto d-block " src="home-images/snowman.jpg" alt="Christmas Card">
         </div>
       </div>
-      <div class="ms-section" data-anchor="why_us">
-        <div class="right color-grey">
-          <div class="intro-column">
-            <p class="intro-title color-red text-nowrap">WHY US</p>
-            <div class="intro-content text-justify">
-              <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
-                Praesent vel mauris id sem ultrices finibus.
-                Donec tempor nulla vel odio tincidunt ultrices.
-                Phasellus consequat congue ullamcorper.
-                Praesent vel mauris id sem ultrices finibus.
-                Donec tempor nulla vel odio tincidunt ultrices.
-                Phasellus consequat congue ullamcorper.
-              </p>
+      <div class="ms-section row" data-anchor="why_us">
+        <div class="col-md-11 offset-md-1 right color-grey">
+          <div id="circle"></div>
+          <div class="content-padding">
+            <div class="intro-column">
+              <img class="title-img img-fluid" src="icons&logo/why_us.png" alt="WHY US" width="60%">
+              <div class="intro-content text-justify">
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
+                  Praesent vel mauris id sem ultrices finibus.
+                  Donec tempor nulla vel odio tincidunt ultrices.
+                  Phasellus consequat congue ullamcorper.
+                  Praesent vel mauris id sem ultrices finibus.
+                  Donec tempor nulla vel odio tincidunt ultrices.
+                  Phasellus consequat congue ullamcorper.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
       <div class="ms-section" data-anchor="our_work">
         <div class="right color-green">
-          <img class="intro-img img-fluid mx-auto d-block " src="home-images/snowman.jpg" alt="Christmas Card">
-        </div>
-      </div>
-      <div class="ms-section" data-anchor="about_china">
-        <div class="right color-grey">
+         <img class="intro-img img-fluid mx-auto d-block " src="home-images/snowman.jpg" alt="Christmas Card">
+       </div>
+     </div>
+     <div class="ms-section row color-green margin-0" data-anchor="about_china">
+      <div class="col-md-11 offset-md-1 right">
+        <div id="rectangle"></div>
+        <div class="content-padding">
           <div class="intro-column">
-            <p class="intro-title color-red text-nowrap">ABOUT CHINA</p>
-            <div class="intro-content text-justify">
-              <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
-                Praesent vel mauris id sem ultrices finibus.
-                Donec tempor nulla vel odio tincidunt ultrices.
-                Phasellus consequat congue ullamcorper.
-                Praesent vel mauris id sem ultrices finibus.
-                Donec tempor nulla vel odio tincidunt ultrices.
-                Phasellus consequat congue ullamcorper.
-              </p>
-            </div>
+           <img class="title-img img-fluid" src="icons&logo/about_china.png" alt="WHY US" width="60%">
+           <div class="intro-content text-justify">
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
+              Praesent vel mauris id sem ultrices finibus.
+              Donec tempor nulla vel odio tincidunt ultrices.
+              Phasellus consequat congue ullamcorper.
+              Praesent vel mauris id sem ultrices finibus.
+              Donec tempor nulla vel odio tincidunt ultrices.
+              Phasellus consequat congue ullamcorper.
+            </p>
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
+</div>
 </div>
 
 <script src="js/jquery-3.1.1.min.js"></script>
@@ -320,7 +322,7 @@
     $('#multiscroll').multiscroll({
       anchors: ['home', 'about_us', 'why_us', 'our_work', 'about_china'],
       menu: '#myMenu'
-     });
+    });
   });
 </script>
 </body>
