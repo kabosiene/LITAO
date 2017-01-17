@@ -1,330 +1,335 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <title>LITAO</title>
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/jquery.multiscroll.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
-  <link rel="icon" type="image/png" href="icons&logo/logo.png">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>LITAO</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/jquery.multiscroll.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="icons&logo/logo.png">
 
-</head>
-<body>
+  </head>
+  <body>
 
-  <header class="header" id="header">
-    <button class="nav-open" id="buttonNavOpen" onclick="openNav()">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <div class="sidenav-links" id="myMenu">
-        <a data-menuanchor="home" class="active" href="#home" ><span>HOME</span></a>
-        <a data-menuanchor="about_us" class="" href="#about_us" ><span>ABOUT US</span></a>
-        <a data-menuanchor="why_us" class="" href="#why_us" ><span>WHY US</span></a>
-        <a data-menuanchor="our_work" class="" href="#our_work" ><span>OUR WORK</span></a>
-        <a data-menuanchor="about_china" class="" href="#about_china" ><span>ABOUT CHINA</span></a>
-        <a class="" href="raq.html" ><span>RAQ</span></a>
-        <a class="" href="contact.html" ><span>CONTACT US</span></a>
+    <header class="header" id="header">
+
+      <a id="nav-toggle" onclick="openNav()" href="#"><span></span></a>
+
+      <div id = "mySidenavMenu" class="sidenav-side">
       </div>
-    </div>
+      <div id="mySidenav" class="sidenav">
+        <div class="sidenav-links" id="myMenu" onclick="closeNav()">
+          <a data-menuanchor="home" class="active" href="#home" >HOME <span></span></a>
+          <a data-menuanchor="about_us" class="" href="#about_us" >ABOUT US<span></span></a>
+          <a data-menuanchor="why_us" class="" href="#why_us" >WHY US<span></span></a>
+          <a data-menuanchor="our_work" class="" href="#our_work" >OUR WORK<span></span></a>
+          <a data-menuanchor="about_china" class="" href="#about_china" >ABOUT CHINA<span></span></a>
+          <a class="" href="raq.html" >RAQ<span></span></a>
+          <a class="" href="contact.html" >CONTACT US<span></span></a>
+        </div>
+      </div>
 
-    <div class="header-lang nav">
+      <div class="header-lang nav">
+        <div class="row">
+          <div class="header-lang-item nav-item col-xs-6">
+            <a href="#" title="LITAO" class="header-lang-link nav-link " data-page="">
+              <span class="header-lang-text">CH</span>
+            </a>
+          </div>
+          <div class="header-lang-item  nav-item col-xs-6">
+            <a href="#" title="LITAO" class="header-lang-link nav-link active" data-page="">
+              <span class="header-lang-text">EN</span>
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="header-lang-item  nav-item offset-xs-6">
+           <a href="#" title="LITAO" class="header-lang-link nav-link" data-page="">
+            <span class="header-lang-text">LT</span></a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container-fluid intro" id="multiscroll" >
       <div class="row">
-        <div class="header-lang-item nav-item col-xs-6">
-          <a href="#" title="LITAO" class="header-lang-link nav-link " data-page="">
-            <span class="header-lang-text">CH</span>
-          </a>
-        </div>
-        <div class="header-lang-item  nav-item col-xs-6">
-          <a href="#" title="LITAO" class="header-lang-link nav-link active" data-page="">
-            <span class="header-lang-text">EN</span>
-          </a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="header-lang-item  nav-item offset-xs-6">
-         <a href="#" title="LITAO" class="header-lang-link nav-link" data-page="">
-          <span class="header-lang-text">LT</span>
-        </a>
-      </div>
-    </div>
-  </div>
-</header>
-
-<div class="container-fluid intro" id="multiscroll">
-  <div class="row">
-    <div class="ms-left col-md-6">
-      <div class="ms-section active row margin-0" data-anchor="home">
-        <div class="col-md-1 hidden-xs-down">
-          <!-- <div class="border" >
-            <div class="border-left vertical" style="transform: translateX(0px);">
-              <a class="border__link link left" href="raq.html">RAQ</a>
+        <div class="ms-left col-md-6">
+          <div class="ms-section active row margin-0 color-green " data-anchor="home">
+            <div class="content-left">
+              <img src="icons&logo/logo_transparent_home.png" class="img-fluid home-logo" alt="LITAO logo" width="50%">
+              <div class="home-intro row">
+                <p class="home-text">
+                  Helping foreign companies China-fy <br/> and Chinese companies globalize
+                </p>
+                <img class="home-arrow img-fluid" src="icons&logo/arrow-down.png" alt="arrow-down image">
+              </div>
             </div>
-          </div> -->
-        </div>
-        <div class="col-md-11 color-green content-left">
-          <img src="icons&logo/logo_transparent_home.png" class="img-fluid home-logo" alt="LITAO logo" width="50%">
-          <div class="home-intro row">
-            <p class=" col-xs-8 offset-xs-2 text-centered home-text">
-              Helping foreign companies China-fy <br/> and Chinese companies globalize
-            </p>
-            <img class="home-slash img-fluid offset-xs-5" src="icons&logo/slash.png" alt="Slash image">
+          </div>
+          <div class="ms-section row" data-anchor="about_us">
+            <div class="col-md-1 hidden-xs-down">
+              <!--<div class="border">
+                <div class="border-vertical">
+                  <ul class=" vertical-left-border">
+                    <li class="intro-left-v ">
+                      <a class="border_link active" href="index.html#about_us"><span class="border-text ">INTRO</span></a>
+                    </li>
+                    <li class="intro-left-v ">
+                      <a class="border_link" href="about_us.html#founder"><span class="border-text">FOUNDER</span></a>
+                    </li>
+                    <li class="intro-left-v ">
+                      <a class="border_link " href="about_us.html#values"><span class="border-text">VALUES</span></a>
+                    </li>
+                    <li class="intro-left-v ">
+                      <a class="border_link " href="about_us.html#mission"><span class="border-text">MISSION / VISION</span></a>
+                    </li>
+                    <li class="intro-left-v">
+                      <a class="border_link " href="about_us.html#team"><span class="border-text">TEAM</span></a>
+                    </li>
+                    <li class="intro-left-v">
+                      <a class="border_link " href="about_us.html#download"><span class="border-text">DOWNLOAD</span></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>-->
+            </div>
+            <div class=" col-md-11 left color-grey">
+              <div id="square"></div>
+              <div class="content-padding">
+                <div class="intro-column">
+                  <img class="title-img img-fluid" src="icons&logo/about_us.png" alt="ABOUT US" width="60%">
+                  <div class="intro-content text-justify">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
+                      Praesent vel mauris id sem ultrices finibus.
+                      Donec tempor nulla vel odio tincidunt ultrices.
+                      Phasellus consequat congue ullamcorper.
+                      Praesent vel mauris id sem ultrices finibus.
+                      Donec tempor nulla vel odio tincidunt ultrices.
+                      Phasellus consequat congue ullamcorper.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ms-section" data-anchor="why_us">
+            <div class="col-md-1  hidden-xs-down">
+              <!--<div class="border">
+                <div class="border-vertical">
+                  <ul class=" vertical-left-border">
+                    <li class="intro-left-v ">
+                      <a class="border_link active" href="why_us.html"><span class="border-text">INTRO</span></a>
+                    </li>
+                    <li class="intro-left-v ">
+                      <a class="border_link " href="why_us.html#endorsements"><span class="border-text">ENDORSEMENTS</span></a>
+                    </li>
+                    <li class="intro-left-v ">
+                      <a class="border_link " href="why_us.html#publications"><span class="border-text">PUBLICATIONS</span></a>
+                    </li>
+                    <li class="intro-left-v ">
+                      <a class="border_link " href="why_us.html#people"><span class="border-text">PEOPLE</span></a>
+                    </li>
+                    <li class="intro-left-v ">
+                      <a class="border_link " href="why_us.html#clients"><span class="border-text">CLIENTS</span></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>-->
+            </div>
+            <div class="left color-green">
+              <img class="intro-img img-fluid mx-auto d-block " src="home-images/snowman.jpg" alt="Christmas Card">
+            </div>
+          </div>
+          <div class="ms-section row color-green" data-anchor="our_work">
+            <div class=" col-md-1 hidden-xs-down">
+             <!-- <div class="border">
+                <div class="border-vertical">
+                  <ul class=" vertical-left-border">
+                    <li class="intro-left-v ">
+                      <a class="border_link active" href="index.html#our_work"><span class="border-text">INTRO</span></a>
+                    </li>
+                    <li class="intro-left-v ">
+                      <a class="border_link " href="our_work.html#case_studies"><span class="border-text">CASE STUDIES</span></a>
+                    </li>
+                    <li class="intro-left-v ">
+                      <a class="border_link " href="our_work.html#process"><span class="border-text">PROCESS</span></a>
+                    </li>
+                    <li class="intro-left-v ">
+                      <a class="border_link " href="our_work.html#services"><span class="border-text">SERVICES</span></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>-->
+            </div>
+            <div class="col-md-11 left color-grey padding-0">
+              <div id="triangle-topleft"></div>
+              <div class="content-padding">
+                <div class="intro-column">
+                  <img class="title-img img-fluid" src="icons&logo/our_work.png" alt="OUR WORK" width="60%">
+                  <div class="intro-content text-justify">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
+                      Praesent vel mauris id sem ultrices finibus.
+                      Donec tempor nulla vel odio tincidunt ultrices.
+                      Phasellus consequat congue ullamcorper.
+                      Praesent vel mauris id sem ultrices finibus.
+                      Donec tempor nulla vel odio tincidunt ultrices.
+                      Phasellus consequat congue ullamcorper.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ms-section" data-anchor="about_china">
+            <div class="col-md-1  hidden-xs-down">
+              <!--<div class="border">
+                <div class="border-vertical">
+                  <ul class=" vertical-left-border">
+                    <li class="intro-left-v ">
+                      <a class="border_link active" href="index.html#about_china"><span class="border-text">INTRO</span></a>
+                    </li>
+                    <li class="intro-left-v ">
+                      <a class="border_link " href="about_china.html#challenges"><span class="border-text">CHALLENGES</span></a>
+                    </li>
+                    <li class="intro-left-v ">
+                      <a class="border_link " href="about_china.html#china_business"><span class="border-text">CHINA BUSINESS</span></a>
+                    </li>
+                    <li class="intro-left-v ">
+                      <a class="border_link " href="about_china.html#ready_for_china"><span class="border-text">READY FOR CHINA?</span></a>
+                    </li>
+                    <li class="intro-left-v ">
+                      <a class="border_link " href="about_china.html#useful_info"><span class="border-text">USEFUL INFO</span></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>-->
+            </div>
+            <div class="left about-china-img">
+            </div>
           </div>
         </div>
-      </div>
-      <div class="ms-section row" data-anchor="about_us">
-        <div class="col-md-1 hidden-xs-down">
-          <!--<div class="border">
-            <div class="border-vertical">
-              <ul class=" vertical-left-border">
-                <li class="intro-left-v ">
-                  <a class="border_link active" href="index.html#about_us"><span class="border-text ">INTRO</span></a>
-                </li>
-                <li class="intro-left-v ">
-                  <a class="border_link" href="about_us.html#founder"><span class="border-text">FOUNDER</span></a>
-                </li>
-                <li class="intro-left-v ">
-                  <a class="border_link " href="about_us.html#values"><span class="border-text">VALUES</span></a>
-                </li>
-                <li class="intro-left-v ">
-                  <a class="border_link " href="about_us.html#mission"><span class="border-text">MISSION / VISION</span></a>
-                </li>
-                <li class="intro-left-v">
-                  <a class="border_link " href="about_us.html#team"><span class="border-text">TEAM</span></a>
-                </li>
-                <li class="intro-left-v">
-                  <a class="border_link " href="about_us.html#download"><span class="border-text">DOWNLOAD</span></a>
-                </li>
-              </ul>
+        <div class="ms-right col-md-6">
+          <div class="ms-section active" data-anchor="home">
+            <div class="right carousel">
+              <div class="photo-carousel"></div>
             </div>
-          </div>-->
-        </div>
-        <div class=" col-md-11 left color-grey">
-          <div id="square"></div>
-          <div class="content-padding">
-            <div class="intro-column">
-              <img class="title-img img-fluid" src="icons&logo/about_us.png" alt="ABOUT US" width="60%">
-              <div class="intro-content text-justify">
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
-                  Praesent vel mauris id sem ultrices finibus.
-                  Donec tempor nulla vel odio tincidunt ultrices.
-                  Phasellus consequat congue ullamcorper.
-                  Praesent vel mauris id sem ultrices finibus.
-                  Donec tempor nulla vel odio tincidunt ultrices.
-                  Phasellus consequat congue ullamcorper.
-                </p>
+          </div>
+          <div class="ms-section " data-anchor="about_us">
+            <div class="right color-green">
+              <img class="intro-img img-fluid mx-auto d-block " src="home-images/snowman.jpg" alt="Christmas Card">
+            </div>
+          </div>
+          <div class="ms-section row" data-anchor="why_us">
+            <div class="col-md-11 offset-md-1 right color-grey">
+              <div id="circle"></div>
+              <div class="content-padding">
+                <div class="intro-column">
+                  <img class="title-img img-fluid" src="icons&logo/why_us.png" alt="WHY US" width="60%">
+                  <div class="intro-content text-justify">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
+                      Praesent vel mauris id sem ultrices finibus.
+                      Donec tempor nulla vel odio tincidunt ultrices.
+                      Phasellus consequat congue ullamcorper.
+                      Praesent vel mauris id sem ultrices finibus.
+                      Donec tempor nulla vel odio tincidunt ultrices.
+                      Phasellus consequat congue ullamcorper.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="ms-section" data-anchor="our_work">
+            <div class="right color-green">
+             <img class="intro-img img-fluid mx-auto d-block " src="home-images/snowman.jpg" alt="Christmas Card">
+           </div>
+          </div>
+          <div class="ms-section row color-green margin-0" data-anchor="about_china">
+            <div class="col-md-11 offset-md-1 right">
+              <div id="rectangle">
+              </div>
+              <div class="content-padding">
+                 <div class="intro-column">
+                 <img class="title-img img-fluid" src="icons&logo/about_china.png" alt="WHY US" width="60%">
+                  <div class="intro-content text-justify">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
+                      Praesent vel mauris id sem ultrices finibus.
+                      Donec tempor nulla vel odio tincidunt ultrices.
+                      Phasellus consequat congue ullamcorper.
+                      Praesent vel mauris id sem ultrices finibus.
+                      Donec tempor nulla vel odio tincidunt ultrices.
+                      Phasellus consequat congue ullamcorper.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="ms-section" data-anchor="why_us">
-        <div class="col-md-1  hidden-xs-down">
-          <!--<div class="border">
-            <div class="border-vertical">
-              <ul class=" vertical-left-border">
-                <li class="intro-left-v ">
-                  <a class="border_link active" href="why_us.html"><span class="border-text">INTRO</span></a>
-                </li>
-                <li class="intro-left-v ">
-                  <a class="border_link " href="why_us.html#endorsements"><span class="border-text">ENDORSEMENTS</span></a>
-                </li>
-                <li class="intro-left-v ">
-                  <a class="border_link " href="why_us.html#publications"><span class="border-text">PUBLICATIONS</span></a>
-                </li>
-                <li class="intro-left-v ">
-                  <a class="border_link " href="why_us.html#people"><span class="border-text">PEOPLE</span></a>
-                </li>
-                <li class="intro-left-v ">
-                  <a class="border_link " href="why_us.html#clients"><span class="border-text">CLIENTS</span></a>
-                </li>
-              </ul>
-            </div>
-          </div>-->
-        </div>
-        <div class="left color-green">
-          <img class="intro-img img-fluid mx-auto d-block " src="home-images/snowman.jpg" alt="Christmas Card">
-        </div>
-      </div>
-      <div class="ms-section row color-green" data-anchor="our_work">
-        <div class=" col-md-1 hidden-xs-down">
-         <!-- <div class="border">
-            <div class="border-vertical">
-              <ul class=" vertical-left-border">
-                <li class="intro-left-v ">
-                  <a class="border_link active" href="index.html#our_work"><span class="border-text">INTRO</span></a>
-                </li>
-                <li class="intro-left-v ">
-                  <a class="border_link " href="our_work.html#case_studies"><span class="border-text">CASE STUDIES</span></a>
-                </li>
-                <li class="intro-left-v ">
-                  <a class="border_link " href="our_work.html#process"><span class="border-text">PROCESS</span></a>
-                </li>
-                <li class="intro-left-v ">
-                  <a class="border_link " href="our_work.html#services"><span class="border-text">SERVICES</span></a>
-                </li>
-              </ul>
-            </div>
-          </div>-->
-        </div>
-        <div class="col-md-11 left color-grey padding-0">
-          <div id="triangle-topleft"></div>
-          <div class="content-padding">
-            <div class="intro-column">
-              <img class="title-img img-fluid" src="icons&logo/our_work.png" alt="OUR WORK" width="60%">
-              <div class="intro-content text-justify">
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
-                  Praesent vel mauris id sem ultrices finibus.
-                  Donec tempor nulla vel odio tincidunt ultrices.
-                  Phasellus consequat congue ullamcorper.
-                  Praesent vel mauris id sem ultrices finibus.
-                  Donec tempor nulla vel odio tincidunt ultrices.
-                  Phasellus consequat congue ullamcorper.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="ms-section" data-anchor="about_china">
-        <div class="col-md-1  hidden-xs-down">
-          <!--<div class="border">
-            <div class="border-vertical">
-              <ul class=" vertical-left-border">
-                <li class="intro-left-v ">
-                  <a class="border_link active" href="index.html#about_china"><span class="border-text">INTRO</span></a>
-                </li>
-                <li class="intro-left-v ">
-                  <a class="border_link " href="about_china.html#challenges"><span class="border-text">CHALLENGES</span></a>
-                </li>
-                <li class="intro-left-v ">
-                  <a class="border_link " href="about_china.html#china_business"><span class="border-text">CHINA BUSINESS</span></a>
-                </li>
-                <li class="intro-left-v ">
-                  <a class="border_link " href="about_china.html#ready_for_china"><span class="border-text">READY FOR CHINA?</span></a>
-                </li>
-                <li class="intro-left-v ">
-                  <a class="border_link " href="about_china.html#useful_info"><span class="border-text">USEFUL INFO</span></a>
-                </li>
-              </ul>
-            </div>
-          </div>-->
-        </div>
-        <div class="left about-china-img">
-        </div>
-      </div>
     </div>
-    <div class="ms-right col-md-6">
-      <div class="ms-section active row margin-0" data-anchor="home">
-        <div class="col-md-11 content-right padding-0 carousel">
-          <div class="photo-carousel"></div>
-        </div>
-        <div class="col-md-1 hidden-xs-down">
-         <!-- <div class="border-right vertical"">
-            <a class="border__link link right" href="contact.html">CONTACT US</a>
-          </div>-->
-        </div>
-      </div>
-      <div class="ms-section " data-anchor="about_us">
-        <div class="right color-green">
-          <img class="intro-img img-fluid mx-auto d-block " src="home-images/snowman.jpg" alt="Christmas Card">
-        </div>
-      </div>
-      <div class="ms-section row" data-anchor="why_us">
-        <div class="col-md-11 offset-md-1 right color-grey">
-          <div id="circle"></div>
-          <div class="content-padding">
-            <div class="intro-column">
-              <img class="title-img img-fluid" src="icons&logo/why_us.png" alt="WHY US" width="60%">
-              <div class="intro-content text-justify">
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
-                  Praesent vel mauris id sem ultrices finibus.
-                  Donec tempor nulla vel odio tincidunt ultrices.
-                  Phasellus consequat congue ullamcorper.
-                  Praesent vel mauris id sem ultrices finibus.
-                  Donec tempor nulla vel odio tincidunt ultrices.
-                  Phasellus consequat congue ullamcorper.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="ms-section" data-anchor="our_work">
-        <div class="right color-green">
-         <img class="intro-img img-fluid mx-auto d-block " src="home-images/snowman.jpg" alt="Christmas Card">
-       </div>
-     </div>
-     <div class="ms-section row color-green margin-0" data-anchor="about_china">
-      <div class="col-md-11 offset-md-1 right">
-        <div id="rectangle"></div>
-        <div class="content-padding">
-          <div class="intro-column">
-           <img class="title-img img-fluid" src="icons&logo/about_china.png" alt="WHY US" width="60%">
-           <div class="intro-content text-justify">
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
-              Praesent vel mauris id sem ultrices finibus.
-              Donec tempor nulla vel odio tincidunt ultrices.
-              Phasellus consequat congue ullamcorper.
-              Praesent vel mauris id sem ultrices finibus.
-              Donec tempor nulla vel odio tincidunt ultrices.
-              Phasellus consequat congue ullamcorper.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-</div>
 
-<script src="js/jquery-3.1.1.min.js"></script>
-<script src="js/jquery.easing.min.js"></script>
-<script src="js/jquery.multiscroll.js"></script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.multiscroll.js"></script>
 
-<script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
-<script type="text/javascript">
-  $(".nav a").on("click", function(){
-   $(".nav").find(".active").removeClass("active");
-   $(this).addClass("active");
- });
-  /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
-  function openNav() {
-    document.getElementById("mySidenav").style.width = "50%";
-  };
+    <script type="text/javascript">
 
-  /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
-  function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-  };
-  $(".border-intro a").on("click", function(){
-    $(".border-intro").find(".active").removeClass("active");
-    $(this).addClass("active");
-  });
-  $(".border-vertical a").on("click", function(){
-   $(".border-vertical").find(".active").removeClass("active");
-   $(this).addClass("active");
- });
+      $(".nav a").on("click", function(){
+         $(".nav").find(".active").removeClass("active");
+         $(this).addClass("active");
+      });
 
-  $(document).ready(function() {
-    $('#multiscroll').multiscroll({
-      anchors: ['home', 'about_us', 'why_us', 'our_work', 'about_china'],
-      menu: '#myMenu'
-    });
-  });
-</script>
-</body>
+      document.getElementById("multiscroll").onmouseover = function() {closeNav()
+      };
+
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "45%";
+        document.getElementById("mySidenavMenu").style.width = "5%";
+        document.querySelector("#nav-toggle").setAttribute('onclick','closeNav()');
+      };
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("mySidenavMenu").style.width = "0";
+        document.querySelector("#nav-toggle").setAttribute('onclick','openNav()');
+        document.getElementById("nav-toggle").className = "";
+      };
+
+      $(".border-intro a").on("click", function(){
+        $(".border-intro").find(".active").removeClass("active");
+        $(this).addClass("active");
+      });
+      $(".border-vertical a").on("click", function(){
+       $(".border-vertical").find(".active").removeClass("active");
+       $(this).addClass("active");
+     });
+
+      $(document).ready(function() {
+        $('#multiscroll').multiscroll({
+          anchors: ['home', 'about_us', 'why_us', 'our_work', 'about_china'],
+          menu: '#myMenu'
+        });
+      });
+
+      document.querySelector( "#nav-toggle" ).addEventListener( "click", function() {
+        this.classList.toggle( "active" );
+      });
+
+      document.querySelector( "#nav-toggle" ).addEventListener( "mouseover", function() {
+        this.classList.toggle( "closer" );
+      });
+
+    </script>
+  </body>
 </html>
 
