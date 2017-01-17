@@ -232,39 +232,37 @@ section {
   transition: all 0.5s ease-out;
 }
 
+.sidenav-links {
+  padding-top: 50px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 5;
+}
+
 /* The navigation menu links */
-.sidenav a{
+.sidenav a {
+  position: relative;
   text-decoration: none;
   font-size: 16px;
   color: #cccbc5; /*should be grey 20%*/
-  display: block;
-  transition: 0.2s
-}
-.sidenav a span {
-  background: #ed124a;
-  display: block;
-  height: 1px;
+  display:inline-block;
+  border-bottom: 3px solid transparent;
   width: 0px;
-  position: absolute;
-  left: 0;
-  top: 50%;
-  -webkit-transition: width .1s ease-in;
-  transition: width .1s ease-in;
+  transition: 0.5s ease;
+  white-space: nowrap;
+  height: 25px;
 }
-/* When you mouse over the navigation links, change their color */
+
 .sidenav a:hover {
-  color: #a55f60 ;
+color: #a55f60 ;
+ border-bottom: 3px solid #a55f60 ;
+ width: 200px;
 }
 .sidenav .active {
  color: #a55f60 ;
 }
 
-.sidenav-links {
-  padding-top: 100px;
-  font-weight: bold;
-  text-align: center;
-  line-height: 5;
-}
+
 
 
 /*languages---------------------------------------------*/
