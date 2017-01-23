@@ -4,6 +4,7 @@ body{
   color: #595a5a;
   height: 100%;
   text-align: center;
+  font-family: 'BrandonGrotesque-Regular', Arial, sans-serif;
   font-size: 16px;
 }
 
@@ -127,7 +128,7 @@ section {
   position:fixed;
   top:20px;
   left:15px;
- }
+}
 #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
   cursor: pointer;
   border-radius: 1px;
@@ -151,18 +152,18 @@ section {
   bottom: -7px;
 }
 #nav-toggle.closer span:before, #nav-toggle.closer span:after {
-  -webkit-transition:all 200ms ease;
-  -moz-transition:all 200ms ease;
-  -o-transition:all 200ms ease;
-  -ms-transition:all 200ms ease;
-  transition:all 200ms ease;
+  -webkit-transition:all 100ms ease;
+  -moz-transition:all 100ms ease;
+  -o-transition:all 100ms ease;
+  -ms-transition:all 100ms ease;
+  transition:all 100ms ease;
 }
 #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
-  -webkit-transition:all 400ms ease-in-out;
-  -moz-transition:all 400ms ease-in-out;
-  -o-transition:all 400ms ease-in-out;
-  -ms-transition:all 400ms ease-in-out;
-  transition:all 400ms ease-in-out;
+  -webkit-transition:all 200ms ease-in-out;
+  -moz-transition:all 200ms ease-in-out;
+  -o-transition:all 200ms ease-in-out;
+  -ms-transition:all 200ms ease-in-out;
+  transition:all 200ms ease-in-out;
 }
 #nav-toggle.active span {
   background-color: transparent;
@@ -200,6 +201,7 @@ section {
 
 /* The side navigation menu */
 .sidenav{
+  display: table;
   height: 100%; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
@@ -222,9 +224,9 @@ section {
   top: 0;
   right:95%;
   background-color: #f6f3f0; /* grey*/
-  overflow-x: hidden; /* Disable horizontal scroll */
- /* padding-top: 60px;*/ /* Place content 60px from the top */
- /* transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  overflow: hidden; /* Disable horizontal scroll */
+  /* padding-top: 60px;*/ /* Place content 60px from the top */
+  /* transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -o-transition: all 0.5s ease-out;
@@ -233,36 +235,54 @@ section {
 }
 
 .sidenav-links {
-  padding-top: 50px;
-  font-weight: bold;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'BrandonGrotesque-Black';
   text-align: center;
-  line-height: 5;
 }
 
 /* The navigation menu links */
-.sidenav a {
-  position: relative;
-  text-decoration: none;
-  font-size: 16px;
-  color: #cccbc5; /*should be grey 20%*/
-  display:inline-block;
-  border-bottom: 3px solid transparent;
-  width: 0px;
-  transition: 0.5s ease;
-  white-space: nowrap;
-  height: 25px;
-}
 
-.sidenav a:hover {
-color: #a55f60 ;
- border-bottom: 3px solid #a55f60 ;
- width: 200px;
+.sidenav  a {
+  color: #cccbc5;
+  display: inline-block;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease-in;
+  -moz-transition: opacity 0.3s ease-in;
+  -o-transition: opacity 0.3s ease-in;
+  -ms-transition: opacity 0.3s ease-in;
+  transition: opacity 0.3s ease-in;
+
+}
+.sidenav a:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 0;
+  background: transparent;
+  transition: width .8s ease, background-color .5s ease;
+}
+.sidenav a:hover{
+  color: #a55f60 ;
 }
 .sidenav .active {
  color: #a55f60 ;
 }
+.sidenav .active:after{
+  content: '';
+  display: block;
+  height: 3px;
+  width: 100%;
+  background: #a55f60 ;
+  transition: width .8s ease, background-color .5s ease;
 
-
+}
+.sidenav a:hover:after {
+  width: 100%;
+  background: #a55f60 ;
+}
 
 
 /*languages---------------------------------------------*/
@@ -283,32 +303,25 @@ color: #a55f60 ;
   display:block;
   width:30px;
   height:30px;
-  line-height:2em;
-  letter-spacing:.3em;
+  line-height:2.5em;
   text-transform:uppercase;
   border:1px solid #5a5b5b;
   margin-right: -1px;
   margin-top: -1px;
+  font-size: 12px;
 }
 
 .header-lang-link.active{
   color:#595a5a;
   border:0px solid #595a5a;
-  font-weight: bold;
+  font-family: 'BrandonGrotesque-Bold';
 }
 .header-lang-text{
   display:block;
-  margin-left:.4em;
-  font-size:.5em;
   text-align:center;
 }
 .header-lang-text:hover,.header-lang-text:active{
-  font-weight: bold;
-}
-@media (min-width:48.0625em){
-  .header-lang-text{
-    margin-left:.6em;
-  }
+  font-family: 'BrandonGrotesque-Bold';
 }
 
 
@@ -317,8 +330,8 @@ color: #a55f60 ;
 /*borders*/
 
 .border, .border-fixed {
-  font-size: 10px;
-  letter-spacing: 1px;
+  font-family: 'BrandonGrotesque-Regular';
+  font-size: 11px;
   /*visibility: hidden;*/
 }
 .border-fixed {
@@ -415,7 +428,6 @@ color: #a55f60 ;
   line-height:60px;
   text-transform:uppercase;
   color:#595a5a;
-  letter-spacing:0.4rem;
 }
 .border__link.right{
   position:absolute;
@@ -442,7 +454,6 @@ color: #a55f60 ;
   /*line-height:60px;*/
   text-transform:uppercase;
   color:#595a5a;
-  letter-spacing:0.4rem;
 }
 .border__link:hover{
   bottom:50%;
@@ -472,7 +483,7 @@ color: #a55f60 ;
   overflow: hidden;
 }
 .content-left, .content-right{
-   /*height: 525px;*/
+ /*height: 525px;*/
 }
 
 
@@ -495,216 +506,220 @@ color: #a55f60 ;
 
 .home-intro {
   margin-top: 5%;
-  letter-spacing: 0.1em;
 }
 
 /*.home-slash {
   margin-top: 25px;
   height: 30px;
-}*/
-.home-arrow {
-  margin-top: 20%;
-  height: 50px;
-}
-
-.home-text {
-
-}
-
-.carousel{
-  background: url('../home-images/home.png');
-  background-size: cover;
-}
-.about-china-img{
-  background: url('../home-images/china-lamp.jpg');
-  background-size: cover;
-}
-
-.level1-white img {
-  width: 100%;
-  position: center;
-}
-@media only screen and (min-width: 540px){
-  .home-logo{
-    margin-top: 20%;
-    padding-bottom: 20px;
+  }*/
+  .home-arrow {
+    margin-top: 10%;
+    height: 50px;
   }
-}
-/*-----level1----*/
 
-/*------intro----*/
+  .home-text {
+   font-family: 'BrandonGrotesque-Light';
+   font-size: 20px;
+   margin-bottom: 20%;
+  }
 
-.intro {
-  /*padding-left: 75px;*/
-}
-.content-padding{
-  padding-left: 0px;
-  margin-top: 150px;
-}
-.intro .right , .level-2 .left, .level-2 .right{
-  /*height: 100vh;*/
-  padding: 0;
-}
-.left, .right {
-  height: 100%;
-  height: 100vh;
-}
-.intro-logo {
-  margin: 10px 0 10px 0;
-  height: 40px;
-  padding-left: 10px;
-  /*z-index:96;*/
-}
-.intro-column {
-  margin: 50px 30px 0 30px;
-  letter-spacing: 1px;
-}
-.intro-title {
-  font-size: 16px;
-  margin: 50px 0 50px 20px;
-  font-weight: bold;
-}
-.intro-content {
-  position:relative;
-  z-index:1;
-  font-size: 12px;
-  margin-top: 150px;
-}
-.intro-img {
-}
-.title-img{
-  position:relative;
-  z-index:1;
-}
-#square{
-  position:absolute;
-  left: 50%;
-  top: 50%;
-  margin: -100px 0 0 -100px;
-  z-index:0;
-  width: 200px;
-  height: 200px;
-  background: #dfeae1;
-}
-#rectangle {
-  position:absolute;
-  left: 50%;
-  top: 50%;
-  margin: -250px 0 0 -225px;
-  z-index:0;
-  width: 450px;
-  height: 500px;
-  background: #f6f3f0;
-}
-#circle {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  margin: -100px 0 0 -100px;
-  z-index:0;
-  width: 200px;
-  height: 200px;
-  background: #dfeae1;
-  -moz-border-radius: 100px;
-  -webkit-border-radius: 100px;
-  border-radius: 100px;
-}
-#triangle-topleft {
-  position: absolute;
-  width: 0;
-  height: 0;
-  border-top: 790px solid #dfeae1;
-  border-right: 335px solid transparent;
-}
+  .carousel{
+    background: url('../home-images/home.png');
+    background-size: cover;
+  }
+  .about-china-img{
+    background: url('../home-images/china-lamp.jpg');
+    background-size: cover;
+  }
 
+  .level1-white img {
+    width: 100%;
+    position: center;
+  }
+  @media only screen and (min-width: 540px){
+    .home-logo{
+      margin-top: 20%;
+      padding-bottom: 20px;
+    }
+  }
+  /*-----level1----*/
 
+  /*------intro----*/
 
-
-@media only screen and (min-width: 720px){
+  .intro {
+    /*padding-left: 75px;*/
+  }
+  .content-padding{
+    /*padding-left: 0px;
+    margin-top: 150px;*/
+  }
+  .intro .right , .level-2 .left, .level-2 .right{
+    /*height: 100vh;*/
+    padding: 0;
+  }
+  .left, .right {
+  }
+  .intro-logo {
+    margin: 10px 0 10px 0;
+    height: 40px;
+    padding-left: 10px;
+    /*z-index:96;*/
+  }
   .intro-column {
-    margin: 0px 130px 0 130px;
-    letter-spacing: 1px;
+    margin: 50px 30px 0 30px;
+  }
+  .intro-title {
+    font-size: 16px;
+    margin: 50px 0 50px 20px;
+    font-family: 'BrandonGrotesque-Bold';
   }
   .intro-content {
+    position:relative;
+    z-index:1;
+    font-family: 'BrandonGrotesque-Light';
+    font-size: 16px;
     margin-top: 50px;
   }
   .intro-img {
-    padding-top: 100px;
-    padding-bottom: 80px;
-    width: 400px;
   }
+  .title-img{
+    position:relative;
+    width: 50%;
+  }
+  #square{
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    margin: -15% 0 0 -15%;
+    z-index:0;
+    width: 30%;
+    background: #dfeae1;
+  }
+  #square:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
 }
-/*-----------level2---------*/
-.level2-logo {
-  margin: 5px 0 10px 50px;
-  height: 40px;
-  padding-left: 10px;
-  /*z-index:96;*/
+  #rectangle {
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    margin: -38% 0 0 -35%;
+    z-index:0;
+    width: 70%;
+    background: #f6f3f0;
+  }
+  #rectangle:after {
+  content: "";
+  display: block;
+  padding-bottom: 110%;
 }
-.founder-img{
-  padding-left: 100px;
-  padding-right: 100px;
-}
-.founder-title {
-  font-size: 18px;
-  margin: 50px 0 50px 100px;
-  font-weight: bold;
-}
-.founder.column{
-  margin: 50px 30px 0 30px;
-  letter-spacing: 1px;
-}
-.level-2 .col-md-1 {
-  visibility: hidden;
-  height: 0;
-}
-@media only screen and (min-width: 720px){
-  .founder-column {
-    margin: 50px 0 0 130px;
+  #circle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -15% 0 0 -15%;
+    z-index:0;
+    width: 30%;
+    background: #dfeae1;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+  }
+  #circle:after{
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+  #triangle-topleft {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 800px solid #dfeae1;
+    border-right: 300px solid transparent;
+  }
+
+  @media only screen and (min-width: 720px){
+    .intro-column {
+      margin: 0px 20% 0 20%;
+    }
+    .intro-content {
+      margin-top: 50px;
+    }
+    .intro-img {
+      width: 60%;
+    }
+  }
+  /*-----------level2---------*/
+  .level2-logo {
+    margin: 5px 0 10px 50px;
+    height: 40px;
+    padding-left: 10px;
+    /*z-index:96;*/
+  }
+  .founder-img{
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .founder-title {
+    font-size: 18px;
+    margin: 50px 0 50px 100px;
+    font-family: 'BrandonGrotesque-Bold';
+  }
+  .founder.column{
+    margin: 50px 30px 0 30px;
   }
   .level-2 .col-md-1 {
-    visibility: visible;
-    height: 100vh;
+    visibility: hidden;
+    height: 0;
   }
-}
-/*--------contact&raq-------*/
-.btn.sharp {
-  border-radius:0;
-  background:#dfeae1;
-  border: 0 none;
-}
-.contact-form{
-  margin-top: 200px;
-}
-address {
-  padding-left: 80px;
-  padding-right: 50px;
-}
-.raq-content {
-  padding-top: 80px;
-  padding-left: 80px;
-  padding-right: 60px;
-}
-.raq-content h4 {
-  padding-bottom: 40px;
-}
-.raq-content h5 {
-  padding-bottom: 10px;
-  padding-top: 30px;
-}
-.raq-content p {
-  font-size: 14px;
-}
-.leading-text {
-  padding-bottom: 30px;
-}
+  @media only screen and (min-width: 720px){
+    .founder-column {
+      margin: 50px 0 0 130px;
+    }
+    .level-2 .col-md-1 {
+      visibility: visible;
+      height: 100vh;
+    }
+  }
+  /*--------contact&raq-------*/
+  .btn.sharp {
+    border-radius:0;
+    background:#dfeae1;
+    border: 0 none;
+  }
+  .contact-form{
+    margin-top: 200px;
+  }
+  address {
+    padding-left: 80px;
+    padding-right: 50px;
+  }
+  .raq-content {
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 60px;
+  }
+  .raq-content h4 {
+    padding-bottom: 40px;
+  }
+  .raq-content h5 {
+    padding-bottom: 10px;
+    padding-top: 30px;
+  }
+  .raq-content p {
+    font-size: 14px;
+  }
+  .leading-text {
+    padding-bottom: 30px;
+  }
 
-.intro-left2 {
-  position: relative;
-  padding-left:5px;
-  margin:1em;
-  min-height:100px;
-}
+  .intro-left2 {
+    position: relative;
+    padding-left:5px;
+    margin:1em;
+    min-height:100px;
+  }
 
 /*.border-text2 {
   -webkit-transform: rotate(-90deg);
@@ -789,4 +804,134 @@ address {
   75%, 100% {
     transform: translate3d(0, -200%, 0);
   }
+}
+ /******************************/
+ .animated {
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+   -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+ .animated2 {
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: 1.2s;
+  -moz-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.animated3 {
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: 1.6s;
+  -moz-animation-delay: 1.6s;
+  animation-delay: 1.6s;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+
+
+ @-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    -moz-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    -moz-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    -moz-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+@-webkit-keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
 }

@@ -9,30 +9,29 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <title>LITAO</title>
-
+  <link href="css/font.css" rel="stylesheet">
   <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/jquery.multiscroll.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <link rel="icon" type="image/png" href="icons&logo/logo.png">
 
 </head>
 <body>
 <header class="header" id="header">
-    <button class="nav-open" id="buttonNavOpen" onclick="openNav()">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
 
+    <a id="nav-toggle" onclick="openNav()" href="#"><span></span></a>
+
+    <div id = "mySidenavMenu" class="sidenav-side">
+    </div>
     <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <div class="sidenav-links">
-        <a class="" href="index.html#home" ><span>HOME</span></a>
-        <a class="" href="index.html#about_us" ><span>ABOUT US</span></a>
-        <a class="" href="index.html#why_us" ><span>WHY US</span></a>
-        <a class="" href="index.html#our_work" ><span>OUR WORK</span></a>
-        <a class="" href="index.html#about_china" ><span>ABOUT CHINA</span></a>
-        <a class="" href="raq.html" ><span>RAQ</span></a>
-        <a class="active" href="contact.html" ><span>CONTACT US</span></a>
+      <div class="sidenav-links" id="myMenu" onclick="closeNav()">
+        <a data-menuanchor="home" class=" sidenav_link" href="./index.html#home" style="width: 0;">HOME </a><br>
+        <a data-menuanchor="about_us" class="sidenav_link" href="./index.html#about_us" style="width: 0;" >ABOUT US</a><br>
+        <a data-menuanchor="why_us" class="sidenav_link" href="./index.html#why_us" style="width: 0;">WHY US</a><br>
+        <a data-menuanchor="our_work" class="sidenav_link" href="./index.html#our_work" style="width: 0;">OUR WORK</a><br>
+        <a data-menuanchor="about_china" class="sidenav_link" href="./index.html#about_china" style="width: 0;">ABOUT CHINA</a><br>
+        <a class="sidenav_link" href="./raq.html" style="width: 0;">RAQ</a><br>
+        <a class=" active sidenav_link" href="contact.html"style="width: 0;"style="width: 0;" >CONTACT US</a>
       </div>
     </div>
 
@@ -58,7 +57,7 @@
     </div>
   </header>
 
-<div class="container-fluid level-2">
+<div class="container-fluid level-2" id="contact_id">
   <div class="row">
    <div class="col-md-1 right color-green">
    </div>
@@ -102,34 +101,90 @@
 <script src="js/bootstrap.min.js"></script>
 
 <script type="text/javascript">
-  $(".nav a").on("click", function(){
+  $(document).ready(function() {
+
+  });
+
+ $(".nav a").on("click", function(){
    $(".nav").find(".active").removeClass("active");
    $(this).addClass("active");
  });
-  /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
-  function openNav() {
-    document.getElementById("mySidenav").style.width = "50%";
-  };
 
-  /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
-  function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-  };
-  $(".border-intro a").on("click", function(){
-    $(".border-intro").find(".active").removeClass("active");
-    $(this).addClass("active");
-  });
-  $(".border-vertical a").on("click", function(){
-   $(".border-vertical").find(".active").removeClass("active");
-   $(this).addClass("active");
- });
+ document.getElementById("contact_id").onmouseover = function() {closeNav()};
 
-  $(document).ready(function() {
-    $('#multiscroll').multiscroll({
-      anchors: ['home', 'about_us', 'why_us', 'our_work', 'about_china'],
-      menu: '#myMenu'
-     });
-  });
+function openNav() {
+  document.getElementById("mySidenavMenu").style.borderRight = "1px solid #cccbc5";
+  document.getElementById("mySidenav").style.width = "45%";
+  document.getElementById("mySidenavMenu").style.width = "5%";
+  setTimeout(change_width, 200);
+  setTimeout(change_opacity, 300);
+  document.getElementsByClassName('sidenav_link');
+  document.querySelector("#nav-toggle").setAttribute('onclick','closeNav()');
+};
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  setTimeout(change_width_0, 400);
+  setTimeout(change_opacity_0, 100);
+  document.getElementById("mySidenavMenu").style.width = "0";
+  setTimeout(change_border,550);
+  document.querySelector("#nav-toggle").setAttribute('onclick','openNav()');
+  document.getElementById("nav-toggle").className = "";
+};
+
+function change_width_0() {
+  var links = document.getElementsByClassName('sidenav_link'),
+  i = links.length;
+
+  while(i--) {
+    links[i].style.width = "0";
+  }
+}
+function change_opacity_0() {
+  var links = document.getElementsByClassName('sidenav_link'),
+  i = links.length;
+
+  while(i--) {
+    links[i].style.opacity = "0";
+  }
+}
+function change_width() {
+  var links = document.getElementsByClassName('sidenav_link'),
+  i = links.length;
+
+  while(i--) {
+    links[i].removeAttribute("style");
+  }
+}
+function change_opacity() {
+  var links = document.getElementsByClassName('sidenav_link'),
+  i = links.length;
+
+  while(i--) {
+   links[i].style.opacity = "1";
+ }
+}
+function change_border(){
+  document.getElementById("mySidenavMenu").style.border = "none";
+}
+
+$(".border-intro a").on("click", function(){
+  $(".border-intro").find(".active").removeClass("active");
+  $(this).addClass("active");
+});
+$(".border-vertical a").on("click", function(){
+ $(".border-vertical").find(".active").removeClass("active");
+ $(this).addClass("active");
+});
+
+document.querySelector( "#nav-toggle" ).addEventListener( "click", function() {
+  this.classList.toggle( "active" );
+});
+
+document.querySelector( "#nav-toggle" ).addEventListener( "mouseover", function() {
+  this.classList.add( "closer" );
+});
+
 </script>
 </body>
 </html>
