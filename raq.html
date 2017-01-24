@@ -57,7 +57,7 @@
     </div>
   </header>
 
-  <div class="container-fluid level-2" id="raq_id">
+  <div class="container-fluid" id="raq_id">
     <div class="row">
       <div class="col-md-1 right color-green">
 
@@ -94,96 +94,96 @@
     </div>
   </div>
 
-<script src="js/jquery-3.1.1.min.js"></script>
-<script src="js/jquery.easing.min.js"></script>
-<script src="js/jquery.multiscroll.js"></script>
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/jquery.multiscroll.js"></script>
 
-<script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 
-<script type="text/javascript">
-$(document).ready(function() {
+  <script type="text/javascript">
+    $(document).ready(function() {
 
+    });
+
+    $(".nav a").on("click", function(){
+     $(".nav").find(".active").removeClass("active");
+     $(this).addClass("active");
+   });
+
+    document.getElementById("raq_id").onmouseover = function() {closeNav()};
+
+    function openNav() {
+      document.getElementById("mySidenavMenu").style.borderRight = "1px solid #cccbc5";
+      document.getElementById("mySidenav").style.width = "45%";
+      document.getElementById("mySidenavMenu").style.width = "5%";
+      setTimeout(change_width, 200);
+      setTimeout(change_opacity, 300);
+      document.getElementsByClassName('sidenav_link');
+      document.querySelector("#nav-toggle").setAttribute('onclick','closeNav()');
+    };
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      setTimeout(change_width_0, 400);
+      setTimeout(change_opacity_0, 100);
+      document.getElementById("mySidenavMenu").style.width = "0";
+      setTimeout(change_border,550);
+      document.querySelector("#nav-toggle").setAttribute('onclick','openNav()');
+      document.getElementById("nav-toggle").className = "";
+    };
+
+    function change_width_0() {
+      var links = document.getElementsByClassName('sidenav_link'),
+      i = links.length;
+
+      while(i--) {
+        links[i].style.width = "0";
+      }
+    }
+    function change_opacity_0() {
+      var links = document.getElementsByClassName('sidenav_link'),
+      i = links.length;
+
+      while(i--) {
+        links[i].style.opacity = "0";
+      }
+    }
+    function change_width() {
+      var links = document.getElementsByClassName('sidenav_link'),
+      i = links.length;
+
+      while(i--) {
+        links[i].removeAttribute("style");
+      }
+    }
+    function change_opacity() {
+      var links = document.getElementsByClassName('sidenav_link'),
+      i = links.length;
+
+      while(i--) {
+       links[i].style.opacity = "1";
+     }
+   }
+   function change_border(){
+    document.getElementById("mySidenavMenu").style.border = "none";
+  }
+
+  $(".border-intro a").on("click", function(){
+    $(".border-intro").find(".active").removeClass("active");
+    $(this).addClass("active");
   });
-
- $(".nav a").on("click", function(){
-   $(".nav").find(".active").removeClass("active");
+  $(".border-vertical a").on("click", function(){
+   $(".border-vertical").find(".active").removeClass("active");
    $(this).addClass("active");
  });
 
- document.getElementById("raq_id").onmouseover = function() {closeNav()};
+  document.querySelector( "#nav-toggle" ).addEventListener( "click", function() {
+    this.classList.toggle( "active" );
+  });
 
-function openNav() {
-  document.getElementById("mySidenavMenu").style.borderRight = "1px solid #cccbc5";
-  document.getElementById("mySidenav").style.width = "45%";
-  document.getElementById("mySidenavMenu").style.width = "5%";
-  setTimeout(change_width, 200);
-  setTimeout(change_opacity, 300);
-  document.getElementsByClassName('sidenav_link');
-  document.querySelector("#nav-toggle").setAttribute('onclick','closeNav()');
-};
-
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-  setTimeout(change_width_0, 400);
-  setTimeout(change_opacity_0, 100);
-  document.getElementById("mySidenavMenu").style.width = "0";
-  setTimeout(change_border,550);
-  document.querySelector("#nav-toggle").setAttribute('onclick','openNav()');
-  document.getElementById("nav-toggle").className = "";
-};
-
-function change_width_0() {
-  var links = document.getElementsByClassName('sidenav_link'),
-  i = links.length;
-
-  while(i--) {
-    links[i].style.width = "0";
-  }
-}
-function change_opacity_0() {
-  var links = document.getElementsByClassName('sidenav_link'),
-  i = links.length;
-
-  while(i--) {
-    links[i].style.opacity = "0";
-  }
-}
-function change_width() {
-  var links = document.getElementsByClassName('sidenav_link'),
-  i = links.length;
-
-  while(i--) {
-    links[i].removeAttribute("style");
-  }
-}
-function change_opacity() {
-  var links = document.getElementsByClassName('sidenav_link'),
-  i = links.length;
-
-  while(i--) {
-   links[i].style.opacity = "1";
- }
-}
-function change_border(){
-  document.getElementById("mySidenavMenu").style.border = "none";
-}
-
-$(".border-intro a").on("click", function(){
-  $(".border-intro").find(".active").removeClass("active");
-  $(this).addClass("active");
-});
-$(".border-vertical a").on("click", function(){
- $(".border-vertical").find(".active").removeClass("active");
- $(this).addClass("active");
-});
-
-document.querySelector( "#nav-toggle" ).addEventListener( "click", function() {
-  this.classList.toggle( "active" );
-});
-
-document.querySelector( "#nav-toggle" ).addEventListener( "mouseover", function() {
-  this.classList.add( "closer" );
-});
+  document.querySelector( "#nav-toggle" ).addEventListener( "mouseover", function() {
+    this.classList.add( "closer" );
+  });
 
 </script>
 </body>

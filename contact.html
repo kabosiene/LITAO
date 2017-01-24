@@ -17,7 +17,7 @@
 
 </head>
 <body>
-<header class="header" id="header">
+  <header class="header" id="header">
 
     <a id="nav-toggle" onclick="openNav()" href="#"><span></span></a>
 
@@ -57,133 +57,133 @@
     </div>
   </header>
 
-<div class="container-fluid level-2" id="contact_id">
-  <div class="row">
-   <div class="col-md-1 right color-green">
-   </div>
-   <div class="col-md-10 left color-grey">
-    <div class="page-heading"><h6> CONTACT US</h6></div>
-    <div class="row contact-form">
-      <div class="col-md-4">
-        <address >
-          <strong>Contact Us</strong><br>
-          <p class="text-justify">Tel: 86-21-0520631<br>
-            Tel: 86-21-0520631<br>
-            <strong>www.litao.lt</strong></p>
-            <button type="button" class="btn btn-primary btn-block sharp">CONTACT</button>
-          </address>
-        </div>
+  <div class="container-fluid" id="contact_id">
+    <div class="row">
+     <div class="col-md-1 right color-green">
+     </div>
+     <div class="col-md-10 left color-grey">
+      <div class="page-heading"><h6> CONTACT US</h6></div>
+      <div class="row contact-form">
         <div class="col-md-4">
-          <address>
-            <strong>Our Offices</strong><br>
-            1355 Market St, Suite 900<br>
-            San Francisco, CA 94103<br>
-          </address>
-        </div>
-        <div class="col-md-4">
-          <address>
-            <strong>Get a Quote</strong><br>
-            <p class="text-justify"> For a quick qoute get in contact. Write us an Email.</p>
-            <button type="button" class="btn btn-primary btn-block sharp">EMAIL</button>
-          </address>
+          <address >
+            <strong>Contact Us</strong><br>
+            <p class="text-justify">Tel: 86-21-0520631<br>
+              Tel: 86-21-0520631<br>
+              <strong>www.litao.lt</strong></p>
+              <button type="button" class="btn btn-primary btn-block sharp">CONTACT</button>
+            </address>
+          </div>
+          <div class="col-md-4">
+            <address>
+              <strong>Our Offices</strong><br>
+              1355 Market St, Suite 900<br>
+              San Francisco, CA 94103<br>
+            </address>
+          </div>
+          <div class="col-md-4">
+            <address>
+              <strong>Get a Quote</strong><br>
+              <p class="text-justify"> For a quick qoute get in contact. Write us an Email.</p>
+              <button type="button" class="btn btn-primary btn-block sharp">EMAIL</button>
+            </address>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col-md-1 right color-green">
+      <div class="col-md-1 right color-green">
+      </div>
     </div>
   </div>
-</div>
 
-<script src="js/jquery-3.1.1.min.js"></script>
-<script src="js/jquery.easing.min.js"></script>
-<script src="js/jquery.multiscroll.js"></script>
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/jquery.multiscroll.js"></script>
 
-<script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 
-<script type="text/javascript">
-  $(document).ready(function() {
+  <script type="text/javascript">
+    $(document).ready(function() {
 
+    });
+
+    $(".nav a").on("click", function(){
+     $(".nav").find(".active").removeClass("active");
+     $(this).addClass("active");
+   });
+
+    document.getElementById("contact_id").onmouseover = function() {closeNav()};
+
+    function openNav() {
+      document.getElementById("mySidenavMenu").style.borderRight = "1px solid #cccbc5";
+      document.getElementById("mySidenav").style.width = "45%";
+      document.getElementById("mySidenavMenu").style.width = "5%";
+      setTimeout(change_width, 200);
+      setTimeout(change_opacity, 300);
+      document.getElementsByClassName('sidenav_link');
+      document.querySelector("#nav-toggle").setAttribute('onclick','closeNav()');
+    };
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      setTimeout(change_width_0, 400);
+      setTimeout(change_opacity_0, 100);
+      document.getElementById("mySidenavMenu").style.width = "0";
+      setTimeout(change_border,550);
+      document.querySelector("#nav-toggle").setAttribute('onclick','openNav()');
+      document.getElementById("nav-toggle").className = "";
+    };
+
+    function change_width_0() {
+      var links = document.getElementsByClassName('sidenav_link'),
+      i = links.length;
+
+      while(i--) {
+        links[i].style.width = "0";
+      }
+    }
+    function change_opacity_0() {
+      var links = document.getElementsByClassName('sidenav_link'),
+      i = links.length;
+
+      while(i--) {
+        links[i].style.opacity = "0";
+      }
+    }
+    function change_width() {
+      var links = document.getElementsByClassName('sidenav_link'),
+      i = links.length;
+
+      while(i--) {
+        links[i].removeAttribute("style");
+      }
+    }
+    function change_opacity() {
+      var links = document.getElementsByClassName('sidenav_link'),
+      i = links.length;
+
+      while(i--) {
+       links[i].style.opacity = "1";
+     }
+   }
+   function change_border(){
+    document.getElementById("mySidenavMenu").style.border = "none";
+  }
+
+  $(".border-intro a").on("click", function(){
+    $(".border-intro").find(".active").removeClass("active");
+    $(this).addClass("active");
   });
-
- $(".nav a").on("click", function(){
-   $(".nav").find(".active").removeClass("active");
+  $(".border-vertical a").on("click", function(){
+   $(".border-vertical").find(".active").removeClass("active");
    $(this).addClass("active");
  });
 
- document.getElementById("contact_id").onmouseover = function() {closeNav()};
+  document.querySelector( "#nav-toggle" ).addEventListener( "click", function() {
+    this.classList.toggle( "active" );
+  });
 
-function openNav() {
-  document.getElementById("mySidenavMenu").style.borderRight = "1px solid #cccbc5";
-  document.getElementById("mySidenav").style.width = "45%";
-  document.getElementById("mySidenavMenu").style.width = "5%";
-  setTimeout(change_width, 200);
-  setTimeout(change_opacity, 300);
-  document.getElementsByClassName('sidenav_link');
-  document.querySelector("#nav-toggle").setAttribute('onclick','closeNav()');
-};
-
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-  setTimeout(change_width_0, 400);
-  setTimeout(change_opacity_0, 100);
-  document.getElementById("mySidenavMenu").style.width = "0";
-  setTimeout(change_border,550);
-  document.querySelector("#nav-toggle").setAttribute('onclick','openNav()');
-  document.getElementById("nav-toggle").className = "";
-};
-
-function change_width_0() {
-  var links = document.getElementsByClassName('sidenav_link'),
-  i = links.length;
-
-  while(i--) {
-    links[i].style.width = "0";
-  }
-}
-function change_opacity_0() {
-  var links = document.getElementsByClassName('sidenav_link'),
-  i = links.length;
-
-  while(i--) {
-    links[i].style.opacity = "0";
-  }
-}
-function change_width() {
-  var links = document.getElementsByClassName('sidenav_link'),
-  i = links.length;
-
-  while(i--) {
-    links[i].removeAttribute("style");
-  }
-}
-function change_opacity() {
-  var links = document.getElementsByClassName('sidenav_link'),
-  i = links.length;
-
-  while(i--) {
-   links[i].style.opacity = "1";
- }
-}
-function change_border(){
-  document.getElementById("mySidenavMenu").style.border = "none";
-}
-
-$(".border-intro a").on("click", function(){
-  $(".border-intro").find(".active").removeClass("active");
-  $(this).addClass("active");
-});
-$(".border-vertical a").on("click", function(){
- $(".border-vertical").find(".active").removeClass("active");
- $(this).addClass("active");
-});
-
-document.querySelector( "#nav-toggle" ).addEventListener( "click", function() {
-  this.classList.toggle( "active" );
-});
-
-document.querySelector( "#nav-toggle" ).addEventListener( "mouseover", function() {
-  this.classList.add( "closer" );
-});
+  document.querySelector( "#nav-toggle" ).addEventListener( "mouseover", function() {
+    this.classList.add( "closer" );
+  });
 
 </script>
 </body>

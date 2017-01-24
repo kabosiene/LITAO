@@ -66,7 +66,7 @@
               <p class="home-text animated2 fadeInDown">
                 Helping foreign companies China-fy <br/> and Chinese companies globalize
               </p>
-              <img class="home-arrow img-fluid animated3 fadeInLeft" src="icons&logo/arrow-down.png" alt="arrow-down image">
+              <img class="home-arrow img-fluid animated3 fadeInDown" src="icons&logo/arrow-down.png" alt="arrow-down image">
             </div>
           </div>
         </div>
@@ -221,9 +221,26 @@
           </div>
         </div>
         <div class="ms-right col-md-6">
-          <div class="ms-section active carousel margin-0 " data-anchor="home">
+          <div class="ms-section active margin-0 " data-anchor="home">
             <div class="right">
-              <div class="photo-carousel"></div>
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="4000">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                  <div class="carousel-item active">
+                    <img class="d-block img-fluid animated fadeIn" src="./home-images/home.png" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block img-fluid animated fadeIn" src="./home-images/home.png" alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block img-fluid animated fadeIn" src="./home-images/home.png" alt="Third slide">
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="ms-section color-green margin-0" data-anchor="about_us">
@@ -258,14 +275,14 @@
              <img class="intro-img img-fluid " src="home-images/snowman.jpg" alt="Christmas Card">
            </div>
          </div>
-         <div class="ms-section color-green margin-0" data-anchor="about_china">
+         <div class="ms-section chinabg-color margin-0" data-anchor="about_china">
           <div class=" right">
             <div id="rectangle">
             </div>
             <div class="content-padding">
              <div class="intro-column">
                <img class="title-img img-fluid" src="icons&logo/about_china.png" alt="WHY US">
-               <div class="intro-content">
+              <div class="intro-content">
                 <p class="text-justify"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
                   Praesent vel mauris id sem ultrices finibus.
@@ -275,7 +292,6 @@
                   Donec tempor nulla vel odio tincidunt ultrices.
                   Phasellus consequat congue ullamcorper.
                 </p>
-                <img class="home-arrow img-fluid animated fadeInDown" src="icons&logo/arrow-down.png" alt="arrow-down image">
               </div>
             </div>
           </div>
@@ -297,7 +313,7 @@
     anchors: ['home', 'about_us', 'why_us', 'our_work', 'about_china'],
     menu: '#myMenu'
   });
-  });
+});
 
  $(".nav a").on("click", function(){
    $(".nav").find(".active").removeClass("active");
@@ -306,7 +322,7 @@
 
  document.getElementById("multiscroll").onmouseover = function() {closeNav()};
 
-function openNav() {
+ function openNav() {
   document.getElementById("mySidenavMenu").style.borderRight = "1px solid #cccbc5";
   document.getElementById("mySidenav").style.width = "45%";
   document.getElementById("mySidenavMenu").style.width = "5%";

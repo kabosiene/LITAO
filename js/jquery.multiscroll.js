@@ -13,8 +13,8 @@
 		// Create some defaults, extending them with any options that were provided
 		options = $.extend({
 			'verticalCentered' : true,
-			'scrollingSpeed': 700,
-			'easing': 'easeInQuart',
+			'scrollingSpeed': 500,
+			'easing': 'easeInCirc',
 			'menu': false,
 			'sectionsColor': [],
 			'anchors':[],
@@ -47,7 +47,7 @@
 		//Defines the delay to take place before being able to scroll to the next section
 		//BE CAREFUL! Not recommened to change it under 400 for a good behavior in laptops and
 		//Apple devices (laptops, mouses...)
-		var scrollDelay = 600;
+		var scrollDelay = 400;
 
 		var isTouch = (('ontouchstart' in window) || (navigator.msMaxTouchPoints > 0) || (navigator.maxTouchPoints));
 

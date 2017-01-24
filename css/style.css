@@ -8,66 +8,6 @@ body{
   font-size: 16px;
 }
 
-body::before {
-  /* never visible - this is used in jQuery to check the current MQ */
-  content: 'mobile';
-  display: none;
-}
-@media only screen and (min-width: 1050px) {
-  body::before {
-    /* never visible - this is used in jQuery to check the current MQ */
-    content: 'desktop';
-  }
-}
-@media only screen and (min-width: 1050px) {
-  body[data-hijacking="on"] {
-    overflow: hidden;
-  }
-}
-
-@media only screen and (min-width: 1050px) {
-
-  [data-hijacking="on"] .cd-section {
-    opacity: 0;
-    visibility: hidden;
-    position: absolute;
-    top: 0px;
-    left: 0;
-    width: 100%;
-  }
-  [data-hijacking="on"] .cd-section > div {
-    visibility: visible;
-  }
-  [data-hijacking="off"] .cd-section > div {
-    opacity: 0;
-  }
-
-}
-
-@media only screen and (min-width: 1050px) {
-  .cd-section:first-of-type > div::before {
-    display: none;
-  }
-}
-@media only screen and (min-width: 1050px) {
-  .cd-section > div {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    /* Force Hardware Acceleration */
-    -webkit-transform: translateZ(0);
-    -moz-transform: translateZ(0);
-    -ms-transform: translateZ(0);
-    -o-transform: translateZ(0);
-    transform: translateZ(0);
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-  }
-  [data-hijacking="on"] .cd-section > div {
-    position: absolute;
-  }
-}
 
 a{
   text-decoration:none;
@@ -483,7 +423,7 @@ section {
   overflow: hidden;
 }
 .content-left, .content-right{
- /*height: 525px;*/
+ height: 100%;
 }
 
 
@@ -504,6 +444,7 @@ section {
   padding-bottom: 20px;
 }
 
+
 .home-intro {
   margin-top: 5%;
 }
@@ -513,8 +454,8 @@ section {
   height: 30px;
   }*/
   .home-arrow {
-    margin-top: 10%;
     height: 50px;
+    width: auto;
   }
 
   .home-text {
@@ -522,12 +463,11 @@ section {
    font-size: 20px;
    margin-bottom: 20%;
   }
+.carousel-item img {
+  width: 100%;
+}
 
-  .carousel{
-    background: url('../home-images/home.png');
-    background-size: cover;
-  }
-  .about-china-img{
+.about-china-img{
     background: url('../home-images/china-lamp.jpg');
     background-size: cover;
   }
@@ -546,9 +486,6 @@ section {
 
   /*------intro----*/
 
-  .intro {
-    /*padding-left: 75px;*/
-  }
   .content-padding{
     /*padding-left: 0px;
     margin-top: 150px;*/
@@ -565,9 +502,10 @@ section {
     padding-left: 10px;
     /*z-index:96;*/
   }
+
   .intro-column {
-    margin: 50px 30px 0 30px;
-  }
+     margin: 20% 15% 0 15%;
+    }
   .intro-title {
     font-size: 16px;
     margin: 50px 0 50px 20px;
@@ -578,78 +516,25 @@ section {
     z-index:1;
     font-family: 'BrandonGrotesque-Light';
     font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 20px;
     margin-top: 50px;
+    padding-bottom: 50px;
   }
   .intro-img {
+    width: 80%;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom:5%;
   }
   .title-img{
     position:relative;
     width: 50%;
-  }
-  #square{
-    position:absolute;
-    left: 50%;
+    right: 25%;
     top: 50%;
-    margin: -15% 0 0 -15%;
-    z-index:0;
-    width: 30%;
-    background: #dfeae1;
-  }
-  #square:after {
-  content: "";
-  display: block;
-  padding-bottom: 100%;
-}
-  #rectangle {
-    position:absolute;
-    left: 50%;
-    top: 50%;
-    margin: -38% 0 0 -35%;
-    z-index:0;
-    width: 70%;
-    background: #f6f3f0;
-  }
-  #rectangle:after {
-  content: "";
-  display: block;
-  padding-bottom: 110%;
-}
-  #circle {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin: -15% 0 0 -15%;
-    z-index:0;
-    width: 30%;
-    background: #dfeae1;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-  }
-  #circle:after{
-    content: "";
-    display: block;
-    padding-bottom: 100%;
-  }
-  #triangle-topleft {
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-top: 800px solid #dfeae1;
-    border-right: 300px solid transparent;
   }
 
-  @media only screen and (min-width: 720px){
-    .intro-column {
-      margin: 0px 20% 0 20%;
-    }
-    .intro-content {
-      margin-top: 50px;
-    }
-    .intro-img {
-      width: 60%;
-    }
-  }
+
   /*-----------level2---------*/
   .level2-logo {
     margin: 5px 0 10px 50px;
@@ -721,109 +606,105 @@ section {
     min-height:100px;
   }
 
-/*.border-text2 {
-  -webkit-transform: rotate(-90deg);
-  -moz-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  -o-transform: rotate(-90deg);
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .chinabg-color{
+    background-color: #dfeae1;
+  }
+  .intro-img {
+    width: 70%;
+    height: auto;
+
+  }
+    #square{
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    margin: -16% 0 0 -16%;
+    z-index:0;
+    width: 38%;
+    background: #dfeae1;
+  }
+  #square:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+  #rectangle {
   position: absolute;
-  left: -20px;
-  top: 100px;
-  font-size: 10px;
-}
-*/
-
-.revealer {
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  z-index: 1000;
-  pointer-events: none;
-}
-.revealer--right,
-.revealer--left {
-  top: 50%;
-  left: 50%;
-}
-.revealer__layer {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: #ddd;
-}
-.anim--effect-3 .page:nth-child(2) {
-  background: #F3A3D3;
-}
-
-.anim--effect-3 .revealer--animate .revealer__layer {
-  animation: anim-effect-3-1 1.5s cubic-bezier(0.550, 0.055, 0.675, 0.190) forwards;
-}
-
-.anim--effect-3 .revealer--animate .revealer__layer:nth-child(2) {
-  animation-name: anim-effect-3-2;
-}
-
-.anim--effect-3 .revealer--animate .revealer__layer:nth-child(3) {
-  animation-name: anim-effect-3-3;
-}
-
-@keyframes anim-effect-3-1 {
-  0% {
-    transform: translate3d(0, 0, 0);
+  left: 10%;
+  top: 5%;
+  margin: 0 0 0 0;
+  z-index: 0;
+  width: 80%;
+  height: 90%;
+  background: #f6f3f0;
   }
-  25%, 75% {
-    transform: translate3d(0, -100%, 0);
-    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-  }
-  100% {
-    transform: translate3d(0, -200%, 0);
-  }
-}
 
-@keyframes anim-effect-3-2 {
-  0%, 12.5% {
-    transform: translate3d(0, 0, 0);
+  #circle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -20% 0 0 -20%;
+    z-index:0;
+    width: 40%;
+    background: #dfeae1;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
   }
-  37.5%, 62.5% {
-    transform: translate3d(0, -100%, 0);
-    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  #circle:after{
+    content: "";
+    display: block;
+    padding-bottom: 100%;
   }
-  87.5%, 100% {
-    transform: translate3d(0, -200%, 0);
+  #triangle-topleft {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 800px solid #dfeae1;
+    border-right: 300px solid transparent;
   }
+
+    .intro-column {
+      margin: 15% 25% 0 25%;
+    }
+
+    .intro-content {
+    position:relative;
+    z-index:1;
+    font-family: 'BrandonGrotesque-Light';
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 32px;
+    margin-top: 50px;
+  }
+  }
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+
 }
 
-@keyframes anim-effect-3-3 {
-  0%, 25% {
-    transform: translate3d(0, 0, 0);
-    animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000);
-  }
-  75%, 100% {
-    transform: translate3d(0, -200%, 0);
-  }
-}
  /******************************/
  .animated {
-  -webkit-animation-duration: 1s;
-  -moz-animation-duration: 1s;
-  animation-duration: 1s;
-   -webkit-animation-delay: 0.7s;
-  -moz-animation-delay: 0.7s;
-  animation-delay: 0.7s;
+  -webkit-animation-duration: 2.5s;
+  -moz-animation-duration: 2.5s;
+  animation-duration: 2.5s;
+   -webkit-animation-delay: 0s;
+  -moz-animation-delay: 0s;
+  animation-delay: 0s;
   -webkit-animation-fill-mode: both;
   -moz-animation-fill-mode: both;
   animation-fill-mode: both;
 }
  .animated2 {
-  -webkit-animation-duration: 1s;
-  -moz-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-delay: 1.2s;
-  -moz-animation-delay: 1.2s;
-  animation-delay: 1.2s;
+  -webkit-animation-duration: 0.8s;
+  -moz-animation-duration: 0.8s;
+  animation-duration: 0.8s;
+  -webkit-animation-delay: 0.8s;
+  -moz-animation-delay: 0.8s;
+  animation-delay: 0.8s;
   -webkit-animation-fill-mode: both;
   -moz-animation-fill-mode: both;
   animation-fill-mode: both;
@@ -832,9 +713,9 @@ section {
   -webkit-animation-duration: 1s;
   -moz-animation-duration: 1s;
   animation-duration: 1s;
-  -webkit-animation-delay: 1.6s;
-  -moz-animation-delay: 1.6s;
-  animation-delay: 1.6s;
+  -webkit-animation-delay: 0.8s;
+  -moz-animation-delay: 0.8s;
+  animation-delay: 0.8s;
   -webkit-animation-fill-mode: both;
   -moz-animation-fill-mode: both;
   animation-fill-mode: both;
