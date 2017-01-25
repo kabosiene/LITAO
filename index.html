@@ -10,6 +10,7 @@
   <link href="css/font.css" rel="stylesheet">
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/jquery.multiscroll.css" rel="stylesheet">
+  <link href="css/animate.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <link rel="icon" type="image/png" href="icons&logo/logo.png">
 
@@ -103,7 +104,7 @@
             <div id="square"></div>
             <div class="content-padding">
               <div class="intro-column">
-                <img class="title-img img-fluid" src="icons&logo/about_us.png" alt="ABOUT US">
+                <img class="title-img animated3 fadeInRight img-fluid" src="icons&logo/about_us.png" alt="ABOUT US">
                 <div class="intro-content">
                   <p class="text-justify"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
@@ -112,7 +113,7 @@
                     Phasellus consequat congue ullamcorper.
                     Praesent vel mauris id sem ultrices finibus.
                     Donec tempor nulla vel odio tincidunt ultrices.
-                    Phasellus consequat congue ullamcorper.
+
                   </p>
                   <img class="home-arrow img-fluid animated fadeInDown" src="icons&logo/arrow-down.png" alt="arrow-down image">
                 </div>
@@ -174,7 +175,7 @@
             <div class="left">
               <div class="content-padding">
                 <div class="intro-column">
-                  <img class="title-img img-fluid" src="icons&logo/our_work.png" alt="OUR WORK" ">
+                  <img class="title-img animated3 fadeInRight img-fluid" src="icons&logo/our_work.png" alt="OUR WORK" ">
                   <div class="intro-content">
                     <p class="text-justify"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
@@ -183,7 +184,7 @@
                       Phasellus consequat congue ullamcorper.
                       Praesent vel mauris id sem ultrices finibus.
                       Donec tempor nulla vel odio tincidunt ultrices.
-                      Phasellus consequat congue ullamcorper.
+
                     </p>
                     <img class="home-arrow img-fluid animated fadeInDown" src="icons&logo/arrow-down.png" alt="arrow-down image">
                   </div>
@@ -221,9 +222,9 @@
           </div>
         </div>
         <div class="ms-right col-md-6">
-          <div class="ms-section active margin-0 " data-anchor="home">
+          <div class="ms-section active margin-0 color-green" data-anchor="home">
             <div class="right">
-              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="4000">
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="0">
                 <ol class="carousel-indicators">
                   <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                   <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -253,7 +254,7 @@
               <div id="circle"></div>
               <div class="content-padding">
                 <div class="intro-column">
-                  <img class="title-img img-fluid" src="icons&logo/why_us.png" alt="WHY US"">
+                  <img class="title-img animated3 fadeInRight img-fluid" src="icons&logo/why_us.png" alt="WHY US"">
                   <div class="intro-content">
                     <p class="text-justify"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
@@ -262,7 +263,7 @@
                       Phasellus consequat congue ullamcorper.
                       Praesent vel mauris id sem ultrices finibus.
                       Donec tempor nulla vel odio tincidunt ultrices.
-                      Phasellus consequat congue ullamcorper.
+
                     </p>
                     <img class="home-arrow img-fluid animated fadeInDown" src="icons&logo/arrow-down.png" alt="arrow-down image">
                   </div>
@@ -281,7 +282,7 @@
             </div>
             <div class="content-padding">
              <div class="intro-column">
-               <img class="title-img img-fluid" src="icons&logo/about_china.png" alt="WHY US">
+               <img class="title-img animated3 fadeInRight img-fluid" src="icons&logo/about_china.png" alt="ABOUT CHINA">
               <div class="intro-content">
                 <p class="text-justify"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
@@ -290,7 +291,7 @@
                   Phasellus consequat congue ullamcorper.
                   Praesent vel mauris id sem ultrices finibus.
                   Donec tempor nulla vel odio tincidunt ultrices.
-                  Phasellus consequat congue ullamcorper.
+
                 </p>
               </div>
             </div>
@@ -324,6 +325,7 @@
 
  function openNav() {
   document.getElementById("mySidenavMenu").style.borderRight = "1px solid #cccbc5";
+  document.getElementById("mySidenav").style.visibility = "visible";
   document.getElementById("mySidenav").style.width = "45%";
   document.getElementById("mySidenavMenu").style.width = "5%";
   setTimeout(change_width, 200);
@@ -334,12 +336,13 @@
 
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
-  setTimeout(change_width_0, 400);
-  setTimeout(change_opacity_0, 100);
   document.getElementById("mySidenavMenu").style.width = "0";
-  setTimeout(change_border,550);
-  document.querySelector("#nav-toggle").setAttribute('onclick','openNav()');
+   document.querySelector("#nav-toggle").setAttribute('onclick','openNav()');
+   setTimeout(change_width_0, 400);
+  setTimeout(change_opacity_0, 100);
   document.getElementById("nav-toggle").className = "";
+  setTimeout(change_border,550);
+  document.getElementById("mySidenav").style.visibility = "hidden";
 };
 
 function change_width_0() {

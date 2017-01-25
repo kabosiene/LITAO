@@ -10,6 +10,7 @@
   <link href="css/font.css" rel="stylesheet">
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/jquery.multiscroll.css" rel="stylesheet">
+  <link href="css/animate.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <link rel="icon" type="image/png" href="icons&logo/logo.png">
 
@@ -56,7 +57,7 @@
     </div>
   </header>
 
-  <div class="container-fluid mobile" >
+  <div class="container-fluid mobile " id="mobile-view">
 
     <div class="row">
       <div class="col-md-6 padding-0 color-green ">
@@ -100,12 +101,12 @@
     </div>
 
     <div class="row">
-      <div class="col-md-6 padding-0">
+      <div class="col-md-12 padding-0">
         <div class="color-grey " data-anchor="about_us">
           <div class="left">
             <div class="content-padding">
               <div class="intro-column">
-                <img class="title-img img-fluid" src="icons&logo/about_us.png" alt="ABOUT US">
+                <img class="title-img animated fadeIn img-fluid" src="icons&logo/about_us.png" alt="ABOUT US">
                 <div class="intro-content">
                   <p class="text-justify"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
@@ -116,6 +117,7 @@
                     Donec tempor nulla vel odio tincidunt ultrices.
                     Phasellus consequat congue ullamcorper.
                   </p>
+                  <button type="button" class="btn btn-primary btn-block sharp">MORE</button>
                   <img class="hidden-sm-down home-arrow img-fluid animated fadeInDown" src="icons&logo/arrow-down.png" alt="arrow-down image">
                 </div>
               </div>
@@ -123,7 +125,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6 padding-0">
+      <div class="col-md-12 padding-0 hidden-sm-down">
         <div class="color-green " data-anchor="about_us">
           <div class="right">
             <img class="intro-img img-fluid " src="home-images/snowman.jpg" alt="Christmas Card">
@@ -133,20 +135,20 @@
     </div>
 
     <div class="row">
-      <div class="col-md-6 padding-0">
+      <div class="col-md-12 padding-0 hidden-sm-down">
         <div class=" color-green "  data-anchor="why_us">
           <div class="left ">
             <img class="intro-img img-fluid" src="home-images/snowman.jpg" alt="Christmas Card">
           </div>
         </div>
       </div>
-      <div class="col-md-6 padding-0">
+      <div class="col-md-12 padding-0">
         <div class="color-grey " data-anchor="why_us">
           <div class=" right">
             <div id="circle"></div>
             <div class="content-padding">
               <div class="intro-column">
-                <img class="title-img img-fluid" src="icons&logo/why_us.png" alt="WHY US"">
+                <img class="title-img animated fadeIn img-fluid" src="icons&logo/why_us.png" alt="WHY US"">
                 <div class="intro-content">
                   <p class="text-justify"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
@@ -157,6 +159,7 @@
                     Donec tempor nulla vel odio tincidunt ultrices.
                     Phasellus consequat congue ullamcorper.
                   </p>
+                  <button type="button" class="btn btn-primary btn-block sharp">MORE</button>
                   <img class="hidden-sm-down home-arrow img-fluid animated fadeInDown" src="icons&logo/arrow-down.png" alt="arrow-down image">
                 </div>
               </div>
@@ -167,13 +170,13 @@
     </div>
 
     <div class="row">
-      <div class="col-md-6 padding-0">
+      <div class="col-md-12 padding-0">
         <div class="color-grey " data-anchor="our_work">
           <div>
             <div class="left">
               <div class="content-padding">
                 <div class="intro-column">
-                  <img class="title-img img-fluid" src="icons&logo/our_work.png" alt="OUR WORK" ">
+                  <img class="title-img animated fadeIn img-fluid" src="icons&logo/our_work.png" alt="OUR WORK" ">
                   <div class="intro-content">
                     <p class="text-justify"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
@@ -184,6 +187,7 @@
                       Donec tempor nulla vel odio tincidunt ultrices.
                       Phasellus consequat congue ullamcorper.
                     </p>
+                    <button type="button" class="btn btn-primary btn-block sharp">MORE</button>
                     <img class="home-arrow img-fluid animated fadeInDown hidden-sm-down" src="icons&logo/arrow-down.png" alt="arrow-down image">
                   </div>
                 </div>
@@ -192,7 +196,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6 padding-0">
+      <div class="col-md-12 padding-0 hidden-sm-down">
         <div class=" color-green " data-anchor="our_work">
           <div class="right ">
            <img class="intro-img img-fluid " src="home-images/snowman.jpg" alt="Christmas Card">
@@ -201,19 +205,17 @@
      </div>
    </div>
 
-
    <div class="row">
-    <div class="col-md-6 padding-0">
+    <div class="col-md-12 padding-0 hidden-sm-down">
       <div class=" about-china-img " data-anchor="about_china">
       </div>
     </div>
-
-    <div class="col-md-6 padding-0">
+    <div class="col-md-12 padding-0">
       <div class=" chinabg-color " data-anchor="about_china">
         <div class=" right">
           <div class="content-padding">
             <div class="intro-column">
-              <img class="title-img img-fluid" src="icons&logo/about_china.png" alt="WHY US">
+              <img class="title-img animated fadeIn img-fluid" src="icons&logo/about_china.png" alt="WHY US">
               <div class="intro-content">
                 <p class="text-justify"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
@@ -224,91 +226,160 @@
                   Donec tempor nulla vel odio tincidunt ultrices.
                   Phasellus consequat congue ullamcorper.
                 </p>
+                <button type="button" class="btn btn-primary btn-block sharp">MORE</button>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+
+
+    <div class="row raq-form">
+      <div class="page-heading"><h4> RAQ</h4>
+      </div>
+      <div class="raq-content">
+        <h4 class="text-uppercase"><strong>Questions people ask</strong></h4>
+        <p class="leading-text text-justify">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem</p>
+        <input type="checkbox" class="read-more-state" id="post-1" />
+        <label class="btn btn-primary btn-block sharp read-more-trigger" for="post-1"></label>
+
+        <div class="row read-more-target">
+          <div class="question col-md-12 ">
+            <a href="raq-answer.html" title="link to answer" data-page=""><h5><strong>Heading</strong></h5></a>
+            <p class="text-justify">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. </p>
+          </div>
+        </div>
+
+        <div class="row read-more-target">
+          <div class="question col-md-12">
+            <h5><strong>Heading1</strong></h5>
+            <p class="text-justify">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. </p>
+          </div>
+        </div>
+
+        <div class="row read-more-target ">
+          <div class="question col-md-12">
+            <h5><strong>Heading2</strong></h5>
+            <p class="text-justify">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row contact-form">
+      <div class="page-heading">
+        <h4> CONTACT US</h4>
+      </div>
+      <div class="col-md-12">
+        <address >
+          <strong>Contact Us</strong><br>
+          <p class="text-justify">Tel: 86-21-0520631<br>
+            Tel: 86-21-0520631<br>
+            <strong>www.litao.lt</strong></p>
+            <button type="button" class="btn btn-primary btn-block sharp">CONTACT</button>
+          </address>
+        </div>
+        <div class="col-md-12">
+          <address>
+            <strong>Our Offices</strong><br>
+            1355 Market St, Suite 900<br>
+            San Francisco, CA 94103<br>
+          </address>
+        </div>
+        <div class="col-md-12">
+          <address>
+            <strong>Get a Quote</strong><br>
+            <p class="text-justify"> For a quick qoute get in contact. Write us an Email.</p>
+            <button type="button" class="btn btn-primary btn-block sharp">EMAIL</button>
+          </address>
+        </div>
+      </div>
+    </div>
   </div>
 
-</div>
-</div>
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/jquery.multiscroll.js"></script>
 
-<script src="js/jquery-3.1.1.min.js"></script>
-<script src="js/jquery.easing.min.js"></script>
-<script src="js/jquery.multiscroll.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 
-<script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+   $(document).ready(function() {
+    /*$('#multiscroll').multiscroll({
+      anchors: ['home', 'about_us', 'why_us', 'our_work', 'about_china'],
+      menu: '#myMenu'
+    });*/
+    var isMobile = window.matchMedia("only screen and (max-width: 992px)");
 
-<script type="text/javascript">
- /*$(document).ready(function() {
-  $('#multiscroll').multiscroll({
-    anchors: ['home', 'about_us', 'why_us', 'our_work', 'about_china'],
-    menu: '#myMenu'
-  });
-});*/
+    if (isMobile.matches) {
+     document.getElementById("mobile-view").removeAttribute("style");
+   }else{
+     document.getElementById("mobile-view").style.display = "none";
+   }
+ });
 
-$(".nav a").on("click", function(){
- $(".nav").find(".active").removeClass("active");
- $(this).addClass("active");
-});
 
-/*document.getElementById("multiscroll").onmouseover = function() {closeNav()};*/
+   $(".nav a").on("click", function(){
+     $(".nav").find(".active").removeClass("active");
+     $(this).addClass("active");
+   });
 
-function openNav() {
-  document.getElementById("mySidenavMenu").style.borderRight = "1px solid #cccbc5";
-  document.getElementById("mySidenav").style.width = "45%";
-  document.getElementById("mySidenavMenu").style.width = "5%";
-  setTimeout(change_width, 200);
-  setTimeout(change_opacity, 300);
-  document.getElementsByClassName('sidenav_link');
-  document.querySelector("#nav-toggle").setAttribute('onclick','closeNav()');
-};
+   /*document.getElementById("multiscroll").onmouseover = function() {closeNav()};*/
 
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-  setTimeout(change_width_0, 400);
-  setTimeout(change_opacity_0, 100);
-  document.getElementById("mySidenavMenu").style.width = "0";
-  setTimeout(change_border,550);
-  document.querySelector("#nav-toggle").setAttribute('onclick','openNav()');
-  document.getElementById("nav-toggle").className = "";
-};
+   function openNav() {
+    document.getElementById("mySidenavMenu").style.borderRight = "1px solid #cccbc5";
+    document.getElementById("mySidenav").style.width = "45%";
+    document.getElementById("mySidenavMenu").style.width = "5%";
+    setTimeout(change_width, 200);
+    setTimeout(change_opacity, 300);
+    document.getElementsByClassName('sidenav_link');
+    document.querySelector("#nav-toggle").setAttribute('onclick','closeNav()');
+  };
 
-function change_width_0() {
-  var links = document.getElementsByClassName('sidenav_link'),
-  i = links.length;
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    setTimeout(change_width_0, 400);
+    setTimeout(change_opacity_0, 100);
+    document.getElementById("mySidenavMenu").style.width = "0";
+    setTimeout(change_border,550);
+    document.querySelector("#nav-toggle").setAttribute('onclick','openNav()');
+    document.getElementById("nav-toggle").className = "";
+  };
 
-  while(i--) {
-    links[i].style.width = "0";
+  function change_width_0() {
+    var links = document.getElementsByClassName('sidenav_link'),
+    i = links.length;
+
+    while(i--) {
+      links[i].style.width = "0";
+    }
   }
-}
-function change_opacity_0() {
-  var links = document.getElementsByClassName('sidenav_link'),
-  i = links.length;
+  function change_opacity_0() {
+    var links = document.getElementsByClassName('sidenav_link'),
+    i = links.length;
 
-  while(i--) {
-    links[i].style.opacity = "0";
+    while(i--) {
+      links[i].style.opacity = "0";
+    }
   }
-}
-function change_width() {
-  var links = document.getElementsByClassName('sidenav_link'),
-  i = links.length;
+  function change_width() {
+    var links = document.getElementsByClassName('sidenav_link'),
+    i = links.length;
 
-  while(i--) {
-    links[i].removeAttribute("style");
+    while(i--) {
+      links[i].removeAttribute("style");
+    }
   }
-}
-function change_opacity() {
-  var links = document.getElementsByClassName('sidenav_link'),
-  i = links.length;
+  function change_opacity() {
+    var links = document.getElementsByClassName('sidenav_link'),
+    i = links.length;
 
-  while(i--) {
-   links[i].style.opacity = "1";
+    while(i--) {
+     links[i].style.opacity = "1";
+   }
  }
-}
-function change_border(){
+ function change_border(){
   document.getElementById("mySidenavMenu").style.border = "none";
 }
 
