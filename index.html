@@ -62,7 +62,7 @@
       <div class="ms-left col-md-6">
         <div class="ms-section active margin-0 color-green " data-anchor="home">
           <div class="content-left">
-            <img src="icons&logo/logo_transparent_home.png" class="img-fluid home-logo animated fadeIn" alt="LITAO logo" width="50%">
+            <img src="icons&logo/logo_transparent_home.png" class="img-fluid home-logo animated fadeIn" alt="LITAO logo" width="45%">
             <div class="home-intro">
               <p class="home-text animated2 fadeInDown">
                 Helping foreign companies China-fy <br/> and Chinese companies globalize
@@ -104,7 +104,7 @@
             <div id="square"></div>
             <div class="content-padding">
               <div class="intro-column">
-                <img class="title-img animated3 fadeInRight img-fluid" src="icons&logo/about_us.png" alt="ABOUT US">
+                <img class="title-img animated3 fadeInUp img-fluid" src="icons&logo/about_us.png" alt="ABOUT US">
                 <div class="intro-content">
                   <p class="text-justify"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
@@ -113,7 +113,6 @@
                     Phasellus consequat congue ullamcorper.
                     Praesent vel mauris id sem ultrices finibus.
                     Donec tempor nulla vel odio tincidunt ultrices.
-
                   </p>
                   <img class="home-arrow img-fluid animated fadeInDown" src="icons&logo/arrow-down.png" alt="arrow-down image">
                 </div>
@@ -173,9 +172,10 @@
               </div>-->
             </div>
             <div class="left">
+              <div id="triangle-topleft"></div>
               <div class="content-padding">
                 <div class="intro-column">
-                  <img class="title-img animated3 fadeInRight img-fluid" src="icons&logo/our_work.png" alt="OUR WORK" ">
+                  <img class="title-img animated3 fadeInUp img-fluid" src="icons&logo/our_work.png" alt="OUR WORK" ">
                   <div class="intro-content">
                     <p class="text-justify"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
@@ -184,7 +184,6 @@
                       Phasellus consequat congue ullamcorper.
                       Praesent vel mauris id sem ultrices finibus.
                       Donec tempor nulla vel odio tincidunt ultrices.
-
                     </p>
                     <img class="home-arrow img-fluid animated fadeInDown" src="icons&logo/arrow-down.png" alt="arrow-down image">
                   </div>
@@ -254,7 +253,7 @@
               <div id="circle"></div>
               <div class="content-padding">
                 <div class="intro-column">
-                  <img class="title-img animated3 fadeInRight img-fluid" src="icons&logo/why_us.png" alt="WHY US"">
+                  <img class="title-img animated3 fadeInUp img-fluid" src="icons&logo/why_us.png" alt="WHY US"">
                   <div class="intro-content">
                     <p class="text-justify"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
@@ -263,7 +262,6 @@
                       Phasellus consequat congue ullamcorper.
                       Praesent vel mauris id sem ultrices finibus.
                       Donec tempor nulla vel odio tincidunt ultrices.
-
                     </p>
                     <img class="home-arrow img-fluid animated fadeInDown" src="icons&logo/arrow-down.png" alt="arrow-down image">
                   </div>
@@ -282,8 +280,8 @@
             </div>
             <div class="content-padding">
              <div class="intro-column">
-               <img class="title-img animated3 fadeInRight img-fluid" src="icons&logo/about_china.png" alt="ABOUT CHINA">
-              <div class="intro-content">
+               <img class="title-img animated3 fadeInUp img-fluid" src="icons&logo/about_china.png" alt="ABOUT CHINA">
+               <div class="intro-content">
                 <p class="text-justify"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
                   Praesent vel mauris id sem ultrices finibus.
@@ -291,7 +289,6 @@
                   Phasellus consequat congue ullamcorper.
                   Praesent vel mauris id sem ultrices finibus.
                   Donec tempor nulla vel odio tincidunt ultrices.
-
                 </p>
               </div>
             </div>
@@ -305,16 +302,14 @@
 <script src="js/jquery-3.1.1.min.js"></script>
 <script src="js/jquery.easing.min.js"></script>
 <script src="js/jquery.multiscroll.js"></script>
-
 <script src="js/bootstrap.min.js"></script>
-
 <script type="text/javascript">
  $(document).ready(function() {
-  $('#multiscroll').multiscroll({
-    anchors: ['home', 'about_us', 'why_us', 'our_work', 'about_china'],
-    menu: '#myMenu'
+    $('#multiscroll').multiscroll({
+      anchors: ['home', 'about_us', 'why_us', 'our_work', 'about_china'],
+      menu: '#myMenu'
+    });
   });
-});
 
  $(".nav a").on("click", function(){
    $(".nav").find(".active").removeClass("active");
@@ -337,8 +332,8 @@
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
   document.getElementById("mySidenavMenu").style.width = "0";
-   document.querySelector("#nav-toggle").setAttribute('onclick','openNav()');
-   setTimeout(change_width_0, 400);
+  document.querySelector("#nav-toggle").setAttribute('onclick','openNav()');
+  setTimeout(change_width_0, 400);
   setTimeout(change_opacity_0, 100);
   document.getElementById("nav-toggle").className = "";
   setTimeout(change_border,550);

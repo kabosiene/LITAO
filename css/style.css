@@ -306,13 +306,12 @@ section {
 /*-----/borders---*/
 
 /*level1*/
-
-.content-left, .content-right{
- height: 100%;
+.mobile-content {
+  height: 50vh;
 }
 .home-logo{
+  padding-bottom: 10%;
   margin-top: 20%;
-  padding-bottom: 20px;
 }
 .home-intro {
   margin-top: 5%;
@@ -326,7 +325,7 @@ section {
 .home-text {
  font-family: 'BrandonGrotesque-Light';
  font-size: 20px;
- margin-bottom: 20%;
+ margin-bottom: 10%;
 }
 .carousel-item img {
   width: 100%;
@@ -380,7 +379,6 @@ section {
   margin: 5px 0 10px 50px;
   height: 40px;
   padding-left: 10px;
-  /*z-index:96;*/
 }
 .founder-img{
   padding-left: 100px;
@@ -415,9 +413,6 @@ address {
   margin: 10% 15% 15% 15%;
 }
 .raq-content {
- /* padding-top: 80px;
-  padding-left: 80px;
-  padding-right: 60px;*/
   margin: 10% 15% 0 15%;
 }
 .raq-content h4 {
@@ -478,6 +473,9 @@ address {
   .container-fluid {
     padding: 0;
   }
+  .content-left{
+    height: 100%;
+  }
 }
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
@@ -488,8 +486,11 @@ address {
     height: 100vh;
   }
   .home-logo{
-    margin-top: 20%;
-    padding-bottom: 20px;
+    padding-bottom: 5%;
+    margin-top: 25%;
+  }
+  .home-arrow {
+    margin-top: 15%
   }
   .founder-column {
     margin: 50px 0 0 130px;
@@ -533,7 +534,6 @@ address {
     height: 83%;
     background: #f6f3f0;
   }
-
   #circle {
     position: absolute;
     left: 50%;
@@ -553,16 +553,15 @@ address {
   }
   #triangle-topleft {
     position: absolute;
+    top: 0;
     width: 0;
     height: 0;
-    border-top: 800px solid #dfeae1;
-    border-right: 300px solid transparent;
+    border-top: 120vh solid #dfeae1;
+    border-right: 30vw solid transparent;
   }
-
   .intro-column {
     margin: 15% 20% 0 20%;
   }
-
   .intro-content {
     line-height: 20px;
   }
@@ -577,14 +576,13 @@ address {
 
 }
 
-
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
    .intro-column {
     margin: 15% 25% 0 25%;
   }
   .intro-content {
-    line-height: 32px;
+    line-height: 30px;
   }
 
 }
@@ -593,8 +591,6 @@ address {
 @media only screen and (min-width : 1200px) {
 
 }
-
-
 
 /******************************/
 .animated {
