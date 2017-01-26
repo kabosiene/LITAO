@@ -129,7 +129,7 @@ section {
   transition: all 0.5s ease;
 }
 #nav-toggle.active span:hover:after{
-  background: #a55f60; /*should be grey 20%*/
+  background: #a55f60;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
@@ -339,7 +339,7 @@ section {
 
 /*------intro----*/
 
-.intro .right , .level-2 .left, .level-2 .right{
+ .level-2 .left, .level-2 .right{
   /*height: 100vh;*/
   padding: 0;
 }
@@ -554,8 +554,10 @@ address {
   #triangle-topleft {
     position: absolute;
     top: 0;
+    left: 0;
     width: 0;
     height: 0;
+    z-index: 0;
     border-top: 120vh solid #dfeae1;
     border-right: 30vw solid transparent;
   }
