@@ -556,7 +556,10 @@
 			if(options.menu){
 				$(options.menu).find('.active').removeClass('active');
 				$(options.menu).find('[data-menuanchor="'+name+'"]').addClass('active');
-			}
+				$('.submenu').find('.active').hide().removeClass('active');
+        $('#'+name+'-id').addClass("active").show();
+        $(options.menu).find('.select-submenu').removeClass('select-submenu');
+        $(options.menu).find('[data-menuanchor="'+name+'"]').addClass('select-submenu');}
 		}
 
 		/**

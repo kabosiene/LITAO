@@ -112,10 +112,14 @@ section {
   top: 0;
 }
 #nav-toggle.active span:before {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
   transform: rotate(45deg);
   background: #cccbc5;
 }
 #nav-toggle.active span:after {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
   transform: rotate(-45deg);
   background: #cccbc5;
 }
@@ -157,6 +161,8 @@ section {
   transition: all 0.5s ease-in;
 }
 .sidenav-side{
+  /*display: table;*/
+  visibility: hidden;
   height: 100%; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
@@ -165,19 +171,18 @@ section {
   right:95%;
   background-color: #f6f3f0; /* grey*/
   overflow: hidden; /* Disable horizontal scroll */
-  /* padding-top: 60px;*/ /* Place content 60px from the top */
-  /* transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  -ms-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  -ms-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
 }
 
 .sidenav-links {
   display: table-cell;
   vertical-align: middle;
-  font-family: 'BrandonGrotesque-Black';
+  font-family: 'BrandonGrotesque-Bold';
+  letter-spacing: 1.5px;
   text-align: center;
 }
 
@@ -186,14 +191,14 @@ section {
 .sidenav  a {
   color: #cccbc5;
   display: inline-block;
-  padding-bottom: 3%;
-  padding-top: 3%;
+  padding-bottom: 20px;
+  padding-top: 20px;
   opacity: 0;
-  -webkit-transition: opacity 0.3s ease-in;
-  -moz-transition: opacity 0.3s ease-in;
-  -o-transition: opacity 0.3s ease-in;
-  -ms-transition: opacity 0.3s ease-in;
-  transition: opacity 0.3s ease-in;
+  -webkit-transition: opacity 0.2s ease-in;
+  -moz-transition: opacity 0.2s ease-in;
+  -o-transition: opacity 0.2s ease-in;
+  -ms-transition: opacity 0.2s ease-in;
+  transition: opacity 0.2s ease-in;
 
 }
 .sidenav a:after {
@@ -210,20 +215,49 @@ section {
 .sidenav .active {
  color: #a55f60 ;
 }
-.sidenav .active:after{
+.sidenav .select-submenu:after{
   content: '';
   display: block;
   height: 3px;
   width: 100%;
   background: #a55f60 ;
   transition: width .8s ease, background-color .5s ease;
-
 }
+
 .sidenav a:hover:after {
   width: 100%;
   background: #a55f60 ;
 }
+/* submenu links */
+.submenu {
+  width:100vh;
+  height:45px;
+  top: 40px ;
+  position:fixed;
+  -webkit-transform-origin: left top;
+  -webkit-transform:rotate(-90deg) translateX(-100%);
 
+}
+
+ .intro-left-v{
+  float:right;
+  height:100%;
+  line-height:55px;
+  margin-right:40px;
+}
+
+.border_link {
+  color: #cccbc5;
+  font-size: 12px;
+  letter-spacing: 1px;
+    opacity: 0;
+  -webkit-transition: opacity 0.2s ease-in;
+  -moz-transition: opacity 0.2s ease-in;
+  -o-transition: opacity 0.2s ease-in;
+  -ms-transition: opacity 0.2s ease-in;
+  transition: opacity 0.2s ease-in;
+
+}
 
 /*languages---------------------------------------------*/
 .header-lang{
@@ -275,60 +309,58 @@ section {
 }
 .border-fixed {
   position: fixed;
-
-}
-.border-intro, .border-why_us {
-  height: 60px;
-  transform-origin: top left;
-  position: relative;
-  top: 100%;
-  transform: rotate(-90deg);
-  border-bottom:1px solid #595a5a;
-  padding-right: 10vh;
 }
 
-.border-vertical-r {
-  border-left:1px solid #595a5a;
-}
-.vertical-left-border {
-  padding-top:150px;
-  width: 150px;
-  padding-left: 0px;
-}
-.vertical-right-border {
-  margin-top:150px;
-  width: 150px;
-}
-.intro-left-v{
-  margin:20px 0 20px 0;
-  /*text-align: center;*/
-}
 /*-----/borders---*/
 
 /*level1*/
+
+.slash{
+  height: auto;
+  width: auto;
+  position: absolute;
+  z-index: 5;
+  margin-left: -14px;
+  top:50%;
+  left: 100%;
+  margin-top:-33px;
+}
+
+.slash2{
+  height: auto;
+  width: auto;
+  position: absolute;
+  z-index: 5;
+  margin-right: -14px;
+  top:50%;
+  right: 100%;
+  margin-top:-33px;
+}
+
 .mobile-content {
   height: 50vh;
 }
 .home-logo{
   padding-bottom: 10%;
-  margin-top: 20%;
+ /* margin-top: 15%;*/
+  padding-left: 7%;
 }
 .home-intro {
   margin-top: 5%;
 }
 
 .home-arrow {
-  height: 50px;
+  height: auto;
   width: auto;
 }
 
 .home-text {
  font-family: 'BrandonGrotesque-Light';
  font-size: 20px;
- margin-bottom: 10%;
 }
-.carousel-item img {
+.carousel-inner>.carousel-item>img {
   width: 100%;
+  height: auto;
 }
 
 .about-china-img{
@@ -368,10 +400,14 @@ section {
   padding-bottom:5%;
 }
 .title-img{
+  visibility: hidden;
   position:relative;
   width: 50%;
   right: 25%;
   top: 50%;
+}
+.visible {
+  visibility: visible;
 }
 
 /*-----------level2---------*/
@@ -487,11 +523,16 @@ address {
   }
   .home-logo{
     padding-bottom: 5%;
-    margin-top: 25%;
   }
   .home-arrow {
-    margin-top: 15%
+    position:absolute;
+    bottom:5%;
   }
+
+  .carousel-inner>.carousel-item>img {
+  width: 100vw;
+  height: 100vh;
+}
   .founder-column {
     margin: 50px 0 0 130px;
   }
@@ -554,12 +595,11 @@ address {
   #triangle-topleft {
     position: absolute;
     top: 0;
-    left: 0;
     width: 0;
     height: 0;
     z-index: 0;
-    border-top: 120vh solid #dfeae1;
-    border-right: 30vw solid transparent;
+    border-top: 125vh solid #dfeae1;
+    border-right: 26vw solid transparent;
   }
   .intro-column {
     margin: 15% 20% 0 20%;
@@ -581,7 +621,7 @@ address {
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
    .intro-column {
-    margin: 15% 25% 0 25%;
+    margin: 5% 25% 0 25%;
   }
   .intro-content {
     line-height: 30px;
@@ -624,6 +664,25 @@ address {
   -webkit-animation-delay: 0.8s;
   -moz-animation-delay: 0.8s;
   animation-delay: 0.8s;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.animated4 {
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-delay: 0.8s;
+  -moz-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.animated5{
+   -webkit-animation-duration: 0.8s;
+  -moz-animation-duration: 0.8s;
+  animation-duration: 0.8s;
   -webkit-animation-fill-mode: both;
   -moz-animation-fill-mode: both;
   animation-fill-mode: both;
