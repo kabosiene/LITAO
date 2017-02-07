@@ -9,32 +9,100 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <title>LITAO</title>
-
+  <link href="css/font.css" rel="stylesheet">
   <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/animate.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <link rel="icon" type="image/png" href="icons&logo/logo.png">
 
 </head>
 <body>
-  <header class="header" id="header">
-    <button class="nav-open" id="buttonNavOpen" onclick="openNav()">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-       <div class="sidenav-links">
-        <a class=" " href="index.html#home" ><span>HOME</span></a>
-        <a class=" active" href="index.html#about_us" ><span>ABOUT US</span></a>
-        <a class=" " href="index.html#why_us" ><span>WHY US</span></a>
-        <a class=" " href="index.html#our_work" ><span>OUR WORK</span></a>
-        <a class=" " href="index.html#about_china" ><span>ABOUT CHINA</span></a>
-        <a class=" " href="raq.html" ><span>RAQ</span></a>
-        <a class=" " href="contact.html" ><span>CONTACT US</span></a>
+<header class="header" id="header">
+    <a id="nav-toggle" onclick="openNav()" href="javascript:void(0)"><span></span></a>
+    <div id = "mySidenavMenu" class="sidenav-side">
+      <div class="submenu">
+        <ul id="about_us-id" class="about_us-submenu" style="display: none;">
+          <li class="intro-left-v ">
+            <a class="border_link active" href="index.html#about_us"><span class="border-text ">INTRO</span></a>
+          </li>
+          <li class="intro-left-v ">
+            <a class="border_link" href="about_us.html#founder"><span class="border-text">FOUNDER</span></a>
+          </li>
+          <li class="intro-left-v ">
+            <a class="border_link " href="about_us.html#values"><span class="border-text">VALUES</span></a>
+          </li>
+          <li class="intro-left-v ">
+            <a class="border_link " href="about_us.html#mission"><span class="border-text">MISSION&nbsp;/&nbsp;VISION</span></a>
+          </li>
+          <li class="intro-left-v">
+            <a class="border_link " href="about_us.html#team"><span class="border-text">TEAM</span></a>
+          </li>
+          <li class="intro-left-v">
+            <a class="border_link " href="about_us.html#download"><span class="border-text">DOWNLOAD</span></a>
+          </li>
+        </ul>
+        <ul id="why_us-id" class="why_us-submenu" style="display: none;">
+          <li class="intro-left-v ">
+            <a class="border_link active" href="why_us.html"><span class="border-text">INTRO</span></a>
+          </li>
+          <li class="intro-left-v ">
+            <a class="border_link " href="why_us.html#OUR GUANXI"><span class="border-text">OUR GUANXI</span></a>
+          </li>
+          <li class="intro-left-v ">
+            <a class="border_link " href="why_us.html#publications"><span class="border-text">PUBLICATIONS</span></a>
+          </li>
+          <li class="intro-left-v ">
+            <a class="border_link " href="why_us.html#people"><span class="border-text">PEOPLE</span></a>
+          </li>
+          <li class="intro-left-v ">
+            <a class="border_link " href="why_us.html#clients"><span class="border-text">CLIENTS</span></a>
+          </li>
+        </ul>
+        <ul id="our_work-id" class="our_work-submenu" style="display: none;">
+          <li class="intro-left-v ">
+            <a class="border_link active" href="index.html#our_work"><span class="border-text">INTRO</span></a>
+          </li>
+          <li class="intro-left-v ">
+            <a class="border_link " href="our_work.html#services"><span class="border-text">SERVICES</span></a>
+          </li>
+          <li class="intro-left-v ">
+            <a class="border_link " href="our_work.html#case_studies"><span class="border-text">CASE&nbsp;STUDIES</span></a>
+          </li>
+          <li class="intro-left-v ">
+            <a class="border_link " href="our_work.html#process"><span class="border-text">PROCESS</span></a>
+          </li>
+        </ul>
+        <ul id="about_china-id" class="about_china-submenu" style="display: none;">
+          <li class="intro-left-v ">
+            <a class="border_link active" href="index.html#about_china"><span class="border-text">INTRO</span></a>
+          </li>
+          <li class="intro-left-v ">
+            <a class="border_link " href="about_china.html#challenges"><span class="border-text">CHALLENGES</span></a>
+          </li>
+          <li class="intro-left-v ">
+            <a class="border_link " href="about_china.html#china_business"><span class="border-text">CHINA&nbsp;BUSINESS</span></a>
+          </li>
+          <li class="intro-left-v ">
+            <a class="border_link " href="about_china.html#ready_for_china"><span class="border-text">READY&nbsp;FOR&nbsp;CHINA?</span></a>
+          </li>
+          <li class="intro-left-v ">
+            <a class="border_link " href="about_china.html#useful_info"><span class="border-text">USEFUL&nbsp;INFO</span></a>
+          </li>
+        </ul>
       </div>
     </div>
 
+    <div id="mySidenav" class="sidenav">
+    <div class="sidenav-links" id="myMenu" onclick="closeNav()">
+        <a data-menuanchor="home" class="active sidenav_link home-menu" href="index.html#home" style="width: 0;">HOME </a><br>
+        <a data-menuanchor="about_us" class="sidenav_link about-menu" href="index.html#about_us" style="width: 0;" >ABOUT&nbsp;US</a><br>
+        <a data-menuanchor="why_us" class="sidenav_link why-menu" href="index.html#why_us" style="width: 0;">WHY&nbsp;US</a><br>
+        <a data-menuanchor="our_work" class="sidenav_link work-menu" href="index.html#our_work" style="width: 0;">OUR&nbsp;WORK</a><br>
+        <a data-menuanchor="about_china" class="sidenav_link china-menu" href="index.html#about_china" style="width: 0;">ABOUT&nbsp;CHINA</a><br>
+        <a class="sidenav_link raq-menu" href="raq.html" style="width: 0;">RAQ</a><br>
+        <a class="sidenav_link contact-menu" href="contact.html" style="width: 0;" >CONTACT&nbsp;US</a>
+    </div>
+  </div>
     <div class="header-lang nav">
       <div class="row">
         <div class="header-lang-item nav-item col-xs-6">
@@ -50,148 +118,344 @@
       </div>
       <div class="row">
         <div class="header-lang-item  nav-item offset-xs-6">
-         <a href="#" title="LITAO" class="header-lang-link nav-link" data-page="">
-          <span class="header-lang-text">LT</span></a>
+          <a href="#" title="LITAO" class="header-lang-link nav-link" data-page="">
+            <span class="header-lang-text">LT</span>
+          </a>
         </div>
       </div>
     </div>
   </header>
-  <div class="container-fluid level-2">
-    <div class="row">
-      <div class="col-md-1 left color-grey">
-        <div class="border-fixed">
-          <div class="border-vertical">
-            <ul class=" vertical-left-border">
-              <li class="intro-left-v ">
-                <a class="border_link" href="index.html#about_us"><span class="border-text">INTRO</span></a>
-              </li>
-              <li class="intro-left-v ">
-                <a class="border_link active page-scroll" href="#founder"><span class="border-text">FOUNDER</span></a>
-              </li>
-              <li class="intro-left-v ">
-                <a class="border_link page-scroll" href="#values"><span class="border-text">VALUES</span></a>
-              </li>
-              <li class="intro-left-v ">
-                <a class="border_link page-scroll" href="#mission"><span class="border-text">MISSION / VISION</span></a>
-              </li>
-              <li class="intro-left-v">
-                <a class="border_link page-scroll" href="#team"><span class="border-text">TEAM</span></a>
-              </li>
-              <li class="intro-left-v">
-                <a class="border_link page-scroll" href="#download"><span class="border-text">DOWNLOAD</span></a>
-              </li>
-            </ul>
-          </div>
+
+    <div class="container-fluid">
+      <div class="row">
+      <div class="col-md-1">
+        <ul class="submenu">
+          <li class="intro-left-v">
+            <a class="rotated-links "  href="#founder"><span class="border-text">FOUNDER</span></a>
+          </li>
+          <li class="intro-left-v">
+            <a class="rotated-links "  href="#values"><span class="border-text">VALUES</span></a>
+          </li>
+          <li class="intro-left-v">
+            <a class="rotated-links " href="#mission"><span class="border-text">MISSION&nbsp;/&nbsp;VISION</span></a>
+          </li>
+          <li class="intro-left-v">
+            <a class="rotated-links "  href="#team"><span class="border-text">TEAM</span></a>
+          </li>
+          <li class="intro-left-v">
+            <a class="rotated-links "  href="#download"><span class="border-text">DOWNLOAD</span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-10 ">
+        <div id="fullpage">
+          <div class="section" id="founder">
+                <p class="founder-title text-nowrap">LINA B</p>
+                <figure class="figure">
+                  <img class="figure-img founder-img img-fluid mx-auto d-block " src="home-images/ex-founder.png" alt="Founder image">
+                  <figcaption class="figure-caption text-xs-center">
+                    asdf    / asdf    /     asdf   /   asdf  /   asdf
+                  </figcaption>
+                </figure>
+                <details> "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </details>
+            </div>
+            <div class="section" id="values">
+              <div class="row">
+                <div class="col-md-6">
+                  <p class="values-title text-nowrap">VALUES</p>
+                  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
+                    Praesent vel mauris id sem ultrices finibus.
+                    Donec tempor nulla vel odio tincidunt ultrices.
+                    Phasellus consequat congue ullamcorper.
+                    Praesent vel mauris id sem ultrices finibus.
+                    Donec tempor nulla vel odio tincidunt ultrices.
+                    Phasellus consequat congue ullamcorper.</p>
+                </div>
+                <div class="col-md-6">
+                  <p class="values-title text-nowrap">VALUES</p>
+                  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
+                    Praesent vel mauris id sem ultrices finibus.
+                    Donec tempor nulla vel odio tincidunt ultrices.
+                    Phasellus consequat congue ullamcorper.
+                    Praesent vel mauris id sem ultrices finibus.
+                    Donec tempor nulla vel odio tincidunt ultrices.
+                    Phasellus consequat congue ullamcorper.</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <p class="values-title text-nowrap">VALUES</p>
+                  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
+                    Praesent vel mauris id sem ultrices finibus.
+                    Donec tempor nulla vel odio tincidunt ultrices.
+                    Phasellus consequat congue ullamcorper.
+                    Praesent vel mauris id sem ultrices finibus.
+                    Donec tempor nulla vel odio tincidunt ultrices.
+                    Phasellus consequat congue ullamcorper.</p>
+                </div>
+                <div class="col-md-6">
+                  <p class="values-title text-nowrap">VALUES</p>
+                  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
+                    Praesent vel mauris id sem ultrices finibus.
+                    Donec tempor nulla vel odio tincidunt ultrices.
+                    Phasellus consequat congue ullamcorper.
+                    Praesent vel mauris id sem ultrices finibus.
+                    Donec tempor nulla vel odio tincidunt ultrices.
+                    Phasellus consequat congue ullamcorper.</p>
+                </div>
+              </div>
+              </div>
+              <div class="section" id="mission">
+                <div class="row">
+                    <p class="mission-title text-nowrap">MISSION</p>
+                  <div class="col-md-6">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
+                      Praesent vel mauris id sem ultrices finibus.
+                      Donec tempor nulla vel odio tincidunt ultrices.
+                      Phasellus consequat congue ullamcorper.
+                      Praesent vel mauris id sem ultrices finibus.
+                      Donec tempor nulla vel odio tincidunt ultrices.
+                      Phasellus consequat congue ullamcorper.</p>
+                  </div>
+                  <div class="col-md-6">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
+                      Praesent vel mauris id sem ultrices finibus.
+                      Donec tempor nulla vel odio tincidunt ultrices.
+                      Phasellus consequat congue ullamcorper.
+                      Praesent vel mauris id sem ultrices finibus.
+                      Donec tempor nulla vel odio tincidunt ultrices.
+                      Phasellus consequat congue ullamcorper.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12"> picture</div>
+                </div>
+                <div class="row">
+                 <p class="mission-title text-nowrap">VISION</p>
+                  <div class="col-md-6">Picture</div>
+                  <div class="col-md-6">
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                              Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
+                              Praesent vel mauris id sem ultrices finibus.
+                              Donec tempor nulla vel odio tincidunt ultrices.
+                              Phasellus consequat congue ullamcorper.
+                              Phasellus consequat congue ullamcorper.</p>
+                  </div>
+                </div>
+              </div>
+                <div class="section" id="team">
+                  <div class="row">
+                    <p class="team-title text-nowrap">Lina B.</p>
+                    <p class="team-title text-nowrap">CEO</p>
+                    <div class="col-md-6">Picture</div>
+                    <div class="col-md-6">
+                      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
+                                Praesent vel mauris id sem ultrices finibus.
+                                Donec tempor nulla vel odio tincidunt ultrices.
+                                Phasellus consequat congue ullamcorper.
+                          </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <p class="team-title text-nowrap">Lina B.</p>
+                    <p class="team-title text-nowrap">CEO</p>
+                    <div class="col-md-6">
+                      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
+                                Praesent vel mauris id sem ultrices finibus.
+                                Donec tempor nulla vel odio tincidunt ultrices.
+                                Phasellus consequat congue ullamcorper.
+                                </p>
+                    </div>
+                    <div class="col-md-6">Picture</div>
+                  </div>
+                  <div class="row">
+                    <p class="team-title text-nowrap">Lina B.</p>
+                    <p class="team-title text-nowrap">CEO</p>
+                    <div class="col-md-6">Picture</div>
+                    <div class="col-md-6">
+                      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
+                                Praesent vel mauris id sem ultrices finibus.
+                                Donec tempor nulla vel odio tincidunt ultrices.
+                                Phasellus consequat congue ullamcorper.
+                                Praesent vel mauris id sem ultrices finibus.
+                                Donec tempor nulla vel odio tincidunt ultrices.
+                        </p>
+                    </div>
+                  </div>
+                  </div>
+
+                  <div class="section" id="download">
+                        <p class="download-title text-nowrap">Download</p>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                          Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
+                          Praesent vel mauris id sem ultrices finibus.
+                          Donec tempor nulla vel odio tincidunt ultrices.
+                          Phasellus consequat congue ullamcorper.
+                          Praesent vel mauris id sem ultrices finibus.
+                          Donec tempor nulla vel odio tincidunt ultrices.
+                          Phasellus consequat congue ullamcorper.</p>
+                  </div>
         </div>
       </div>
-      <div class="col-md-10 left color-grey">
-        <section id="founder">
-          <div class="founder-column">
-            <p class="founder-title text-nowrap">LINA B</p>
-            <figure class="figure">
-             <img class="figure-img founder-img img-fluid mx-auto d-block " src="home-images/ex-founder.png" alt="Founder image">
-             <figcaption class="figure-caption text-xs-center">
-               asdf    / asdf    /     asdf   /   asdf  /   asdf
-             </figcaption>
-           </figure>
-         </div>
-       </section>
-
-       <section id="values">
-        <div class="values-column">
-          <p class="values-title text-nowrap">VALUES</p>
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
-            Praesent vel mauris id sem ultrices finibus.
-            Donec tempor nulla vel odio tincidunt ultrices.
-            Phasellus consequat congue ullamcorper.
-            Praesent vel mauris id sem ultrices finibus.
-            Donec tempor nulla vel odio tincidunt ultrices.
-            Phasellus consequat congue ullamcorper.</p>
-          </div>
-        </section>
-
-        <section id="mission">
-          <div class="mission-column">
-            <p class="mission-title text-nowrap">MISSION</p>
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
-              Praesent vel mauris id sem ultrices finibus.
-              Donec tempor nulla vel odio tincidunt ultrices.
-              Phasellus consequat congue ullamcorper.
-              Praesent vel mauris id sem ultrices finibus.
-              Donec tempor nulla vel odio tincidunt ultrices.
-              Phasellus consequat congue ullamcorper.</p>
-            </div>
-          </section>
-
-          <section id="team">
-            <div class="team-column">
-              <p class="team-title text-nowrap">TEAM</p>
-              <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
-                Praesent vel mauris id sem ultrices finibus.
-                Donec tempor nulla vel odio tincidunt ultrices.
-                Phasellus consequat congue ullamcorper.
-                Praesent vel mauris id sem ultrices finibus.
-                Donec tempor nulla vel odio tincidunt ultrices.
-                Phasellus consequat congue ullamcorper.</p>
-              </div>
-            </section>
-
-            <section id="download">
-              <div class="download-column">
-                <p class="download-title text-nowrap">Download</p>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
-                  Praesent vel mauris id sem ultrices finibus.
-                  Donec tempor nulla vel odio tincidunt ultrices.
-                  Phasellus consequat congue ullamcorper.
-                  Praesent vel mauris id sem ultrices finibus.
-                  Donec tempor nulla vel odio tincidunt ultrices.
-                  Phasellus consequat congue ullamcorper.</p>
-                </div>
-              </section>
-
-            </div>
-            <div class="col-md-1 right color-green">
-            </div>
-          </div>
+      <div class="col-md-1 color-green ">
+        <div class="side-border">
         </div>
+      </div>
+      </div>
+    </div>
 
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/jquery.fullPage.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
 
-        <script src="js/jquery-3.1.1.min.js"></script>
-        <script src="js/jquery.easing.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/scrolling-nav.js"></script>
+    $(document).ready(function() {
+      $('#fullpage').fullpage({
+      anchors:[]
+  });
+    });
 
-        <script type="text/javascript">
-          $(".nav a").on("click", function(){
-           $(".nav").find(".active").removeClass("active");
-           $(this).addClass("active");
-         });
+    $(".nav a").on("click", function(){
+      $(".nav").find(".active").removeClass("active");
+      $(this).addClass("active");
+    });
 
-          $(".border-intro a").on("click", function(){
-           $(".border-intro").find(".active").removeClass("active");
-           $(this).addClass("active");
-         });
-          $(".border-vertical a").on("click", function(){
-           $(".border-vertical").find(".active").removeClass("active");
-           $(this).addClass("active");
-         });
+    function openNav() {
+      document.getElementById("mySidenavMenu").style.borderRight = "1px solid #cccbc5";
+      document.getElementById("mySidenav").style.visibility = "visible";
+      document.getElementById("mySidenav").style.width = "45%";
+      document.getElementById("mySidenavMenu").style.visibility = "visible";
+      document.getElementById("mySidenavMenu").style.width = "5%";
+      setTimeout(change_width, 200);
+      setTimeout(change_opacity, 200);
+      document.getElementsByClassName('sidenav_link');
+      document.querySelector("#nav-toggle").setAttribute('onclick','closeNav()');
+    };
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("mySidenavMenu").style.width = "0";
+      document.querySelector("#nav-toggle").setAttribute('onclick','openNav()');
+      setTimeout(change_width_0, 400);
+      setTimeout(change_opacity_0, 100);
+      document.getElementById("nav-toggle").className = "";
+      setTimeout(change_border,550);
+      document.getElementById("mySidenav").style.visibility = "hidden";
+      document.getElementById("mySidenavMenu").style.visibility = "hidden";
+    };
+    function change_width_0() {
+      var links = document.getElementsByClassName('sidenav_link'),
+      i = links.length;
 
-          function openNav() {
-            document.getElementById("mySidenav").style.width = "50%";
-          }
+      while(i--) {
+        links[i].style.width = "0";
+      }
+    }
+    function change_opacity_0() {
+      var links = document.getElementsByClassName('sidenav_link'),
+      i = links.length;
+      var sub_links = document.getElementsByClassName('border_link'),
+      u = sub_links.length;
 
-          /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
-          function closeNav() {
-            document.getElementById("mySidenav").style.width = "0";
-          }
-          $(window).scroll(function() {
-           closeNav();
-         });
-       </script>
-     </body>
-     </html>
+      while(i--) {
+        links[i].style.opacity = "0";
+      }
+      while(u--){
+        sub_links[u].style.opacity= "0";
+      }
+    }
+    function change_width() {
+      var links = document.getElementsByClassName('sidenav_link'),
+      i = links.length;
 
+      while(i--) {
+        links[i].removeAttribute("style");
+      }
+    }
+    function change_opacity() {
+      var links = document.getElementsByClassName('sidenav_link'),
+      i = links.length;
+      var sub_links = document.getElementsByClassName('border_link'),
+      u = sub_links.length;
+
+      while(i--) {
+        links[i].style.opacity = "1";
+      }
+      while(u--){
+        sub_links[u].style.opacity= "1";
+      }
+    }
+    function change_border(){
+      document.getElementById("mySidenavMenu").style.border = "none";
+    }
+    $(".border-intro a").on("click", function(){
+      $(".border-intro").find(".active").removeClass("active");
+      $(this).addClass("active");
+    });
+    $(".border-vertical a").on("click", function(){
+      $(".border-vertical").find(".active").removeClass("active");
+      $(this).addClass("active");
+    });
+
+    document.querySelector( "#nav-toggle" ).addEventListener( "click", function() {
+      this.classList.toggle( "active" );
+    });
+
+    document.querySelector( "#nav-toggle" ).addEventListener( "mouseover", function() {
+      this.classList.add( "closer" );
+    });
+
+    $(".about-menu").on("mouseover", function(){
+      $('#myMenu').find('.select-submenu').removeClass('select-submenu');
+      $(this).addClass('select-submenu');
+      $(".submenu").find(".active").hide().removeClass("active");
+      $("#about_us-id").addClass("active").show();
+    });
+    $(".work-menu").on("mouseover", function(){
+      $('#myMenu').find('.select-submenu').removeClass('select-submenu');
+      $(this).addClass('select-submenu');
+      $(".submenu").find(".active").hide().removeClass("active");
+      $("#our_work-id").addClass("active").show();
+    });
+    $(".why-menu").on("mouseover", function(){
+      $('#myMenu').find('.select-submenu').removeClass('select-submenu');
+      $(this).addClass('select-submenu');
+      $(".submenu").find(".active").hide().removeClass("active");
+      $("#why_us-id").addClass("active").show();
+    });
+    $(".china-menu").on("mouseover", function(){
+      $('#myMenu').find('.select-submenu').removeClass('select-submenu');
+      $(this).addClass('select-submenu');
+      $(".submenu").find(".active").hide().removeClass("active");
+      $("#about_china-id").addClass("active").show();
+    });
+    $(".raq-menu").on("mouseover", function(){
+      $('#myMenu').find('.select-submenu').removeClass('select-submenu');
+      $(this).addClass('select-submenu');
+      $(".submenu").find(".active").hide().removeClass("active");
+    });
+    $(".contact-menu").on("mouseover", function(){
+      $('#myMenu').find('.select-submenu').removeClass('select-submenu');
+      $(this).addClass('select-submenu');
+      $(".submenu").find(".active").hide().removeClass("active");
+    });
+    $(".home-menu").on("mouseover", function(){
+      $('#myMenu').find('.select-submenu').removeClass('select-submenu');
+      $(this).addClass('select-submenu');
+      $(".submenu").find(".active").hide().removeClass("active");
+    });
+
+    </script>
+  </body>
+  </html>

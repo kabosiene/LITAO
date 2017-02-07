@@ -256,7 +256,17 @@ section {
   -o-transition: opacity 0.2s ease-in;
   -ms-transition: opacity 0.2s ease-in;
   transition: opacity 0.2s ease-in;
+}
 
+.rotated-links {
+  color: #cccbc5;
+  font-size: 12px;
+  letter-spacing: 1px;
+  -webkit-transition: opacity 0.2s ease-in;
+  -moz-transition: opacity 0.2s ease-in;
+  -o-transition: opacity 0.2s ease-in;
+  -ms-transition: opacity 0.2s ease-in;
+  transition: opacity 0.2s ease-in;
 }
 
 /*languages---------------------------------------------*/
@@ -371,11 +381,6 @@ section {
 
 /*------intro----*/
 
- .level-2 .left, .level-2 .right{
-  /*height: 100vh;*/
-  padding: 0;
-}
-
 .intro-column {
  margin: 20% 15% 0 15%;
 }
@@ -409,8 +414,19 @@ section {
 .visible {
   visibility: visible;
 }
+.citate{
+  font-size: 18px;
+    font-family: 'BrandonGrotesque-Regular';
+}
+.citated{
+  color:  #a55f60;
+  font-size: 13px;
+}
 
 /*-----------level2---------*/
+.side-border{
+  height: 100vh;
+}
 .level2-logo {
   margin: 5px 0 10px 50px;
   height: 40px;
@@ -428,10 +444,7 @@ section {
 .founder.column{
   margin: 50px 30px 0 30px;
 }
-.level-2 .col-md-1 {
-  visibility: hidden;
-  height: 0;
-}
+
 
 /*--------contact&raq-------*/
 .btn.sharp {
@@ -536,10 +549,7 @@ address {
   .founder-column {
     margin: 50px 0 0 130px;
   }
-  .level-2 .col-md-1 {
-    visibility: visible;
-    height: 100vh;
-  }
+
   .page-heading{
     padding-top: 2em;
     color: #595a5a ;
@@ -621,10 +631,10 @@ address {
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
    .intro-column {
-    margin: 5% 25% 0 25%;
+    margin: 5% 24% 0 24%;
   }
   .intro-content {
-    line-height: 30px;
+    line-height: 25px;
   }
 
 }
@@ -680,10 +690,6 @@ address {
   animation-fill-mode: both;
 }
 .animated5{
-   -webkit-animation-duration: 0.8s;
-  -moz-animation-duration: 0.8s;
-  animation-duration: 0.8s;
-  -webkit-animation-fill-mode: both;
-  -moz-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
+   -webkit-animation-duration: 0.5s;
+  -moz-animation-duration: 0.5s;
+  animation-duration: 0.5s;
