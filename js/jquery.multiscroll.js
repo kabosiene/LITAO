@@ -14,7 +14,7 @@
 		options = $.extend({
 			'verticalCentered' : true,
 			'scrollingSpeed': 800,
-			'easing': 'easeOutQuint',
+			'easing': 'easeInOutExpo',
 			'menu': false,
 			'sectionsColor': [],
 			'anchors':[],

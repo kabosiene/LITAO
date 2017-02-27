@@ -12,81 +12,118 @@
   <link href="css/jquery.multiscroll.css" rel="stylesheet">
   <link href="css/animate.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
-  <link rel="icon" type="image/png" href="icons&logo/logo.png">
-
+  <link rel="icon" type="image/png" href="icons_logo/logo.png">
 </head>
 <body>
 
   <header class="header" id="header">
-    <a id="nav-toggle" onclick="openNav()" href="javascript:void(0)"><span></span></a>
+    <a id="nav-toggle" onclick="openNav()" href="javascript:void(0)">
+      <span></span>
+    </a>
     <div id = "mySidenavMenu" class="sidenav-side">
       <div class="submenu">
-        <ul id="about_us-id" class="about_us-submenu" style="display: none;">
-          <li class="intro-left-v ">
-            <a class="border_link active" href="index.html#about_us"><span class="border-text ">INTRO</span></a>
+        <ul id="about_us-id" class="about_us-submenu" style="display: none">
+          <li class="intro-left-v">
+            <a class="border_link" href="index.html#about_us">
+              <span class="border-text"  onclick="closeNav()" >INTRO</span>
+            </a>
           </li>
           <li class="intro-left-v ">
-            <a class="border_link" href="about_us.html#founder"><span class="border-text">FOUNDER</span></a>
+            <a class="border_link" href="about_us.html#founder">
+              <span class="border-text">FOUNDER</span>
+            </a>
           </li>
           <li class="intro-left-v ">
-            <a class="border_link " href="about_us.html#values"><span class="border-text">VALUES</span></a>
+            <a class="border_link " href="about_us.html#team">
+              <span class="border-text">OUR&nbsp;TEAM</span>
+            </a>
           </li>
           <li class="intro-left-v ">
-            <a class="border_link " href="about_us.html#mission"><span class="border-text">MISSION&nbsp;/&nbsp;VISION</span></a>
+            <a class="border_link " href="about_us.html#values">
+              <span class="border-text">
+                VALUES&nbsp;/&nbsp;MISSION&nbsp;/&nbsp;VISION
+              </span>
+            </a>
           </li>
           <li class="intro-left-v">
-            <a class="border_link " href="about_us.html#team"><span class="border-text">TEAM</span></a>
-          </li>
-          <li class="intro-left-v">
-            <a class="border_link " href="about_us.html#download"><span class="border-text">DOWNLOAD</span></a>
+            <a class="border_link " href="about_us.html#nameandlogo"><span class="border-text">NAME&nbsp;AND&nbsp;LOGO</span>
+            </a>
           </li>
         </ul>
         <ul id="why_us-id" class="why_us-submenu" style="display: none;">
           <li class="intro-left-v ">
-            <a class="border_link active" href="why_us.html"><span class="border-text">INTRO</span></a>
+            <a class="border_link" href="why_us.html">
+              <span class="border-text"  onclick="closeNav()">INTRO</span>
+            </a>
           </li>
           <li class="intro-left-v ">
-            <a class="border_link " href="why_us.html#OUR GUANXI"><span class="border-text">OUR GUANXI</span></a>
+            <a class="border_link " href="why_us.html#OUR GUANXI">
+              <span class="border-text">OUR GUANXI</span>
+            </a>
           </li>
           <li class="intro-left-v ">
-            <a class="border_link " href="why_us.html#publications"><span class="border-text">PUBLICATIONS</span></a>
+            <a class="border_link " href="why_us.html#publications">
+              <span class="border-text">PUBLICATIONS</span>
+            </a>
           </li>
           <li class="intro-left-v ">
-            <a class="border_link " href="why_us.html#people"><span class="border-text">PEOPLE</span></a>
+            <a class="border_link " href="why_us.html#people">
+              <span class="border-text">PEOPLE</span>
+            </a>
           </li>
           <li class="intro-left-v ">
-            <a class="border_link " href="why_us.html#clients"><span class="border-text">CLIENTS</span></a>
+            <a class="border_link " href="why_us.html#clients">
+              <span class="border-text">CLIENTS</span>
+            </a>
           </li>
         </ul>
         <ul id="our_work-id" class="our_work-submenu" style="display: none;">
           <li class="intro-left-v ">
-            <a class="border_link active" href="index.html#our_work"><span class="border-text">INTRO</span></a>
+            <a class="border_link" href="index.html#our_work">
+              <span class="border-text"  onclick="closeNav()">
+                INTRO
+              </span>
+            </a>
           </li>
           <li class="intro-left-v ">
-            <a class="border_link " href="our_work.html#services"><span class="border-text">SERVICES</span></a>
+            <a class="border_link " href="our_work.html#services">
+              <span class="border-text">SERVICES</span>
+            </a>
           </li>
           <li class="intro-left-v ">
-            <a class="border_link " href="our_work.html#case_studies"><span class="border-text">CASE&nbsp;STUDIES</span></a>
+            <a class="border_link " href="our_work.html#case_studies">
+              <span class="border-text">CASE&nbsp;STUDIES</span>
+            </a>
           </li>
           <li class="intro-left-v ">
-            <a class="border_link " href="our_work.html#process"><span class="border-text">PROCESS</span></a>
+            <a class="border_link " href="our_work.html#process">
+              <span class="border-text">PROCESS</span>
+            </a>
           </li>
         </ul>
         <ul id="about_china-id" class="about_china-submenu" style="display: none;">
           <li class="intro-left-v ">
-            <a class="border_link active" href="index.html#about_china"><span class="border-text">INTRO</span></a>
+            <a class="border_link" href="index.html#about_china">
+              <span class="border-text"  onclick="closeNav()">
+                INTRO
+              </span>
+            </a>
           </li>
           <li class="intro-left-v ">
-            <a class="border_link " href="about_china.html#challenges"><span class="border-text">CHALLENGES</span></a>
+            <a class="border_link " href="about_china.html#challenges">
+              <span class="border-text">CHALLENGES</span></a>
           </li>
           <li class="intro-left-v ">
-            <a class="border_link " href="about_china.html#china_business"><span class="border-text">CHINA&nbsp;BUSINESS</span></a>
+            <a class="border_link " href="about_china.html#china_business">
+              <span class="border-text">CHINA&nbsp;BUSINESS</span></a>
           </li>
           <li class="intro-left-v ">
-            <a class="border_link " href="about_china.html#ready_for_china"><span class="border-text">READY&nbsp;FOR&nbsp;CHINA?</span></a>
+            <a class="border_link " href="about_china.html#ready_for_china">
+              <span class="border-text">READY&nbsp;FOR&nbsp;CHINA?</span></a>
           </li>
           <li class="intro-left-v ">
-            <a class="border_link " href="about_china.html#useful_info"><span class="border-text">USEFUL&nbsp;INFO</span></a>
+            <a class="border_link " href="about_china.html#useful_info">
+              <span class="border-text">USEFUL&nbsp;INFO</span></a>
           </li>
         </ul>
       </div>
@@ -94,13 +131,27 @@
 
     <div id="mySidenav" class="sidenav">
       <div class="sidenav-links" id="myMenu" onclick="closeNav()">
-        <a data-menuanchor="home" class="active sidenav_link home-menu" href="#home" style="width: 0;">HOME </a><br>
-        <a data-menuanchor="about_us" class="sidenav_link about-menu" href="#about_us" style="width: 0;" >ABOUT&nbsp;US</a><br>
-        <a data-menuanchor="why_us" class="sidenav_link why-menu" href="#why_us" style="width: 0;">WHY&nbsp;US</a><br>
-        <a data-menuanchor="our_work" class="sidenav_link work-menu" href="#our_work" style="width: 0;">OUR&nbsp;WORK</a><br>
-        <a data-menuanchor="about_china" class="sidenav_link china-menu" href="#about_china" style="width: 0;">ABOUT&nbsp;CHINA</a><br>
-        <a class="sidenav_link raq-menu" href="raq.html" style="width: 0;">RAQ</a><br>
-        <a class="sidenav_link contact-menu" href="contact.html" style="width: 0;" >CONTACT&nbsp;US</a>
+        <a data-menuanchor="home" class="active sidenav_link home-menu" href="#home" style="width: 0;">
+          HOME
+        </a><br>
+        <a data-menuanchor="about_us" class="sidenav_link about-menu" href="#about_us" style="width: 0;" >
+          ABOUT&nbsp;US
+        </a><br>
+        <a data-menuanchor="why_us" class="sidenav_link why-menu" href="#why_us" style="width: 0;">
+          WHY&nbsp;US
+        </a><br>
+        <a data-menuanchor="our_work" class="sidenav_link work-menu" href="#our_work" style="width: 0;">
+          OUR&nbsp;WORK
+        </a><br>
+        <a data-menuanchor="about_china" class="sidenav_link china-menu" href="#about_china" style="width: 0;">
+          ABOUT&nbsp;CHINA
+        </a><br>
+        <a class="sidenav_link raq-menu" href="raq.html" style="width: 0;">
+          RAQ
+        </a><br>
+        <a class="sidenav_link contact-menu" href="contact.html" style="width: 0;" >
+          CONTACT&nbsp;US
+        </a>
       </div>
     </div>
     <div class="header-lang nav">
@@ -119,7 +170,8 @@
       <div class="row">
         <div class="header-lang-item  nav-item offset-xs-6">
          <a href="#" title="LITAO" class="header-lang-link nav-link" data-page="">
-          <span class="header-lang-text">LT</span></a>
+          <span class="header-lang-text">LT</span>
+        </a>
         </div>
       </div>
     </div>
@@ -130,22 +182,22 @@
       <div class="ms-left col-md-6">
         <div class="ms-section active margin-0 color-green " data-anchor="home">
           <div class="content-left">
-            <img src="icons&logo/logo_transparent_home.png" class="img-fluid home-logo animated fadeIn" alt="LITAO logo" width="50%">
+            <img src="icons_logo/logo_transparent_home.png" class="img-fluid home-logo animated fadeIn" alt="LITAO logo" width="50%">
             <div class="home-intro">
               <p class="home-text animated2 fadeInDown">
                 Helping foreign companies China-fy <br/> and Chinese companies globalize
               </p>
             </div>
           </div>
-          <img class="home-arrow img-fluid animated4 bounceInUp" src="icons&logo/arrow-down.png" alt="arrow-down image">
+          <img class="home-arrow img-fluid animated4 bounceInUp" src="icons_logo/arrow-down.png" alt="arrow-down image">
         </div>
         <div class="ms-section color-grey margin-0" data-anchor="about_us">
-          <img src="icons&logo/diagonal.png" class="slash">
+          <img src="icons_logo/diagonal.png" class="slash">
           <div class="left">
             <div id="square"></div>
             <div class="content-padding">
               <div class="intro-column">
-                <img class="title-img img-fluid" src="icons&logo/about_us.png" alt="ABOUT US">
+                <img class="title-img img-fluid" src="icons_logo/about_us.png" alt="ABOUT US">
                 <div class="intro-content">
                   <p class="text-justify"> As cross-cultural consultants based in <b>Shanghai</b>,<b>Hong Kong</b>, and <b>Lithuania</b>,
                      we serve foreign companies tailor-made strategies for <b>China market entry</b> and <b>market expansion</b>.
@@ -158,7 +210,7 @@
                 </div>
               </div>
             </div>
-            <img class="home-arrow img-fluid animated bounceInUp" src="icons&logo/arrow-down.png" alt="arrow-down image">
+            <img class="home-arrow img-fluid" src="icons_logo/arrow-down.png" alt="arrow-down image">
           </div>
         </div>
         <div class="ms-section color-green margin-0"  data-anchor="why_us">
@@ -167,12 +219,12 @@
             </div>
           </div>
           <div class="ms-section color-grey margin-0" data-anchor="our_work">
-            <img src="icons&logo/diagonal.png" class="slash">
+            <img src="icons_logo/diagonal.png" class="slash">
             <div class="left">
               <div id="triangle-topleft"></div>
               <div class="content-padding">
                 <div class="intro-column">
-                  <img class="title-img img-fluid" src="icons&logo/our_work.png" alt="OUR WORK">
+                  <img class="title-img img-fluid" src="icons_logo/our_work.png" alt="OUR WORK">
                   <div class="intro-content">
                     <p class="text-justify">
                       <b class="citate">“Work is love made visible.”</b>
@@ -188,7 +240,7 @@
                   </div>
                 </div>
               </div>
-              <img class="home-arrow img-fluid animated bounceInUp" src="icons&logo/arrow-down.png" alt="arrow-down image">
+              <img class="home-arrow img-fluid" src="icons_logo/arrow-down.png" alt="arrow-down image">
             </div>
           </div>
           <div class="ms-section about-china-img margin-0" data-anchor="about_china">
@@ -225,12 +277,12 @@
             </div>
           </div>
           <div class="ms-section color-grey margin-0" data-anchor="why_us">
-           <img src="icons&logo/diagonal.png" class="slash2">
+           <img src="icons_logo/diagonal.png" class="slash2">
            <div class=" right">
             <div id="circle"></div>
             <div class="content-padding">
               <div class="intro-column">
-                <img class="title-img img-fluid" src="icons&logo/why_us.png" alt="WHY US">
+                <img class="title-img img-fluid" src="icons_logo/why_us.png" alt="WHY US">
                 <div class="intro-content">
                   <p class="text-justify">
                     Consultants are <b>modern-day guides and gurus</b>: part-lawyer, part-interpreter, part-coach.
@@ -244,7 +296,7 @@
                 </div>
               </div>
             </div>
-            <img class="home-arrow img-fluid animated bounceInUp" src="icons&logo/arrow-down.png" alt="arrow-down image">
+            <img class="home-arrow img-fluid" src="icons_logo/arrow-down.png" alt="arrow-down image">
           </div>
         </div>
         <div class="ms-section color-green margin-0" data-anchor="our_work">
@@ -253,13 +305,13 @@
          </div>
        </div>
        <div class="ms-section chinabg-color margin-0" data-anchor="about_china">
-        <img src="icons&logo/diagonal.png" class="slash2">
+        <img src="icons_logo/diagonal.png" class="slash2">
         <div class=" right">
           <div id="rectangle">
           </div>
           <div class="content-padding">
            <div class="intro-column">
-             <img class="title-img img-fluid" src="icons&logo/about_china.png" alt="ABOUT CHINA">
+             <img class="title-img img-fluid" src="icons_logo/about_china.png" alt="ABOUT CHINA">
              <div class="intro-content">
               <p class="text-justify"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
@@ -289,154 +341,19 @@
     anchors: ['home', 'about_us', 'why_us', 'our_work', 'about_china'],
     menu: '#myMenu',
      afterLoad: function(anchorLink, index){
-          $('img.title-img').addClass('animated5 fadeInUp visible' ).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
-            $(this).removeClass('animated5 fadeInUp');
+          /*$('img.title-img').addClass('animated5 fadeIn visible' ).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+            $(this).removeClass('animated5 fadeIn');
+          });*/
+          $('.home-arrow').addClass('animated bounceInUp visible').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+            $(this).removeClass('animated bounceInUp');
           });
-            },
+        },
      onLeave: function(index, direction){
-          $('img.title-img').removeClass('visible');
-        }
-
-  });
-});
-
-
-
- $(".nav a").on("click", function(){
-   $(".nav").find(".active").removeClass("active");
-   $(this).addClass("active");
- });
-
- document.getElementById("multiscroll").onmouseover = function() {closeNav()};
-
- function openNav() {
-  document.getElementById("mySidenavMenu").style.borderRight = "1px solid #cccbc5";
-  document.getElementById("mySidenav").style.visibility = "visible";
-  document.getElementById("mySidenav").style.width = "45%";
-  document.getElementById("mySidenavMenu").style.visibility = "visible";
-  document.getElementById("mySidenavMenu").style.width = "5%";
-  setTimeout(change_width, 200);
-  setTimeout(change_opacity, 200);
-  document.getElementsByClassName('sidenav_link');
-  document.querySelector("#nav-toggle").setAttribute('onclick','closeNav()');
-};
-
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-  document.getElementById("mySidenavMenu").style.width = "0";
-  document.querySelector("#nav-toggle").setAttribute('onclick','openNav()');
-  setTimeout(change_width_0, 400);
-  setTimeout(change_opacity_0, 100);
-  document.getElementById("nav-toggle").className = "";
-  setTimeout(change_border,550);
-  document.getElementById("mySidenav").style.visibility = "hidden";
-  document.getElementById("mySidenavMenu").style.visibility = "hidden";
-};
-
-
-function change_width_0() {
-  var links = document.getElementsByClassName('sidenav_link'),
-  i = links.length;
-
-  while(i--) {
-    links[i].style.width = "0";
-  }
-}
-function change_opacity_0() {
-  var links = document.getElementsByClassName('sidenav_link'),
-  i = links.length;
-  var sub_links = document.getElementsByClassName('border_link'),
-  u = sub_links.length;
-
-  while(i--) {
-    links[i].style.opacity = "0";
-  }
-  while(u--){
-    sub_links[u].style.opacity= "0";
-  }
-}
-function change_width() {
-  var links = document.getElementsByClassName('sidenav_link'),
-  i = links.length;
-
-  while(i--) {
-    links[i].removeAttribute("style");
-  }
-}
-function change_opacity() {
-  var links = document.getElementsByClassName('sidenav_link'),
-  i = links.length;
-  var sub_links = document.getElementsByClassName('border_link'),
-  u = sub_links.length;
-
-  while(i--) {
-   links[i].style.opacity = "1";
- }
- while(u--){
-  sub_links[u].style.opacity= "1";
-}
-}
-function change_border(){
-  document.getElementById("mySidenavMenu").style.border = "none";
-}
-
-$(".border-intro a").on("click", function(){
-  $(".border-intro").find(".active").removeClass("active");
-  $(this).addClass("active");
-});
-$(".border-vertical a").on("click", function(){
- $(".border-vertical").find(".active").removeClass("active");
- $(this).addClass("active");
-});
-
-document.querySelector( "#nav-toggle" ).addEventListener( "click", function() {
-  this.classList.toggle( "active" );
-});
-
-document.querySelector( "#nav-toggle" ).addEventListener( "mouseover", function() {
-  this.classList.add( "closer" );
-});
-
-$(".about-menu").on("mouseover", function(){
-  $('#myMenu').find('.select-submenu').removeClass('select-submenu');
-  $(this).addClass('select-submenu');
-  $(".submenu").find(".active").hide().removeClass("active");
-  $("#about_us-id").addClass("active").show();
-});
-$(".work-menu").on("mouseover", function(){
-  $('#myMenu').find('.select-submenu').removeClass('select-submenu');
-  $(this).addClass('select-submenu');
-  $(".submenu").find(".active").hide().removeClass("active");
-  $("#our_work-id").addClass("active").show();
-});
-$(".why-menu").on("mouseover", function(){
-  $('#myMenu').find('.select-submenu').removeClass('select-submenu');
-  $(this).addClass('select-submenu');
-  $(".submenu").find(".active").hide().removeClass("active");
-  $("#why_us-id").addClass("active").show();
-});
-$(".china-menu").on("mouseover", function(){
-  $('#myMenu').find('.select-submenu').removeClass('select-submenu');
-  $(this).addClass('select-submenu');
-  $(".submenu").find(".active").hide().removeClass("active");
-  $("#about_china-id").addClass("active").show();
-});
-$(".raq-menu").on("mouseover", function(){
-  $('#myMenu').find('.select-submenu').removeClass('select-submenu');
-  $(this).addClass('select-submenu');
-  $(".submenu").find(".active").hide().removeClass("active");
-});
-$(".contact-menu").on("mouseover", function(){
-  $('#myMenu').find('.select-submenu').removeClass('select-submenu');
-  $(this).addClass('select-submenu');
-  $(".submenu").find(".active").hide().removeClass("active");
-});
-$(".home-menu").on("mouseover", function(){
-  $('#myMenu').find('.select-submenu').removeClass('select-submenu');
-  $(this).addClass('select-submenu');
-  $(".submenu").find(".active").hide().removeClass("active");
-});
-
+        /*  $('img.title-img').removeClass('visible');*/
+          $('.home-arrow').removeClass('visible');
+        }});
+    });
 </script>
+<script src="js/js_script.js"></script>
 </body>
 </html>

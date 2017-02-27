@@ -22,10 +22,7 @@ a:active,a:hover,a:focus{
 ul {
   list-style: none;
 }
-h6 {
-  text-align: center;
-  font-size: 12px;
-}
+
 section {
   height: 100%;
   height: 100vh;
@@ -213,7 +210,7 @@ section {
   color: #a55f60 ;
 }
 .sidenav .active {
- color: #a55f60 ;
+  color: #a55f60 ;
 }
 .sidenav .select-submenu:after{
   content: '';
@@ -239,7 +236,7 @@ section {
 
 }
 
- .intro-left-v{
+.intro-left-v{
   float:right;
   height:100%;
   line-height:55px;
@@ -250,7 +247,7 @@ section {
   color: #cccbc5;
   font-size: 12px;
   letter-spacing: 1px;
-    opacity: 0;
+  opacity: 0;
   -webkit-transition: opacity 0.2s ease-in;
   -moz-transition: opacity 0.2s ease-in;
   -o-transition: opacity 0.2s ease-in;
@@ -352,7 +349,7 @@ section {
 }
 .home-logo{
   padding-bottom: 10%;
- /* margin-top: 15%;*/
+  /* margin-top: 15%;*/
   padding-left: 7%;
 }
 .home-intro {
@@ -365,8 +362,8 @@ section {
 }
 
 .home-text {
- font-family: 'BrandonGrotesque-Light';
- font-size: 20px;
+  font-family: 'BrandonGrotesque-Light';
+  font-size: 20px;
 }
 .carousel-inner>.carousel-item>img {
   width: 100%;
@@ -382,7 +379,7 @@ section {
 /*------intro----*/
 
 .intro-column {
- margin: 20% 15% 0 15%;
+  margin: 20% 15% 0 15%;
 }
 .intro-title {
   font-size: 16px;
@@ -405,18 +402,16 @@ section {
   padding-bottom:5%;
 }
 .title-img{
-  visibility: hidden;
+/*  visibility: hidden;*/
   position:relative;
   width: 50%;
   right: 25%;
   top: 50%;
 }
-.visible {
-  visibility: visible;
-}
+
 .citate{
   font-size: 18px;
-    font-family: 'BrandonGrotesque-Regular';
+  font-family: 'BrandonGrotesque-Regular';
 }
 .citated{
   color:  #a55f60;
@@ -445,6 +440,41 @@ section {
   margin: 50px 30px 0 30px;
 }
 
+#founder, #values, #nameandlogo{
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.section {
+  text-align: left;
+}
+.level2-main-title{
+  font-family: 'BrandonGrotesque-Bold';
+  margin-bottom: 0px;
+  padding: 0 40px 0 40px;
+  color: #a55f60;
+  text-transform: uppercase;
+}
+.level2-titles {
+  padding: 60px 40px 60px 40px;
+}
+.founder-content, .name-content{
+  padding: 0 40px 0 40px;
+  text-align: justify;
+}
+#founder p.lead{
+  padding: 0 40px 0 40px;
+  color: #a55f60;
+}
+#values p.lead,  #nameandlogo p.lead{
+  padding: 0 40px 0 40px;
+}
+.date {
+  color:  #a55f60 ;
+}
+#values .color-red{
+  padding: 0 40px 0 40px;
+}
 
 /*--------contact&raq-------*/
 .btn.sharp {
@@ -454,6 +484,14 @@ section {
 }
 .contact-form{
   margin-top: 50px;
+  text-align: left;
+}
+.contact-info-text{
+  margin-top: 50px;
+  margin-left: 80px;
+}
+#contact_id .page-heading{
+  margin-left: 40px;
 }
 .raq-form{
   margin-top: 50px;
@@ -467,7 +505,7 @@ address {
 .raq-content h4 {
   padding-bottom: 40px;
 }
-.raq-content h5 {
+.raq-content  {
   padding-bottom: 10px;
   padding-top: 30px;
 }
@@ -538,14 +576,15 @@ address {
     padding-bottom: 5%;
   }
   .home-arrow {
+    visibility: hidden;
     position:absolute;
     bottom:5%;
   }
 
   .carousel-inner>.carousel-item>img {
-  width: 100vw;
-  height: 100vh;
-}
+    width: 100vw;
+    height: 100vh;
+  }
   .founder-column {
     margin: 50px 0 0 130px;
   }
@@ -630,7 +669,7 @@ address {
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-   .intro-column {
+  .intro-column {
     margin: 5% 24% 0 24%;
   }
   .intro-content {
@@ -645,10 +684,13 @@ address {
 }
 
 /******************************/
+.visible {
+  visibility: visible;
+}
 .animated {
-  -webkit-animation-duration: 2.5s;
-  -moz-animation-duration: 2.5s;
-  animation-duration: 2.5s;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  animation-duration: 2s;
   -webkit-animation-delay: 0s;
   -moz-animation-delay: 0s;
   animation-delay: 0s;
@@ -690,6 +732,6 @@ address {
   animation-fill-mode: both;
 }
 .animated5{
-   -webkit-animation-duration: 0.5s;
-  -moz-animation-duration: 0.5s;
-  animation-duration: 0.5s;
+  -webkit-animation-duration: 0.2s;
+  -moz-animation-duration: 0.2s;
+  animation-duration: 0.2s;

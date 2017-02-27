@@ -13,37 +13,42 @@
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/animate.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
-  <link rel="icon" type="image/png" href="icons&logo/logo.png">
-
+  <link rel="icon" type="image/png" href="icons_logo/logo.png">
 </head>
+
 <body>
-<header class="header" id="header">
-    <a id="nav-toggle" onclick="openNav()" href="javascript:void(0)"><span></span></a>
+  <header class="header" id="header">
+    <a id="nav-toggle" onclick="openNav()" href="javascript:void(0)">
+      <span></span>
+    </a>
     <div id = "mySidenavMenu" class="sidenav-side">
       <div class="submenu">
         <ul id="about_us-id" class="about_us-submenu" style="display: none;">
           <li class="intro-left-v ">
-            <a class="border_link active" href="index.html#about_us"><span class="border-text ">INTRO</span></a>
-          </li>
-          <li class="intro-left-v ">
-            <a class="border_link" href="about_us.html#founder"><span class="border-text">FOUNDER</span></a>
-          </li>
-          <li class="intro-left-v ">
-            <a class="border_link " href="about_us.html#values"><span class="border-text">VALUES</span></a>
-          </li>
-          <li class="intro-left-v ">
-            <a class="border_link " href="about_us.html#mission"><span class="border-text">MISSION&nbsp;/&nbsp;VISION</span></a>
+            <a class="border_link" href="index.html#about_us">
+              <span class="border-text ">INTRO</span>
+            </a>
           </li>
           <li class="intro-left-v">
-            <a class="border_link " href="about_us.html#team"><span class="border-text">TEAM</span></a>
+            <a class="border_link" href="about_us.html#founder">
+              <span class="border-text">FOUNDER</span>
+            </a>
           </li>
           <li class="intro-left-v">
-            <a class="border_link " href="about_us.html#download"><span class="border-text">DOWNLOAD</span></a>
+            <a class="border_link" href="about_us.html#team">
+              <span class="border-text">OUR&nbsp;TEAM</span>
+            </a>
+          </li>
+          <li class="intro-left-v">
+            <a class="border_link" href="about_us.html#values"><span class="border-text">VALUES&nbsp;/&nbsp;MISSION&nbsp;/&nbsp;VISION</span></a>
+          </li>
+          <li class="intro-left-v">
+            <a class="border_link" href="about_us.html#nameandlogo"><span class="border-text">NAME&nbsp;AND&nbsp;LOGO</span></a>
           </li>
         </ul>
         <ul id="why_us-id" class="why_us-submenu" style="display: none;">
           <li class="intro-left-v ">
-            <a class="border_link active" href="why_us.html"><span class="border-text">INTRO</span></a>
+            <a class="border_link" href="why_us.html"><span class="border-text">INTRO</span></a>
           </li>
           <li class="intro-left-v ">
             <a class="border_link " href="why_us.html#OUR GUANXI"><span class="border-text">OUR GUANXI</span></a>
@@ -60,7 +65,7 @@
         </ul>
         <ul id="our_work-id" class="our_work-submenu" style="display: none;">
           <li class="intro-left-v ">
-            <a class="border_link active" href="index.html#our_work"><span class="border-text">INTRO</span></a>
+            <a class="border_link" href="index.html#our_work"><span class="border-text">INTRO</span></a>
           </li>
           <li class="intro-left-v ">
             <a class="border_link " href="our_work.html#services"><span class="border-text">SERVICES</span></a>
@@ -74,7 +79,7 @@
         </ul>
         <ul id="about_china-id" class="about_china-submenu" style="display: none;">
           <li class="intro-left-v ">
-            <a class="border_link active" href="index.html#about_china"><span class="border-text">INTRO</span></a>
+            <a class="border_link" href="index.html#about_china"><span class="border-text">INTRO</span></a>
           </li>
           <li class="intro-left-v ">
             <a class="border_link " href="about_china.html#challenges"><span class="border-text">CHALLENGES</span></a>
@@ -93,16 +98,30 @@
     </div>
 
     <div id="mySidenav" class="sidenav">
-    <div class="sidenav-links" id="myMenu" onclick="closeNav()">
-        <a data-menuanchor="home" class="active sidenav_link home-menu" href="index.html#home" style="width: 0;">HOME </a><br>
-        <a data-menuanchor="about_us" class="sidenav_link about-menu" href="index.html#about_us" style="width: 0;" >ABOUT&nbsp;US</a><br>
-        <a data-menuanchor="why_us" class="sidenav_link why-menu" href="index.html#why_us" style="width: 0;">WHY&nbsp;US</a><br>
-        <a data-menuanchor="our_work" class="sidenav_link work-menu" href="index.html#our_work" style="width: 0;">OUR&nbsp;WORK</a><br>
-        <a data-menuanchor="about_china" class="sidenav_link china-menu" href="index.html#about_china" style="width: 0;">ABOUT&nbsp;CHINA</a><br>
-        <a class="sidenav_link raq-menu" href="raq.html" style="width: 0;">RAQ</a><br>
-        <a class="sidenav_link contact-menu" href="contact.html" style="width: 0;" >CONTACT&nbsp;US</a>
+      <div class="sidenav-links" id="myMenu" onclick="closeNav()">
+        <a data-menuanchor="home" class="sidenav_link home-menu" href="index.html#home" style="width: 0;">
+          HOME
+        </a><br>
+        <a data-menuanchor="about_us" class="active sidenav_link about-menu" href="index.html#about_us" style="width: 0;">
+          ABOUT&nbsp;US
+        </a><br>
+        <a data-menuanchor="why_us" class="sidenav_link why-menu" href="index.html#why_us" style="width: 0;">
+          WHY&nbsp;US
+        </a><br>
+        <a data-menuanchor="our_work" class="sidenav_link work-menu" href="index.html#our_work" style="width: 0;">
+          OUR&nbsp;WORK
+        </a><br>
+        <a data-menuanchor="about_china" class="sidenav_link china-menu" href="index.html#about_china" style="width: 0;">
+          ABOUT&nbsp;CHINA
+        </a><br>
+        <a class="sidenav_link raq-menu" href="raq.html" style="width: 0;">
+          RAQ
+        </a><br>
+        <a class="sidenav_link contact-menu" href="contact.html" style="width: 0;">
+          CONTACT&nbsp;US
+        </a>
+      </div>
     </div>
-  </div>
     <div class="header-lang nav">
       <div class="row">
         <div class="header-lang-item nav-item col-xs-6">
@@ -126,211 +145,625 @@
     </div>
   </header>
 
-    <div class="container-fluid">
-      <div class="row">
+  <div class="container-fluid" id="about_us_page_id">
+    <div class="row">
       <div class="col-md-1">
         <ul class="submenu">
           <li class="intro-left-v">
-            <a class="rotated-links "  href="#founder"><span class="border-text">FOUNDER</span></a>
+            <a class="rotated-links "  href="#founder">
+              <span class="border-text">
+                FOUNDER
+              </span>
+            </a>
           </li>
           <li class="intro-left-v">
-            <a class="rotated-links "  href="#values"><span class="border-text">VALUES</span></a>
+            <a class="rotated-links "  href="#team">
+              <span class="border-text">
+                OUR&nbsp;TEAM
+              </span>
+            </a>
           </li>
           <li class="intro-left-v">
-            <a class="rotated-links " href="#mission"><span class="border-text">MISSION&nbsp;/&nbsp;VISION</span></a>
+            <a class="rotated-links "  href="#values">
+              <span class="border-text">
+                VALUES&nbsp;/&nbsp;MISSION&nbsp;/&nbsp;VISION
+              </span>
+            </a>
           </li>
           <li class="intro-left-v">
-            <a class="rotated-links "  href="#team"><span class="border-text">TEAM</span></a>
-          </li>
-          <li class="intro-left-v">
-            <a class="rotated-links "  href="#download"><span class="border-text">DOWNLOAD</span></a>
+            <a class="rotated-links "  href="#nameandlogo">
+              <span class="border-text">
+                NAME&nbsp;AND&nbsp;LOGO
+              </span>
+            </a>
           </li>
         </ul>
       </div>
-      <div class="col-md-10 ">
+      <div class="col-md-10">
         <div id="fullpage">
-          <div class="section" id="founder">
-                <p class="founder-title text-nowrap">LINA B</p>
-                <figure class="figure">
-                  <img class="figure-img founder-img img-fluid mx-auto d-block " src="home-images/ex-founder.png" alt="Founder image">
-                  <figcaption class="figure-caption text-xs-center">
-                    asdf    / asdf    /     asdf   /   asdf  /   asdf
-                  </figcaption>
-                </figure>
-                <details> "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                </details>
+          <div class="section active " id="founder">
+            <div>
+              <h3 class="text-uppercase level2-main-title">FOUNDER
+              </h3>
+              <div class="row">
+                <div class="col-md-6 ">
+                  <h4 class="text-uppercase level2-titles"> BEGINNINGS
+                  </h4>
+                  <p class="lead">Lina has been a leader and visionary from the beginning.
+                  </p>
+                  <br>
+                  <p class="founder-content">
+                    She became interested in China at a time when no one predicted the country’s meteoric rise. By the age of 15, she was running operations for three EU-recognized youth development networks. And by 2009, she was in China proper and writing about the local culture for an audience of 200,000 back home.
+                  </p>
+                </div>
+                <div class="col-md-6">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                </div>
+                <div class="col-md-6">
+                  <p class="founder-content">
+                    <span class="dot">&bull;</span>
+                    <span class="date">2002
+                    </span>
+                    <br>
+                    <br>
+                    Lina, thirteen years old, learns about China for the first time. She is fascinated by how a culture half a world away uses “pictures” as written language and is determined to learn Chinese.
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <p class="founder-content ">
+                    <span class="date">2003-2006
+                    </span>
+                    <span class="dot">&bull;</span>
+                    <br>
+                    <br>
+                    As a teenager, Lina manages and represents youth at three EU-recognized non-profits: a local UN-sponsored community health initiative; the Eurodesk service network; and a Lithuanian union of 30+ youth organizations.
+                  </p>
+                </div>
+                <div class="col-md-6">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                </div>
+                <div class="col-md-6">
+                  <p class="founder-content ">
+                    <span class="dot">&bull;</span>
+                    <span class="date">2006-2010
+                    </span>
+                    <br>
+                    <br>
+                    At university, Lina majors in Chinese Studies, a program which admitted only 10 students nationwide every two years—but also a controversial decision at the time as China to Lithuanians was still a country of cheap fakes.
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <p class="founder-content ">
+                    <span class="date">2009
+                    </span>
+                    <span class="dot">&bull;</span>
+                    <br>
+                    <br>
+                    Her first time in China, Lina blogs daily about the differences between Chinese culture in texts versus on the ground, unexpectedly attracting 200,000 followers when re-published on delfi.lt, Lithuania’s largest news platform.
+                  </p>
+                </div>
+                <div class="col-md-6">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <p class="founder-content ">
+                    <span class="date">2010
+                    </span>
+                    <span class="dot">&bull;</span>
+                    <br>
+                    <br>
+                    Awarded Bachelor’s degree with thesis on Confucius’ Analects. Obtains HSK Level 6, highest rank on China’s only standardized Chinese exam for foreigners. Travels alone through 10 different provinces in China.
+                  </p>
+                </div>
+                <div class="col-md-6">
+                </div>
+              </div>
+              <div class="row level2-titles">
+                <div class="col-md-6">
+                  <h4 class="text-uppercase"> FROM FREELANCE TO CROSS-CULTURAL BUSINESS CONSULTING
+                  </h4>
+                </div>
+                <div class="col-md-6">
+                  <p class="lead">Between 2010 and 2014
+                    <br>
+                    <br>
+                  </p>
+                  <p class="founder-content ">
+                    Lina consulted for 50+ China projects across industries including luxury real estate, food & beverage, manufacturing, and education, all while simultaneously obtaining a Master’s degree from a prominent Chinese university. As the token interpreter who was often the only one who understood everything being spoken in any given meeting, she learned to hold her own through negotiations with high-level company executives of any stripe or culture.
+                    <br>
+                    <br>
+                    Her Chinese proficiency was such that the Lithuanian government approached her to translate its legally complex Railway Statutes from Lithuanian into Chinese. After seeing her at work, other companies tried to steal her away with spontaneous full-time job offers
+                    and benefits, but Lina chose the diversified route of freelancing, ultimately crafting her own vision for LITAO.
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                </div>
+                <div class="col-md-6">
+                  <div class="founder-content ">
+                    <span class="dot">&bull;</span>
+                    <span class="date">2010
+                    </span>
+                    <br>
+                    <br>
+                    <h6>REPRESENTED
+                    </h6>
+                    <p>
+                      Awarded Bachelor’s degree with thesis on Confucius’ Analects. Obtains HSK Level 6, highest rank on China’s only standardized Chinese exam for foreigners. Travels alone through 10 different provinces in China.
+                    </p>
+                    <h6>INTERPRETED & NEGOTIATED
+                    </h6>
+                    <p>
+                      cultural shows and performances for Murat Etilgan, a world-renowned classical Turkish painter of ebru art
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="founder-content ">
+                    <span class="date">2011
+                    </span>
+                    <span class="dot">&bull;</span>
+                    <br>
+                    <br>
+                    <h6>INTERPRETED & NEGOTIATED
+                    </h6>
+                    <p>
+                      multi-million luxury mall and villa deals for architectural design team, including travel to Hainan, Taiyuan, and other up-and-coming Chinese cities
+                    </p>
+                    <h6> MYSTERY-SHOPPED
+                    </h6>
+                    <p>
+                      for Marks & Spencer’s market research department
+                    </p>
+                    <h6>SOURCED
+                    </h6>
+                    <p>
+                      rare fish from Colombia to China for high-end aquariums
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <span class="date founder-content">2012
+                  </span>
+                  <span class="dot">&bull;</span>
+                  <br>
+                  <br>
+                  <p class="lead">
+                    Lina obtained a Chinese
+                    government scholarship for an
+                    MA in International Relations
+                    at one of China’s most
+                    prestigious universities
+                  </p>
+                  <p class="founder-content ">
+                    She became interested in China at a time when no
+                    one predicted the country’s meteoric rise. By the
+                    age of 15, she was running operations for three
+                    EU-recognized youth development networks. And
+                    by 2009, she was in China proper and writing about
+                    the local culture for an audience of 200,000 back
+                    home.
+                  </p>
+                </div>
+                <div class="col-md-6">
+                  <div class="founder-content ">
+                    <span class="dot">&bull;</span>
+                    <span class="date">2013
+                    </span>
+                    <br>
+                    <br>
+                    <h6>LOCALIZED
+                    </h6>
+                    <p>
+                      youth development social enterprise Me to We from
+                      Canada to China, organizing all press tours and
+                      Chinese social media marketing as well as
+                      establishing parternships with 10 international high
+                      schools and leading Chinese educational company
+                      New Pathway
+                    </p>
+                    <h6> FACILITATED
+                    </h6>
+                    <p>
+                      youth development workshops for hundreds of
+                      teenagers as project officer of Me to We, ensuring
+                      the cultural appropriateness of each workshop
+                      exercise
+                    </p>
+                    <h6>ORGANIZED & HOSTED
+                    </h6>
+                    <p>
+                      Canada mayor delegation with mayors of six major
+                      Canadian cities for Confederation of Greater
+                      Toronto Chinese Business Association
+                    </p>
+                    <h6>SOURCED
+                    </h6>
+                    <p>
+                      custom-made art and furniture pieces from
+                      Lithuania to China
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                </div>
+                <div class="col-md-6">
+                  <div class="founder-content">
+                    <span class="dot">&bull;</span>
+                    <span class="date">2014
+                    </span>
+                    <br>
+                    <br>
+                    <h6>INSPECTED
+                    </h6>
+                    <p>
+                      garbage recycling plants in China for Lithuanian
+                      project worth EUR 10 mln
+                    </p>
+                    <h6>QUALITY-CONTROLLED
+                    </h6>
+                    <p>
+                      custom food processing and packaging equipment,
+                      signed contracts in Chinese factories on behalf of
+                      clients
+                    </p>
+                    <h6>SOURCED & RUSH-DELIVERED USD 100,000
+                    </h6>
+                    <p>
+                      of telecom components from 11 suppliers in China to
+                      Lithuanian client’s warehouse in less than one
+                      month—a logistically improbable feat
+                    </p>
+                    <h6>REPRESENTED
+                    </h6>
+                    <p>
+                      Flintas and sold copyrights at the International
+                      Children’s Books Exhibition in Shanghai
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <h4 class="text-uppercase  level2-titles">MASTER’S DEGREE AT FUDAN UNIVERSITY
+                  </h4>
+                  <p class="lead">
+                    Lina obtained a Chinese
+                    government scholarship for an
+                    MA in International Relations
+                    at one of China’s most
+                    prestigious universities
+                  </p>
+                  <p class="founder-content ">
+                    The place where top Chinese officials graduate from
+                    and send their children and so on. Educated by the
+                    Communist elites themselves on how to navigate
+                    China, she knows how to communicate to Chinese
+                    leaders in their own language.
+                  </p>
+                </div>
+                <div class="col-md-6">
+                  <p class="lead">    Master’s Thesis
+                  </p>
+                  <p class="founder-content">
+                    <b>Garbage recycling plants in China for Lithuanian
+                      project worth EUR 10 mln
+                    </b>
+                  </p>
+                  <p class="founder-content ">
+                    Lina read over 200 original sources and interviewed
+                    all major stakeholders in Lithuania-China
+                    interactions for her thesis on Lithuanian economic
+                    diplomacy towards China. Defended thesis fully in
+                    Chinese. (Click here to read Lina’s full thesis in
+                    English.)
+                    Pan Zhongqi, Lina’s thesis advisor, was the first
+                    secretary of China’s mission(?) to the EU.
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="founder-content ">
+                    <span class="date"> 2014-Present
+                    </span>
+                    <span class="dot">&bull;</span>
+                    <br>
+                    <br>
+                    <p class="lead">LITAO Founder and Managing Director
+                    </p>
+                    <p>
+                      Towards the end of 2014, Lina’s workload was
+                      growing too large and high-level to handle with
+                      individual discretion. She submitted the business
+                      registration documents for LITAO in October 2014
+                      and obtained a WFOE business license for mainland
+                      China in February 2015. While she has always
+                      cultivated a large network of China experts, she was
+                      finally able to hire her first Chinese employees fully
+                      dedicated to LITAO. In July 2016, an additional
+                      branch of LITAO opened in Hong Kong, officially
+                      forming the LITAO Consultancy Group.
+                      <br>
+                      <br>
+                      Please click here for LITAO’s projects since
+                      inception. (see timeline - LITAO.doc)
+                      <br>
+                      Flintas and sold copyrights at the International
+                      Children’s Books Exhibition in Shanghai
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                </div>
+              </div>
             </div>
-            <div class="section" id="values">
+          </div>
+          <div class="section" id="values">
+            <h3 class="text-uppercase level2-main-title">
+              VALUES, <br>
+              MISSION <br>
+              AND VISION</h3>
               <div class="row">
-                <div class="col-md-6">
-                  <p class="values-title text-nowrap">VALUES</p>
-                  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
-                    Praesent vel mauris id sem ultrices finibus.
-                    Donec tempor nulla vel odio tincidunt ultrices.
-                    Phasellus consequat congue ullamcorper.
-                    Praesent vel mauris id sem ultrices finibus.
-                    Donec tempor nulla vel odio tincidunt ultrices.
-                    Phasellus consequat congue ullamcorper.</p>
+                <div class="col-md-6 ">
+                  <h4 class="text-uppercase level2-titles"> VALUES
+                  </h4>
+                  <p class="lead">Compassion <br>
+                    Hands-On Know-How <br>
+                    Personal Approach <br>
+                    Fluency
+                  </p>
+                  <br>
                 </div>
                 <div class="col-md-6">
-                  <p class="values-title text-nowrap">VALUES</p>
-                  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
-                    Praesent vel mauris id sem ultrices finibus.
-                    Donec tempor nulla vel odio tincidunt ultrices.
-                    Phasellus consequat congue ullamcorper.
-                    Praesent vel mauris id sem ultrices finibus.
-                    Donec tempor nulla vel odio tincidunt ultrices.
-                    Phasellus consequat congue ullamcorper.</p>
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-6">
-                  <p class="values-title text-nowrap">VALUES</p>
-                  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
-                    Praesent vel mauris id sem ultrices finibus.
-                    Donec tempor nulla vel odio tincidunt ultrices.
-                    Phasellus consequat congue ullamcorper.
-                    Praesent vel mauris id sem ultrices finibus.
-                    Donec tempor nulla vel odio tincidunt ultrices.
-                    Phasellus consequat congue ullamcorper.</p>
                 </div>
                 <div class="col-md-6">
-                  <p class="values-title text-nowrap">VALUES</p>
-                  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
-                    Praesent vel mauris id sem ultrices finibus.
-                    Donec tempor nulla vel odio tincidunt ultrices.
-                    Phasellus consequat congue ullamcorper.
-                    Praesent vel mauris id sem ultrices finibus.
-                    Donec tempor nulla vel odio tincidunt ultrices.
-                    Phasellus consequat congue ullamcorper.</p>
+                  <p class="lead">COMPASSION
+                  </p>
+                  <p> <b class="color-red">Compassion is for businessmen
+                    as well as Buddha.
+                  </b>
+                </p>
+                <p class="founder-content">
+                  It is feeling what it means to be in someone else’s
+                  shoes, in someone else’s country. It is the true
+                  consideration of the people who buy your products
+                  and services as well as the people who make them,
+                  their joys, sorrows, and humanity. Compassion
+                  means responding to differences without clashing,
+                  and treating even obstacles as opportunities for
+                  understanding. We believe success without
+                  compassion is money without meaning.
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <p class="lead">FLUENCY
+                </p>
+                <p>
+                  <b class="color-red">Fluency is not limited to language.</b>
+                </p>
+                <p class="founder-content"> It is understanding but also flow, also grace.
+                  Vocabulary and grammar alone does not guarantee
+                  fluency; it is the connections between words that
+                  give sentences their meaning. Fluency is the ability
+                  to do things and convey meaning with ease and
+                  efficiency. We help you to find your cultural fluency,
+                  to do things naturally even outside your home
+                  country so you can translate your success anywhere
+                  in the world. Fluency comes from the same root as
+                  fluidity, a measure of the extent to which a liquid
+                  can move freely and without obstacles. Fluidity is
+                  even a part of our name; the “TAO” in LITAO comes
+                  from the Chinese word 涛 (tāo), meaning wave.”
+                </p>
+              </div>
+              <div class="col-md-6">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+              </div>
+              <div class="col-md-6">
+                <p class="lead">PERSONAL
+                  APPROACH
+                </p>
+                <p> <b class="color-red">Everyone knows a custom-made suit fits
+                  better than one from the department store.
+                </b>
+              </p>
+              <p class="founder-content">LITAO is the reverse of mass-produced consulting:
+                we take your measure carefully to find solutions
+                tailored to your specific needs. Of course, it’s not
+                the clothes that make the man or woman; it’s
+                ultimately the person inside. Yet without good
+                presentation, the personality is obscured. At LITAO,
+                we want you to show your best self to the world. We
+                take your dreams personally.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <p class="lead">HANDS-ON<br>
+                KNOW-HOW
+              </p>
+              <p> <b class="color-red">
+                We are not a group of
+                theorists floating ideas in the sky.
+              </b></p>
+              <p class="founder-content"> We are down working on the ground. Whatever we
+                know, we know firsthand. We consider ourselves
+                gardening experts for cultural pioneers: by helping
+                you understand the local environment and warning
+                you of potential pests and storms, your seeds can
+                safely take root and grow. Wherever we operate, our
+                local teams dig deep and get their hands dirty so you
+                don’t have to.
+              </p>
+            </div>
+            <div class="col-md-6">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 ">
+              <h4 class="text-uppercase level2-titles"> MISSION
+              </h4>
+              <p class="lead">Serving Greatness</p>
+              <p> <b class="level2-titles">There is always a gap between who we
+                are and who we want to be.</b></p>
+                <p class="founder-content"> Closing the distance between those two points is the
+                  definition of greatness. It is doing what you have
+                  always dreamed; it is going beyond your comfort
+                  zone; it is being a pioneer. <br><br>
+                  We are here to help you close that gap in service of
+                  greatness: to help you go further and farther than
+                  you ever thought you could. To exceed even your
+                  own expectations. Because that’s what great people
+                  do. Because that’s what you are. And we want to
+                  bring more greatness into the world.
+                </p>
+              </div>
+              <div class="col-md-6">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+              </div>
+              <div class="col-md-6 ">
+                <h4 class="text-uppercase level2-titles"> VISION
+                </h4>
+                <p class="lead">Effortless Work
+                </p>
+                <p> <b class="level2-titles">Effortless does not mean no effort.
+                </b>
+              </p>
+              <p class="founder-content"> It is by no means laziness. Effortless is simply doing
+                what feels most natural to you: waking up early not
+                because you have to but because you want to; going
+                the extra mile for your client or project or company
+                or country because you believe in them; working
+                tirelessly out of love.<br><br>
+                We love our work: we imagine a world where
+                everyone is passionate about what they do, and so
+                even the most complex goals become readily
+                attainable. We are here to simplify your obstacles,
+                clarify your choices, and accelerate your
+                dreams—to make your work life effortless but no
+                less ambitious.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="section" id="nameandlogo">
+          <h3 class="text-uppercase level2-main-title">
+            NAME <br>
+            AND LOGO
+          </h3>
+          <div class="row">
+            <div class="col-md-12">
+              <img src="./home-images/about_us/name_and_logo.jpg" alt="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <p class="level2-titles"><b> The “LI” in LITAO comes
+                from the Chinese word 黎 (lí),
+                meaning dawn.</b>
+              </p>
+              <p class="name-content color-red">The character 黎 itself has four components:</p>
+              <p class="name-content">grain, parcel, person, water. This past decade has
+                been the dawn of China, of globalization, of a truly
+                connected world. And the day has only just begun.<br><br>
+                (This is dummy text) The three dots on the left side of
+                the character 涛 is the component of water. In
+                traditional Chinese fengshui — the philosophy of
+                environmental
+                harmony—water
+                represents
+                prosperity. Wealth means flow (liquidity, anyone?).
+                But on the right side of the character is 寿, meaning
+                longevity.
+              </p>
+            </div>
+            <div class="col-md-6">
+              <p class="level2-titles"><b>The “TAO” in LITAO comes
+                from the Chinese word 涛 (tāo),
+                meaning wave.</b></p>
+                <p class="name-content color-red">And not just any wave—a huge one.</p>
+                <p class="name-content">The three dots on the left side of the character 涛 is
+                  the component of water. In traditional Chinese
+                  fengshui — the philosophy of environmental
+                  harmony—water represents prosperity. Wealth
+                  means flow (liquidity, anyone?). But on the right
+                  side of the character is 寿, meaning longevity.<br><br>
+                  So we are ever fluid, ever changing in a fluctuating
+                  world. Yet like waves that hit the shore again and
+                  again, slowly and relentlessly wearing down the
+                  shoreline, we aim for the long-term.
+                </p>
+                <p class="name-content"><b>LI + TAO = dawn + wave <br>
+                  LITAO is a wave ushering in the new dawn.<br>
+                  LITAO is potential just waiting to be realized.</b></p>
                 </div>
               </div>
-              </div>
-              <div class="section" id="mission">
-                <div class="row">
-                    <p class="mission-title text-nowrap">MISSION</p>
-                  <div class="col-md-6">
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
-                      Praesent vel mauris id sem ultrices finibus.
-                      Donec tempor nulla vel odio tincidunt ultrices.
-                      Phasellus consequat congue ullamcorper.
-                      Praesent vel mauris id sem ultrices finibus.
-                      Donec tempor nulla vel odio tincidunt ultrices.
-                      Phasellus consequat congue ullamcorper.</p>
-                  </div>
-                  <div class="col-md-6">
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
-                      Praesent vel mauris id sem ultrices finibus.
-                      Donec tempor nulla vel odio tincidunt ultrices.
-                      Phasellus consequat congue ullamcorper.
-                      Praesent vel mauris id sem ultrices finibus.
-                      Donec tempor nulla vel odio tincidunt ultrices.
-                      Phasellus consequat congue ullamcorper.</p>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-12"> picture</div>
-                </div>
-                <div class="row">
-                 <p class="mission-title text-nowrap">VISION</p>
-                  <div class="col-md-6">Picture</div>
-                  <div class="col-md-6">
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                              Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
-                              Praesent vel mauris id sem ultrices finibus.
-                              Donec tempor nulla vel odio tincidunt ultrices.
-                              Phasellus consequat congue ullamcorper.
-                              Phasellus consequat congue ullamcorper.</p>
-                  </div>
-                </div>
-              </div>
-                <div class="section" id="team">
-                  <div class="row">
-                    <p class="team-title text-nowrap">Lina B.</p>
-                    <p class="team-title text-nowrap">CEO</p>
-                    <div class="col-md-6">Picture</div>
-                    <div class="col-md-6">
-                      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
-                                Praesent vel mauris id sem ultrices finibus.
-                                Donec tempor nulla vel odio tincidunt ultrices.
-                                Phasellus consequat congue ullamcorper.
-                          </p>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <p class="team-title text-nowrap">Lina B.</p>
-                    <p class="team-title text-nowrap">CEO</p>
-                    <div class="col-md-6">
-                      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
-                                Praesent vel mauris id sem ultrices finibus.
-                                Donec tempor nulla vel odio tincidunt ultrices.
-                                Phasellus consequat congue ullamcorper.
-                                </p>
-                    </div>
-                    <div class="col-md-6">Picture</div>
-                  </div>
-                  <div class="row">
-                    <p class="team-title text-nowrap">Lina B.</p>
-                    <p class="team-title text-nowrap">CEO</p>
-                    <div class="col-md-6">Picture</div>
-                    <div class="col-md-6">
-                      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
-                                Praesent vel mauris id sem ultrices finibus.
-                                Donec tempor nulla vel odio tincidunt ultrices.
-                                Phasellus consequat congue ullamcorper.
-                                Praesent vel mauris id sem ultrices finibus.
-                                Donec tempor nulla vel odio tincidunt ultrices.
-                        </p>
-                    </div>
-                  </div>
-                  </div>
+            </div>
 
-                  <div class="section" id="download">
-                        <p class="download-title text-nowrap">Download</p>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                          Sed tortor odio, commodo eu dolor sed, rhoncus aliquet mi.
-                          Praesent vel mauris id sem ultrices finibus.
-                          Donec tempor nulla vel odio tincidunt ultrices.
-                          Phasellus consequat congue ullamcorper.
-                          Praesent vel mauris id sem ultrices finibus.
-                          Donec tempor nulla vel odio tincidunt ultrices.
-                          Phasellus consequat congue ullamcorper.</p>
-                  </div>
+          </div>
         </div>
-      </div>
-      <div class="col-md-1 color-green ">
-        <div class="side-border">
+        <div class="col-md-1 color-green ">
+          <div class="side-border">
+          </div>
         </div>
-      </div>
       </div>
     </div>
 
-    <script src="js/jquery-3.1.1.min.js"></script>
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/tether.min.js"></script>
-    <script src="js/jquery.fullPage.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.1.1.min.js">
+    </script>
+    <script src="js/jquery.easing.min.js">
+    </script>
+    <script src="js/tether.min.js">
+    </script>
+    <script src="js/ScrollMagic.min.js">
+    </script>
+    <script src="js/bootstrap.min.js">
+    </script>
     <script type="text/javascript">
-
-    $(document).ready(function() {
-      $('#fullpage').fullpage({
-      anchors:[]
-  });
+    $(function() {
+      // Init Controller
+      var scrollMagicController = new ScrollMagic();
     });
 
     $(".nav a").on("click", function(){
       $(".nav").find(".active").removeClass("active");
       $(this).addClass("active");
     });
+    document.getElementById("about_us_page_id").onmouseover = function() {closeNav()};
 
     function openNav() {
       document.getElementById("mySidenavMenu").style.borderRight = "1px solid #cccbc5";
@@ -456,6 +889,9 @@
       $(".submenu").find(".active").hide().removeClass("active");
     });
 
+
     </script>
+
   </body>
+
   </html>
