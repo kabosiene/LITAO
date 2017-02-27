@@ -240,7 +240,7 @@ section {
   float:right;
   height:100%;
   line-height:55px;
-  margin-right:40px;
+  margin-right:20px;
 }
 
 .border_link {
@@ -422,58 +422,81 @@ section {
 .side-border{
   height: 100vh;
 }
-.level2-logo {
-  margin: 5px 0 10px 50px;
-  height: 40px;
-  padding-left: 10px;
-}
-.founder-img{
-  padding-left: 100px;
-  padding-right: 100px;
-}
-.founder-title {
-  font-size: 18px;
-  margin: 50px 0 50px 100px;
-  font-family: 'BrandonGrotesque-Bold';
-}
-.founder.column{
-  margin: 50px 30px 0 30px;
-}
 
 #founder, #values, #nameandlogo{
-  padding-top: 50px;
-  padding-right: 30px;
-  padding-left: 30px;
+  padding-top: 70px;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 .section {
   text-align: left;
 }
+#founder .col-md-6 {
+  padding-left: 40px;
+  padding-right: 100px;
+}
 .level2-main-title{
   font-family: 'BrandonGrotesque-Bold';
   margin-bottom: 0px;
-  padding: 0 40px 0 40px;
   color: #a55f60;
+  font-size: 48px;
+  letter-spacing: 3px;
   text-transform: uppercase;
+  padding-left: 25px;
+}
+.level2-titles-box{
+  padding: 100px 0 80px 0;
 }
 .level2-titles {
-  padding: 60px 40px 60px 40px;
+  font-family: 'BrandonGrotesque-Bold';
+  font-size: 36px;
+  letter-spacing: 2px;
 }
 .founder-content, .name-content{
-  padding: 0 40px 0 40px;
+  font-family: 'BrandonGrotesque-Light';
+  font-size: 18px;
+  letter-spacing: 1px;
   text-align: justify;
 }
+.founder-content b{
+  font-family: 'BrandonGrotesque-Regular';
+  letter-spacing: 1px;
+}
+
 #founder p.lead{
-  padding: 0 40px 0 40px;
+  font-family: 'BrandonGrotesque-Bold';
   color: #a55f60;
+  font-size: 30px;
 }
 #values p.lead,  #nameandlogo p.lead{
-  padding: 0 40px 0 40px;
+
+}
+
+.calendar-date {
+  height: 110px;
+  margin-top: 140px;
+  margin-bottom: 70px;
+}
+.calendar-pic{
+   position:absolute;
+   z-index: -1;
+   height: 95px;
+   width: auto;
+   padding-left: 25px;
+}
+.dot {
+     position:absolute;
 }
 .date {
+  font-family: 'BrandonGrotesque-Bold';
   color:  #a55f60 ;
+  font-size: 24px;
+  letter-spacing: 1px;
+  display: inline-block;
+  margin-top: 45px;
 }
+
 #values .color-red{
-  padding: 0 40px 0 40px;
 }
 
 /*--------contact&raq-------*/
@@ -675,7 +698,6 @@ address {
   .intro-content {
     line-height: 25px;
   }
-
 }
 
 /* Large Devices, Wide Screens */
