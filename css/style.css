@@ -429,17 +429,17 @@ section {
 
 #founder, #values, #nameandlogo{
   padding-top: 70px;
-  padding-right: 50px;
-  padding-left: 50px;
   line-height: 1.1;
 }
 .section {
   text-align: left;
 }
-#founder .col-md-6 {
-  padding-left: 44px;
-  padding-right: 106px;
+#about_us_page_id .col-md-10 {
 }
+#founder .col-md-6, #values .col-md-6 {
+  padding-left: 92px;
+}
+
 .level2-main-title{
   font-family: 'BrandonGrotesque-Bold';
   margin-bottom: 0px;
@@ -447,7 +447,7 @@ section {
   font-size: 45px;
   letter-spacing: 3px;
   text-transform: uppercase;
-  padding-left: 25px;
+  padding-left: 75px;
 }
 .level2-titles-box-margin{
   margin-bottom: 119px;
@@ -460,13 +460,18 @@ section {
   height: auto;
   width:127px;
 }
-.level2-titles-box-pic{
+.level2-titles-box-pic,
+.level2-titles-box-pic-bigger{
   position:absolute;
   z-index: -1;
   width: 337px;
   height: auto;
   margin-left: 64px;
   margin-top: 29px;
+}
+.level2-titles-box-pic-bigger{
+  width: 400px;
+  height: 490px;
 }
 .level2-titles-box-founder{
   position:absolute;
@@ -488,6 +493,7 @@ section {
   letter-spacing: 0.0533em;
   text-align: justify;
   line-height: normal;
+  padding-right: 93px;
 }
 .founder-content b{
   font-family: 'BrandonGrotesque-Regular';
@@ -498,6 +504,7 @@ section {
   font-family: 'BrandonGrotesque-Bold';
   color: #a55f60;
   font-size: 29px;
+  padding-right: 106px;
 }
 #values p.lead,  #nameandlogo p.lead{
 
@@ -527,6 +534,10 @@ section {
 }
 .title-date {
   margin-top: -8px;
+}
+
+.from-freelance-side-text-padding{
+  padding-top: 182px;
 }
 #values .color-red{
 }
