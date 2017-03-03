@@ -230,6 +230,7 @@ section {
   width:100vh;
   height:45px;
   top: 40px ;
+  left:-1px;
   position:fixed;
   -webkit-transform-origin: left top;
   -webkit-transform:rotate(-90deg) translateX(-100%);
