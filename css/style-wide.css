@@ -1,0 +1,157 @@
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+  .side-border{
+    height: 100vh;
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    right: 0px;
+  }
+
+  #founder, #values, #nameandlogo{
+    padding-top: 70px;
+    line-height: 1.1;
+  }
+  .section {
+    text-align: left;
+  }
+  #about_us_page_id .col-md-10 {
+  }
+  #founder .col-md-6, #values .col-md-6 {
+    padding-left: 92px;
+  }
+
+  .level2-main-title{
+    font-family: 'BrandonGrotesque-Bold';
+    margin-bottom: 0px;
+    color: #a55f60;
+    font-size: 45px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding-left: 75px;
+  }
+  .level2-titles-box-margin{
+    margin-bottom: 119px;
+  }
+  .level2-titles-box{
+    margin: 106px 0 94px 0;
+  }
+  .level2-titles-box-line{
+    position:absolute;
+    height: auto;
+    width:127px;
+  }
+  .level2-titles-box-pic{
+    max-height: 100%;
+  }
+  .level2-titles-box-pic,
+  .level2-titles-box-pic-bigger{
+    position:absolute;
+    z-index: -1;
+    width: 337px;
+    height: auto;
+    margin-left: 64px;
+    margin-top: 29px;
+  }
+
+  .level2-titles-box-pic-bigger{
+    width: 400px;
+    height: 490px;
+  }
+  .level2-titles-box-founder{
+    position:absolute;
+    z-index: -2;
+    width: 634px;
+    height: auto;
+    margin-left: 250px;
+    margin-top: 2px;
+  }
+  .level2-titles {
+    font-family: 'BrandonGrotesque-Bold';
+    font-size: 35px;
+    letter-spacing: 2px;
+    padding-top: 45px;
+    max-width: 500px;
+  }
+  .founder-content, .name-content{
+    font-family: 'BrandonGrotesque-Light';
+    font-size: 16px;
+    letter-spacing: 0.0533em;
+    text-align: justify;
+    line-height: normal;
+    margin-right: 93px;
+    max-width: 370px;
+    padding-bottom: 80px;
+  }
+  .founder-content b{
+    font-family: 'BrandonGrotesque-Regular';
+    letter-spacing: 0.0533em;
+  }
+
+  #founder p.lead, #values p.lead{
+    font-family: 'BrandonGrotesque-Bold';
+    color: #a55f60;
+    font-size: 29px;
+    padding-right: 106px;
+    max-width: 500px;
+  }
+ #nameandlogo p.lead{
+
+  }
+  .calendar-date {
+    height: 110px;
+    margin-bottom: 17px;
+  }
+  .calendar-pic{
+    position:absolute;
+    z-index: -1;
+    height: 81px;
+    width: auto;
+    padding-left: 25px;
+  }
+  .dot {
+    position:absolute;
+  }
+  .date ,.title-date {
+    font-family: 'BrandonGrotesque-Bold';
+    color:  #a55f60 ;
+    font-size: 22px;
+    letter-spacing: 0.09em;
+    display: inline-block;
+    margin-top: 36px;
+    margin-left: 4px;
+  }
+  .title-date {
+    margin-top: -8px;
+  }
+
+  .from-freelance-side-text-padding{
+    padding-top: 182px;
+  }
+  #values .color-red{witte
+  }
+
+}
+@media only screen and (min-width : 1600px) {
+  .level2-titles-box-pic-bigger{
+    width: 500px;
+    height: 590px;
+  }
+  .level2-titles-box-pic{
+    width: 400px;
+    height: auto;
+  }
+  .level2-titles-box-founder{
+    width: 800px;
+    height: auto;
+  }
+}
+@media only screen and (min-width : 2000px) {
+  .rotated-links{
+    font-size: 18px;
+  }
+.level2-titles-box-founder {
+	width: 900px;
+	height: auto;
+}
+}

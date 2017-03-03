@@ -422,7 +422,7 @@ section {
 .side-border{
   height: 100vh;
   height: 100%;
-  width: 100px;
+  width: 100%;
   position: fixed;
   right: 0px;
 }
@@ -453,7 +453,7 @@ section {
   margin-bottom: 50px;
 }
 .level2-titles-box{
-  margin: 106px 0 94px 0;
+  margin: 30px 0 20px 0;
 }
 .level2-titles-box-line{
   position:absolute;
@@ -501,7 +501,8 @@ section {
   letter-spacing: 0.0533em;
   text-align: justify;
   line-height: normal;
-  /*padding-right: 93px;*/
+  padding-bottom: 40px;
+  max-width: 400px;
 }
 .founder-content b{
   font-family: 'BrandonGrotesque-Regular';
@@ -512,7 +513,35 @@ section {
   font-family: 'BrandonGrotesque-Bold';
   color: #a55f60;
   font-size: 29px;
-  padding-right: 106px;
+  max-width: 500px;
+  /*padding-right: 106px;*/
+}
+ .founder-kid, .founder-edu,
+ .founder-expo, .founder-sitting,
+ .girls-game,
+ .founder-background-city{
+  padding-bottom: 40px;
+}
+.founder-sitting{
+  max-width: 82% ;
+}
+
+.green-square{
+  position: absolute;
+  z-index: -2;
+  width: 500px;
+  left: 50%;
+  margin-left: -250px;
+  margin-top: -100px;
+}
+.green-square2{
+  position: absolute;
+  z-index: -2;
+  width: 500px;
+  left: 50%;
+  margin-left: -250px;
+  margin-top: 100px;
+
 }
 #values p.lead,  #nameandlogo p.lead{
 
@@ -637,6 +666,19 @@ address {
   .content-left{
     height: 100%;
   }
+  .founder-kid, .founder-edu,
+  .founder-expo, .founder-sitting,
+  .girls-game,
+  .founder-background-city,
+  .level2-titles-box-pic,
+  .level2-titles-box-founder,
+  .level2-titles-box-pic-bigger,
+  .level2-titles-box-pic-square{
+    max-width: 80%;
+  }
+  .level2-titles-box-pic{
+    max-height: 319px;
+  }
 }
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
@@ -738,7 +780,12 @@ address {
     padding-right: 50px;
     margin: 0;
   }
-
+  .level2-titles-box-pic{
+    max-height: 420px;
+  }
+  .from-freelance-side-text-padding{
+    padding-top: 120px;
+  }
 }
 
 /* Medium Devices, Desktops */
@@ -768,7 +815,7 @@ address {
   #about_us_page_id .col-md-10 {
   }
   #founder .col-md-6, #values .col-md-6 {
-    padding-left: 92px;
+    padding-left: 40px;
   }
 
   .level2-main-title{
@@ -781,7 +828,7 @@ address {
     padding-left: 75px;
   }
   .level2-titles-box-margin{
-    margin-bottom: 119px;
+    margin-bottom: 60px;
   }
   .level2-titles-box{
     margin: 106px 0 94px 0;
@@ -824,7 +871,7 @@ address {
     letter-spacing: 0.0533em;
     text-align: justify;
     line-height: normal;
-    padding-right: 93px;
+    margin-right: 50px;
   }
   .founder-content b{
     font-family: 'BrandonGrotesque-Regular';
@@ -832,133 +879,6 @@ address {
   }
 
   #founder p.lead{
-    font-family: 'BrandonGrotesque-Bold';
-    color: #a55f60;
-    font-size: 29px;
-    padding-right: 106px;
-  }
-  #values p.lead,  #nameandlogo p.lead{
-
-  }
-  .calendar-date {
-    height: 110px;
-    margin-bottom: 17px;
-  }
-  .calendar-pic{
-    position:absolute;
-    z-index: -1;
-    height: 81px;
-    width: auto;
-    padding-left: 25px;
-  }
-  .dot {
-    position:absolute;
-  }
-  .date ,.title-date {
-    font-family: 'BrandonGrotesque-Bold';
-    color:  #a55f60 ;
-    font-size: 22px;
-    letter-spacing: 0.09em;
-    display: inline-block;
-    margin-top: 36px;
-    margin-left: 4px;
-  }
-  .title-date {
-    margin-top: -8px;
-  }
-
-  .from-freelance-side-text-padding{
-    padding-top: 182px;
-  }
-  #values .color-red{
-  }
-
-}
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
-  .side-border{
-    height: 100vh;
-    height: 100%;
-    width: 100px;
-    position: fixed;
-    right: 0px;
-  }
-
-  #founder, #values, #nameandlogo{
-    padding-top: 70px;
-    line-height: 1.1;
-  }
-  .section {
-    text-align: left;
-  }
-  #about_us_page_id .col-md-10 {
-  }
-  #founder .col-md-6, #values .col-md-6 {
-    padding-left: 92px;
-  }
-
-  .level2-main-title{
-    font-family: 'BrandonGrotesque-Bold';
-    margin-bottom: 0px;
-    color: #a55f60;
-    font-size: 45px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    padding-left: 75px;
-  }
-  .level2-titles-box-margin{
-    margin-bottom: 119px;
-  }
-  .level2-titles-box{
-    margin: 106px 0 94px 0;
-  }
-  .level2-titles-box-line{
-    position:absolute;
-    height: auto;
-    width:127px;
-  }
-  .level2-titles-box-pic,
-  .level2-titles-box-pic-bigger{
-    position:absolute;
-    z-index: -1;
-    width: 337px;
-    height: auto;
-    margin-left: 64px;
-    margin-top: 29px;
-  }
-  .level2-titles-box-pic-bigger{
-    width: 400px;
-    height: 490px;
-  }
-  .level2-titles-box-founder{
-    position:absolute;
-    z-index: -2;
-    width: 634px;
-    height: auto;
-    margin-left: 250px;
-    margin-top: 2px;
-  }
-  .level2-titles {
-    font-family: 'BrandonGrotesque-Bold';
-    font-size: 35px;
-    letter-spacing: 2px;
-    padding-top: 45px;
-  }
-  .founder-content, .name-content{
-    font-family: 'BrandonGrotesque-Light';
-    font-size: 16px;
-    letter-spacing: 0.0533em;
-    text-align: justify;
-    line-height: normal;
-    padding-right: 93px;
-  }
-  .founder-content b{
-    font-family: 'BrandonGrotesque-Regular';
-    letter-spacing: 0.0533em;
-  }
-
-  #founder p.lead, #values p.lead{
     font-family: 'BrandonGrotesque-Bold';
     color: #a55f60;
     font-size: 29px;
