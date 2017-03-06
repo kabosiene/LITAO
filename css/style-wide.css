@@ -3,7 +3,7 @@
   .side-border{
     height: 100vh;
     height: 100%;
-    width: 100px;
+    width: 130px;
     position: fixed;
     right: 0px;
   }
@@ -31,10 +31,13 @@
     padding-left: 75px;
   }
   .level2-titles-box-margin{
-    margin-bottom: 119px;
+    margin-bottom: 80px;
   }
   .level2-titles-box{
     margin: 106px 0 94px 0;
+  }
+  .level2-titles-box-padding{
+    margin: 30px 0 94px 0;
   }
   .level2-titles-box-line{
     position:absolute;
@@ -76,16 +79,16 @@
   .founder-content, .name-content{
     font-family: 'BrandonGrotesque-Light';
     font-size: 16px;
-    letter-spacing: 0.0533em;
+    letter-spacing: 0.05em;
     text-align: justify;
     line-height: normal;
-    margin-right: 93px;
+    margin-right: 86px;
     max-width: 370px;
-    padding-bottom: 80px;
+    padding-bottom: 55px;
   }
   .founder-content b{
     font-family: 'BrandonGrotesque-Regular';
-    letter-spacing: 0.0533em;
+    letter-spacing: 0.05em;
   }
 
   #founder p.lead, #values p.lead{
@@ -98,9 +101,10 @@
  #nameandlogo p.lead{
 
   }
+
   .calendar-date {
     height: 110px;
-    margin-bottom: 17px;
+    margin-bottom: 20px;
   }
   .calendar-pic{
     position:absolute;
@@ -109,9 +113,7 @@
     width: auto;
     padding-left: 25px;
   }
-  .dot {
-    position:absolute;
-  }
+
   .date ,.title-date {
     font-family: 'BrandonGrotesque-Bold';
     color:  #a55f60 ;
@@ -125,10 +127,38 @@
     margin-top: -8px;
   }
 
-  .from-freelance-side-text-padding{
-    padding-top: 182px;
+  .side-text-padding{
+    padding-top: 94px;
   }
+
+  .founder-sitting{
+    padding-right: 15px;
+  }
+
   #values .color-red{witte
+  }
+  .move-up-1{
+    position: relative;
+    top: -135px;
+    height: 180px;
+  }
+  .move-up-2{
+    position: relative;
+    top: -130px;
+    height: 155px;
+  }
+  .move-up-3{
+    position: relative;
+    top: -120px;
+	  height: 280px;
+  }
+  .move-up-4{
+    position: relative;
+    top: -130px;
+  }
+  .move-up{
+    position: absolute;
+    top: -200px;
   }
 
 }
