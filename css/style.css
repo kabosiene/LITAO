@@ -22,6 +22,10 @@ a:active,a:hover,a:focus{
 ul {
   list-style: none;
 }
+.break { display:block;
+  margin-top:23px;
+  content: " ";
+ }
 
 section {
   height: 100%;
@@ -457,7 +461,7 @@ section {
   margin: 30px 0 20px 0;
 }
 .level2-titles-box-padding {
-margin: 30px 0 94px 0;
+margin: 36px 0 94px 0;
 }
 .level2-titles-box-line{
   position:absolute;
@@ -504,7 +508,7 @@ margin: 30px 0 94px 0;
   font-size: 16px;
   letter-spacing: 0.05em;
   text-align: justify;
-  line-height: normal;
+  line-height: 1.5;
   padding-bottom: 40px;
   max-width: 400px;
 }
@@ -512,13 +516,18 @@ margin: 30px 0 94px 0;
   font-family: 'BrandonGrotesque-Regular';
   letter-spacing: 0.05em;
 }
-
+#founder h4{
+  line-height: 1.2;
+}
 #founder p.lead{
   font-family: 'BrandonGrotesque-Bold';
   color: #a55f60;
   font-size: 29px;
   max-width: 500px;
   /*padding-right: 106px;*/
+  margin-bottom: 34px;
+  line-height: 1.2;
+  margin-bottom: 25px;
 }
  .founder-kid,
  .founder-expo, .founder-sitting,
@@ -529,11 +538,17 @@ margin: 30px 0 94px 0;
 .founder-sitting{
   max-width: 82% ;
 }
+.founder-background-city{
+  max-width: 78%;
+  top: -55px;
+  position: relative;
+}
 
 .green-square{
   position: absolute;
   z-index: -2;
-  width: 550px;
+  width: 500px;
+  height: 500px;
   left: 50%;
   margin-left: -275px;
   margin-top: -168px;
@@ -578,6 +593,9 @@ margin: 30px 0 94px 0;
 }
 
 .side-text-padding{
+  padding-top: 45px;
+}
+.side-text-padding-2{
   padding-top: 45px;
 }
 #values .color-red{
@@ -786,7 +804,7 @@ address {
     margin: 0;
   }
   .level2-titles-box-padding {
-  margin: 30px 0 94px 0;
+  margin: 36px 0 105px 0;
 }
   .level2-titles-box-pic{
     max-height: 420px;
@@ -794,15 +812,18 @@ address {
   .side-text-padding{
     padding-top: 120px;
   }
+  .side-text-padding-2{
+    padding-top: 83px;
+  }
   .side-date-padding{
    padding-top: 160px;
   }
   .girls-game{
     position: absolute;
     z-index: -2;
-    margin-left: -92px;
+    margin-left: 0px;
     padding-right: 108px;
-    top: -340px;
+    top: -375px;
   }
   .founder-edu{
     padding-right: 93px;
@@ -838,14 +859,22 @@ address {
   }
   .move-up-5{
     position: relative;
-    top: -65px;
+    top: -70px;
   }
   .move-up-6{
     position: relative;
     top: -60px;
   }
-  .move-up{
-    position: absolute;
+  .move-up-7{
+    position: relative;
+    top: -30px;
+  }
+  .move-up-8{
+    position: relative;
+    top: -211px;
+  }
+  .move-up-9{
+    position: relative;;
     top: -200px;
   }
 }
@@ -878,6 +907,7 @@ address {
   }
   #founder .col-md-6, #values .col-md-6 {
     padding-left: 40px;
+    padding-right: 0px;
   }
 
   .level2-main-title{
@@ -896,7 +926,7 @@ address {
     margin: 106px 0 94px 0;
   }
   .level2-titles-box-padding {
-	margin: 30px 0 94px 0;
+	margin: 36px 0 105px 0;
 }
   .level2-titles-box-line{
     position:absolute;
@@ -928,14 +958,14 @@ address {
     font-family: 'BrandonGrotesque-Bold';
     font-size: 35px;
     letter-spacing: 2px;
-    padding-top: 45px;
+    padding-top: 42px;
   }
   .founder-content, .name-content{
     font-family: 'BrandonGrotesque-Light';
     font-size: 16px;
     letter-spacing: 0.05em;
     text-align: justify;
-    line-height: normal;
+    line-height: 1.5;
     margin-right: 50px;
   }
   .founder-content b{
@@ -948,6 +978,7 @@ address {
     color: #a55f60;
     font-size: 29px;
     padding-right: 106px;
+    line-height: 1.2;
   }
   #values p.lead,  #nameandlogo p.lead{
 
@@ -981,6 +1012,16 @@ address {
 
   .side-text-padding{
     padding-top: 182px;
+  }
+  .side-text-padding-2{
+    padding-top: 83px;
+  }
+  .girls-game{
+    position: absolute;
+    z-index: -2;
+    margin-left: -40px;
+    padding-right: 108px;
+    top: -375px;
   }
   #values .color-red{
   }
