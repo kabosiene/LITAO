@@ -449,6 +449,7 @@ section {
   letter-spacing: 3px;
   text-transform: uppercase;
 /*  padding-left: 75px;*/
+   line-height: 43px;
 }
 .level2-titles-box-margin{
   margin-bottom: 50px;
@@ -515,7 +516,7 @@ margin: 36px 0 94px 0;
 #founder h4{
   line-height: 1.2;
 }
-#founder p.lead{
+#founder p.lead, #values p.lead{
   font-family: 'BrandonGrotesque-Bold';
   color: #a55f60;
   font-size: 29px;
@@ -663,6 +664,74 @@ margin: 36px 0 94px 0;
   margin-bottom: 25px;
 }
 
+#values{
+}
+.values_section-margin{
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.values_compassion-section-margin{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.values_picture {
+  position: relative;
+  width: 350px;
+  height: 520px;
+  border: solid 1px;
+  margin-top: -210px;
+  z-index: -2;
+}
+#values p.title{
+  font-family: 'BrandonGrotesque-Bold';
+  color:#595a5a;
+  font-size: 22px;
+  line-height: 1.3;
+  margin-bottom: 45px;
+  letter-spacing: 0.06em;
+}
+#values p.title_lead {
+  line-height: 1.5;
+  margin-bottom: 23px;
+  letter-spacing: 0.05em;
+}
+.values_green-circle{
+  position: absolute;
+  z-index: -2;
+  width: 190px;
+  margin-left: 75px;
+	margin-top: -165px;
+}
+.values_picture-compassion {
+  width: 480px;
+  height: 420px;
+  border: solid 1px;
+  position: absolute;
+  z-index: -2;
+  left:0;
+
+}
+.values_picture-fluency {
+  position: relative;
+  width: 360px;
+  height: 450px;
+  border: solid 1px;
+  z-index: -2;
+}
+.values_picture-approach {
+  position: relative;
+  width: 360px;
+  height: 360px;
+  border: solid 1px;
+  z-index: -2;
+}
+.values_picture-hands-on {
+  position: absolute;
+  width: 450px;
+  height: 370px;
+  border: solid 1px;
+  z-index: -2;
+}
 /*--------contact&raq-------*/
 .btn.sharp {
   border-radius:0;

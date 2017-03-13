@@ -11,6 +11,7 @@
   #founder, #values, #nameandlogo, #team{
     padding-top: 70px;
     line-height: 1.1;
+    padding-bottom: 70px;
   }
   .section {
     text-align: left;
@@ -90,16 +91,14 @@
     letter-spacing: 0.05em;
   }
 
-  #founder p.lead, #values p.lead{
+  #founder p.lead{
     font-family: 'BrandonGrotesque-Bold';
     color: #a55f60;
     font-size: 29px;
     padding-right: 106px;
     max-width: 500px;
   }
- #nameandlogo p.lead{
 
-  }
 
   .calendar-date {
     height: 110px;
@@ -143,8 +142,7 @@
     padding-right: 108px;
     top: -370px;
   }
-  #values .color-red{witte
-  }
+
   .move-up-1{
     position: relative;
     top: -135px;
