@@ -8,16 +8,15 @@
     right: 0px;
   }
 
-  #founder, #values, #nameandlogo{
+  #founder, #values, #nameandlogo, #team{
     padding-top: 70px;
     line-height: 1.1;
   }
   .section {
     text-align: left;
   }
-  #about_us_page_id .col-md-10 {
-  }
-  #founder .col-md-6, #values .col-md-6 {
+
+  #founder .col-md-6, #values .col-md-6, #team .col-md-6 {
     padding-left: 92px;
   }
 
