@@ -257,7 +257,7 @@ section {
 
 .border_link {
   color: #cccbc5;
-  font-size: 12px;
+  font-size: 10px;
   letter-spacing: 1px;
   opacity: 0;
   -webkit-transition: opacity 0.2s ease-in;
