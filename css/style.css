@@ -231,7 +231,7 @@ section {
 }
 /* submenu links */
 .submenu {
-  width:100vh;
+  min-width:100vh;
   height:45px;
   top: 40px ;
   left:-1px;
@@ -239,11 +239,15 @@ section {
   -webkit-transform-origin: left top;
   -webkit-transform:rotate(-90deg) translateX(-100%);
 }
-.about_us-submenu-level1 {
-  width:100vh;
+.about_us-submenu-level1,
+.why_us-submenu-level1,
+.our_work-submenu-level1
+.crossing_cultures-submenu-level1 {
+  min-width:100vh;
   height:45px;
   top: 40px ;
   left:-1px;
+
   -webkit-transform-origin: left top;
   -webkit-transform:rotate(-90deg) translateX(-100%);
 }
@@ -271,6 +275,8 @@ section {
   color: #cccbc5;
   font-size: 10px;
   letter-spacing: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
   -webkit-transition: opacity 0.2s ease-in;
   -moz-transition: opacity 0.2s ease-in;
   -o-transition: opacity 0.2s ease-in;
@@ -1189,7 +1195,6 @@ address {
     font-family: 'BrandonGrotesque-Regular';
     letter-spacing: 0.05em;
   }
-
   #founder p.lead{
     font-family: 'BrandonGrotesque-Bold';
     color: #a55f60;
@@ -1239,7 +1244,6 @@ address {
     top: -375px;
   }
 }
-
 /******************************/
 .visible {
   visibility: visible;

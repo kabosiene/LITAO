@@ -120,7 +120,7 @@ $(".china-menu").on("mouseover", function(){
  $('#myMenu').find('.select-submenu').removeClass('select-submenu');
  $(this).addClass('select-submenu');
  $(".submenu").find(".active").hide().removeClass("active");
- $("#about_china-id").addClass("active").show();
+ $("#crossing_culture-id").addClass("active").show();
 });
 $(".raq-menu").on("mouseover", function(){
  $('#myMenu').find('.select-submenu').removeClass('select-submenu');

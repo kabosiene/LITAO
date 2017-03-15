@@ -47,7 +47,7 @@
 		//Defines the delay to take place before being able to scroll to the next section
 		//BE CAREFUL! Not recommened to change it under 400 for a good behavior in laptops and
 		//Apple devices (laptops, mouses...)
-		var scrollDelay = 100;
+		var scrollDelay = 400;
 
 		var isTouch = (('ontouchstart' in window) || (navigator.msMaxTouchPoints > 0) || (navigator.maxTouchPoints));
 
