@@ -18,7 +18,7 @@
   <link rel="icon" type="image/png" href="icons_logo/logo.png">
 </head>
 
-<body>
+<body >
   <div class="animsition">
   <header class="header" id="header">
     <a id="nav-toggle" onclick="openNav()" href="javascript:void(0)">
@@ -178,7 +178,7 @@
             </a>
           </li>
           <li class="intro-left-v">
-            <a class="rotated-links " href="#founder">
+            <a class="rotated-links" href="#founder">
               <span class="border-text">
                 FOUNDER
               </span>
@@ -209,7 +209,7 @@
       </div>
       <div class="col-md-10 col-xs-11">
         <div id="fullpage">
-          <div class="section active" id="founder">
+          <div class="section" id="founder">
             <div class="row">
               <div class="col-xs-6">
                 <h3 class="text-uppercase level2-main-title">
@@ -611,7 +611,7 @@
               </div>
             </div>
           </div>
-          <div class="section active" id="team">
+          <div class="section" id="team">
             <div class="row">
               <div class="col-xs-6">
                 <h3 class="text-uppercase level2-main-title">
@@ -1214,6 +1214,10 @@
 
   $(".nav a").on("click", function(){
     $(".nav").find(".active").removeClass("active");
+    $(this).addClass("active");
+  });
+  $(".submenu a").on("click", function(){
+    $(".submenu").find(".active").removeClass("active");
     $(this).addClass("active");
   });
 
