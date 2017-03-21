@@ -238,18 +238,21 @@ section {
   position:fixed;
   -webkit-transform-origin: left top;
   -webkit-transform:rotate(-90deg) translateX(-100%);
+    position: absolute;
 }
+
 .about_us-submenu-level1,
 .why_us-submenu-level1,
-.our_work-submenu-level1
+.our_work-submenu-level1,
 .crossing_cultures-submenu-level1 {
+
   min-width:100vh;
   height:45px;
   top: 40px ;
   left:-1px;
-
   -webkit-transform-origin: left top;
   -webkit-transform:rotate(-90deg) translateX(-100%);
+  position: absolute;
 }
 
 .intro-left-v{
@@ -264,6 +267,8 @@ section {
   font-size: 10px;
   letter-spacing: 1px;
   opacity: 0;
+  padding-left: 5px;
+  padding-right: 5px;
   -webkit-transition: opacity 0.2s ease-in;
   -moz-transition: opacity 0.2s ease-in;
   -o-transition: opacity 0.2s ease-in;
@@ -398,6 +403,29 @@ section {
 
 .intro-column {
   margin: 20% 15% 0 15%;
+}
+.intro_scrollable {
+  height: 240px;
+  overflow-y:scroll;
+  overflow-x:hidden;
+  padding-right: 10px;
+}
+#style-2::-webkit-scrollbar-track
+{
+	border-radius: 3px;
+	background-color: #f6f3f0;
+}
+
+#style-2::-webkit-scrollbar
+{
+	width: 3px;
+	background-color: #f6f3f0;
+}
+
+#style-2::-webkit-scrollbar-thumb
+{
+	border-radius: 3px;
+	background-color: #a55f60;
 }
 .intro-title {
   font-size: 16px;
