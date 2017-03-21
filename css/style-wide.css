@@ -8,7 +8,8 @@
     right: 0px;
   }
 
-  #founder, #values, #nameandlogo, #team{
+  #founder, #values, #nameandlogo, #team,
+  #our_guanxi{
     padding-top: 70px;
     line-height: 1.1;
     padding-bottom: 70px;
@@ -17,7 +18,9 @@
     text-align: left;
   }
 
-  #founder .col-md-6, #values .col-md-6, #team .col-md-6, #nameandlogo .col-md-6 {
+  #founder .col-md-6, #values .col-md-6,
+  #team .col-md-6, #nameandlogo .col-md-6,
+  #our_guanxi .col-md-6  {
     padding-left: 92px;
   }
 
@@ -76,7 +79,7 @@
     padding-top: 42px;
     max-width: 500px;
   }
-  .founder-content, .name_content{
+  .founder-content, .name_content, .our_guanxi-content{
     font-family: 'BrandonGrotesque-Light';
     font-size: 16px;
     letter-spacing: 0.05em;
@@ -86,7 +89,7 @@
     max-width: 370px;
     padding-bottom: 55px;
   }
-  .founder-content b{
+  .founder-content b, .our_guanxi-content b{
     font-family: 'BrandonGrotesque-Regular';
     letter-spacing: 0.05em;
   }

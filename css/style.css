@@ -238,9 +238,11 @@ section {
   position:fixed;
   -webkit-transform-origin: left top;
   -webkit-transform:rotate(-90deg) translateX(-100%);
-    position: absolute;
+    position: fixed;
 }
-
+#mySidenavMenu .submenu{
+  position: absolute;
+}
 .about_us-submenu-level1,
 .why_us-submenu-level1,
 .our_work-submenu-level1,
@@ -287,6 +289,10 @@ section {
   -o-transition: opacity 0.2s ease-in;
   -ms-transition: opacity 0.2s ease-in;
   transition: opacity 0.2s ease-in;
+}
+
+.rotated-links.active{
+  color:#595a5a;
 }
 
 /*languages---------------------------------------------*/
@@ -473,14 +479,14 @@ section {
   right: 0px;
 }
 
-#founder, #values, #nameandlogo, #team{
+#founder, #values, #nameandlogo, #team,
+#our_guanxi{
   padding-top: 70px;
   line-height: 1.1;
 }
 .section {
   text-align: left;
 }
-
 
 .level2-main-title{
   font-family: 'BrandonGrotesque-Bold';
@@ -519,6 +525,7 @@ margin: 36px 0 94px 0;
   width: 400px;
   height: 490px;
 }
+
 .level2-titles-box-pic-square{
   width: 295px;
   height: 295px;
@@ -526,6 +533,10 @@ margin: 36px 0 94px 0;
   z-index: -1;
   margin-left: 64px;
   margin-top: 29px;
+}
+#our_guanxi .level2-titles-box-pic-square{
+  width:500px;
+  height:500px;
 }
 .level2-titles-box-founder{
   position:absolute;
@@ -541,7 +552,7 @@ margin: 36px 0 94px 0;
   letter-spacing: 2px;
   padding-top: 45px;
 }
-.founder-content, .name_content{
+.founder-content, .name_content, .our_guanxi-content{
   font-family: 'BrandonGrotesque-Light';
   font-size: 16px;
   letter-spacing: 0.05em;
@@ -550,7 +561,7 @@ margin: 36px 0 94px 0;
   padding-bottom: 40px;
   max-width: 400px;
 }
-.founder-content b{
+.founder-content b, .our_guanxi-content b{
   font-family: 'BrandonGrotesque-Regular';
   letter-spacing: 0.05em;
 }
@@ -851,6 +862,48 @@ margin: 36px 0 94px 0;
   padding-left: 70px;
   padding-right: 85px;
 }
+#our_guanxi{}
+  #our_guanxi .main-image{
+    border: 1px solid black;
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    z-index: -1;
+  }
+  .quanxi-explanation {
+    padding-top: 40px;
+    font-family: 'BrandonGrotesque-LightItalic';
+    color: #595a5a;
+    letter-spacing: 0.05em;
+    font-size: 15px;
+    padding-bottom: 40px;
+  }
+  .guanxi_noun {
+  }
+  .text-reference{
+    font-size: 14px;
+    letter-spacing: 0.03em;
+  }
+  #our_guanxi p.title {
+    font-family: 'BrandonGrotesque-Regular';
+    	color: #595a5a;
+    	font-size: 26px;
+    	line-height: 1.2;
+    	margin-bottom: 2px;
+    	letter-spacing: 0.04em;
+  }
+#our_guanxi  .dummy {
+  border: 1px solid black;
+  width: 80px;
+  height:80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.company-grid{
+  padding-left: 75px;
+  padding-right: 25px;
+  padding-bottom: 150px;
+}
 
 /*--------contact&raq-------*/
 .btn.sharp {
@@ -1125,7 +1178,7 @@ address {
     top: -211px;
   }
   .move-up-9{
-    position: relative;;
+    position: relative;
     top: -200px;
   }
 }
@@ -1147,7 +1200,8 @@ address {
     right: 0px;
   }
 
-  #founder, #values, #nameandlogo, #team{
+  #founder, #values, #nameandlogo, #team,
+  #our_guanxi{
     padding-top: 70px;
     line-height: 1.1;
   }
@@ -1156,7 +1210,8 @@ address {
   }
 
   #founder .col-md-6, #values .col-md-6,
-   #team .col-md-6, #nameandlogo .col-md-6 {
+  #team .col-md-6, #nameandlogo .col-md-6,
+  #our_guanxi .col-md-6  {
     padding-left: 40px;
     padding-right: 0px;
   }
@@ -1211,7 +1266,7 @@ address {
     letter-spacing: 2px;
     padding-top: 42px;
   }
-  .founder-content, .name_content{
+  .founder-content, .name_content, .our_guanxi-content{
     font-family: 'BrandonGrotesque-Light';
     font-size: 16px;
     letter-spacing: 0.05em;
@@ -1219,7 +1274,7 @@ address {
     line-height: 1.5;
     margin-right: 50px;
   }
-  .founder-content b{
+  .founder-content b, .our_guanxi-content b{
     font-family: 'BrandonGrotesque-Regular';
     letter-spacing: 0.05em;
   }
