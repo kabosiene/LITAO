@@ -9,7 +9,7 @@
   }
 
   #founder, #values, #nameandlogo, #team,
-  #our_guanxi{
+  #our_guanxi, #experience_litao{
     padding-top: 70px;
     line-height: 1.1;
     padding-bottom: 70px;
@@ -20,7 +20,7 @@
 
   #founder .col-md-6, #values .col-md-6,
   #team .col-md-6, #nameandlogo .col-md-6,
-  #our_guanxi .col-md-6  {
+  #our_guanxi .col-md-6, #experience_litao .col-md-6  {
     padding-left: 92px;
   }
 
@@ -79,7 +79,8 @@
     padding-top: 42px;
     max-width: 500px;
   }
-  .founder-content, .name_content, .our_guanxi-content{
+  .founder-content, .name_content, 
+  .our_guanxi-content, .experience_litao-content{
     font-family: 'BrandonGrotesque-Light';
     font-size: 16px;
     letter-spacing: 0.05em;
@@ -89,7 +90,8 @@
     max-width: 370px;
     padding-bottom: 55px;
   }
-  .founder-content b, .our_guanxi-content b{
+  .founder-content b, .our_guanxi-content b,
+  .experience_litao-content b{
     font-family: 'BrandonGrotesque-Regular';
     letter-spacing: 0.05em;
   }
