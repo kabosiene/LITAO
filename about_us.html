@@ -12,12 +12,14 @@
   <link href="css/font.css" rel="stylesheet">
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/animate.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/animsition.min.css">
   <link href="css/style.css" rel="stylesheet">
   <link href="css/style-wide.css" rel="stylesheet">
   <link rel="icon" type="image/png" href="icons_logo/logo.png">
 </head>
 
 <body>
+  <div class="animsition">
   <header class="header" id="header">
     <a id="nav-toggle" onclick="openNav()" href="javascript:void(0)">
       <span></span>
@@ -176,7 +178,7 @@
             </a>
           </li>
           <li class="intro-left-v">
-            <a class="rotated-links"  href="#founder">
+            <a class="rotated-links " href="#founder">
               <span class="border-text">
                 FOUNDER
               </span>
@@ -290,7 +292,6 @@
                     <div class="calendar-date"> <img class="calendar-pic" src="home-images/about_us/calendar.png" alt="calendar">
                       <span class="date">2009
                       </span>
-                      <!- dot ->
                     </div>
                     <p class="founder-content">
                       Her first time in China, <b>Lina blogs daily</b> about the differences between Chinese culture in texts versus on the ground, unexpectedly attracting <b>200,000</b> followers when re-published on <b>delfi.lt</b>, Lithuania’s <b>largest</b> news platform.
@@ -1192,6 +1193,7 @@
       </div>
     </div>
   </div>
+</div>
 
   <script src="js/jquery-3.1.1.min.js">
   </script>
@@ -1203,6 +1205,7 @@
   </script>
   <script src="js/bootstrap.min.js">
   </script>
+  <script src="js/animsition.min.js"></script>
   <script type="text/javascript">
   $(function() {
     // Init Controller
@@ -1339,9 +1342,29 @@
     $(this).addClass('select-submenu');
     $(".submenu").find(".active").hide().removeClass("active");
   });
-
-
   </script>
+  <script>
+  $(document).ready(function() {
+  $(".animsition").animsition({
+    inClass: 'fade-in-left-lg',
+    inDuration: 1000,
+    linkElement: '.animsition-link',
+    // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
+    loading: false,
+    loadingParentElement: 'body', //animsition wrapper element
+    timeout: false,
+    timeoutCountdown: 5000,
+    onLoadEvent: true,
+    browser: [ 'animation-duration', '-webkit-animation-duration'],
+    // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+    // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+    overlay : false,
+    overlayClass : 'animsition-overlay-slide',
+    overlayParentElement : 'body',
+    transition: function(url){ window.location.href = url; }
+  });
+});
+</script>
 
 </body>
 

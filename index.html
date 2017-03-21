@@ -11,6 +11,7 @@
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/jquery.multiscroll.css" rel="stylesheet">
   <link href="css/animate.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/animsition.min.css">
   <link href="css/style.css" rel="stylesheet">
   <link rel="icon" type="image/png" href="icons_logo/logo.png">
 </head>
@@ -187,7 +188,7 @@
     </div>
   </header>
 
-  <div class="container-fluid intro" id="multiscroll" >
+  <div class="container-fluid intro animsition" id="multiscroll" >
     <div class="row">
       <div class="ms-left col-md-6">
         <div class="ms-section active margin-0 color-green " data-anchor="home">
@@ -242,9 +243,11 @@
               </li>
             </ul>
             <div id="square"></div>
-            <div class="content-padding">
+            <div class="content-padding" >
               <div class="intro-column">
-                <img class="title-img img-fluid" src="icons_logo/about_us.png" alt="ABOUT US">
+                <a href="./about_us.html" class="animsition-link">
+                  <img class="title-img img-fluid" src="icons_logo/about_us.png" alt="ABOUT US">
+                </a>
                 <div class="intro-content">
                   <p class="text-justify">
                     As cross-cultural consultants based in <b>Shanghai</b>,<b>Hong Kong</b>, and <b>Lithuania</b>,
@@ -320,7 +323,9 @@
             </ul>
             <div class="content-padding">
               <div class="intro-column">
-                <img class="title-img img-fluid" src="icons_logo/our_work.png" alt="OUR WORK">
+                <a href="./our_work.html">
+                  <img class="title-img img-fluid" src="icons_logo/our_work.png" alt="OUR WORK">
+                </a>
                 <div class="intro-content">
                   <p class="text-justify">
                     <b class="citate">“Work is love made visible.”</b>
@@ -398,7 +403,9 @@
             <div id="circle"></div>
             <div class="content-padding">
               <div class="intro-column">
-                <img class="title-img img-fluid" src="icons_logo/why_us.png" alt="WHY US">
+                <a href="./why_us.html">
+                  <img class="title-img img-fluid" src="icons_logo/why_us.png" alt="WHY US">
+                </a>
                 <div class="intro-content">
                   <p class="text-justify">
                     Consultants are <b>modern-day guides and gurus</b>: part-lawyer, part-interpreter, part-coach.
@@ -427,7 +434,9 @@
             </div>
             <div class="content-padding">
               <div class="intro-column">
-                <img class="title-img img-fluid" src="icons_logo/crossing_culture.png" alt="ABOUT CHINA">
+                <a href="./crossing_culture.html">
+                  <img class="title-img img-fluid" src="icons_logo/crossing_culture.png" alt="ABOUT CHINA">
+                </a>
                 <div class="intro-content intro_scrollable" id="style-2">
                   <p class="text-justify">
                     China in the 21st century — emergent superpowers
@@ -458,6 +467,7 @@
   <script src="js/jquery.multiscroll.js"></script>
   <script src="js/tether.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/animsition.min.js"></script>
   <script type="text/javascript">
   $(document).ready(function() {
     $('#multiscroll').multiscroll({
@@ -480,5 +490,27 @@
   });
   </script>
   <script src="js/js_script.js"></script>
+  <script>
+  $(document).ready(function() {
+  $(".animsition").animsition({
+    outClass: 'fade-out-right-lg',
+    outDuration: 1500,
+    linkElement: '.animsition-link',
+    // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
+    loading: false,
+    loadingParentElement: 'body', //animsition wrapper element
+    timeout: false,
+    timeoutCountdown: 5000,
+    onLoadEvent: true,
+    browser: [ 'animation-duration', '-webkit-animation-duration'],
+    // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+    // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+    overlay : false,
+    overlayClass : 'animsition-overlay-slide',
+    overlayParentElement : 'body',
+    transition: function(url){ window.location.href = url; }
+  });
+});
+</script>
 </body>
 </html>
