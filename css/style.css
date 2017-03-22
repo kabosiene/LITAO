@@ -25,7 +25,7 @@ ul {
 .break { display:block;
   margin-top:23px;
   content: " ";
- }
+}
 
 section {
   height: 100%;
@@ -238,7 +238,7 @@ section {
   position:fixed;
   -webkit-transform-origin: left top;
   -webkit-transform:rotate(-90deg) translateX(-100%);
-    position: fixed;
+  position: fixed;
 }
 #mySidenavMenu .submenu{
   position: absolute;
@@ -418,20 +418,20 @@ section {
 }
 #style-2::-webkit-scrollbar-track
 {
-	border-radius: 3px;
-	background-color: #f6f3f0;
+  border-radius: 3px;
+  background-color: #f6f3f0;
 }
 
 #style-2::-webkit-scrollbar
 {
-	width: 3px;
-	background-color: #f6f3f0;
+  width: 3px;
+  background-color: #f6f3f0;
 }
 
 #style-2::-webkit-scrollbar-thumb
 {
-	border-radius: 3px;
-	background-color: #a55f60;
+  border-radius: 3px;
+  background-color: #a55f60;
 }
 .intro-title {
   font-size: 16px;
@@ -495,8 +495,8 @@ section {
   font-size: 45px;
   letter-spacing: 3px;
   text-transform: uppercase;
-/*  padding-left: 75px;*/
-   line-height: 43px;
+  /*  padding-left: 75px;*/
+  line-height: 43px;
 }
 .level2-titles-box-margin{
   margin-bottom: 50px;
@@ -505,7 +505,7 @@ section {
   margin: 30px 0 20px 0;
 }
 .level2-titles-box-padding {
-margin: 36px 0 94px 0;
+  margin: 36px 0 94px 0;
 }
 .level2-titles-box-line{
   position:absolute;
@@ -568,7 +568,7 @@ margin: 36px 0 94px 0;
   line-height: 1.2;
 }
 #founder p.lead, #values p.lead,
- #nameandlogo p.lead{
+#nameandlogo p.lead{
   font-family: 'BrandonGrotesque-Bold';
   color: #a55f60;
   font-size: 29px;
@@ -578,10 +578,10 @@ margin: 36px 0 94px 0;
   line-height: 1.2;
   margin-bottom: 25px;
 }
- .founder-kid,
- .founder-expo, .founder-sitting,
- .girls-game,
- .founder-background-city{
+.founder-kid,
+.founder-expo, .founder-sitting,
+.girls-game,
+.founder-background-city{
   padding-bottom: 40px;
 }
 .founder-sitting{
@@ -646,7 +646,9 @@ margin: 36px 0 94px 0;
   padding-top: 45px;
 }
 
-#team {}
+#team {
+
+}
 .team-picture{
   position: relative;
   width: 100%;
@@ -752,7 +754,7 @@ margin: 36px 0 94px 0;
   z-index: -2;
   width: 190px;
   margin-left: 75px;
-	margin-top: -165px;
+  margin-top: -165px;
 }
 .values_picture-compassion {
   width: 480px;
@@ -786,14 +788,14 @@ margin: 36px 0 94px 0;
 }
 
 .mission_level2-titles-box, .vision_level2-titles-box{
-    margin: 0 0 94px 0;
-  }
+  margin: 0 0 94px 0;
+}
 .mission_lead {
   font-family: 'BrandonGrotesque-Bold';
   letter-spacing: 0.06em;
   margin-top: 32px;
-	margin-bottom: 24px;
-	line-height: 1.5;
+  margin-bottom: 24px;
+  line-height: 1.5;
 }
 .mission_picture{
   position: relative;
@@ -814,7 +816,9 @@ margin: 36px 0 94px 0;
   z-index: -2;
   margin-top: 175px;
 }
-#nameandlogo{}
+#nameandlogo{
+
+}
 .nameandlogo_picture {
   width: 100%;
   margin-top: 70px;
@@ -831,7 +835,7 @@ margin: 36px 0 94px 0;
   letter-spacing: 0.06em;
 }
 #nameandlogo p.title_lead {
-    font-family: 'BrandonGrotesque-Bold';
+  font-family: 'BrandonGrotesque-Bold';
   line-height: 1.5;
   margin-bottom: 22px;
   letter-spacing: 0.05em;
@@ -861,7 +865,9 @@ margin: 36px 0 94px 0;
   padding-left: 70px;
   padding-right: 85px;
 }
-#experience_litao{}
+#experience_litao{
+
+}
 #experience_litao .main-image{
   border: 1px solid black;
   width: 350px;
@@ -921,12 +927,12 @@ margin: 36px 0 94px 0;
 }
 .experience_litao-list, .experience_litao-content_break {
   font-family: 'BrandonGrotesque-Light';
-	font-size: 16px;
-	letter-spacing: 0.05em;
-	text-align: justify;
-	line-height: 1.5;
-	margin-right: 86px;
-	max-width: 370px;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  text-align: justify;
+  line-height: 1.5;
+  margin-right: 86px;
+  max-width: 370px;
 }
 .experience_litao-list {
   list-style: disc;
@@ -937,45 +943,47 @@ margin: 36px 0 94px 0;
   letter-spacing: 0.1em;
 }
 
-#our_guanxi{}
-  #our_guanxi .main-image{
-    border: 1px solid black;
-    width: 400px;
-    height: 250px;
-    position: absolute;
-    z-index: -1;
-  }
-  #our_guanxi .level2-titles-box-pic-square{
-    width:725px;
-    height:755px;
-    max-width: inherit;
-  }
-  .quanxi-explanation {
-    padding-top: 40px;
-    font-family: 'BrandonGrotesque-LightItalic';
-    color: #595a5a;
-    letter-spacing: 0.05em;
-    font-size: 15px;
-    padding-bottom: 40px;
-  }
-  .guanxi_noun {
-  }
-  .text-reference{
-    font-size: 14px;
-    letter-spacing: 0.03em;
-  }
-  #our_guanxi p.title {
-    font-family: 'BrandonGrotesque-Bold';
-    	color: #595a5a;
-    	font-size: 26px;
-    	line-height: 1.2;
-    	margin-bottom: 2px;
-    	letter-spacing: 0.04em;
-  }
+#our_guanxi{
+
+}
+#our_guanxi .main-image{
+  border: 1px solid black;
+  width: 400px;
+  height: 250px;
+  z-index: -1;
+  float: right;;
+}
+#our_guanxi .level2-titles-box-pic-square{
+  width:725px;
+  height:755px;
+  max-width: inherit;
+}
+.guanxi-explanation {
+  padding-top: 40px;
+  font-family: 'BrandonGrotesque-LightItalic';
+  color: #595a5a;
+  letter-spacing: 0.05em;
+  font-size: 15px;
+  padding-bottom: 40px;
+}
+.guanxi_noun {
+}
+.text-reference{
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+#our_guanxi p.title {
+  font-family: 'BrandonGrotesque-Bold';
+  color: #595a5a;
+  font-size: 26px;
+  line-height: 1.2;
+  margin-bottom: 2px;
+  letter-spacing: 0.04em;
+}
 #our_guanxi  .dummy {
   border: 1px solid black;
-  width: 80px;
-  height:80px;
+  width: 100px;
+  height: 100px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -983,6 +991,29 @@ margin: 36px 0 94px 0;
   padding-left: 75px;
   padding-right: 25px;
   padding-bottom: 150px;
+  padding-top: 20px;
+}
+#our_guanxi .card {
+  background: none;
+  border: none;
+  max-width: 160px;
+  height: 200px;
+  text-align: center;
+}
+#our_guanxi .card-img-top {
+  max-height: 88px;
+/*	max-width: 100px;*/
+}
+#our_guanxi .card-block{
+  font-family: "BrandonGrotesque-Regular";
+  font-size: 10px;
+  letter-spacing: 0.05em;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+#our_guanxi .card-title{
+  font-family: "BrandonGrotesque-Black";
+  margin-bottom: 5px;
 }
 
 /*--------contact&raq-------*/
@@ -1188,8 +1219,8 @@ address {
     margin: 0;
   }
   .level2-titles-box-padding {
-  margin: 36px 0 105px 0;
-}
+    margin: 36px 0 105px 0;
+  }
   .level2-titles-box-pic{
     max-height: 420px;
   }
@@ -1200,7 +1231,7 @@ address {
     padding-top: 83px;
   }
   .side-date-padding{
-   padding-top: 160px;
+    padding-top: 160px;
   }
   .girls-game{
     position: absolute;
@@ -1312,8 +1343,8 @@ address {
     margin: 106px 0 94px 0;
   }
   .level2-titles-box-padding {
-	margin: 36px 0 105px 0;
-}
+    margin: 36px 0 105px 0;
+  }
   .level2-titles-box-line{
     position:absolute;
     height: auto;
@@ -1347,7 +1378,7 @@ address {
     padding-top: 42px;
   }
   .founder-content, .name_content,
-   .our_guanxi-content, .experience_litao-content{
+  .our_guanxi-content, .experience_litao-content{
     font-family: 'BrandonGrotesque-Light';
     font-size: 16px;
     letter-spacing: 0.05em;
