@@ -870,6 +870,14 @@ margin: 36px 0 94px 0;
   z-index: -1;
   margin-top: -70px;
 }
+#experience_litao .content-image{
+  border: 1px solid black;
+  width: 350px;
+  height: 380px;
+  z-index: -1;
+  margin-top: -120px;
+  margin-bottom: 68px;
+}
 .experience_litao-green-square{
   position: absolute;
   z-index: -2;
@@ -879,8 +887,29 @@ margin: 36px 0 94px 0;
   margin-left: 90px;
   max-width: inherit;
 }
+.scenario_without-green-square{
+  position: absolute;
+  z-index: -2;
+  width: 700px;
+  height: 400px;
+  margin-top: 50px;
+  margin-left: 90px;
+  max-width: inherit;
+}
+.scenario_with-green-square{
+  position: absolute;
+  z-index: -2;
+  width: 700px;
+  height: 700px;
+  margin-top: 295px;
+  margin-left: 90px;
+  max-width: inherit;
+}
 .experience_litao-intro-margin {
   margin-top: 105px;
+}
+.add_padding {
+  padding-top: 75px;
 }
 #experience_litao .title {
   font-family: 'BrandonGrotesque-Bold';
