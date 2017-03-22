@@ -955,7 +955,7 @@ section {
 }
 #our_guanxi .level2-titles-box-pic-square{
   width:725px;
-  height:755px;
+  height:1100px;
   max-width: inherit;
 }
 .guanxi-explanation {
@@ -989,19 +989,19 @@ section {
 }
 .company-grid{
   padding-left: 75px;
-  padding-right: 25px;
-  padding-bottom: 150px;
+  padding-right: 86px;
+  padding-bottom: 105px;
   padding-top: 20px;
 }
 #our_guanxi .card {
   background: none;
   border: none;
   max-width: 160px;
-  height: 200px;
+  height:180px;
   text-align: center;
 }
 #our_guanxi .card-img-top {
-  max-height: 88px;
+  max-height: 80px;
 /*	max-width: 100px;*/
 }
 #our_guanxi .card-block{
