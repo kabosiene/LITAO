@@ -150,9 +150,8 @@ section {
   height: 100%; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
-  z-index: 999; /* Stay on top */
+  z-index: 998; /* Stay on top */
   top: 0;
-  /*left: 5%;*/
   background-color: #f6f3f0; /* grey*/
   overflow: hidden; /* Disable horizontal scroll */
   -webkit-transition: all 0.5s ease-in;
@@ -397,6 +396,9 @@ section {
 .home-arrow {
   height: auto;
   width: auto;
+}
+.home-arrow:hover {
+  cursor: pointer;
 }
 
 .home-text {
@@ -1023,6 +1025,48 @@ background: #a55f60 ;
 #our_guanxi .card-title{
   font-family: "BrandonGrotesque-Black";
   margin-bottom: 5px;
+}
+
+#recognitions{
+  padding-left: 86px;
+  padding-right: 86px;
+}
+.publication_image {
+  float: left;
+}
+.publication_image img{
+  display: block;
+  width: 150px;
+  height: 150px;
+  border: solid 1px black;
+}
+.publication_content{
+  border-style: dotted;
+  border-color: black;
+  border-width: 1px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-left: none;
+  border-right: none;
+}
+.publication_content p{
+    margin-left: 250px;
+}
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: table
+}
+.publication_link {
+  margin-left: 250px;
+}
+.publication_link a{
+  font-family: 'BrandonGrotesque-Bold';
+  color: #63a26f;
+  font-size: 14px;
+}
+.publication_date{
+  float: right;
 }
 
 #raq-id .subtitle , #useful-id .subtitle {
