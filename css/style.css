@@ -125,7 +125,7 @@ section {
   background: #cccbc5;
 }
 
-#nav-toggle.active span:hover:before{
+#nav-toggle.active:hover span:before{
   background: #a55f60;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -133,7 +133,7 @@ section {
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-#nav-toggle.active span:hover:after{
+#nav-toggle.active:hover span:after{
   background: #a55f60;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -152,7 +152,7 @@ section {
   position: fixed; /* Stay in place */
   z-index: 999; /* Stay on top */
   top: 0;
-  left: 5%;
+  /*left: 5%;*/
   background-color: #f6f3f0; /* grey*/
   overflow: hidden; /* Disable horizontal scroll */
   -webkit-transition: all 0.5s ease-in;
@@ -162,21 +162,21 @@ section {
   transition: all 0.5s ease-in;
 }
 .sidenav-side{
-  /*display: table;*/
+/*  display: table;*/
   visibility: hidden;
   height: 100%; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
   z-index: 999; /* Stay on top */
   top: 0;
-  right:95%;
+  left:45%;
   background-color: #f6f3f0; /* grey*/
   overflow: hidden; /* Disable horizontal scroll */
-  -webkit-transition: all 0.5s ease-in;
-  -moz-transition: all 0.5s ease-in;
-  -o-transition: all 0.5s ease-in;
-  -ms-transition: all 0.5s ease-in;
-  transition: all 0.5s ease-in;
+  -webkit-transition: all 0.1s ease-in;
+  -moz-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  -ms-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
 }
 
 .sidenav-links {
@@ -233,41 +233,34 @@ section {
 .submenu {
   min-width:100vh;
   height:45px;
-  top: 40px ;
-  left:-1px;
   position:fixed;
   -webkit-transform-origin: left top;
   -webkit-transform:rotate(-90deg) translateX(-100%);
-  position: fixed;
+}
+
+.submenu  > ul {
+  padding: 0px;
+  width: 100vh;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
 }
 #mySidenavMenu .submenu{
-  position: absolute;
-}
-.about_us-submenu-level1,
-.why_us-submenu-level1,
-.our_work-submenu-level1,
-.crossing_cultures-submenu-level1 {
-
-  min-width:100vh;
-  height:45px;
-  top: 40px ;
-  left:-1px;
-  -webkit-transform-origin: left top;
-  -webkit-transform:rotate(-90deg) translateX(-100%);
   position: absolute;
 }
 
 .intro-left-v{
   float:right;
-  height:100%;
   line-height:55px;
-  margin-right:20px;
+}
+#mySidenavMenu .intro-left-v{
+/*  background-color: #f6f3f0;*/
 }
 
 .border_link {
-  color: #cccbc5;
+  color: #a55f60;
   font-size: 10px;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   opacity: 0;
   padding-left: 5px;
   padding-right: 5px;
@@ -278,10 +271,17 @@ section {
   transition: opacity 0.2s ease-in;
 }
 
+#mySidenavMenu .intro-left-v:hover{
+  background-color: #a55f60;
+}
+#mySidenavMenu .intro-left-v:hover a{
+  color: #cccbc5;
+}
+
 .rotated-links {
   color: #cccbc5;
   font-size: 10px;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   padding-left: 5px;
   padding-right: 5px;
   -webkit-transition: opacity 0.2s ease-in;
@@ -410,29 +410,7 @@ section {
 .intro-column {
   margin: 20% 15% 0 15%;
 }
-.intro_scrollable {
-  height: 240px;
-  overflow-y:scroll;
-  overflow-x:hidden;
-  padding-right: 10px;
-}
-#style-2::-webkit-scrollbar-track
-{
-  border-radius: 3px;
-  background-color: #f6f3f0;
-}
 
-#style-2::-webkit-scrollbar
-{
-  width: 3px;
-  background-color: #f6f3f0;
-}
-
-#style-2::-webkit-scrollbar-thumb
-{
-  border-radius: 3px;
-  background-color: #a55f60;
-}
 .intro-title {
   font-size: 16px;
   margin: 50px 0 50px 20px;
@@ -453,6 +431,14 @@ section {
   padding-top: 5%;
   padding-bottom:5%;
 }
+.intro_more {
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-family: 'BrandonGrotesque-Regular';
+}
+.intro_more:hover{
+   text-shadow: -3px 1px 5px rgba(0, 0, 40, 0.37);
+}
 .title-img{
   /*  visibility: hidden;*/
   position:relative;
@@ -469,6 +455,9 @@ section {
   color:  #a55f60;
   font-size: 13px;
 }
+.font-bold {
+  font-family: 'BrandonGrotesque-Bold';
+}
 
 /*-----------level2---------*/
 .side-border{
@@ -480,7 +469,8 @@ section {
 }
 
 #founder, #values, #nameandlogo, #team,
-#our_guanxi, #experience_litao {
+#our_guanxi, #experience_litao,
+#founder, #values {
   padding-top: 70px;
   line-height: 1.1;
 }
@@ -1016,6 +1006,17 @@ section {
   margin-bottom: 5px;
 }
 
+#raq-id .subtitle , #useful-id .subtitle {
+  font-family: 'BrandonGrotesque-Bold';
+  font-size: 23px;
+  letter-spacing: 0.05em;
+  max-width: 700px;
+  padding-left: 92px;
+  line-height: 1.18;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
 /*--------contact&raq-------*/
 .btn.sharp {
   border-radius:0;
@@ -1098,7 +1099,7 @@ address {
     margin: 0;
   }
   .container-fluid {
-    padding: 0;
+  /*  padding: 0;*/
   }
   .content-left{
     height: 100%;
@@ -1116,6 +1117,12 @@ address {
   }
   .level2-titles-box-pic{
     max-height: 319px;
+  }
+
+  .rotated-links {
+    letter-spacing: normal;
+    padding-left: 0px;
+    padding-right: 0
   }
 }
 /* Small Devices, Tablets */
@@ -1312,7 +1319,8 @@ address {
   }
 
   #founder, #values, #nameandlogo, #team,
-  #our_guanxi, #experience_litao{
+  #our_guanxi, #experience_litao,
+    #raq-id, #useful-id{
     padding-top: 70px;
     line-height: 1.1;
   }
@@ -1322,7 +1330,8 @@ address {
 
   #founder .col-md-6, #values .col-md-6,
   #team .col-md-6, #nameandlogo .col-md-6,
-  #our_guanxi .col-md-6, #experience_litao .col-md-6  {
+  #our_guanxi .col-md-6, #experience_litao .col-md-6 ,
+  #raq-id .col-md-6, #useful-id .col-md-6 {
     padding-left: 40px;
     padding-right: 0px;
   }
@@ -1494,3 +1503,29 @@ address {
   -webkit-animation-duration: 0.2s;
   -moz-animation-duration: 0.2s;
   animation-duration: 0.2s;
+}
+.animated-fast1{
+  -webkit-animation-duration: 0.3s;
+  -moz-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+}
+.animated-fast2{
+  -webkit-animation-duration: 0.4s;
+  -moz-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+}
+.animated-fast3{
+  -webkit-animation-duration: 0.5s;
+  -moz-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+}
+.animated-fast4{
+  -webkit-animation-duration: 0.6s;
+  -moz-animation-duration: 0.6s;
+  animation-duration: 0.6s;
+}
+.animated-fast5{
+  -webkit-animation-duration: 0.7s;
+  -moz-animation-duration: 0.7s;
+  animation-duration: 0.7s;
+}

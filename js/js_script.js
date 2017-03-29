@@ -6,26 +6,23 @@ $(".nav a").on("click", function(){
 document.getElementById("multiscroll").onmouseover = function() {closeNav()};
 
 function openNav() {
- document.getElementById("mySidenavMenu").style.borderRight = "1px solid #cccbc5";
  document.getElementById("mySidenav").style.visibility = "visible";
  document.getElementById("mySidenav").style.width = "45%";
- document.getElementById("mySidenavMenu").style.visibility = "visible";
- document.getElementById("mySidenavMenu").style.width = "5%";
  setTimeout(change_width, 200);
  setTimeout(change_opacity, 200);
  document.querySelector("#nav-toggle").setAttribute('onclick','closeNav()');
 };
 
 function closeNav() {
+  document.getElementById("mySidenavMenu").style.width = "0";
+  document.getElementById("mySidenavMenu").style.visibility = "hidden";
  document.getElementById("mySidenav").style.width = "0";
- document.getElementById("mySidenavMenu").style.width = "0";
  document.querySelector("#nav-toggle").setAttribute('onclick','openNav()');
  setTimeout(change_width_0, 400);
  setTimeout(change_opacity_0, 100);
  document.getElementById("nav-toggle").className = "";
  setTimeout(change_border,550);
  document.getElementById("mySidenav").style.visibility = "hidden";
- document.getElementById("mySidenavMenu").style.visibility = "hidden";
 };
 
 
@@ -99,40 +96,71 @@ document.querySelector( "#nav-toggle" ).addEventListener( "mouseover", function(
 
 /** Show/hide level2 menu items on menu item hover ***/
 $(".about-menu").on("mouseover", function(){
+  document.getElementById("mySidenavMenu").style.borderLeft = "1px solid #cccbc5";
+  document.getElementById("mySidenavMenu").style.borderRight = "1px solid #cccbc5";
+  document.getElementById("mySidenavMenu").style.visibility = "visible";
+  document.getElementById("mySidenavMenu").style.width = "5%";
  $('#myMenu').find('.select-submenu').removeClass('select-submenu');
  $(this).addClass('select-submenu');
  $(".submenu").find(".active").hide().removeClass("active");
  $("#about_us-id").addClass("active").show();
-});
+})
+;
 $(".work-menu").on("mouseover", function(){
+  document.getElementById("mySidenavMenu").style.borderLeft = "1px solid #cccbc5";
+    document.getElementById("mySidenavMenu").style.borderRight = "1px solid #cccbc5";
+  document.getElementById("mySidenavMenu").style.visibility = "visible";
+  document.getElementById("mySidenavMenu").style.width = "5%";
  $('#myMenu').find('.select-submenu').removeClass('select-submenu');
  $(this).addClass('select-submenu');
  $(".submenu").find(".active").hide().removeClass("active");
  $("#our_work-id").addClass("active").show();
 });
 $(".why-menu").on("mouseover", function(){
+  document.getElementById("mySidenavMenu").style.borderLeft = "1px solid #cccbc5";
+    document.getElementById("mySidenavMenu").style.borderRight = "1px solid #cccbc5";
+  document.getElementById("mySidenavMenu").style.visibility = "visible";
+  document.getElementById("mySidenavMenu").style.width = "5%";
  $('#myMenu').find('.select-submenu').removeClass('select-submenu');
  $(this).addClass('select-submenu');
  $(".submenu").find(".active").hide().removeClass("active");
  $("#why_us-id").addClass("active").show();
-});
+})
+;
 $(".china-menu").on("mouseover", function(){
+  document.getElementById("mySidenavMenu").style.borderLeft = "1px solid #cccbc5";
+    document.getElementById("mySidenavMenu").style.borderRight = "1px solid #cccbc5";
+  document.getElementById("mySidenavMenu").style.visibility = "visible";
+  document.getElementById("mySidenavMenu").style.width = "5%";
  $('#myMenu').find('.select-submenu').removeClass('select-submenu');
  $(this).addClass('select-submenu');
  $(".submenu").find(".active").hide().removeClass("active");
  $("#crossing_culture-id").addClass("active").show();
-});
+})
+;
 $(".raq-menu").on("mouseover", function(){
+  document.getElementById("mySidenavMenu").style.borderLeft = "1px solid #cccbc5";
+    document.getElementById("mySidenavMenu").style.borderRight = "1px solid #cccbc5";
+  document.getElementById("mySidenavMenu").style.visibility = "visible";
+  document.getElementById("mySidenavMenu").style.width = "5%";
  $('#myMenu').find('.select-submenu').removeClass('select-submenu');
  $(this).addClass('select-submenu');
  $(".submenu").find(".active").hide().removeClass("active");
-});
-$(".contact-menu").on("mouseover", function(){
+})
+;
+$(".contact-menu")
+.on("mouseover", function(){
+  document.getElementById("mySidenavMenu").style.width = "0";
+  document.getElementById("mySidenavMenu").style.visibility = "hidden";
+
  $('#myMenu').find('.select-submenu').removeClass('select-submenu');
  $(this).addClass('select-submenu');
  $(".submenu").find(".active").hide().removeClass("active");
 });
 $(".home-menu").on("mouseover", function(){
+  document.getElementById("mySidenavMenu").style.width = "0";
+  document.getElementById("mySidenavMenu").style.visibility = "hidden";
+
  $('#myMenu').find('.select-submenu').removeClass('select-submenu');
  $(this).addClass('select-submenu');
  $(".submenu").find(".active").hide().removeClass("active");
