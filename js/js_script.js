@@ -7,7 +7,7 @@ document.getElementById("multiscroll").onmouseover = function() {closeNav()};
 
 function openNav() {
  document.getElementById("mySidenav").style.visibility = "visible";
- document.getElementById("mySidenav").style.width = "45%";
+ document.getElementById("mySidenav").style.width = "46%";
  setTimeout(change_width, 200);
  setTimeout(change_opacity, 200);
  document.querySelector("#nav-toggle").setAttribute('onclick','closeNav()');
