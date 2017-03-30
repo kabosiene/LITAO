@@ -235,7 +235,8 @@ section {
   padding-left: 0;
   left: 3px;
   width: 100vh;
-  height:45px;
+  height:60px;
+  border-bottom: 1px solid #cccbc5;
   display: flex;
   justify-content: space-around;
   flex-direction: row-reverse;
@@ -246,6 +247,7 @@ section {
 
 
 #mySidenavMenu .submenu{
+  border: none;
   position: absolute;
   padding: 0px;
   min-width:100vh;
@@ -484,9 +486,26 @@ background: #a55f60 ;
 .side-border{
   height: 100vh;
   height: 100%;
-  width: 100%;
+  width: 100px;
   position: fixed;
   right: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.right_link-rotated{
+  transform: translateX(0%) rotate(90deg);
+  margin-right: auto;
+}
+.right_link-rotated a{
+  color: #a55f60;
+  font-family: 'BrandonGrotesque-Bold';
+  font-size: 12px;
+  letter-spacing: 0.05em;
+}
+.level2_slash{
+  margin-left: -14px;
+  margin-right: auto;
 }
 
 #founder, #values, #nameandlogo, #team,
@@ -538,7 +557,7 @@ background: #a55f60 ;
 }
 
 .level2-titles-box-pic-square{
-  width: 295px;
+  width: 80%;
   height: 295px;
   position:absolute;
   z-index: -1;

@@ -1,12 +1,6 @@
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-  .side-border{
-    height: 100vh;
-    height: 100%;
-    width: 130px;
-    position: fixed;
-    right: 0px;
-  }
+
 
   #founder, #values, #nameandlogo, #team,
   #our_guanxi, #experience_litao,
