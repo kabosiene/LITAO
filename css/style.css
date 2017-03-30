@@ -1029,7 +1029,41 @@ background: #a55f60 ;
 
 #recognitions{
   padding-left: 86px;
-  padding-right: 86px;
+  padding-right: 92px;
+}
+.lithuanian-section,
+.english-section,
+.chinese-section,
+.conferences-section {
+  position: relative;
+}
+.background_green_box{
+  position: absolute;
+  margin-left: 60px;
+  z-index: -1;
+  width: 80%;
+  height: auto;
+  top:270px;
+  bottom:0;
+}
+.publication {
+  margin-top: 20px;
+  margin-bottom: 90px;
+}
+.publication_title h4{
+  font-family: "BrandonGrotesque-Regular";
+  font-weight: bold;
+  font-size: 1.4rem;
+  color:  #a55f60;
+  letter-spacing: 0.07em;
+  padding-bottom: 20px;
+}
+.publication_subtitle h5{
+  padding-left: 250px;
+  padding-bottom: 15px;
+  font-size: 1.1rem;
+  font-family: "BrandonGrotesque-Bold";
+  letter-spacing: 0.05em;
 }
 .publication_image {
   float: left;
@@ -1044,13 +1078,18 @@ background: #a55f60 ;
   border-style: dotted;
   border-color: black;
   border-width: 1px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 30px;
   border-left: none;
   border-right: none;
+  position: relative;
 }
 .publication_content p{
-    margin-left: 250px;
+  font-family: "BrandonGrotesque-Light";
+  margin-left: 250px;
+  letter-spacing: 0.05em;
+  text-align: justify;
+  padding-right: 40px;
 }
 .clearfix::after{
   content: "";
@@ -1058,6 +1097,7 @@ background: #a55f60 ;
   display: table
 }
 .publication_link {
+  padding-top: 5px;
   margin-left: 250px;
 }
 .publication_link a{
@@ -1065,8 +1105,15 @@ background: #a55f60 ;
   color: #63a26f;
   font-size: 14px;
 }
-.publication_date{
-  float: right;
+.publication_date {
+  position: absolute;
+  bottom: 5px;
+  right: 0;
+  color:  #a55f60;
+  font-family: 'BrandonGrotesque-BoldItalic';
+  font-size: 14px;
+  letter-spacing: 0.05em;
+
 }
 
 #raq-id .subtitle , #useful-id .subtitle {
