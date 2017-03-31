@@ -179,28 +179,28 @@
             </a>
           </li>
           <li class="intro-left-v">
-            <a class="rotated-links" href="#founder">
+            <a class="rotated-links active" href="founder.html">
               <span class="border-text">
                 FOUNDER
               </span>
             </a>
           </li>
           <li class="intro-left-v">
-            <a class="rotated-links"  href="#team">
+            <a class="rotated-links"  href="team.html">
               <span class="border-text">
                 OUR&nbsp;TEAM
               </span>
             </a>
           </li>
           <li class="intro-left-v">
-            <a class="rotated-links"  href="#values">
+            <a class="rotated-links"  href="values.html">
               <span class="border-text">
                 VALUES&nbsp;/&nbsp;MISSION&nbsp;/&nbsp;VISION
               </span>
             </a>
           </li>
           <li class="intro-left-v">
-            <a class="rotated-links"  href="#nameandlogo">
+            <a class="rotated-links"  href="nameandlogo.html">
               <span class="border-text">
                 NAME&nbsp;AND&nbsp;LOGO
               </span>
@@ -618,158 +618,13 @@
   </div>
 </div>
 
-  <script src="../js/jquery-3.1.1.min.js">
-  </script>
-  <script src="../js/jquery.easing.min.js">
-  </script>
-  <script src="../js/tether.min.js">
-  </script>
-  <script src="../js/ScrollMagic.min.js">
-  </script>
-  <script src="../js/bootstrap.min.js">
-  </script>
+  <script src="../js/jquery-3.1.1.min.js"></script>
+  <script src="../js/jquery.easing.min.js"></script>
+  <script src="../js/tether.min.js"></script>
+  <script src="../js/ScrollMagic.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
   <script src="../js/animsition.min.js"></script>
-  <script type="text/javascript">
-  $(function() {
-    // Init Controller
-    var scrollMagicController = new ScrollMagic();
-  });
-
-  $(".nav a").on("click", function(){
-    $(".nav").find(".active").removeClass("active");
-    $(this).addClass("active");
-  });
-  $(".submenu a").on("click", function(){
-    $(".submenu").find(".active").removeClass("active");
-    $(this).addClass("active");
-  });
-
-  document.getElementById("about_us_page_id").onmouseover = function() {closeNav()};
-
-  function openNav() {
-    document.getElementById("mySidenavMenu").style.borderRight = "1px solid #cccbc5";
-    document.getElementById("mySidenav").style.visibility = "visible";
-    document.getElementById("mySidenav").style.width = "45%";
-    document.getElementById("mySidenavMenu").style.visibility = "visible";
-    document.getElementById("mySidenavMenu").style.width = "5%";
-    setTimeout(change_width, 200);
-    setTimeout(change_opacity, 200);
-    document.getElementsByClassName('sidenav_link');
-    document.querySelector("#nav-toggle").setAttribute('onclick','closeNav()');
-  };
-  function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-    document.getElementById("mySidenavMenu").style.width = "0";
-    document.querySelector("#nav-toggle").setAttribute('onclick','openNav()');
-    setTimeout(change_width_0, 400);
-    setTimeout(change_opacity_0, 100);
-    document.getElementById("nav-toggle").className = "";
-    setTimeout(change_border,550);
-    document.getElementById("mySidenav").style.visibility = "hidden";
-    document.getElementById("mySidenavMenu").style.visibility = "hidden";
-  };
-  function change_width_0() {
-    var links = document.getElementsByClassName('sidenav_link'),
-    i = links.length;
-
-    while(i--) {
-      links[i].style.width = "0";
-    }
-  }
-  function change_opacity_0() {
-    var links = document.getElementsByClassName('sidenav_link'),
-    i = links.length;
-    var sub_links = document.getElementsByClassName('border_link'),
-    u = sub_links.length;
-
-    while(i--) {
-      links[i].style.opacity = "0";
-    }
-    while(u--){
-      sub_links[u].style.opacity= "0";
-    }
-  }
-  function change_width() {
-    var links = document.getElementsByClassName('sidenav_link'),
-    i = links.length;
-
-    while(i--) {
-      links[i].removeAttribute("style");
-    }
-  }
-  function change_opacity() {
-    var links = document.getElementsByClassName('sidenav_link'),
-    i = links.length;
-    var sub_links = document.getElementsByClassName('border_link'),
-    u = sub_links.length;
-
-    while(i--) {
-      links[i].style.opacity = "1";
-    }
-    while(u--){
-      sub_links[u].style.opacity= "1";
-    }
-  }
-  function change_border(){
-    document.getElementById("mySidenavMenu").style.border = "none";
-  }
-  $(".border-intro a").on("click", function(){
-    $(".border-intro").find(".active").removeClass("active");
-    $(this).addClass("active");
-  });
-  $(".border-vertical a").on("click", function(){
-    $(".border-vertical").find(".active").removeClass("active");
-    $(this).addClass("active");
-  });
-
-  document.querySelector( "#nav-toggle" ).addEventListener( "click", function() {
-    this.classList.toggle( "active" );
-  });
-
-  document.querySelector( "#nav-toggle" ).addEventListener( "mouseover", function() {
-    this.classList.add( "closer" );
-  });
-
-  $(".about-menu").on("mouseover", function(){
-    $('#myMenu').find('.select-submenu').removeClass('select-submenu');
-    $(this).addClass('select-submenu');
-    $(".submenu").find(".active").hide().removeClass("active");
-    $("#about_us-id").addClass("active").show();
-  });
-  $(".work-menu").on("mouseover", function(){
-    $('#myMenu').find('.select-submenu').removeClass('select-submenu');
-    $(this).addClass('select-submenu');
-    $(".submenu").find(".active").hide().removeClass("active");
-    $("#our_work-id").addClass("active").show();
-  });
-  $(".why-menu").on("mouseover", function(){
-    $('#myMenu').find('.select-submenu').removeClass('select-submenu');
-    $(this).addClass('select-submenu');
-    $(".submenu").find(".active").hide().removeClass("active");
-    $("#why_us-id").addClass("active").show();
-  });
-  $(".china-menu").on("mouseover", function(){
-    $('#myMenu').find('.select-submenu').removeClass('select-submenu');
-    $(this).addClass('select-submenu');
-    $(".submenu").find(".active").hide().removeClass("active");
-    $("#crossing_culture-id").addClass("active").show();
-  });
-  $(".raq-menu").on("mouseover", function(){
-    $('#myMenu').find('.select-submenu').removeClass('select-submenu');
-    $(this).addClass('select-submenu');
-    $(".submenu").find(".active").hide().removeClass("active");
-  });
-  $(".contact-menu").on("mouseover", function(){
-    $('#myMenu').find('.select-submenu').removeClass('select-submenu');
-    $(this).addClass('select-submenu');
-    $(".submenu").find(".active").hide().removeClass("active");
-  });
-  $(".home-menu").on("mouseover", function(){
-    $('#myMenu').find('.select-submenu').removeClass('select-submenu');
-    $(this).addClass('select-submenu');
-    $(".submenu").find(".active").hide().removeClass("active");
-  });
-  </script>
+  <script src="../js/level2.js"></script>
 
 </body>
 

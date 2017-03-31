@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>LITAO</title>
+  <link href="../css/font.css" rel="stylesheet">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/animate.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/animsition.min.css">
+  <link href="../css/style.css" rel="stylesheet">
+  <link href="../css/style-wide.css" rel="stylesheet">
+  <link href="../css/keyframes.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="../icons_logo/logo.png">
+</head>
+
+<body >
+  <div class="">
+    <header class="header" id="header">
+      <a id="nav-toggle" onclick="openNav()" href="javascript:void(0)">
+        <span></span>
+      </a>
+      <div id = "mySidenavMenu" class="sidenav-side">
+        <div class="submenu">
+          <ul id="about_us-id" class="about_us-submenu" style="display: none;">
+            <li class="intro-left-v">
+              <a class="border_link" href="../index.html#about_us">
+                <span class="border-text">INTRO</span>
+              </a>
+            </li>
+            <li class="intro-left-v">
+              <a class="border_link" href="../about_us/founder.html">
+                <span class="border-text">FOUNDER</span>
+              </a>
+            </li>
+            <li class="intro-left-v">
+              <a class="border_link" href="../about_us/team.html">
+                <span class="border-text">OUR&nbsp;TEAM</span>
+              </a>
+            </li>
+            <li class="intro-left-v">
+              <a class="border_link" href="../about_us/values.html"><span class="border-text">VALUES&nbsp;/&nbsp;MISSION&nbsp;/&nbsp;VISION</span></a>
+            </li>
+            <li class="intro-left-v">
+              <a class="border_link" href="../about_us/nameandlogo.html"><span class="border-text">NAME&nbsp;AND&nbsp;LOGO</span></a>
+            </li>
+          </ul>
+          <ul id="why_us-id" class="why_us-submenu" style="display: none;">
+            <li class="intro-left-v">
+              <a class="border_link" href="../why_us.html"><span class="border-text">INTRO</span></a>
+            </li>
+            <li class="intro-left-v">
+              <a class="border_link" href="../why_us/our_guanxi.html"><span class="border-text">OUR GUANXI</span></a>
+            </li>
+            <li class="intro-left-v">
+              <a class="border_link" href="../why_us/publications.html"><span class="border-text">PUBLICATIONS</span></a>
+            </li>
+            <li class="intro-left-v">
+              <a class="border_link" href="../why_us/people.html"><span class="border-text">PEOPLE</span></a>
+            </li>
+            <li class="intro-left-v">
+              <a class="border_link" href="../why_us/clients.html"><span class="border-text">CLIENTS</span>
+              </a>
+            </li>
+          </ul>
+          <ul id="our_work-id" class="our_work-submenu" style="display: none;">
+            <li class="intro-left-v">
+              <a class="border_link" href="../index.html#our_work"><span class="border-text">INTRO</span>
+              </a>
+            </li>
+            <li class="intro-left-v">
+              <a class="border_link" href="../our_work.html#services"><span class="border-text">SERVICES</span>
+              </a>
+            </li>
+            <li class="intro-left-v">
+              <a class="border_link" href="../our_work.html#process"><span class="border-text">PROCESS</span>
+              </a>
+            </li>
+            <li class="intro-left-v">
+              <a class="border_link" href="../our_work.html#case_studies"><span class="border-text">CASE&nbsp;STUDIES</span>
+              </a>
+            </li>
+          </ul>
+          <ul id="crossing_culture-id" class="crossing_culture-submenu" style="display: none;">
+            <li class="intro-left-v">
+              <a class="border_link" href="../index.html#crossing_culture"><span class="border-text">INTRO</span>
+              </a>
+            </li>
+            <li class="intro-left-v">
+              <a class="border_link" href="../crossing_culture.html#challenges"><span class="border-text">CHALLENGES</span>
+              </a>
+            </li>
+            <li class="intro-left-v">
+              <a class="border_link" href="../crossing_culture.html#china_business"><span class="border-text">CHINA&nbsp;BUSINESS</span>
+              </a>
+            </li>
+            <li class="intro-left-v">
+              <a class="border_link" href="../crossing_culture.html#ready_for_china"><span class="border-text">READY&nbsp;FOR&nbsp;CHINA?</span>
+              </a>
+            </li>
+            <li class="intro-left-v">
+              <a class="border_link" href="../crossing_culture.html#useful_info"><span class="border-text">USEFUL&nbsp;INFO</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="mySidenav" class="sidenav">
+        <div class="sidenav-links" id="myMenu" onclick="closeNav()">
+          <a data-menuanchor="home" class="sidenav_link home-menu" href="../index.html#home" style="width: 0;">
+            HOME
+          </a><br>
+          <a data-menuanchor="about_us" class="active sidenav_link about-menu" href="../index.html#about_us" style="width: 0;">
+            ABOUT&nbsp;US
+          </a><br>
+          <a data-menuanchor="why_us" class="sidenav_link why-menu" href="../index.html#why_us" style="width: 0;">
+            WHY&nbsp;US
+          </a><br>
+          <a data-menuanchor="our_work" class="sidenav_link work-menu" href="../index.html#our_work" style="width: 0;">
+            OUR&nbsp;WORK
+          </a><br>
+          <a data-menuanchor="crossing_culture" class="sidenav_link china-menu" href="../index.html#crossing_culture" style="width: 0;">
+            CROSSING&nbsp;CULTURES
+          </a><br>
+        <!--<a class="sidenav_link raq-menu" href="../raq.html" style="width: 0;">
+          RAQ
+        </a><br>-->
+        <a class="sidenav_link contact-menu" href="../contact.html" style="width: 0;">
+          CONNECT&nbsp;WITH&nbsp;US
+        </a>
+      </div>
+    </div>
+
+    <div class="header-lang nav">
+      <div class="row">
+        <div class="header-lang-item nav-item col-sm-6 col-xs-4">
+          <a href="#" title="LITAO" class="header-lang-link nav-link" data-page="">
+            <span class="header-lang-text">CH</span>
+          </a>
+        </div>
+        <div class="header-lang-item  nav-item col-sm-6 col-xs-4">
+          <a href="#" title="LITAO" class="header-lang-link nav-link active" data-page="">
+            <span class="header-lang-text">EN</span>
+          </a>
+        </div>
+        <div class="header-lang-item hidden-sm-up  nav-item col-xs-4">
+          <a href="#" title="LITAO" class="header-lang-link nav-link" data-page="">
+            <span class="header-lang-text">LT</span>
+          </a>
+        </div>
+      </div>
+      <div class="row hidden-xs-down">
+        <div class="header-lang-item  nav-item offset-sm-6 col-xs-4">
+          <a href="#" title="LITAO" class="header-lang-link nav-link" data-page="">
+            <span class="header-lang-text">LT</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container-fluid" id="about_us_page_id">
+    <div class=" hidden-md-down side-border color-green">
+      <img src="../icons_logo/diagonal.png" class="level2_slash">
+      <div class="right_link-rotated">
+        <a href="./index.html#about_us">ABOUT US</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-1">
+        <ul class="submenu">
+          <li class="intro-left-v">
+            <a class="rotated-links"  href="../index.html#about_us">
+              <span class="border-text">
+                INTRO
+              </span>
+            </a>
+          </li>
+          <li class="intro-left-v">
+            <a class="rotated-links" href="founder.html">
+              <span class="border-text">
+                FOUNDER
+              </span>
+            </a>
+          </li>
+          <li class="intro-left-v">
+            <a class="rotated-links"  href="team.html">
+              <span class="border-text">
+                OUR&nbsp;TEAM
+              </span>
+            </a>
+          </li>
+          <li class="intro-left-v">
+          <a class="rotated-links active"  href="values.html">
+              <span class="border-text">
+                VALUES&nbsp;/&nbsp;MISSION&nbsp;/&nbsp;VISION
+              </span>
+            </a>
+          </li>
+          <li class="intro-left-v">
+            <a class="rotated-links"  href="nameandlogo.html">
+              <span class="border-text">
+                NAME&nbsp;AND&nbsp;LOGO
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-10 col-xs-11">
+       <div class="section" id="values">
+        <div class="row">
+          <div class="col">
+            <h3 class="text-uppercase level2-main-title">
+              VALUES,<br>
+              MISSION <br>
+              AND VISION
+            </h3>
+          </div>
+          <div class="col-md-6 offset-md-6">
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="level2-titles-box-margin" >
+              <div class="level2-titles-box">
+                <img class="level2-titles-box-line" src="../home-images/about_us/black_title_line.png" alt="">
+                <img class="level2-titles-box-pic-square" src="../home-images/about_us/green-rectangle.png" alt="">
+                <h4 class="text-uppercase level2-titles"> VALUES
+                </h4>
+              </div>
+              <p class="lead">Compassion <br>
+                Hands-On Know-How <br>
+                Personal Approach <br>
+                Fluency
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class="img-fluid values_picture" src="" alt="founder with Kongming lantern">
+          </div>
+        </div>
+        <div class="row values_compassion-section-margin">
+          <div class="col-md-6">
+            <img class="img-fluid values_picture-compassion" src="" alt="compassion picture">
+          </div>
+          <div class="col-md-6">
+            <p class="title">COMPASSION
+            </p>
+            <p class="title_lead">
+              <b class="color-red">Compassion is for businessmen <br>
+                as well as Buddha.</b>
+              </p>
+              <p class="founder-content">
+                <img class=" hidden-md-down img-fluid values_green-circle" src="../home-images/about_us/green-circle.png" alt="square">
+                It is feeling what it means to be in someone else’s
+                shoes, in someone else’s country. It is the true
+                <b>consideration</b> of the people who buy your products
+                and services as well as the people who make them,
+                their joys, sorrows, and humanity. Compassion
+                means responding to <b>differences</b> without clashing,
+                and treating even obstacles as opportunities for
+                <b>understanding</b>. We believe success without
+                compassion is <b>money without meaning</b>.
+              </p>
+            </div>
+          </div>
+          <div class="row values_-section-margin">
+            <div class="col-md-6">
+              <p class="title">FLUENCY
+              </p>
+              <p class="title_lead">
+                <b class="color-red">Fluency is not limited to language.</b>
+              </p>
+              <p class="founder-content">
+                <img class=" hidden-md-down img-fluid values_green-circle" src="../home-images/about_us/green-circle.png" alt="square">
+                It is understanding but also flow, also grace.
+                Vocabulary and <b>grammar</b> alone does not guarantee
+                fluency; it is the connections between words that
+                give sentences their meaning. <b>Fluency</b> is the ability
+                to do things and convey meaning with ease and
+                <b>efficiency</b>. We help you to find your cultural fluency,
+                to do things naturally even outside your home
+                country so you can <b>translate</b> your success anywhere
+                in the world. Fluency comes from the same root as
+                <b>fluidity</b>, a measure of the extent to which a liquid
+                can move freely and <b>without obstacles</b>. Fluidity is
+                even a part of our name; the “TAO” in LITAO comes
+                from the Chinese word 涛 (tāo), meaning wave.”
+              </p>
+            </div>
+            <div class="col-md-6">
+              <img class="img-fluid values_picture-fluency" src="" alt="fluency picture">
+            </div>
+          </div>
+          <div class="row values_section-margin">
+            <div class="col-md-6">
+              <img class="img-fluid values_picture-approach" src="" alt="approach picture">
+            </div>
+            <div class="col-md-6">
+              <p class="title">PERSONAL <br>
+                APPROACH
+              </p>
+              <p class="title_lead">
+                <b class="color-red">Everyone knows a custom-made suit fits
+                  <br>
+                  better than one from the department store.</b>
+                </p>
+                <p class="founder-content">
+                  <img class=" hidden-md-down img-fluid values_green-circle" src="../home-images/about_us/green-circle.png" alt="square">
+                  LITAO is the reverse of <b>mass-produced</b> consulting:
+                  we take your measure carefully to find <b>solutions</b>
+                  tailored to your specific needs. Of course, it’s not
+                  the clothes that make the man or woman; it’s
+                  ultimately the <b>person inside</b>. Yet without good
+                  presentation, the personality is obscured. At <b>LITAO</b>,
+                  we want you to show your best self to the world. We
+                  take your <b>dreams</b> personally.
+                </p>
+              </div>
+            </div>
+            <div class="row values_section-margin">
+              <div class="col-md-6">
+                <p class="title">HANDS-ON<br>
+                  KNOW-HOW
+                </p>
+                <p class="title_lead"> <b class="color-red">
+                  We are not a group of <br>
+                  theorists floating ideas in the sky.
+                </b></p>
+                <p class="founder-content">
+                  <img class=" hidden-md-down img-fluid values_green-circle" src="../home-images/about_us/green-circle.png" alt="square">
+                  We are down working on the ground. Whatever we
+                  know, we know <b>firsthand</b>. We consider ourselves
+                  gardening experts for cultural pioneers: by <b>helping</b>
+                  you understand the local environment and warning
+                  you of <b>potential</b> pests and storms, your seeds can
+                  safely take root and grow. Wherever we <b>operate</b>, our
+                  local teams dig deep and get their hands dirty so you
+                  don’t have to.
+                </p>
+              </div>
+              <div class="col-md-6">
+                <img class="img-fluid values_picture-hands-on" src="" alt="hands-on picture">
+              </div>
+            </div>
+            <div class="row mission_section">
+              <div class="col-md-6">
+                <div class="" >
+                  <div class="mission_level2-titles-box">
+                    <img class="level2-titles-box-line" src="../home-images/about_us/black_title_line.png" alt="">
+                    <img class="level2-titles-box-pic-square" src="../home-images/about_us/green-rectangle.png" alt="">
+                    <h4 class="text-uppercase level2-titles">
+                      MISSION
+                    </h4>
+                  </div>
+                  <p class="lead">
+                    Serving Greatness
+                  </p>
+                  <p class="mission_lead"> There is always a gap between who we <br>
+                    are and who we want to be.
+                  </p>
+                  <p class="founder-content"> Closing the <b>distance</b> between those two points is the
+                    definition of greatness. It is doing what you have
+                    always dreamed; it is <b>going beyond</b> your comfort
+                    zone; it is being a pioneer. <span class="break"></span><span class="break"></span>
+                    We are here to help you close that gap in service of
+                    <b>greatness</b>: to help you go <b>further and farther</b> than
+                    you ever thought you could. To exceed even your
+                    own expectations. Because that’s what great people
+                    do. Because that’s what you are. And we want to
+                    <b>bring more greatness</b> into the world.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <img class=" img-fluid mission_picture" src="" alt="">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <img class=" img-fluid vision_picture" src="" alt="">
+              </div>
+              <div class="col-md-6">
+                <div class="" >
+                  <div class="vision_level2-titles-box">
+                    <img class="level2-titles-box-line" src="../home-images/about_us/black_title_line.png" alt="">
+                    <img class="level2-titles-box-pic-square" src="../home-images/about_us/green-rectangle.png" alt="">
+                    <h4 class="text-uppercase level2-titles">
+                      VISION
+                    </h4>
+                  </div>
+                  <p class="lead">
+                    Effortless Work
+                  </p>
+                  <p class="mission_lead">
+                    Effortless does not mean no effort.
+                  </p>
+                  <p class="founder-content"> It is by no means laziness. Effortless is simply doing
+                    what feels <b>most natural</b> to you: waking up early not
+                    because you have to but because you want to; going
+                    the <b>extra mile</b> for your client or project or company
+                    or country because you <b>believe</b> in them; working
+                    tirelessly out of love.<span class="break"></span><span class="break"></span>
+                    <b>We love our work:</b> we imagine a world where
+                    everyone is passionate about what they do, and so
+                    even the most complex <b>goals</b> become readily
+                    attainable. We are here to simplify your <b>obstacles</b>,
+                    <b>clarify</b> your choices, and accelerate your
+                    dreams—to make your work life effortless but no
+                    less ambitious.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <script src="../js/jquery.easing.min.js"></script>
+    <script src="../js/tether.min.js"></script>
+    <script src="../js/ScrollMagic.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/animsition.min.js"></script>
+    <script src="../js/level2.js"></script>
+  </body>
+  </html>
