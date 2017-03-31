@@ -1091,7 +1091,7 @@ background: #a55f60 ;
   display: block;
   width: 150px;
   height: 150px;
-  border: solid 1px black;
+  background-color: #dfeae1;
 }
 .publication_content{
   border-style: dotted;

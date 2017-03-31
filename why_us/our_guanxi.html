@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>LITAO</title>
+  <link href="../css/font.css" rel="stylesheet">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/animate.css" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet">
+  <link href="../css/style-wide.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="../icons_logo/logo.png">
+</head>
+
+<body>
+  <header class="header" id="header">
+    <a id="nav-toggle" onclick="openNav()" href="javascript:void(0)"><span></span>
+    </a>
+    <div id="mySidenavMenu" class="sidenav-side">
+      <div class="submenu">
+        <ul id="about_us-id" class="about_us-submenu" style="display: none">
+          <li class="intro-left-v animated-fast1 zoomInUp">
+            <a class="border_link" href="index.html#about_us">
+              <span class="border-text"  onclick="closeNav()" >INTRO</span>
+            </a>
+          </li>
+          <li class="intro-left-v animated-fast2 zoomInUp">
+            <a class="border_link" href="about_us.html#founder">
+              <span class="border-text">FOUNDER</span>
+            </a>
+          </li>
+          <li class="intro-left-v animated-fast3 zoomInUp">
+            <a class="border_link " href="about_us.html#team">
+              <span class="border-text">OUR&nbsp;TEAM</span>
+            </a>
+          </li>
+          <li class="intro-left-v animated-fast4 zoomInUp">
+            <a class="border_link " href="about_us.html#values">
+              <span class="border-text">
+                VALUES&nbsp;/&nbsp;MISSION&nbsp;/&nbsp;VISION
+              </span>
+            </a>
+          </li>
+          <li class="intro-left-v animated-fast5 zoomInUp">
+            <a class="border_link " href="about_us.html#nameandlogo">
+              <span class="border-text">NAME&nbsp;AND&nbsp;LOGO</span>
+            </a>
+          </li>
+        </ul>
+                <ul id="why_us-id" class="why_us-submenu" style="display: none;">
+          <li class="intro-left-v animated-fast1 zoomInUp">
+            <a class="border_link" href="../index.html#why_us">
+              <span class="border-text"  onclick="closeNav()">INTRO</span>
+            </a>
+          </li>
+          <li class="intro-left-v animated-fast2 zoomInUp">
+            <a class="border_link " href="experience_litao.html">
+              <span class="border-text">EXPERIENCE LITAO</span>
+            </a>
+          </li>
+          <li class="intro-left-v animated-fast3 zoomInUp">
+            <a class="border_link " href="our_guanxi.html">
+              <span class="border-text">OUR GUANXI</span>
+            </a>
+          </li>
+          <li class="intro-left-v animated-fast4 zoomInUp">
+            <a class="border_link " href="recognitions.html">
+              <span class="border-text">RECOGNITIONS</span>
+            </a>
+          </li>
+          <li class="intro-left-v animated-fast5 zoomInUp">
+            <a class="border_link " href="brochure.html">
+              <span class="border-text">BROCHURE</span>
+            </a>
+          </li>
+        </ul>
+        <ul id="our_work-id" class="our_work-submenu" style="display: none;">
+          <li class="intro-left-v animated-fast1 zoomInUp">
+            <a class="border_link" href="index.html#our_work">
+              <span class="border-text"  onclick="closeNav()">
+                INTRO
+              </span>
+            </a>
+          </li>
+          <li class="intro-left-v animated-fast2 zoomInUpanimated-fast1 zoomInUp">
+            <a class="border_link " href="our_work.html#services">
+              <span class="border-text">SERVICES</span>
+            </a>
+          </li>
+          <li class="intro-left-v animated-fast3 zoomInUp">
+            <a class="border_link " href="our_work.html#process">
+              <span class="border-text">PROCESS</span>
+            </a>
+          </li>
+          <li class="intro-left-v animated-fast4 zoomInUp">
+            <a class="border_link " href="our_work.html#case_studies">
+              <span class="border-text">CASE&nbsp;STUDIES</span>
+            </a>
+          </li>
+        </ul>
+        <ul id="crossing_culture-id" class="crossing_culture-submenu" style="display: none;">
+          <li class="intro-left-v animated-fast1 zoomInUp">
+            <a class="border_link" href="index.html#crossing_culture">
+              <span class="border-text"  onclick="closeNav()">
+                INTRO
+              </span>
+            </a>
+          </li>
+          <li class="intro-left-v animated-fast2 zoomInUp">
+            <a class="border_link " href="crossing_culture.html#challenges">
+              <span class="border-text">CHALLENGES</span>
+            </a>
+          </li>
+          <li class="intro-left-v animated-fast3 zoomInUp">
+            <a class="border_link " href="crossing_culture.html#china_business">
+              <span class="border-text">CHINA&nbsp;BUSINESS</span>
+            </a>
+          </li>
+          <li class="intro-left-v animated-fast4 zoomInUp">
+            <a class="border_link " href="crossing_culture.html#ready_for_china">
+              <span class="border-text">READY&nbsp;FOR&nbsp;CHINA?</span>
+            </a>
+          </li>
+          <li class="intro-left-v animated-fast5 zoomInUp">
+            <a class="border_link " href="crossing_culture.html#useful_info">
+              <span class="border-text">USEFUL&nbsp;INFO</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="mySidenav" class="sidenav">
+      <div class="sidenav-links" id="myMenu" onclick="closeNav()">
+        <a data-menuanchor="home" class="sidenav_link home-menu" href="../index.html#home" style="width: 0;">
+          HOME
+        </a><br>
+        <a data-menuanchor="about_us" class="sidenav_link about-menu" href="../index.html#about_us" style="width: 0;" >
+          ABOUT&nbsp;US
+        </a><br>
+        <a data-menuanchor="our_work" class="sidenav_link work-menu" href="../index.html#our_work" style="width: 0;">
+          OUR&nbsp;WORK
+        </a><br>
+        <a data-menuanchor="why_us" class=" active sidenav_link why-menu" href="../index.html#why_us" style="width: 0;">
+          WHY&nbsp;US
+        </a><br>
+        <a data-menuanchor="crossing_culture" class="sidenav_link china-menu" href="../index.html#crossing_culture" style="width: 0;">
+          CROSSING&nbsp;CULTURES
+        </a><br>
+        <a class="sidenav_link contact-menu" href="../contact.html" style="width: 0;" >
+          CONNECT&nbsp;WITH&nbsp;US
+        </a>
+      </div>
+    </div>
+    <div class="header-lang nav">
+      <div class="row">
+        <div class="header-lang-item nav-item col-xs-6">
+          <a href="#" title="LITAO" class="header-lang-link nav-link " data-page="">
+            <span class="header-lang-text">CH</span>
+          </a>
+        </div>
+        <div class="header-lang-item  nav-item col-xs-6">
+          <a href="#" title="LITAO" class="header-lang-link nav-link active" data-page="">
+            <span class="header-lang-text">EN</span>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="header-lang-item  nav-item offset-xs-6">
+          <a href="#" title="LITAO" class="header-lang-link nav-link" data-page="">
+            <span class="header-lang-text">LT</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container-fluid" id="why_us_page_id">
+    <div class=" hidden-md-down side-border color-green">
+      <img src="../icons_logo/diagonal.png" class="level2_slash">
+      <div class="right_link-rotated">
+        <a href="../index.html#why_us">WHY US</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-1">
+        <ul class="submenu">
+          <li class="intro-left-v ">
+            <a class="rotated-links " href="../index.html#why_us">
+              <span class="border-text">INTRO</span>
+            </a>
+          </li>
+          <li class="intro-left-v ">
+            <a class="rotated-links  " href="experience_litao.html">
+              <span class="border-text">EXPERIENCE LITAO</span>
+            </a>
+          </li>
+          <li class="intro-left-v ">
+            <a class="rotated-links active" href="our_guanxi.html">
+              <span class="border-text">OUR GUANXI</span>
+            </a>
+          </li>
+          <li class="intro-left-v ">
+            <a class="rotated-links  " href="recognitions.html">
+              <span class="border-text">RECOGNITIONS</span>
+            </a>
+          </li>
+          <li class="intro-left-v ">
+            <a class="rotated-links  " href="brochure.html">
+              <span class="border-text">BROCHURE</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-10 col-xs-11">
+        <div class="section" id="our_guanxi">
+          <div class="row">
+            <div class="col-xs-6">
+              <h3 class="text-uppercase level2-main-title">
+                OUR <br>
+                GUANXI
+              </h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <p class="guanxi-explanation">
+                <span class="color-red guanxi_noun">
+                  <b>(gwæn’si) - n</b>
+                </span>
+                <span class="break"></span>
+                (Commerce) a Chinese social concept based on the <br>
+                exchange of favours, in which personal relationships are<br>
+                considered more important than laws and written<br>
+                agreements
+                <span class="break"></span>
+                <span class="color-red text-reference">Collins English Dictionary – Complete<br>
+                  and Unabridged, 12th Edition 2014</span>
+                </p>
+              </div>
+              <div class="col-md-6">
+                <img src="" alt="main guanxi picture" class="main-image">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="level2-titles-box-margin" >
+                  <div class="">
+                    <img class="level2-titles-box-line" src="../home-images/about_us/black_title_line.png" alt="">
+                    <img class=" hidden-sm-down img-fluid level2-titles-box-pic-square" src="../home-images/about_us/green-rectangle.png" alt="">
+                    <h4 class="text-uppercase level2-titles"> THEY TRUST US
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row company-grid">
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="../home-images/why_us/siemens.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">Carlos Gallegos
+                    </p>
+                    <p class="card-text">
+                      Head of Procurement <br>
+                      Wind Power
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="../home-images/why_us/lt_img.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Ina Marciulionyte
+                    </p>
+                    <p class="card-text">
+                      Ambassador
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="../home-images/why_us/jacobs.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Bernd Kuehne
+                    </p>
+                    <p class="card-text">
+                      CEO
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="../home-images/why_us/vici.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Dmitrij Bogatko
+                    </p>
+                    <p class="card-text">
+                      Regional Sales Director
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="../home-images/why_us/lt_img.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Agne Biliunaite
+                    </p>
+                    <p class="card-text">
+                      Culture Attache
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top"  src="../home-images/why_us/achema.png"  alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Rytis Budrius
+                    </p>
+                    <p class="card-text">
+                      Senior Legal Councel
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="../home-images/why_us/professor.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Pang Zhongqi
+                    </p>
+                    <p class="card-text">
+                      Professor, SIRPA
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="../home-images/why_us/gll.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Kotryna Stankute
+                    </p>
+                    <p class="card-text">
+                      Director
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="../home-images/why_us/urm.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Lina Zukauskaite
+                    </p>
+                    <p class="card-text">
+                      Deputy Director <br>
+                      Lithuanians Living Abroad
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="../home-images/why_us/zabolis.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Guido Wolf
+                    </p>
+                    <p class="card-text">
+                      Director <br>
+                      Group Development
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="../home-images/why_us/melt.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Aiva Jokubauskaite
+                    </p>
+                    <p class="card-text">
+                      Head of Export & Sales
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="../home-images/why_us/vershold.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Paulo Carvalho
+                    </p>
+                    <p class="card-text">
+                      Managing Director
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="../home-images/why_us/baltic.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Simonas Petrulis
+                    </p>
+                    <p class="card-text">
+                      CEO
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="../home-images/why_us/iq.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Ovidijus Lukosius
+                    </p>
+                    <p class="card-text">
+                      Editor in Chief
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="../home-images/why_us/lpk.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Zilvinas Abaravicius
+                    </p>
+                    <p class="card-text">
+                      Executive Director
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="../home-images/why_us/vuni.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Vytis Silius
+                    </p>
+                    <p class="card-text">
+                      Director<br>
+                      Center of Oriental Studies
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="../home-images/why_us/liquid.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Karolis Brazys
+                    </p>
+                    <p class="card-text">
+                      Founder
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="../home-images/why_us/mains.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Simon de Raadt
+                    </p>
+                    <p class="card-text">
+                      CEO
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="../home-images/why_us/juliet.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      David Perez
+                    </p>
+                    <p class="card-text">
+                      Commercial Director
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="../home-images/why_us/lit.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Tomas Valauskas
+                    </p>
+                    <p class="card-text">
+                      Founder
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="../home-images/why_us/gold.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Leo Chu
+                    </p>
+                    <p class="card-text">
+                      Director
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="../home-images/why_us/linearis.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Agnes Sturmane
+                    </p>
+                    <p class="card-text">
+                      Project Manager
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="../home-images/why_us/nikolay.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Nikolay Piriankov
+                    </p>
+                    <p class="card-text">
+                      CEO
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="../home-images/why_us/reach.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Helen Ye
+                    </p>
+                    <p class="card-text">
+                      Deputy Director
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="../home-images/why_us/kadence.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Vivek Thomas
+                    </p>
+                    <p class="card-text">
+                      Managing Director
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="../home-images/why_us/cancham.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Rebecca Copelovici
+                    </p>
+                    <p class="card-text">
+                      Founder
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <p class="title">If you don’t know what guanxi<br>
+                  is, you don’t really know China.
+                </p>
+                <br><br>
+                <p class="our_guanxi-content">
+                  Guanxi in Chinese means <b>interpersonal connections</b>
+                  but also more than that: it is that ineffable <b>network</b>
+                  of people we know who would open doors for us,
+                  doors that are otherwise guarded or closed. When
+                  you’re looking for a solution in China, <b>“I know
+                    someone...”</b> are the three sweetest words you can
+                    hear.
+                  </p>
+                </div>
+
+                <div class="col-md-6">
+                  <p class="our_guanxi-content">
+                    <br>
+                    Our guanxi <b>include</b> current and former clients,
+                    business colleagues, government officials, experts
+                    and KOLs in various fields, advisers and advisees:
+                    <b>people we have served, learned from, and made
+                    friends with.</b> They are all people we would do things
+                    for and who would unquestionably do things for us.
+                    And they are all <b>great at what they do.</b>
+                    <br>
+                    <br>
+                    The ecosystem of <b>Chinese business</b> is built on
+                    trustworthy guanxi and nothing in China gets done
+                    without it. <b>Cultivating good China connections
+                    takes years</b>—but by joining the LITAO network, our
+                    people will become your people.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <script src="../js/jquery-3.1.1.min.js"></script>
+  <script src="../js/jquery.easing.min.js"></script>
+  <script src="../js/tether.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/level2.js"></script>
+</body>
+</html>
