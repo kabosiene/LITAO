@@ -1165,6 +1165,70 @@ background: #a55f60 ;
   line-height: 1.5;
 }
 
+.folding-section_heading {
+  margin-left: 92px;
+  margin-right: 92px;
+  height: 70px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.folding-section_heading :hover {
+  cursor: pointer;
+}
+.flex-column{
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: auto;
+}
+ .folding-section_expand_indicator {
+  margin-right: auto;
+  margin-left: 10px;
+ }
+.folding-section_heading_title{
+font-size: 15px;
+font-family: 'BrandonGrotesque-Bold';
+letter-spacing: 0.09em;
+word-spacing: 5px;
+margin-bottom: 2px;
+}
+.folding-section_heading_subtitle{
+ font-size: 14px;
+ letter-spacing: 0.09em;
+}
+
+.folding-section_content{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+ .folding-section .read-more-state {
+  display: none;
+}
+
+.folding-section .read-more-target {
+  opacity: 0;
+  max-height: 0;
+  font-size: 0;
+  transition: .25s ease;
+}
+
+.folding-section .read-more-state:checked ~ .read-more-target {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+}
+
+.folding-section .read-more-state ~ .read-more-trigger:before {
+  content: '+';
+}
+
+.folding-section .read-more-state:checked ~ .read-more-trigger:before {
+  content: '-';
+}
+
 #raq-id .subtitle , #useful-id .subtitle {
   font-family: 'BrandonGrotesque-Bold';
   font-size: 23px;
