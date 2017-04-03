@@ -2,9 +2,7 @@
 @media only screen and (min-width : 1200px) {
 
 
-  #founder, #values, #nameandlogo, #team,
-  #our_guanxi, #experience_litao,
-  #founder, #values{
+  #page_id .section {
     padding-top: 70px;
     line-height: 1.1;
     padding-bottom: 70px;
@@ -13,10 +11,7 @@
     text-align: left;
   }
 
-  #founder .col-md-6, #values .col-md-6,
-  #team .col-md-6, #nameandlogo .col-md-6,
-  #our_guanxi .col-md-6, #experience_litao .col-md-6,
-  #raq-id .col-md-6, #useful-id .col-md-6   {
+  #page_id .col-md-6{
     padding-left: 92px;
   }
 

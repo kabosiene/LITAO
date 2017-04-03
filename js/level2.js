@@ -8,7 +8,7 @@
     $(this).addClass("active");
   });
 
-  document.getElementById("why_us_page_id").onmouseover = function() {closeNav()};
+  document.getElementById("page_id").onmouseover = function() {closeNav()};
 
   function openNav() {
     document.getElementById("mySidenav").style.visibility = "visible";
