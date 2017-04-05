@@ -1281,15 +1281,78 @@ margin-bottom: 2px;
   letter-spacing: 0.06em;
   padding-left: 75px;
 }
-#raq-id .subtitle , #useful-id .subtitle {
+
+#raq p.lead{
   font-family: 'BrandonGrotesque-Bold';
   font-size: 23px;
-  letter-spacing: 0.05em;
   max-width: 700px;
-  padding-left: 92px;
   line-height: 1.18;
-  padding-top: 100px;
-  padding-bottom: 80px;
+  margin-bottom: 25px;
+  letter-spacing: 0.04em;
+  padding-left: 75px;
+  text-align: justify;
+}
+#raq .folding-section_heading {
+  margin-left: 92px;
+  margin-right: 92px;
+  height: 68px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#raq .folding-section{
+  margin-bottom: 1px;
+}
+#raq .folding-section :hover {
+  cursor: pointer;
+}
+
+#raq .folding-section_expand_indicator {
+  margin-right: auto;
+  margin-left: 10px;
+  margin-top: 8px;
+ }
+
+#raq .folding-section_heading_title{
+font-size: 15px;
+font-family: 'BrandonGrotesque-Bold';
+letter-spacing: 0.09em;
+word-spacing: 5px;
+margin-bottom: 2px;
+}
+
+#useful_resources p.title{
+  font-family: 'BrandonGrotesque-Bold';
+  font-size: 34px;
+  letter-spacing: 0.05em;
+  max-width: 600px;
+  line-height: 0.99;
+}
+#useful_resources p.subtitle{
+  font-family: 'BrandonGrotesque-Bold';
+  font-size: 22px;
+  letter-spacing: 0.06em;
+  max-width: 600px;
+  line-height: 1.2;
+  text-align: justify;
+  padding-top: 8px;
+}
+.chapter{
+  border-bottom: 1px dotted black;
+  margin-left: 92px;
+  margin-right: 92px;
+  margin-top: 39px;
+  line-height: 1.9;
+  padding-bottom:  10px;
+}
+.chapter_title{
+  font-family: 'BrandonGrotesque-Bold';
+  font-size: 24px;
+}
+.chapter_link{
+  font-family: 'BrandonGrotesque-Bold';
+  letter-spacing: 0.1em;
 }
 
 /*--------contact&raq-------*/
