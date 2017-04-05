@@ -12,7 +12,7 @@
 
   function openNav() {
     document.getElementById("mySidenav").style.visibility = "visible";
-    document.getElementById("mySidenav").style.width = "46%";
+    document.getElementById("mySidenav").style.width = "50%";
     setTimeout(change_width, 200);
     setTimeout(change_opacity, 200);
     document.querySelector("#nav-toggle").setAttribute('onclick','closeNav()');
@@ -95,10 +95,10 @@
     document.getElementById("mySidenavMenu").style.borderLeft = "1px solid #cccbc5";
     document.getElementById("mySidenavMenu").style.borderRight = "1px solid #cccbc5";
     document.getElementById("mySidenavMenu").style.visibility = "visible";
-    document.getElementById("mySidenavMenu").style.width = "5%";
+    document.getElementById("mySidenavMenu").style.width = "60px";
     $('#myMenu').find('.select-submenu').removeClass('select-submenu');
     $(this).addClass('select-submenu');
-    $(".submenu").find(".active").hide().removeClass("active");
+    $("#mySidenavMenu .submenu").find(".active").hide().removeClass("active");
     $("#about_us-id").addClass("active").show();
   })
   ;
@@ -106,20 +106,20 @@
     document.getElementById("mySidenavMenu").style.borderLeft = "1px solid #cccbc5";
     document.getElementById("mySidenavMenu").style.borderRight = "1px solid #cccbc5";
     document.getElementById("mySidenavMenu").style.visibility = "visible";
-    document.getElementById("mySidenavMenu").style.width = "5%";
+    document.getElementById("mySidenavMenu").style.width = "60px";
     $('#myMenu').find('.select-submenu').removeClass('select-submenu');
     $(this).addClass('select-submenu');
-    $(".submenu").find(".active").hide().removeClass("active");
+    $("#mySidenavMenu .submenu").find(".active").hide().removeClass("active");
     $("#our_work-id").addClass("active").show();
   });
   $(".why-menu").on("mouseover", function(){
     document.getElementById("mySidenavMenu").style.borderLeft = "1px solid #cccbc5";
     document.getElementById("mySidenavMenu").style.borderRight = "1px solid #cccbc5";
     document.getElementById("mySidenavMenu").style.visibility = "visible";
-    document.getElementById("mySidenavMenu").style.width = "5%";
+    document.getElementById("mySidenavMenu").style.width = "60px";
     $('#myMenu').find('.select-submenu').removeClass('select-submenu');
     $(this).addClass('select-submenu');
-    $(".submenu").find(".active").hide().removeClass("active");
+    $("#mySidenavMenu .submenu").find(".active").hide().removeClass("active");
     $("#why_us-id").addClass("active").show();
   })
   ;
@@ -127,10 +127,10 @@
     document.getElementById("mySidenavMenu").style.borderLeft = "1px solid #cccbc5";
     document.getElementById("mySidenavMenu").style.borderRight = "1px solid #cccbc5";
     document.getElementById("mySidenavMenu").style.visibility = "visible";
-    document.getElementById("mySidenavMenu").style.width = "5%";
+    document.getElementById("mySidenavMenu").style.width = "60px";
     $('#myMenu').find('.select-submenu').removeClass('select-submenu');
     $(this).addClass('select-submenu');
-    $(".submenu").find(".active").hide().removeClass("active");
+    $("#mySidenavMenu .submenu").find(".active").hide().removeClass("active");
     $("#crossing_culture-id").addClass("active").show();
   })
   ;
@@ -138,10 +138,10 @@
     document.getElementById("mySidenavMenu").style.borderLeft = "1px solid #cccbc5";
     document.getElementById("mySidenavMenu").style.borderRight = "1px solid #cccbc5";
     document.getElementById("mySidenavMenu").style.visibility = "visible";
-    document.getElementById("mySidenavMenu").style.width = "5%";
+    document.getElementById("mySidenavMenu").style.width = "60px";
     $('#myMenu').find('.select-submenu').removeClass('select-submenu');
     $(this).addClass('select-submenu');
-    $(".submenu").find(".active").hide().removeClass("active");
+    $("#mySidenavMenu .submenu").find(".active").hide().removeClass("active");
   })
   ;
   $(".contact-menu").on("mouseover", function(){
@@ -150,7 +150,7 @@
 
     $('#myMenu').find('.select-submenu').removeClass('select-submenu');
     $(this).addClass('select-submenu');
-    $(".submenu").find(".active").hide().removeClass("active");
+    $("#mySidenavMenu .submenu").find(".active").hide().removeClass("active");
   });
   $(".home-menu").on("mouseover", function(){
     document.getElementById("mySidenavMenu").style.width = "0";
@@ -158,5 +158,5 @@
 
     $('#myMenu').find('.select-submenu').removeClass('select-submenu');
     $(this).addClass('select-submenu');
-    $(".submenu").find(".active").hide().removeClass("active");
+    $("#mySidenavMenu .submenu").find(".active").hide().removeClass("active");
   });

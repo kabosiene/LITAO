@@ -168,7 +168,7 @@ section {
   position: fixed; /* Stay in place */
   z-index: 999; /* Stay on top */
   top: 0;
-  left:45%;
+  left:46%;
   background-color: #EEEAE6; /* grey*/
   overflow: hidden; /* Disable horizontal scroll */
   -webkit-transition: all 0.1s ease-in;
@@ -265,6 +265,7 @@ section {
 .intro-left-v{
   line-height:59px;
   display:block;
+   flex-grow: 1;
 }
 
 .border_link {
@@ -280,9 +281,7 @@ section {
   transition: opacity 0.2s ease-in;
   display:block;
 }
-.intro-left-v{
- flex-grow: 1;
-}
+
 .intro-left-v:hover a{
   color: #a55f60;
 }
@@ -300,7 +299,7 @@ section {
   display:block;
 }
 
-.rotated-links.active{
+.border_link.active_on, .rotated-links.active{
    color: #a55f60;
    background-color: #dfeae1;
 }
