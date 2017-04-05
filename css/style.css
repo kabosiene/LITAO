@@ -480,7 +480,7 @@ background: #a55f60 ;
   letter-spacing: 0.05em;
 }
 
-#page_id .section {
+.page_id .section {
   padding-top: 70px;
   line-height: 1.1;
 }
@@ -533,6 +533,11 @@ background: #a55f60 ;
   z-index: -1;
   margin-left: 64px;
   margin-top: 29px;
+}
+#values_id .level2-titles-box-pic-square, #nameandlogo_id .level2-titles-box-pic-square{
+  width: 55%;
+  height: 310px;
+  margin-left: 55px;
 }
 
 .level2-titles-box-founder{
@@ -1587,7 +1592,7 @@ address {
     right: 0px;
   }
 
- #page_id .section {
+ .page_id .section {
     padding-top: 70px;
     line-height: 1.1;
   }
@@ -1595,7 +1600,7 @@ address {
     text-align: left;
   }
 
-  #page_id .col-md-6
+  .page_id .col-md-6
   {
     padding-left: 40px;
     padding-right: 0px;
