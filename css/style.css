@@ -358,29 +358,6 @@ section {
 /*-----/borders---*/
 
 /*level1*/
-
-.slash{
-  height: auto;
-  width: auto;
-  position: absolute;
-  z-index: 5;
-  margin-left: -14px;
-  top:50%;
-  left: 100%;
-  margin-top:-33px;
-}
-
-.slash2{
-  height: auto;
-  width: auto;
-  position: absolute;
-  z-index: 5;
-  margin-right: -14px;
-  top:50%;
-  right: 100%;
-  margin-top:-33px;
-}
-
 .mobile-content {
   height: 50vh;
 }
@@ -493,17 +470,12 @@ background: #a55f60 ;
 }
 .right_link-rotated{
   transform: translateX(0%) rotate(90deg);
-  margin-right: auto;
 }
 .right_link-rotated a{
   color: #a55f60;
   font-family: 'BrandonGrotesque-Bold';
   font-size: 12px;
   letter-spacing: 0.05em;
-}
-.level2_slash{
-  margin-left: -14px;
-  margin-right: auto;
 }
 
 #page_id .section {
