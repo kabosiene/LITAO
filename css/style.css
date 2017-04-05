@@ -280,7 +280,9 @@ section {
   transition: opacity 0.2s ease-in;
   display:block;
 }
-
+.intro-left-v{
+ flex-grow: 1;
+}
 .intro-left-v:hover a{
   color: #a55f60;
 }
