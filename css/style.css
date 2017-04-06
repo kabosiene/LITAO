@@ -1062,6 +1062,7 @@ background: #a55f60 ;
   letter-spacing: 0.05em;
   text-align: justify;
   padding-right: 40px;
+  line-height: 1.5;
 }
 .clearfix::after{
   content: "";
