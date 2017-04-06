@@ -530,10 +530,19 @@ background: #a55f60 ;
   margin-left: 64px;
   margin-top: 29px;
 }
-#values_id .level2-titles-box-pic-square, #nameandlogo_id .level2-titles-box-pic-square{
+#values_id .level2-titles-box-pic-square,
+ #nameandlogo_id .level2-titles-box-pic-square{
   width: 55%;
   height: 310px;
   margin-left: 55px;
+}
+#values_id .mission_section .level2-titles-box-pic-square{
+  height: 272px;
+}
+
+#values_id .values_section .level2-titles-box-pic-square
+{
+  height: 250px;
 }
 
 .level2-titles-box-founder{
