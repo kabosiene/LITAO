@@ -141,8 +141,6 @@ section {
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-
-
 /* The side navigation menu */
 .sidenav{
   display: table;
@@ -168,7 +166,7 @@ section {
   position: fixed; /* Stay in place */
   z-index: 999; /* Stay on top */
   top: 0;
-  left:46%;
+  left:49%;
   background-color: #EEEAE6; /* grey*/
   overflow: hidden; /* Disable horizontal scroll */
   -webkit-transition: all 0.1s ease-in;
@@ -177,8 +175,6 @@ section {
   -ms-transition: all 0.1s ease-in;
   transition: all 0.1s ease-in;
 }
-
-
 .sidenav-links {
   display: table-cell;
   vertical-align: middle;
@@ -186,9 +182,7 @@ section {
   letter-spacing: 1.5px;
   text-align: center;
 }
-
 /* The navigation menu links */
-
 .sidenav  a {
   color: #cccbc5;
   display: inline-block;
@@ -200,7 +194,6 @@ section {
   -o-transition: opacity 0.2s ease-in;
   -ms-transition: opacity 0.2s ease-in;
   transition: opacity 0.2s ease-in;
-
 }
 .sidenav a:after {
   content: '';
@@ -224,7 +217,6 @@ section {
   background: #a55f60 ;
   transition: width .8s ease, background-color .5s ease;
 }
-
 .sidenav a:hover:after {
   width: 100%;
   background: #a55f60 ;
@@ -244,7 +236,6 @@ section {
   -webkit-transform-origin: left top;
   -webkit-transform:rotate(-90deg) translateX(-100%);
 }
-
 #mySidenavMenu .submenu{
   border: none;
   position: absolute;
@@ -258,14 +249,16 @@ section {
   padding: 0px;
   width: 100vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-direction: row-reverse;
 }
 
 .intro-left-v{
   line-height:59px;
   display:block;
-   flex-grow: 1;
+}
+.page_id .intro-left-v{
+  flex-grow: 1;
 }
 
 .border_link {
@@ -302,6 +295,10 @@ section {
 .border_link.active_on, .rotated-links.active{
    color: #a55f60;
    background-color: #dfeae1;
+}
+.submenu .border-text {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 /*languages---------------------------------------------*/
@@ -687,8 +684,8 @@ background: #a55f60 ;
   position: absolute;
   z-index: -1;
   width: 300px;
-  height: 315px;
-  margin-top: 155px;
+  height: 180px;
+  margin-top: -20px;
   margin-left: 35px;
 }
 .first-letter-b{

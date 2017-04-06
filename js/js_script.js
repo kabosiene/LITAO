@@ -97,7 +97,6 @@ document.querySelector( "#nav-toggle" ).addEventListener( "mouseover", function(
 /** Show/hide level2 menu items on menu item hover ***/
 $(".about-menu").on("mouseover", function(){
   document.getElementById("mySidenavMenu").style.borderLeft = "1px solid #cccbc5";
-  document.getElementById("mySidenavMenu").style.borderRight = "1px solid #cccbc5";
   document.getElementById("mySidenavMenu").style.visibility = "visible";
   document.getElementById("mySidenavMenu").style.width = "60px";
  $('#myMenu').find('.select-submenu').removeClass('select-submenu');
@@ -108,7 +107,6 @@ $(".about-menu").on("mouseover", function(){
 ;
 $(".work-menu").on("mouseover", function(){
   document.getElementById("mySidenavMenu").style.borderLeft = "1px solid #cccbc5";
-    document.getElementById("mySidenavMenu").style.borderRight = "1px solid #cccbc5";
   document.getElementById("mySidenavMenu").style.visibility = "visible";
   document.getElementById("mySidenavMenu").style.width = "60px";
  $('#myMenu').find('.select-submenu').removeClass('select-submenu');
@@ -118,7 +116,6 @@ $(".work-menu").on("mouseover", function(){
 });
 $(".why-menu").on("mouseover", function(){
   document.getElementById("mySidenavMenu").style.borderLeft = "1px solid #cccbc5";
-    document.getElementById("mySidenavMenu").style.borderRight = "1px solid #cccbc5";
   document.getElementById("mySidenavMenu").style.visibility = "visible";
   document.getElementById("mySidenavMenu").style.width = "60px";
  $('#myMenu').find('.select-submenu').removeClass('select-submenu');
@@ -129,7 +126,6 @@ $(".why-menu").on("mouseover", function(){
 ;
 $(".china-menu").on("mouseover", function(){
   document.getElementById("mySidenavMenu").style.borderLeft = "1px solid #cccbc5";
-    document.getElementById("mySidenavMenu").style.borderRight = "1px solid #cccbc5";
   document.getElementById("mySidenavMenu").style.visibility = "visible";
   document.getElementById("mySidenavMenu").style.width = "60px";
  $('#myMenu').find('.select-submenu').removeClass('select-submenu');
@@ -140,7 +136,6 @@ $(".china-menu").on("mouseover", function(){
 ;
 $(".raq-menu").on("mouseover", function(){
   document.getElementById("mySidenavMenu").style.borderLeft = "1px solid #cccbc5";
-    document.getElementById("mySidenavMenu").style.borderRight = "1px solid #cccbc5";
   document.getElementById("mySidenavMenu").style.visibility = "visible";
   document.getElementById("mySidenavMenu").style.width = "60px";
  $('#myMenu').find('.select-submenu').removeClass('select-submenu');

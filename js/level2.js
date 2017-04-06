@@ -93,7 +93,6 @@
 
   $(".about-menu").on("mouseover", function(){
     document.getElementById("mySidenavMenu").style.borderLeft = "1px solid #cccbc5";
-    document.getElementById("mySidenavMenu").style.borderRight = "1px solid #cccbc5";
     document.getElementById("mySidenavMenu").style.visibility = "visible";
     document.getElementById("mySidenavMenu").style.width = "60px";
     $('#myMenu').find('.select-submenu').removeClass('select-submenu');
@@ -104,7 +103,6 @@
   ;
   $(".work-menu").on("mouseover", function(){
     document.getElementById("mySidenavMenu").style.borderLeft = "1px solid #cccbc5";
-    document.getElementById("mySidenavMenu").style.borderRight = "1px solid #cccbc5";
     document.getElementById("mySidenavMenu").style.visibility = "visible";
     document.getElementById("mySidenavMenu").style.width = "60px";
     $('#myMenu').find('.select-submenu').removeClass('select-submenu');
@@ -114,7 +112,6 @@
   });
   $(".why-menu").on("mouseover", function(){
     document.getElementById("mySidenavMenu").style.borderLeft = "1px solid #cccbc5";
-    document.getElementById("mySidenavMenu").style.borderRight = "1px solid #cccbc5";
     document.getElementById("mySidenavMenu").style.visibility = "visible";
     document.getElementById("mySidenavMenu").style.width = "60px";
     $('#myMenu').find('.select-submenu').removeClass('select-submenu');
@@ -125,7 +122,6 @@
   ;
   $(".china-menu").on("mouseover", function(){
     document.getElementById("mySidenavMenu").style.borderLeft = "1px solid #cccbc5";
-    document.getElementById("mySidenavMenu").style.borderRight = "1px solid #cccbc5";
     document.getElementById("mySidenavMenu").style.visibility = "visible";
     document.getElementById("mySidenavMenu").style.width = "60px";
     $('#myMenu').find('.select-submenu').removeClass('select-submenu');
@@ -136,7 +132,6 @@
   ;
   $(".raq-menu").on("mouseover", function(){
     document.getElementById("mySidenavMenu").style.borderLeft = "1px solid #cccbc5";
-    document.getElementById("mySidenavMenu").style.borderRight = "1px solid #cccbc5";
     document.getElementById("mySidenavMenu").style.visibility = "visible";
     document.getElementById("mySidenavMenu").style.width = "60px";
     $('#myMenu').find('.select-submenu').removeClass('select-submenu');
