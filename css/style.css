@@ -1318,8 +1318,43 @@ margin-bottom: 2px;
 font-size: 15px;
 font-family: 'BrandonGrotesque-Bold';
 letter-spacing: 0.09em;
-word-spacing: 5px;
+word-spacing: 1px;
 margin-bottom: 2px;
+line-height: 1.2;
+}
+
+#raq .folding-section_content{
+  margin-left: 92px;
+  margin-right: 92px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  font-family: 'BrandonGrotesque-Light';
+  letter-spacing: 0.07em;
+  word-spacing: 1px;
+  text-align: center;
+  line-height: 1.5;
+}
+#raq .folding-section_content img{
+  position: absolute;
+  z-index: -1;
+  margin-left: -50px;
+  padding-top: 63px;
+}
+#raq .folding-section_content h5{
+  padding-top: 130px;
+  padding-bottom: 60px;
+  font-family: 'BrandonGrotesque-Bold';
+  line-height: 1.5;
+  text-align: left;
+}
+#raq .folding-section_content a{
+ font-size: 14px;
+ font-family: 'BrandonGrotesque-Bold';
+  text-align: left;
+}
+#raq .folding-section_content p{
+  text-align: justify;
 }
 
 #useful_resources p.title{
