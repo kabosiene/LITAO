@@ -664,26 +664,25 @@ background: #a55f60 ;
   width: 100%;
   height: 650px;
   border: solid 1px;
-  margin-top: -70px;
   z-index: -2;
 }
 #team p.lead {
   font-family: 'BrandonGrotesque-Bold';
   font-size: 22px;
+  font-size: 20px;
   max-width: 350px;
   line-height: 1.3;
   margin-bottom: 25px;
   letter-spacing: 0.06em;
-  padding-left: 75px;
 }
 .first_member-section {
-  margin-top: 150px;
+  margin-top: 50px;
   margin-bottom: 40px;
 }
-.member-section {
-  margin-top: 120px;
-}
 
+.member-section {
+    margin-top: 80px;
+}
 .team-member-picture{
   width: 360px;
   height: 460px;
@@ -692,7 +691,7 @@ background: #a55f60 ;
 .team_green-square{
   position: absolute;
   z-index: -1;
-  width: 300px;
+  width: 220px;
   height: 180px;
   margin-top: -20px;
   margin-left: 35px;
@@ -1444,13 +1443,21 @@ address {
 }
 
 /******************************/
+@media only screen and (min-width : 420px) {
+
+  .team_green-square{
+    width: 255px;
+  }
+}
 @media only screen and (max-width: 767px){
   .carousel-inner {
     height: 50vh;
   }
   .row {
-    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
+
   .container-fluid {
   /*  padding: 0;*/
   }
@@ -1475,6 +1482,20 @@ address {
   .rotated-links {
     letter-spacing: normal;
   }
+  #founder img.mobile {
+    margin-left: 35px;
+    margin-top: 20px;
+  }
+  .founder-background-city{
+    margin-top: 40px;
+  }
+  #founder p.lead, #values p.lead, #nameandlogo p.lead {
+  font-size: 1.5rem;
+}
+.team-member-picture{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
 }
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
@@ -1500,6 +1521,13 @@ address {
   .founder-column {
     margin: 50px 0 0 130px;
   }
+  #team p.lead {
+  font-size: 22px;
+}
+.team-picture {
+  margin-top: -70px;
+
+}
 
   .page-heading{
     padding-top: 2em;
@@ -1650,6 +1678,13 @@ address {
     position: relative;
     top: -200px;
   }
+  .member-section {
+    margin-top: 120px;
+}
+.first_member-section {
+  margin-top: 150px;
+  margin-bottom: 40px;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -1690,7 +1725,7 @@ address {
     font-size: 45px;
     letter-spacing: 3px;
     text-transform: uppercase;
-    padding-left: 75px;
+   /* padding-left: 75px;*/
   }
   .level2-titles-box-margin{
     margin-bottom: 60px;
@@ -1797,6 +1832,9 @@ address {
     padding-right: 108px;
     top: -375px;
   }
+  .team_green-square{
+  width: 300px;
+}
 }
 /******************************/
 .visible {

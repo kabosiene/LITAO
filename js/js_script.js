@@ -105,19 +105,24 @@ $(".about-menu").on("mouseover", function(){
  $("#about_us-id").addClass("active").show();
 })
 ;
+//
 $(".work-menu").on("mouseover", function(){
-  document.getElementById("mySidenavMenu").style.borderLeft = "1px solid #cccbc5";
-  document.getElementById("mySidenavMenu").style.visibility = "visible";
-  document.getElementById("mySidenavMenu").style.width = "60px";
+   document.getElementById("mySidenavMenu").style.width = "0";
+  document.getElementById("mySidenavMenu").style.visibility = "hidden";
+  // document.getElementById("mySidenavMenu").style.borderLeft = "1px solid #cccbc5";
+  // document.getElementById("mySidenavMenu").style.visibility = "visible";
+  // document.getElementById("mySidenavMenu").style.width = "60px";
  $('#myMenu').find('.select-submenu').removeClass('select-submenu');
  $(this).addClass('select-submenu');
  $(".submenu").find(".active").hide().removeClass("active");
  $("#our_work-id").addClass("active").show();
 });
 $(".why-menu").on("mouseover", function(){
-  document.getElementById("mySidenavMenu").style.borderLeft = "1px solid #cccbc5";
-  document.getElementById("mySidenavMenu").style.visibility = "visible";
-  document.getElementById("mySidenavMenu").style.width = "60px";
+   document.getElementById("mySidenavMenu").style.width = "0";
+  document.getElementById("mySidenavMenu").style.visibility = "hidden";
+  // document.getElementById("mySidenavMenu").style.borderLeft = "1px solid #cccbc5";
+  // document.getElementById("mySidenavMenu").style.visibility = "visible";
+  // document.getElementById("mySidenavMenu").style.width = "60px";
  $('#myMenu').find('.select-submenu').removeClass('select-submenu');
  $(this).addClass('select-submenu');
  $(".submenu").find(".active").hide().removeClass("active");
@@ -125,9 +130,11 @@ $(".why-menu").on("mouseover", function(){
 })
 ;
 $(".china-menu").on("mouseover", function(){
-  document.getElementById("mySidenavMenu").style.borderLeft = "1px solid #cccbc5";
-  document.getElementById("mySidenavMenu").style.visibility = "visible";
-  document.getElementById("mySidenavMenu").style.width = "60px";
+   document.getElementById("mySidenavMenu").style.width = "0";
+  document.getElementById("mySidenavMenu").style.visibility = "hidden";
+  // document.getElementById("mySidenavMenu").style.borderLeft = "1px solid #cccbc5";
+  // document.getElementById("mySidenavMenu").style.visibility = "visible";
+  // document.getElementById("mySidenavMenu").style.width = "60px";
  $('#myMenu').find('.select-submenu').removeClass('select-submenu');
  $(this).addClass('select-submenu');
  $(".submenu").find(".active").hide().removeClass("active");
@@ -135,9 +142,11 @@ $(".china-menu").on("mouseover", function(){
 })
 ;
 $(".raq-menu").on("mouseover", function(){
-  document.getElementById("mySidenavMenu").style.borderLeft = "1px solid #cccbc5";
-  document.getElementById("mySidenavMenu").style.visibility = "visible";
-  document.getElementById("mySidenavMenu").style.width = "60px";
+   document.getElementById("mySidenavMenu").style.width = "0";
+  document.getElementById("mySidenavMenu").style.visibility = "hidden";
+  // document.getElementById("mySidenavMenu").style.borderLeft = "1px solid #cccbc5";
+  // document.getElementById("mySidenavMenu").style.visibility = "visible";
+  // document.getElementById("mySidenavMenu").style.width = "60px";
  $('#myMenu').find('.select-submenu').removeClass('select-submenu');
  $(this).addClass('select-submenu');
  $(".submenu").find(".active").hide().removeClass("active");
