@@ -742,7 +742,7 @@ background: #a55f60 ;
   width: 350px;
   height: 520px;
   border: solid 1px;
-  margin-top: -200px;
+  margin-top: 20px;
   z-index: -2;
 }
 #values p.title{
@@ -762,14 +762,13 @@ background: #a55f60 ;
   position: absolute;
   z-index: -2;
   width: 190px;
-  margin-left: 75px;
   margin-top: -165px;
 }
 .values_picture-compassion {
   width: 480px;
   height: 420px;
   border: solid 1px;
-  position: absolute;
+  position: relative;
   z-index: -2;
   left:0;
 
@@ -789,7 +788,7 @@ background: #a55f60 ;
   z-index: -2;
 }
 .values_picture-hands-on {
-  position: absolute;
+  position: relative;
   width: 450px;
   height: 370px;
   border: solid 1px;
@@ -825,6 +824,7 @@ background: #a55f60 ;
   z-index: -2;
   margin-top: 175px;
 }
+
 #nameandlogo{
 
 }
@@ -1449,7 +1449,15 @@ address {
   .team_green-square{
     width: 255px;
   }
+
 }
+@media only screen and (min-width : 500px) {
+
+  .values_green-circle{
+  margin-left: 75px;
+}
+}
+
 @media only screen and (max-width: 767px){
   .carousel-inner {
     height: 50vh;
@@ -1497,6 +1505,16 @@ address {
   margin-top: 25px;
   margin-bottom: 25px;
 }
+.vision_picture {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.values_compassion-section-margin,
+.values_picture-compassion,
+.values_picture-approach{
+  margin-bottom: 40px;
+}
 }
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
@@ -1528,6 +1546,9 @@ address {
 .team-picture {
   margin-top: -70px;
 
+}
+.values_picture {
+  margin-top: -200px;
 }
 
   .page-heading{
