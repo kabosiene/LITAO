@@ -722,7 +722,6 @@ background: #a55f60 ;
   font-family: 'BrandonGrotesque-Light';
   font-size: 16px;
   letter-spacing: 0.05em;
-  text-align: justify;
   line-height: 1.5;
   margin-bottom: 25px;
 }
@@ -1549,6 +1548,9 @@ address {
 }
 .values_picture {
   margin-top: -200px;
+}
+.member_bio{
+   text-align: justify;
 }
 
   .page-heading{
