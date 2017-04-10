@@ -459,7 +459,7 @@ background: #a55f60 ;
 .side-border{
   height: 100vh;
   height: 100%;
-  width: 100px;
+  width: 95px;
   position: fixed;
   right: 0px;
   display: flex;
@@ -832,16 +832,18 @@ background: #a55f60 ;
   width: 100%;
   margin-top: 70px;
   margin-bottom: 45px;
-  padding-left: 78px;
-  padding-right: 85px;
 }
-#nameandlogo p.title {
+#nameandlogo p.title, #nameandlogo p.title.second {
   font-family: 'BrandonGrotesque-Bold';
   color:#595a5a;
   font-size: 22px;
   line-height: 1.25;
   margin-bottom: 34px;
   letter-spacing: 0.06em;
+  max-width: 301px;
+}
+#nameandlogo p.title.second {
+  max-width: 318px;
 }
 #nameandlogo p.title_lead {
   font-family: 'BrandonGrotesque-Bold';
@@ -861,18 +863,17 @@ background: #a55f60 ;
 }
 .name_square {
   width: 350px;
-  height: 300px;
-  position:absolute;
+  height: 160px;
+  position: absolute;
   z-index: -1;
-  margin-left: -40px;
-  margin-top: 280px;
+  margin-left: -20px;
+  margin-top: -10px;
+ padding-bottom: 15px;
 }
 .name_logo-gif {
   width: 100%;
   margin-top: 30px;
   margin-bottom: 50px;
-  padding-left: 70px;
-  padding-right: 85px;
 }
 #experience_litao{
 
@@ -1533,6 +1534,7 @@ address {
     padding-top: 2em;
     color: #595a5a ;
   }
+
   .chinabg-color{
     background-color: #dfeae1;
   }
@@ -1696,14 +1698,6 @@ address {
     line-height: 25px;
   }
   /*****level2**992***/
-  .side-border{
-    height: 100vh;
-    height: 100%;
-    width: 100px;
-    position: fixed;
-    right: 0px;
-  }
-
  .page_id .section {
     padding-top: 70px;
     line-height: 1.1;
