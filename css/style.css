@@ -531,7 +531,8 @@ background: #a55f60 ;
   margin-top: 29px;
 }
 #values_id .level2-titles-box-pic-square,
- #nameandlogo_id .level2-titles-box-pic-square{
+ #nameandlogo_id .level2-titles-box-pic-square,
+ #experiance_id .level2-titles-box-pic-square{
   width: 55%;
   height: 310px;
   margin-left: 55px;
