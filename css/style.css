@@ -1514,6 +1514,9 @@ address {
 .values_picture-approach{
   margin-bottom: 40px;
 }
+.member_name{
+  margin-top: 40px;
+}
 }
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
