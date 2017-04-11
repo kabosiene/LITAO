@@ -1766,6 +1766,9 @@ address {
   margin-top: 150px;
   margin-bottom: 40px;
 }
+.side-border{
+  width: 70px;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -1790,6 +1793,11 @@ address {
     padding-left: 40px;
     padding-right: 0px;
   }
+  .side-border{
+
+  width: 95px;
+
+}
 
   .level2-main-title{
     font-family: 'BrandonGrotesque-Bold';
