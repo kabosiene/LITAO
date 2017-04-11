@@ -1557,6 +1557,7 @@ address {
   }
   .col-xs-10 {
     padding-left: 1px;
+    padding-right: 1px;
   }
 }
 /* Small Devices, Tablets */
