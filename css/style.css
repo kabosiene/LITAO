@@ -725,6 +725,7 @@ section {
   letter-spacing: 0.05em;
   line-height: 1.5;
   margin-bottom: 25px;
+  text-align: justify;
 }
 
 #values{
@@ -757,6 +758,7 @@ section {
   line-height: 1.5;
   margin-bottom: 23px;
   letter-spacing: 0.05em;
+  max-width: 304px;
 }
 .values_green-circle{
   position: absolute;
@@ -1513,7 +1515,7 @@ address {
   .values_compassion-section-margin,
   .values_picture-compassion,
   .values_picture-approach{
-    margin-bottom: 40px;
+    margin-bottom: 70px;
   }
   .member_name{
     margin-top: 40px;
@@ -1539,7 +1541,7 @@ address {
     padding-bottom: 30px;
   }
   .level2-titles-box-margin, .mission_level2-titles-box-margin{
-    margin-top: 60px;
+    margin-top: 70px;
   }
   #nav-toggle {
   top:15px;
@@ -1562,6 +1564,12 @@ address {
    text-align: center;
   }
 
+  #nameandlogo_id .level2-titles-box{
+    margin-top: 80px;
+  }
+  #nameandlogo_id p.title,  #nameandlogo_id p.title.second{
+    margin-top: 40px;
+  }
 }
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
@@ -1598,7 +1606,7 @@ address {
     margin-top: -200px;
   }
   .member_bio{
-   text-align: justify;
+  /* text-align: justify;*/
  }
 
  .page-heading{
