@@ -252,6 +252,9 @@ section {
   justify-content: center;
   flex-direction: row-reverse;
 }
+#contact_id .submenu{
+  border: none;
+}
 
 .intro-left-v{
   line-height:59px;
@@ -1383,19 +1386,32 @@ section {
 }
 .contact-form{
   margin-top: 50px;
+  text-align: left;
 }
 .contact-info-text{
   margin-top: 50px;
-  margin-left: 80px;
+  max-width: 515px;
 }
 #contact_id .page-heading{
   margin-left: 40px;
+}
+#contact_id .page-margin  {
+  margin-left: 25px;
+}
+
+.mobile-main-title{
+  text-align: center;
+  font-size: 26px;
+  font-family: 'BrandonGrotesque-Bold'
 }
 .raq-form{
   margin-top: 50px;
 }
 address {
-  margin: 10% 15% 15% 15%;
+display: inline-block;
+}
+address p{
+min-height: 73px;
 }
 .raq-content {
   margin: 10% 15% 0 15%;
@@ -1682,13 +1698,9 @@ address {
   .intro-content {
     line-height: 20px;
   }
-  .contact-form{
-    margin-top: 50px;
-  }
+
   address {
-    padding-left: 80px;
-    padding-right: 50px;
-    margin: 0;
+
   }
   .level2-titles-box-padding {
     margin: 36px 0 105px 0;
