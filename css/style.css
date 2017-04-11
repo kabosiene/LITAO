@@ -1554,17 +1554,13 @@ address {
   #nav-toggle span:after {
     bottom: -7px;
   }
-  .col-md-6 {
-    padding-left: 5px;
-    padding-right: 5px;
+  .col-xs-11 {
+    margin-left: 20px;
   }
   .col-md-6.mobile-img {
    text-align: center;
   }
-  .col-xs-10 {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
+
 }
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
