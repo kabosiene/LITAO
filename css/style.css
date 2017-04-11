@@ -1500,23 +1500,56 @@ address {
   }
   #founder p.lead, #values p.lead, #nameandlogo p.lead {
   font-size: 1.5rem;
-}
-.team-member-picture{
-  margin-top: 25px;
-  margin-bottom: 25px;
-}
-.vision_picture {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
+    }
+  .team-member-picture{
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .vision_picture {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
 
-.values_compassion-section-margin,
-.values_picture-compassion,
-.values_picture-approach{
-  margin-bottom: 40px;
+  .values_compassion-section-margin,
+  .values_picture-compassion,
+  .values_picture-approach{
+    margin-bottom: 40px;
+  }
+  .member_name{
+    margin-top: 40px;
+  }
+  .page_id .submenu{
+    width: calc(100vh - 60px);
+    height: 45px;
+    padding-right: 0;
+    margin-top: 60px;
+  }
+  .intro-left-v{
+    line-height: 44px;
+  }
+  .header {
+    background-color: #dfeae1;
+    height: 60px;
+    width: 100vh;
+    position: fixed;
+    z-index: 999;
+  }
+  .level2-main-title {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  .level2-titles-box-margin, .mission_level2-titles-box-margin{
+    margin-top: 60px;
+  }
+  #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  height: 3px;
+  width: 25px;
 }
-.member_name{
-  margin-top: 40px;
+#nav-toggle span:before {
+  top: -7px;
+}
+#nav-toggle span:after {
+  bottom: -7px;
 }
 }
 /* Small Devices, Tablets */
