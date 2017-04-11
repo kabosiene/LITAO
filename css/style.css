@@ -688,7 +688,7 @@ section {
 }
 .team-member-picture{
   width: 360px;
-  height: 460px;
+  height: auto;
   border: solid 1px;
 }
 .team_green-square{
@@ -1548,6 +1548,8 @@ address strong {
   .team-member-picture{
     margin-top: 25px;
     margin-bottom: 25px;
+    width: 100%;
+    height: auto;
   }
   .vision_picture {
     margin-top: 50px;
@@ -1586,7 +1588,7 @@ address strong {
     padding-bottom: 30px;
   }
   .level2-titles-box-margin, .mission_level2-titles-box-margin{
-    margin-top: 70px;
+    margin-top: 70p
   }
   #nav-toggle {
     top:15px;
