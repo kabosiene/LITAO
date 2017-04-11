@@ -1556,6 +1556,7 @@ address {
   }
   .col-xs-11 {
     margin-left: 20px;
+    padding-right: 1px;
   }
   .col-md-6.mobile-img {
    text-align: center;
