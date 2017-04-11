@@ -1492,7 +1492,7 @@ address {
     letter-spacing: normal;
   }
   #founder img.mobile {
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: 20px;
   }
   .founder-background-city{
@@ -1554,6 +1554,9 @@ address {
   .col-md-6 {
     padding-left: 1px;
     padding-right: 1px;
+  }
+  .col-md-6.mobile-img {
+   text-align: right;
   }
   .col-xs-10 {
     padding-left: 1px;
