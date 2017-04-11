@@ -1542,7 +1542,7 @@ address {
     margin-top: 60px;
   }
   #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
-    height: 3px;
+    height: 2px;
     width: 25px;
   }
   #nav-toggle span:before {
