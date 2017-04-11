@@ -1377,20 +1377,30 @@ section {
 /*--------contact&raq-------*/
 .btn.sharp {
   border-radius:0;
-  background:#dfeae1;
+  background-color:#dfeae1;
   border: 0 none;
   margin-bottom: 50px;
 }
-#mobile-view .btn.sharp {
-  margin-bottom: 50px;
-}
+
 .contact-form{
   margin-top: 50px;
   text-align: left;
 }
+#mobile-view .contact-form{
+  text-align: center;
+}
 .contact-info-text{
   margin-top: 50px;
-  max-width: 515px;
+  max-width: 667px;
+  text-align: left;
+  font-size: 18px;
+  font-family: 'BrandonGrotesque-Light';
+  line-height: 1.9;
+  letter-spacing: 0.05em;
+  word-spacing: 1px;
+}
+.contact-info-text b{
+  font-family: 'BrandonGrotesque-Regular';
 }
 #contact_id .page-heading{
   margin-left: 40px;
@@ -1409,9 +1419,23 @@ section {
 }
 address {
 display: inline-block;
+margin-bottom: 50px;
+letter-spacing: 0.06em;
+font-family: 'BrandonGrotesque-Light';
 }
 address p{
 min-height: 73px;
+text-align: justify;
+}
+address .btn.sharp {
+  margin-bottom: 0;
+}
+address .text{
+  padding-top: 20px;
+}
+address strong {
+  font-family: 'BrandonGrotesque-Regular';
+  font-size: 18px;
 }
 .raq-content {
   margin: 10% 15% 0 15%;
@@ -1539,17 +1563,20 @@ min-height: 73px;
     margin-top: 40px;
   }
   .page_id .submenu{
-    width: calc(100vh - 60px);
+    width: calc(100vh - 50px);
     height: 40px;
     padding-right: 0;
-    margin-top: 60px;
+    margin-top: 50px;
   }
   .intro-left-v{
     line-height: 39px;
   }
+  .intro-content{
+    margin-bottom: 50px;
+  }
   .header {
     background-color: #dfeae1;
-    height: 60px;
+    height: 50px;
     width: 100vh;
     position: fixed;
     z-index: 999;
@@ -1591,6 +1618,10 @@ min-height: 73px;
   .home-logo{
     margin-top: 15%;
   }
+  address p{
+  min-height: initial;
+}
+
 }
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
