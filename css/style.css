@@ -15,8 +15,16 @@ a{
 }
 a:active,a:hover,a:focus{
   text-decoration: none;
-  outline:0;
+  outline-color: #f6f3f0;
   color:#595a5a;
+}
+.btn-primary:active:hover{
+  text-decoration: none;
+  outline-color: #f6f3f0;
+  background-color: #f6f3f0;
+}
+.btn-primary:focus{
+  outline-color: #f6f3f0;
 }
 
 ul {
@@ -1381,7 +1389,6 @@ section {
   border: 0 none;
   margin-bottom: 50px;
 }
-
 .contact-form{
   margin-top: 50px;
   text-align: left;
