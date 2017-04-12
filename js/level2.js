@@ -3,6 +3,7 @@
     $(".nav").find(".active").removeClass("active");
     $(this).addClass("active");
   });
+
   $(".submenu a").on("click", function(){
     $(".submenu").find(".active").removeClass("active");
     $(this).addClass("active");
@@ -29,6 +30,7 @@
     setTimeout(change_border,550);
     document.getElementById("mySidenav").style.visibility = "hidden";
   };
+
   function change_width_0() {
     var links = document.getElementsByClassName('sidenav_link'),
     i = links.length;
