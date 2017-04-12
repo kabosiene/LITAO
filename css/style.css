@@ -15,16 +15,16 @@ a{
 }
 a:active,a:hover,a:focus{
   text-decoration: none;
-  outline-color: #f6f3f0;
+  outline:none;
   color:#595a5a;
 }
 .btn-primary:active:hover{
   text-decoration: none;
-  outline-color: #f6f3f0;
+  outline:none;
   background-color: #f6f3f0;
 }
 .btn-primary:focus{
-  outline-color: #f6f3f0;
+  outline:none;
 }
 
 ul {
@@ -473,10 +473,10 @@ section {
   position: fixed;
   right: 0px;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-around;
 }
-.right_link-rotated{
+/*.right_link-rotated{
   transform: translateX(0%) rotate(90deg);
 }
 .right_link-rotated a{
@@ -485,7 +485,11 @@ section {
   font-size: 12px;
   letter-spacing: 0.05em;
 }
-
+*/
+.logo-white-round img{
+  width: 60%;
+  margin-bottom: 30px;
+}
 .page_id .section {
   padding-top: 70px;
   line-height: 1.1;
@@ -1432,7 +1436,7 @@ font-family: 'BrandonGrotesque-Light';
 }
 address p{
 min-height: 73px;
-text-align: justify;
+
 }
 address .btn.sharp {
   margin-bottom: 0;
@@ -1586,7 +1590,7 @@ address strong {
   .header {
     background-color: #dfeae1;
     height: 50px;
-    width: 100vh;
+    width: 100vw;
     position: fixed;
     z-index: 999;
   }
@@ -1772,8 +1776,8 @@ address strong {
     position: absolute;
     z-index: -2;
     margin-left: 0px;
-    padding-right: 108px;
-    top: -375px;
+    padding-right: 127px;
+    top:-240px;
   }
   .founder-edu{
     padding-right: 93px;
@@ -1809,7 +1813,7 @@ address strong {
   }
   .move-up-5{
     position: relative;
-    top: -70px;
+    top:-238px;
   }
   .move-up-6{
     position: relative;
@@ -1975,11 +1979,7 @@ address strong {
     padding-top: 83px;
   }
   .girls-game{
-    position: absolute;
-    z-index: -2;
     margin-left: -40px;
-    padding-right: 108px;
-    top: -375px;
   }
   .team_green-square{
     width: 300px;

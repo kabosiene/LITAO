@@ -131,11 +131,7 @@
     padding-right: 15px;
   }
   .girls-game{
-    position: absolute;
-    z-index: -2;
     margin-left: -92px;
-    padding-right: 108px;
-    top: -370px;
   }
 
   .move-up-1{
