@@ -1,13 +1,50 @@
+$(document).ready(checkSize);
+$(window).on('resize',checkSize);
+
+  function checkSize(){
+
+    var isMobile = window.matchMedia("only screen and (max-width: 767px)");
+
+    if (isMobile.matches) {
+     document.getElementById("mobile-view").removeAttribute("style");
+     document.getElementById("multiscroll").style.display = "none";
+     menuWidth = '100%';
+
+   }else{
+     document.getElementById("mobile-view").style.display = "none";
+     document.getElementById("multiscroll").removeAttribute("style");
+    menuWidth = '50%';
+
+
+     $('#multiscroll').multiscroll({
+      anchors: ['home', 'about_us', 'our_work','why_us', 'crossing_culture'],
+      menu: '#myMenu',
+      afterLoad: function(anchorLink, index){
+
+        $('.home-arrow').addClass('animated bounceInUp visible').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+          $(this).removeClass('animated bounceInUp');
+        });
+      },
+      onLeave: function(index, direction){
+
+        $('.home-arrow').removeClass('visible');
+      },
+
+    });
+
+     document.getElementById("multiscroll").onmouseover = function() {closeNav()};
+
+
+ }
+  };
 $(".nav a").on("click", function(){
   $(".nav").find(".active").removeClass("active");
   $(this).addClass("active");
 });
 
-document.getElementById("multiscroll").onmouseover = function() {closeNav()};
-
 function openNav() {
  document.getElementById("mySidenav").style.visibility = "visible";
- document.getElementById("mySidenav").style.width = "50%";
+ document.getElementById("mySidenav").style.width = menuWidth;
  setTimeout(change_width, 200);
  setTimeout(change_opacity, 200);
  document.querySelector("#nav-toggle").setAttribute('onclick','closeNav()');
