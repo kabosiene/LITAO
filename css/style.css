@@ -1590,12 +1590,23 @@ address strong {
     position: fixed;
     z-index: 999;
   }
+  .litao_logo-black{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .litao_logo-black img{
+     height: 30px;
+    width: auto;
+  }
   .level2-main-title {
     padding-top: 50px;
     padding-bottom: 30px;
   }
   .level2-titles-box-margin, .mission_level2-titles-box-margin{
-    margin-top: 70p
+    margin-top: 70px;
   }
   #nav-toggle {
     top:15px;
