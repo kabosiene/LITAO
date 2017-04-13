@@ -307,7 +307,7 @@ section {
  color: #a55f60;
  background-color: #dfeae1;
 }
-.submenu .border-text {
+#mySidenavMenu .submenu .border-text {
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -700,7 +700,8 @@ section {
 }
 .team-member-picture{
   width: 360px;
-  height: 460px;
+  height: auto;
+  border:none;
 }
 .team_green-square{
   position: absolute;
@@ -816,6 +817,7 @@ section {
   margin-top: 32px;
   margin-bottom: 24px;
   line-height: 1.5;
+  max-width: 300px;
 }
 .mission_picture{
   position: absolute;
@@ -1535,6 +1537,7 @@ address strong {
     max-width: 80%;
     padding-bottom: 40px;
   }
+
   .level2-titles-box-pic {
     max-height: 319px;
   }
@@ -1555,9 +1558,9 @@ address strong {
   .team-member-picture{
     margin-top: 25px;
     margin-bottom: 25px;
-    width: 100%;
-    height: auto;
+
   }
+
   .vision_picture {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -1640,6 +1643,9 @@ address strong {
   }
   address p{
   min-height: initial;
+}
+#values_id img.mobile{
+  position: relative;
 }
 
 }
