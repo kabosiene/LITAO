@@ -368,7 +368,8 @@ section {
 
 /*level1*/
 .mobile-content {
-  height: 50vh;
+  min-height: 50%;
+  min-height: 50vh;
 }
 .home-logo{
   padding-bottom: 10%;
