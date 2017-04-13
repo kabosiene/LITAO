@@ -744,8 +744,8 @@ section {
 #values{
 }
 .values_section-margin{
-  margin-top: 32px;
-  margin-bottom: 32px;
+  margin-top: 50px;
+  margin-bottom: 70px;
 }
 .values_compassion-section-margin{
   margin-top: 100px;
@@ -754,8 +754,7 @@ section {
 .values_picture {
   position: relative;
   width: 350px;
-  height: 520px;
-  border: solid 1px;
+  height: auto;
   margin-top: 20px;
   z-index: -2;
 }
@@ -781,33 +780,31 @@ section {
 }
 .values_picture-compassion {
   width: 480px;
-  height: 420px;
-  border: solid 1px;
-  position: relative;
+  height: auto;
+  position: absolute;
   z-index: -2;
   left:0;
-
 }
 .values_picture-fluency {
-  position: relative;
+  position: absolute;
   width: 360px;
-  height: 450px;
-  border: solid 1px;
+  height: auto;
   z-index: -2;
+  right: 0;
 }
 .values_picture-approach {
-  position: relative;
+  position: absolute;
   width: 360px;
-  height: 360px;
-  border: solid 1px;
+  height: auto;
   z-index: -2;
+  left: 0;
 }
 .values_picture-hands-on {
-  position: relative;
-  width: 450px;
-  height: 370px;
-  border: solid 1px;
+  position: absolute;
+  width: 550px;
+  height: auto;
   z-index: -2;
+  right: 0;
 }
 
 .mission_level2-titles-box, .vision_level2-titles-box{
@@ -821,23 +818,23 @@ section {
   line-height: 1.5;
 }
 .mission_picture{
-  position: relative;
+  position: absolute;
   width: 350px;
-  height: 440px;
-  border: solid 1px;
+  height: auto;
   z-index: -2;
   margin-top: 26px;
+  right: 0;
 }
 .mission_section .founder-content{
   padding-bottom: 0px;
 }
 .vision_picture{
-  position: relative;;
+  position: absolute;
   width: 350px;
-  height: 450px;
-  border: solid 1px;
+  height: auto;
   z-index: -2;
   margin-top: 175px;
+  left: 0;
 }
 
 #nameandlogo{
