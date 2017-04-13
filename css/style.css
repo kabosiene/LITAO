@@ -1416,7 +1416,8 @@ section {
   font-family: 'BrandonGrotesque-Regular';
 }
 #contact_id .page-heading{
-  margin-left: 40px;
+  margin-left: 0px;
+  text-align: center;
 }
 #contact_id .page-margin  {
   margin-left: 25px;
@@ -1469,6 +1470,7 @@ font-family: 'BrandonGrotesque-Bold'
   font-size: 26px;
   font-family: 'BrandonGrotesque-Bold'
 }
+
 .raq-form{
   margin-top: 50px;
 }
@@ -1557,6 +1559,10 @@ address button b{
   .team_green-square{
     width: 255px;
   }
+  #contact_id .page-heading {
+  margin-left: 40px;
+  text-align: left;
+}
 
 }
 @media only screen and (min-width : 500px) {
@@ -1700,6 +1706,7 @@ address button b{
 #values_id img.mobile{
   position: relative;
 }
+
 
 }
 /* Small Devices, Tablets */
