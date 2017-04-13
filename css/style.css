@@ -1399,6 +1399,9 @@ section {
 #mobile-view .contact-form{
   text-align: center;
 }
+#mobile-view #myModal{
+  text-align: left;
+}
 .contact-info-text{
   margin-top: 50px;
   max-width: 667px;
@@ -1418,7 +1421,49 @@ section {
 #contact_id .page-margin  {
   margin-left: 25px;
 }
-
+button.close{
+  float: none;
+  opacity: 1;
+  font-size: 3.5rem;
+  font-weight: normal;
+  font-family: 'BrandonGrotesque-Light';
+  color: inherit;
+}
+button.close:hover{
+  outline: none;
+}
+fieldset{
+  width: 760px;
+  max-width: 100%;
+}
+.modal-dialog {
+  max-width: 800px;
+}
+.modal-dialog legend{
+  text-align: center;
+  font-size: 20px;
+  font-family: 'BrandonGrotesque-Bold';
+  padding-top:20px;
+  padding-bottom: 50px;
+  letter-spacing: 0.05em;
+}
+ .page_id .form-group.col-md-6{
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 380px;
+  max-width: 100%;
+}
+.modal-dialog .submit-button{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.modal-dialog .submit-button p{
+color: #a55f60;
+font-size: 15px;
+letter-spacing: 0.045em;
+font-family: 'BrandonGrotesque-Bold'
+}
 .mobile-main-title{
   text-align: center;
   font-size: 26px;
@@ -1439,14 +1484,23 @@ min-height: 73px;
 }
 address .btn.sharp {
   margin-bottom: 0;
+  margin-top: 30px;
 }
 address .text{
   padding-top: 20px;
+  max-width: 268px;
 }
 address strong {
   font-family: 'BrandonGrotesque-Regular';
   font-size: 18px;
 }
+address button b{
+  color:#a55f60;
+  font-family: 'BrandonGrotesque-Regular';
+  letter-spacing: 0.15em;
+  font-size: 14px;
+}
+
 .raq-content {
   margin: 10% 15% 0 15%;
 }
@@ -1513,9 +1567,7 @@ address strong {
 }
 
 @media only screen and (max-width: 767px){
-  .carousel-inner {
-    height: 50vh;
-  }
+
   .row {
     margin-left: 0;
     margin-right: 0;
@@ -1756,10 +1808,6 @@ address strong {
   .intro-content {
     line-height: 20px;
   }
-
-  address {
-
-  }
   .level2-titles-box-padding {
     margin: 36px 0 105px 0;
   }
@@ -1987,6 +2035,9 @@ address strong {
   .team_green-square{
     width: 300px;
   }
+.page_id .form-group.col-md-6{
+  padding-bottom: 30px;
+}
 }
 /******************************/
 .visible {
