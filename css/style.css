@@ -18,10 +18,11 @@ a:active,a:hover,a:focus{
   outline:none;
   color:#595a5a;
 }
-.btn-primary:active:hover{
+.btn-primary:active:hover, .btn-primary:active.focus{
   text-decoration: none;
   outline:none;
-  background-color: #f6f3f0;
+  box-shadow: 0 10px 10px 0 rgba(0,0,0,0.24), 0 10px 30px 0 rgba(0,0,0,0.19);
+  background-color: #dfeae1;
 }
 .btn-primary:focus{
   outline:none;
@@ -1501,8 +1502,7 @@ address .btn.sharp {
     transition-duration: 0.4s;
     cursor: pointer;
 }
-address .btn.sharp:hover {
-    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.24), 0 10px 30px 0 rgba(0,0,0,0.19);
+address .btn.sharp:hover
 }
 .btn.sharp:focus {
    outline: none;
