@@ -1,3 +1,4 @@
+
 $(document).ready(checkSize);
 $(window).on('resize',checkSize);
 
@@ -20,7 +21,6 @@ $(window).on('resize',checkSize);
 
 
 
-
      $('#multiscroll').multiscroll({
       anchors: ['home', 'about_us', 'our_work','why_us', 'crossing_culture'],
       menu: '#myMenu',
@@ -34,6 +34,9 @@ $(window).on('resize',checkSize);
 
         $('.home-arrow').removeClass('visible');
       },
+      // onResize: function(){
+      //   location.reload();
+      //  },
 
     });
 }
