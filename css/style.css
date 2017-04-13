@@ -1459,7 +1459,7 @@ fieldset{
   justify-content: center;
   width: 100%;
 }
-.modal-dialog .submit-button p{
+.modal-dialog .submit-button span{
 color: #a55f60;
 font-size: 15px;
 letter-spacing: 0.045em;
@@ -2046,6 +2046,195 @@ address button b{
   padding-bottom: 30px;
 }
 }
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+
+  .page_id .section {
+    padding-top: 70px;
+    line-height: 1.1;
+    padding-bottom: 70px;
+  }
+  .section {
+    text-align: left;
+  }
+
+  .page_id .col-md-6{
+    padding-left: 92px;
+  }
+
+  .level2-main-title{
+    font-family: 'BrandonGrotesque-Bold';
+    margin-bottom: 0px;
+    color: #a55f60;
+    font-size: 45px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+  .level2-titles-box-margin{
+    margin-bottom: 80px;
+  }
+  .level2-titles-box{
+    margin: 106px 0 94px 0;
+  }
+  .level2-titles-box-padding{
+    margin: 36px 0 105px 0;
+  }
+  .level2-titles-box-line{
+    position:absolute;
+    height: auto;
+    width:127px;
+  }
+  .level2-titles-box-pic{
+    max-height: 100%;
+  }
+  .level2-titles-box-pic,
+  .level2-titles-box-pic-bigger{
+    position:absolute;
+    z-index: -1;
+    width: 337px;
+    height: auto;
+    margin-left: 64px;
+    margin-top: 29px;
+  }
+
+  .level2-titles-box-pic-bigger{
+    width: 400px;
+    height: 490px;
+  }
+  .level2-titles-box-founder{
+    position:absolute;
+    z-index: -2;
+    width: 634px;
+    height: auto;
+    margin-left: 250px;
+    margin-top: 2px;
+  }
+  .level2-titles {
+    font-family: 'BrandonGrotesque-Bold';
+    font-size: 35px;
+    letter-spacing: 2px;
+    padding-top: 42px;
+    max-width: 500px;
+  }
+  .founder-content, .name_content,
+  .our_guanxi-content, .experience_litao-content{
+    font-family: 'BrandonGrotesque-Light';
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    text-align: justify;
+    line-height: 1.5;
+    margin-right: 86px;
+    max-width: 370px;
+    padding-bottom: 55px;
+  }
+  .founder-content b, .our_guanxi-content b,
+  .experience_litao-content b{
+    font-family: 'BrandonGrotesque-Regular';
+    letter-spacing: 0.05em;
+  }
+
+  #founder p.lead{
+    font-family: 'BrandonGrotesque-Bold';
+    color: #a55f60;
+    font-size: 29px;
+    padding-right: 106px;
+    max-width: 500px;
+  }
+
+
+  .calendar-date {
+    height: 110px;
+    margin-bottom: 20px;
+  }
+  .calendar-pic{
+    position:absolute;
+    z-index: -1;
+    height: 81px;
+    width: auto;
+    padding-left: 25px;
+  }
+
+  .date ,.title-date {
+    font-family: 'BrandonGrotesque-Bold';
+    color:  #a55f60 ;
+    font-size: 22px;
+    letter-spacing: 0.09em;
+    display: inline-block;
+    margin-top: 36px;
+    margin-left: 4px;
+  }
+  .title-date {
+    margin-top: -8px;
+  }
+
+  .side-text-padding{
+    padding-top: 110px;
+  }
+  .side-text-padding-2{
+    padding-top: 83px;
+  }
+
+  .founder-sitting{
+    padding-right: 15px;
+  }
+  .girls-game{
+    margin-left: -92px;
+  }
+
+  .move-up-1{
+    position: relative;
+    top: -135px;
+    height: 180px;
+  }
+  .move-up-2{
+    position: relative;
+    top: -130px;
+    height: 155px;
+  }
+  .move-up-3{
+    position: relative;
+    top: -120px;
+    height: 280px;
+  }
+  .move-up-4{
+    position: relative;
+    top: -130px;
+  }
+  .move-up{
+    position: absolute;
+    top: -200px;
+  }
+
+  #nameandlogo .name_content{
+    padding-bottom: 20px;
+  }
+
+}
+@media only screen and (min-width : 1600px) {
+  .level2-titles-box-pic-bigger{
+    width: 500px;
+    height: 590px;
+  }
+  .level2-titles-box-pic{
+    width: 400px;
+    height: auto;
+  }
+  .level2-titles-box-founder{
+    width: 800px;
+    height: auto;
+  }
+}
+@media only screen and (min-width : 2000px) {
+  .rotated-links{
+    font-size: 18px;
+  }
+.level2-titles-box-founder {
+  width: 900px;
+  height: auto;
+}
+}
+
 /******************************/
 .visible {
   visibility: visible;
