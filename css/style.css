@@ -700,8 +700,7 @@ section {
 }
 .team-member-picture{
   width: 360px;
-  height: auto;
-  border: solid 1px;
+  height: 460px;
 }
 .team_green-square{
   position: absolute;
