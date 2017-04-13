@@ -8,18 +8,13 @@ $(window).on('resize',checkSize);
 
     if (isMobile.matches) {
       if(document.getElementById("multiscroll")){
-     document.getElementById("mobile-view").removeAttribute("style");
-     document.getElementById("multiscroll").style.display = "none";
+
      }
      menuWidth = '100%';
 
    }else{
     menuWidth = '50%';
     if(document.getElementById("multiscroll")){
-     document.getElementById("mobile-view").style.display = "none";
-     document.getElementById("multiscroll").removeAttribute("style");
-
-
 
      $('#multiscroll').multiscroll({
       anchors: ['home', 'about_us', 'our_work','why_us', 'crossing_culture'],
@@ -34,9 +29,6 @@ $(window).on('resize',checkSize);
 
         $('.home-arrow').removeClass('visible');
       },
-      // onResize: function(){
-      //   location.reload();
-      //  },
 
     });
 }
