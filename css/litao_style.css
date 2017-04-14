@@ -393,13 +393,22 @@ section {
   font-size: 20px;
 }
 .carousel-inner>.carousel-item>img {
-  width: 100%;
-  height: auto;
+/*  width: 100%;
+  height: auto;*/
+  object-fit: cover;
+  width: 100vw;
+  height: 50vh;
 }
 
 .about-china-img{
-  background: url('../home-images/china-lamp.jpg');
-  background-size: cover;
+  background: url('../home-images/crossing_culture_home.jpg') no-repeat center center;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.our-work-img{
+  background: url('../home-images/our_work_home.jpg') no-repeat center center;
+  background-repeat:no-repeat;
+  background-size:cover;
 }
 /*-----level1----*/
 
@@ -673,16 +682,12 @@ section {
   padding-top: 45px;
 }
 
-#team {
-
-}
 .team-picture{
   position: relative;
   width: 100%;
   height: auto;
   z-index: -2;
 }
-
 #team p.lead {
   font-family: 'BrandonGrotesque-Bold';
   font-size: 22px;
@@ -1749,7 +1754,8 @@ address button b{
   }
 
   .carousel-inner>.carousel-item>img {
-    width: 100vw;
+    object-fit: cover;
+    width: 50vw;
     height: 100vh;
   }
   .founder-column {
