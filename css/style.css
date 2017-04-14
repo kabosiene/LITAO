@@ -1502,8 +1502,10 @@ address .btn.sharp {
     transition-duration: 0.4s;
     cursor: pointer;
 }
-address .btn.sharp:hover
+address .btn.sharp:hover{
+box-shadow: 0 10px 10px 0 rgba(0,0,0,0.24), 0 10px 30px 0 rgba(0,0,0,0.19);
 }
+
 .btn.sharp:focus {
    outline: none;
 }
