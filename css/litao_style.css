@@ -1477,10 +1477,31 @@ text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
              0px 8px 13px rgba(0,0,0,0.1),
              0px 18px 23px rgba(0,0,0,0.1);
 }
+.modal-body {
+  margin-top: 200px;
+  margin-bottom: 200px;
+ text-align: center;
+ line-height: 1;
+}
+.modal-nice{
+   font-size: 19px;
+   letter-spacing: 0.05em;
+  font-family: 'BrandonGrotesque-Bold';
+}
+ .modal-value{
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  font-family: 'BrandonGrotesque-Light';
+ }
+.modal-reply{
+font-size: 16px;
+font-family: 'BrandonGrotesque-LightItalic';
+}
+
 .mobile-main-title{
   text-align: center;
   font-size: 26px;
-  font-family: 'BrandonGrotesque-Bold'
+  font-family: 'BrandonGrotesque-Bold';
 }
 
 .raq-form{
