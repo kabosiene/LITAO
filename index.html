@@ -26,7 +26,7 @@
 		<div id = "mySidenavMenu" class="sidenav-side">
 			<div class="submenu">
 				<ul id="about_us-id" class="about_us-submenu" style="display: none;">
-				 <li class="intro-left-v animated-fast1 zoomInUp">
+					<li class="intro-left-v animated-fast1 zoomInUp">
 						<a class="border_link color-green" href="./index.html#about_us">
 							<span class="border-text color-red">INTRO</span>
 						</a>
@@ -213,7 +213,7 @@
 						<img class="intro-img img-fluid" src="home-images/our_work_home.jpg" alt="main image">
 					</div>
 				</div> -->
-					<div class="ms-section our-work-img margin-0" data-anchor="our_work">
+				<div class="ms-section our-work-img margin-0" data-anchor="our_work">
 				</div>
 				<div class="ms-section color-grey margin-0" data-anchor="why_us">
 					<div class="left">
@@ -640,11 +640,11 @@
 							<form class="form-horizontal col-md-12 color-green" action="" method="post">
 								<button type="button" class="close" data-dismiss="modal">&times;</button>
 								<fieldset>
-								    <div class="modal-body color-red">
-								       <p class="modal-nice">Nice to meet you!</p>
-								       <p class="modal-value">We value your thoughts and your time.</p>
-								       <p class="modal-reply">You can expect a reply within 48 hours.</p>
-								     </div>
+									<div class="modal-body color-red">
+										<p class="modal-nice">Nice to meet you!</p>
+										<p class="modal-value">We value your thoughts and your time.</p>
+										<p class="modal-reply">You can expect a reply within 48 hours.</p>
+									</div>
 								</fieldset>
 							</form>
 						</div>
@@ -663,10 +663,31 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/js_script.js"></script>
 	<script type="text/javascript">
-		window.addEventListener('resize', function () {
-			"use strict";
-			window.location.reload();
-		});
-	</script>
-</body>
-</html>
+		// var isMobile = window.matchMedia("only screen and (min-width: 768px)");
+
+		// if (isMobile.matches) {
+
+		// 		window.addEventListener('resize', function () {
+		// 			"use strict";
+		// 			window.location.reload();
+		// 		});
+		// 	}
+	$(document).ready(function () {
+    var oldwidth = $(window).width();
+    $(window).resize(function () {
+        var nw = $(window).width();
+        //compare new and old width
+        if (oldwidth != nw)
+        {
+        	window.addEventListener('resize', function () {
+					"use strict";
+					window.location.reload();
+				});
+				}
+        oldwidth = nw;
+    });
+});
+
+		</script>
+	</body>
+	</html>
