@@ -663,31 +663,22 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/js_script.js"></script>
 	<script type="text/javascript">
-		// var isMobile = window.matchMedia("only screen and (min-width: 768px)");
-
-		// if (isMobile.matches) {
-
-		// 		window.addEventListener('resize', function () {
-		// 			"use strict";
-		// 			window.location.reload();
-		// 		});
-		// 	}
-	$(document).ready(function () {
-    var oldwidth = $(window).width();
-    $(window).resize(function () {
-        var nw = $(window).width();
+		$(document).ready(function () {
+			var oldwidth = $(window).width();
+			$(window).resize(function () {
+				var nw = $(window).width();
         //compare new and old width
         if (oldwidth != nw)
         {
         	window.addEventListener('resize', function () {
-					"use strict";
-					window.location.reload();
-				});
-				}
+        		"use strict";
+        		window.location.reload();
+        	});
+        }
         oldwidth = nw;
-    });
-});
+      });
+		});
 
-		</script>
-	</body>
-	</html>
+	</script>
+</body>
+</html>

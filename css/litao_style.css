@@ -124,12 +124,16 @@ section {
 #nav-toggle.active span:before {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
   transform: rotate(45deg);
   background: #cccbc5;
 }
 #nav-toggle.active span:after {
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
   background: #cccbc5;
 }
@@ -210,6 +214,10 @@ section {
   height: 3px;
   width: 0;
   background: transparent;
+  -webkit-transition: width .8s ease, background-color .5s ease;
+  -moz-transition: width .8s ease, background-color .5s ease;
+  -o-transition: width .8s ease, background-color .5s ease;
+  -ms-transition: width .8s ease, background-color .5s ease;
   transition: width .8s ease, background-color .5s ease;
 }
 .sidenav a:hover{
@@ -224,6 +232,10 @@ section {
   height: 3px;
   width: 100%;
   background: #a55f60 ;
+    -webkit-transition: width .8s ease, background-color .5s ease;
+  -moz-transition: width .8s ease, background-color .5s ease;
+  -o-transition: width .8s ease, background-color .5s ease;
+  -ms-transition: width .8s ease, background-color .5s ease;
   transition: width .8s ease, background-color .5s ease;
 }
 .sidenav a:hover:after {
@@ -449,6 +461,10 @@ section {
   height: 1px;
   width: 0;
   background: transparent;
+    -webkit-transition: width .8s ease, background-color .5s ease;
+  -moz-transition: width .8s ease, background-color .5s ease;
+  -o-transition: width .8s ease, background-color .5s ease;
+  -ms-transition: width .8s ease, background-color .5s ease;
   transition: width .8s ease, background-color .5s ease;
 }
 .intro_more:hover:after {
@@ -1520,6 +1536,10 @@ min-height: 73px;
 address .btn.sharp {
   margin-bottom: 0;
   margin-top: 30px;
+    -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
   transition: all 200ms ease;
   position: relative;
   text-decoration: none;
@@ -1584,6 +1604,10 @@ address button b{
   opacity: 0;
   max-height: 0;
   font-size: 0;
+      -webkit-transition: .25s ease;
+  -moz-transition: .25s ease;
+  -o-transition: .25s ease;
+  -ms-transition: .25s ease;
   transition: .25s ease;
 }
 
