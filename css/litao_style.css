@@ -166,7 +166,7 @@ section{height:100%;height:100vh;}
 .experience_litao-list{list-style:disc;color:#a55f60;}
 .experience_litao-list span{color:#595a5a;letter-spacing:0.1em;}
 #our_guanxi{}
-#our_guanxi .main-image{border:1px solid black;width:400px;height:250px;z-index:-1;float:right;;}
+#our_guanxi .main-image{border:1px solid black;width:80%;height:250px;z-index:-1;float:right;;}
 #our_guanxi .level2-titles-box-pic-square{width:770px;height:1100px;max-width:inherit;}
 .guanxi-explanation{padding-top:40px;font-family:'BrandonGrotesque-LightItalic';color:#595a5a;letter-spacing:0.05em;font-size:15px;padding-bottom:40px;}
 .guanxi_noun{}
