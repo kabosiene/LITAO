@@ -178,10 +178,6 @@ section{height:100%;height:100vh;}
 #our_guanxi .card-img-top{max-height:80px;}
 #our_guanxi .card-block{font-family:"BrandonGrotesque-Regular";font-size:10px;letter-spacing:0.05em;padding-left:0px;padding-right:0px;}
 #our_guanxi .card-title{font-family:"BrandonGrotesque-Black";margin-bottom:5px;}
-.lithuanian-section,
-.english-section,
-.chinese-section,
-.conferences-section{ padding-left: 86px;}
 .background_green_box{position:absolute;margin-left:60px;z-index:-1;width:80%;height:auto;top:165px;bottom:0;}
 .publication{margin-top:20px;margin-bottom:90px;}
 .publication_title h4{font-family:"BrandonGrotesque-Regular";font-weight:bold;font-size:1.4rem;color:#a55f60;letter-spacing:0.07em;padding-bottom:20px;line-height: 1.5}
@@ -384,6 +380,7 @@ address p{min-height:initial;}
 .side-border{width:70px;}
 #recognitions{padding-right:92px;}
 .publication_content p{margin-left: 180px;display: block;}
+.lithuanian-section,.english-section,.chinese-section,.conferences-section, .lina_c-section{ padding-left: 86px;}
 }
 @media only screen and (min-width:992px){.intro-column{margin:5% 24% 0 24%;}
 .intro-content{line-height:25px;}
