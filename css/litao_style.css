@@ -162,7 +162,7 @@ section{height:100%;height:100vh;}
 .add_padding{padding-top:75px;}
 #experience_litao .title{font-family:'BrandonGrotesque-Bold';font-size:22px;letter-spacing:0.05em;}
 #experience_litao .level2-titles-box{margin-top:60px;}
-.experience_litao-list, .experience_litao-content_break{font-family:'BrandonGrotesque-Light';font-size:16px;letter-spacing:0.05em;text-align:justify;line-height:1.5;margin-right:86px;max-width:370px;}
+.experience_litao-list, .experience_litao-content_break{font-family:'BrandonGrotesque-Light';font-size:16px;letter-spacing:0.05em;text-align:justify;line-height:1.5;max-width:370px;}
 .experience_litao-list{list-style:disc;color:#a55f60;}
 .experience_litao-list span{color:#595a5a;letter-spacing:0.1em;}
 #our_guanxi{}
@@ -178,19 +178,18 @@ section{height:100%;height:100vh;}
 #our_guanxi .card-img-top{max-height:80px;}
 #our_guanxi .card-block{font-family:"BrandonGrotesque-Regular";font-size:10px;letter-spacing:0.05em;padding-left:0px;padding-right:0px;}
 #our_guanxi .card-title{font-family:"BrandonGrotesque-Black";margin-bottom:5px;}
-#recognitions{padding-left:86px;padding-right:92px;}
 .lithuanian-section,
 .english-section,
 .chinese-section,
-.conferences-section{position:relative;}
+.conferences-section{ padding-left: 86px;}
 .background_green_box{position:absolute;margin-left:60px;z-index:-1;width:80%;height:auto;top:165px;bottom:0;}
 .publication{margin-top:20px;margin-bottom:90px;}
-.publication_title h4{font-family:"BrandonGrotesque-Regular";font-weight:bold;font-size:1.4rem;color:#a55f60;letter-spacing:0.07em;padding-bottom:20px;}
+.publication_title h4{font-family:"BrandonGrotesque-Regular";font-weight:bold;font-size:1.4rem;color:#a55f60;letter-spacing:0.07em;padding-bottom:20px;line-height: 1.5}
 .publication_subtitle h5{padding-left:250px;padding-bottom:15px;font-size:1.1rem;font-family:"BrandonGrotesque-Bold";letter-spacing:0.05em;}
 .publication_image{float:left;}
 .publication_image img{display:block;width:150px;height:150px;background-color:#dfeae1;}
 .publication_content{border-style:dotted;border-color:black;border-width:1px;padding-top:20px;padding-bottom:30px;border-left:none;border-right:none;position:relative;}
-.publication_content p{font-family:"BrandonGrotesque-Light";margin-left:250px;letter-spacing:0.05em;text-align:justify;padding-right:40px;line-height:1.5;}
+.publication_content p{font-family:"BrandonGrotesque-Light";letter-spacing:0.05em;text-align:justify;line-height:1.5;}
 .clearfix::after{content:"";clear:both;display:table}
 .publication_link{padding-top:5px;margin-left:250px;}
 .publication_link a{font-family:'BrandonGrotesque-Bold';color:#63a26f;font-size:14px;}
@@ -329,6 +328,17 @@ address button b{color:#a55f60;font-family:'BrandonGrotesque-Regular';letter-spa
 .home-logo{margin-top:15%;}
 address p{min-height:initial;}
 #values_id img.mobile{position:relative;}
+#recognitions .level2-main-title{font-size: 34px;}
+#recognitions .level2-titles-box-line{width: 112px;}
+#recognitions .level2-titles{font-size: 28px;}
+.publication{margin-top:0;margin-left: 15px;margin-bottom:0;border:none;}
+.publication_content{border:none;padding-bottom: 0;padding-top: 0;}
+.publication_content p{padding-top: 40px;padding-bottom: 40px;}
+.publication_title h4{margin-left:auto;font-size:14px;text-align: center; padding-left: 20px; padding-right: 20px;padding-bottom: 0}
+#recognitions .mobile_collapse{border-style:dotted;border-color:black;border-width:1px;border-left:none;border-right:none;border-bottom:none;margin-left:-20px;margin-right:-20px;padding-right:25px;height: 95px;display: flex;align-items: center;background-color: #dfeae1;}
+#recognitions .collapsable_plus {margin-bottom: .5rem;margin-left: auto;}
+#recognitions .mobile_collapse:hover{cursor: pointer;}
+
 }
 @media only screen and (min-width:768px){.border-vertical{display:block;height:100%;height:100vh;}
 .home-logo{padding-bottom:5%;}
@@ -371,6 +381,8 @@ address p{min-height:initial;}
 .member-section{margin-top:120px;}
 .first_member-section{margin-top:150px;margin-bottom:40px;}
 .side-border{width:70px;}
+#recognitions{padding-right:92px;}
+.publication_content p{margin-left: 180px;display: block;}
 }
 @media only screen and (min-width:992px){.intro-column{margin:5% 24% 0 24%;}
 .intro-content{line-height:25px;}
@@ -405,6 +417,8 @@ address p{min-height:initial;}
 .girls-game{margin-left:-40px;}
 .team_green-square{width:300px;}
 .page_id .form-group.col-md-6{padding-bottom:30px;}
+.experience_litao-list, .experience_litao-content_break{margin-right: 50px;}
+.publication_content p{margin-left: 250px;}
 }
 @media only screen and (min-width:1200px){.page_id .section{padding-top:70px;line-height:1.1;padding-bottom:70px;}
 .section{text-align:left;}
@@ -439,6 +453,8 @@ address p{min-height:initial;}
 .move-up-4{position:relative;top:-130px;}
 .move-up{position:absolute;top:-200px;}
 #nameandlogo .name_content{padding-bottom:20px;}
+.experience_litao-list, .experience_litao-content_break{margin-right: 86px;}
+.publication_content p{padding-right: 40px;}
 }
 @media only screen and (min-width:1600px){.level2-titles-box-pic-bigger{width:500px;height:590px;}
 .level2-titles-box-pic{width:400px;height:auto;}
