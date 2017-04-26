@@ -358,6 +358,11 @@ address p{min-height:initial;}
 #raq .folding-section_content h5{display: none;}
 #raq .question-mark{display: none;}
 #raq .folding-section_heading_title{font-size: 14px;  max-width: 280px;}
+#useful_resources .chapter { margin-left:0;margin-right: 0; text-align: center;}
+#useful_resources .chapter_title{font-size: 18px; text-align: left;}
+#useful_resources .chapter_link { word-wrap: break-word;text-align: left;}
+#useful_resources .collapsable_plus{padding: 20px;display: inline-block;width: 100%;}
+#useful_resources .chapter_content{text-align: justify;}
 }
 @media only screen and (min-width:768px){.border-vertical{display:block;height:100%;height:100vh;}
 .home-logo{padding-bottom:5%;}
