@@ -241,7 +241,7 @@ section{height:100%;height:100vh;}
 #raq .collapsable_plus:before{content:'+';}
 #useful_resources p.title{font-family:'BrandonGrotesque-Bold';font-size:34px;letter-spacing:0.05em;max-width:600px;line-height:0.99;}
 #useful_resources p.subtitle{font-family:'BrandonGrotesque-Bold';font-size:22px;letter-spacing:0.06em;max-width:600px;line-height:1.2;text-align:justify;padding-top:8px;}
-#useful_resources .collapsable_plus{margin-right: auto;}
+#useful_resources .collapsable_plus{display: inline-block;width: 100%;}
 #useful_resources .collapsable_plus.added:before{content:'-';}
 #useful_resources .collapsable_plus:before{content:'+';}
 .chapter:hover{cursor: pointer;}
@@ -361,7 +361,7 @@ address p{min-height:initial;}
 #useful_resources .chapter { margin-left:0;margin-right: 0; text-align: center;}
 #useful_resources .chapter_title{font-size: 18px; text-align: left;}
 #useful_resources .chapter_link {font-size: 14px;word-wrap: break-word;text-align: left;}
-#useful_resources .collapsable_plus{padding: 20px;display: inline-block;width: 100%;}
+#useful_resources .collapsable_plus{padding: 20px;}
 #useful_resources .chapter_content{text-align: justify;}
 }
 @media only screen and (min-width:768px){.border-vertical{display:block;height:100%;height:100vh;}
