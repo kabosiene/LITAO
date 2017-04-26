@@ -230,7 +230,7 @@ section{height:100%;height:100vh;}
 #raq .folding-section{margin-bottom:1px;}
 #raq .folding-section:hover{cursor:pointer;}
 #raq .folding-section_expand_indicator{margin-right:auto;margin-left:10px;margin-top:8px;}
-#raq .folding-section_heading_title{font-size:15px;font-family:'BrandonGrotesque-Bold';letter-spacing:0.09em;word-spacing:1px;margin-bottom:2px;line-height:1.2; margin-right: auto;}
+#raq .folding-section_heading_title{max-width: 573px;font-size:15px;font-family:'BrandonGrotesque-Bold';letter-spacing:0.09em;word-spacing:1px;margin-bottom:2px;line-height:1.2; margin-right: auto;}
 #raq .folding-section_content{margin-left:92px;margin-right:92px;padding-right:10px;padding-top:20px;padding-bottom:100px;font-family:'BrandonGrotesque-Light';letter-spacing:0.07em;word-spacing:1px;text-align:center;line-height:1.5;}
 #raq .folding-section_content img{position:absolute;z-index:-1;margin-left:-50px;padding-top:63px;}
 #raq .folding-section_content h5{padding-top:130px;padding-bottom:60px;font-family:'BrandonGrotesque-Bold';line-height:1.5;text-align:left;}
@@ -350,7 +350,14 @@ address p{min-height:initial;}
 #recognitions .mobile_collapse{border-style:dotted;border-color:black;border-width:1px;border-left:none;border-right:none;border-bottom:none;margin-left:-20px;margin-right:-20px;padding-right:25px;height: 95px;display: flex;align-items: center;background-color: #dfeae1;}
 #recognitions .collapsable_plus {margin-bottom: .5rem;margin-left: auto;}
 #recognitions .mobile_collapse:hover{cursor: pointer;}
-
+#raq p.lead {padding-left: 0;}
+#raq .folding-section_heading{margin-left: -5px;margin-right: -20px;  flex-direction: row-reverse;}
+#raq .folding-section_heading_title{word-spacing: initial;letter-spacing: 0.05rem;margin-left: auto;margin-right: 0;}
+#raq .collapsable_plus{margin-left: auto; margin-right: 5px;}
+#raq .folding-section_content{margin-right: -20px; margin-left: 0; padding-bottom:0;}
+#raq .folding-section_content h5{display: none;}
+#raq .question-mark{display: none;}
+#raq .folding-section_heading_title{font-size: 14px;  max-width: 280px;}
 }
 @media only screen and (min-width:768px){.border-vertical{display:block;height:100%;height:100vh;}
 .home-logo{padding-bottom:5%;}
