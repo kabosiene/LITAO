@@ -408,12 +408,13 @@ address p{min-height:initial;}
 #recognitions{padding-right:92px;}
 .publication_content p{margin-left: 180px;display: block;}
 .lithuanian-section,.english-section,.chinese-section,.conferences-section, .lina_c-section{ padding-left: 86px;}
+.page_id .col-md-6{padding-left:92px;padding-right:0px;}
 }
 @media only screen and (min-width:992px){.intro-column{margin:5% 24% 0 24%;}
 .intro-content{line-height:25px;}
 .page_id .section{padding-top:70px;line-height:1.1;}
 .section{text-align:left;}
-.page_id .col-md-6{padding-left:40px;padding-right:0px;}
+/*.page_id .col-md-6{padding-left:92px;padding-right:0px;}*/
 .side-border{width:95px;}
 .level2-main-title{font-family:'BrandonGrotesque-Bold';margin-bottom:0px;color:#a55f60;font-size:45px;letter-spacing:3px;text-transform:uppercase;}
 .level2-titles-box-margin{margin-bottom:60px;}
