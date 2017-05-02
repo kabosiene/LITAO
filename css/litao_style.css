@@ -157,7 +157,7 @@ section{height:100%;height:100vh;}
 .name_square{width:350px;height:160px;position:absolute;z-index:-1;margin-left:-20px;margin-top:-10px;padding-bottom:15px;}
 .name_logo-gif{width:100%;margin-top:30px;margin-bottom:50px;}
 #experience_litao{}
-#experience_litao .main-image{border:1px solid black;width:350px;height:380px;position:absolute;z-index:-1;margin-top:-70px;}
+#experience_litao .main-image{width:100%;max-width:350px;height:auto;z-index:-1;margin-top:-70px;}
 #experience_litao .content-image{border:1px solid black;width:350px;height:380px;z-index:-1;margin-top:-120px;margin-bottom:68px;}
 .experience_litao-intro-margin{margin-top:105px;}
 .add_padding{padding-top:75px;}
@@ -167,7 +167,7 @@ section{height:100%;height:100vh;}
 .experience_litao-list{list-style:disc;color:#a55f60;}
 .experience_litao-list span{color:#595a5a;letter-spacing:0.1em;}
 #our_guanxi{}
-#our_guanxi .main-image{border:1px solid black;width:80%;height:250px;z-index:-1;float:right;;}
+#our_guanxi .main-image{width:85%;margin-right:20px;height:auto;z-index:-1;float:right;}
 #our_guanxi .level2-titles-box-pic-square{width:770px;height:1100px;max-width:inherit;}
 .guanxi-explanation{padding-top:40px;font-family:'BrandonGrotesque-LightItalic';color:#595a5a;letter-spacing:0.05em;font-size:15px;padding-bottom:40px;}
 .guanxi_noun{}
@@ -339,6 +339,7 @@ address button b{color:#a55f60;font-family:'BrandonGrotesque-Regular';letter-spa
 .home-logo{margin-top:15%;}
 address p{min-height:initial;}
 #values_id img.mobile{position:relative;}
+#experience_litao img.mobile{position:relative;margin-top: 0}
 #experience_litao .level2-main-title{font-size: 34px;}
 #recognitions .level2-main-title{font-size: 34px;}
 #recognitions .level2-titles-box-line{width: 112px;}
@@ -404,7 +405,7 @@ address p{min-height:initial;}
 .move-up-9{position:relative;top:-200px;}
 .member-section{margin-top:120px;}
 .first_member-section{margin-top:150px;margin-bottom:40px;}
-.side-border{width:70px;}
+.side-border{width:62px;}
 #recognitions{padding-right:92px;}
 .publication_content p{margin-left: 180px;display: block;}
 .lithuanian-section,.english-section,.chinese-section,.conferences-section, .lina_c-section{ padding-left: 86px;}
