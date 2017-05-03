@@ -66,10 +66,12 @@ section{height:100%;height:100vh;}
 .carousel-inner>.carousel-item>img{object-fit:cover;width:100vw;height:50vh;}
 .about-china-img{background:url('../home-images/crossing_culture_home.jpg') no-repeat center center;background-repeat:no-repeat;background-size:cover;}
 .our-work-img{background:url('../home-images/our_work_home.jpg') no-repeat center center;background-repeat:no-repeat;background-size:cover;}
+.about-us-img{background:url('../home-images/about_us_home.jpg') no-repeat center center;background-repeat:no-repeat;background-size:cover;}
+.why-us-img{background:url('../home-images/why_us_home.jpg') no-repeat center center;background-repeat:no-repeat;background-size:cover;}
 .intro-column{margin:20% 15% 0 15%;}
 .intro-title{font-size:16px;margin:50px 0 50px 20px;font-family:'BrandonGrotesque-Bold';}
 .intro-content{position:relative;z-index:1;font-family:'BrandonGrotesque-Light';font-size:16px;letter-spacing:1px;line-height:20px;margin-top:50px;}
-.intro-img{width:80%;height:auto;padding-top:5%;padding-bottom:5%;}
+/*.intro-img{width:80%;height:auto;padding-top:5%;padding-bottom:5%;}*/
 .intro_more{font-size:10px;letter-spacing:2px;font-family:'BrandonGrotesque-Regular';}
 .intro_more:after{content:'';display:block;height:1px;width:0;background:transparent;-webkit-transition:width .8s ease, background-color .5s ease;-moz-transition:width .8s ease, background-color .5s ease;-o-transition:width .8s ease, background-color .5s ease;-ms-transition:width .8s ease, background-color .5s ease;transition:width .8s ease, background-color .5s ease;}
 .intro_more:hover:after{width:22%;background:#a55f60;}
@@ -379,7 +381,7 @@ address p{min-height:initial;}
 .member_bio{}
 .page-heading{padding-top:2em;color:#595a5a;}
 .chinabg-color{background-color:#dfeae1;}
-.intro-img{width:70%;height:auto;}
+/*.intro-img{width:70%;height:auto;}*/
 #square{position:absolute;left:50%;top:50%;margin:-16% 0 0 -16%;z-index:0;width:38%;background:#dfeae1;}
 #square:after{content:"";display:block;padding-bottom:100%;}
 #rectangle{position:absolute;left:13%;top:10%;margin:0 0 0 0;z-index:0;width:76%;height:83%;background:#f6f3f0;}
