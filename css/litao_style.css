@@ -200,6 +200,7 @@ section{height:100%;height:100vh;}
 #services .main-image{border:1px solid black;width:350px;height:380px;position:absolute;z-index:-1;margin-top:-70px;}
 #services p.lead{font-family:'BrandonGrotesque-Bold';font-size:28px;max-width:357px;line-height:1.2;margin-bottom:25px;letter-spacing:0.02em;}
 #services .content{font-family:"BrandonGrotesque-Light";letter-spacing:0.03em;text-align:justify;margin-right:50px;max-width:356px;line-height:1.5;margin-bottom:70px;}
+#services .folding-section_content .content{letter-spacing: 0.05rem;}
 #services .folding-section_heading{margin-left:92px;margin-right:92px;height:70px;text-align:center;display:flex;align-items:center;flex-direction:row;justify-content:center;}
 #services .folding-section{margin-bottom:1px;}
 #services .folding-section:hover{cursor:pointer;}
@@ -209,7 +210,23 @@ section{height:100%;height:100vh;}
 #services .collapsable_plus:before{content:'+';}
 #services .folding-section_heading_title{font-size:15px;font-family:'BrandonGrotesque-Bold';letter-spacing:0.09em;word-spacing:5px;margin-bottom:2px;}
 #services .folding-section_heading_subtitle{font-size:14px;letter-spacing:0.09em;}
-#services .folding-section_content{padding-left:15px;padding-right:15px;}
+#services .folding-section_content{padding-left:15px;padding-right:15px; margin-bottom: 100px;}
+#services .level2-titles-box-pic-square{padding-right: 110px;height: 500px;}
+#services .subtitle{font-family:'BrandonGrotesque-Bold';color:#a55f60;font-size:20px;letter-spacing:0.09em;display:inline-block;margin-top:0;margin-left:4px;}
+.services_green-circle{position:absolute;z-index:-2;width:190px;margin-top:-165px;}
+#services .content_title-margin{margin-top: 250px;}
+#services .content_title{font-family: 'BrandonGrotesque-Bold';color:#a55f60; font-size: 23px; letter-spacing: 0.05rem; line-height: 1.2; margin-bottom: 40px}
+#services b{font-family: 'BrandonGrotesque-Regular';letter-spacing:0.05em;}
+.services-list{padding-left: 20px;font-family:'BrandonGrotesque-LightItalic';font-size:16px;letter-spacing:0.02em;text-align:justify;line-height:1.5;max-width:370px;list-style: disc;color: #a55f60;}
+.services-list span{color:#595a5a;}
+.important-list{padding-right: 54px;padding-left: 20px;font-family:'BrandonGrotesque-Light';font-size:16px;letter-spacing:0.05em;text-align:justify;line-height:1.5;max-width:370px;list-style: disc;color: #a55f60;}
+.important-list span{color:#595a5a;padding-bottom: 60px;
+  display: block;}
+#services .list-title{display:block;margin-top:100px;margin-bottom: 15px;}
+#services h6{margin-top:170px;margin-bottom:38px;font-family:'BrandonGrotesque-Bold';color:#a55f60;font-size:22px;letter-spacing:0.09em;}
+#services .question-mark{position: absolute;z-index: -1;padding-top: 104px;padding-left: 124px;}
+#services .picture{border:black solid 1px; width: 370px;height: 480px;}
+.links_to_cases{margin-top: 100px;}
 #case_studies .level2-titles-box-margin{margin-bottom:35px;}
 #case_studies .level2-titles-box{margin-bottom:20px;margin-top:105px;}
 #case_studies .main-image{border:1px solid black;width:350px;height:380px;position:absolute;z-index:-1;margin-top:-70px;}
@@ -300,7 +317,9 @@ address button b{color:#a55f60;font-family:'BrandonGrotesque-Regular';letter-spa
 @media only screen and (min-width:420px){.team_green-square{width:255px;}
 #contact_id .page-heading{margin-left:40px;text-align:left;}
 }
-@media only screen and (min-width:500px){.values_green-circle{margin-left:75px;}
+@media only screen and (min-width:500px){
+  .values_green-circle{margin-left:75px;}
+  .services_green-circle{margin-left:75px;}
 }
 @media only screen and (max-width:767px){.row{margin-left:0;margin-right:0;}
 #mobile-view.container-fluid{padding:0;}
