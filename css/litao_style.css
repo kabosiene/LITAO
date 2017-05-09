@@ -42,7 +42,7 @@ section{height:100%;height:100vh;}
 /*#mySidenavMenu .submenu{border:none;position:absolute;padding:0px;min-width:100vh;height:45px;-webkit-transform-origin:left top;-webkit-transform:rotate(-90deg) translateX(-100%);}*/
 /*#mySidenavMenu .submenu ul{padding:0px;width:100vh;display:flex;justify-content:center;flex-direction:row-reverse;}*/
 .main-submenu ul{padding: 0;}
-.main-submenu .border-text{color:#a55f60;display: inline-block;}
+.main-submenu .border-text{color: #595a5a;display: inline-block;}
 #contact_id .submenu{border:none;}
 .intro-left-v{line-height:59px;display:block;}
 .main-submenu .intro-left-v{line-height: 32px;}
@@ -51,7 +51,7 @@ section{height:100%;height:100vh;}
 .intro-left-v:hover a{color:#a55f60;}
 .rotated-links{color:#595a5a;font-family:'BrandonGrotesque-Bold';font-size:10px;letter-spacing:1px;-webkit-transition:opacity 0.2s ease-in;-moz-transition:opacity 0.2s ease-in;-o-transition:opacity 0.2s ease-in;-ms-transition:opacity 0.2s ease-in;transition:opacity 0.2s ease-in;display:block;}
 .border_link.active_on, .rotated-links.active{color:#a55f60;background-color:#dfeae1;}
-.main-submenu .border-text:hover{color: #595a5a}
+.main-submenu .border-text:hover{color:#a55f60;}
 /*#mySidenavMenu .submenu .border-text{padding-left:20px;padding-right:20px;}*/
 .header-lang{position:fixed;top:20px;right:30px;margin-bottom:0;z-index:2;}
 .header-lang-item{float:left;padding-right:0px;padding-left:0px;}
@@ -392,6 +392,16 @@ address p{min-height:initial;}
 #useful_resources .chapter_link {font-size: 14px;word-wrap: break-word;text-align: left;}
 #useful_resources .collapsable_plus{padding: 20px;}
 #useful_resources .chapter_content{text-align: justify;}
+#services .folding-section_heading{margin-left: -5px;margin-right: -20px;}
+#services .folding-section_heading_title{word-spacing: initial;letter-spacing: 0.05rem;margin-left: auto;margin-right: 0;}
+#services .content{margin-right: 0;}
+.important-list{padding-right: 0;}
+#services h6{font-size: 21px;margin-top: 0}
+#services .level2-titles-box-pic-square{padding-right: 0;}
+#services .question-mark{display: none;}
+#services .content_title-margin {margin-top: 150px;}
+#services .folding-section_content{margin-bottom: 0}
+
 }
 @media only screen and (min-width:768px){.border-vertical{display:block;height:100%;height:100vh;}
 .home-logo{padding-bottom:5%;}
