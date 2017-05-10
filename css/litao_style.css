@@ -253,7 +253,7 @@ section{height:100%;height:100vh;}
 #raq p.lead{font-family:'BrandonGrotesque-Bold';font-size:23px;max-width:700px;line-height:1.18;margin-bottom:25px;letter-spacing:0.04em;padding-left:75px;text-align:justify;}
 #raq .folding-section_heading{margin-left:92px;margin-right:92px;height:68px;text-align:center;display:flex;align-items:center;justify-content:center;}
 #raq .folding-section{margin-bottom:1px;}
-#raq .folding-section:hover{cursor:pointer;}
+#raq .folding-section_heading:hover{cursor:pointer;}
 #raq .folding-section_expand_indicator{margin-right:auto;margin-left:10px;margin-top:8px;}
 #raq .folding-section_heading_title{max-width: 573px;font-size:15px;font-family:'BrandonGrotesque-Bold';letter-spacing:0.09em;word-spacing:1px;margin-bottom:2px;line-height:1.2; margin-right: auto;}
 #raq .folding-section_content{margin-left:92px;margin-right:92px;padding-right:10px;padding-top:20px;padding-bottom:100px;font-family:'BrandonGrotesque-Light';letter-spacing:0.07em;word-spacing:1px;text-align:center;line-height:1.5;}
@@ -267,12 +267,12 @@ section{height:100%;height:100vh;}
 #raq .collapsable_plus:before{content:'+';}
 #useful_resources p.title{font-family:'BrandonGrotesque-Bold';font-size:34px;letter-spacing:0.05em;max-width:600px;line-height:0.99;}
 #useful_resources p.subtitle{font-family:'BrandonGrotesque-Bold';font-size:22px;letter-spacing:0.06em;max-width:600px;line-height:1.2;text-align:justify;padding-top:8px;}
-#useful_resources .collapsable_plus{display: inline-block;width: 100%;}
-#useful_resources .collapsable_plus.added:before{content:'-';}
-#useful_resources .collapsable_plus:before{content:'+';}
+#useful_resources .collapsable_plus{display: inline-block;width: 100%; font-size:11px;letter-spacing:2px;font-family:'BrandonGrotesque-Regular';}
+#useful_resources .collapsable_plus.added:before{content:'HIDE -';}
+#useful_resources .collapsable_plus:before{content:'READ MORE +';}
 .chapter:hover{cursor: pointer;}
 .chapter{border-bottom:1px dotted black;margin-left:92px;margin-right:92px;margin-top:39px;line-height:1.9;padding-bottom:10px;}
-.chapter_title{font-family:'BrandonGrotesque-Bold';font-size:22px; letter-spacing: 0.09rem;}
+.chapter_title{display:inline-block; font-family:'BrandonGrotesque-Bold';font-size:22px; letter-spacing: 0.09rem;}
 .chapter_link{font-family:'BrandonGrotesque-Bold';letter-spacing:0.1em;}
 .chapter_content{border-top: 1px dotted black;padding: 64px 15px 45px 0; letter-spacing: 0.09rem; line-height: 1.5; font-family: 'BrandonGrotesque-Light'}
 .btn.sharp{border-radius:0;background-color:#dfeae1;border:0 none;margin-bottom:50px;}
