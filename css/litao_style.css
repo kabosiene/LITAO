@@ -257,7 +257,8 @@ section{height:100%;height:100vh;}
 #raq .folding-section_expand_indicator{margin-right:auto;margin-left:10px;margin-top:8px;}
 #raq .folding-section_heading_title{max-width: 573px;font-size:15px;font-family:'BrandonGrotesque-Bold';letter-spacing:0.09em;word-spacing:1px;margin-bottom:2px;line-height:1.2; margin-right: auto;}
 #raq .folding-section_content{margin-left:92px;margin-right:92px;padding-right:10px;padding-top:20px;padding-bottom:100px;font-family:'BrandonGrotesque-Light';letter-spacing:0.07em;word-spacing:1px;text-align:center;line-height:1.5;}
-#raq .folding-section_content img{position:absolute;z-index:-1;margin-left:-50px;padding-top:63px;}
+#raq .folding-section_content .question-mark{position:absolute;z-index:-1;margin-left:-50px;padding-top:63px;}
+#raq .folding-section_content .graph{width: 600px; padding-top: 10px;}
 #raq .folding-section_content h5{padding-top:130px;padding-bottom:60px;font-family:'BrandonGrotesque-Bold';line-height:1.5;text-align:left;}
 #raq .folding-section_content a{font-size:14px;font-family:'BrandonGrotesque-Bold';text-align:left;}
 #raq .folding-section_content p{text-align:justify;}
