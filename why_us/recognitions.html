@@ -867,6 +867,11 @@ Over the years, LITAO has turned its cultural and business experiences in China 
 			var isMobile = window.matchMedia("only screen and (min-width: 768px)");
 			if (isMobile.matches) {$('.mobile_collapse').removeAttr('data-toggle');}
 		}
+            $(document).ready(function(){
+    $('.collapse').on('show.bs.collapse', function (e) {
+        $('.collapse').collapse("hide")
+    })
+})
 	</script>
 </body>
 </html>
