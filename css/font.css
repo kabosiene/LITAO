@@ -45,28 +45,6 @@
 }
 
 @font-face {
-  font-family: 'BrandonGrotesque-MediumItalic';
-  src: url('fonts/BrandonGrotesque-MediumItalic.eot');
-  src: url('fonts/BrandonGrotesque-MediumItalic.woff2') format('woff2'),
-       url('fonts/BrandonGrotesque-MediumItalic.woff') format('woff'),
-       url('fonts/BrandonGrotesque-MediumItalic.ttf') format('truetype'),
-       url('fonts/BrandonGrotesque-MediumItalic.svg#BrandonGrotesque-MediumItalic') format('svg'),
-       url('fonts/BrandonGrotesque-MediumItalic.eot?#iefix') format('embedded-opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'BrandonGrotesque-Medium';
-  src: url('fonts/BrandonGrotesque-Medium.eot');
-  src: url('fonts/BrandonGrotesque-Medium.woff2') format('woff2'),
-       url('fonts/BrandonGrotesque-Medium.woff') format('woff'),
-       url('fonts/BrandonGrotesque-Medium.ttf') format('truetype'),
-       url('fonts/BrandonGrotesque-Medium.svg#BrandonGrotesque-Medium') format('svg'),
-       url('fonts/BrandonGrotesque-Medium.eot?#iefix') format('embedded-opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
   font-family: 'BrandonGrotesque-LightItalic';
   src: url('fonts/BrandonGrotesque-LightItalic.eot');
   src: url('fonts/BrandonGrotesque-LightItalic.woff2') format('woff2'),
@@ -107,28 +85,6 @@
        url('fonts/BrandonGrotesque-Black.ttf') format('truetype'),
        url('fonts/BrandonGrotesque-Black.svg#BrandonGrotesque-Black') format('svg'),
        url('fonts/BrandonGrotesque-Black.eot?#iefix') format('embedded-opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'BrandonGrotesque-ThinItalic';
-  src: url('fonts/BrandonGrotesque-ThinItalic.eot');
-  src: url('fonts/BrandonGrotesque-ThinItalic.woff2') format('woff2'),
-       url('fonts/BrandonGrotesque-ThinItalic.woff') format('woff'),
-       url('fonts/BrandonGrotesque-ThinItalic.ttf') format('truetype'),
-       url('fonts/BrandonGrotesque-ThinItalic.svg#BrandonGrotesque-ThinItalic') format('svg'),
-       url('fonts/BrandonGrotesque-ThinItalic.eot?#iefix') format('embedded-opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'BrandonGrotesque-Thin';
-  src: url('fonts/BrandonGrotesque-Thin.eot');
-  src: url('fonts/BrandonGrotesque-Thin.woff2') format('woff2'),
-       url('fonts/BrandonGrotesque-Thin.woff') format('woff'),
-       url('fonts/BrandonGrotesque-Thin.ttf') format('truetype'),
-       url('fonts/BrandonGrotesque-Thin.svg#BrandonGrotesque-Thin') format('svg'),
-       url('fonts/BrandonGrotesque-Thin.eot?#iefix') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
