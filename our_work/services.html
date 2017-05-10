@@ -211,7 +211,7 @@
 							</div>
 						</div>
 						<div class="col-md-6">
-							<img src="" alt="" class="hidden-md-down main-image">
+							<img src="../home-images/our_work/services/main-services.jpg" alt="main image" class="img-fluid main-image mobile">
 						</div>
 					</div>
 					<div class="row">
@@ -567,7 +567,7 @@
 									</ul>
 								</div>
 								<div class="col-md-6">
-									<img src="" class="picture">
+									<img src="../home-images/our_work/services/communication.jpg" class="img-fluid picture">
 									<div class="links_to_cases">
 										<p class="content"><b>We were praised for our interpretation on a
 											Lithuanian diplomatic visit to China:</b> coming soon
@@ -671,7 +671,7 @@
 									</ul>
 								</div>
 								<div class="col-md-6">
-									<img src="" class="picture">
+									<img src="../home-images/our_work/services/supply_side.jpg" class="img-fluid picture">
 									<div class="links_to_cases">
 										<p class="content"><b>We conducted all supplier searches,
 											production, and quality inspection work for
@@ -794,7 +794,7 @@
 									</ul>
 								</div>
 								<div class="col-md-6">
-									<img src="" class="picture">
+									<img src="../home-images/our_work/services/nestle.jpg" class="img-fluid picture">
 									<div class="links_to_cases">
 										<p class="content"><b>We gave a grocery retail chain a strategy for true
 											localization in the age of on-line shopping:</b> coming soon
@@ -904,7 +904,7 @@
 									</ul>
 								</div>
 								<div class="col-md-6">
-									<img src="" class="picture">
+									<img src="../home-images/our_work/services/sales.jpg" class="img-fluid picture">
 									<div class="links_to_cases">
 										<p class="content"><b>Our trusted sales techniques and easy
 											payment schemes sold USD 500,000 in
@@ -1000,7 +1000,7 @@
 									</ul>
 								</div>
 								<div class="col-md-6">
-									<img src="" class="picture">
+									<img src="../home-images/our_work/services/expert.jpg" class="img-fluid picture">
 									<div class="links_to_cases">
 										<p class="content"><b>Here’s how we helped a bespoke diamond
 											company understand the China market:</b> coming soon
@@ -1016,7 +1016,7 @@
 						</div>
 					</div>
 
-					<div class="row folding-section" data-toggle="collapse" data-target="#s8">
+<!-- 					<div class="row folding-section" data-toggle="collapse" data-target="#s8">
 						<div class="folding-section_heading color-green">
 							<span class="collapsable_plus color-red"></span>
 							<div class="flex-column">
@@ -1119,7 +1119,7 @@
 								</div>
 							</div>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</div>
@@ -1137,6 +1137,11 @@
 		function toggleIcon(){
 			$(this).find("span").toggleClass("added")
 		}
+        $(document).ready(function(){
+    $('.collapse').on('show.bs.collapse', function (e) {
+        $('.collapse').collapse("hide")
+    })
+})
 	</script>
 </body>
 </html>
