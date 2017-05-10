@@ -2,7 +2,7 @@ $(document).ready(checkSize);
 $(window).on('resize',checkSize);
 function checkSize(){var isMobile=window.matchMedia("only screen and (max-width: 767px)");
 if(isMobile.matches){if(document.getElementById("multiscroll")){}menuWidth='100%';}else{menuWidth='50%';
-if(document.getElementById("multiscroll")){$('#multiscroll').multiscroll({anchors:['home','about_us','our_work','why_us','crossing_culture'],menu:'#myMenu',
+if(document.getElementById("multiscroll")){$('#multiscroll').multiscroll({anchors:['home','about_us','our_work','why_us','crossing_cultures'],menu:'#myMenu',
   afterLoad:function(anchorLink,index){$('.home-arrow').addClass('animated bounceInUp visible').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',function(){$(this).removeClass('animated bounceInUp');});},onLeave:function(index,direction){$('.home-arrow').removeClass('visible');},});}}};
 if(document.getElementById("multiscroll")){
   document.getElementById("multiscroll").onmouseover=function(){closeNav()};}
@@ -73,7 +73,7 @@ $(".china-menu").on("mouseover",function(){
   $('#myMenu').find('.select-submenu').removeClass('select-submenu');
   $(this).addClass('select-submenu');
   $(".main-submenu").find(".active").hide().removeClass("active");
-  $("#crossing_culture-id").addClass("active").show();});
+  $("#crossing_cultures-id").addClass("active").show();});
 
 // $(".raq-menu").on("mouseover",function(){
 //   document.getElementById("mySidenavMenu").style.width="0";

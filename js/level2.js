@@ -129,7 +129,7 @@
     $('#myMenu').find('.select-submenu').removeClass('select-submenu');
     $(this).addClass('select-submenu');
     $("#mySidenavMenu .submenu").find(".active").hide().removeClass("active");
-    $("#crossing_culture-id").addClass("active").show();
+    $("#crossing_cultures-id").addClass("active").show();
   })
   ;
   $(".raq-menu").on("mouseover", function(){

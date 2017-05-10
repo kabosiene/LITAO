@@ -68,7 +68,7 @@ section{height:100%;height:100vh;}
 .home-arrow:hover{cursor:pointer;}
 .home-text{font-family:'BrandonGrotesque-Light';font-size:20px;}
 .carousel-inner>.carousel-item>img{object-fit:cover;width:100vw;height:50vh;}
-.about-china-img{background:url('../home-images/crossing_culture_home.jpg') no-repeat center center;background-repeat:no-repeat;background-size:cover;}
+.about-china-img{background:url('../home-images/crossing_cultures_home.jpg') no-repeat center center;background-repeat:no-repeat;background-size:cover;}
 .our-work-img{background:url('../home-images/our_work_home.jpg') no-repeat center center;background-repeat:no-repeat;background-size:cover;}
 .about-us-img{background:url('../home-images/about_us_home.jpg') no-repeat center center;background-repeat:no-repeat;background-size:cover;}
 .why-us-img{background:url('../home-images/why_us_home.jpg') no-repeat center center;background-repeat:no-repeat;background-size:cover;}
