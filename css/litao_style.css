@@ -268,7 +268,7 @@ section{height:100%;height:100vh;}
 #raq .collapsable_plus{margin-right: auto; margin-left: 20px;}
 #raq .collapsable_plus.added:before{content:'-';}
 #raq .collapsable_plus:before{content:'+';}
-#raq .main-image{border:1px solid black;width:350px;height:380px;position:absolute;z-index:-1;margin-top:-70px;}
+#raq .main-image{border:solid 1px black;width:350px;height:380px;position:absolute;z-index:-1;margin-top:-70px;}
 #useful_resources .main-image{width:350px;height:auto;position:absolute;z-index:-1;margin-top:-70px;}
 #useful_resources p.title{font-family:'BrandonGrotesque-Bold';font-size:34px;letter-spacing:0.05em;max-width:600px;line-height:0.99;}
 #useful_resources p.subtitle{font-family:'BrandonGrotesque-Bold';font-size:22px;letter-spacing:0.06em;max-width:600px;line-height:1.2;text-align:justify;padding-top:8px;}
@@ -393,6 +393,7 @@ address p{min-height:initial;}
 #raq .folding-section_content h5{display: none;}
 #raq .question-mark{display: none;}
 #raq .folding-section_heading_title{font-size: 14px;  max-width: 280px;}
+#raq img.mobile{position:relative;margin-top: 0}
 #useful_resources .chapter { margin-left:0;margin-right: 0; text-align: center;}
 #useful_resources .chapter_title{font-size: 18px; text-align: left;}
 #useful_resources .chapter_link {font-size: 14px;word-wrap: break-word;text-align: left;}
