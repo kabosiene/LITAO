@@ -213,7 +213,7 @@ section{height:100%;height:100vh;}
 #services .collapsable_plus{margin-right:auto;margin-left:15px;}
 #services .collapsable_plus.added:before{content:'-';}
 #services .collapsable_plus:before{content:'+';}
-#services .folding-section_heading_title{font-size:15px;font-family:'BrandonGrotesque-Bold';letter-spacing:0.09em;word-spacing:5px;margin-bottom:2px;}
+#services .folding-section_heading_title{ font-size:15px;font-family:'BrandonGrotesque-Bold';letter-spacing:0.09em;word-spacing:5px;margin-bottom:2px;}
 #services .folding-section_heading_subtitle{font-size:14px;letter-spacing:0.09em;}
 #services .folding-section_content{padding-left:15px;padding-right:15px;}
 #services .level2-titles-box-pic-square{padding-right: 110px;height: 500px;}
@@ -413,6 +413,7 @@ address p{min-height:initial;}
 #services .content_title-margin {margin-top: 150px;}
 #services .folding-section_content{margin-bottom: 0}
 #services img.mobile, #case_studies img.mobile{position:relative;margin-top: 0}
+.level2-titles{word-wrap: break-word;}
 }
 @media only screen and (min-width:768px){.border-vertical{display:block;height:100%;height:100vh;}
 .home-logo{padding-bottom:5%;}
