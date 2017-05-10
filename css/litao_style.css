@@ -182,6 +182,7 @@ section{height:100%;height:100vh;}
 #our_guanxi .card-block{font-family:"BrandonGrotesque-Regular";font-size:10px;letter-spacing:0.05em;padding-left:0px;padding-right:0px;}
 #our_guanxi .card-title{font-family:"BrandonGrotesque-Black";margin-bottom:5px;}
 .background_green_box{position:absolute;margin-left:60px;z-index:-1;width:80%;height:auto;top:165px;bottom:0;}
+#recognitions .main-image{width:350px;height:auto;position:absolute;z-index:-1;margin-top:-70px;}
 .publication{margin-top:20px;margin-bottom:45px;}
 .publication-intro-margin{margin-top:105px;}
 .publication-intro-content{font-family:'BrandonGrotesque-Bold';font-size:18px;letter-spacing:0.06em;text-align:justify;line-height:1.3;padding-bottom:40px;max-width:400px;}
@@ -307,8 +308,8 @@ fieldset{width:760px;max-width:100%;}
 .raq-form{margin-top:50px;}
 address{display:inline-block;margin-bottom:50px;letter-spacing:0.06em;font-family:'BrandonGrotesque-Light';}
 address p{min-height:73px;}
-address .btn.sharp{margin-bottom:0;margin-top:30px;-webkit-transition:all 200ms ease;-moz-transition:all 200ms ease;-o-transition:all 200ms ease;-ms-transition:all 200ms ease;transition:all 200ms ease;position:relative;text-decoration:none;display:inline-block;-webkit-transition-duration:0.4s;transition-duration:0.4s;cursor:pointer;}
-address .btn.sharp:hover{box-shadow:0 10px 10px 0 rgba(0,0,0,0.24), 0 10px 30px 0 rgba(0,0,0,0.19);}
+address .btn.sharp{ color: #a55f60; margin-bottom:0;margin-top:30px;-webkit-transition:all 200ms ease;-moz-transition:all 200ms ease;-o-transition:all 200ms ease;-ms-transition:all 200ms ease;transition:all 200ms ease;position:relative;text-decoration:none;display:inline-block;-webkit-transition-duration:0.4s;transition-duration:0.4s;cursor:pointer;}
+address .btn.sharp:hover{color: #595a5a}
 .btn.sharp:focus{outline:none;}
 address .text{padding-top:20px;max-width:268px;}
 address strong{font-family:'BrandonGrotesque-Regular';font-size:18px;}
@@ -378,6 +379,7 @@ address p{min-height:initial;}
 #recognitions .level2-main-title{font-size: 34px;}
 #recognitions .level2-titles-box-line{width: 112px;}
 #recognitions .level2-titles{font-size: 28px;}
+#recognitions img.mobile{position:relative;margin-top: 0}
 .publication{margin-top:0;margin-left: 15px;margin-bottom:0;border:none;}
 .publication_content{border:none;padding-bottom: 0;padding-top: 0;}
 .publication_content p{padding-top: 40px;padding-bottom: 40px;}
