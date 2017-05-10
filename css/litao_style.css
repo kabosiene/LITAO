@@ -199,6 +199,10 @@ section{height:100%;height:100vh;}
 .publication_link{padding-top:5px;margin-left:250px;}
 .publication_link a{font-family:'BrandonGrotesque-Bold';color:#63a26f;font-size:14px;}
 .publication_date{position:absolute;bottom:5px;right:0;color:#a55f60;font-family:'BrandonGrotesque-BoldItalic';font-size:14px;letter-spacing:0.05em;}
+#brochure .main-image{width:350px;height:auto;position:absolute;z-index:-1;margin-top:-70px;}
+#brochure  .folding-section_heading{ margin-top: 6px;margin-left:92px;margin-right:92px;height:70px;text-align:center;display:flex;align-items:center;justify-content:center;}
+#brochure  .folding-section{margin-top:50px;margin-bottom:1px;}
+#brochure  .folding-section_heading_title{font-size:15px;font-family:'BrandonGrotesque-Bold';letter-spacing:0.09em;word-spacing:5px;margin-bottom:2px;}
 #services .level2-titles-box-margin{margin-bottom:35px;}
 #services .level2-titles-box{margin-bottom:20px;margin-top:93px;}
 #services .main-image{border:1px solid black;width:350px;height:380px;position:absolute;z-index:-1;margin-top:-70px;}
@@ -385,6 +389,7 @@ address p{min-height:initial;}
 #recognitions .mobile_collapse{border-style:dotted;border-color:black;border-width:1px;border-left:none;border-right:none;border-bottom:none;margin-left:-20px;margin-right:-20px;padding-right:25px;height: 95px;display: flex;align-items: center;background-color: #dfeae1;}
 #recognitions .collapsable_plus {margin-bottom: .5rem;margin-left: auto;}
 #recognitions .mobile_collapse:hover{cursor: pointer;}
+#brochure img.mobile{position:relative;margin-top: 0}
 #raq p.lead {padding-left: 0;}
 #raq .folding-section_heading{margin-left: -5px;margin-right: -20px;  flex-direction: row-reverse;}
 #raq .folding-section_heading_title{word-spacing: initial;letter-spacing: 0.05rem;margin-left: auto;margin-right: 0;}
