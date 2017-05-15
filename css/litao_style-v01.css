@@ -173,7 +173,8 @@ section{height:100%;height:100vh;}
 .experience_litao-list span{color:#595a5a;letter-spacing:0.1em;}
 #our_guanxi .main-image{width:100%;height:auto;z-index:-1;}
 #our_guanxi .level2-titles-box-pic-square{width:770px;height:1100px;max-width:inherit;}
-.guanxi-explanation{padding-top:40px;font-family:'BrandonGrotesque-LightItalic';color:#595a5a;letter-spacing:0.05em;font-size:15px;padding-bottom:140px;}
+.guanxi-characters{font-size: 32px;}
+.guanxi-explanation{padding-top:10px;font-family:'BrandonGrotesque-LightItalic';color:#595a5a;letter-spacing:0.05em;font-size:15px;padding-bottom:140px;}
 .text-reference{font-size:14px;letter-spacing:0.03em;}
 #our_guanxi p.title{font-family:'BrandonGrotesque-Bold';color:#595a5a;font-size:26px;line-height:1.2;margin-bottom:2px;letter-spacing:0.04em;}
 #our_guanxi .dummy{border:1px solid black;width:100px;height:100px;margin-top:20px;margin-bottom:20px;}
