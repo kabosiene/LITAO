@@ -259,7 +259,7 @@ section{height:100%;height:100vh;}
 #case_studies .content_title-margin{margin-top: 140px;}
 #case_studies .content_title{font-family: 'BrandonGrotesque-Bold';color:#a55f60; font-size: 23px; letter-spacing: 0.05rem; line-height: 1.2; margin-bottom: 40px; text-transform: uppercase;}
 #case_studies .more{font-size:14px;letter-spacing:2px;font-family:'BrandonGrotesque-Bold';}
-
+#case_studies .content_title_approach{font-family: 'BrandonGrotesque-Bold';color:#a55f60; font-size: 23px; letter-spacing: 0.05rem; line-height: 1.2; margin-bottom: 40px;}
 #process  .folding-section_heading{ margin-top: 6px;margin-left:92px;margin-right:92px;height:70px;text-align:center;display:flex;align-items:center;justify-content:center;}
 #process  .folding-section{margin-bottom:1px;}
 #process  .folding-section_heading_title{font-size:15px;font-family:'BrandonGrotesque-Bold';letter-spacing:0.09em;word-spacing:5px;margin-bottom:2px;}
