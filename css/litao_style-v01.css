@@ -465,6 +465,15 @@ address p{min-height:initial;}
 #case_studies .eye{padding-top: 0;margin-top: -20px;}
 #case_studies .content_title_approach{margin-top: 40px;}
 #case_studies .more{padding: 15px 0;display: inline-block;}
+#process img.mobile {
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 40px;}
+  #process .level2-titles-box-margin{padding-right: 0}
+  #process .subtitle-second{margin-top: 50px;}
+#process .content_title-margin{margin-top: 70px;}
+#process .content{margin-right: 0;}
+#process .last .subtitle-second{padding-right: 0}
 }
 @media only screen and (min-width:768px){.border-vertical{display:block;height:100%;height:100vh;}
 .home-logo{padding-bottom:5%;}
