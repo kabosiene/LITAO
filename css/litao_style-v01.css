@@ -1,4 +1,4 @@
-body{background-color:#f6f3f0;margin:0;color:#595a5a;height:100%;text-align:center;font-family:'BrandonGrotesque-Regular', Arial, sans-serif;font-size:16px;}
+body{background-color:#f6f3f0;margin:0;color:#595a5a;height:100%;text-align:center;font-family:'BrandonGrotesque-Regular', Arial, sans-serif;font-size:16px;position: relative;}
 a{text-decoration:none;color:#595a5a;}
 a:active,a:hover,a:focus{text-decoration:none;outline:none;color:#595a5a;}
 .btn-primary:active:hover, .btn-primary:active.focus{text-decoration:none;outline:none;box-shadow:0 10px 10px 0 rgba(0,0,0,0.24), 0 10px 30px 0 rgba(0,0,0,0.19);background-color:#dfeae1;}
@@ -203,6 +203,7 @@ section{height:100%;height:100vh;}
 .publication_link{padding-top:5px;margin-left:250px;}
 .publication_link a{font-family:'BrandonGrotesque-Bold';color:#63a26f;font-size:14px;}
 .publication_date{position:absolute;bottom:5px;right:0;color:#a55f60;font-family:'BrandonGrotesque-BoldItalic';font-size:14px;letter-spacing:0.05em;}
+#brochure {min-height: calc(100vh - 100px);}
 #brochure .main-image{width:350px;height:auto;position:absolute;z-index:-1;margin-top:-70px;}
 #brochure  .folding-section_heading{ margin-top: 6px;margin-left:92px;margin-right:92px;height:70px;text-align:center;display:flex;align-items:center;justify-content:center;}
 #brochure  .folding-section{margin-top:50px;margin-bottom:1px;}
@@ -239,6 +240,8 @@ section{height:100%;height:100vh;}
 #services .question-mark{position: absolute;z-index: -1;padding-top: 104px;padding-left: 124px;}
 #services .picture{width: 370px;height: auto;}
 .links_to_cases{margin-top: 100px;}
+#services .content-main{font-family:"BrandonGrotesque-Light";letter-spacing:0.05em;text-align:justify;max-width:575px;line-height:1.5;margin-bottom:70px;}
+#services .content-main b{font-family:"BrandonGrotesque-Regular";}
 #case_studies .level2-titles-box-margin{margin-bottom:35px;}
 #case_studies .level2-titles-box{margin-bottom:20px;margin-top:105px;}
 #case_studies .main-image{width:350px;height:auto;position:absolute;z-index:-1;margin-top:-70px;}
@@ -278,17 +281,6 @@ section{height:100%;height:100vh;}
 #process .content{font-family:"BrandonGrotesque-Light";letter-spacing:0.03em;text-align:justify;margin-right:50px;max-width:356px;line-height:1.5;margin-bottom:70px;}
 #process .last .subtitle-second{margin-top: 90px; margin-bottom: 43px; text-align: justify; padding-right: 24px;}
 #process .view-more{font-family: 'BrandonGrotesque-Regular';font-size: 14px;}
-#process {}
-#process {}
-#process {}
-#process {}
-#process {}
-#process {}
-#process {}
-#process {}
-#process {}
-#process {}
-#process {}
 #raq p.lead{font-family:'BrandonGrotesque-Bold';font-size:23px;max-width:700px;line-height:1.18;margin-bottom:25px;letter-spacing:0.04em;padding-left:75px;text-align:justify;}
 #raq .folding-section_heading{margin-left:92px;margin-right:92px;height:68px;text-align:center;display:flex;align-items:center;justify-content:center;}
 #raq .folding-section{margin-bottom:1px;}
@@ -557,7 +549,8 @@ address p{min-height:initial;}
 .experience_litao-list, .experience_litao-content_break{margin-right: 50px;}
 .publication_content p{margin-left: 250px;}
 }
-@media only screen and (min-width:1200px){.page_id .section{padding-top:70px;line-height:1.1;padding-bottom:70px;}
+@media only screen and (min-width:1200px){
+  .page_id .section{padding-top:70px;line-height:1.1;margin-bottom:100px;}
 .section{text-align:left;}
 .page_id .col-md-6{padding-left:92px;}
 .level2-main-title{font-family:'BrandonGrotesque-Bold';margin-bottom:0px;color:#a55f60;font-size:45px;letter-spacing:3px;text-transform:uppercase;}
