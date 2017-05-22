@@ -4,7 +4,7 @@ function checkSize(){var isMobile=window.matchMedia("only screen and (max-width:
 if(isMobile.matches){if(document.getElementById("multiscroll")){}menuWidth='100%';}
 else{menuWidth='50%';
 if(document.getElementById("multiscroll")){
-  $('#multiscroll').multiscroll({anchors:['home','about_us','our_work','why_us','crossing_cultures'],menu:'#myMenu',
+  $('#multiscroll').multiscroll({anchors:['home','about_us','our_work','why_us','crossing_cultures', 'connect_with_us'],menu:'#myMenu',
     afterLoad:function(anchorLink,index){
       $('.home-arrow').addClass('animated bounceInUp visible').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',function(){
         $(this).removeClass('animated bounceInUp');});},

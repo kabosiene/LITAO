@@ -18,7 +18,7 @@
 // If there are no errors, send the email
 
     if (mail($to, $subject, $body, $from)) {
-      header("Location:http://litao.lt/contact.html"); /* Redirect browser */
+      header("Location:http://litao.lt/connect_with_us.html"); /* Redirect browser */
 exit();
     } else {
       echo 'error';
