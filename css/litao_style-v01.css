@@ -100,14 +100,13 @@ section{height:100%;height:100vh;}
 .level2-titles-box-padding{margin:36px 0 94px 0;}
 .level2-titles-box-line{position:absolute;height:auto;width:127px;}
 .level2-titles-box-pic,
-.level2-titles-box-pic-bigger{position:absolute;z-index:-1;width:337px;height:auto;margin-left:64px;margin-top:29px;}
-.level2-titles-box-pic-bigger{width:400px;height:490px;}
+.level2-titles-box-pic-bigger{position:absolute;z-index:-1;width:400px;height:490px;margin-left:64px;margin-top:29px;}
 .level2-titles-box-pic-square{width:80%;height:295px;position:absolute;z-index:-1;margin-left:64px;margin-top:29px;}
-#values_id .level2-titles-box-pic-square,
-#nameandlogo_id .level2-titles-box-pic-square,
-#experiance_id .level2-titles-box-pic-square{width:55%;height:310px;margin-left:55px;}
-#values_id .mission_section .level2-titles-box-pic-square{height:272px;}
-#values_id .values_section .level2-titles-box-pic-square{height:250px;}
+#values .level2-titles-box-pic-square,
+#nameandlogo .level2-titles-box-pic-square,
+#experiance .level2-titles-box-pic-square{width:55%;height:310px;margin-left:55px;}
+#values .mission_section .level2-titles-box-pic-square{height:272px;}
+#values.values_section .level2-titles-box-pic-square{height:250px;}
 .level2-titles-box-founder{position:absolute;z-index:-2;width:634px;height:auto;margin-left:250px;margin-top:2px;}
 .level2-titles{font-family:'BrandonGrotesque-Bold';font-size:35px;letter-spacing:2px;padding-top:45px;}
 .founder-content, .name_content,
@@ -398,11 +397,11 @@ address button b{color:#a55f60;font-family:'BrandonGrotesque-Regular';letter-spa
 #nav-toggle span:after{bottom:-7px;}
 .col-xs-11{margin-left:20px;padding-right:1px;}
 .col-md-6.mobile-img{text-align:center;}
-#nameandlogo_id .level2-titles-box{margin-top:80px;}
-#nameandlogo_id p.title, #nameandlogo_id p.title.second{margin-top:40px;}
+#nameandlogo .level2-titles-box{margin-top:80px;}
+#nameandlogo p.title, #nameandlogo p.title.second{margin-top:40px;}
 .home-logo{margin-top:15%;}
 address p{min-height:initial;}
-#values_id img.mobile{position:relative;padding-right: 0;}
+#values img.mobile{position:relative;padding-right: 0;}
 #experience_litao img.mobile{position:relative;margin-top: 0}
 #experience_litao .content-image{margin-top: 0}
 #experience_litao .level2-main-title{font-size: 34px;}
@@ -526,8 +525,7 @@ address p{min-height:initial;}
 .level2-titles-box-padding{margin:36px 0 105px 0;}
 .level2-titles-box-line{position:absolute;height:auto;width:127px;}
 .level2-titles-box-pic,
-.level2-titles-box-pic-bigger{position:absolute;z-index:-1;width:337px;height:auto;margin-left:64px;margin-top:29px;}
-.level2-titles-box-pic-bigger{width:400px;height:490px;}
+.level2-titles-box-pic-bigger{position:absolute;z-index:-1;width:400px;height:490px;margin-left:64px;margin-top:29px;}
 .level2-titles-box-founder{position:absolute;z-index:-2;width:634px;height:auto;margin-left:250px;margin-top:2px;}
 .level2-titles{font-family:'BrandonGrotesque-Bold';font-size:35px;letter-spacing:2px;padding-top:42px;}
 .founder-content, .name_content,
@@ -561,8 +559,7 @@ address p{min-height:initial;}
 .level2-titles-box-line{position:absolute;height:auto;width:127px;}
 .level2-titles-box-pic{max-height:100%;}
 .level2-titles-box-pic,
-.level2-titles-box-pic-bigger{position:absolute;z-index:-1;width:337px;height:auto;margin-left:64px;margin-top:29px;}
-.level2-titles-box-pic-bigger{width:400px;height:490px;}
+.level2-titles-box-pic-bigger{position:absolute;z-index:-1;width:400px;height:490px;margin-left:64px;margin-top:29px;}
 .level2-titles-box-founder{position:absolute;z-index:-2;width:634px;height:auto;margin-left:250px;margin-top:2px;}
 .level2-titles{font-family:'BrandonGrotesque-Bold';font-size:35px;letter-spacing:2px;padding-top:42px;max-width:500px;}
 .founder-content, .name_content,
