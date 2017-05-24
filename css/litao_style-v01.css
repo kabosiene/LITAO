@@ -1,4 +1,11 @@
-body{background-color:#f6f3f0;margin:0;color:#595a5a;height:100%;text-align:center;font-family:'BrandonGrotesque-Regular', Arial, sans-serif;font-size:16px;position: relative;}
+
+body{background-color:#f6f3f0;margin:0;color:#595a5a;height:100%;text-align:center;
+  font-family:'BrandonGrotesque-Regular', Arial, sans-serif;
+  font-size: 100%;
+  position: relative;}
+img, embed, object, video {
+  max-width: 100%;
+}
 a{text-decoration:none;color:#595a5a;}
 a:active,a:hover,a:focus{text-decoration:none;outline:none;color:#595a5a;}
 .btn-primary:active:hover, .btn-primary:active.focus{text-decoration:none;outline:none;box-shadow:0 10px 10px 0 rgba(0,0,0,0.24), 0 10px 30px 0 rgba(0,0,0,0.19);background-color:#dfeae1;}
@@ -81,8 +88,8 @@ section{height:100%;height:100vh;}
 .why-us-img{background:url('../home-images/why_us_home.jpg') no-repeat center center;background-repeat:no-repeat;background-size:cover;}
 .connect_with_us-img{background:url('../home-images/connect_with_us_home.jpg') no-repeat center center;background-repeat:no-repeat;background-size:cover;}
 .intro-column{margin:20% 15% 0 15%;}
-.intro-title{font-size:16px;margin:50px 0 50px 20px;font-family:'BrandonGrotesque-Bold';}
-.intro-content{position:relative;z-index:1;font-family:'BrandonGrotesque-Light';font-size:16px;letter-spacing:1px;line-height:20px;margin-top:50px;}
+.intro-title{font-size:1rem;margin:50px 0 50px 20px;font-family:'BrandonGrotesque-Bold';}
+.intro-content{position:relative;z-index:1;font-family:'BrandonGrotesque-Light';font-size:1rem;letter-spacing:1px;line-height:20px;margin-top:50px;}
 .intro_more{font-size:10px;letter-spacing:2px;font-family:'BrandonGrotesque-Regular';}
 .intro_more:after{content:'';display:block;height:1px;width:0;background:transparent;-webkit-transition:width .8s ease, background-color .5s ease;-moz-transition:width .8s ease, background-color .5s ease;-o-transition:width .8s ease, background-color .5s ease;-ms-transition:width .8s ease, background-color .5s ease;transition:width .8s ease, background-color .5s ease;}
 .intro_more:hover:after{width:22%;background:#a55f60;}
@@ -110,7 +117,7 @@ section{height:100%;height:100vh;}
 .level2-titles-box-founder{position:absolute;z-index:-2;width:634px;height:auto;margin-left:250px;margin-top:2px;}
 .level2-titles{font-family:'BrandonGrotesque-Bold';font-size:35px;letter-spacing:2px;padding-top:45px;}
 .founder-content, .name_content,
-.our_guanxi-content, .experience_litao-content{font-family:'BrandonGrotesque-Light';font-size:16px;letter-spacing:0.05em;text-align:justify;line-height:1.5;padding-bottom:40px;max-width:400px;}
+.our_guanxi-content, .experience_litao-content{font-family:'BrandonGrotesque-Light';font-size:1rem;letter-spacing:0.05em;text-align:justify;line-height:1.5;padding-bottom:40px;max-width:400px;}
 .founder-content b, .our_guanxi-content b,
 .experience_litao-content b{font-family:'BrandonGrotesque-Regular';letter-spacing:0.05em;}
 #founder h4{line-height:1.2;}
@@ -132,7 +139,7 @@ section{height:100%;height:100vh;}
 .side-text-padding{padding-top:45px;}
 .side-text-padding-2{padding-top:45px;}
 .team-picture{position:relative;width:100%;height:auto;z-index:-2;}
-#team p.lead{font-family:'BrandonGrotesque-Bold';font-size:22px;font-size:20px;max-width:350px;line-height:1.3;margin-bottom:25px;letter-spacing:0.06em;}
+#team p.lead{font-family:'BrandonGrotesque-Bold';font-size:20px;max-width:350px;line-height:1.3;margin-bottom:25px;letter-spacing:0.06em;}
 .first_member-section{margin-top:50px;margin-bottom:40px;}
 .member-section{margin-top:80px;}
 .team-member-picture{width:360px;height:auto;border:none;}
@@ -141,8 +148,7 @@ section{height:100%;height:100vh;}
 .member_name{font-family:'BrandonGrotesque-Bold';font-size:24px;color:#a55f60;letter-spacing:0.06em;margin-bottom:48px;}
 .member_role{font-family:'BrandonGrotesque-Bold';letter-spacing:0.06em;margin-bottom:30px;}
 .member_link-linkedin a, .member_timeline a, .member_link-website a{font-family:'BrandonGrotesque-Bold';font-size:14px;color:#a55f60;}
-.member_bio{margin-top:38px;max-width:370px;font-family:'BrandonGrotesque-Light';font-size:16px;letter-spacing:0.05em;line-height:1.5;margin-bottom:25px;text-align:justify;}
-#values{}
+.member_bio{margin-top:38px;max-width:370px;font-family:'BrandonGrotesque-Light';font-size:1rem;letter-spacing:0.05em;line-height:1.5;margin-bottom:25px;text-align:justify;}
 .values_section-margin{margin-top:50px;margin-bottom:70px;}
 .values_compassion-section-margin{margin-top:100px;margin-bottom:100px;}
 .values_picture{position:relative;width:350px;height:auto;margin-top:20px;z-index:-2;}
@@ -173,7 +179,7 @@ section{height:100%;height:100vh;}
 .add_padding{padding-top:75px;}
 #experience_litao .title{font-family:'BrandonGrotesque-Bold';font-size:22px;letter-spacing:0.05em;}
 #experience_litao .level2-titles-box{margin-top:60px;}
-.experience_litao-list, .experience_litao-content_break{font-family:'BrandonGrotesque-Light';font-size:16px;letter-spacing:0.05em;text-align:justify;line-height:1.5;max-width:370px;}
+.experience_litao-list, .experience_litao-content_break{font-family:'BrandonGrotesque-Light';font-size:1rem;letter-spacing:0.05em;text-align:justify;line-height:1.5;max-width:370px;}
 .experience_litao-list{list-style:disc;color:#a55f60;}
 .experience_litao-list span{color:#595a5a;letter-spacing:0.1em;}
 #our_guanxi .main-image{width:100%;height:auto;z-index:-1;}
@@ -230,9 +236,9 @@ section{height:100%;height:100vh;}
 #services .content_title-margin{margin-top: 250px;}
 #services .content_title{font-family: 'BrandonGrotesque-Bold';color:#a55f60; font-size: 23px; letter-spacing: 0.05rem; line-height: 1.2; margin-bottom: 40px}
 #services b{font-family: 'BrandonGrotesque-Bold';font-weight:normal;letter-spacing:0.05em;}
-.services-list{padding-left: 20px;font-family:'BrandonGrotesque-LightItalic';font-size:16px;letter-spacing:0.02em;text-align:justify;line-height:1.5;max-width:370px;list-style: disc;color: #a55f60;}
+.services-list{padding-left: 20px;font-family:'BrandonGrotesque-LightItalic';font-size:1rem;letter-spacing:0.02em;text-align:justify;line-height:1.5;max-width:370px;list-style: disc;color: #a55f60;}
 .services-list span{color:#595a5a;}
-.important-list{padding-right: 54px;padding-left: 20px;font-family:'BrandonGrotesque-Light';font-size:16px;letter-spacing:0.05em;text-align:justify;line-height:1.5;max-width:370px;list-style: disc;color: #a55f60;}
+.important-list{padding-right: 54px;padding-left: 20px;font-family:'BrandonGrotesque-Light';font-size:1rem;letter-spacing:0.05em;text-align:justify;line-height:1.5;max-width:370px;list-style: disc;color: #a55f60;}
 .important-list span{color:#595a5a;padding-bottom: 60px;
   display: block;}
 #services .list-title{display:block;margin-top:100px;margin-bottom: 15px;}
@@ -330,7 +336,7 @@ fieldset{width:760px;max-width:100%;}
 .modal-body{margin-top:200px;margin-bottom:200px;text-align:center;line-height:1;}
 .modal-nice{font-size:19px;letter-spacing:0.05em;font-family:'BrandonGrotesque-Bold';}
 .modal-value{font-size:20px;letter-spacing:0.05em;font-family:'BrandonGrotesque-Light';}
-.modal-reply{font-size:16px;font-family:'BrandonGrotesque-LightItalic';}
+.modal-reply{font-size:1rem;font-family:'BrandonGrotesque-LightItalic';}
 .mobile-main-title{text-align:center;font-size:26px;font-family:'BrandonGrotesque-Bold';}
 .raq-form{margin-top:50px;}
 address{display:inline-block;margin-bottom:50px;letter-spacing:0.06em;font-family:'BrandonGrotesque-Light';}
@@ -496,10 +502,8 @@ footer .page-bottom a{ padding-top: 10px; }
 #team p.lead{font-size:22px;}
 .team-picture{margin-top:-70px;}
 .values_picture{margin-top:-200px;}
-.member_bio{}
 .page-heading{padding-top:2em;color:#595a5a;}
 .chinabg-color{background-color:#dfeae1;}
-/*.intro-img{width:70%;height:auto;}*/
 #square{position:absolute;left:50%;top:50%;margin:-16% 0 0 -16%;z-index:0;width:38%;background:#dfeae1;}
 #square:after{content:"";display:block;padding-bottom:100%;}
 #rectangle{position:absolute;left:13%;top:10%;margin:0 0 0 0;z-index:0;width:76%;height:83%;background:#f6f3f0;}
@@ -534,10 +538,10 @@ footer .page-bottom a{ padding-top: 10px; }
 .lithuanian-section,.english-section,.chinese-section,.conferences-section, .lina_c-section{ padding-left: 86px;}
 .page_id .col-md-6{padding-left:92px;padding-right:0px;}
 }
-@media only screen and (min-width:992px){.intro-column{margin:5% 24% 0 24%;}
+@media only screen and (min-width:992px){
+.intro-column{margin:5% 24% 0 24%;}
 .intro-content{line-height:25px;}
 .section{text-align:left;}
-/*.page_id .col-md-6{padding-left:92px;padding-right:0px;}*/
 .side-border{width:95px;}
 .level2-main-title{font-family:'BrandonGrotesque-Bold';margin-bottom:0px;color:#a55f60;font-size:45px;letter-spacing:3px;text-transform:uppercase;}
 .level2-titles-box-margin{margin-bottom:60px;}
@@ -549,7 +553,7 @@ footer .page-bottom a{ padding-top: 10px; }
 .level2-titles-box-founder{position:absolute;z-index:-2;width:634px;height:auto;margin-left:250px;margin-top:2px;}
 .level2-titles{font-family:'BrandonGrotesque-Bold';font-size:35px;letter-spacing:2px;padding-top:42px;}
 .founder-content, .name_content,
-.our_guanxi-content, .experience_litao-content{font-family:'BrandonGrotesque-Light';font-size:16px;letter-spacing:0.05em;text-align:justify;line-height:1.5;margin-right:50px;}
+.our_guanxi-content, .experience_litao-content{font-family:'BrandonGrotesque-Light';font-size:1rem;letter-spacing:0.05em;text-align:justify;line-height:1.5;margin-right:50px;}
 .founder-content b, .our_guanxi-content b,
 .experience_litao-content b,
 .experience_litao-content_break b,
@@ -569,27 +573,13 @@ footer .page-bottom a{ padding-top: 10px; }
 .publication_content p{margin-left: 250px;}
 }
 @media only screen and (min-width:1200px){
-.section{text-align:left;}
 .page_id .col-md-6{padding-left:92px;}
-.level2-main-title{font-family:'BrandonGrotesque-Bold';margin-bottom:0px;color:#a55f60;font-size:45px;letter-spacing:3px;text-transform:uppercase;}
-.level2-titles-box-margin{margin-bottom:80px;}
-.level2-titles-box{margin:106px 0 94px 0;}
-.level2-titles-box-padding{margin:36px 0 105px 0;}
-.level2-titles-box-line{position:absolute;height:auto;width:127px;}
 .level2-titles-box-pic{max-height:100%;}
-.level2-titles-box-pic,
-.level2-titles-box-pic-bigger{position:absolute;z-index:-1;width:400px;height:490px;margin-left:64px;margin-top:29px;}
-.level2-titles-box-founder{position:absolute;z-index:-2;width:634px;height:auto;margin-left:250px;margin-top:2px;}
 .level2-titles{font-family:'BrandonGrotesque-Bold';font-size:35px;letter-spacing:2px;padding-top:42px;max-width:500px;}
 .founder-content, .name_content,
-.our_guanxi-content, .experience_litao-content{font-family:'BrandonGrotesque-Light';font-size:16px;letter-spacing:0.05em;text-align:justify;line-height:1.5;margin-right:86px;max-width:370px;padding-bottom:55px;}
-.founder-content b, .our_guanxi-content b,
-.experience_litao-content b{font-family:'BrandonGrotesque-Regular';letter-spacing:0.05em;}
-#founder p.lead{font-family:'BrandonGrotesque-Bold';color:#a55f60;font-size:29px;padding-right:106px;max-width:500px;}
-.calendar-date{height:110px;margin-bottom:20px;}
-.calendar-pic{position:absolute;z-index:-1;height:81px;width:auto;padding-left:25px;}
-.date ,.title-date{font-family:'BrandonGrotesque-Bold';color:#a55f60;font-size:22px;letter-spacing:0.09em;display:inline-block;margin-top:36px;margin-left:4px;}
-.title-date{margin-top:-8px;}
+.our_guanxi-content, .experience_litao-content{margin-right:86px;max-width:370px;padding-bottom:55px;}
+#founder p.lead{max-width:500px;}
+.calendar-date{margin-bottom:20px;}
 .side-text-padding{padding-top:110px;}
 .side-text-padding-2{padding-top:83px;}
 .founder-sitting{padding-right:15px;}
@@ -607,9 +597,132 @@ footer .page-bottom a{ padding-top: 10px; }
 .level2-titles-box-pic{width:400px;height:auto;}
 .level2-titles-box-founder{width:800px;height:auto;}
 }
-@media only screen and (min-width:2000px){.rotated-links{font-size:18px;}
+@media only screen and (min-width:2560px){
+  body{font-size: 200%;}
+  h6{font-size: 2rem;}
+.rotated-links{font-size:18px;}
 .level2-titles-box-founder{width:900px;height:auto;}
+.menu-footer_content{font-size: 28px;}
+.main-submenu .intro-left-v {line-height: 64px;}
+.border_link{font-size:24px;}
+.header-lang-link{font-size:24px;}
+.border, .border-fixed{font-size:22px;}
+.home-text{font-size:40px;}
+.home-arrow {width:60px;}
+.intro-title{font-size:2rem;}
+.intro-content{font-size:2rem; line-height: normal;}
+.intro_more{font-size:20px;}
+.citate{font-size:36px;}
+.citated{font-size:26px;}
+.level2-main-title{font-size:90px; line-height: normal;}
+.level2-titles{font-size:70px; max-width: none;}
+.founder-content, .name_content,
+.our_guanxi-content, .experience_litao-content{font-size:2rem; max-width: none; margin-right: 25%;}
+.level2-titles-box-founder{width: 1800px; margin-left: 500px;}
+#founder p.lead, #values p.lead,#nameandlogo p.lead{font-size:58px; max-width: none;}
+#nameandlogo p.title, #nameandlogo p.title.second{max-width: none;margin-right: 38%;}
+#nameandlogo .name_content{ max-width: none; margin-right: 25%;}
+.name_square {width: 64%; height: 31%;}
+.date ,.title-date{font-size:44px;}
+.calendar-pic{height: auto; width: 140px;}
+.calendar-date {margin-bottom: 80px;}
+.move-up-1 {
+  height: 360px;
 }
+.move-up-2{;top:-260px;height:320px;}
+.move-up-3{top:-240px;height:560px;}
+.move-up-4{top:-260px;}
+/*.move-up-5{top:-470px;}*/
+.move-up-6{top:-120px;}
+.move-up-7{top:-60px;}
+/*.move-up-8{top:-422px;}*/
+.move-up-9{top:0px;}
+.move-up{top:-400px;}
+.founder-kid, .founder-expo{float: none;}
+.level2-titles-box-pic-bigger {
+  width: 800px;
+  height: 1000px;
+}
+.girls-game{margin-left: 0}
+#team p.lead{font-size:40px;  max-width: none;
+  margin-right: 29%;}
+.member_name{font-size:48px;}
+.member_link-linkedin a, .member_timeline a, .member_link-website a{font-size:28px;}
+.member_bio{font-size:2rem;   max-width: none; margin-right: 29%;}
+.team-member-picture {
+  width: 720px;}
+.level2-titles-box-pic {width: 800px;}
+#values p.title{font-size:44px;}
+#values p.title_lead{max-width: 608px;}
+.vision_picture,.mission_picture,.values_picture-hands-on,.values_picture-approach,.values_picture-fluency,.values_picture-compassion,.values_picture{width: 720px; max-width: none;}
+.values_picture {
+  margin-top: -400px;
+}
+.mission_lead {max-width: none;
+  margin-right: 33%;}
+  .level2-titles-box-line{width: 250px;}
+  .mission_level2-titles-box, .vision_level2-titles-box{margin-bottom: 188px;}
+  #values .mission_section .level2-titles-box-pic-square, #values .level2-titles-box-pic-square{height: 500px;}
+#nameandlogo p.title, #nameandlogo p.title.second{font-size:44px;}
+#experience_litao .title{font-size:44px;}
+.experience_litao-list, .experience_litao-content_break{font-size:2rem;}
+.guanxi-characters{font-size: 64px;}
+.guanxi-explanation{font-size:30px;}
+.text-reference{font-size:28px;}
+#our_guanxi p.title{font-size:52px;}
+#our_guanxi .card-block{font-size:20px;}
+.publication-intro-content{font-size:36px;}
+.publication_title h4{font-size:2.8rem;}
+.publication_subtitle h5{font-size:2.2rem;}
+.publication_link a{font-size:28px;}
+.publication_date{font-size:28px;}
+#brochure  .folding-section_heading_title{font-size:30px;}
+#services p.lead{font-size:56px;}
+#services .folding-section_heading_title{ font-size:30px;}
+#services .folding-section_heading_subtitle{font-size:28px;}
+#services .subtitle{font-size:40px;}
+#services .content_title{font-size: 46px;}
+.services-list{font-size:2rem;}
+.important-list{font-size:2rem;}
+#services h6{font-size:44px;}
+#case_studies p.lead{font-size:68px;}
+#case_studies p.sublead{font-size:44px;}
+#case_studies .folding-section_heading_title{font-size:30px;}
+#case_studies .folding-section_heading_subtitle{font-size:28px;}
+#case_studies .last-content{font-size:36px;}
+#case_studies h6{font-size:44px;}
+#case_studies .content_title{font-size: 46px; }
+#case_studies .more{font-size:28px;}
+#case_studies .content_title_approach{font-size: 46px; }
+#process p.lead {font-size:56px;}
+#process .subtitle{font-size:44px;}
+#process .subtitle-second{font-size:44px;}
+#process .content_title{font-size: 46px; }
+#process .view-more{font-size: 28px;}
+#raq p.lead{font-size:46px;}
+#raq .folding-section_heading_title{font-size:30px;}
+#raq .folding-section_content a{font-size:28px;}
+#useful_resources p.title{font-size:68px;}
+#useful_resources p.subtitle{font-size:44px;}
+#useful_resources .collapsable_plus{font-size:22px;}
+.chapter_title{font-size:44px;}
+.contact-info-text{font-size:36px;}
+button.close{font-size:7rem;}
+.modal-dialog legend{font-size:40px;}
+.modal-dialog .submit-button span{font-size:30px;}
+.modal-nice{font-size:38px;}
+.modal-value{font-size:40px;}
+.modal-reply{font-size:2rem;}
+.mobile-main-title{font-size:52px;}
+address strong{font-size:28px;}
+.raq-content p{font-size:28px;}
+footer .right {font-size:20px;}
+footer button {font-size: 26px; }
+footer .call-to-action{font-size: 40px;}
+footer .left li{ font-size: 30px; }
+footer .page-bottom{font-size: 24px;}
+}
+
 .visible{visibility:visible;}
 .animated{-webkit-animation-duration:2s;-moz-animation-duration:2s;animation-duration:2s;-webkit-animation-delay:0s;-moz-animation-delay:0s;animation-delay:0s;-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;animation-fill-mode:both;}
 .animated2{-webkit-animation-duration:0.8s;-moz-animation-duration:0.8s;animation-duration:0.8s;-webkit-animation-delay:0.8s;-moz-animation-delay:0.8s;animation-delay:0.8s;-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;animation-fill-mode:both;}
