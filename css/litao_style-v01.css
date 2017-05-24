@@ -38,7 +38,7 @@ section{height:100%;height:100vh;}
 .sidenav .active{color:#595a5a;}
 .sidenav .select-submenu:after{content:'';display:block;height:3px;width:100%;background:#595a5a;-webkit-transition:width .8s ease, background-color .5s ease;-moz-transition:width .8s ease, background-color .5s ease;-o-transition:width .8s ease, background-color .5s ease;-ms-transition:width .8s ease, background-color .5s ease;transition:width .8s ease, background-color .5s ease;}
 .sidenav_link:hover:after{width:100%;background:#595a5a;}
-.submenu{padding-right:80px;padding-left:0;left:0;width:100vh;height:60px;border-bottom:1px solid #cccbc5;display:flex;justify-content:space-around;flex-direction:row-reverse;position:fixed;-webkit-transform-origin:left top;-webkit-transform:rotate(-90deg) translateX(-100%);}
+.submenu{ background-color: #f6f3f0; padding-right:80px;padding-left:0;left:0;width:100vh;height:60px;border-bottom:1px solid #cccbc5;display:flex;justify-content:space-around;flex-direction:row-reverse;position:fixed;-webkit-transform-origin:left top;-webkit-transform:rotate(-90deg) translateX(-100%);}
 .main-submenu ul{padding: 0;}
 .main-submenu .border-text{color: #595a5a;display: inline-block;}
 #menu-footer{height: 50px; display: table-row;
@@ -90,7 +90,7 @@ section{height:100%;height:100vh;}
 .citate{font-size:18px;font-family:'BrandonGrotesque-Regular';}
 .citated{color:#a55f60;font-size:13px;}
 .font-bold{font-family:'BrandonGrotesque-Bold';}
-.side-border{height:100%;height:100vh;width:95px;position:fixed;z-index:99;right:0px;display:flex;align-items:flex-end;justify-content:space-around;}
+.side-border{height:100vh;height:100%;width:95px;position:fixed;z-index:99;right:0px;display:flex;align-items:flex-end;justify-content:space-around;}
 .logo-white-round img{width:60%;margin-bottom:30px;}
 .page_id .section{padding-top:70px;line-height:1.1;}
 .section{text-align:left;}
@@ -352,6 +352,21 @@ address button b{color:#a55f60;font-family:'BrandonGrotesque-Regular';letter-spa
 .read-more-state:checked ~ .read-more-target{opacity:1;font-size:inherit;max-height:999em;}
 .read-more-state ~ .read-more-trigger:before{content:'SHOW MORE';}
 .read-more-state:checked ~ .read-more-trigger:before{content:'SHOW LESS';}
+footer{width: 100%; min-height: 340px; background-color: #d8d7d2;}
+footer .left {text-align: left; padding-left: 92px; letter-spacing: 0.05rem;}
+footer .right {text-align: right;padding-top: 140px ; padding-right: 86px;font-size:10px; letter-spacing: 0.05rem;}
+footer .right li{ padding-bottom: 15px; }
+footer button {background-color:white;font-family: 'BrandonGrotesque-Bold'; font-size: 13px; padding: 5px 35px; border:none; letter-spacing: 0.05rem;}
+footer button:focus{outline: none;}
+footer button:hover{cursor: pointer; color: #595a5a;}
+footer .call-to-action{font-size: 20px; padding: 65px 0 20px 0;}
+footer ul{padding-left:0px;}
+footer .left li{ font-size: 15px; letter-spacing: 0.08rem; }
+footer .page-bottom{border-top: 1px solid black; margin:0 70px 0 77px; font-size: 12px; letter-spacing: 0.08rem; word-spacing: 2px;}
+footer .page-bottom p{ padding-top: 20px;  }
+footer .page-bottom a{ padding-left:45px; }
+footer .page-bottom a:hover{color: #a55f60; }
+footer .page-bottom .col-md-6{padding: 0;}
 @media only screen and (min-width:420px){.team_green-square{width:255px;}
 #contact_id .page-heading{margin-left:40px;text-align:left;}
 }
@@ -466,8 +481,14 @@ address p{min-height:initial;}
 #process .content_title-margin{margin-top: 70px;}
 #process .content{margin-right: 0;}
 #process .last .subtitle-second{padding-right: 0}
+footer {margin-top: 50px;}
+footer .left {text-align: center; padding-left: 15px; }
+footer .right {text-align: center;padding-top: 40px ; padding-right: 0; padding-left: 0;}
+footer .page-bottom{margin:0 0px 0 0px;}
+footer .page-bottom a{ padding-top: 10px; }
 }
 @media only screen and (min-width:768px){.border-vertical{display:block;height:100%;height:100vh;}
+.page_id .section{margin-bottom: 100px;}
 .home-logo{padding-bottom:5%;}
 .home-arrow{visibility:hidden;position:absolute;bottom:5%;}
 .carousel-inner>.carousel-item>img{object-fit:cover;width:50vw;height:100vh;}
@@ -515,7 +536,6 @@ address p{min-height:initial;}
 }
 @media only screen and (min-width:992px){.intro-column{margin:5% 24% 0 24%;}
 .intro-content{line-height:25px;}
-.page_id .section{padding-top:70px;line-height:1.1;}
 .section{text-align:left;}
 /*.page_id .col-md-6{padding-left:92px;padding-right:0px;}*/
 .side-border{width:95px;}
@@ -549,7 +569,6 @@ address p{min-height:initial;}
 .publication_content p{margin-left: 250px;}
 }
 @media only screen and (min-width:1200px){
-  .page_id .section{padding-top:70px;line-height:1.1;margin-bottom:100px;}
 .section{text-align:left;}
 .page_id .col-md-6{padding-left:92px;}
 .level2-main-title{font-family:'BrandonGrotesque-Bold';margin-bottom:0px;color:#a55f60;font-size:45px;letter-spacing:3px;text-transform:uppercase;}
