@@ -1,0 +1,1430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>LITAO</title>
+  <link href="css/font.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/animate.css" rel="stylesheet">
+  <link href="css/litao_style-v01.css" rel="stylesheet">
+
+  <link rel="icon" type="image/png" href="icons_logo/logo.png">
+</head>
+
+<body data-spy="scroll" data-target="#why_us-navigation" data-offset="0">
+  <header class="header" id="header">
+  <div class=" hidden-md-up litao_logo-black">
+      <a href="index.html#home">
+        <img src="icons_logo/logo-black-transparent.png">
+      </a>
+    </div>
+    <a id="nav-toggle" onclick="openNav()" href="javascript:void(0)"><span></span>
+    </a>
+
+  <div id="mySidenav" class="sidenav">
+      <div class="sidenav-links" id="myMenu" onclick="closeNav()">
+        <a data-menuanchor="home" class="sidenav_link home-menu" href="index.html#home" style="width: 0;">
+          主页
+        </a>
+        <br>
+        <div class="">
+          <a data-menuanchor="about_us" class="sidenav_link about-menu" href="index.html#about_us" style="width: 0;">
+            ABOUT&nbsp;US
+          </a>
+          <div class="main-submenu">
+            <ul id="about_us-id" class="about_us-submenu color-green" style="display: none;">
+                        <li class="intro-left-v animated-fast2 fadeIn">
+                <a class="border_link" href="about_us.html#nameandlogo">
+                  <span class="border-text">名称&nbsp;和标志</span>
+                </a>
+              </li>
+              <li class="intro-left-v animated-fast3 fadeIn">
+                <a class="border_link" href="about_us.html#team">
+                  <span class="border-text">我们的团队</span>
+                </a>
+              </li>
+
+              <li class="intro-left-v animated-fast4 fadeIn">
+                <a class="border_link" href="about_us.html#founder">
+                  <span class="border-text">创始人</span>
+                </a>
+              </li>
+
+              <li class="intro-left-v animated-fast5 fadeIn">
+                <a class="border_link" href="about_us.html#values">
+                  <span class="border-text">价值观&nbsp;/&nbsp;使命&nbsp;/&nbsp;愿景</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="">
+          <a data-menuanchor="our_work" class="sidenav_link work-menu" href="index.html#our_work" style="width: 0;">
+            OUR&nbsp;WORK
+          </a>
+          <div class="main-submenu">
+            <ul id="our_work-id" class="our_work-submenu color-green" style="display: none;">
+              <li class="intro-left-v animated-fast2 fadeIn">
+                <a class="border_link" href="our_work.html#services"><span class="border-text">SERVICES</span>
+                </a>
+              </li>
+              <li class="intro-left-v animated-fast3 fadeIn">
+                <a class="border_link" href="our_work.html#case_studies"><span class="border-text">CASE&nbsp;STUDIES</span>
+                </a>
+              </li>
+              <li class="intro-left-v animated-fast4 fadeIn">
+                <a class="border_link" href="our_work.html#process"><span class="border-text">业务&nbsp;流程</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="">
+          <a data-menuanchor="why_us" class="sidenav_link why-menu active" href="index.html#why_us" style="width: 0;">
+            WHY&nbsp;US
+          </a>
+          <div class="main-submenu">
+            <ul id="why_us-id" class="why_us-submenu color-green" style="display: none;">
+              <li class="intro-left-v animated-fast1 fadeIn">
+                <a class="border_link" href="why_us.html#experience_litao">
+                  <span class="border-text"> 体验 黎涛</span>
+                </a>
+              </li>
+              <li class="intro-left-v animated-fast2 fadeIn">
+                <a class="border_link" href="why_us.html#our_guanxi">
+                  <span class="border-text">我们的 关系</span>
+                </a>
+              </li>
+              <li class="intro-left-v animated-fast3 fadeIn">
+                <a class="border_link" href="why_us.html#recognitions">
+                  <span class="border-text">荣誉榜</span>
+                </a>
+              </li>
+              <li class="intro-left-v animated-fast4 fadeIn">
+                <a class="border_link" href="why_us.html#brochure">
+                  <span class="border-text">宣传手册</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="">
+          <a data-menuanchor="crossing_cultures" class="sidenav_link china-menu" href="index.html#crossing_cultures" style="width: 0;">
+            CROSSING&nbsp;CULTURES
+          </a>
+          <div class="main-submenu">
+            <ul id="crossing_cultures-id" class="crossing_cultures-submenu color-green" style="display: none;">
+               <li class="intro-left-v animated-fast2 fadeIn">
+                  <a class="border_link" href="crossing_cultures.html#raq">
+                    <span class="border-text">絮语&nbsp;有问</span>
+                  </a>
+                </li>
+                <li class="intro-left-v animated-fast3 fadeIn">
+                  <a class="border_link" href="crossing_cultures.html#useful_resources">
+                    <span class="border-text">实用&nbsp;资源</span>
+                  </a>
+                </li>
+            </ul>
+          </div>
+        </div>
+        <a class="sidenav_link contact-menu" href="connect_with_us.html" style="width: 0;">
+          联系&nbsp;我们
+        </a>
+      </div>
+      <div class="color-green" id="menu-footer">
+        <div class="menu-footer_content">2017 黎涛（上海）商务服务有限公司 版权所有 <a href="mailto:labas@litao.lt">labas@litao.lt</a>
+        </div>
+      </div>
+    </div>
+
+
+   <div class="header-lang nav">
+      <div class="row">
+        <div class="header-lang-item nav-item col-xs-6">
+          <a href="#" title="LITAO" class="header-lang-link nav-link " data-page="">
+            <span class="header-lang-text">CH</span>
+          </a>
+        </div>
+        <div class="header-lang-item  nav-item col-xs-6">
+          <a href="#" title="LITAO" class="header-lang-link nav-link active" data-page="">
+            <span class="header-lang-text">EN</span>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="header-lang-item  nav-item offset-xs-6">
+          <a href="#" title="LITAO" class="header-lang-link nav-link" data-page="">
+            <span class="header-lang-text">LT</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+  <div class="container-fluid page_id" id="why_us_id">
+    <div class=" hidden-sm-down side-border color-green">
+      <div class="logo-white-round">
+        <a href="index.html#home">
+          <img src="icons_logo/logo-white-round.png">
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-1" id="why_us-navigation" role='navigation'>
+        <ul class="nav submenu" role="tablist">
+          <li class="intro-left-v nav-item">
+            <a class="nav-link rotated-links " href="index.html#why_us">
+              <span class="border-text">介绍</span>
+            </a>
+          </li>
+          <li class="intro-left-v nav-item">
+            <a class="nav-link rotated-links  active" href="#experience_litao">
+              <span class="border-text">体验 黎涛</span>
+            </a>
+          </li>
+          <li class="intro-left-v nav-itemnav-item">
+            <a class="nav-link rotated-links " href="#our_guanxi">
+              <span class="border-text">我们的 关系</span>
+            </a>
+          </li>
+          <li class="intro-left-v nav-item">
+            <a class="nav-link rotated-links  " href="#recognitions">
+              <span class="border-text">荣誉榜</span>
+            </a>
+          </li>
+          <li class="intro-left-v nav-item">
+            <a class="nav-link rotated-links  " href="#brochure">
+              <span class="border-text">宣传手册</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-xs-11 col-md-10">
+        <div class="section"  id="experience_litao">
+          <div class="row">
+            <div class="col-md-6 col-xs-12">
+              <h3 class="text-uppercase level2-main-title">
+                体验 <br> 黎涛
+              </h3>
+            </div>
+            <div class="col-md-6">
+              <img src="home-images/why_us/experience/experience-litao.jpg" alt="" class="img-fluid  main-image mobile">
+            </div>
+          </div>
+          <div class="row experience_litao-intro-margin">
+            <div class="col-md-6">
+              <p class="title color-red">
+                为什么选择我们？
+              </p>
+              <span class="break"></span>
+              <p class="experience_litao-content">
+                我们不仅提供咨询。我们拥有经验丰富、年轻有为的国际专家。<br>
+ 我们是勇于超越的商务人士。
+              </p>
+              <span class="break"></span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <p class="title color-red">
+                我们用实际行动证明。
+              </p>
+              <span class="break"></span>
+              <p class="experience_litao-content">
+               与绝大多数入市咨询不同，我们不仅向客户提供策略；而且执行我们的建议，从行政事务到HR项目，再到质量监控等等。广泛的调研和高频率的内部会议将解放您的双手，让您的业务更无后顾之忧。咨询通常是提供策略，而不介入行动，但是黎涛深度思考，广泛实践，相信经验的力量。
+              </p>
+              <span class="break"></span>
+              <p class="title color-red">
+                 我们拥有国际化的团队。
+              </p>
+              <span class="break"></span>
+              <p class="experience_litao-content">
+                 我们的团队成员均是接受国外教育的中国人或中国教育的外国人，均有丰富的跨文化经历。所以，我们像中国人一样了解中国，又能以西方逻辑思考问题，回答那些文化不同导致常识无法解释的问题。
+              </p>
+              <span class="break"></span>
+              <p class="title color-red">
+               诚信正直，而不骄傲自负。
+              </p>
+              <span class="break"></span>
+              <p class="experience_litao-content">
+                知之为知之，不知为不知。在我们不熟悉的领域，我们会推荐专家。在客户不适合进入中国市场的情况下，我们总会道明依据和信息来源。
+              </p>
+              <span class="break"></span>
+            </div>
+            <div class="col-md-6">
+              <p class="title color-red">
+                我们热爱工作。
+              </p>
+              <span class="break"></span>
+              <p class="experience_litao-content">
+            薪水和八小时工作制不是我们工作的考量标准。这是上一代，大企业年代人们的追求。现代社会是年轻、规模小、适应性强人群的天下。工作基于人际关系和才智，而非年资。
+                <span class="break"></span>
+                我们没有巨大的企业组织性开销，客户的钱将被直接投入执行决策中。轻小成就了新晋的成功企业。
+                <span class="break"></span>
+                我们崇尚创新，明确最高效的工作方式——因为黎涛不仅是一份工作，更是一种生活方式。
+              </p>
+              <span class="break"></span>
+              <p class="title color-red">
+                那么，为什么选择我们?
+              </p>
+              <span class="break"></span>
+              <p class="experience_litao-content">
+               长年累月，我们将现代知识和传统文化结合在一起，这一结合使得我们在中国稳定发展。只有知道如何更好的运作，才能收获理想的回报。让我们和你一起成长。
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="level2-titles-box-margin" >
+                <div class="level2-titles-box">
+                  <img class="level2-titles-box-line" src="home-images/about_us/black_title_line.png" alt="">
+                    <img class="level2-titles-box-pic-square" src="home-images/about_us/green-rectangle.png" alt="">
+                  <h4 class="text-uppercase level2-titles">
+                    故事：两个公司，不同命运
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <p class="title color-red">
+                情景：孤军奋战
+              </p> <br><br>
+              <p class="experience_litao-content">
+                老外托马斯怀揣梦想，想要销售自己的产品。中国自然成了他理想中完美的市场：充满渴望，欲望都市，还有一大摞有钱的消费者。
+                <span class="break"></span>
+                于是小托把通讯录翻了几遍，找到了几个中国朋友。他们告诉小托：“没错儿，没错儿，中国是充满了机会的地方。”朋友们还跟小托保证，要介绍自己的好友给他谈业务。于是小托勒着啤酒肚坐了八小时飞机，终于怀揣着自己的小确幸降落北京机场。
+                <span class="break"></span>
+                小托和中国老板们见了面，一些是潜在的客户，一些是合作伙伴，都是黑眼睛黑头发，地地道道的中国人。老板们给小托备了一位翻译小姐，小托心里非常温暖。于是小托简明的介绍了自己的产品，翻译小姐更加简明的介绍了他的产品。整个过程，老板们点点头，笑笑，又点点头，笑笑。
+              </p>
+              <span class="break"></span>
+            </div>
+            <div class="col-md-6">
+              <p class="experience_litao-content add_padding">
+                托马斯发言结束后，老板们要开始发言了。他战战兢兢，深吸一口气，但还没等吸完，老板们就异口同声的开了腔：“太贵啦。”说完以后，小托时间宣告结束。
+                <span class="break"></span>
+               走前老板们还是说说笑笑，点点头。当然啦，跟外国人打交道，礼貌是很重要的，至少老板的朋友们都是这么讲的。不过，这可不是真理。
+                <span class="break"></span>
+                中国市场不仅仅是一扇开着的门，而是一扇会回转的门，千千万万个托马斯来过，千千万万个托马斯无功而返。你又是否不同呢？
+              </p>
+              <span class="break"></span>
+            </div>
+          </div>
+          <div class="row">
+            <span class="break"></span>
+            <div class="col-md-6">
+              <p class="title color-red">
+                情景：黎涛来了
+              </p>
+              <br><br>
+              <p class="experience_litao-content_break">
+                托马斯是一个心怀梦想的人。当然，在他心里中国是一个充满了可能性的地方。
+                <span class="break"></span>
+                 不过托马斯来到中国以前，黎涛要确认他是否准备好了。
+                <span class="break"></span>
+                为了帮托马斯找到答案，要明确四个关键问题：
+              </p>
+              <ul class="experience_litao-list">
+                <li>
+                  <span class="li-content"> —想要达成什么目标？
+                  </span>
+                </li>
+                <li>
+                  <span class="li-content">—谁可以帮助你达成？
+                  </span>
+                </li>
+                <li>
+                  <span class="li-content">—你如何说服别人帮你达成？
+                  </span>
+                </li>
+                <li>
+                  <span class="li-content"> —如何建立信任？</span>
+                </li>
+              </ul>
+              <span class="break"></span>
+              <p class="experience_litao-content">
+                 现在托马斯弄清了对方是谁，如何和他们打交道，为什么现在要来，依靠什么可以真正进行销售，并且说服别人。建立在稀有的大数据基础上，我们帮助托马斯进行了市场调查，通过我们的社交网络将托马斯和配对的企业联系到一起。
+                <span class="break"></span>
+               当托马斯来到中国的时候，我们已经明确了产品的营销定位：不打价格战，要跻身品质市场。我们向相关的经销商、生产商和合作伙伴介绍了托马斯，这些人对他的产品感兴趣，并专注于相关市场，托马斯知道了他们是谁，进行会议的时候再也不是和利益不同的陌生人打交道了。
+                <span class="break"></span>
+                 坐在飞机上，托马斯惬意的将笔记本电脑放到小桌板上，复习着我们帮助准备的PPT，反刍基于广泛市场调查所得出的重点。
+              </p>
+              <span class="break"></span>
+              <span class="break"></span>
+            </div>
+            <div class="col-md-6">
+              <img class="img-fluid mobile content-image" src="home-images/why_us/experience/a_tale.jpg" alt="">
+              <p class="experience_litao-content">
+                 当托马斯和潜在投资者还有合作伙伴见面的时，他拥有的已经不仅是一个产品和一个愿景这么简单了，他的一切发言都有了数据支持。托马斯现在知道，国外企业和中国企业打价格战是永远没希望的，但这里的消费者对精品有着需求。托马斯向房间里的所有人销售了这些信息。
+                <span class="break"></span>
+                 我们作为托马斯的口译员，陪同参与了面谈。整个过程中，我们在托马斯耳边仔细解释着会议内容巧妙的意义，当我们为托马斯发声的时候，我们始终站在他的利益面上进行表述。
+                <span class="break"></span>
+                当托马斯结束发言，老板们还是笑着点头，但“太贵啦”始终没有出现在对话中。托马斯现在站在了不同的高度，因为老板们早就已经发现，托马斯是那个值得合作的人了。他们相信黎涛的历史，会面也不过只是走一走程序。
+                <span class="break"></span>
+                 托马斯是一个心怀梦想的人，现在，他终于开始筑梦了。
+                <span class="break"></span>
+                我们从不浪费时间，不承诺一定可以达成你的所有期许，但承诺清晰的思维，借此，让你决定下一步是否正确。
+              </p>
+              <span class="break"></span>
+              <span class="break"></span>
+            </div>
+          </div>
+        </div>
+        <div class="section" id="our_guanxi">
+          <div class="row">
+            <div class="col-md-6 col-xs-12">
+              <h3 class="text-uppercase level2-main-title">
+                我们的 <br>关系
+              </h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <p class="guanxi-explanation">
+              <span class="color-red guanxi-characters"> 关系</span><br>
+                <span class="color-red guanxi_noun"><b>(gwæn’si)</b></span>
+                <span class="break"></span>
+                在中国，很多关系基于互相帮忙，私人关系有时候可以通融合同或协议内容，办事也因此便利的多。
+                <span class="break"></span>
+                <!-- <span class="color-red text-reference">Collins English Dictionary – Complete<br>
+                and Unabridged, 12th Edition 2014</span> -->
+              </p>
+            </div>
+            <div class="col-md-6">
+              <img src="home-images/why_us/guanxi.jpg" alt="main guanxi picture" class="main-image img-fluid mobile">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <p class="title">我们时常告诉外国友人，如果你不知道什么是关系，那可不能说是真的了解中国。
+              </p>
+              <br><br>
+              <p class="our_guanxi-content">
+               中文里的关系意味着人际联系，但却超过人际联系：关系是不可言喻的人际网络，互相认识的人因为关系而互相帮助，坦诚相待，有时候要是没有关系，一些大门是绝对打不开的。当你遇到困难需要解决的时候，“我认识那儿的谁谁谁”可是一句最美妙的句子。
+              </p>
+            </div>
+            <div class="col-md-6">
+            <span class="padding-from-top_98"></span>
+              <p class="our_guanxi-content">
+               黎涛的关系包括了来自不同领域，现在和从前的客户、同事、公务员、专家、网络红人、顾问和指导学生：我们服务过的，互相学习的，交了朋友的人。我们感激他们的专业分享
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="level2-titles-box-margin" >
+                  <div class="">
+                    <img class="level2-titles-box-line" src="home-images/about_us/black_title_line.png" alt="">
+                    <h4 class="text-uppercase level2-titles"> 他们信任黎涛
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row company-grid">
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="home-images/why_us/siemens.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">Carlos Gallegos
+                    </p>
+                    <p class="card-text">
+                      首席采购, <br>
+                      风能
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="home-images/why_us/jacobs.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Bernd Kuehne
+                    </p>
+                    <p class="card-text">
+                      总裁
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="home-images/why_us/vici.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Dmitrij Bogatko
+                    </p>
+                    <p class="card-text">
+                      R区域销售总监
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top"  src="home-images/why_us/achema.png"  alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Rytis Budrius
+                    </p>
+                    <p class="card-text">
+                      高级法律顾问
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="home-images/why_us/professor.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      潘忠岐
+                    </p>
+                    <p class="card-text">
+                      国际关系与公共事务教授, <br>
+                      SIRPA
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="home-images/why_us/gll.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Kotryna Stankute
+                    </p>
+                    <p class="card-text">
+                      总监
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="home-images/why_us/zabolis.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Guido Wolf
+                    </p>
+                    <p class="card-text">
+                      总监 <br>
+                      团队发展
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="home-images/why_us/melt.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Aiva Jokubauskaite
+                    </p>
+                    <p class="card-text">
+                      首席出口&销售
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="home-images/why_us/vershold.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Paulo Carvalho
+                    </p>
+                    <p class="card-text">
+                      管理总监
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="home-images/why_us/baltic.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Simonas Petrulis
+                    </p>
+                    <p class="card-text">
+                      总裁
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="home-images/why_us/iq.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Ovidijus Lukosius
+                    </p>
+                    <p class="card-text">
+                     总编辑
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="home-images/why_us/lpk.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Zilvinas Abaravicius
+                    </p>
+                    <p class="card-text">
+                      执行总监
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="home-images/why_us/vuni.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Vytis Silius
+                    </p>
+                    <p class="card-text">
+                      总监<br>
+                     东方研究中心
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="home-images/why_us/liquid.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Karolis Brazys
+                    </p>
+                    <p class="card-text">
+                      创始人
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="home-images/why_us/mains.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Simon de Raadt
+                    </p>
+                    <p class="card-text">
+                      总裁
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="home-images/why_us/juliet.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      David Perez
+                    </p>
+                    <p class="card-text">
+                      商务总监
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="home-images/why_us/lit.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Tomas Valauskas
+                    </p>
+                    <p class="card-text">
+                      创始人
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="home-images/why_us/gold.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Leo Chu
+                    </p>
+                    <p class="card-text">
+                      总监
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="home-images/why_us/linearis.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Agnes Sturmane
+                    </p>
+                    <p class="card-text">
+                      项目经理
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="home-images/why_us/nikolay.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Nikolay Piriankov
+                    </p>
+                    <p class="card-text">
+                      总裁
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="home-images/why_us/reach.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Helen Ye
+                    </p>
+                    <p class="card-text">
+                      副总监
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="home-images/why_us/kadence.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Vivek Thomas
+                    </p>
+                    <p class="card-text">
+                      管理总监
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                  <img class="card-img-top" src="home-images/why_us/cancham.png" alt="Card image cap">
+                  <div class="card-block">
+                    <p class="card-title">
+                      Rebecca Copelovici
+                    </p>
+                    <p class="card-text">
+                      创始人
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+              <span class="break"></span>
+                <p class="our_guanxi-content">
+                  中国商务的生态系统建立于可靠的关系上，所有的事几乎都要用到关系。培养关系需要花上数年的时间——但通过和黎涛合作，我们的朋友也会成为你的朋友。
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="section"  id="recognitions">
+          <div class="row">
+            <div class="col-md-6 col-xs-12">
+              <h4 class="text-uppercase level2-main-title">
+                荣誉榜
+              </h4>
+            </div>
+            <div class="col-md-6">
+              <img src="home-images/why_us/publication/r-main.jpg" alt="main image" class="img-fluid main-image mobile">
+            </div>
+          </div>
+          <div class="row publication-intro-margin">
+            <div class="col-md-6">
+              <p class="publication-intro-content">
+               自己拥有知识是一方面，而专业则是能够向别人传递和解释知识。<br><br>
+               多年以来，黎涛将在中国的文化和商务经验注入了短评、访谈和宣讲中。我们十分荣幸能有机会通过英语、中文和立陶宛语媒体平台和学术会议传递我们的见解，现在，我们也希望能和你分析。
+             </p>
+           </div>
+         </div>
+         <div class="lithuanian-section">
+          <div class="row">
+           <div class="publication-section">
+            <div class="level2-titles-box-margin" >
+             <div class="level2-titles-box">
+              <img class="level2-titles-box-line" src="home-images/about_us/black_title_line.png" alt="">
+              <h4 class="text-uppercase level2-titles">
+               立陶宛语发布
+             </h4>
+           </div>
+         </div>
+       </div>
+     </div>
+     <div class="row">
+       <div class="publication">
+        <div class="publication_title">
+         <div class="mobile_collapse" data-toggle="collapse" data-target="#p1" >
+          <h4>一个立陶宛人的上海印象：这里能创造你想要的生活。</h4>
+          <span class="collapsable_plus color-red hidden-md-up">+</span>
+        </div>
+        <div class="publication_subtitle">
+          <h5 class="hidden-sm-down">Kamilė Baubinaitė 编辑, delfi.lt新闻网站公民板块</h5>
+          <div class="publication_content">
+           <div class="hidden-sm-down publication_image">
+            <img class="img-fluid" src="home-images/why_us/publication/11.png" alt="">
+          </div>
+          <p id="p1" class="collapse">
+            立陶宛新闻网站Delfi在2012年发现了莉娜的文章，并开始长期发布她对上海和中国的见解文章。作为在读研究生，莉娜将国际大都市上海描写的绘声绘色——世界上的梦想家和企业家都汇集于此。此篇文章排差求同，印证了在独特历史和政治背景下的立陶宛，其实比大家想象的要和中国更加相似。比起美国和其他西方国家，这种相似让立陶宛人到中国去做生意有了优势。
+          </p>
+          <div class="publication_link hidden-sm-down">
+            <a href="http://www.delfi.lt/news/daily/emigrants/lietuves-ispudziai-is-sanchajaus-cia-gali-susikurti-toki-gyvenima-kurio-tau-paciam-norisi.d?id=59244911" target="blank">阅读更多</a>
+          </div>
+          <div class="publication_date hidden-sm-down">
+            <date>2012年10月4日</date>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+ <div class="publication">
+  <div class="publication_title">
+   <div class="mobile_collapse" data-toggle="collapse" data-target="#p2" >
+    <h4>比价格更重要的是什么？</h4>
+    <span class="collapsable_plus color-red hidden-md-up">+</span>
+  </div>
+  <div class="publication_subtitle">
+    <h5 class="hidden-sm-down">IQ杂志，时政板块</h5>
+    <div class="publication_content clearfix">
+     <div class="hidden-sm-down publication_image">
+      <img class="img-fluid" src="home-images/why_us/publication/12.png" alt="">
+    </div>
+    <p id="p2" class="collapse">
+     除了数据和展示形式以外，中国人选择做生意的对象还有很多别的因素。他们会根据朋友推荐和人品印象来挑选合作伙伴。和中国人做生意，比价格优势更重要的是尊重，并且注意他们讲究的地方。
+    </p>
+    <div class="publication_link hidden-sm-down">
+      <a href="https://www.naujienos.lt/leidinys/iq/demesys-svarbiau-uz-kaina/" target="blank">阅读更多
+      </a>
+    </div>
+    <div class="publication_date hidden-sm-down">
+      <date>2016年3月30日</date>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+ <div class="publication">
+  <div class="publication_title">
+   <div class="mobile_collapse" data-toggle="collapse" data-target="#p3" >
+    <h4>对中国股市的直接观感</h4>
+    <span class="collapsable_plus color-red hidden-md-up">+</span>
+  </div>
+  <div class="publication_subtitle">
+    <h5 class="hidden-sm-down">白莉娜编辑，www.balticAsia.lt</h5>
+    <div class="publication_content clearfix">
+     <div class="hidden-sm-down publication_image">
+      <img class="img-fluid" src="home-images/why_us/publication/13.png" alt="">
+    </div>
+    <p id="p3" class="collapse">
+      2016年中国股市暴跌，一家立陶宛发布商邀请Lina撰写了一篇解释性文章。通过采访证券经纪人，解释了基于中国民众心理特征所造成的市场不稳定性：喜欢赌博，但由于不合法，就买股票作为替代。
+    </p>
+    <div class="publication_link hidden-sm-down">
+      <a href="http://www.balticasia.lt/uncategorized/akciju-birza-kinijoje-pirmu-lupu/" target="blank">阅读更多
+      </a>
+    </div>
+    <div class="publication_date hidden-sm-down">
+      <date>2016年</date>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+ <div class="publication">
+  <div class="publication_title">
+   <div class="mobile_collapse" data-toggle="collapse" data-target="#p4" >
+    <h4>一个多样的国家</h4>
+    <span class="collapsable_plus color-red hidden-md-up">+</span>
+  </div>
+  <div class="publication_subtitle">
+    <h5 class="hidden-sm-down">白莉娜编辑, Veidas</h5>
+    <div class="publication_content clearfix">
+     <div class="hidden-sm-down publication_image">
+      <img class="img-fluid" src="home-images/why_us/publication/14.png" alt="">
+    </div>
+    <p id="p4" class="collapse">
+      中国不仅有长城、紫禁城、和北京烤鸭。光北京，就代表了远超这些东西。十三亿人口，31个省市，不仅富裕，而且多样。发达的沿海大都市林立着高耸入云的建筑群；历史悠久的城村里矗立着古老的石头城墙；正在开发的内陆地区也充斥着野性的美丽。中国，是传统的，是摩登的，唯独不是静止的。
+    </p>
+    <div class="publication_link hidden-sm-down">
+      <a href="http://www.veidas.lt/kinija-milziniska- ivairialype-ir- ne-visada- suprantama" target="blank">阅读更多
+      </a>
+    </div>
+    <div class="publication_date hidden-sm-down">
+      <date>2013年11月3日</date>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+ <div class="publication">
+  <div class="publication_title">
+   <div class="mobile_collapse" data-toggle="collapse" data-target="#p5" >
+    <h4>漫步上海</h4>
+    <span class="collapsable_plus color-red hidden-md-up">+</span>
+  </div>
+  <div class="publication_subtitle">
+    <h5 class="hidden-sm-down">白莉娜, Quovadis旅行社</h5>
+    <div class="publication_content clearfix">
+     <div class="hidden-sm-down publication_image">
+      <img class="img-fluid" src="home-images/why_us/publication/15.png" alt="">
+    </div>
+    <p id="p5" class="collapse">
+   莉娜描绘了一次在上海摩登大道和古典小巷间漫步的经历，颠覆了她作为一个普通欧洲女孩原本的观感。五年时间还不够真正了解这个城市——也许一辈子也不够。这座城市每天都在改变，大大小小，不可预测。上海是东方和西方，过去与未来的结合，对比与折中共存的地方。这里的每个人都心怀着未来，寻找着自己的安生立命之处。
+    </p>
+    <div class="publication_link hidden-sm-down">
+      <a href="http://quovadis.lt/lt/kelioniu-naujienos/pasivaiksciojimas-sanchajuje/" target="blank">阅读更多
+      </a>
+    </div>
+    <div class="publication_date hidden-sm-down">
+      <date>2014</date>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+ <div class="publication">
+  <div class="publication_title">
+   <div class="mobile_collapse" data-toggle="collapse" data-target="#p6" >
+    <h4>揭秘中国</h4>
+    <span class="collapsable_plus color-red hidden-md-up">+</span>
+  </div>
+  <div class="publication_subtitle">
+    <h5 class="hidden-sm-down">Ieva Varkojytė 编写, Laikas.lt</h5>
+    <div class="publication_content clearfix">
+     <div class="hidden-sm-down publication_image">
+      <img class="img-fluid" src="home-images/why_us/publication/16.png" alt="">
+    </div>
+    <p id="p6" class="collapse">
+      要定义一个“典型的中国人”是非常难的。中国每天都在变化，因此人们也不停在改变。中国人乐观勤劳，对外国人既好奇又有善，让Lina非常钦佩。中国的经济政策系统在现在和过去都是独一无二的，和其他共产主义国家不同。这不是一个极权主义的国家——这种刻板映象是要消除的。商人可以入党，而在其他共产主义国家是决不允许的。
+    </p>
+    <div class="publication_link hidden-sm-down">
+      <a href="http://laikas.tv3.lt/lt/info/7698/sanchajuje-gyvenanti-lina-zavisi-kinu-nuosirdumu-foto-interviu/" target="blank">
+阅读更多
+     </a>
+   </div>
+   <div class="publication_date hidden-sm-down">
+    <date>2012年10月4日</date>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+ <div class="publication">
+  <div class="publication_title">
+   <div class="mobile_collapse" data-toggle="collapse" data-target="#p7" >
+    <h4>立陶宛政府荣誉优秀毕业生</h4>
+    <span class="collapsable_plus color-red hidden-md-up">+</span>
+  </div>
+  <div class="publication_subtitle">
+    <h5 class="hidden-sm-down">Giedrė Petkevičiūtė 编写, Vakarų Ekspresas</h5>
+    <div class="publication_content clearfix">
+     <div class="hidden-sm-down publication_image">
+      <img class="img-fluid" src="home-images/why_us/publication/17.jpg" alt="">
+    </div>
+    <p id="p7" class="collapse">
+      2006年，立陶宛政府认证了十一名高考分数最高的高中生，莉娜也在其中。
+    </p>
+    <div class="publication_link hidden-sm-down">
+      <a href="http://www.ve.lt/naujienos/lietuva/lietuvos-naujienos/vyriausybeje-pagerbti-simtukininkai-401584/" target="blank">阅读更多</a>
+    </div>
+    <div class="publication_date hidden-sm-down">
+      <date>2006年7月13日</date>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+ <div class="publication">
+  <div class="publication_title">
+   <div class="mobile_collapse" data-toggle="collapse" data-target="#p8" >
+    <h4>吉时，醒悟</h4>
+    <span class="collapsable_plus color-red hidden-md-up">+</span>
+  </div>
+  <div class="publication_subtitle">
+    <h5 class="hidden-sm-down">Ignas Krasauskas 编写, IQ杂志</h5>
+    <div class="publication_content clearfix">
+     <div class="hidden-sm-down publication_image">
+      <img class="img-fluid" src="home-images/why_us/publication/18.jpg" alt="">
+    </div>
+    <p id="p8" class="collapse">
+  在中国生活了7年并且开了自己的公司，Lina表示中国目前人才稀缺，需要懂得国际形式的外国人才。来到中国的外国人应该要带着敬意：Lina的一些国外客户总是会说中方有过错，或者根本不能理解他们。这样的态度当然是不能成功的。中国人和外国人的确不同，但是平等的，外国人不应该有优越感。
+    </p>
+    <div class="publication_link hidden-sm-down">
+      <a href="http://iq.notyet.live/tema/anksti-keles-nesigailesi-2" target="blank">阅读更多
+      </a>
+    </div>
+    <div class="publication_date hidden-sm-down">
+      <date>2006年7月13日</date>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+ <div class="publication">
+  <div class="publication_title">
+   <div class="mobile_collapse" data-toggle="collapse" data-target="#p9" >
+    <h4>来自东方的一封信</h4>
+    <span class="collapsable_plus color-red hidden-md-up">+</span>
+  </div>
+  <div class="publication_subtitle">
+    <h5 class="hidden-sm-down">Greta Tikužytė 编辑, Citadelė ——维尔纽斯大学校刊</h5>
+    <div class="publication_content clearfix">
+     <div class="hidden-sm-down publication_image">
+      <img class="img-fluid" src="home-images/why_us/publication/19.png" alt="">
+    </div>
+    <p id="p9" class="collapse">
+      东方异域，是西方人自己创造的一个概念。作为游客到中国旅游的确会感受到强烈的异国情调，但你若是真正和这里的人们交流的话，会发现东方和西方并没有这么大的区分。Lina认为21世纪的上海是不同的，但不是异域的。
+    </p>
+    <div class="publication_link hidden-sm-down">
+      <a href="http://www.flf.vu.lt/naujienos/bendros-naujienos/1175-citadele-nr-9" target="blank">阅读更多
+      </a>
+    </div>
+    <div class="publication_date hidden-sm-down">
+      <date>2012年10月4日</date>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="english-section">
+  <div class="row">
+   <div class="publication-section">
+    <div class="level2-titles-box-margin" >
+     <div class="level2-titles-box">
+      <img class="level2-titles-box-line" src="home-images/about_us/black_title_line.png" alt="">
+      <h4 class="text-uppercase level2-titles">
+       英语发布
+     </h4>
+   </div>
+ </div>
+</div>
+</div>
+<div class="row">
+ <div class="publication">
+  <div class="publication_title">
+   <div class="mobile_collapse" data-toggle="collapse" data-target="#p10" >
+    <h4>儒教和女权</h4>
+    <span class="collapsable_plus color-red hidden-md-up">+</span>
+  </div>
+  <div class="publication_subtitle">
+    <h5 class="hidden-sm-down">白莉娜, Global Times采访</h5>
+    <div class="publication_content clearfix">
+     <div class="hidden-sm-down publication_image">
+      <img class="img-fluid" src="home-images/why_us/publication/21.jpg" alt="">
+    </div>
+    <p id="p10" class="collapse">
+      在中国进行女权主义研究时，莉娜发现虽然对于女权的意识仍然较弱，但儒家提供了一个有趣的文化背景。在儒家思想中，男人和女人本质上就不同，由于无论怎么样区别都很明显，所以没有必要区分性别角色。由于本质不同，就根本无法比较，因此也不用争取平等。在中国，不同的角色会有内在矛盾：私底下女人是家里的头目，但在外面就得让丈夫做一家之主。在中国，女权主义，和其他事物一样，都在不停改变。
+    </p>
+    <div class="publication_link hidden-sm-down">
+      <a href="http://gbtimes.com/life/looking-future-womens-rights-china" target="blank">阅读更多
+      </a>
+    </div>
+    <div class="publication_date hidden-sm-down">
+      <date>2012</date>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+ <div class="publication">
+  <div class="publication_title">
+   <div class="mobile_collapse" data-toggle="collapse" data-target="#p11" >
+    <h4>立陶宛人在上海</h4>
+    <span class="collapsable_plus color-red hidden-md-up">+</span>
+  </div>
+  <div class="publication_subtitle">
+    <h5 class="hidden-sm-down">Zhang Ru 编辑, CRI英语播客</h5>
+    <div class="publication_content clearfix">
+     <div class="hidden-sm-down publication_image">
+      <img class="img-fluid" src="home-images/why_us/publication/22.png" alt="">
+    </div>
+    <p id="p11" class="collapse">
+     Expat Tales 采访了莉娜，她分享了如何在上海定居，还有在上海世博馆作为中文、英文、立陶宛语和俄罗斯语口译员工作的经验。
+    </p>
+    <div class="publication_link hidden-sm-down">
+      <a href="http://english.cri.cn/8706/2010/12/08/2661s609142.htm" target="blank">阅读更多
+      </a>
+    </div>
+    <div class="publication_date hidden-sm-down">
+      <date>2016年三月30日</date>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="chinese-section">
+  <div class="row">
+   <div class="publication-section">
+    <div class="level2-titles-box-margin" >
+     <div class="level2-titles-box">
+      <img class="level2-titles-box-line" src="home-images/about_us/black_title_line.png" alt="">
+      <h4 class="text-uppercase level2-titles">
+       中文发布
+     </h4>
+   </div>
+ </div>
+</div>
+</div>
+<div class="row">
+ <div class="publication">
+  <div class="publication_title">
+   <div class="mobile_collapse" data-toggle="collapse" data-target="#p12" >
+    <h4>中国媒体公共外交现状与对策探析</h4>
+    <span class="collapsable_plus color-red hidden-md-up">+</span>
+  </div>
+  <div class="publication_subtitle">
+    <h5 class="hidden-sm-down">白莉娜, 中国报业</h5>
+    <div class="publication_content clearfix">
+     <div class="hidden-sm-down publication_image">
+      <img class="img-fluid" src="home-images/why_us/publication/31.png" alt="">
+    </div>
+    <p id="p12" class="collapse">
+    近些年来，随着中国公共外交发展迅速加快，对中国媒体的要求也越来越高，加之中国媒体影响、辐射能力迅速增强，能为公共外交提供更有效的推动力。但不容忽视的是，当前中国媒体公共外交现状同预期仍存在较大差距。本文从公共外交视角出发，就当前中国媒体现状进行探讨，并就所存在的问题提出对策。
+    </p>
+    <div class="publication_link hidden-sm-down">
+      <a href="http://www.cnki.com.cn/Article/CJFDTotal-ZGBT201606009.htm" target="blank">阅读更多
+      </a>
+    </div>
+    <div class="publication_date hidden-sm-down">
+      <date>2016年3月</date>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+ <div class="publication">
+  <div class="publication_title">
+   <div class="mobile_collapse" data-toggle="collapse" data-target="#p13" >
+    <h4>观点：中国需要更多样化的教育</h4>
+    <span class="collapsable_plus color-red hidden-md-up">+</span>
+  </div>
+  <div class="publication_subtitle">
+   <h5 class="hidden-sm-down">白莉娜, 环球时报</h5>
+   <div class="publication_content clearfix">
+     <div class="hidden-sm-down publication_image">
+      <img class="img-fluid" src="home-images/why_us/publication/32.png" alt="">
+    </div>
+    <p id="p13" class="collapse">
+      作为中国顶级大学复旦大学学生，Lina提出了对于下届人大会议和人民政协会议的教育议题期望。她希望中国的教育方式能更加多样化。
+    </p>
+    <div class="publication_link hidden-sm-down">
+      <a href="http://roll.sohu.com/20130304/n367723758.shtml" target="blank">阅读更多
+      </a>
+    </div>
+    <div class="publication_date hidden-sm-down">
+      <date>2013年3月4日</date>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="conferences-section">
+  <div class="row">
+   <div class="publication-section">
+    <div class="level2-titles-box-margin" >
+     <div class="level2-titles-box">
+      <img class="level2-titles-box-line" src="home-images/about_us/black_title_line.png" alt="">
+      <h4 class="text-uppercase level2-titles">
+       会议&电视节目
+     </h4>
+   </div>
+ </div>
+</div>
+</div>
+<div class="row">
+ <div class="publication">
+  <div class="publication_title">
+   <div class="mobile_collapse" data-toggle="collapse" data-target="#p14" >
+    <h4>2015年维尔纽斯大学讨论会：东方风俗，殖民思考，和前苏联边陲活动。
+   </h4>
+   <span class="collapsable_plus color-red hidden-md-up">+</span>
+ </div>
+ <div class="publication_subtitle">
+  <h5 class="hidden-sm-down">Vilnius University
+  </h5>
+  <div class="publication_content clearfix">
+   <div class="hidden-sm-down publication_image">
+    <img class="img-fluid" src="home-images/why_us/publication/41.jpg" alt="">
+  </div>
+  <p id="p14" class="collapse">
+   会议探索了后殖民主义和前苏联国家的身份角色。莉娜受邀提供中国视角中前苏联国家形象认识；她也就重塑立陶宛作为独立政治体在中国重新推广的障碍作了发言。
+  </p>
+  <div class="publication_link hidden-sm-down">
+    <a href="https://theotherorient.files.wordpress.com/2015/08/orientalism-conference-latest-programme-with-maps1.pdf" target="blank">阅读更多</a>
+  </div>
+  <div class="publication_date hidden-sm-down">
+    <date>2015年八月27-29日</date>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+ <div class="publication">
+  <div class="publication_title">
+   <div class="mobile_collapse" data-toggle="collapse" data-target="#p15" >
+    <h4>
+     2016 IQ 杂志会议: 西方的力量
+   </h4>
+   <span class="collapsable_plus color-red hidden-md-up">+</span>
+ </div>
+ <div class="publication_subtitle">
+  <h5 class="hidden-sm-down">
+   时政专区, IQ 杂志
+ </h5>
+ <div class="publication_content clearfix">
+   <div class="hidden-sm-down publication_image">
+    <img class="img-fluid" src="home-images/why_us/publication/42.png" alt="">
+  </div>
+  <p id="p15" class="collapse">
+    2016年，IQ杂志（立陶宛的“经济学家”）邀请莉娜为论坛上对中国前景感兴趣的人群演讲。Lina就立陶宛和中国的经济外交和相应影响做出发言，也谈到了如何和中国人共事，提出西方策略并不总是有效。例如，在西方，做生意是先签合同后决定是否交朋友；在中国，则完全相反。
+  </p>
+  <div class="publication_link hidden-sm-down">
+    <a href="https://www.naujienos.lt/leidinys/iq/vakaru-galia-ambicijos-ir-galimybes/" target="blank">阅读更多
+    </a>
+  </div>
+  <div class="publication_date hidden-sm-down">
+    <date>
+    2015年5月19日
+   </date>
+ </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="lina_c-section">
+  <div class="row">
+   <div class="publication-section">
+    <div class="level2-titles-box-margin" >
+     <div class="level2-titles-box">
+      <img class="level2-titles-box-line" src="home-images/about_us/black_title_line.png" alt="">
+      <h4 class="text-uppercase level2-titles">LINA ČIAPAITĖ 琳娜</h4>
+    </div>
+  </div>
+</div>
+</div>
+<div class="row">
+ <div class="publication">
+  <div class="publication_title">
+   <div class="mobile_collapse" data-toggle="collapse" data-target="#p16" >
+    <h4>会议: 2016使命旅行者</h4>
+      <span class="collapsable_plus color-red hidden-md-up">+</span>
+    </div>
+    <div class="publication_subtitle">
+      <h5 class="hidden-sm-down">采访琳娜, Vakarų Ekspresas</h5>
+      <div class="publication_content clearfix">
+       <div class="hidden-sm-down publication_image">
+        <img class="img-fluid" src="home-images/why_us/publication/43.png" alt="">
+      </div>
+      <p id="p16" class="collapse">
+     琳娜受邀出席“使命旅行者”颁奖典礼。通过语言和图片，她比较了中国人和立陶宛人日常生活和商务行为中的相似之处，让在座的所有人惊喜的发现两国人民比起差异，反而有更多的相同。
+      </p>
+      <div class="publication_link hidden-sm-down">
+        <a href="http://www.ve.lt/naujienos/laisvalaikis/keliones/isrinktas-kelione-su-misija-2016-nugaletojas-1513048/" target="blank">
+阅读更多
+       </a>
+     </div>
+     <div class="publication_date hidden-sm-down">
+      <date>
+       2016年12月5日
+     </date>
+   </div>
+ </div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+ <div class="publication">
+  <div class="publication_title">
+   <div class="mobile_collapse" data-toggle="collapse" data-target="#p17" >
+    <h4>
+     参与立陶宛国家电视频道摄制
+   </h4>
+   <span class="collapsable_plus color-red hidden-md-up">+</span>
+ </div>
+ <div class="publication_subtitle">
+  <h5 class="hidden-sm-down">
+  采访琳娜, 早安立陶宛
+ </h5>
+ <div class="publication_content clearfix">
+   <div class="hidden-sm-down publication_image">
+    <img class="img-fluid" src="home-images/why_us/publication/44.png" alt="">
+  </div>
+  <p id="p17" class="collapse">
+   琳娜受立陶宛国家电视频道邀请，就中国非热门观光景点进行了发言。她介绍了西藏自治区内甘孜旅游的经历，并且就西方人认为中国人对其他文化和语言不感兴趣的刻板印象进行了抨击。莉娜表示，在中国工作和旅游时，中国民众总是彬彬有礼，和善包容，不仅会为你驻足谈话，更会尽全力去帮助遇到麻烦的外国人——即使是不会说中文的外国人。
+  </p>
+  <div class="publication_link hidden-sm-down">
+    <a href="http://www.lrt.lt/mediateka/irasas/160469/paieska/%23/content/lina%2520ciapaite" target="blank">阅读更多
+    </a>
+  </div>
+  <div class="publication_date hidden-sm-down">
+    <date>
+     2017年1月20日
+   </date>
+ </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+    <div class="section"  id="brochure">
+        <div class="row">
+          <div class="col-md-6 col-xs-12">
+            <h3 class="text-uppercase level2-main-title">
+              宣传手册
+            </h3>
+          </div>
+          <div class="col-md-6">
+            <img src="home-images/why_us/brochure/main-brochure.jpg" alt="main image" class=" img-fluid main-image mobile">
+          </div>
+        </div>
+        <div class="row publication-intro-margin">
+          <div class="col-md-6">
+            <p class="publication-intro-content">
+           下载我们的宣传手册，迅速浏览黎涛的业务范围。
+             <br><br>
+             欢迎分享你所喜爱的内容：）
+           </p>
+         </div>
+       </div>
+       <div class="row folding-section">
+            <div class="folding-section_heading color-dark-green ">
+              <div class="folding-section_heading_title">
+                即将上线
+              </div>
+            </div>
+          </div>
+     </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+  <div class="container-fluid">
+    <div class="row">
+      <div class=" col-xs-11 col-md-10 offset-xs-1">
+      <div class="row">
+        <div class="col-md-6 left">
+          <p class="call-to-action"><b>和黎涛对话，收获精彩</b></p>
+          <ul>
+            <li>
+              Tel: 86-21-20520631
+            </li>
+            <li> Tel: 86-21-20520631
+            </li>
+          </ul>
+          <a href="mailto:lina@litao.lt"><button class="color-red">联系方式</button></a>
+        </div>
+        <div class="col-md-6 right">
+          <ul>
+            <li><a class="color-red" href="./about_us.html">关于我们</a></li>
+            <li><a  class="color-red" href="./our_work.html">我们的工作</a></li>
+            <li><a class="color-red" href="./why_us.html">为什么选择我们</a></li>
+            <li><a class="color-red" href="./crossing_cultures.html">跨文化</a></li>
+          </ul>
+        </div>
+        </div>
+<div class="row page-bottom">
+      <div class="col-md-6">
+        <p style="float: left;">上海环球金融中心28层，中国 </p>
+          </div>
+        <div class="col-md-6">
+         <p style="float: right;">2017 黎涛（上海）商务服务有限公司 版权所有 <a href="mailto:labas@litao.lt">labas@litao.lt</a></p>
+      </div>
+    </div>
+    </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+</footer>
+
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/tether.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/scrollreveal.min.js"></script>
+  <script src="js/js_script-v01.js"></script>
+  <script type="text/javascript">
+  $(document).ready(removeCollapse);
+  $(window).on('resize',removeCollapse);
+
+  function removeCollapse(){
+   var isMobile = window.matchMedia("only screen and (min-width: 768px)");
+   if (isMobile.matches) {$('.mobile_collapse').removeAttr('data-toggle');}
+ }
+ $(document).ready(function(){
+  $('.collapse').on('show.bs.collapse', function (e) {
+    $('.collapse').collapse("hide")
+  })
+})
+</script>
+<script type="text/javascript">
+    $('body').scrollspy({ target: '#why_us-navigation' })
+    window.sr = ScrollReveal({ reset: true });
+    sr.reveal('.publication_link',{duration: 400});
+    sr.reveal('.img-fluid',{duration: 500});
+    sr.reveal('.level2-main-title',{duration:700},30);
+    sr.reveal('#our_guanxi .card', { duration: 700 }, 30);
+           sr.reveal('.level2-titles-box-line',{duration: 800});
+         sr.reveal('.level2-titles-box-pic-square',{duration:900});
+  </script>
+
+</body>
+</html>
