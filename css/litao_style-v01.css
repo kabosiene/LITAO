@@ -270,6 +270,7 @@ section{height:100%;height:100vh;}
 #case_studies .collapsable_plus.added:before{content:'-';}
 #case_studies .collapsable_plus:before{content:'+';}
 #case_studies .eye{position: absolute;z-index: -1;padding-top: 50px;padding-left: 115px;}
+#case_studies .eye_up{position: absolute;z-index: -1;padding-top: 0px;padding-left: 115px; margin-top: -20px;}
 #case_studies h6{margin-top:70px;margin-bottom:38px;font-family:'BrandonGrotesque-Bold';color:#a55f60;font-size:22px;letter-spacing:0.09em;}
 #case_studies .content_title-margin{margin-top: 140px;}
 #case_studies .content_title{font-family: 'BrandonGrotesque-Bold';color:#a55f60; font-size: 23px; letter-spacing: 0.05rem; line-height: 1.2; margin-bottom: 40px; text-transform: uppercase;}
