@@ -12,7 +12,8 @@ if(document.getElementById("multiscroll")){
   if(document.getElementById("multiscroll")){document.getElementById("multiscroll").onmouseover=function(){closeNav()};}
     if(document.getElementsByClassName("page_id")){
       document.getElementsByClassName("page_id").onmouseover=function(){closeNav()};}
-      $(".nav a").on("click",function(){$(".nav").find(".active").removeClass("active");$(this).addClass("active");});
+      $(".header-lang a").on("click",function(){$(".nav").find(".active").removeClass("active");
+      // old $(".nav a").on("click",function(){$(".nav").find(".active").removeClass("active");$(this).addClass("active");});
       $(".submenu a").on("click",function(){$(".submenu").find(".active").removeClass("active");$(this).addClass("active");});
       function openNav(){
         document.getElementById("mySidenav").style.visibility="visible";
@@ -37,8 +38,8 @@ if(document.getElementById("multiscroll")){
        function change_opacity(){var links=document.getElementsByClassName('sidenav_link'),i=links.length;
        var sub_links=document.getElementsByClassName('border_link'),u=sub_links.length;while(i--){links[i].style.opacity="1";}while(u--){sub_links[u].style.opacity="1";}
        document.getElementById('menu-footer').style.opacity="1";}
-       $(".border-intro a").on("click",function(){$(".border-intro").find(".active").removeClass("active");$(this).addClass("active");});
-       $(".border-vertical a").on("click",function(){$(".border-vertical").find(".active").removeClass("active");$(this).addClass("active");});
+       // $(".border-intro a").on("click",function(){$(".border-intro").find(".active").removeClass("active");$(this).addClass("active");});
+       // $(".border-vertical a").on("click",function(){$(".border-vertical").find(".active").removeClass("active");$(this).addClass("active");});
        document.querySelector("#nav-toggle").addEventListener("click",function(){this.classList.toggle("active");});
        document.querySelector("#nav-toggle").addEventListener("mouseover",function(){this.classList.add("closer");});
        document.querySelector("#nav-toggle").addEventListener("mouseout",function(){this.classList.remove("closer");});
