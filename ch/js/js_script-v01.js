@@ -13,8 +13,10 @@ if(document.getElementById("multiscroll")){
     if(document.getElementsByClassName("page_id")){
       document.getElementsByClassName("page_id").onmouseover=function(){closeNav()};}
       $(".header-lang a").on("click",function(){$(".nav").find(".active").removeClass("active");
-      // old $(".nav a").on("click",function(){$(".nav").find(".active").removeClass("active");$(this).addClass("active");});
-      $(".submenu a").on("click",function(){$(".submenu").find(".active").removeClass("active");$(this).addClass("active");});
+      // old $(".nav a").on("click",function(){$(".nav").find(".active").removeClass("active");
+      $(this).addClass("active");});
+      $(".submenu a").on("click",function(){$(".submenu").find(".active").removeClass("active");
+        $(this).addClass("active");});
       function openNav(){
         document.getElementById("mySidenav").style.visibility="visible";
         document.getElementById("mySidenav").style.width=menuWidth;
