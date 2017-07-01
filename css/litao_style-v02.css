@@ -306,7 +306,7 @@ section{height:100%;height:100vh;}
 #raq .collapsable_plus{margin-right: auto; margin-left: 20px;}
 #raq .collapsable_plus.added:before{content:'-';}
 #raq .collapsable_plus:before{content:'+';}
-#raq .main-image{width:350px;height:380px;position:absolute;z-index:-1;margin-top:-70px;}
+#raq .main-image{width:350px;height:auto;position:absolute;z-index:-1;margin-top:-70px;}
 #useful_resources .main-image{width:350px;height:auto;position:absolute;z-index:-1;margin-top:-70px;}
 #useful_resources p.title{font-family:'BrandonGrotesque-Bold';font-size:34px;letter-spacing:0.05em;max-width:600px;line-height:0.99;}
 #useful_resources p.subtitle{font-family:'BrandonGrotesque-Bold';font-size:22px;letter-spacing:0.06em;max-width:600px;line-height:1.2;text-align:justify;padding-top:8px;}
@@ -482,6 +482,9 @@ address p{min-height:initial;}
 #case_studies .eye{padding-top: 0;margin-top: -20px;}
 #case_studies .content_title_approach{margin-top: 40px;}
 #case_studies .more{padding: 15px 0;display: inline-block;}
+.photo_case {
+  padding-top: 30px;
+  padding-bottom: 30px;}
 #process img.mobile {
   position: relative;
   margin-top: 0;
