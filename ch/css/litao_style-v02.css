@@ -544,7 +544,11 @@ footer .page-bottom a{ padding-top: 10px; }
 #recognitions{padding-right:92px;}
 .publication_content p{margin-left: 180px;display: block;}
 .lithuanian-section,.english-section,.chinese-section,.conferences-section, .lina_c-section{ padding-left: 86px;}
-.page_id .col-md-6{padding-left:92px;padding-right:0px;}
+.page_id .col-md-6{
+  /*padding-left:92px;*/
+  padding-left:30px;
+  padding-right:15px;}
+  .header-lang {right: 18px;}
 }
 @media only screen and (min-width:992px){
 .intro-column{margin:5% 24% 0 24%;}
@@ -600,6 +604,7 @@ footer .page-bottom a{ padding-top: 10px; }
 #nameandlogo .name_content{padding-bottom:20px;}
 .experience_litao-list, .experience_litao-content_break{margin-right: 86px;}
 .publication_content p{padding-right: 40px;}
+.header-lang {right: 30px;}
 }
 @media only screen and (min-width:1600px){.level2-titles-box-pic-bigger{width:500px;height:590px;}
 .level2-titles-box-pic{width:400px;height:auto;}
