@@ -550,6 +550,7 @@ footer .page-bottom a{ padding-top: 10px; }
   padding-left:30px;
   padding-right:15px;}
   .header-lang {right: 18px;}
+
 }
 @media only screen and (min-width:992px){
 .intro-column{margin:5% 24% 0 24%;}
@@ -584,6 +585,8 @@ footer .page-bottom a{ padding-top: 10px; }
 .page_id .form-group.col-md-6{padding-bottom:30px;}
 .experience_litao-list, .experience_litao-content_break{margin-right: 50px;}
 .publication_content p{margin-left: 250px;}
+#services .folding-section_heading{margin-left:92px;margin-right:92px;}
+.header-lang {right: 30px;}
 }
 @media only screen and (min-width:1200px){
 .page_id .col-md-6{padding-left:92px;}
