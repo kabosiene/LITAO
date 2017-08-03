@@ -620,12 +620,12 @@ footer .page-bottom a{ padding-top: 10px; }
 .values_picture{margin-top:-13em; width: 100%; padding-right: 6em;}
 .page-heading{padding-top:2em;color:#595a5a;}
 .chinabg-color{background-color:#dfeae1;}
-#square{position:absolute;left:50%;top:50%;margin:-16% 0 0 -16%;z-index:0;width:38%;background:#dfeae1;}
+#square{position:absolute;left:50%;top:50%;margin:-16% 0 0 -16%;z-index:-1;width:38%;background:#dfeae1;}
 #square:after{content:"";display:block;padding-bottom:100%;}
-#rectangle{position:absolute;left:13%;top:10%;margin:0 0 0 0;z-index:0;width:76%;height:83%;background:#f6f3f0;}
-#circle{position:absolute;left:50%;top:50%;margin:-20% 0 0 -20%;z-index:0;width:40%;background:#dfeae1;-moz-border-radius:50%;-webkit-border-radius:50%;border-radius:50%;}
+#rectangle{position:absolute;left:13%;top:10%;margin:0 0 0 0;z-index:-1;width:76%;height:83%;background:#f6f3f0;}
+#circle{position:absolute;left:50%;top:50%;margin:-20% 0 0 -20%;z-index:-1;width:40%;background:#dfeae1;-moz-border-radius:50%;-webkit-border-radius:50%;border-radius:50%;}
 #circle:after{content:"";display:block;padding-bottom:100%;}
-#triangle-topleft{position:absolute;top:0;width:0;height:0;z-index:0;border-top:125vh solid #dfeae1;border-right:26vw solid transparent;}
+#triangle-topleft{position:absolute;top:0;width:0;height:0;z-index:-1;border-top:125vh solid #dfeae1;border-right:26vw solid transparent;}
 .intro-column{margin:15% 20% 0 20%;}
 .intro-content{line-height:20px;}
 .level2-titles-box-padding{margin:36px 0 105px 0;}
