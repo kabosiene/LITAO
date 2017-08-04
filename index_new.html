@@ -9,6 +9,8 @@
   <title>LITAO</title>
   <link href="css/font.css" rel="stylesheet">
   <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
   <link href="css/litao_style-v02.css" rel="stylesheet">
   <link href="css/index.css" rel="stylesheet">
   <link rel="icon" type="image/png" href="icons_logo/logo.png">
@@ -477,7 +479,7 @@
 </div>
 
 <footer>
-  <div class="container-fluid">
+  <div class="container-fluid contact_end">
     <div class="row">
       <div class=" col-xs-12">
         <div class="row">
@@ -521,10 +523,18 @@
 <script src="js/jquery.easing.min.js"></script>
 <script src="js/tether.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/scrollreveal.min.js"></script>
 <script src="js/js_script-v02.js"></script>
 <script src="js/index.js"></script>
 <script type="text/javascript">
   $('.container-fluid').stickem();
+   window.sr = ScrollReveal({ reset: true });
+    sr.reveal('.aside',{duration:500});
+    sr.reveal('.aside_left',{duration:500});
+   sr.reveal('.back_square',{duration:400});
+  sr.reveal('.theme_picture',{duration: 1000});
+  sr.reveal('.contact_end .left',{duration: 800});
+   sr.reveal('.contact_end .right',{duration: 1200});
 </script>
 </body>
 </html>
