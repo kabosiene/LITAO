@@ -58,21 +58,47 @@
 /*  block design*/
 
 .block_of-level2-links{
-  padding: 200px 90px 200px 90px;
+  padding: 180px 130px 200px 130px;
 }
 .link_to-level2{
   height: 200px;
+   margin-bottom: 52px;
 }
 .theme_picture{
-  height: 160px;
-  width: 210px;
+  height: 130px;
+  width: 180px;
   float: right;
 }
 .level2_title{
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-family:'BrandonGrotesque-Black';
   letter-spacing: 3px;
   text-align: left;
   float: left;
+  margin-top: -13px;
+  line-height: 1.2em;
 }
-
+.black_line {
+  width: 62px;
+  padding-bottom: 5px;
+}
+.back_square {
+  height: 185px;
+  width: 230px;
+  z-index: -1;
+  position: absolute;
+ left: 150px;
+ margin-top: -30px;
+}
+#square{
+top:initial;
+left: initial;
+  margin: 12%0 0 9%;
+  width: 31%;
+}
+#circle{
+top:initial;
+left: initial;
+margin: 12%0 0 3%;
+width: 38%;
+}
