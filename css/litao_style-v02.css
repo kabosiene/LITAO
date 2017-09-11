@@ -37,7 +37,7 @@ section{height:100%;height:100vh;}
 #nav-toggle.active span:after{-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-o-transform:rotate(-45deg);-ms-transform:rotate(-45deg);transform:rotate(-45deg);background:#cccbc5;}
 #nav-toggle.active:hover span:before{background:#a55f60;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;-ms-transition:all 0.5s ease;transition:all 0.5s ease;}
 #nav-toggle.active:hover span:after{background:#a55f60;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;-ms-transition:all 0.5s ease;transition:all 0.5s ease;}
-.sidenav{display:table;visibility:hidden;height:100%;width:0;position:fixed;z-index:998;top:0;background-color:#EEEAE6;overflow-x:hidden;-webkit-transition:all 0.5s ease-in;-moz-transition:all 0.5s ease-in;-o-transition:all 0.5s ease-in;-ms-transition:all 0.5s ease-in;transition:all 0.5s ease-in;}
+.sidenav{display:table;visibility:hidden;height:100%;width:0;position:fixed;z-index:998;top:0;background-color:#EEEAE6;overflow:hidden;-webkit-transition:all 0.5s ease-in;-moz-transition:all 0.5s ease-in;-o-transition:all 0.5s ease-in;-ms-transition:all 0.5s ease-in;transition:all 0.5s ease-in;}
 .sidenav-links{display:table-cell;vertical-align:middle;font-family:'BrandonGrotesque-Bold';letter-spacing:1.5px;
 text-align:left;
 padding-left: 50px;
@@ -535,6 +535,13 @@ footer .page-bottom .col-md-6{padding: 0;}
   .row{margin-left:0;margin-right:0;}
 #mobile-view.container-fluid{padding:0;}
 .menu-footer_content{ padding: 0px 10px;}
+.sidenav {
+  display: inherit;
+  overflow-y: visible;
+}
+.sidenav-links{
+  width: 100vw;
+}
 .content-left{height:100%;}
 .header-lang{top:10px;}
 .founder-kid, .founder-edu,

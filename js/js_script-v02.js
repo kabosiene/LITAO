@@ -9,7 +9,7 @@ if(isMobile.matches){
        $("#our_work-id").show();
        $("#why_us-id").show();
        $("#crossing_cultures-id").show();
-       // $(".main-submenu").css({top: 0, left: 0});
+       $(".main-submenu").css({top: 0, left: 0});
         $(".main-submenu").children().css({position: "relative"});
 
 
