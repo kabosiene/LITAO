@@ -147,7 +147,7 @@
                                 </div>
                                 <div class="col-md-6"> <img src="home-images/our_work/services/legal_advice.jpg" class="img-fluid picture">
                                     <div class="links_to_cases">
-                                        <p class="content"><b>Read about how we helped a client who believed their <a href="#"  data-toggle="collapse" data-target="#c14" >trademark was stolen</a>.</b> </p>
+                                        <p class="content"><b>Read about how we helped a client who believed their <a href="#" data-toggle="collapse" data-target="#c14" >trademark was stolen</a>.</b> </p>
                                         <!--  <p class="content"><b>And how we caught manufacturers with <a href="The LITAO Approach to Due Diligence" target="blank">falsified credentials</a> before our clients made any deals.</b></p> -->
                                     </div>
                                 </div>
@@ -571,7 +571,7 @@
                                     <div class="col-md-6">
                                         <div class="content_title-margin">
                                             <h5 class="content_title">The LITAO approach to<br> a Stolen Trademark</h5> <img class="img-fluid services_green-circle" src="home-images/about_us/green-circle.png" alt="square"> </div>
-                                        <p class="content" id="content-c14"> Our client, a U.S. NGO*, runs <b>summer programs in the U.S.</b> for students from China. An agent in China promoted their programs abroad. But when the NGO wanted to open an office in China, they discovered the agent had <b>already registered their trademark for themselves</b>. LITAO served as their go-between. </p> <span class="subtitle color-red ">The LITAO Approach:</span>
+                                        <p class="content"> Our client, a U.S. NGO*, runs <b>summer programs in the U.S.</b> for students from China. An agent in China promoted their programs abroad. But when the NGO wanted to open an office in China, they discovered the agent had <b>already registered their trademark for themselves</b>. LITAO served as their go-between. </p> <span class="subtitle color-red ">The LITAO Approach:</span>
                                         <p class="content">The first reaction in such a situation may be an immediate sense of <b>betrayal</b>: the NGO couldn’t even use their own logo as promotion since the trademark had already been taken. <span class="break"></span> It may seem justified to <b>confront the agent</b> in question with accusations, but LITAO encouraged the organization to <b>stay calm</b>. We knew <b>intellectual property rights worked differently in China</b>, and our lawyers confirmed the same. We advised a communication strategy to test the waters, and as it turns out, the agent had registered the trademark <b>for the benefit of the NGO</b> as well as themselves—so other Chinese organizations would not <b>fake their programs</b>, another common occurrence in China. </p>
                                     </div>
                                     <div class="col-md-6"> <img src="home-images/our_work/case/4.DSC_0413-LITAO-approach-to-stolen-trademark.jpg" alt="image" class="photo_case img-fluid picture"> <span class="padding-from-top_20"></span> <img src="home-images/our_work/case/eye.png" class="img-fluid eye">
@@ -1196,13 +1196,17 @@
         $("#services .folding-section").on('show.bs.collapse', toggleIcon);
         $("#case_studies .f-section").on('hidden.bs.collapse', toggleIcon);
         $("#case_studies .f-section").on('show.bs.collapse', toggleIcon);
-        $('.collapse').on('show.bs.collapse', function(e) { $('.collapse').collapse("hide"); })
-        $("#services .folding-section").on('shown.bs.collapse', function() {
-            window.location = "#services .folding-section";
-        });
-        $("#case_studies .folding-section").on('shown.bs.collapse', function() {
-            window.location = "#case_studies .folding-section";
-        });
+
+        $('#services .folding-section').on('shown.bs.collapse', function () { 
+          var panel = $(this).find('.in');
+           $('html, body').animate({ scrollTop: panel.offset().top }, 500);
+         });
+         $('#case_studies .f-section').on('shown.bs.collapse', function () { 
+          var panel = $(this).find('.in');
+           $('html, body').animate({ scrollTop: panel.offset().top }, 500);
+         });
+
+        $('.collapse').on('show.bs.collapse', function(e) { $('.collapse').collapse("hide"); });
 
         $('body').scrollspy({ target: '#our_work-navigation' })
         window.sr = ScrollReveal({ reset: true });
@@ -1212,6 +1216,7 @@
         sr.reveal('.level2-titles-box-pic-square', { duration: 900 });
 
     });
+
     </script>
 </body>
 
