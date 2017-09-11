@@ -38,7 +38,10 @@ section{height:100%;height:100vh;}
 #nav-toggle.active:hover span:before{background:#a55f60;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;-ms-transition:all 0.5s ease;transition:all 0.5s ease;}
 #nav-toggle.active:hover span:after{background:#a55f60;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;-o-transition:all 0.5s ease;-ms-transition:all 0.5s ease;transition:all 0.5s ease;}
 .sidenav{display:table;visibility:hidden;height:100%;width:0;position:fixed;z-index:998;top:0;background-color:#EEEAE6;overflow:hidden;-webkit-transition:all 0.5s ease-in;-moz-transition:all 0.5s ease-in;-o-transition:all 0.5s ease-in;-ms-transition:all 0.5s ease-in;transition:all 0.5s ease-in;}
-.sidenav-links{display:table-cell;vertical-align:middle;font-family:'BrandonGrotesque-Bold';letter-spacing:1.5px;text-align:center;}
+.sidenav-links{display:table-cell;vertical-align:middle;font-family:'BrandonGrotesque-Bold';letter-spacing:1.5px;
+text-align:left;
+padding-left: 50px;
+}
 .sidenav_link{color:#cccbc5;display:inline-block;padding-bottom:20px;padding-top:20px;opacity:0;-webkit-transition:opacity 0.2s ease-in;-moz-transition:opacity 0.2s ease-in;-o-transition:opacity 0.2s ease-in;-ms-transition:opacity 0.2s ease-in;transition:opacity 0.2s ease-in;}
 .sidenav_link:after{content:'';display:block;height:3px;width:0;background:transparent;-webkit-transition:width .8s ease, background-color .5s ease;-moz-transition:width .8s ease, background-color .5s ease;-o-transition:width .8s ease, background-color .5s ease;-ms-transition:width .8s ease, background-color .5s ease;transition:width .8s ease, background-color .5s ease;}
 .sidenav_link:hover{color:#595a5a;}
@@ -46,7 +49,15 @@ section{height:100%;height:100vh;}
 .sidenav .select-submenu:after{content:'';display:block;height:3px;width:100%;background:#595a5a;-webkit-transition:width .8s ease, background-color .5s ease;-moz-transition:width .8s ease, background-color .5s ease;-o-transition:width .8s ease, background-color .5s ease;-ms-transition:width .8s ease, background-color .5s ease;transition:width .8s ease, background-color .5s ease;}
 .sidenav_link:hover:after{width:100%;background:#595a5a;}
 .submenu{ background-color: #f6f3f0; padding-right:80px;padding-left:0;left:0;width:100vh;height:60px;border-bottom:1px solid #cccbc5;display:flex;justify-content:space-around;flex-direction:row-reverse;position:fixed;-webkit-transform-origin:left top;-webkit-transform:rotate(-90deg) translateX(-100%);}
-.main-submenu ul{padding: 0;}
+.main-submenu{   
+  position: relative;
+  top: -50px;
+  left: 50%;
+}
+.main-submenu ul{padding: 0; margin-bottom: 0;    
+    position: absolute;
+    border-left: #595a5a 3px solid;
+    padding-left: 20px;}
 .main-submenu .border-text{color: #595a5a;display: inline-block;}
 #menu-footer{height: 50px; display: table-row;
   opacity: 0;
@@ -65,14 +76,14 @@ section{height:100%;height:100vh;}
 .intro-left-v{line-height:59px;display:block;}
 .main-submenu .intro-left-v{line-height: 32px;}
 .page_id .intro-left-v{flex-grow:1;}
-.border_link{color:#cccbc5;font-family:'BrandonGrotesque-Black';font-size:12px;letter-spacing:2px;opacity:0;-webkit-transition:opacity 0.2s ease-in;-moz-transition:opacity 0.2s ease-in;-o-transition:opacity 0.2s ease-in;-ms-transition:opacity 0.2s ease-in;transition:opacity 0.2s ease-in;display:block;}
+.border_link{color:#cccbc5;font-family:'BrandonGrotesque-Black';font-size:0.75em;letter-spacing:2px;opacity:0;-webkit-transition:opacity 0.2s ease-in;-moz-transition:opacity 0.2s ease-in;-o-transition:opacity 0.2s ease-in;-ms-transition:opacity 0.2s ease-in;transition:opacity 0.2s ease-in;display:block;}
 .intro-left-v:hover a{color:#a55f60;}
 .rotated-links{color:#595a5a;font-family:'BrandonGrotesque-Bold';font-size:10px;letter-spacing:1px;-webkit-transition:opacity 0.2s ease-in;-moz-transition:opacity 0.2s ease-in;-o-transition:opacity 0.2s ease-in;-ms-transition:opacity 0.2s ease-in;transition:opacity 0.2s ease-in;display:block;}
 .border_link.active_on, .rotated-links.active{color:#a55f60;background-color:#dfeae1;}
 .main-submenu .border-text:hover{color:#a55f60;}
 .header-lang{position:fixed;top:20px;right:30px;margin-bottom:0;z-index:999;}
 .header-lang-item{float:left;padding-right:0px;padding-left:0px;}
-.header-lang-link{display:block;width:30px;height:30px;line-height:2.5em;text-transform:uppercase;border:1px solid #5a5b5b;margin-right:-1px;margin-top:-1px;font-size:12px;}
+.header-lang-link{display:block;width:30px;height:30px;line-height:2.5em;text-transform:uppercase;border:1px solid #5a5b5b;margin-right:-1px;margin-top:-1px;font-size:0.75em;}
 .header-lang-link.active{color:#595a5a;border:0px solid #595a5a;font-family:'BrandonGrotesque-Bold';}
 .header-lang-text{display:block;text-align:center;}
 .header-lang-text:hover,.header-lang-text:active{font-family:'BrandonGrotesque-Bold';}
@@ -131,7 +142,7 @@ section{height:100%;height:100vh;}
 .our_guanxi-content, .experience_litao-content{font-family:'BrandonGrotesque-Light';
 font-size:1em;
 /*font-size:1.1vw;
-font-size:calc(12px + 1.15vw);*/
+font-size:calc(0.75em + 1.15vw);*/
 letter-spacing:0.05em;text-align:justify;
 line-height:1.5;padding-bottom:40px;
 /*max-width:400px;*/
@@ -508,7 +519,7 @@ footer button:hover{cursor: pointer; color: #595a5a;}
 footer .call-to-action{font-size: 20px; padding: 65px 0 20px 0;}
 footer ul{padding-left:0px;}
 footer .left li{ font-size: 15px; letter-spacing: 0.08em; }
-footer .page-bottom{border-top: 1px solid black; margin:0 70px 0 77px; font-size: 12px; letter-spacing: 0.08em; word-spacing: 2px;}
+footer .page-bottom{border-top: 1px solid black; margin:0 70px 0 77px; font-size: 0.75em; letter-spacing: 0.08em; word-spacing: 2px;}
 footer .page-bottom p{ padding-top: 20px;  }
 footer .page-bottom a{ padding-left:45px; }
 footer .page-bottom a:hover{color: #a55f60; }
@@ -568,7 +579,7 @@ address p{min-height:initial;}
 #experience_litao .content-image{margin-top: 0}
 #experience_litao .level2-main-title{font-size: 34px;}
 #recognitions .level2-main-title{font-size: 34px;}
-#recognitions .level2-titles-box-line{width: 112px;}
+#recognitions .level2-titles-box-line{width: 10.75em;}
 #recognitions .level2-titles{font-size: 28px;}
 #recognitions img.mobile{position:relative;margin-top: 0;padding-right: 0;}
 .publication{margin-top:0;margin-left: 15px;margin-bottom:0;border:none;}

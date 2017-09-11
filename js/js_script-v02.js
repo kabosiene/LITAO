@@ -1,14 +1,63 @@
 $(document).ready(checkSize);
 $(window).on('resize',checkSize);
 function checkSize(){var isMobile=window.matchMedia("only screen and (max-width: 767px)");
-if(isMobile.matches){if(document.getElementById("multiscroll")){}menuWidth='100%';}
+if(isMobile.matches){
+  if(document.getElementById("multiscroll")){} menuWidth='100%';
+
+
+       $("#about_us-id").show();
+       $("#our_work-id").show();
+       $("#why_us-id").show();
+       $("#crossing_cultures-id").show();
+       $(".main-submenu").css({top: 0, left: 0});
+       $(".main-submenu").children().css({position: "relative"});
+
+
+
+
+}
 else{menuWidth='50%';
 if(document.getElementById("multiscroll")){
   $('#multiscroll').multiscroll({anchors:['home','about_us','our_work','why_us','crossing_cultures', 'connect_with_us'],menu:'#myMenu',
     afterLoad:function(anchorLink,index){
       $('.home-arrow').addClass('animated bounceInUp visible').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',function(){
         $(this).removeClass('animated bounceInUp');});},
-      onLeave:function(index,direction){$('.home-arrow').removeClass('visible');},});}}};
+      onLeave:function(index,direction){$('.home-arrow').removeClass('visible');},});}
+       $(".about-menu").on("mouseover",function(){
+        $('#myMenu').find('.select-submenu').removeClass('select-submenu');
+        $(this).addClass('select-submenu');
+        $(".main-submenu").find(".active").hide().removeClass("active");
+        $("#about_us-id").addClass("active").show();});
+
+       $(".work-menu").on("mouseover",function(){
+        $('#myMenu').find('.select-submenu').removeClass('select-submenu');
+        $(this).addClass('select-submenu');
+        $(".main-submenu").find(".active").hide().removeClass("active");
+        $("#our_work-id").addClass("active").show();});
+
+       $(".why-menu").on("mouseover",function(){
+        $('#myMenu').find('.select-submenu').removeClass('select-submenu');
+        $(this).addClass('select-submenu');
+        $(".main-submenu").find(".active").hide().removeClass("active");
+        $("#why_us-id").addClass("active").show();});
+
+       $(".china-menu").on("mouseover",function(){
+        $('#myMenu').find('.select-submenu').removeClass('select-submenu');
+        $(this).addClass('select-submenu');
+        $(".main-submenu").find(".active").hide().removeClass("active");
+        $("#crossing_cultures-id").addClass("active").show();});
+
+       $(".contact-menu").on("mouseover",function(){
+        $('#myMenu').find('.select-submenu').removeClass('select-submenu');
+        $(this).addClass('select-submenu');
+        $(".main-submenu").find(".active").hide().removeClass("active");});
+
+       $(".home-menu").on("mouseover",function(){
+        $('#myMenu').find('.select-submenu').removeClass('select-submenu');
+        $(this).addClass('select-submenu');
+        $(".main-submenu").find(".active").hide().removeClass("active");});
+
+}};
   if(document.getElementById("multiscroll")){document.getElementById("multiscroll").onmouseover=function(){closeNav()};}
     if(document.getElementsByClassName("page_id")){
       document.getElementsByClassName("page_id").onmouseover=function(){closeNav()};}
@@ -47,39 +96,6 @@ if(document.getElementById("multiscroll")){
        document.querySelector("#nav-toggle").addEventListener("mouseover",function(){this.classList.add("closer");});
        document.querySelector("#nav-toggle").addEventListener("mouseout",function(){this.classList.remove("closer");});
 
-       $(".about-menu").on("mouseover",function(){
-        $('#myMenu').find('.select-submenu').removeClass('select-submenu');
-        $(this).addClass('select-submenu');
-        $(".main-submenu").find(".active").hide().removeClass("active");
-        $("#about_us-id").addClass("active").show();});
-
-       $(".work-menu").on("mouseover",function(){
-        $('#myMenu').find('.select-submenu').removeClass('select-submenu');
-        $(this).addClass('select-submenu');
-        $(".main-submenu").find(".active").hide().removeClass("active");
-        $("#our_work-id").addClass("active").show();});
-
-       $(".why-menu").on("mouseover",function(){
-        $('#myMenu').find('.select-submenu').removeClass('select-submenu');
-        $(this).addClass('select-submenu');
-        $(".main-submenu").find(".active").hide().removeClass("active");
-        $("#why_us-id").addClass("active").show();});
-
-       $(".china-menu").on("mouseover",function(){
-        $('#myMenu').find('.select-submenu').removeClass('select-submenu');
-        $(this).addClass('select-submenu');
-        $(".main-submenu").find(".active").hide().removeClass("active");
-        $("#crossing_cultures-id").addClass("active").show();});
-
-       $(".contact-menu").on("mouseover",function(){
-        $('#myMenu').find('.select-submenu').removeClass('select-submenu');
-        $(this).addClass('select-submenu');
-        $(".main-submenu").find(".active").hide().removeClass("active");});
-
-       $(".home-menu").on("mouseover",function(){
-        $('#myMenu').find('.select-submenu').removeClass('select-submenu');
-        $(this).addClass('select-submenu');
-        $(".main-submenu").find(".active").hide().removeClass("active");});
 
        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];

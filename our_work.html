@@ -330,7 +330,7 @@
                   <img src="home-images/our_work/services/legal_advice.jpg" class="img-fluid picture">
                   <div class="links_to_cases">
                     <p class="content"><b>Read about how we helped a client who believed
-                      their <a href="#" data-toggle="collapse" data-target="#c14" target="blank">trademark was stolen</a>.</b>
+                      their <a href="#c14" data-toggle="collapse" data-target="#c14">trademark was stolen</a>.</b>
                     </p>
 
                    <!--  <p class="content"><b>And how we caught manufacturers with <a href="The LITAO Approach to Due Diligence" target="blank">falsified
@@ -3473,9 +3473,11 @@
   }
   $(document).ready(function(){
     $('.collapse').on('show.bs.collapse', function (e) {
-      $('.collapse').collapse("hide")
+      $('.collapse').collapse("hide");
     })
   })
+
+
 </script>
 <script type="text/javascript">
   $('body').scrollspy({ target: '#our_work-navigation' })
