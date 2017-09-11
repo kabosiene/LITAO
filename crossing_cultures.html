@@ -2,910 +2,405 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <title>LITAO</title>
-  <link href="css/font.css" rel="stylesheet">
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/animate.css" rel="stylesheet">
-  <link href="css/litao_style-v02.css" rel="stylesheet">
-  <link rel="icon" type="image/png" href="icons_logo/logo.png">
-</head>
-<body data-spy="scroll" data-target="#crossing_cultures-navigation" data-offset="0" >
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>LITAO</title>
+    <link href="css/font.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/litao_style-v02.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="icons_logo/logo.png"> </head>
 
-  <header class="header" id="header">
-    <div class=" hidden-md-up litao_logo-black">
-      <a href="index.html#home">
-        <img src="icons_logo/logo-black-transparent.png">
-      </a>
-    </div>
-    <a id="nav-toggle" onclick="openNav()" href="javascript:void(0)">
-      <span></span>
-    </a>
-
-    <div id="mySidenav" class="sidenav">
-      <div class="sidenav-links" id="myMenu" onclick="closeNav()">
-        <a data-menuanchor="home" class="sidenav_link home-menu" href="index.html#home" style="width: 0;">
-          HOME
-        </a>
-        <br>
-        <div class="">
-          <a data-menuanchor="about_us" class="sidenav_link about-menu" href="index.html#about_us" style="width: 0;">
-            ABOUT&nbsp;US
-          </a>
-          <div class="main-submenu">
-            <ul id="about_us-id" class="about_us-submenu " style="display: none;">
-                              <li class="intro-left-v animated-fast1 fadeIn">
-                  <a class="border_link" href="about_us.html#nameandlogo">
-                    <span class="border-text">NAME&nbsp;AND&nbsp;LOGO</span>
-                  </a>
-                </li>
-
-                <li class="intro-left-v animated-fast2 fadeIn">
-                  <a class="border_link" href="about_us.html#team">
-                    <span class="border-text">OUR&nbsp;TEAM</span>
-                  </a>
-                </li>
-
-                <li class="intro-left-v animated-fast3 fadeIn">
-                  <a class="border_link" href="about_us.html#founder">
-                    <span class="border-text">FOUNDER</span>
-                  </a>
-                </li>
-                             <li class="intro-left-v animated-fast4 fadeIn">
-                <a class="border_link" href="about_us.html#values">
-                  <span class="border-text">VALUES&nbsp;/&nbsp;MISSION&nbsp;/&nbsp;VISION</span></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="">
-            <a data-menuanchor="our_work" class="sidenav_link work-menu" href="index.html#our_work" style="width: 0;">
-              OUR&nbsp;WORK
-            </a>
-            <div class="main-submenu">
-              <ul id="our_work-id" class="our_work-submenu " style="display: none;">
-                <li class="intro-left-v animated-fast2 fadeIn">
-                  <a class="border_link" href="our_work.html#services"><span class="border-text">SERVICES</span>
-                  </a>
-                </li>
-                <li class="intro-left-v animated-fast3 fadeIn">
-                  <a class="border_link" href="our_work.html#case_studies"><span class="border-text">CASE&nbsp;STUDIES</span>
-                  </a>
-                </li>
-                <li class="intro-left-v animated-fast4 fadeIn">
-                  <a class="border_link" href="our_work.html#process"><span class="border-text">PROCESS</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="">
-            <a data-menuanchor="why_us" class="sidenav_link why-menu" href="index.html#why_us" style="width: 0;">
-              WHY&nbsp;US
-            </a>
-            <div class="main-submenu">
-              <ul id="why_us-id" class="why_us-submenu " style="display: none;">
-                <li class="intro-left-v animated-fast1 fadeIn">
-                  <a class="border_link" href="why_us.html#experience_litao">
-                    <span class="border-text">EXPERIENCE LITAO</span>
-                  </a>
-                </li>
-                <li class="intro-left-v animated-fast2 fadeIn">
-                  <a class="border_link" href="why_us.html#our_guanxi">
-                    <span class="border-text">OUR GUANXI</span>
-                  </a>
-                </li>
-                <li class="intro-left-v animated-fast3 fadeIn">
-                  <a class="border_link" href="why_us.html#recognitions">
-                  <span class="border-text">RECOGNITIONS</span>
-                  </a>
-                </li>
-                <li class="intro-left-v animated-fast4 fadeIn">
-                  <a class="border_link" href="why_us.html#brochure">
-                  <span class="border-text">BROCHURE</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="">
-            <a data-menuanchor="crossing_cultures" class=" active sidenav_link china-menu" href="index.html#crossing_cultures" style="width: 0;">
-              CROSSING&nbsp;CULTURES
-            </a>
-            <div class="main-submenu">
-              <ul id="crossing_cultures-id" class="crossing_cultures-submenu " style="display: none;">
-                <li class="intro-left-v animated-fast2 fadeIn">
-                  <a class="border_link" href="crossing_cultures.html#raq">
-                    <span class="border-text">RARELY&nbsp;ASKED&nbsp;QUESTIONS</span>
-                  </a>
-                </li>
-                <li class="intro-left-v animated-fast3 fadeIn">
-                  <a class="border_link" href="crossing_cultures.html#useful_resources">
-                    <span class="border-text">USEFUL&nbsp;RESOURCES</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <a class="sidenav_link contact-menu" href="connect_with_us.html" style="width: 0;">
-            CONNECT&nbsp;WITH&nbsp;US
-          </a>
-        </div>
-              <div class="color-green" id="menu-footer">
-        <div class="menu-footer_content">2017 all rights reserved <a href="mailto:labas@litao.lt">labas@litao.lt</a>
-        </div>
-      </div>
-      </div>
-
-
-   <div class="header-lang nav">
-      <div class="row">
-        <div class="header-lang-item nav-item col-sm-6 col-xs-4">
-          <a href="ch/crossing_cultures.html" title="LITAO" class="header-lang-link nav-link " data-page="">
-            <span class="header-lang-text">CH</span>
-          </a>
-        </div>
-        <div class="header-lang-item  nav-item col-sm-6 col-xs-4">
-          <a href="#" title="LITAO" class="header-lang-link nav-link active" data-page="">
-            <span class="header-lang-text">EN</span>
-          </a>
-        </div>
-                <div class="header-lang-item hidden-sm-up  nav-item col-xs-4">
-          <a href="#" title="LITAO" class="header-lang-link nav-link" data-page="">
-            <span class="header-lang-text">LT</span>
-          </a>
-        </div>
-      </div>
-      <div class="row hidden-xs-down">
-        <div class="header-lang-item  nav-item offset-sm-6">
-          <a href="#" title="LITAO" class="header-lang-link nav-link" data-page="">
-            <span class="header-lang-text">LT</span>
-          </a>
-        </div>
-      </div>
-    </div>
-
-</header>
-  <div class="container-fluid page_id" id="crossing_cultures_id">
-    <div class=" hidden-sm-down side-border color-green">
-      <div class="logo-white-round">
-        <a href="index.html#home">
-          <img src="icons_logo/logo-white-round.png">
-        </a>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-1 " id="crossing_cultures-navigation" role='navigation'>
-        <ul class="nav submenu" role="tablist">
-          <li class="intro-left-v nav-item">
-            <a class="nav-link rotated-links" href="index.html#crossing_cultures">
-              <span class="border-text">INTRO</span>
-            </a>
-          </li>
-          <li class="nav-link intro-left-v nav-item">
-            <a class="nav-link rotated-links" href="#raq">
-              <span class="border-text">RARELY&nbsp;ASKED&nbsp;QUESTIONS</span>
-            </a>
-          </li>
-          <li class="nav-link intro-left-v nav-item">
-            <a class="nav-link rotated-links" href="#useful_resources">
-              <span class="border-text">USEFUL&nbsp;RESOURCES</span>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="col-xs-11 col-md-10 ">
-        <div class="section" id="raq">
-          <div class="row">
-            <div class="col-md-6 col-xs-12">
-              <h3 class="text-uppercase level2-main-title">
-                RARELY ASKED <br>
-                QUESTIONS
-              </h3>
-            </div>
-            <div class="col-md-6">
-              <img src="home-images/crossing_cultures/rarely-asked-questions.jpg" alt="main image" class="img-fluid main-image mobile">
-            </div>
-          </div>
-          <div class="row">
-            <div class=" col-xs-12 col-md-6 col-xl-12">
-              <div class="level2-titles-box-margin" >
-                <div class="level2-titles-box">
-                  <p class="lead">
-                   These are questions that people should ask, but often don’t.
-                   We’re laying them out here for you, from the big-picture to
-                   the nitty-gritty. <a href="connect_with_us.html" class="color-red" target="blank">Let us know</a> if a question you have belongs to
-                   the list.
-                 </p>
-               </div>
-             </div>
-           </div>
-         </div>
-
-         <div class="row folding-section">
-          <div class="folding-section_heading color-green " data-toggle="collapse" data-target="#r1">
-            <span class="collapsable_plus color-red"></span>
-            <div class="folding-section_heading_title color-red">Why does China matter ?
-            </div>
-          </div>
-          <div class=" collapse" id="r1">
-            <div class="folding-section_content" >
-              <img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
-              <h5 class="color-red"></h5>
-              <p>
-                <b>China in the 21st century</b> is an emergent <b>superpower</b> still catching up to its own strength, an authoritative <b>bureaucracy</b> in the midst of <b>organizing chaos</b>—though it’s already a strong player on the world stage, it still has <b>ample room to grow.</b>
-                <span class="break"></span>
-                China has been the <b>world’s second largest economy</b> by GDP since 2010, when it surpassed Japan. When GDP is
-                adjusted for Purchasing Power Parity, though, China is <b>officially the world’s largest economy</b>, according to the
-                International Monetary Fund—meaning the country’s consumers have <b>more individual purchasing power</b> than anywhere
-                else in the world. And there are a LOT of consumers: <b>one out of every five people in the world is Chinese.</b>
-                <span class="break"></span>
-                You may have been hearing that China’s current GDP growth is the <b>lowest it’s been in decades</b> (2016’s was 6.7%). But
-                that’s only in comparison to its average growth rate of <b>10% per year</b> since economic reforms in 1978; it’s still doing
-                extremely well in real terms (the U.S. GDP growth for 2016 was less than half of China’s). Slowing down is part of a
-                natural process after so much <b>rapid growth.</b>
-                <span class="break"></span>
-                Much of the slowdown also has to do with <b>China’s shift</b> from being a cheap manufacturer of goods (now that goes to
-                countries like Vietnam or Mexico) to more of a major consumer with <b>a huge and rapidly growing middle class.</b> According
-                to the 2015 Credit Suisse wealth report, <b>China has a larger middle-class adult population than the
-                United States.</b>
-                <span class="break"></span>
-                <a href="https://www.credit-suisse.com/us/en/about-us/research/research-institute/news-and-videos/articles/news-and-expertise/2015/10/en/global-wealth-in-2015-underlying-trends-remain-positive.html" class="color-red" target="blank">Read more: Global Wealth in 2015: Underlying Trends Remain Positive
-                </a>
-                <span class="break"></span>
-                With such a large sector of new potential consumers, China is really one of the most important countries in the world right now in business as well as politics.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="row folding-section">
-          <div class="folding-section_heading color-green "  data-toggle="collapse" data-target="#r2">
-            <span class="collapsable_plus color-red"></span>
-            <div class="folding-section_heading_title color-red">
-              What makes Chinese clients different from others wprldwide?
-              <br>
-              What do Chinese really want?
-            </div>
-          </div>
-          <div class="collapse" id="r2">
-            <div class="folding-section_content">
-              <img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
-              <h5 class="color-red"></h5>
-              <p>
-                Related to the above answer, <b>a huge emergent middle class</b>—the largest in the world now—means also <b>middle class values</b>. Western companies used to only target China’s uber-rich (China DOES have a lot of millionaires); but Chinese
-                clients are now much more diverse, and no longer only in coastal cities.
-                <span class="break"></span>
-                So what do Chinese people want? First, <b>there’s no one China or Chinese person</b>: it’s a huge country with distinct
-                regions and regional preferences.
-                <span class="break"></span>
-                China—with its <b>35 distinct administrative regions</b>, <b>56 officially-recognized ethnicities</b>, and <b>over 200 mutually unintelligible dialects</b>—is as complex a country as you can get.
-                <span class="break"></span>
-                The <b>differences in consumer appetite</b> between one region of China and another are
-                comparable to <b>differences between countries</b> elsewhere, not to mention the differences between Tier-1 cities (Beijing,
-                Shanghai) and Tier-3 (Ziyang, Leshan). You really have to know who you’re targeting.
-                <span class="break"></span>
-                But there are certain <b>trends we can count on.</b>
-                <span class="break"></span>
-                According to <b>McKinsey’s 2016 China Consumer Report</b>, which surveyed 10,000 consumers across 44 cities in China, one huge trend that is already underway but will keep growing is the shift from mass market products to premium.
-                <span class="break"></span>
-                <a href="http://www.mckinsey.com/industries/retail/our-insights/here-comes-the-modern-chinese-consumer" class="color-red" target="blank">Read more: Here comes the modern Chinese consumer</a>
-                <span class="break"></span>
-                <img src="home-images/crossing_cultures/graph.jpg" class="img-fluid graph">
-                <span class="break"></span>
-                Local brands will always best foreign ones for the mass market share, but <b>Chinese brands aren’t always as trusted for
-                premium products</b>, especially for cosmetics and health. 38% of surveyed consumers listed “organic/green food” as
-                among their top three criteria—even though China itself doesn’t have a credible organic certification, meaning foreign
-                certifications are <b>more important</b> than ever.
-                <span class="break"></span>
-                China’s consumers are also <b>growing younger</b>, and as such, more Westernized than ever before.
-                They check <b>on-line reviews</b>and are more likely <b>to try new things</b>—including specialized items like laundry softeners, unused by their predecessors.
-                <span class="break"></span>
-                <a href="http://www.mckinsey.com/industries/retail/our-insights/mapping-chinas-middle-class" target="blank" class="color-red">Read more: Mapping China's middle class</a>
-                <span class="break"></span>
-                Consumer strategies that used to work—appealing to a wide range of people with a standardized product—don’t
-                anymore. Chinese people are becoming <b>much more particular</b> with what they like or not, and strategies need to be
-                <b>tailor-made</b>—but the good thing is that compared to previous generations, they spend a <b>higher percentage</b> of their
-                earnings—so if they <b>really like something</b>, they won’t necessarily save for later.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="row folding-section">
-          <div class="folding-section_heading color-green "  data-toggle="collapse" data-target="#r3">
-            <span class="collapsable_plus color-red"></span>
-            <div class="folding-section_heading_title color-red">
-              Can I still come to China if I don’t know Chinese or much about the country?<br>
-              Do people here speak English?
-            </div>
-          </div>
-          <div class="collapse" id="r3">
-            <div class="folding-section_content">
-              <img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
-              <h5 class="color-red"></h5>
-              <p>
-                Unlike Europe, where almost everyone with a higher education speaks fluent English, <b>most businesspeople in China
-                don’t</b>—not even the big bosses, and certainly not most suppliers and manufacturers.
-                <span class="break"></span>
-                That’s where we come in. If you have a <b>great product or service</b>, we help you understand how to <b>place it in China</b> and
-                can be with you the whole way from strategizing to network-building to that final contract-signing—<b>and beyond.</b>
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="row folding-section">
-          <div class="folding-section_heading color-green "  data-toggle="collapse" data-target="#r4">
-            <span class="collapsable_plus color-red"></span>
-            <div class="folding-section_heading_title color-red">
-              But why can’t my Chinese-speaking friend just be my interpreter?
-            </div>
-          </div>
-          <div class="collapse" id="r4">
-            <div class="folding-section_content">
-              <img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
-              <h5 class="color-red"></h5>
-              <p>
-                Not unless your friend also happens to be a part-time <b>diplomat</b>, <b>businessperson</b>, <b>and master negotiator.</b> So much of
-                interpretation is <b>beyond language itself</b> but about <b>tone</b>, <b>cultural context</b>, and prior <b>experiential knowledge.</b> If you simply
-                allow anyone to translate your company’s documents, be prepared for miscommunication, missing information, or even
-                too much(!) information, <b>all at detriment to your cause.</b>
-                <span class="break"></span>
-                <!-- Click here for more on <b>the art of interpretation,</b> and what can happen if it goes wrong —> <a href="">link to case study:
-                interpretation</a> -->
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="row folding-section" >
-          <div class="folding-section_heading color-green " data-toggle="collapse" data-target="#r5">
-            <span class="collapsable_plus color-red"></span>
-            <div class="folding-section_heading_title color-red">
-              Can I just sell directly to China? Why do I need someone in the middle?
-            </div>
-          </div>
-          <div class="collapse" id="r5">
-            <div class="folding-section_content">
-              <img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
-              <h5 class="color-red"></h5>
-              <p>
-                Unless your product truly has <b>incredible margins</b> (that locals would take advantage of at which would be a loss to you), the Chinese really prefer working with
-                people who <b>understand China and Chinese.</b> You need someone <b>Chinese-savvy</b> by your side to navigate the market. Even
-                simple things like money transfer and payment expectations differ in China. If you can’t <b>establish yourself permanently</b>
-                in China, you’ll need someone suppliers and distributors can reach easily. You’ll also need to operate with on on a <b>whole different
-                social media marketing scheme,</b> with China-specific mobile platforms (see <a href="#we-chat-id" data-toggle="collapse" data-target="#r10" class="color-red">What is WeChat?</a>); traditional web-sites are not nearly as important in China as <b>mobile</b>.
-                <span class="break"></span>
-                On the <b>administrative side</b>, with China’s complicated and ever-evolving import/export regulations and labor laws, foreign companies are often left out of the loop <b>when the rules change</b>. For employees, the Chinese government
-                <b>obligates employers</b> to file staff information with relevant bureaus, maintain files, and pay social benefits and taxes for their employees. So even if you decide to sell on your own, if you want any <b>legal Chinese employees</b>, you’ll need a labor
-                agency.
-                <span class="break"></span>
-                Chinese regulations aren’t always by the book, either. Sometimes the official web-site says one thing, but
-                <b>word-of-mouth</b> says another. Which one do you think works? If your product is not approved <b>despite thinking</b> you met
-                all the requirements, it takes Chinese <b>connections and digging</b> to even understand why.
-                <span class="break"></span>
-                <!--   Read more on legal issues <a href="">here</a>.—> <a href="">link to Chinese legal issues case studies</a> -->
-
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="row folding-section">
-          <div class="folding-section_heading color-green "  data-toggle="collapse" data-target="#r6">
-            <span class="collapsable_plus color-red"></span>
-            <div class="folding-section_heading_title color-red">
-              What is a consultant?
-            </div>
-          </div>
-          <div class="collapse" id="r6">
-            <div class="folding-section_content">
-              <img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
-              <h5 class="color-red"></h5>
-              <p>
-                As local experts, consultants are your <b>modern-day guides and gurus</b>: part-lawyer, part-interpreter, part-coach. We are
-                <b>problem-solvers</b> but also <b>problem-preventers</b>, with <b>culturally-sensitive solutions</b> to market research,
-                relationship-building, and strategy. We make things clear for you to take the <b>next step</b>.
-                <span class="break"></span>
-                Consultants give <b>common sense</b> business advice, backed up by first-hand research, experience, and connections. Here at LITAO, though, we do more than give advice: we actually help you <b>implement</b> our suggestions.
-                <span class="break"></span>
-                A China consultant is a <b>hands-on</b> guide for everything that doesn’t make sense in this country—<b>culturally</b>, <b>linguistically</b>,
-                <b>logistically</b>, and <b>legally</b>. We’re different from company agents or representatives because we don’t just follow the <b>status quo</b> for business; we help you strategize for <b>long-term growth</b>. And while <b>interpretation</b> is one of our services, helping
-                you understand the language and negotiate with business partners is only <b>one small part</b> of the services we provide.
-                <span class="break"></span>
-                All cultures have had their <b>advice-givers</b>: from shamans and medicine men to viziers and general counsels.
-                <span class="break"></span>
-                Shamans take information from other worlds to use in this one. Premiers and viziers counsel their heads of state.
-                General counsels give legal advice from decades of litigation experience. All of them act as <b>intermediaries between
-                experience and decision</b>. All of them help a tribe, country, or company become <b>better versions</b> of themselves.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="row folding-section" >
-          <div class="folding-section_heading color-green " data-toggle="collapse" data-target="#r7">
-            <span class="collapsable_plus color-red"></span>
-            <div class="folding-section_heading_title color-red">
-              What should a company do before coming to China?
-            </div>
-          </div>
-          <div class="collapse" id="r7">
-            <div class="folding-section_content" >
-              <img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
-              <h5 class="color-red"></h5>
-              <p>
-                You need to think <b>locally</b>: know <b>which part</b> of the China market you want to expand in and not just China as a whole.
-                Once you know that, we can help you develop your <b>key message to consumers</b>.
-                <span class="break"></span>
-                Other than finding a <b>trusted company</b> to give you advice and consult you locally, we also recommend <b>registering your
-                brand and trademark</b> as much beforehand and in as many relevant categories as you can, as China has a <b>first-to-file trademark system</b>.
-                <span class="break"></span>
-                That’s why billionaire Donald Trump registered for ownership of Trump as a trademark in construction services <b>in
-                2006</b>—even though as of today, his hotel brand has not entered China.
-                <span class="break"></span>
-                <a href="http://www.economist.com/news/china/21717109-there-was-lot-lose-trump-brand-wins-battle-china" target="blank" class="color-red">Read more: The Trump brand wins a battle in China</a>
-                <span class="break"></span>
-                According to the New York Times, Trump owns about <b>29 of the 46 “TRUMP” trademarks</b> in China. A Chinese court recently upheld the trademark, <b>banning</b> the use of the name by other companies ownership in the construction sector. Other products, like popular
-                brand Trump Toilets, may also be legally liable questionable—but none of this would have happened if top lawyers for one of the wealthiest men in the world hadn’t <b>taken precautions</b>.
-
-                <span class="break"></span>
-                <a href="http://www.ipwatchdog.com/2016/12/10/trump-victory-china-real-estate-trademark/id=75571/" class="color-red" target="blank">Read more: Trump victory china real estate trademark
-                </a>
-                 <!--      <br>
-                  <a href="" class="color-red" target="blank">Click here for more on trademark cases —> link to case study: Apple trademark</a>
-                -->
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="row folding-section">
-          <div class="folding-section_heading color-green "  data-toggle="collapse" data-target="#r71">
-            <span class="collapsable_plus color-red"></span>
-            <div class="folding-section_heading_title color-red">
-              I’m communicating with my Chinese supplier/manufacturer/distributor/business partner and don’t understand their response.
-            </div>
-          </div>
-          <div class="collapse" id="r71">
-            <div class="folding-section_content">
-              <img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
-              <h5 class="color-red"></h5>
-              <p>
-                “Language is not only how we <b>express our thoughts</b>, it is also how we <b>create our thoughts.</b>” —Chin-Ming Chu
-                <span class="break"></span>
-                We often hear clients say something like, “I don’t understand what this person’s answer is. I asked an <b>open-ended question</b> and he answered ‘yes.’” A lot of that comes down to <b>knowing how to ask the right question</b>. Not only is there a <b>language barrier</b>, sometimes the Chinese don’t understand your <b>specific standards</b>—“good enough” may well be satisfactory, and they may only want to assure you everything is alright even when it’s not—especially if they can <b>fool a newcomer</b>. Business negotiation means asking <b>specific, tailored questions</b> so the answerer cannot <b>escape into vagueness.</b> (Sometimes to avoid saying a direct “no” to a request, the Chinese will simply say “we’ll see” or delay.) You have to know the <b>key words</b> before you ask—this is where we can help.
-                <span class="break"></span>
-                The Chinese also don’t necessarily think in a <b>linear fashion</b>, so don’t always expect proposals to go from A to B to C or a business plan with a distributor to adhere strictly to dead-line. Doing business in China often means <b>going in circles</b>, many meetings just to get to know you; until the distributor <b>trusts you</b> (a.k.a. you are friendly, if not friends), business is not likely to happen. That’s why <b>guanxi</b> (below) are so important in China. Chinese businesspeople <b>who have worked with us in the past</b> know they can trust us, so they will <b>also trust you</b>.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="row folding-section">
-          <div class="folding-section_heading color-green "  data-toggle="collapse" data-target="#r8">
-            <span class="collapsable_plus color-red"></span>
-            <div class="folding-section_heading_title color-red">
-              What is guanxi and why is it so important in China?
-            </div>
-          </div>
-          <div class="collapse" id="r8">
-            <div class="folding-section_content">
-              <img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
-              <h5 class="color-red"></h5>
-              <p>
-                Everyone here knows: To do business in China, you need to have two things: <b>guanxi and money</b>. Just money is not enough.
-                <span class="break"></span>
-                “Guanxi” means <b>personal connections</b>: that network of links between people who know each other and would do favors for each other, in business and in life. In China, a land where <b>almost everything can be faked</b>, so much depends on <b>personal trust</b>. Flesh-and-blood <b>people</b> are more reliable than words on-line and less likely to <b>disappear</b>—especially if you’ve known them for a while.
-                <span class="break"></span>
-                Guanxi is so important in China that some Chinese corporations will actually hire and keep staff to perform solely <b>the role of knowing someone</b> or being in contact with someone who needs to be known. This kind of position definitely doesn’t exist in Western companies!
-                <span class="break"></span>
-                We have spent years <b>cultivating trust</b> with all kinds of people through face-to-face meetings and a history of <b>great work</b>.
-                <span class="break"></span>
-                Learn about <a href="why_us/our_guanxi.html" class="color-red" target="blank">our guanxi</a>.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="row folding-section" >
-          <div class="folding-section_heading color-green " data-toggle="collapse" data-target="#r9">
-            <span class="collapsable_plus color-red"></span>
-            <div class="folding-section_heading_title color-red">
-              What does due diligence really mean in China, and why is it important
-              to do a background-check before buying a load?
-            </div>
-          </div>
-          <div class=" collapse" id="r9">
-            <div class="folding-section_content" >
-              <img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
-              <h5 class="color-red"></h5>
-              <p>
-                Due diligence is really about making sure any company <b>is what it says it is.</b> This ranges from whether or not the company
-                actually <b>exists</b> to whether they have <b>positive feedback</b>, <b>regular employees</b>, and <b>good finances</b>; in the course of our work,
-                we’ve found fake <b>copy-cat companies</b> before with offshore accounts, or companies with web-sites and no
-                manufacturing facilities, or even companies <b>borrowing</b> others’ offices. If you <b>don’t check first</b>, there is no way any court
-                can get the money back for you. <b>Assume the worst to guarantee the best. LITAO once saved a company 30,000 EUR through noticing the company name on the invoice did not match the one they gave elsewhere.</b>
-                <span class="break"></span>
-                The above is financial or operational due diligence, and suppliers certified with the ISO (International Organization
-                for Standardization) may be <b>qualified on paper</b>, but <b>real-time experience</b> and <b>word-of-mouth reputation</b> is even better.
-                You need experienced people to verify if documents, including a business license, are <b>real</b>, as well as to be aware of
-                common scams.
-                <span class="break"></span>
-                The <b>second kind</b> of due diligence actually happens AFTER you’ve found a supplier you want to work with. This is
-                <b>factory-level product QC</b>, and again requires regular local visits to <b>ensure quality</b>; even if the first sample batches are
-                okay, the factory may cut costs in the future so batches must be <b>checked regularly</b> pre-shipment to ensure product
-                quality.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="row folding-section" >
-          <div class="folding-section_heading color-green "  data-toggle="collapse" data-target="#r10">
-            <span class="collapsable_plus color-red"></span>
-            <div class="folding-section_heading_title color-red">
-              What is WeChat? <br>I’ve heard everyone talk about it,
-              but I’m still not sure if I should have it.
-            </div>
-          </div>
-          <div class="collapse" id="r10">
-            <div class="folding-section_content">
-              <img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
-              <h5 class="color-red"></h5>
-              <p>
-                Owned by Chinese tech giant TenCent, <b>WeChat is China’s answer to Facebook, Skype, WhatsApp, Apple Pay, and
-                traditional web-sites—combined.</b> It can do everything from simple and group chats to transferring money, shopping,
-                playing games, ordering food, paying bills, hailing cabs, and following your favorite companies. As of 2016, the app <b>has
-                grown 35%</b> in the last year to <b>850 million active monthly users</b> and <b>1.1 billion</b> registered ones, almost all of them <b>in China.</b>
-                <span class="break"></span>
-                The numbers alone don’t show how <b>dedicated</b> users are though: the app has <b>~750 million DAILY users</b>, half of whom use
-                the app <b>at least 90 minutes a day.</b> Also, 85% of users are between <b>the ages of 22 - 55</b>, a core consumer demographic.
-                Communicating by WeChat, not e-mail or phone, is the <b>preferred method</b> even for business as well as personal matters.
-                <span class="break"></span>
-                So much of China, especially the young and new middle-class consumers, do their looking, shopping, and talking on
-                mobile, which is becoming <b>increasingly more important</b> than traditional web-sites. <b>East Asia in particular</b> loves mobile
-                social network accounts:
-                <span class="break"></span>
-                <img src="home-images/crossing_cultures/Slide031.png" class="img-fluid graph">
-                <span class="break"></span>
-                WeChat also has an <b>enterprise option</b> for companies to open <b>Official Accounts</b>, which people can then follow for news,
-                promotions, and group chats. Many companies actually test apps by launching an official WeChat account first to see if
-                they’re popular.
-                <span class="break"></span>
-                <a href="http://blog.wechat.com/2016/12/29/the-2016-wechat-data-report/#more-4961 " class="color-red" target="blank">Here is a brief data report from WeChat itself.</a>
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="row folding-section" >
-          <div class="folding-section_heading color-green "  data-toggle="collapse" data-target="#r11">
-            <span class="collapsable_plus color-red" ></span>
-            <div class="folding-section_heading_title color-red">
-              Why can't I use a black & white picture of my team on my Chinese website?
-            </div>
-          </div>
-          <div class="collapse" id="r11">
-            <div class="folding-section_content ">
-              <img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
-              <h5 class="color-red"></h5>
-              <p>
-                In China, black and white pictures are only used for <b>deceased people</b>, so of course you wouldn’t want that on your
-                web-site. This is an example of <b>everyday cultural context</b> you won’t find in any guidebook on China, but <b>only case by case.</b>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-        <div class="section" id="useful_resources">
-
-          <div class="row">
-            <div class="col-md-6 col-xs-12">
-              <h3 class="text-uppercase level2-main-title">USEFUL <br>RESOURCES
-              </h3>
-            </div>
-            <div class="col-md-6">
-              <img src="home-images/crossing_cultures/main-ur.jpg" alt="main image" class="main-image img-fluid mobile">
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-md-6">
-              <div class="level2-titles-box-margin" >
-                <div class="level2-titles-box">
-                  <p class="title">
-                   Because we believe in
-                   teaching people how to fish
-                   for themselves.
-                 </p>
-                 <span class="break"> </span>
-                 <p class="subtitle color-red">
-                  All of the below are great information portals
-                  for doing business in China. They still can’t
-                  beat first-hand, targeted research, but
-                  they’re a good start to understanding China.
-                  </p>
+<body data-spy="scroll" data-target="#crossing_cultures-navigation" data-offset="0">
+    <header class="header" id="header">
+        <div class=" hidden-md-up litao_logo-black"> <a href="index.html#home"> <img src="icons_logo/logo-black-transparent.png"> </a> </div> <a id="nav-toggle" onclick="openNav()" href="javascript:void(0)"> <span></span> </a>
+        <div id="mySidenav" class="sidenav">
+            <div class="sidenav-links" id="myMenu" onclick="closeNav()"> <a data-menuanchor="home" class="sidenav_link home-menu" href="index.html#home" style="width: 0;"> HOME </a>
+                <br>
+                <div class=""> <a data-menuanchor="about_us" class="sidenav_link about-menu" href="index.html#about_us" style="width: 0;"> ABOUT&nbsp;US </a>
+                    <div class="main-submenu">
+                        <ul id="about_us-id" class="about_us-submenu " style="display: none;">
+                            <li class="intro-left-v animated-fast1 fadeIn"> <a class="border_link" href="about_us.html#nameandlogo"> <span class="border-text">NAME&nbsp;AND&nbsp;LOGO</span> </a> </li>
+                            <li class="intro-left-v animated-fast2 fadeIn"> <a class="border_link" href="about_us.html#team"> <span class="border-text">OUR&nbsp;TEAM</span> </a> </li>
+                            <li class="intro-left-v animated-fast3 fadeIn"> <a class="border_link" href="about_us.html#founder"> <span class="border-text">FOUNDER</span> </a> </li>
+                            <li class="intro-left-v animated-fast4 fadeIn"> <a class="border_link" href="about_us.html#values"> <span class="border-text">VALUES&nbsp;/&nbsp;MISSION&nbsp;/&nbsp;VISION</span></a> </li>
+                        </ul>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="panel-group" id="accordion">
-            <div class="row">
-             <div class="chapter" >
-               <div class="chapter_title mobile_collapse" data-toggle="collapse" data-target="#u1">
-                 <p>GLOBAL SOURCES:
-                 </p>
-               </div>
-               <div class="chapter_link">
-                 <a class="color-red" href="http://www.globalsources.com/SITE/ASK-THE-EXPERTS/Home.html" target="_blank">
-                   www.globalsources.com
-                 </a>
-               </div>
-               <span class="collapsable_plus color-red" data-toggle="collapse" data-target="#u1"></span>
-               <div class=" collapse" id="u1">
-                <p class="chapter_content">
-                  A great <b>Q&A web-site</b> on all things related to China <b>manufacturing & sourcing</b> (sample articles: 7 items you probably
-                  forgot to put in your contract with the factory; how much can I save by moving production from Europe to China?; as
-                  a new and small company, how do we choose from a myriad of suppliers who seem to make the same product?)
-                  </p>
+                <div class=""> <a data-menuanchor="our_work" class="sidenav_link work-menu" href="index.html#our_work" style="width: 0;"> OUR&nbsp;WORK </a>
+                    <div class="main-submenu">
+                        <ul id="our_work-id" class="our_work-submenu " style="display: none;">
+                            <li class="intro-left-v animated-fast2 fadeIn"> <a class="border_link" href="our_work.html#services"><span class="border-text">SERVICES</span> </a> </li>
+                            <li class="intro-left-v animated-fast3 fadeIn"> <a class="border_link" href="our_work.html#case_studies"><span class="border-text">CASE&nbsp;STUDIES</span> </a> </li>
+                            <li class="intro-left-v animated-fast4 fadeIn"> <a class="border_link" href="our_work.html#process"><span class="border-text">PROCESS</span> </a> </li>
+                        </ul>
+                    </div>
                 </div>
-              </div>
-            </div>
-
-
-            <div class="row">
-             <div class="chapter" >
-               <div class="chapter_title mobile_collapse" data-toggle="collapse" data-target="#u2">THE CHINA LAW BLOG
-               </div>
-               <div class="chapter_link">
-                 <a class="color-red" href="http://www.chinalawblog.com/" target="_blank">
-                   www.chinalawblog.com
-                 </a>
-               </div>
-               <span class="collapsable_plus color-red" data-toggle="collapse" data-target="#u2"></span>
-               <div class=" collapse" id="u2">
-                <p class="chapter_content">
-                  Written by a team of lawyers immersed in <b>China’s legal system</b>, this blog has lots of nitty-gritty details on <b>bureaucratic procedures, intellectual property matters</b>, and other <b>China-specific business solutions.</b>
-                  </p>
+                <div class=""> <a data-menuanchor="why_us" class="sidenav_link why-menu" href="index.html#why_us" style="width: 0;"> WHY&nbsp;US </a>
+                    <div class="main-submenu">
+                        <ul id="why_us-id" class="why_us-submenu " style="display: none;">
+                            <li class="intro-left-v animated-fast1 fadeIn"> <a class="border_link" href="why_us.html#experience_litao"> <span class="border-text">EXPERIENCE LITAO</span> </a> </li>
+                            <li class="intro-left-v animated-fast2 fadeIn"> <a class="border_link" href="why_us.html#our_guanxi"> <span class="border-text">OUR GUANXI</span> </a> </li>
+                            <li class="intro-left-v animated-fast3 fadeIn"> <a class="border_link" href="why_us.html#recognitions"> <span class="border-text">RECOGNITIONS</span> </a> </li>
+                            <li class="intro-left-v animated-fast4 fadeIn"> <a class="border_link" href="why_us.html#brochure"> <span class="border-text">BROCHURE</span> </a> </li>
+                        </ul>
+                    </div>
                 </div>
-              </div>
+                <div class=""> <a data-menuanchor="crossing_cultures" class=" active sidenav_link china-menu" href="index.html#crossing_cultures" style="width: 0;"> CROSSING&nbsp;CULTURES </a>
+                    <div class="main-submenu">
+                        <ul id="crossing_cultures-id" class="crossing_cultures-submenu " style="display: none;">
+                            <li class="intro-left-v animated-fast2 fadeIn"> <a class="border_link" href="crossing_cultures.html#raq"> <span class="border-text">RARELY&nbsp;ASKED&nbsp;QUESTIONS</span> </a> </li>
+                            <li class="intro-left-v animated-fast3 fadeIn"> <a class="border_link" href="crossing_cultures.html#useful_resources"> <span class="border-text">USEFUL&nbsp;RESOURCES</span> </a> </li>
+                        </ul>
+                    </div>
+                </div> <a class="sidenav_link contact-menu" href="connect_with_us.html" style="width: 0;"> CONNECT&nbsp;WITH&nbsp;US </a> </div>
+            <div class="color-green" id="menu-footer">
+                <div class="menu-footer_content">2017 all rights reserved <a href="mailto:labas@litao.lt">labas@litao.lt</a> </div>
             </div>
-
+        </div>
+        <div class="header-lang nav">
             <div class="row">
-             <div class="chapter">
-               <div class="chapter_title mobile_collapse" data-toggle="collapse" data-target="#u3">THE EU SME CENTRE
-               </div>
-               <div class="chapter_link">
-                 <a class="color-red" href="http://www.eusmecentre.org.cn/" target="_blank">
-                   www.eusmecentre.org.cn
-                 </a>
-               </div>
-               <span class="collapsable_plus color-red" data-toggle="collapse" data-target="#u3"></span>
-               <div class=" collapse" id="u3">
-                <p class="chapter_content">
-                  This project funded by the European Union offers <b>free consulting</b> for small and medium-sized enterprises working in
-                  China.
-                  </p>
+                <div class="header-lang-item nav-item col-sm-6 col-xs-4"> <a href="ch/crossing_cultures.html" title="LITAO" class="header-lang-link nav-link " data-page=""> <span class="header-lang-text">CH</span> </a> </div>
+                <div class="header-lang-item  nav-item col-sm-6 col-xs-4"> <a href="#" title="LITAO" class="header-lang-link nav-link active" data-page=""> <span class="header-lang-text">EN</span> </a> </div>
+                <div class="header-lang-item hidden-sm-up  nav-item col-xs-4"> <a href="#" title="LITAO" class="header-lang-link nav-link" data-page=""> <span class="header-lang-text">LT</span> </a> </div>
+            </div>
+            <div class="row hidden-xs-down">
+                <div class="header-lang-item  nav-item offset-sm-6"> <a href="#" title="LITAO" class="header-lang-link nav-link" data-page=""> <span class="header-lang-text">LT</span> </a> </div>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid page_id" id="crossing_cultures_id">
+        <div class=" hidden-sm-down side-border color-green">
+            <div class="logo-white-round"> <a href="index.html#home"> <img src="icons_logo/logo-white-round.png"> </a> </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-1 " id="crossing_cultures-navigation" role='navigation'>
+                <ul class="nav submenu" role="tablist">
+                    <li class="intro-left-v nav-item"> <a class="nav-link rotated-links" href="index.html#crossing_cultures"> <span class="border-text">INTRO</span> </a> </li>
+                    <li class="nav-link intro-left-v nav-item"> <a class="nav-link rotated-links" href="#raq"> <span class="border-text">RARELY&nbsp;ASKED&nbsp;QUESTIONS</span> </a> </li>
+                    <li class="nav-link intro-left-v nav-item"> <a class="nav-link rotated-links" href="#useful_resources"> <span class="border-text">USEFUL&nbsp;RESOURCES</span> </a> </li>
+                </ul>
+            </div>
+            <div class="col-xs-11 col-md-10 ">
+                <div class="section" id="raq">
+                    <div class="row">
+                        <div class="col-md-6 col-xs-12">
+                            <h3 class="text-uppercase level2-main-title"> RARELY ASKED <br> QUESTIONS </h3> </div>
+                        <div class="col-md-6"> <img src="home-images/crossing_cultures/rarely-asked-questions.jpg" alt="main image" class="img-fluid main-image mobile"> </div>
+                    </div>
+                    <div class="row">
+                        <div class=" col-xs-12 col-md-6 col-xl-12">
+                            <div class="level2-titles-box-margin">
+                                <div class="level2-titles-box">
+                                    <p class="lead"> These are questions that people should ask, but often don’t. We’re laying them out here for you, from the big-picture to the nitty-gritty. <a href="connect_with_us.html" class="color-red" target="blank">Let us know</a> if a question you have belongs to the list. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row folding-section">
+                        <div class="folding-section_heading color-green " data-toggle="collapse" data-target="#r1"> <span class="collapsable_plus color-red"></span>
+                            <div class="folding-section_heading_title color-red">Why does China matter ? </div>
+                        </div>
+                        <div class=" collapse" id="r1">
+                            <div class="folding-section_content"> <img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
+                                <h5 class="color-red"></h5>
+                                <p> <b>China in the 21st century</b> is an emergent <b>superpower</b> still catching up to its own strength, an authoritative <b>bureaucracy</b> in the midst of <b>organizing chaos</b>—though it’s already a strong player on the world stage, it still has <b>ample room to grow.</b> <span class="break"></span> China has been the <b>world’s second largest economy</b> by GDP since 2010, when it surpassed Japan. When GDP is adjusted for Purchasing Power Parity, though, China is <b>officially the world’s largest economy</b>, according to the International Monetary Fund—meaning the country’s consumers have <b>more individual purchasing power</b> than anywhere else in the world. And there are a LOT of consumers: <b>one out of every five people in the world is Chinese.</b> <span class="break"></span> You may have been hearing that China’s current GDP growth is the <b>lowest it’s been in decades</b> (2016’s was 6.7%). But that’s only in comparison to its average growth rate of <b>10% per year</b> since economic reforms in 1978; it’s still doing extremely well in real terms (the U.S. GDP growth for 2016 was less than half of China’s). Slowing down is part of a natural process after so much <b>rapid growth.</b> <span class="break"></span> Much of the slowdown also has to do with <b>China’s shift</b> from being a cheap manufacturer of goods (now that goes to countries like Vietnam or Mexico) to more of a major consumer with <b>a huge and rapidly growing middle class.</b> According to the 2015 Credit Suisse wealth report, <b>China has a larger middle-class adult population than the United States.</b> <span class="break"></span> <a href="https://www.credit-suisse.com/us/en/about-us/research/research-institute/news-and-videos/articles/news-and-expertise/2015/10/en/global-wealth-in-2015-underlying-trends-remain-positive.html" class="color-red" target="blank">Read more: Global Wealth in 2015: Underlying Trends Remain Positive </a> <span class="break"></span> With such a large sector of new potential consumers, China is really one of the most important countries in the world right now in business as well as politics. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row folding-section">
+                        <div class="folding-section_heading color-green " data-toggle="collapse" data-target="#r2"> <span class="collapsable_plus color-red"></span>
+                            <div class="folding-section_heading_title color-red"> What makes Chinese clients different from others wprldwide?
+                                <br> What do Chinese really want? </div>
+                        </div>
+                        <div class="collapse" id="r2">
+                            <div class="folding-section_content"> <img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
+                                <h5 class="color-red"></h5>
+                                <p> Related to the above answer, <b>a huge emergent middle class</b>—the largest in the world now—means also <b>middle class values</b>. Western companies used to only target China’s uber-rich (China DOES have a lot of millionaires); but Chinese clients are now much more diverse, and no longer only in coastal cities. <span class="break"></span> So what do Chinese people want? First, <b>there’s no one China or Chinese person</b>: it’s a huge country with distinct regions and regional preferences. <span class="break"></span> China—with its <b>35 distinct administrative regions</b>, <b>56 officially-recognized ethnicities</b>, and <b>over 200 mutually unintelligible dialects</b>—is as complex a country as you can get. <span class="break"></span> The <b>differences in consumer appetite</b> between one region of China and another are comparable to <b>differences between countries</b> elsewhere, not to mention the differences between Tier-1 cities (Beijing, Shanghai) and Tier-3 (Ziyang, Leshan). You really have to know who you’re targeting. <span class="break"></span> But there are certain <b>trends we can count on.</b> <span class="break"></span> According to <b>McKinsey’s 2016 China Consumer Report</b>, which surveyed 10,000 consumers across 44 cities in China, one huge trend that is already underway but will keep growing is the shift from mass market products to premium. <span class="break"></span> <a href="http://www.mckinsey.com/industries/retail/our-insights/here-comes-the-modern-chinese-consumer" class="color-red" target="blank">Read more: Here comes the modern Chinese consumer</a> <span class="break"></span> <img src="home-images/crossing_cultures/graph.jpg" class="img-fluid graph"> <span class="break"></span> Local brands will always best foreign ones for the mass market share, but <b>Chinese brands aren’t always as trusted for premium products</b>, especially for cosmetics and health. 38% of surveyed consumers listed “organic/green food” as among their top three criteria—even though China itself doesn’t have a credible organic certification, meaning foreign certifications are <b>more important</b> than ever. <span class="break"></span> China’s consumers are also <b>growing younger</b>, and as such, more Westernized than ever before. They check <b>on-line reviews</b>and are more likely <b>to try new things</b>—including specialized items like laundry softeners, unused by their predecessors. <span class="break"></span> <a href="http://www.mckinsey.com/industries/retail/our-insights/mapping-chinas-middle-class" target="blank" class="color-red">Read more: Mapping China's middle class</a> <span class="break"></span> Consumer strategies that used to work—appealing to a wide range of people with a standardized product—don’t anymore. Chinese people are becoming <b>much more particular</b> with what they like or not, and strategies need to be <b>tailor-made</b>—but the good thing is that compared to previous generations, they spend a <b>higher percentage</b> of their earnings—so if they <b>really like something</b>, they won’t necessarily save for later. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row folding-section">
+                        <div class="folding-section_heading color-green " data-toggle="collapse" data-target="#r3"> <span class="collapsable_plus color-red"></span>
+                            <div class="folding-section_heading_title color-red"> Can I still come to China if I don’t know Chinese or much about the country?
+                                <br> Do people here speak English? </div>
+                        </div>
+                        <div class="collapse" id="r3">
+                            <div class="folding-section_content"> <img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
+                                <h5 class="color-red"></h5>
+                                <p> Unlike Europe, where almost everyone with a higher education speaks fluent English, <b>most businesspeople in China don’t</b>—not even the big bosses, and certainly not most suppliers and manufacturers. <span class="break"></span> That’s where we come in. If you have a <b>great product or service</b>, we help you understand how to <b>place it in China</b> and can be with you the whole way from strategizing to network-building to that final contract-signing—<b>and beyond.</b> </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row folding-section">
+                        <div class="folding-section_heading color-green " data-toggle="collapse" data-target="#r4"> <span class="collapsable_plus color-red"></span>
+                            <div class="folding-section_heading_title color-red"> But why can’t my Chinese-speaking friend just be my interpreter? </div>
+                        </div>
+                        <div class="collapse" id="r4">
+                            <div class="folding-section_content"> <img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
+                                <h5 class="color-red"></h5>
+                                <p> Not unless your friend also happens to be a part-time <b>diplomat</b>, <b>businessperson</b>, <b>and master negotiator.</b> So much of interpretation is <b>beyond language itself</b> but about <b>tone</b>, <b>cultural context</b>, and prior <b>experiential knowledge.</b> If you simply allow anyone to translate your company’s documents, be prepared for miscommunication, missing information, or even too much(!) information, <b>all at detriment to your cause.</b> <span class="break"></span>
+                                    <!-- Click here for more on <b>the art of interpretation,</b> and what can happen if it goes wrong —> <a href="">link to case study: interpretation</a> --></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row folding-section">
+                        <div class="folding-section_heading color-green " data-toggle="collapse" data-target="#r5"> <span class="collapsable_plus color-red"></span>
+                            <div class="folding-section_heading_title color-red"> Can I just sell directly to China? Why do I need someone in the middle? </div>
+                        </div>
+                        <div class="collapse" id="r5">
+                            <div class="folding-section_content"> <img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
+                                <h5 class="color-red"></h5>
+                                <p> Unless your product truly has <b>incredible margins</b> (that locals would take advantage of at which would be a loss to you), the Chinese really prefer working with people who <b>understand China and Chinese.</b> You need someone <b>Chinese-savvy</b> by your side to navigate the market. Even simple things like money transfer and payment expectations differ in China. If you can’t <b>establish yourself permanently</b> in China, you’ll need someone suppliers and distributors can reach easily. You’ll also need to operate with on on a <b>whole different social media marketing scheme,</b> with China-specific mobile platforms (see <a href="#we-chat-id" data-toggle="collapse" data-target="#r10" class="color-red">What is WeChat?</a>); traditional web-sites are not nearly as important in China as <b>mobile</b>. <span class="break"></span> On the <b>administrative side</b>, with China’s complicated and ever-evolving import/export regulations and labor laws, foreign companies are often left out of the loop <b>when the rules change</b>. For employees, the Chinese government <b>obligates employers</b> to file staff information with relevant bureaus, maintain files, and pay social benefits and taxes for their employees. So even if you decide to sell on your own, if you want any <b>legal Chinese employees</b>, you’ll need a labor agency. <span class="break"></span> Chinese regulations aren’t always by the book, either. Sometimes the official web-site says one thing, but <b>word-of-mouth</b> says another. Which one do you think works? If your product is not approved <b>despite thinking</b> you met all the requirements, it takes Chinese <b>connections and digging</b> to even understand why. <span class="break"></span>
+                                    <!--   Read more on legal issues <a href="">here</a>.—> <a href="">link to Chinese legal issues case studies</a> --></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row folding-section">
+                        <div class="folding-section_heading color-green " data-toggle="collapse" data-target="#r6"> <span class="collapsable_plus color-red"></span>
+                            <div class="folding-section_heading_title color-red"> What is a consultant? </div>
+                        </div>
+                        <div class="collapse" id="r6">
+                            <div class="folding-section_content"> <img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
+                                <h5 class="color-red"></h5>
+                                <p> As local experts, consultants are your <b>modern-day guides and gurus</b>: part-lawyer, part-interpreter, part-coach. We are <b>problem-solvers</b> but also <b>problem-preventers</b>, with <b>culturally-sensitive solutions</b> to market research, relationship-building, and strategy. We make things clear for you to take the <b>next step</b>. <span class="break"></span> Consultants give <b>common sense</b> business advice, backed up by first-hand research, experience, and connections. Here at LITAO, though, we do more than give advice: we actually help you <b>implement</b> our suggestions. <span class="break"></span> A China consultant is a <b>hands-on</b> guide for everything that doesn’t make sense in this country—<b>culturally</b>, <b>linguistically</b>, <b>logistically</b>, and <b>legally</b>. We’re different from company agents or representatives because we don’t just follow the <b>status quo</b> for business; we help you strategize for <b>long-term growth</b>. And while <b>interpretation</b> is one of our services, helping you understand the language and negotiate with business partners is only <b>one small part</b> of the services we provide. <span class="break"></span> All cultures have had their <b>advice-givers</b>: from shamans and medicine men to viziers and general counsels. <span class="break"></span> Shamans take information from other worlds to use in this one. Premiers and viziers counsel their heads of state. General counsels give legal advice from decades of litigation experience. All of them act as <b>intermediaries between experience and decision</b>. All of them help a tribe, country, or company become <b>better versions</b> of themselves. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row folding-section">
+                        <div class="folding-section_heading color-green " data-toggle="collapse" data-target="#r7"> <span class="collapsable_plus color-red"></span>
+                            <div class="folding-section_heading_title color-red"> What should a company do before coming to China? </div>
+                        </div>
+                        <div class="collapse" id="r7">
+                            <div class="folding-section_content"> <img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
+                                <h5 class="color-red"></h5>
+                                <p> You need to think <b>locally</b>: know <b>which part</b> of the China market you want to expand in and not just China as a whole. Once you know that, we can help you develop your <b>key message to consumers</b>. <span class="break"></span> Other than finding a <b>trusted company</b> to give you advice and consult you locally, we also recommend <b>registering your brand and trademark</b> as much beforehand and in as many relevant categories as you can, as China has a <b>first-to-file trademark system</b>. <span class="break"></span> That’s why billionaire Donald Trump registered for ownership of Trump as a trademark in construction services <b>in 2006</b>—even though as of today, his hotel brand has not entered China. <span class="break"></span> <a href="http://www.economist.com/news/china/21717109-there-was-lot-lose-trump-brand-wins-battle-china" target="blank" class="color-red">Read more: The Trump brand wins a battle in China</a> <span class="break"></span> According to the New York Times, Trump owns about <b>29 of the 46 “TRUMP” trademarks</b> in China. A Chinese court recently upheld the trademark, <b>banning</b> the use of the name by other companies ownership in the construction sector. Other products, like popular brand Trump Toilets, may also be legally liable questionable—but none of this would have happened if top lawyers for one of the wealthiest men in the world hadn’t <b>taken precautions</b>. <span class="break"></span> <a href="http://www.ipwatchdog.com/2016/12/10/trump-victory-china-real-estate-trademark/id=75571/" class="color-red" target="blank">Read more: Trump victory china real estate trademark </a>
+                                    <!--      <br> <a href="" class="color-red" target="blank">Click here for more on trademark cases —> link to case study: Apple trademark</a> -->
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row folding-section">
+                        <div class="folding-section_heading color-green " data-toggle="collapse" data-target="#r71"> <span class="collapsable_plus color-red"></span>
+                            <div class="folding-section_heading_title color-red"> I’m communicating with my Chinese supplier/manufacturer/distributor/business partner and don’t understand their response. </div>
+                        </div>
+                        <div class="collapse" id="r71">
+                            <div class="folding-section_content"> <img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
+                                <h5 class="color-red"></h5>
+                                <p> “Language is not only how we <b>express our thoughts</b>, it is also how we <b>create our thoughts.</b>” —Chin-Ming Chu <span class="break"></span> We often hear clients say something like, “I don’t understand what this person’s answer is. I asked an <b>open-ended question</b> and he answered ‘yes.’” A lot of that comes down to <b>knowing how to ask the right question</b>. Not only is there a <b>language barrier</b>, sometimes the Chinese don’t understand your <b>specific standards</b>—“good enough” may well be satisfactory, and they may only want to assure you everything is alright even when it’s not—especially if they can <b>fool a newcomer</b>. Business negotiation means asking <b>specific, tailored questions</b> so the answerer cannot <b>escape into vagueness.</b> (Sometimes to avoid saying a direct “no” to a request, the Chinese will simply say “we’ll see” or delay.) You have to know the <b>key words</b> before you ask—this is where we can help. <span class="break"></span> The Chinese also don’t necessarily think in a <b>linear fashion</b>, so don’t always expect proposals to go from A to B to C or a business plan with a distributor to adhere strictly to dead-line. Doing business in China often means <b>going in circles</b>, many meetings just to get to know you; until the distributor <b>trusts you</b> (a.k.a. you are friendly, if not friends), business is not likely to happen. That’s why <b>guanxi</b> (below) are so important in China. Chinese businesspeople <b>who have worked with us in the past</b> know they can trust us, so they will <b>also trust you</b>. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row folding-section">
+                        <div class="folding-section_heading color-green " data-toggle="collapse" data-target="#r8"> <span class="collapsable_plus color-red"></span>
+                            <div class="folding-section_heading_title color-red"> What is guanxi and why is it so important in China? </div>
+                        </div>
+                        <div class="collapse" id="r8">
+                            <div class="folding-section_content"> <img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
+                                <h5 class="color-red"></h5>
+                                <p> Everyone here knows: To do business in China, you need to have two things: <b>guanxi and money</b>. Just money is not enough. <span class="break"></span> “Guanxi” means <b>personal connections</b>: that network of links between people who know each other and would do favors for each other, in business and in life. In China, a land where <b>almost everything can be faked</b>, so much depends on <b>personal trust</b>. Flesh-and-blood <b>people</b> are more reliable than words on-line and less likely to <b>disappear</b>—especially if you’ve known them for a while. <span class="break"></span> Guanxi is so important in China that some Chinese corporations will actually hire and keep staff to perform solely <b>the role of knowing someone</b> or being in contact with someone who needs to be known. This kind of position definitely doesn’t exist in Western companies! <span class="break"></span> We have spent years <b>cultivating trust</b> with all kinds of people through face-to-face meetings and a history of <b>great work</b>. <span class="break"></span> Learn about <a href="why_us/our_guanxi.html" class="color-red" target="blank">our guanxi</a>. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row folding-section">
+                        <div class="folding-section_heading color-green " data-toggle="collapse" data-target="#r9"> <span class="collapsable_plus color-red"></span>
+                            <div class="folding-section_heading_title color-red"> What does due diligence really mean in China, and why is it important to do a background-check before buying a load? </div>
+                        </div>
+                        <div class=" collapse" id="r9">
+                            <div class="folding-section_content"> <img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
+                                <h5 class="color-red"></h5>
+                                <p> Due diligence is really about making sure any company <b>is what it says it is.</b> This ranges from whether or not the company actually <b>exists</b> to whether they have <b>positive feedback</b>, <b>regular employees</b>, and <b>good finances</b>; in the course of our work, we’ve found fake <b>copy-cat companies</b> before with offshore accounts, or companies with web-sites and no manufacturing facilities, or even companies <b>borrowing</b> others’ offices. If you <b>don’t check first</b>, there is no way any court can get the money back for you. <b>Assume the worst to guarantee the best. LITAO once saved a company 30,000 EUR through noticing the company name on the invoice did not match the one they gave elsewhere.</b> <span class="break"></span> The above is financial or operational due diligence, and suppliers certified with the ISO (International Organization for Standardization) may be <b>qualified on paper</b>, but <b>real-time experience</b> and <b>word-of-mouth reputation</b> is even better. You need experienced people to verify if documents, including a business license, are <b>real</b>, as well as to be aware of common scams. <span class="break"></span> The <b>second kind</b> of due diligence actually happens AFTER you’ve found a supplier you want to work with. This is <b>factory-level product QC</b>, and again requires regular local visits to <b>ensure quality</b>; even if the first sample batches are okay, the factory may cut costs in the future so batches must be <b>checked regularly</b> pre-shipment to ensure product quality. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row folding-section">
+                        <div class="folding-section_heading color-green " data-toggle="collapse" data-target="#r10"> <span class="collapsable_plus color-red"></span>
+                            <div class="folding-section_heading_title color-red"> What is WeChat?
+                                <br>I’ve heard everyone talk about it, but I’m still not sure if I should have it. </div>
+                        </div>
+                        <div class="collapse" id="r10">
+                            <div class="folding-section_content"> <img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
+                                <h5 class="color-red"></h5>
+                                <p> Owned by Chinese tech giant TenCent, <b>WeChat is China’s answer to Facebook, Skype, WhatsApp, Apple Pay, and traditional web-sites—combined.</b> It can do everything from simple and group chats to transferring money, shopping, playing games, ordering food, paying bills, hailing cabs, and following your favorite companies. As of 2016, the app <b>has grown 35%</b> in the last year to <b>850 million active monthly users</b> and <b>1.1 billion</b> registered ones, almost all of them <b>in China.</b> <span class="break"></span> The numbers alone don’t show how <b>dedicated</b> users are though: the app has <b>~750 million DAILY users</b>, half of whom use the app <b>at least 90 minutes a day.</b> Also, 85% of users are between <b>the ages of 22 - 55</b>, a core consumer demographic. Communicating by WeChat, not e-mail or phone, is the <b>preferred method</b> even for business as well as personal matters. <span class="break"></span> So much of China, especially the young and new middle-class consumers, do their looking, shopping, and talking on mobile, which is becoming <b>increasingly more important</b> than traditional web-sites. <b>East Asia in particular</b> loves mobile social network accounts: <span class="break"></span> <img src="home-images/crossing_cultures/Slide031.png" class="img-fluid graph"> <span class="break"></span> WeChat also has an <b>enterprise option</b> for companies to open <b>Official Accounts</b>, which people can then follow for news, promotions, and group chats. Many companies actually test apps by launching an official WeChat account first to see if they’re popular. <span class="break"></span> <a href="http://blog.wechat.com/2016/12/29/the-2016-wechat-data-report/#more-4961 " class="color-red" target="blank">Here is a brief data report from WeChat itself.</a> </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row folding-section">
+                        <div class="folding-section_heading color-green " data-toggle="collapse" data-target="#r11"> <span class="collapsable_plus color-red"></span>
+                            <div class="folding-section_heading_title color-red"> Why can't I use a black & white picture of my team on my Chinese website? </div>
+                        </div>
+                        <div class="collapse" id="r11">
+                            <div class="folding-section_content "> <img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
+                                <h5 class="color-red"></h5>
+                                <p> In China, black and white pictures are only used for <b>deceased people</b>, so of course you wouldn’t want that on your web-site. This is an example of <b>everyday cultural context</b> you won’t find in any guidebook on China, but <b>only case by case.</b> </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
+                <div class="section" id="useful_resources">
+                    <div class="row">
+                        <div class="col-md-6 col-xs-12">
+                            <h3 class="text-uppercase level2-main-title">USEFUL <br>RESOURCES </h3> </div>
+                        <div class="col-md-6"> <img src="home-images/crossing_cultures/main-ur.jpg" alt="main image" class="main-image img-fluid mobile"> </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="level2-titles-box-margin">
+                                <div class="level2-titles-box">
+                                    <p class="title"> Because we believe in teaching people how to fish for themselves. </p> <span class="break"> </span>
+                                    <p class="subtitle color-red"> All of the below are great information portals for doing business in China. They still can’t beat first-hand, targeted research, but they’re a good start to understanding China. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel-group" id="accordion">
+                        <div class="row">
+                            <div class="chapter">
+                                <div class="chapter_title mobile_collapse" data-toggle="collapse" data-target="#u1">
+                                    <p>GLOBAL SOURCES: </p>
+                                </div>
+                                <div class="chapter_link"> <a class="color-red" href="http://www.globalsources.com/SITE/ASK-THE-EXPERTS/Home.html" target="_blank"> www.globalsources.com </a> </div> <span class="collapsable_plus color-red" data-toggle="collapse" data-target="#u1"></span>
+                                <div class=" collapse" id="u1">
+                                    <p class="chapter_content"> A great <b>Q&A web-site</b> on all things related to China <b>manufacturing & sourcing</b> (sample articles: 7 items you probably forgot to put in your contract with the factory; how much can I save by moving production from Europe to China?; as a new and small company, how do we choose from a myriad of suppliers who seem to make the same product?) </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="chapter">
+                                <div class="chapter_title mobile_collapse" data-toggle="collapse" data-target="#u2">THE CHINA LAW BLOG </div>
+                                <div class="chapter_link"> <a class="color-red" href="http://www.chinalawblog.com/" target="_blank"> www.chinalawblog.com </a> </div> <span class="collapsable_plus color-red" data-toggle="collapse" data-target="#u2"></span>
+                                <div class=" collapse" id="u2">
+                                    <p class="chapter_content"> Written by a team of lawyers immersed in <b>China’s legal system</b>, this blog has lots of nitty-gritty details on <b>bureaucratic procedures, intellectual property matters</b>, and other <b>China-specific business solutions.</b> </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="chapter">
+                                <div class="chapter_title mobile_collapse" data-toggle="collapse" data-target="#u3">THE EU SME CENTRE </div>
+                                <div class="chapter_link"> <a class="color-red" href="http://www.eusmecentre.org.cn/" target="_blank"> www.eusmecentre.org.cn </a> </div> <span class="collapsable_plus color-red" data-toggle="collapse" data-target="#u3"></span>
+                                <div class=" collapse" id="u3">
+                                    <p class="chapter_content"> This project funded by the European Union offers <b>free consulting</b> for small and medium-sized enterprises working in China. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="chapter">
+                                <div class="chapter_title mobile_collapse" data-toggle="collapse" data-target="#u4">THE AMERICAN CHAMBER OF COMMERCE IN SHANGHAI (blog) </div>
+                                <div class="chapter_link"> <a class="color-red" href="http://insight.amcham-shanghai.org/" target="_blank"> insight.amcham-shanghai.org </a> </div> <span class="collapsable_plus color-red" data-toggle="collapse" data-target="#u4"></span>
+                                <div class=" collapse" id="u4">
+                                    <p class="chapter_content"> The American Chamber of Commerce in Shanghai, besides being a <b>local business network</b>, also provides <b>overview reports</b> on markets, the economy, Chinese policy, and other business intelligence. Make sure to check out the Chamber of Commerce for your country, as well as the European Union Chamber of Commerce in China </p>
+                                    <div class="chapter_link"> <a class="color-red" href="http://www.europeanchamber.com.cn" target="_blank"> http://www.europeanchamber.com.cn/ </a> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="chapter">
+                                <div class="chapter_title mobile_collapse" data-toggle="collapse" data-target="#u51">CHINA SOLVED </div>
+                                <div class="chapter_link"> <a class="color-red" href="http://chinasolved.com/ " target="_blank"> chinasolved.com </a> </div> <span class="collapsable_plus color-red" data-toggle="collapse" data-target="#u51"></span>
+                                <div class=" collapse" id="u51">
+                                    <p class="chapter_content"> A blog on <b>Chinese negotiation solutions</b> for Westerners doing business in China. Includes business deal <b>warning signs</b>, <b>conflict management tips</b> and other <b>cultural broker advice</b>. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="chapter">
+                                <div class="chapter_title mobile_collapse" data-toggle="collapse" data-target="#u5">CAIXIN MEDIA </div>
+                                <div class="chapter_link"> <a class="color-red" href="http://www.caixinglobal.com/" target="_blank"> www.caixinglobal.com </a> </div> <span class="collapsable_plus color-red" data-toggle="collapse" data-target="#u5"></span>
+                                <div class=" collapse" id="u5">
+                                    <p class="chapter_content"> Don’t just rely on the <b>Western media’s portrayal</b> of China. Caixin is China’s version of “The Economist” and China’s most <b>widely read source</b> of business and finance news—independent and significantly <b>less biased</b> than other local media, but more <b>in-depth</b> than international news sources. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="chapter">
+                                <div class="chapter_title mobile_collapse" data-toggle="collapse" data-target="#u6">THE STATE COUNCIL OF THE PEOPLE’S REPUBLIC OF CHINA </div>
+                                <div class="chapter_link"> <a class="color-red" href="http://english.gov.cn/services/doingbusiness/" target="_blank"> english.gov.cn </a> </div> <span class="collapsable_plus color-red" data-toggle="collapse" data-target="#u6"></span>
+                                <div class=" collapse" id="u6">
+                                    <p class="chapter_content"> A page in English provided by <b>China’s highest executive body</b> on guidelines and forms for doing <b>foreign business</b> in China. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="chapter">
+                                <div class="chapter_title mobile_collapse" data-toggle="collapse" data-target="#u7">MCKINSEY & COMPANY’S 2016 CHINESE CONSUMER REPORT </div>
+                                <div class="chapter_link"> <a class="color-red" href="http://www.mckinsey.com/industries/retail/our-insights/here-comes-the-modern-chinese-consumer" target="_blank"> www.mckinsey.com </a> </div> <span class="collapsable_plus color-red" data-toggle="collapse" data-target="#u7"></span>
+                                <div class=" collapse" id="u7">
+                                    <p class="chapter_content"> Downloadable PDF link for <b>“The Modernization of the Chinese Consumer”</b> at bottom. McKinsey surveyed <b>10,000 consumers</b> across 44 cities in China to establish current consumer trends. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="chapter">
+                                <div class="chapter_title mobile_collapse" data-toggle="collapse" data-target="#u8">CHINA DATA ONLINE </div>
+                                <div class="chapter_link"> <a class="color-red" href="http://chinadataonline.org/" target="_blank"> chinadataonline.org </a> </div> <span class="collapsable_plus color-red" data-toggle="collapse" data-target="#u8"></span>
+                                <div class=" collapse" id="u8">
+                                    <p class="chapter_content"> Data in English provided from the <b>National Bureau of Statistics of the People’s Republic of China.</b> Provides statistical data at <b>various regional and national levels</b>, including consumer and producer goods and prices, industrial production, census, and market and industry surveys. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-
+        </div>
+    </div>
+    <footer>
+        <div class="container-fluid">
             <div class="row">
-             <div class="chapter" >
-               <div class="chapter_title mobile_collapse" data-toggle="collapse" data-target="#u4">THE AMERICAN CHAMBER OF COMMERCE IN SHANGHAI (blog)
-               </div>
-               <div class="chapter_link">
-                 <a class="color-red" href="http://insight.amcham-shanghai.org/" target="_blank">
-                   insight.amcham-shanghai.org
-                 </a>
-               </div>
-               <span class="collapsable_plus color-red" data-toggle="collapse" data-target="#u4"></span>
-               <div class=" collapse" id="u4">
-                <p class="chapter_content">
-                  The American Chamber of Commerce in Shanghai, besides being a <b>local business network</b>, also provides <b>overview reports</b> on markets, the economy, Chinese policy, and other business intelligence. Make sure to check out the
-                  Chamber of Commerce for your country, as well as the European Union Chamber of Commerce in China
-                  </p>
-                  <div class="chapter_link">
-                   <a class="color-red" href="http://www.europeanchamber.com.cn" target="_blank">
-                     http://www.europeanchamber.com.cn/
-                   </a>
-                 </div>
-               </div>
-             </div>
-           </div>
-
-           <div class="row">
-             <div class="chapter">
-               <div class="chapter_title mobile_collapse" data-toggle="collapse" data-target="#u51">CHINA SOLVED
-               </div>
-               <div class="chapter_link">
-                 <a class="color-red" href="http://chinasolved.com/ " target="_blank">
-                   chinasolved.com
-                 </a>
-               </div>
-               <span class="collapsable_plus color-red" data-toggle="collapse" data-target="#u51"></span>
-               <div class=" collapse" id="u51">
-                 <p class="chapter_content">
-                  A blog on <b>Chinese negotiation solutions</b> for Westerners doing business in China. Includes business deal <b>warning signs</b>, <b>conflict management tips</b> and other <b>cultural broker advice</b>.
-                </p>
-              </div>
+                <div class=" col-xs-11 col-md-10 offset-xs-1">
+                    <div class="row">
+                        <div class="col-md-6 left">
+                            <p class="call-to-action"><b>Talk to us—you won’t regret it</b></p>
+                            <ul>
+                                <li> Tel: 021-51061063 </li>
+                            </ul>
+                            <a href="mailto:lina@litao.lt">
+                                <button class="color-red">CONTACT</button>
+                            </a>
+                        </div>
+                        <div class="col-md-6 right">
+                            <ul>
+                                <li><a class="color-red" href="./about_us.html">ABOUT US</a></li>
+                                <li><a class="color-red" href="./our_work.html">OUR WORK</a></li>
+                                <li><a class="color-red" href="./why_us.html">WHY US</a></li>
+                                <li><a class="color-red" href="./crossing_cultures.html">CROSSING CULTURES</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row page-bottom">
+                        <div class="col-md-6">
+                            <p style="float: left;">Guangfu rd. 195, Suite 306, Jing'an district, Shanghai</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p style="float: right;">2017 all rights reserved <a href="mailto:labas@litao.lt">labas@litao.lt</a></p>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-
-          <div class="row">
-           <div class="chapter">
-             <div class="chapter_title mobile_collapse" data-toggle="collapse" data-target="#u5">CAIXIN MEDIA
-             </div>
-             <div class="chapter_link">
-               <a class="color-red" href="http://www.caixinglobal.com/" target="_blank">
-                 www.caixinglobal.com
-               </a>
-             </div>
-             <span class="collapsable_plus color-red" data-toggle="collapse" data-target="#u5"></span>
-             <div class=" collapse" id="u5">
-               <p class="chapter_content">
-                Don’t just rely on the <b>Western media’s portrayal</b> of China. Caixin is China’s version of “The Economist” and China’s
-                most <b>widely read source</b> of business and finance news—independent and significantly <b>less biased</b> than other local media,
-                but more <b>in-depth</b> than international news sources.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-           <div class="chapter" >
-             <div class="chapter_title mobile_collapse" data-toggle="collapse" data-target="#u6">THE STATE COUNCIL OF THE PEOPLE’S REPUBLIC OF CHINA
-             </div>
-             <div class="chapter_link">
-               <a class="color-red" href="http://english.gov.cn/services/doingbusiness/" target="_blank">
-                 english.gov.cn
-               </a>
-             </div>
-             <span class="collapsable_plus color-red" data-toggle="collapse" data-target="#u6"></span>
-             <div class=" collapse" id="u6">
-              <p class="chapter_content">
-                A page in English provided by <b>China’s highest executive body</b> on guidelines and forms for doing <b>foreign business</b> in
-                China.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-           <div class="chapter">
-             <div class="chapter_title mobile_collapse" data-toggle="collapse" data-target="#u7">MCKINSEY & COMPANY’S 2016 CHINESE CONSUMER REPORT
-             </div>
-             <div class="chapter_link">
-               <a class="color-red" href="http://www.mckinsey.com/industries/retail/our-insights/here-comes-the-modern-chinese-consumer" target="_blank">
-                 www.mckinsey.com
-               </a>
-             </div>
-             <span class="collapsable_plus color-red" data-toggle="collapse" data-target="#u7"></span>
-             <div class=" collapse" id="u7">
-              <p class="chapter_content">
-                Downloadable PDF link for <b>“The Modernization of the Chinese Consumer”</b> at bottom. McKinsey surveyed <b>10,000
-                consumers</b> across 44 cities in China to establish current consumer trends.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-           <div class="chapter">
-             <div class="chapter_title mobile_collapse" data-toggle="collapse" data-target="#u8">CHINA DATA ONLINE
-             </div>
-             <div class="chapter_link">
-               <a class="color-red" href="http://chinadataonline.org/" target="_blank">
-                 chinadataonline.org
-               </a>
-             </div>
-             <span class="collapsable_plus color-red" data-toggle="collapse" data-target="#u8"></span>
-             <div class=" collapse" id="u8">
-              <p class="chapter_content">
-                Data in English provided from the <b>National Bureau of Statistics of the People’s Republic of China.</b> Provides statistical
-                data at <b>various regional and national levels</b>, including consumer and producer goods and prices, industrial production,
-                census, and market and industry surveys.
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
-<footer>
-  <div class="container-fluid">
-    <div class="row">
-      <div class=" col-xs-11 col-md-10 offset-xs-1">
-      <div class="row">
-        <div class="col-md-6 left">
-          <p class="call-to-action"><b>Talk to us—you won’t regret it</b></p>
-          <ul>
-            <li>
-              Tel: 021-51061063
-            </li>
-          </ul>
-          <a href="mailto:lina@litao.lt"><button class="color-red">CONTACT</button></a>
-        </div>
-        <div class="col-md-6 right">
-          <ul>
-            <li><a class="color-red" href="./about_us.html">ABOUT US</a></li>
-            <li><a  class="color-red" href="./our_work.html">OUR WORK</a></li>
-            <li><a class="color-red" href="./why_us.html">WHY US</a></li>
-            <li><a class="color-red" href="./crossing_cultures.html">CROSSING CULTURES</a></li>
-          </ul>
-        </div>
-        </div>
-<div class="row page-bottom">
-      <div class="col-md-6">
-        <p style="float: left;">Guangfu rd. 195, Suite 306, Jing'an district, Shanghai</p>
-          </div>
-        <div class="col-md-6">
-         <p style="float: right;">2017 all rights reserved <a href="mailto:labas@litao.lt">labas@litao.lt</a></p>
-      </div>
-    </div>
-    </div>
-      </div>
-
-    </div>
-
-  </div>
-
-
-</footer>
-
-<script src="js/jquery-3.1.1.min.js"></script>
-<script src="js/jquery.easing.min.js"></script>
-<script src="js/tether.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-  <script src="js/scrollreveal.min.js"></script>
-<script src="js/js_script-v02.js"></script>
-<script type="text/javascript">
-  $(".folding-section").on('hidden.bs.collapse', toggleIcon)
-  $(".folding-section").on('show.bs.collapse', toggleIcon)
-  function toggleIcon(){
-    $(this).find("span").toggleClass("added")
-  }
-  $(document).ready(function(){
-    $('.collapse').on('show.bs.collapse', function (e) {
-      $('.collapse').collapse("hide")
-    })
-  })
-
-</script>
-<script type="text/javascript">
-    $('body').scrollspy({ target: '#crossing_cultures-navigation' })
-    window.sr = ScrollReveal({ reset: true });
-     sr.reveal('.level2-main-title',{duration:700},30);
-       sr.reveal('.img-fluid',{duration: 500});
-
-
-
-  </script>
-  <script type="text/javascript">
-  $(".chapter").on('hidden.bs.collapse', toggleIcon)
-  $(".chapter").on('show.bs.collapse', toggleIcon)
-  function toggleIcon(){
-    $(this).find(".collapsable_plus").toggleClass("added")
-  }
-  $(".chapter_title").hover(function(){
-    $(this).addClass('animated-fast5 fadeIn').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){$(this).removeClass('animated-fast5 fadeIn');});})
-    $(document).ready(function(){
-    $('.collapse').on('show.bs.collapse', function (e) {
-        $('.collapse').collapse("hide")
-    })
-})
-  </script>
+        <!-- </div> -->
+    </footer>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrollreveal.min.js"></script>
+    <script src="js/js_script-v02.js"></script>
+    <script type="text/javascript">
+    $(".folding-section").on('hidden.bs.collapse', toggleIcon) $(".folding-section").on('show.bs.collapse', toggleIcon)
+    function toggleIcon() { $(this).find("span").toggleClass("added") } $(document).ready(function() { $('.collapse').on('show.bs.collapse', function(e) { $('.collapse').collapse("hide") }) })
+    </script>
+    <script type="text/javascript">
+    $('body').scrollspy({ target: '#crossing_cultures-navigation' }) window.sr = ScrollReveal({ reset: true });
+    sr.reveal('.level2-main-title', { duration: 700 }, 30);
+    sr.reveal('.img-fluid', { duration: 500 });
+    </script>
+    <script type="text/javascript">
+    $(".chapter").on('hidden.bs.collapse', toggleIcon) $(".chapter").on('show.bs.collapse', toggleIcon)
+    function toggleIcon() { $(this).find(".collapsable_plus").toggleClass("added") } $(".chapter_title").hover(function() { $(this).addClass('animated-fast5 fadeIn').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() { $(this).removeClass('animated-fast5 fadeIn'); }); }) $(document).ready(function() { $('.collapse').on('show.bs.collapse', function(e) { $('.collapse').collapse("hide") }) })
+    </script>
 </body>
+
 </html>
