@@ -1,0 +1,23 @@
+body{
+  font-size: 100%;
+  font-family: 'BrandonGrotesque-Regular';
+}
+.background-img{
+  background: url(images/plain-bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size:cover;
+  background-size: cover;
+}
+
+.parent {
+ width: 100vw;
+ height: 100vh;
+  text-align: center;
+  padding: 20px;
+}
+p {text-align: center;}
+.info-line{color:#a55f60; font-family: 'BrandonGrotesque-RegularItalic';}
+.name{font-size: 1.5em;}
+.qr img{max-width: 25%;}
+.qr {text-align: center; padding-bottom: 20px;}
