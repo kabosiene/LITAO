@@ -1,716 +1,644 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="">
-	<meta name="author" content="">
-	<title>LITAO</title>
-	<link href="css/font.css" rel="stylesheet">
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/jquery.multiscroll.css" rel="stylesheet">
-  <link href="css/animate.css" rel="stylesheet">
-  <!-- <link rel="stylesheet" href="css/animsition.min.css"> -->
-  <link href="css/litao_style-v02.css" rel="stylesheet">
-	<link rel="icon" type="image/png" href="icons_logo/logo.png">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>LITAO</title>
+    <link href="css/font.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/jquery.multiscroll.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/animsition.min.css"> -->
+    <link href="css/litao_style-v03.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="icons_logo/logo.png">
 </head>
+
 <body>
-
-	<header class="index_header" id="header">
-
-		<a id="nav-toggle" onclick="openNav()" href="javascript:void(0)">
-			<span></span>
-		</a>
-
-		<div id="mySidenav" class="sidenav">
-			<div class="sidenav-links" id="myMenu" onclick="closeNav()">
-        <a data-menuanchor="home" class="sidenav_link home-menu active" href="index.html#home" style="width: 0;">
+    <header class="index_header" id="header">
+        <a id="nav-toggle" onclick="openNav()" href="javascript:void(0)">
+      <span></span>
+    </a>
+        <div id="mySidenav" class="sidenav">
+            <div class="sidenav-links" id="myMenu" onclick="closeNav()">
+                <a data-menuanchor="home" class="sidenav_link home-menu active" href="index.html#home" style="width: 0;">
           HOME
         </a>
-        <br>
-        <div class="">
-          <a data-menuanchor="about_us" class="sidenav_link about-menu" href="index.html#about_us" style="width: 0;">
+                <br>
+                <div class="">
+                    <a data-menuanchor="about_us" class="sidenav_link about-menu" href="index.html#about_us" style="width: 0;">
             ABOUT&nbsp;US
           </a>
-          <div class="main-submenu">
-            <ul id="about_us-id" class="about_us-submenu " style="display: none;">
-              <li class="intro-left-v animated-fast1 fadeIn">
-                <a class="border_link" href="about_us.html#nameandlogo">
+                    <div class="main-submenu">
+                        <ul id="about_us-id" class="about_us-submenu " style="display: none;">
+                            <li class="intro-left-v animated-fast1 fadeIn">
+                                <a class="border_link" href="about_us.html#nameandlogo">
                   <span class="border-text">NAME&nbsp;AND&nbsp;LOGO</span>
                 </a>
-              </li>
-                <li class="intro-left-v animated-fast2 fadeIn">
-                  <a class="border_link" href="about_us.html#team">
+                            </li>
+                            <li class="intro-left-v animated-fast2 fadeIn">
+                                <a class="border_link" href="about_us.html#team">
                     <span class="border-text">OUR&nbsp;TEAM</span>
                   </a>
-                </li>
-
-                <li class="intro-left-v animated-fast3 fadeIn">
-                  <a class="border_link" href="about_us.html#founder">
+                            </li>
+                            <li class="intro-left-v animated-fast3 fadeIn">
+                                <a class="border_link" href="about_us.html#founder">
                     <span class="border-text">FOUNDER</span>
                   </a>
-                </li>
-                <li class="intro-left-v animated-fast4 fadeIn">
-                  <a class="border_link" href="about_us.html#values">
+                            </li>
+                            <li class="intro-left-v animated-fast4 fadeIn">
+                                <a class="border_link" href="about_us.html#values">
                     <span class="border-text">VALUES&nbsp;/&nbsp;MISSION&nbsp;/&nbsp;VISION</span></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="">
-              <a data-menuanchor="our_work" class="sidenav_link work-menu" href="index.html#our_work" style="width: 0;">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="">
+                    <a data-menuanchor="our_work" class="sidenav_link work-menu" href="index.html#our_work" style="width: 0;">
                 OUR&nbsp;WORK
               </a>
-              <div class="main-submenu">
-                <ul id="our_work-id" class="our_work-submenu " style="display: none;">
-                  <li class="intro-left-v animated-fast2 fadeIn">
-                    <a class="border_link" href="our_work.html#services"><span class="border-text">SERVICES</span>
+                    <div class="main-submenu">
+                        <ul id="our_work-id" class="our_work-submenu " style="display: none;">
+                            <li class="intro-left-v animated-fast2 fadeIn">
+                                <a class="border_link" href="our_work.html#services"><span class="border-text">SERVICES</span>
                     </a>
-                  </li>
-                  <li class="intro-left-v animated-fast3 fadeIn">
-                    <a class="border_link" href="our_work.html#case_studies"><span class="border-text">CASE&nbsp;STUDIES</span>
+                            </li>
+                            <li class="intro-left-v animated-fast3 fadeIn">
+                                <a class="border_link" href="our_work.html#case_studies"><span class="border-text">CASE&nbsp;STUDIES</span>
                     </a>
-                  </li>
-                  <li class="intro-left-v animated-fast4 fadeIn">
-                    <a class="border_link" href="our_work.html#process"><span class="border-text">PROCESS</span>
+                            </li>
+                            <li class="intro-left-v animated-fast4 fadeIn">
+                                <a class="border_link" href="our_work.html#process"><span class="border-text">PROCESS</span>
                     </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="">
-              <a data-menuanchor="why_us" class="sidenav_link why-menu" href="index.html#why_us" style="width: 0;">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="">
+                    <a data-menuanchor="why_us" class="sidenav_link why-menu" href="index.html#why_us" style="width: 0;">
                 WHY&nbsp;US
               </a>
-              <div class="main-submenu">
-                <ul id="why_us-id" class="why_us-submenu " style="display: none;">
-                  <li class="intro-left-v animated-fast2 fadeIn">
-                    <a class="border_link" href="why_us.html#experience_litao">
+                    <div class="main-submenu">
+                        <ul id="why_us-id" class="why_us-submenu " style="display: none;">
+                            <li class="intro-left-v animated-fast2 fadeIn">
+                                <a class="border_link" href="why_us.html#experience_litao">
                       <span class="border-text">EXPERIENCE LITAO</span>
                     </a>
-                  </li>
-                  <li class="intro-left-v animated-fast3 fadeIn">
-                    <a class="border_link" href="why_us.html#our_guanxi">
+                            </li>
+                            <li class="intro-left-v animated-fast3 fadeIn">
+                                <a class="border_link" href="why_us.html#our_guanxi">
                       <span class="border-text">OUR GUANXI</span>
                     </a>
-                  </li>
-                  <li class="intro-left-v animated-fast4 fadeIn">
-                    <a class="border_link" href="why_us.html#recognitions">
+                            </li>
+                            <li class="intro-left-v animated-fast4 fadeIn">
+                                <a class="border_link" href="why_us.html#recognitions">
                       <span class="border-text">RECOGNITIONS</span>
                     </a>
-                  </li>
-                  <li class="intro-left-v animated-fast5 fadeIn">
-                    <a class="border_link" href="why_us.html#brochure">
+                            </li>
+                            <li class="intro-left-v animated-fast5 fadeIn">
+                                <a class="border_link" href="why_us.html#brochure">
                       <span class="border-text">BROCHURE</span>
                     </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="">
-              <a data-menuanchor="crossing_cultures" class="sidenav_link china-menu" href="index.html#crossing_cultures" style="width: 0;">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="">
+                    <a data-menuanchor="crossing_cultures" class="sidenav_link china-menu" href="index.html#crossing_cultures" style="width: 0;">
                 CROSSING&nbsp;CULTURES
               </a>
-              <div class="main-submenu">
-                <ul id="crossing_cultures-id" class="crossing_cultures-submenu " style="display: none;">
-                  <li class="intro-left-v animated-fast2 fadeIn">
-                    <a class="border_link" href="crossing_cultures.html#raq">
+                    <div class="main-submenu">
+                        <ul id="crossing_cultures-id" class="crossing_cultures-submenu " style="display: none;">
+                            <li class="intro-left-v animated-fast2 fadeIn">
+                                <a class="border_link" href="crossing_cultures.html#raq">
                       <span class="border-text">RARELY&nbsp;ASKED&nbsp;QUESTIONS</span>
                     </a>
-                  </li>
-                  <li class="intro-left-v animated-fast3 fadeIn">
-                    <a class="border_link" href="crossing_cultures.html#useful_resources">
+                            </li>
+                            <li class="intro-left-v animated-fast3 fadeIn">
+                                <a class="border_link" href="crossing_cultures.html#useful_resources">
                       <span class="border-text">USEFUL&nbsp;RESOURCES</span>
                     </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <a class="sidenav_link contact-menu" href="connect_with_us.html" style="width: 0;">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <a class="sidenav_link contact-menu" href="connect_with_us.html" style="width: 0;">
               CONNECT&nbsp;WITH&nbsp;US
             </a>
-          </div>
-          <div class="color-green" id="menu-footer">
-            <div class="menu-footer_content">2017 all rights reserved <a href="mailto:labas@litao.lt">labas@litao.lt</a>
             </div>
-          </div>
+            <div class="color-green" id="menu-footer">
+                <div class="menu-footer_content">2017 all rights reserved <a href="mailto:labas@litao.lt">labas@litao.lt</a>
+                </div>
+            </div>
         </div>
-
-     <div class="header-lang nav">
-			<div class="row">
-				<div class="header-lang-item nav-item col-sm-6 col-xs-4">
-					<a href="ch/index.html" title="LITAO" class="header-lang-link nav-link " data-page="">
-						<span class="header-lang-text">CH</span>
-					</a>
-				</div>
-				<div class="header-lang-item  nav-item col-sm-6 col-xs-4">
-					<a href="#" title="LITAO" class="header-lang-link nav-link active" data-page="">
-						<span class="header-lang-text">EN</span>
-					</a>
-				</div>
-        <div class="header-lang-item hidden-sm-up  nav-item col-xs-4">
-          <a href="#" title="LITAO" class="header-lang-link nav-link" data-page="">
+        <div class="header-lang nav">
+            <div class="row">
+                <div class="header-lang-item nav-item col-sm-6 col-xs-4">
+                    <a href="ch/index.html" title="LITAO" class="header-lang-link nav-link " data-page="">
+            <span class="header-lang-text">CH</span>
+          </a>
+                </div>
+                <div class="header-lang-item  nav-item col-sm-6 col-xs-4">
+                    <a href="#" title="LITAO" class="header-lang-link nav-link active" data-page="">
+            <span class="header-lang-text">EN</span>
+          </a>
+                </div>
+                <div class="header-lang-item hidden-sm-up  nav-item col-xs-4">
+                    <a href="#" title="LITAO" class="header-lang-link nav-link" data-page="">
             <span class="header-lang-text">LT</span>
           </a>
-        </div>
-			</div>
-			<div class="row hidden-xs-down">
-				<div class="header-lang-item  nav-item offset-sm-6">
-					<a href="#" title="LITAO" class="header-lang-link nav-link" data-page="">
-						<span class="header-lang-text">LT</span>
-					</a>
-				</div>
-			</div>
-		</div>
-
-	</header>
-
-	<div class="container-fluid intro hidden-sm-down" id="multiscroll" >
-		<div class="row">
-
-			<div class="ms-left col-md-6">
-				<div class="ms-section active margin-0 color-green " data-anchor="home">
-					<div class="content-left">
-						<img src="icons_logo/logo_transparent_home.png" class="img-fluid home-logo animated fadeIn" alt="LITAO logo" width="50%">
-						<div class="home-intro">
-							<p class="home-text animated2 fadeInDown">
-								Helping foreign companies China-fy <br/> and Chinese companies globalize
-							</p>
-						</div>
-					</div>
-					<img class="home-arrow img-fluid animated4 bounceInUp" src="icons_logo/arrow-down.png" alt="arrow-down image" onclick="$.fn.multiscroll.moveSectionDown();">
-				</div>
-				<div class="ms-section color-grey margin-0" data-anchor="about_us">
-					<div class="left">
-						<div id="square"></div>
-						<div class="content-padding" >
-							<div class="intro-column">
-								<a href="./about_us.html" class="animsition-link">
-									<img class="title-img img-fluid" src="icons_logo/about_us.png" alt="ABOUT US">
-								</a>
-								<div class="intro-content">
-									<p class="text-justify">
-										As cross-cultural consultants based in <b>Shanghai</b>, <b>Hong Kong</b> and <b>Lithuania</b>,
-										we serve foreign companies tailor-made strategies for <b>China market entry</b> and <b>market expansion</b>.
-										<br>
-										<br>
-										In the past seven years, our team of foreign-educated locals and China-savvy foreigners has
-										helped <b>50+ companies</b> across a dozen sectors realize their cross-border dreams.
-										<br>
-										<br>
-										<a href="./about_us.html" class="color-red intro_more">
-											READ MORE
-										</a>
-									</p>
-								</div>
-							</div>
-						</div>
-						<img class="home-arrow img-fluid" src="icons_logo/arrow-down.png" alt="arrow-down image" onclick="$.fn.multiscroll.moveSectionDown();">
-					</div>
-				</div>
-
-				<div class="ms-section our-work-img margin-0" data-anchor="our_work">
-				</div>
-
-				<div class="ms-section color-grey margin-0" data-anchor="why_us">
-					<div class="left">
-						<div id="triangle-topleft">
-						</div>
-						<div class="content-padding">
-							<div class="intro-column">
-								<a href="./why_us.html">
-									<img class="title-img img-fluid" src="icons_logo/why_us.png" alt="WHY US">
-								</a>
-								<div class="intro-content">
-									<p class="text-justify">
-										When you go somewhere new, you have to relearn how to see, how to speak, how to do. We are your eyes and ears, hands and feet in China.
-										<br>
-										<br>
-										Because we’re more than consultants who only talk the talk—we’re <span class="font-bold">DOERS</span>. We help you walk, then run.
-										<br>
-										<br>
-										<a href="./why_us.html" class="color-red intro_more">
-											READ MORE
-										</a>
-									</p>
-								</div>
-							</div>
-						</div>
-						<img class="home-arrow img-fluid" src="icons_logo/arrow-down.png" alt="arrow-down image" onclick="$.fn.multiscroll.moveSectionDown();">
-					</div>
-				</div>
-
-				<div class="ms-section about-china-img margin-0" data-anchor="crossing_cultures">
-				</div>
-
-
-        <div class="ms-section color-grey margin-0" data-anchor="connect_with_us">
-          <div class="left">
-            <div id="square">
+                </div>
             </div>
-            <div class="content-padding">
-              <div class="intro-column">
-                <a href="./connect_with_us.html">
+            <div class="row hidden-xs-down">
+                <div class="header-lang-item  nav-item offset-sm-6">
+                    <a href="#" title="LITAO" class="header-lang-link nav-link" data-page="">
+            <span class="header-lang-text">LT</span>
+          </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid intro hidden-sm-down" id="multiscroll">
+        <div class="row">
+            <div class="ms-left col-md-6">
+                <div class="ms-section active margin-0 color-green " data-anchor="home">
+                    <div class="content-left">
+                        <img src="icons_logo/logo_transparent_home.png" class="img-fluid home-logo animated fadeIn" alt="LITAO logo" width="50%">
+                        <div class="home-intro">
+                            <p class="home-text animated2 fadeInDown">
+                                Helping foreign companies China-fy
+                                <br/> and Chinese companies globalize
+                            </p>
+                        </div>
+                    </div>
+                    <img class="home-arrow img-fluid animated4 bounceInUp" src="icons_logo/arrow-down.png" alt="arrow-down image" onclick="$.fn.multiscroll.moveSectionDown();">
+                </div>
+                <div class="ms-section color-grey margin-0" data-anchor="about_us">
+                    <div class="left">
+                        <div id="square"></div>
+                        <div class="content-padding">
+                            <div class="intro-column">
+                                <a href="./about_us.html" class="animsition-link">
+                  <img class="title-img img-fluid" src="icons_logo/about_us.png" alt="ABOUT US">
+                </a>
+                                <div class="intro-content">
+                                    <p class="text-justify">
+                                        As cross-cultural consultants based in <b>Shanghai</b>, <b>Hong Kong</b> and <b>Lithuania</b>, we serve foreign companies tailor-made strategies for <b>China market entry</b> and <b>market expansion</b>.
+                                        <br>
+                                        <br> In the past seven years, our team of foreign-educated locals and China-savvy foreigners has helped <b>50+ companies</b> across a dozen sectors realize their cross-border dreams.
+                                        <br>
+                                        <br>
+                                        <a href="./about_us.html" class="color-red intro_more">
+                      READ MORE
+                    </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="home-arrow img-fluid" src="icons_logo/arrow-down.png" alt="arrow-down image" onclick="$.fn.multiscroll.moveSectionDown();">
+                    </div>
+                </div>
+                <div class="ms-section our-work-img margin-0" data-anchor="our_work">
+                </div>
+                <div class="ms-section color-grey margin-0" data-anchor="why_us">
+                    <div class="left">
+                        <div id="triangle-topleft">
+                        </div>
+                        <div class="content-padding">
+                            <div class="intro-column">
+                                <a href="./why_us.html">
+                  <img class="title-img img-fluid" src="icons_logo/why_us.png" alt="WHY US">
+                </a>
+                                <div class="intro-content">
+                                    <p class="text-justify">
+                                        When you go somewhere new, you have to relearn how to see, how to speak, how to do. We are your eyes and ears, hands and feet in China.
+                                        <br>
+                                        <br> Because we’re more than consultants who only talk the talk—we’re <span class="font-bold">DOERS</span>. We help you walk, then run.
+                                        <br>
+                                        <br>
+                                        <a href="./why_us.html" class="color-red intro_more">
+                      READ MORE
+                    </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="home-arrow img-fluid" src="icons_logo/arrow-down.png" alt="arrow-down image" onclick="$.fn.multiscroll.moveSectionDown();">
+                    </div>
+                </div>
+                <div class="ms-section about-china-img margin-0" data-anchor="crossing_cultures">
+                </div>
+                <div class="ms-section color-grey margin-0" data-anchor="connect_with_us">
+                    <div class="left">
+                        <div id="square">
+                        </div>
+                        <div class="content-padding">
+                            <div class="intro-column">
+                                <a href="./connect_with_us.html">
                   <img class="title-img img-fluid" src="icons_logo/connect_with_us.png" alt="Connect with us">
                 </a>
-                <div class="intro-content">
-                  <p class="text-justify" style="padding: 50px 0">
-                    <b>Let's work together! <br>
+                                <div class="intro-content">
+                                    <p class="text-justify" style="padding: 50px 0">
+                                        <b>Let's work together! <br>
                       Drop us a line or come for tea.</b>
-                      <br>
-                      <br>
-                      <a href="./connect_with_us.html" class="color-red intro_more" style="display:inline-block;padding-top: 100px">
+                                        <br>
+                                        <br>
+                                        <a href="./connect_with_us.html" class="color-red intro_more" style="display:inline-block;padding-top: 100px">
                         READ MORE
                       </a>
-                    </p>
-                  </div>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-
+            <div class="ms-right col-md-6">
+                <div class="ms-section active margin-0 color-green" data-anchor="home">
+                    <div class="right">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="4000">
+                            <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                    <img class="d-block img-fluid animated fadeIn" src="./home-images/Cover-1.jpg" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block img-fluid animated fadeIn" src="./home-images/Cover-2.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block img-fluid animated fadeIn" src="./home-images/Cover-3.jpg" alt="Third slide">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ms-section about-us-img margin-0" data-anchor="about_us">
+                </div>
+                <div class="ms-section color-grey margin-0" data-anchor="our_work">
+                    <div class=" right">
+                        <div id="circle">
+                        </div>
+                        <div class="content-padding">
+                            <div class="intro-column">
+                                <a href="./our_work.html">
+                  <img class="title-img img-fluid" src="icons_logo/our_work.png" alt="OUR WORK">
+                </a>
+                                <div class="intro-content">
+                                    <p class="text-justify">
+                                        <b class="citate">“Work is love made visible.”</b>
+                                        <br>
+                                        <span class="citated">The Prophet, Kahlil Gibran</span>
+                                        <br>
+                                        <br>
+                                        <b>50+</b> companies. <b>200+</b> individuals.
+                                        <br>Countless dreams made reality with blood, sweat, and smarts.
+                                        <br>
+                                        <br> We love our work, and we want to help you fall in love with China, too.
+                                        <br>
+                                        <br>
+                                        <a href="./our_work.html" class="animsition-link color-red intro_more">
+                      READ MORE
+                    </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="home-arrow img-fluid" src="icons_logo/arrow-down.png" alt="arrow-down image" onclick="$.fn.multiscroll.moveSectionDown();">
+                    </div>
+                </div>
+                <div class="ms-section why-us-img margin-0" data-anchor="why_us">
+                </div>
+                <div class="ms-section chinabg-color margin-0" data-anchor="crossing_cultures">
+                    <div class=" right">
+                        <div id="rectangle">
+                        </div>
+                        <div class="content-padding">
+                            <div class="intro-column">
+                                <a href="./crossing_cultures.html">
+                  <img class="title-img img-fluid" src="icons_logo/crossing_cultures.png" alt="ABOUT CHINA">
+                </a>
+                                <div class="intro-content">
+                                    <p class="text-justify">
+                                        China is a country of <b>extremes</b>, combining
+                                        <b>thousand</b>+-<b>year-old customs</b> (and pride) with <b>contemporary desires</b>. China is both <b>wisdom</b> and <b>ambition</b>, history made and in the making. As <b>cross-cultural consultants</b>, we’re here to show you how to use both.
+                                        <br>
+                                        <br>
+                                        <a href="./crossing_cultures.html" class="animsition-link color-red intro_more">
+                      READ MORE
+                    </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="home-arrow img-fluid" src="icons_logo/arrow-down.png" alt="arrow-down image" onclick="$.fn.multiscroll.moveSectionDown();">
+                    </div>
+                </div>
+                <div class="ms-section connect_with_us-img margin-0" data-anchor="connect_with_us">
+                </div>
+            </div>
         </div>
-
-        <div class="ms-right col-md-6">
-
-          <div class="ms-section active margin-0 color-green" data-anchor="home">
-           <div class="right">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="4000">
-             <div class="carousel-inner" role="listbox">
-              <div class="carousel-item active">
-               <img class="d-block img-fluid animated fadeIn" src="./home-images/Cover-1.jpg" alt="First slide">
-             </div>
-             <div class="carousel-item">
-               <img class="d-block img-fluid animated fadeIn" src="./home-images/Cover-2.jpg" alt="Second slide">
-             </div>
-             <div class="carousel-item">
-               <img class="d-block img-fluid animated fadeIn" src="./home-images/Cover-3.jpg" alt="Third slide">
-             </div>
-           </div>
-         </div>
-       </div>
-     </div>
-
-				<div class="ms-section about-us-img margin-0" data-anchor="about_us">
-				</div>
-
-				<div class="ms-section color-grey margin-0" data-anchor="our_work">
-					<div class=" right">
-						<div id="circle">
-						</div>
-						<div class="content-padding">
-							<div class="intro-column">
-								<a href="./our_work.html">
-									<img class="title-img img-fluid" src="icons_logo/our_work.png" alt="OUR WORK">
-								</a>
-								<div class="intro-content">
-									<p class="text-justify">
-										<b class="citate">“Work is love made visible.”</b>
-										<br>
-										<span class="citated">The Prophet, Kahlil Gibran</span>
-										<br>
-										<br>
-										<b>50+</b> companies. <b>200+</b> individuals.   <br>Countless dreams made reality with blood, sweat, and smarts.
-										<br>
-										<br>
-										We love our work, and we want to help you fall in love with China, too.
-										<br>
-										<br>
-										<a href="./our_work.html" class="animsition-link color-red intro_more">
-											READ MORE
-										</a>
-									</p>
-								</div>
-							</div>
-						</div>
-						<img class="home-arrow img-fluid" src="icons_logo/arrow-down.png" alt="arrow-down image" onclick="$.fn.multiscroll.moveSectionDown();">
-					</div>
-				</div>
-
-				<div class="ms-section why-us-img margin-0" data-anchor="why_us">
-				</div>
-
-				<div class="ms-section chinabg-color margin-0" data-anchor="crossing_cultures">
-					<div class=" right">
-						<div id="rectangle">
-						</div>
-						<div class="content-padding">
-							<div class="intro-column">
-								<a href="./crossing_cultures.html">
-									<img class="title-img img-fluid" src="icons_logo/crossing_cultures.png" alt="ABOUT CHINA">
-								</a>
-								<div class="intro-content">
-									<p class="text-justify">
-										China is a country of <b>extremes</b>, combining
-										<b>thousand</b>+-<b>year-old customs</b> (and pride)
-										with <b>contemporary desires</b>. China is both <b>wisdom</b>
-										and <b>ambition</b>, history made and in the making.
-										As <b>cross-cultural consultants</b>, we’re here to
-										show you how to use both.
-										<br>
-										<br>
-										<a href="./crossing_cultures.html" class="animsition-link color-red intro_more">
-											READ MORE
-										</a>
-									</p>
-								</div>
-							</div>
-						</div>
-            <img class="home-arrow img-fluid" src="icons_logo/arrow-down.png" alt="arrow-down image" onclick="$.fn.multiscroll.moveSectionDown();">
-          </div>
+    </div>
+    <div class="container-fluid mobile hidden-md-up" id="mobile-view">
+        <div class="row">
+            <div class="col-xs-12 padding-0 color-green ">
+                <div class="mobile-content" id="home">
+                    <div class="content-left">
+                        <img src="icons_logo/logo_transparent_home.png" class="img-fluid home-logo animated fadeIn" alt="LITAO logo" width="60%">
+                        <div class="home-intro">
+                            <p class="home-text animated2 fadeInDown">
+                                Helping foreign companies China-fy
+                                <br/> and Chinese companies globalize
+                            </p>
+                            <img class=" hidden-sm-down home-arrow img-fluid animated3 fadeInDown" src="icons_logo/arrow-down.png" alt="arrow-down image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 padding-0">
+                <div class="right">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="4000">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <img class="d-block img-fluid animated fadeIn" src="./home-images/Cover-1.jpg" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block img-fluid animated fadeIn" src="./home-images/Cover-2.jpg" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block img-fluid animated fadeIn" src="./home-images/Cover-3.jpg" alt="Third slide">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="ms-section connect_with_us-img margin-0" data-anchor="connect_with_us">
+        <div class="row">
+            <div class="col-md-12 padding-0">
+                <div class="color-grey " id="about_us">
+                    <div class="left">
+                        <div class="content-padding">
+                            <div class="intro-column">
+                                <a href="./about_us.html"><img class="title-img animated fadeIn img-fluid" src="icons_logo/about_us.png" alt="ABOUT US"></a>
+                                <div class="intro-content">
+                                    <p class="text-justify">
+                                        As cross-cultural consultants based in <b>Shanghai</b>, <b>Hong Kong</b> and <b>Lithuania</b>, we serve foreign companies tailor-made strategies for <b>China market entry</b> and <b>market expansion</b>.
+                                        <br>
+                                        <br>In the past seven years, our team of foreign-educated locals and China-savvy foreigners has helped <b>50+ companies</b> across a dozen sectors realize their cross-border dreams.
+                                    </p>
+                                    <a class="btn btn-primary btn-block sharp" href="./about_us.html">MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 padding-0">
+                <div class="color-green ">
+                    <div class="right">
+                        <img class="intro-img img-fluid " src="home-images/about_us_home.jpg" alt="main image">
+                    </div>
+                </div>
+            </div>
         </div>
-
-      </div>
+        <div class="row">
+            <div class="col-md-12 padding-0">
+                <div class="color-grey " id="our_work">
+                    <div class="left">
+                        <div class="content-padding">
+                            <div class="intro-column">
+                                <a href="./our_work.html"><img class="title-img animated fadeIn img-fluid" src="icons_logo/our_work.png" alt="OUR WORK"></a>
+                                <div class="intro-content">
+                                    <p class="text-justify">
+                                        <b class="citate">“Work is love made visible.”</b>
+                                        <br>
+                                        <span class="citated">The Prophet, Kahlil Gibran</span>
+                                        <br>
+                                        <br>
+                                        <b>50+</b> companies. <b>200+</b> individuals.
+                                        <br> Countless dreams made reality with blood, sweat, and smarts.
+                                        <br>
+                                        <br> We love our work, and we want to help you fall in love with China, too.
+                                    </p>
+                                    <a class="btn btn-primary btn-block sharp" href="./our_work.html">MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 padding-0">
+                <div class=" color-green ">
+                    <div class="right ">
+                        <img class=" img-fluid " src="home-images/our_work_home.jpg" alt="main image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 padding-0">
+                <div class="color-grey " id="why_us">
+                    <div class=" right">
+                        <div class="content-padding">
+                            <div class="intro-column">
+                                <a href="./why_us.html" class="color-red intro_more"> <img class="title-img animated fadeIn img-fluid" src="icons_logo/why_us.png" alt="WHY US"></a>
+                                <div class="intro-content">
+                                    <p class="text-justify">
+                                        When you go somewhere new, you have to relearn how to see, how to speak, how to do. We are your eyes and ears, hands and feet in China.
+                                        <br>
+                                        <br> Because we’re more than consultants who only talk the talk—we’re <span class="font-bold">DOERS</span>. We help you walk, then run.
+                                        <br>
+                                        <br>
+                                    </p>
+                                    <a class="btn btn-primary btn-block sharp" href="./why_us.html">MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 padding-0">
+                <div class=" color-green ">
+                    <div class="left ">
+                        <img class="intro-img img-fluid" src="home-images/why_us_home.jpg" alt="main image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 padding-0">
+                <div class=" chinabg-color " id="crossing_cultures">
+                    <div class=" right">
+                        <div class="content-padding">
+                            <div class="intro-column">
+                                <a href="./crossing_cultures.html" class="color-red intro_more"><img class="title-img animated fadeIn img-fluid" src="icons_logo/crossing_cultures.png" alt="crossing cultures"></a>
+                                <div class="intro-content">
+                                    <p class="text-justify">
+                                        China is a country of <b>extremes</b>, combining
+                                        <b>thousand</b>+-<b>year-old customs</b> (and pride) with <b>contemporary desires</b>. China is both <b>wisdom</b> and <b>ambition</b>, history made and in the making. As <b>cross-cultural consultants</b>, we’re here to show you how to use both.
+                                    </p>
+                                    <a class="btn btn-primary btn-block sharp" href="./crossing_cultures.html">MORE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 padding-0">
+                <div class=" color-green ">
+                    <div class="right ">
+                        <img class="img-fluid " src="home-images/crossing_cultures_home.jpg" alt="main image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row contact-form">
+            <div class="page-heading">
+                <h4 class="text-uppercase mobile-main-title">CONNECT WITH US</h4>
+            </div>
+            <div class="col-md-12">
+                <address>
+                    <strong>Contact Us</strong>
+                    <br>
+                    <p class="text-justify text">
+                        <a href="tel: 021-51061063">Tel: 021-51061063</a>
+                        <br>
+                    </p>
+                    <a href="mailto:lina@litao.lt">
+                        <button type="button" class="btn btn-primary btn-block sharp">
+                            <b>EMAIL US</b>
+                        </button>
+                    </a>
+                </address>
+            </div>
+            <div class="col-md-12">
+                <address>
+                    <strong>Our Offices</strong>
+                    <br>
+                    <p class=" text-justify text">
+                        Guangfu rd. 195
+                        <br> Suite 306
+                        <br> Jing'an district
+                        <br> Shanghai, China
+                    </p>
+                </address>
+            </div>
+            <div class="col-md-12">
+                <address>
+                    <strong>Get a Quote</strong>
+                    <br>
+                    <p class="text-justify text">
+                        Get in touch with us via e-mail for a quick quote.
+                    </p>
+                    <button type="button" class="btn btn-primary btn-block sharp" data-toggle="modal" data-target="#myModal">
+                        <b>SEND YOUR INFO</b>
+                    </button>
+                </address>
+            </div>
+            <!-- Modal -->
+            <div id="myModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div>
+                        <div>
+                            <form class="form-horizontal col-md-12 color-green" action="" method="post">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <fieldset>
+                                    <legend>Connect With Us</legend>
+                                    <!-- Name input-->
+                                    <div class="form-group col-md-6">
+                                        <label class="col control-label" for="name">Your Name:</label>
+                                        <div class="col">
+                                            <input id="name" name="name" type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <!-- Company input-->
+                                    <div class="form-group col-md-6">
+                                        <label class="col control-label" for="company">Company Name:</label>
+                                        <div class="col">
+                                            <input id="company" name="company" type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <!-- Email input-->
+                                    <div class="form-group col-md-6">
+                                        <label class="col control-label" for="email">Email:</label>
+                                        <div class="col">
+                                            <input id="email" name="email" type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <!-- Phone input-->
+                                    <div class="form-group col-md-6">
+                                        <label class="col control-label" for="phone">Phone:</label>
+                                        <div class="col">
+                                            <input id="phone" name="phone" type="text" class="form-control">
+                                        </div>
+                                    </div>
+                                    <!-- Message body -->
+                                    <div class="form-group col-md-12">
+                                        <label class="col control-label" for="message">Message:</label>
+                                        <div class="col">
+                                            <textarea class="form-control" id="message" name="message" placeholder="Tell us what you want to do in China; we're happy to help." rows="5"></textarea>
+                                        </div>
+                                    </div>
+                                    <!-- Form actions -->
+                                    <div class="form-group">
+                                        <div class="col-md-12 submit-button">
+                                            <button type="button" class="btn color-green" data-dismiss="modal" data-toggle="modal" data-target="#myModal2"><span>SUBMIT</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div id="myModal2" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div>
+                        <div>
+                            <form class="form-horizontal col-md-12 color-green" action="" method="post">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <fieldset>
+                                    <div class="modal-body color-red">
+                                        <p class="modal-nice">Nice to meet you!</p>
+                                        <p class="modal-value">We value your thoughts and your time.</p>
+                                        <p class="modal-reply">You can expect a reply within 48 hours.</p>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal end -->
+        </div>
     </div>
-  </div>
-
-  <div class="container-fluid mobile hidden-md-up" id="mobile-view">
-
-    <div class="row">
-
-     <div class="col-xs-12 padding-0 color-green ">
-      <div class="mobile-content" id="home">
-       <div class="content-left">
-        <img src="icons_logo/logo_transparent_home.png" class="img-fluid home-logo animated fadeIn" alt="LITAO logo" width="60%">
-        <div class="home-intro">
-         <p class="home-text animated2 fadeInDown">
-          Helping foreign companies China-fy <br/> and Chinese companies globalize
-        </p>
-        <img class=" hidden-sm-down home-arrow img-fluid animated3 fadeInDown" src="icons_logo/arrow-down.png" alt="arrow-down image">
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="col-xs-12 padding-0">
-  <div class="right">
-   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="4000">
-    <div class="carousel-inner" role="listbox">
-     <div class="carousel-item active">
-      <img class="d-block img-fluid animated fadeIn" src="./home-images/Cover-1.jpg" alt="First slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block img-fluid animated fadeIn" src="./home-images/Cover-2.jpg" alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block img-fluid animated fadeIn" src="./home-images/Cover-3.jpg" alt="Third slide">
-    </div>
-  </div>
-</div>
-</div>
-</div>
-</div>
-
-<div class="row">
- <div class="col-md-12 padding-0">
-  <div class="color-grey " id="about_us">
-   <div class="left">
-    <div class="content-padding">
-     <div class="intro-column">
-      <a href="./about_us.html">
-       <img class="title-img animated fadeIn img-fluid" src="icons_logo/about_us.png" alt="ABOUT US">
-     </a>
-     <div class="intro-content">
-       <p class="text-justify">
-        As cross-cultural consultants based in <b>Shanghai</b>, <b>Hong Kong</b> and <b>Lithuania</b>,
-        we serve foreign companies tailor-made strategies for <b>China market entry</b> and <b>market expansion</b>.
-        <br>
-        <br>In the past seven years, our team of foreign-educated locals and China-savvy foreigners has
-        helped <b>50+ companies</b> across a dozen sectors realize their cross-border dreams.
-      </p>
-      <a class="btn btn-primary btn-block sharp" href="./about_us.html">
-        MORE
-      </a>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-</div>
-<div class="col-md-12 padding-0">
-  <div class="color-green ">
-   <div class="right">
-    <img class="intro-img img-fluid " src="home-images/about_us_home.jpg" alt="main image">
-  </div>
-</div>
-</div>
-</div>
-
-<div class="row">
- <div class="col-md-12 padding-0">
-  <div class="color-grey " id="our_work">
-   <div class="left">
-    <div class="content-padding">
-     <div class="intro-column">
-      <a href="./our_work.html">
-        <img class="title-img animated fadeIn img-fluid" src="icons_logo/our_work.png" alt="OUR WORK">
-      </a>
-      <div class="intro-content">
-       <p class="text-justify">
-        <b class="citate">“Work is love made visible.”</b>
-        <br>
-        <span class="citated">The Prophet, Kahlil Gibran</span>
-        <br>
-        <br>
-        <b>50+</b> companies. <b>200+</b> individuals.   <br>
-        Countless dreams made reality with blood, sweat, and smarts.
-        <br>
-        <br>
-        We love our work, and we want to help you fall in love with China, too.
-      </p>
-      <a class="btn btn-primary btn-block sharp" href="./our_work.html">
-        MORE
-      </a>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-</div>
-<div class="col-md-12 padding-0">
-  <div class=" color-green ">
-   <div class="right ">
-    <img class=" img-fluid " src="home-images/our_work_home.jpg" alt="main image">
-  </div>
-</div>
-</div>
-</div>
-
-<div class="row">
- <div class="col-md-12 padding-0">
-  <div class="color-grey " id="why_us">
-   <div class=" right">
-    <div class="content-padding">
-     <div class="intro-column">
-      <a href="./why_us.html" class="color-red intro_more">
-       <img class="title-img animated fadeIn img-fluid" src="icons_logo/why_us.png" alt="WHY US">
-     </a>
-     <div class="intro-content">
-       <p class="text-justify">
-        When you go somewhere new, you have to relearn how to see, how to speak, how to do. We are your eyes and ears, hands and feet in China.
-        <br>
-        <br>
-        Because we’re more than consultants who only talk the talk—we’re <span class="font-bold">DOERS</span>. We help you walk, then run.
-        <br>
-        <br>
-      </p>
-      <a class="btn btn-primary btn-block sharp" href="./why_us.html">
-        MORE
-      </a>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-</div>
-<div class="col-md-12 padding-0">
-  <div class=" color-green " >
-   <div class="left ">
-    <img class="intro-img img-fluid" src="home-images/why_us_home.jpg" alt="main image">
-  </div>
-</div>
-</div>
-</div>
-
-
-<div class="row">
- <div class="col-md-12 padding-0">
-  <div class=" chinabg-color " id="crossing_cultures">
-   <div class=" right">
-    <div class="content-padding">
-     <div class="intro-column">
-
-      <a href="./crossing_cultures.html" class="color-red intro_more">
-        <img class="title-img animated fadeIn img-fluid" src="icons_logo/crossing_cultures.png" alt="crossing cultures">
-      </a>
-      <div class="intro-content">
-       <p class="text-justify">
-         China is a country of <b>extremes</b>, combining
-         <b>thousand</b>+-<b>year-old customs</b> (and pride)
-         with <b>contemporary desires</b>. China is both <b>wisdom</b>
-         and <b>ambition</b>, history made and in the making.
-         As <b>cross-cultural consultants</b>, we’re here to
-         show you how to use both.
-       </p>
-       <a class="btn btn-primary btn-block sharp" href="./crossing_cultures.html">
-        MORE
-      </a>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-</div>
-<div class="col-md-12 padding-0">
-  <div class=" color-green " >
-   <div class="right ">
-    <img class="img-fluid " src="home-images/crossing_cultures_home.jpg" alt="main image">
-  </div>
-</div>
-</div>
-</div>
-
-<div class="row contact-form">
- <div class="page-heading">
-  <h4 class="text-uppercase mobile-main-title">
-   CONNECT WITH US
- </h4>
-</div>
-<div class="col-md-12">
-  <address >
-   <strong>Contact Us</strong>
-   <br>
-   <p class="text-justify text">
-    <a href="tel: 021-51061063">
-     Tel: 021-51061063
-   </a>
-   <br>
- </p>
- <a href="mailto:lina@litao.lt">
-  <button type="button" class="btn btn-primary btn-block sharp">
-   <b>EMAIL US</b>
- </button>
-</a>
-</address>
-</div>
-<div class="col-md-12">
-  <address>
-   <strong >Our Offices</strong><br>
-   <p class=" text-justify text">
-    Guangfu rd. 195<br>
-    Suite 306<br>
-    Jing'an district <br>
-    Shanghai, China
-  </p>
-</address>
-</div>
-<div class="col-md-12">
-  <address>
-   <strong >Get a Quote</strong><br>
-   <p class="text-justify text">
-    Get in touch with us via e-mail
-    for a quick quote.
-  </p>
-  <button type="button" class="btn btn-primary btn-block sharp"  data-toggle="modal" data-target="#myModal">
-    <b>SEND YOUR INFO</b>
-  </button>
-</address>
-</div>
-<!-- Modal -->
-<div id="myModal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-   <!-- Modal content-->
-   <div >
-    <div>
-     <form class="form-horizontal col-md-12 color-green" action="" method="post">
-      <button type="button" class="close" data-dismiss="modal">&times;</button>
-      <fieldset>
-       <legend>Connect With Us</legend>
-
-       <!-- Name input-->
-       <div class="form-group col-md-6">
-        <label class="col control-label" for="name">Your Name:</label>
-        <div class="col">
-         <input id="name" name="name" type="text" class="form-control">
-       </div>
-     </div>
-     <!-- Company input-->
-     <div class="form-group col-md-6">
-      <label class="col control-label" for="company">Company Name:</label>
-      <div class="col">
-       <input id="company" name="company" type="text" class="form-control">
-     </div>
-   </div>
-
-   <!-- Email input-->
-   <div class="form-group col-md-6">
-    <label class="col control-label" for="email">Email:</label>
-    <div class="col">
-     <input id="email" name="email" type="text" class="form-control">
-   </div>
- </div>
- <!-- Phone input-->
- <div class="form-group col-md-6">
-  <label class="col control-label" for="phone">Phone:</label>
-  <div class="col">
-   <input id="phone" name="phone" type="text" class="form-control">
- </div>
-</div>
-
-<!-- Message body -->
-<div class="form-group col-md-12">
-  <label class="col control-label" for="message">Message:</label>
-  <div class="col">
-   <textarea class="form-control" id="message" name="message" placeholder="Tell us what you want to do in China; we're happy to help." rows="5"></textarea>
- </div>
-</div>
-
-<!-- Form actions -->
-<div class="form-group">
-  <div class="col-md-12 submit-button">
-   <button type="button" class="btn color-green" data-dismiss="modal" data-toggle="modal" data-target="#myModal2" ><span>SUBMIT</span>
-   </button>
- </div>
-</div>
-</fieldset>
-</form>
-</div>
-</div>
-</div>
-</div>
-
-<!-- Modal -->
-<div id="myModal2" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-   <!-- Modal content-->
-   <div >
-    <div>
-     <form class="form-horizontal col-md-12 color-green" action="" method="post">
-      <button type="button" class="close" data-dismiss="modal">&times;</button>
-      <fieldset>
-       <div class="modal-body color-red">
-        <p class="modal-nice">Nice to meet you!</p>
-        <p class="modal-value">We value your thoughts and your time.</p>
-        <p class="modal-reply">You can expect a reply within 48 hours.</p>
-      </div>
-    </fieldset>
-  </form>
-</div>
-</div>
-</div>
-</div>
-<!-- Modal end -->
-
-</div>
-</div>
-
-<script src="js/jquery-3.1.1.min.js"></script>
-<script src="js/jquery.easing.min.js"></script>
-<script src="js/jquery.multiscroll-v01.js"></script>
-<script src="js/tether.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/js_script-v02.js"></script>
-<script type="text/javascript">
-  $(document).ready(function () {
-   var oldwidth = $(window).width();
-   $(window).resize(function () {
-    var nw = $(window).width();
-        //compare new and old width
-        if (oldwidth != nw)
-        {
-        	window.addEventListener('resize', function () {
-        		"use strict";
-        		window.location.reload();
-        	});
-        }
-        oldwidth = nw;
-      });
- });
-
-</script>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.multiscroll-v01.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/js_script-v02.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        var oldwidth = $(window).width();
+        $(window).resize(function() {
+            var nw = $(window).width();
+            //compare new and old width
+            if (oldwidth != nw) {
+                window.addEventListener('resize', function() {
+                    "use strict";
+                    window.location.reload();
+                });
+            }
+            oldwidth = nw;
+        });
+    });
+    </script>
 </body>
+
 </html>
