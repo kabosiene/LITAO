@@ -65,10 +65,10 @@
             <div class="row">
                 <div class="header-lang-item nav-item col-sm-6 col-xs-4"> <a href="ch/our_work.html" title="LITAO" class="header-lang-link nav-link " data-page=""> <span class="header-lang-text">CH</span></a> </div>
                 <div class="header-lang-item  nav-item col-sm-6 col-xs-4"> <a href="#" title="LITAO" class="header-lang-link nav-link active" data-page=""><span class="header-lang-text">EN</span></a> </div>
-                <div class="header-lang-item hidden-sm-up  nav-item col-xs-4"> <a href="#" title="LITAO" class="header-lang-link nav-link" data-page=""><span class="header-lang-text">LT</span></a> </div>
+                <div class="header-lang-item hidden-sm-up  nav-item col-xs-4"> <a href="lt/our_work.html" title="LITAO" class="header-lang-link nav-link" data-page=""><span class="header-lang-text">LT</span></a> </div>
             </div>
             <div class="row hidden-xs-down">
-                <div class="header-lang-item  nav-item offset-sm-6"> <a href="#" title="LITAO" class="header-lang-link nav-link" data-page=""><span class="header-lang-text">LT</span></a> </div>
+                <div class="header-lang-item  nav-item offset-sm-6"> <a href="lt/our_work.html" title="LITAO" class="header-lang-link nav-link" data-page=""><span class="header-lang-text">LT</span></a> </div>
             </div>
         </div>
     </header>
@@ -1197,18 +1197,18 @@
         $("#case_studies .f-section").on('hidden.bs.collapse', toggleIcon);
         $("#case_studies .f-section").on('show.bs.collapse', toggleIcon);
 
-        $('#services .folding-section').on('shown.bs.collapse', function () { 
-          var panel = $(this).find('.in');
-           $('html, body').animate({ scrollTop: panel.offset().top }, 500);
-         });
-         $('#case_studies .f-section').on('shown.bs.collapse', function () { 
-          var panel = $(this).find('.in');
-           $('html, body').animate({ scrollTop: panel.offset().top }, 500);
-         });
+        $('#services .folding-section').on('shown.bs.collapse', function() {
+            var panel = $(this).find('.in');
+            $('html, body').animate({ scrollTop: panel.offset().top }, 500);
+        });
+        $('#case_studies .f-section').on('shown.bs.collapse', function() {
+            var panel = $(this).find('.in');
+            $('html, body').animate({ scrollTop: panel.offset().top }, 500);
+        });
 
         $('.collapse').on('show.bs.collapse', function(e) { $('.collapse').collapse("hide"); });
 
-        $('body').scrollspy({ target: '#our_work-navigation' })
+        $('body').scrollspy({ target: '#our_work-navigation' });
         window.sr = ScrollReveal({ reset: true });
         sr.reveal('.level2-main-title', { duration: 700 }, 30);
         sr.reveal('.img-fluid', { duration: 500 });
@@ -1216,7 +1216,6 @@
         sr.reveal('.level2-titles-box-pic-square', { duration: 900 });
 
     });
-
     </script>
 </body>
 
