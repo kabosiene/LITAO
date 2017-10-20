@@ -771,41 +771,28 @@
 <script src="js/bootstrap.min.js"></script>
   <script src="js/scrollreveal.min.js"></script>
 <script src="js/js_script-v02.js"></script>
-<script type="text/javascript">
-  $(".folding-section").on('hidden.bs.collapse', toggleIcon)
-  $(".folding-section").on('show.bs.collapse', toggleIcon)
-  function toggleIcon(){
-    $(this).find("span").toggleClass("added")
-  }
-  $(document).ready(function(){
-    $('.collapse').on('show.bs.collapse', function (e) {
-      $('.collapse').collapse("hide")
-    })
-  })
+    <script type="text/javascript">
+    $(".folding-section").on('hidden.bs.collapse', toggleIcon); 
+    $(".folding-section").on('show.bs.collapse', toggleIcon);
+   $('#crossing_cultures_id .folding-section').on('shown.bs.collapse', function() {
+            var panel = $(this).find('.in');
+            $('html, body').animate({ scrollTop: panel.offset().top }, 500);
+        });
 
-</script>
-<script type="text/javascript">
+    function toggleIcon() { $(this).find("span").toggleClass("added") };
+     $(document).ready(function() { $('.collapse').on('show.bs.collapse', function(e) { $('.collapse').collapse("hide") }) });
+    </script>
+    <script type="text/javascript">
     $('body').scrollspy({ target: '#crossing_cultures-navigation' });
     window.sr = ScrollReveal({ reset: true });
-     sr.reveal('.level2-main-title',{duration:700},30);
-       sr.reveal('.img-fluid',{duration: 500});
-
-
-
-  </script>
-  <script type="text/javascript">
-  $(".chapter").on('hidden.bs.collapse', toggleIcon)
-  $(".chapter").on('show.bs.collapse', toggleIcon)
-  function toggleIcon(){
-    $(this).find(".collapsable_plus").toggleClass("added")
-  }
-  $(".chapter_title").hover(function(){
-    $(this).addClass('animated-fast5 fadeIn').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){$(this).removeClass('animated-fast5 fadeIn');});})
-    $(document).ready(function(){
-    $('.collapse').on('show.bs.collapse', function (e) {
-        $('.collapse').collapse("hide")
-    })
-})
-  </script>
+    sr.reveal('.level2-main-title', { duration: 700 }, 30);
+    sr.reveal('.img-fluid', { duration: 500 });
+    </script>
+    <script type="text/javascript">
+    $(".chapter").on('hidden.bs.collapse', toggleIcon);
+     $(".chapter").on('show.bs.collapse', toggleIcon);
+    function toggleIcon() { $(this).find(".collapsable_plus").toggleClass("added") } $(".chapter_title").hover(function() { $(this).addClass('animated-fast5 fadeIn').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() { $(this).removeClass('animated-fast5 fadeIn'); }); });
+     $(document).ready(function() { $('.collapse').on('show.bs.collapse', function(e) { $('.collapse').collapse("hide") }) });
+    </script>
 </body>
 </html>

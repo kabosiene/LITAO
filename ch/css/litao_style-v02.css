@@ -320,6 +320,8 @@ margin-bottom: 8em;}
 #brochure  .folding-section_heading{ margin-top: 6px;margin-left:92px;margin-right:92px;height:70px;text-align:center;display:flex;align-items:center;justify-content:center;}
 #brochure  .folding-section{margin-top:15%;margin-bottom:1em;}
 #brochure  .folding-section_heading_title{font-size:15px;font-family:'BrandonGrotesque-Bold';letter-spacing:0.09em;word-spacing:5px;margin-bottom:2px;}
+.brochure_pdf{ color:#a55f60;}
+.brochure_pdf:hover{ text-decoration: underline; }
 #services .level2-titles-box-margin{margin-bottom:35px;}
 #services .level2-titles-box{margin-bottom:20px;margin-top:93px;}
 #services .main-image{
