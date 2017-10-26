@@ -56,7 +56,9 @@
                             <li class="intro-left-v animated-fast3 fadeIn"> <a class="border_link" href="crossing_cultures.html#useful_resources"> <span class="border-text">USEFUL&nbsp;RESOURCES</span> </a> </li>
                         </ul>
                     </div>
-                </div> <a class="sidenav_link contact-menu" href="#connect_with_us" style="width: 0;"> CONNECT&nbsp;WITH&nbsp;US </a> </div>
+                </div>
+                <a data-menuanchor="connect_with_us" class="sidenav_link contact-menu" href="#connect_with_us" style="width: 0;"> CONNECT&nbsp;WITH&nbsp;US </a>
+            </div>
             <div class="color-green" id="menu-footer">
                 <div class="menu-footer_content"> © 2017, LITAO. All rights reserved. <a href="mailto:labas@litao.lt">labas@litao.lt</a> </div>
             </div>
@@ -86,7 +88,7 @@
                 </div>
             </div>
             <div class="col-md-6 padding-0">
-                <div class=" active margin-0 color-green" >
+                <div class=" active margin-0 color-green">
                     <div class="right">
                         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="4000">
                             <div class="carousel-inner" role="listbox">
@@ -286,7 +288,7 @@
     <div class="container-fluid mobile hidden-md-up" id="mobile-view">
         <div class="row">
             <div class="col-xs-12 padding-0 color-green ">
-                <div class="mobile-content" id="home">
+                <div class="mobile-content" id="home_mobile">
                     <div class="content-left">
                         <img src="icons_logo/logo_transparent_home.png" class="img-fluid home-logo animated fadeIn" alt="LITAO logo" width="60%">
                         <div class="home-intro">
@@ -319,7 +321,7 @@
         </div>
         <div class="row">
             <div class="col-md-12 padding-0">
-                <div class="color-grey " id="about_us">
+                <div class="color-grey " id="about_us_mobile">
                     <div class="left">
                         <div class="content-padding">
                             <div class="intro-column">
@@ -347,7 +349,7 @@
         </div>
         <div class="row">
             <div class="col-md-12 padding-0">
-                <div class="color-grey " id="our_work">
+                <div class="color-grey " id="our_work_mobile">
                     <div class="left">
                         <div class="content-padding">
                             <div class="intro-column">
@@ -381,7 +383,7 @@
         </div>
         <div class="row">
             <div class="col-md-12 padding-0">
-                <div class="color-grey " id="why_us">
+                <div class="color-grey " id="why_us_mobile">
                     <div class=" right">
                         <div class="content-padding">
                             <div class="intro-column">
@@ -411,7 +413,7 @@
         </div>
         <div class="row">
             <div class="col-md-12 padding-0">
-                <div class=" chinabg-color " id="crossing_cultures">
+                <div class=" chinabg-color " id="crossing_cultures_mobile">
                     <div class=" right">
                         <div class="content-padding">
                             <div class="intro-column">
@@ -436,7 +438,7 @@
                 </div>
             </div>
         </div>
-        <div class="row contact-form" id="connect_with_us">
+        <div class="row contact-form" id="connect_with_us_mobile">
             <div class="page-heading">
                 <h4 class="text-uppercase mobile-main-title">CONNECT WITH US</h4>
             </div>
@@ -604,15 +606,15 @@
     <script src="js/index.js"></script>
     <script type="text/javascript">
     $('.container-fluid').stickem();
-        $('a[href^="#"]').on('click', function(event) {
-    var target = $(this.getAttribute('href'));
-    if( target.length ) {
-        event.preventDefault();
-        $('html, body').stop().animate({
-            scrollTop: target.offset().top
-        }, 600);
-    }
-});
+    $('a[href^="#"]').on('click', function(event) {
+        var target = $(this.getAttribute('href'));
+        if (target.length) {
+            event.preventDefault();
+            $('html, body').stop().animate({
+                scrollTop: target.offset().top
+            }, 600);
+        }
+    });
     </script>
 </body>
 

@@ -20,7 +20,7 @@
         <div id="mySidenav" class="sidenav">
             <div class="sidenav-links" id="myMenu" onclick="closeNav()"> <a data-menuanchor="home" class="sidenav_link home-menu active" href="#home" style="width: 0;"> PRADŽIA </a>
                 <br>
-                <div class=""> <a  class="sidenav_link about-menu" href="#about_us" style="width: 0;"> APIE MUS </a>
+                <div class=""> <a class="sidenav_link about-menu" href="#about_us" style="width: 0;"> APIE MUS </a>
                     <div class="main-submenu">
                         <ul id="about_us-id" class="about_us-submenu" style="display: none;">
                             <li class="intro-left-v animated-fast1 fadeIn"> <a class="border_link" href="about_us.html#nameandlogo"> <span class="border-text">PAVADINIMAS IR LOGO</span> </a> </li>
@@ -56,7 +56,9 @@
                             <li class="intro-left-v animated-fast3 fadeIn"> <a class="border_link" href="crossing_cultures.html#useful_resources"> <span class="border-text">NAUDINGI ŠALTINIAI</span> </a> </li>
                         </ul>
                     </div>
-                </div> <a class="sidenav_link contact-menu" href="#connect_with_us" style="width: 0;"> KONTAKTAI </a> </div>
+                </div>
+                <a data-menuanchor="connect_with_us" class="sidenav_link contact-menu" href="#connect_with_us" style="width: 0;"> KONTAKTAI </a>
+            </div>
             <div class="color-green" id="menu-footer">
                 <div class="menu-footer_content"> © 2017, LITAO. Visos teisės saugomos. <a href="mailto:labas@litao.lt">labas@litao.lt</a> </div>
             </div>
@@ -75,7 +77,7 @@
     <div class="container-fluid intro hidden-sm-down">
         <div class=" row" id="home">
             <div class="col-md-6 padding-0">
-                <div class=" active margin-0 color-green " >
+                <div class=" active margin-0 color-green ">
                     <div class="content"> <img src="icons_logo/logo_transparent_home.png" class="img-fluid home-logo animated fadeIn" alt="LITAO" width="50%">
                         <div class="home-intro">
                             <p class="home-text animated2 fadeInDown"> Helping foreign companies orientalize
@@ -104,7 +106,7 @@
         </div>
     </div>
     <div class="container-fluid themes hidden-sm-down">
-        <div class="row stickem-container about_us" >
+        <div class="row stickem-container about_us">
             <div class="content col-md-6 padding-0">
                 <div class="content-padding" id="about_us">
                     <div class="intro-column">
@@ -176,7 +178,8 @@
                     <div class="link_to-level2">
                         <a href="our_work.html#case_studies">
                             <div class="level2_title"> <img class="black_line" src="home-images/about_us/black_title_line.png">
-                                <div>ATSKIRŲ ATVEJŲ <br>ANALIZĖS</div>
+                                <div>ATSKIRŲ ATVEJŲ
+                                    <br>ANALIZĖS</div>
                             </div> <img class="back_square" src="home-images/about_us/green-rectangle.png"> <img class="theme_picture" src="home-images/index/case_studies.jpg"> </a>
                     </div>
                     <div class="link_to-level2">
@@ -238,7 +241,7 @@
                 <div class="content-padding">
                     <div class="intro-column"> <a href="./crossing_cultures.html"> <img class="title-img img-fluid" src="icons_logo/kulturas.png" alt="ABOUT CHINA"> </a>
                         <div class="intro-content">
-                            <p class="text-justify"> 
+                            <p class="text-justify">
                                 Kinija yra <b>kraštutinumų</b> šalis, kurioje susipina <b>tūkstantmečių</b> senumo <b>papročiai</b> (ir išdidumas) ir <b>šiuolaikiniai troškimai</b>. Kinija yra i<b>šmintis</b> ir <b>ambicija</b>, įvykusi ir kuriama istorija.<span class="break"></span> Mes, verslo konsultantai, <b>dirbantys tarp Rytų ir Vakarų</b>, parodysime, kaip visu tuo pasinaudoti.</p>
                         </div>
                     </div>
@@ -247,13 +250,16 @@
                     <div class="link_to-level2">
                         <a href="./crossing_cultures.html#raq">
                             <div class="level2_title"> <img class="black_line" src="home-images/about_us/black_title_line.png">
-                                <div>RETAI <br>UŽDUODAMI<br> KLAUSIMAI</div>
+                                <div>RETAI
+                                    <br>UŽDUODAMI
+                                    <br> KLAUSIMAI</div>
                             </div> <img class="back_square" src="home-images/about_us/green-rectangle.png"> <img class="theme_picture" src="home-images/index/rarely_asked_questions.jpg"> </a>
                     </div>
                     <div class="link_to-level2">
                         <a href="./crossing_cultures.html#useful_resources">
                             <div class="level2_title"> <img class="black_line" src="home-images/about_us/black_title_line.png">
-                                <div>NAUDINGI<br> ŠALTINIAI</div>
+                                <div>NAUDINGI
+                                    <br> ŠALTINIAI</div>
                             </div> <img class="back_square" src="home-images/about_us/green-rectangle.png"> <img class="theme_picture" src="home-images/index/useful_resources.jpg"> </a>
                     </div>
                 </div>
@@ -283,7 +289,7 @@
     <div class="container-fluid mobile hidden-md-up" id="mobile-view">
         <div class="row">
             <div class="col-xs-12 padding-0 color-green ">
-                <div class="mobile-content" id="home">
+                <div class="mobile-content" id="home_mobile">
                     <div class="content-left">
                         <img src="icons_logo/logo_transparent_home.png" class="img-fluid home-logo animated fadeIn" alt="LITAO logo" width="60%">
                         <div class="home-intro">
@@ -316,7 +322,7 @@
         </div>
         <div class="row">
             <div class="col-md-12 padding-0">
-                <div class="color-grey " id="about_us">
+                <div class="color-grey " id="about_us_mobile">
                     <div class="left">
                         <div class="content-padding">
                             <div class="intro-column">
@@ -345,7 +351,7 @@
         </div>
         <div class="row">
             <div class="col-md-12 padding-0">
-                <div class="color-grey " id="our_work">
+                <div class="color-grey " id="our_work_mobile">
                     <div class="left">
                         <div class="content-padding">
                             <div class="intro-column">
@@ -379,7 +385,7 @@
         </div>
         <div class="row">
             <div class="col-md-12 padding-0">
-                <div class="color-grey " id="why_us">
+                <div class="color-grey " id="why_us_mobile">
                     <div class=" right">
                         <div class="content-padding">
                             <div class="intro-column">
@@ -409,17 +415,17 @@
         </div>
         <div class="row">
             <div class="col-md-12 padding-0">
-                <div class=" chinabg-color " id="crossing_cultures">
+                <div class=" chinabg-color " id="crossing_cultures_mobile">
                     <div class=" right">
                         <div class="content-padding">
                             <div class="intro-column">
                                 <a href="./crossing_cultures.html" class="color-red intro_more"><img class="title-img animated fadeIn img-fluid" src="icons_logo/kulturas.png" alt="crossing cultures"></a>
                                 <div class="intro-content">
                                     <p class="text-justify">
-                                        <p class="text-justify"> 
-                                Kinija yra <b>kraštutinumų</b> šalis, kurioje susipina <b>tūkstantmečių</b> senumo <b>papročiai</b> (ir išdidumas) ir <b>šiuolaikiniai troškimai</b>. Kinija yra i<b>šmintis</b> ir <b>ambicija</b>, įvykusi ir kuriama istorija.<span class="break"></span> Mes, verslo konsultantai, <b>dirbantys tarp Rytų ir Vakarų</b>, parodysime, kaip visu tuo pasinaudoti.</p>
-                                <br>
-                                <br>
+                                        <p class="text-justify">
+                                            Kinija yra <b>kraštutinumų</b> šalis, kurioje susipina <b>tūkstantmečių</b> senumo <b>papročiai</b> (ir išdidumas) ir <b>šiuolaikiniai troškimai</b>. Kinija yra i<b>šmintis</b> ir <b>ambicija</b>, įvykusi ir kuriama istorija.<span class="break"></span> Mes, verslo konsultantai, <b>dirbantys tarp Rytų ir Vakarų</b>, parodysime, kaip visu tuo pasinaudoti.</p>
+                                        <br>
+                                        <br>
                                     </p>
                                     <a class="btn btn-primary btn-block sharp" href="./crossing_cultures.html">DAUGIAU</a>
                                 </div>
@@ -436,7 +442,7 @@
                 </div>
             </div>
         </div>
-        <div class="row contact-form" id="connect_with_us">
+        <div class="row contact-form" id="connect_with_us_mobile">
             <div class="page-heading">
                 <h4 class="text-uppercase mobile-main-title">Susisiekite su mumis</h4>
             </div>
@@ -606,14 +612,14 @@
     <script type="text/javascript">
     $('.container-fluid').stickem();
     $('a[href^="#"]').on('click', function(event) {
-    var target = $(this.getAttribute('href'));
-    if( target.length ) {
-        event.preventDefault();
-        $('html, body').stop().animate({
-            scrollTop: target.offset().top
-        }, 600);
-    }
-});
+        var target = $(this.getAttribute('href'));
+        if (target.length) {
+            event.preventDefault();
+            $('html, body').stop().animate({
+                scrollTop: target.offset().top
+            }, 600);
+        }
+    });
     </script>
 </body>
 
