@@ -1,10 +1,28 @@
 $(document).ready(checkSize);
 $(window).on('resize', checkSize);
+        window.addEventListener('touchstart', function() {
+  // the user touched the screen!
+        $("#about_us-id").show();
+        $("#our_work-id").show();
+        $("#why_us-id").show();
+        $("#crossing_cultures-id").show();
+        $(".main-submenu").css({ top: 0, left: 0 });
+        $(".main-submenu").children().css({ position: "relative" });
+        document.getElementById("mySidenav").style.overflowY = "visible";
+        document.getElementById("mySidenav").style.display = "inherit";
+});
+
 
 function checkSize() {
     var isMobile = window.matchMedia("only screen and (max-width: 767px)");
     if (isMobile.matches) {
-        if (document.getElementById("multiscroll")) {} menuWidth = '100%';
+        $('header').find('a[href^="#"]').each(function(index, element) {
+            var target = '#'+$(this).attr('data-menuanchor') + '_mobile';
+            $(this).attr('href', target);
+        });
+
+
+        menuWidth = '100%';
 
 
         $("#about_us-id").show();
@@ -19,18 +37,14 @@ function checkSize() {
 
     } else {
         menuWidth = '50%';
-        if (document.getElementById("multiscroll")) {
-            $('#multiscroll').multiscroll({
-                anchors: ['home', 'about_us', 'our_work', 'why_us', 'crossing_cultures', 'connect_with_us'],
-                menu: '#myMenu',
-                afterLoad: function(anchorLink, index) {
-                    $('.home-arrow').addClass('animated bounceInUp visible').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
-                        $(this).removeClass('animated bounceInUp');
-                    });
-                },
-                onLeave: function(index, direction) { $('.home-arrow').removeClass('visible'); },
-            });
-        }
+        // if(document.getElementById("multiscroll")){
+        //   // $('#multiscroll').multiscroll({anchors:['home','about_us','our_work','why_us','crossing_cultures', 'connect_with_us'],menu:'#myMenu',
+        //   //   afterLoad:function(anchorLink,index){
+        //   //     $('.home-arrow').addClass('animated bounceInUp visible').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',function(){
+        //   //       $(this).removeClass('animated bounceInUp');});},
+        //   //     onLeave:function(index,direction){$('.home-arrow').removeClass('visible');},});
+        // }
+
         $(".about-menu").on("mouseover", function() {
             $('#myMenu').find('.select-submenu').removeClass('select-submenu');
             $(this).addClass('select-submenu');
@@ -73,7 +87,7 @@ function checkSize() {
 
     }
 };
-if (document.getElementById("multiscroll")) { document.getElementById("multiscroll").onmouseover = function() { closeNav() }; }
+// if(document.getElementById("multiscroll")){document.getElementById("multiscroll").onmouseover=function(){closeNav()};}
 if (document.getElementsByClassName("page_id")) {
     document.getElementsByClassName("page_id").onmouseover = function() { closeNav() };
 }
@@ -105,8 +119,11 @@ function closeNav() {
     document.getElementById("mySidenav").style.visibility = "hidden";
 };
 
-function change_width_0() { var links = document.getElementsByClassName('sidenav_link'),
-        i = links.length; while (i--) { links[i].style.width = "0"; } }
+function change_width_0() {
+    var links = document.getElementsByClassName('sidenav_link'),
+        i = links.length;
+    while (i--) { links[i].style.width = "0"; }
+}
 
 function change_opacity_0() {
     var links = document.getElementsByClassName('sidenav_link'),
@@ -118,8 +135,11 @@ function change_opacity_0() {
     document.getElementById('menu-footer').style.opacity = "0";
 }
 
-function change_width() { var links = document.getElementsByClassName('sidenav_link'),
-        i = links.length; while (i--) { links[i].removeAttribute("style"); } }
+function change_width() {
+    var links = document.getElementsByClassName('sidenav_link'),
+        i = links.length;
+    while (i--) { links[i].removeAttribute("style"); }
+}
 
 function change_opacity() {
     var links = document.getElementsByClassName('sidenav_link'),

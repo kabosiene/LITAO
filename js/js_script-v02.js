@@ -1,10 +1,28 @@
 $(document).ready(checkSize);
 $(window).on('resize', checkSize);
+        window.addEventListener('touchstart', function() {
+  // the user touched the screen!
+        $("#about_us-id").show();
+        $("#our_work-id").show();
+        $("#why_us-id").show();
+        $("#crossing_cultures-id").show();
+        $(".main-submenu").css({ top: 0, left: 0 });
+        $(".main-submenu").children().css({ position: "relative" });
+        document.getElementById("mySidenav").style.overflowY = "visible";
+        document.getElementById("mySidenav").style.display = "inherit";
+});
+
 
 function checkSize() {
     var isMobile = window.matchMedia("only screen and (max-width: 767px)");
     if (isMobile.matches) {
-        if (document.getElementById("multiscroll")) {} menuWidth = '100%';
+        $('header').find('a[href^="#"]').each(function(index, element) {
+            var target = '#'+$(this).attr('data-menuanchor') + '_mobile';
+            $(this).attr('href', target);
+        });
+
+
+        menuWidth = '100%';
 
 
         $("#about_us-id").show();
@@ -101,8 +119,11 @@ function closeNav() {
     document.getElementById("mySidenav").style.visibility = "hidden";
 };
 
-function change_width_0() { var links = document.getElementsByClassName('sidenav_link'),
-        i = links.length; while (i--) { links[i].style.width = "0"; } }
+function change_width_0() {
+    var links = document.getElementsByClassName('sidenav_link'),
+        i = links.length;
+    while (i--) { links[i].style.width = "0"; }
+}
 
 function change_opacity_0() {
     var links = document.getElementsByClassName('sidenav_link'),
@@ -114,8 +135,11 @@ function change_opacity_0() {
     document.getElementById('menu-footer').style.opacity = "0";
 }
 
-function change_width() { var links = document.getElementsByClassName('sidenav_link'),
-        i = links.length; while (i--) { links[i].removeAttribute("style"); } }
+function change_width() {
+    var links = document.getElementsByClassName('sidenav_link'),
+        i = links.length;
+    while (i--) { links[i].removeAttribute("style"); }
+}
 
 function change_opacity() {
     var links = document.getElementsByClassName('sidenav_link'),
@@ -148,11 +172,13 @@ ga('send', 'pageview');
 
 //<!-- Hotjar Tracking Code for www.litao.lt -->
 
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:661648,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+(function(h, o, t, j, a, r) {
+    h.hj = h.hj || function() {
+        (h.hj.q = h.hj.q || []).push(arguments) };
+    h._hjSettings = { hjid: 661648, hjsv: 6 };
+    a = o.getElementsByTagName('head')[0];
+    r = o.createElement('script');
+    r.async = 1;
+    r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+    a.appendChild(r);
+})(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
