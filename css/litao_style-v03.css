@@ -482,6 +482,9 @@ section {
    bottom: 150px;
    left: 50px;
 }
+.carousel-text a{
+  color: white;
+}
 .carousel-inner>.carousel-item>img {
     object-fit: cover;
     width: 100vw;
