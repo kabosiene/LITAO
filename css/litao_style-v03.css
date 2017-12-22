@@ -661,11 +661,14 @@ section {
     line-height: 43px;
 }
 
-.level2-titles-box-margin {
+.level2-titles-box-margin,.level3-titles-box-margin {
     margin-bottom: 50px;
 }
 
 .level2-titles-box {
+    margin: 30px 0 20px 0;
+}
+.level3-titles-box {
     margin: 30px 0 20px 0;
 }
 
@@ -674,6 +677,11 @@ section {
 }
 
 .level2-titles-box-line {
+    position: absolute;
+    height: auto;
+    width: 127px;
+}
+.level3-titles-box-line {
     position: absolute;
     height: auto;
     width: 127px;
@@ -729,6 +737,168 @@ section {
     letter-spacing: 2px;
     padding-top: 45px;
 }
+#our_work_id-l3{
+    background-color: #fff;
+}
+.level3-titles {
+    font-family: 'BrandonGrotesque-Bold';
+    font-size: 35px;
+    letter-spacing: 2px;
+    padding-top: 45px;
+}
+.l3-subtitle {
+    font-family: 'BrandonGrotesque-LightItalic';
+    color: #a55f60;
+    font-size: 18px;
+    letter-spacing: 0.09em;
+    display: inline-block;
+    margin-top: 0;
+    margin-left: 4px;
+}
+.l3-title{
+    font-family: 'BrandonGrotesque-Bold';
+    color: #a55f60;
+    font-size: 28px;
+    padding-bottom: 30px;
+}
+.takeway-title{
+    font-family: 'BrandonGrotesque-Bold';
+    color: #a55f60;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+#our_work_id-l3 p{
+    font-family: "BrandonGrotesque-Light";
+    letter-spacing: 0.03em;
+    /*text-align: justify;*/
+    margin-right: 50px;
+    max-width: 400px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+#our_work_id-l3 .main-image{
+    width: 80%;
+}
+.l3-boxes {
+    font-size: 15px;
+     letter-spacing: 0.02em;
+    padding: 70px 0px 60px 0px;
+    padding-left: 2em;
+    padding-right: 6em;
+    display: flex;
+
+}
+.l2-boxes-in{
+    /*padding: 15px;*/
+    height: 100%;
+    max-height: 300px;
+    overflow: hidden;
+  position: relative;
+  /*text-align: center;*/
+  cursor: default;
+}
+.l2-boxes-in .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.6);
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s  ease-in-out;
+  color: #fff;
+}
+.overlay h2{
+    font-family: 'BrandonGrotesque-Bold';
+    font-size: 29px;
+    padding-right: 67px;
+    padding-left: 20px;
+    letter-spacing: 0.1em;
+    line-height: 33px;
+}
+.overlay p{
+    font-family: 'BrandonGrotesque-Light';
+    font-size: 15px;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+}
+
+.l2-boxes-in .overlay a{
+    color: #fff;
+    float: right;
+    font-family: 'BrandonGrotesque-Light';
+    font-size: 15px;
+    padding-right: 24px;
+    padding-top: 20px;
+}
+.l2-boxes-in .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.6);
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s  ease-in-out;
+}
+.l2-boxes-in  img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.l2-boxes-in:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.box-row {
+    padding-bottom: 30px;
+    padding-right: 6em;
+    padding-left:2em;
+    padding-top: 50px;
+}
+.l3-boxes-in{
+    padding: 15px;
+    height: 100%;
+}
+.l3-boxes ul{
+    padding: 0;
+}
+.l3-boxes li{
+    padding: 0px 0px 20px 0px;
+}
+.case_green-circle {
+    position: absolute;
+    z-index: -2;
+    width: 190px;
+    margin-top: -165px;
+}
+#our_work_id-l3 p.disclose{
+    font-family: 'BrandonGrotesque-LightItalic';
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.l3-green-box{
+height: 110px;
+width: 110px;
+padding: 65px 0px 0px 15px;
+}
+.l3-contact-div .l3-title, .l3-contact-div p{
+    width: 210px;
+    padding-bottom: 20px;
+}
+
 
 .founder-content,
 .name_content,
