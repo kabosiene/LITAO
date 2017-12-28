@@ -527,7 +527,25 @@ section {
 .carousel.vertical .carousel-item {
     left: 0;
 }
-
+.carousel-item .carousel-text{
+    width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+      background-color: rgba(0,0,0,0.6);
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s  ease-in-out;
+}
+.carousel-item:hover .carousel-text{
+   opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
 .about-china-img {
     background: url('../home-images/crossing_cultures_home.jpg') no-repeat center center;
     background-repeat: no-repeat;
@@ -835,7 +853,7 @@ section {
     padding-right: 24px;
     padding-top: 20px;
 }
-.l2-boxes-in .overlay {
+/*.l2-boxes-in .overlay {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -847,7 +865,7 @@ section {
   filter: alpha(opacity=0);
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s  ease-in-out;
-}
+}*/
 .l2-boxes-in  img {
   display: block;
   position: relative;
