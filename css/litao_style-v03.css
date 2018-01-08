@@ -788,7 +788,7 @@ section {
 #our_work_id-l3 p{
     font-family: "BrandonGrotesque-Light";
     letter-spacing: 0.03em;
-    /*text-align: justify;*/
+    text-align: justify;
     margin-right: 50px;
     max-width: 400px;
     line-height: 1.5;
@@ -799,12 +799,13 @@ section {
 }
 .l3-boxes {
     font-size: 15px;
-     letter-spacing: 0.02em;
+    letter-spacing: 0.02em;
     padding: 70px 0px 60px 0px;
     padding-left: 2em;
     padding-right: 6em;
     display: flex;
-
+    text-align: justify;
+     font-family: "BrandonGrotesque-Light";
 }
 .l2-boxes-in{
     /*padding: 15px;*/
