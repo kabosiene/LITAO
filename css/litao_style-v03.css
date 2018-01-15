@@ -478,12 +478,53 @@ section {
 
 .carousel-text{
   position: absolute;
+  padding-top: 60%;
+  padding-top: 60vh;
   color: white;
-   bottom: 150px;
-   left: 50px;
+   /*bottom: 150px;*/
+   /*left: 50px;*/
+   text-align: left;
+   padding-left: 10%;
+   padding-right: 12%;
 }
 .carousel-text a{
   color: white;
+}
+.carousel-text p{
+  font-family: 'BrandonGrotesque-Light';
+  letter-spacing: 1px;
+}
+.carousel-text h6{
+  font-family: 'BrandonGrotesque-Bold';
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  padding-top: 2%;
+  padding-bottom: 4%;
+}
+.carousel-text p.more{
+  display: inline-block;
+  float: right;
+}
+.carousel-text p.more:after{
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0;
+    background: transparent;
+    -webkit-transition: width .8s ease, background-color .5s ease;
+    -moz-transition: width .8s ease, background-color .5s ease;
+    -o-transition: width .8s ease, background-color .5s ease;
+    -ms-transition: width .8s ease, background-color .5s ease;
+    transition: width .8s ease, background-color .5s ease;
+}
+.carousel-text p.more:hover:after{
+    width: 100%;
+    background: white;
+    -webkit-transition: width .8s ease, background-color .5s ease;
+    -moz-transition: width .8s ease, background-color .5s ease;
+    -o-transition: width .8s ease, background-color .5s ease;
+    -ms-transition: width .8s ease, background-color .5s ease;
+    transition: width .8s ease, background-color .5s ease;
 }
 .carousel-inner>.carousel-item>img {
     object-fit: cover;
