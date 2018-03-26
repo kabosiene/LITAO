@@ -866,7 +866,7 @@ section {
     padding: 70px 0px 60px 0px;
     padding-left: 2em;
     padding-right: 6em;
-    display: flex;
+    /*display: flex;*/
     text-align: justify;
     font-family: "BrandonGrotesque-Light";
 }
@@ -976,6 +976,7 @@ section {
 .l3-boxes-in {
     padding: 15px;
     height: 100%;
+    margin-top: 25px;
 }
 
 .l3-boxes ul {
@@ -3465,6 +3466,12 @@ footer .page-bottom .col-md-6 {
     .level2-titles-box {
         margin: 106px 0 94px 0;
     }
+        .l3-boxes {
+    display: flex;
+}
+.l3-boxes-in{
+    margin-top: 0px;
+}
 }
 
 @media only screen and (min-width:992px) {
