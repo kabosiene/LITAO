@@ -1,0 +1,13 @@
+{
+  "short_name": "LITAO",
+  "name": "LITAO",
+  "icons": [{
+    "src": "icons-logo/logo.png",
+    "type": "image/png",
+    "sizes": "200x200"
+  }],
+  "background_color": "#f6f3f0",
+  "start_url": "index.html?launcher=true",
+  "display": "standalone",
+  "theme_color": "#f6f3f0"
+}
