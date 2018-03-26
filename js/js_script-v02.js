@@ -21,19 +21,13 @@ function checkSize() {
             $(this).attr('href', target);
         });
 
-
         menuWidth = '100%';
-
-
         $("#about_us-id").show();
         $("#our_work-id").show();
         $("#why_us-id").show();
         $("#crossing_cultures-id").show();
         $(".main-submenu").css({ top: 0, left: 0 });
         $(".main-submenu").children().css({ position: "relative" });
-
-
-
 
     } else {
         menuWidth = '50%';
