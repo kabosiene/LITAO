@@ -811,6 +811,7 @@ section {
 }
 
 
+
 /*#our_work_id-l3{
     background-color: #fff;
 }*/
@@ -879,9 +880,11 @@ section {
     /*position: relative;*/
     /*text-align: center;*/
     cursor: default;
-    position:absolute;
-    height:100%; /* = 100% - 2*10% padding */
-    width:100%; /* = 100% - 2*5% padding */
+    position: absolute;
+    height: 100%;
+    /* = 100% - 2*10% padding */
+    width: 100%;
+    /* = 100% - 2*5% padding */
 }
 
 .l2-boxes-in .overlay {
@@ -901,12 +904,12 @@ section {
 
 .overlay h2 {
     font-family: 'BrandonGrotesque-Bold';
-/*    font-size: 20vw;
+    /*    font-size: 20vw;
     padding-right: 67px;
     padding-left: 20px;
     letter-spacing: 0.1em;
     line-height: 33px;*/
- font-size: 4vw;
+    font-size: 4vw;
     padding-right: 6vw;
     padding-left: 2vw;
     letter-spacing: 0.1vw;
@@ -915,7 +918,7 @@ section {
 
 .overlay p {
     font-family: 'BrandonGrotesque-Light';
-/*    font-size: 1em;
+    /*    font-size: 1em;
     padding-top: 25px;
     padding-left: 20px;
     padding-bottom: 25px;*/
@@ -933,9 +936,15 @@ section {
     padding-right: 24px;
     padding-top: 20px;
 }
-.case_read{    font-family: 'BrandonGrotesque-Light'; float: right; font-size: 2.2vw;
+
+.case_read {
+    font-family: 'BrandonGrotesque-Light';
+    float: right;
+    font-size: 2.2vw;
     padding-top: 0vw;
-    padding-right: 2vw;}
+    padding-right: 2vw;
+}
+
 
 
 /*.l2-boxes-in .overlay {
@@ -1133,6 +1142,7 @@ font-size:calc(0.75em + 1.15vw);*/
 .side-text-padding {
     padding-top: 45px;
 }
+
 
 
 
@@ -1913,7 +1923,7 @@ font-size:calc(0.75em + 1.15vw);*/
 }
 
 .prev-next-links {
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     font-size: 1.5rem;
 }
 
@@ -2123,14 +2133,17 @@ font-size:calc(0.75em + 1.15vw);*/
     width: 80%;
     padding-top: 70px;
 }
-    #case_studies .case_square {
-        float:left;
+
+#case_studies .case_square {
+    float: left;
     position: relative;
     width: 100%;
-    padding-bottom: 100%; /* = width for a 1:1 aspect ratio */
-    margin:1.66%;
-    overflow:hidden;
-    }
+    padding-bottom: 100%;
+    /* = width for a 1:1 aspect ratio */
+    margin: 1.66%;
+    overflow: hidden;
+}
+
 
 /*    #case_studies .case_square:after {
         content: "";
@@ -2138,6 +2151,7 @@ font-size:calc(0.75em + 1.15vw);*/
         padding-bottom: 100%;
     }
 */
+
 #process p.lead {
     font-family: 'BrandonGrotesque-Bold';
     font-size: 28px;
@@ -2768,65 +2782,72 @@ footer .page-bottom .col-md-6 {
     .services_green-circle {
         margin-left: 75px;
     }
-        #case_studies .case_square {
-        float:left;
-    position: relative;
-    width: 46%;
-    padding-bottom: 46%; /* = width for a 1:1 aspect ratio */
-    margin:1.66%;
-    overflow:hidden;
+    #case_studies .case_square {
+        float: left;
+        position: relative;
+        width: 46%;
+        padding-bottom: 46%;
+        /* = width for a 1:1 aspect ratio */
+        margin: 1.66%;
+        overflow: hidden;
     }
+
     .l2-boxes-in .overlay {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    overflow: hidden;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.6);
-    /*opacity: 0;*/
-    filter: alpha(opacity=0);
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    color: #fff;
-}
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        overflow: hidden;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.6);
+        /*opacity: 0;*/
+        filter: alpha(opacity=0);
+        -webkit-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+        color: #fff;
+    }
 
     .overlay h2 {
-    font-family: 'BrandonGrotesque-Bold';
-/*    font-size: 20vw;
+        font-family: 'BrandonGrotesque-Bold';
+        /*    font-size: 20vw;
     padding-right: 67px;
     padding-left: 20px;
     letter-spacing: 0.1em;
     line-height: 33px;*/
-    font-size: 2.5vw;
-    padding-right: 9vw;
-    padding-left: 2vw;
-    letter-spacing: 0.1vw;
-    line-height: 3.5vw;
-}
+        font-size: 2.5vw;
+        padding-right: 9vw;
+        padding-left: 2vw;
+        letter-spacing: 0.1vw;
+        line-height: 3.5vw;
+    }
 
-.overlay p {
-    font-family: 'BrandonGrotesque-Light';
-/*    font-size: 1em;
+    .overlay p {
+        font-family: 'BrandonGrotesque-Light';
+        /*    font-size: 1em;
     padding-top: 25px;
     padding-left: 20px;
     padding-bottom: 25px;*/
-    font-size: 1.5vw;
-    padding-top: 2.5vw;
-    padding-left: 2vw;
-    padding-bottom: 0.5vw;
-}
+        font-size: 1.5vw;
+        padding-top: 2.5vw;
+        padding-left: 2vw;
+        padding-bottom: 0.5vw;
+    }
 
-.l2-boxes-in .overlay a {
-    color: #fff;
-    float: right;
-    font-family: 'BrandonGrotesque-Light';
-    font-size: 15px;
-    padding-right: 24px;
-    padding-top: 20px;
-}
-.case_read{    font-family: 'BrandonGrotesque-Light'; float: right; font-size: 1.2vw; padding-top: 1vw;padding-right: 2vw;}
-
+    .l2-boxes-in .overlay a {
+        color: #fff;
+        float: right;
+        font-family: 'BrandonGrotesque-Light';
+        font-size: 15px;
+        padding-right: 24px;
+        padding-top: 20px;
+    }
+    .case_read {
+        font-family: 'BrandonGrotesque-Light';
+        float: right;
+        font-size: 1.2vw;
+        padding-top: 1vw;
+        padding-right: 2vw;
+    }
 }
 
 @media only screen and (max-width:767px) {
@@ -3467,11 +3488,11 @@ footer .page-bottom .col-md-6 {
         margin: 106px 0 94px 0;
     }
     .l3-boxes {
-    display: flex;
-}
-.l3-boxes-in{
-    margin-top: 0px;
-}
+        display: flex;
+    }
+    .l3-boxes-in {
+        margin-top: 0px;
+    }
 }
 
 @media only screen and (min-width:992px) {
@@ -3601,57 +3622,63 @@ footer .page-bottom .col-md-6 {
     .header-lang {
         right: 30px;
     }
-        #case_studies .case_square {
-        float:left;
-    position: relative;
-    width: 30%;
-    padding-bottom: 30%; /* = width for a 1:1 aspect ratio */
-    margin:1.66%;
-    overflow:hidden;
+    #case_studies .case_square {
+        float: left;
+        position: relative;
+        width: 30%;
+        padding-bottom: 30%;
+        /* = width for a 1:1 aspect ratio */
+        margin: 1.66%;
+        overflow: hidden;
     }
     .l2-boxes-in .overlay {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    overflow: hidden;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.6);
-    opacity: 0;
-    filter: alpha(opacity=0);
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    color: #fff;
-}
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        overflow: hidden;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.6);
+        opacity: 0;
+        filter: alpha(opacity=0);
+        -webkit-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+        color: #fff;
+    }
 
     .overlay h2 {
-    font-family: 'BrandonGrotesque-Bold';
-/*    font-size: 20vw;
+        font-family: 'BrandonGrotesque-Bold';
+        /*    font-size: 20vw;
     padding-right: 67px;
     padding-left: 20px;
     letter-spacing: 0.1em;
     line-height: 33px;*/
-    font-size: 2vw;
-    padding-right: 6vw; 
-    padding-left: 2vw;
-    letter-spacing: 0.1vw;
-    line-height: 2.5vw;
-}
+        font-size: 2vw;
+        padding-right: 6vw;
+        padding-left: 2vw;
+        letter-spacing: 0.1vw;
+        line-height: 2.5vw;
+    }
 
-.overlay p {
-    font-family: 'BrandonGrotesque-Light';
-/*    font-size: 1em;
+    .overlay p {
+        font-family: 'BrandonGrotesque-Light';
+        /*    font-size: 1em;
     padding-top: 25px;
     padding-left: 20px;
     padding-bottom: 25px;*/
-    font-size: 1.5vw;
-    padding-top: 2.5vw;
-    padding-left: 2vw;
-    padding-bottom: 0.5vw;
-}
+        font-size: 1.5vw;
+        padding-top: 2.5vw;
+        padding-left: 2vw;
+        padding-bottom: 0.5vw;
+    }
 
-.case_read{    font-family: 'BrandonGrotesque-Light'; float: right; font-size: 1.2vw; padding-top: 1vw;padding-right: 2vw;}
-
+    .case_read {
+        font-family: 'BrandonGrotesque-Light';
+        float: right;
+        font-size: 1.2vw;
+        padding-top: 1vw;
+        padding-right: 2vw;
+    }
 }
 
 @media only screen and (min-width:1200px) {
@@ -3736,6 +3763,7 @@ footer .page-bottom .col-md-6 {
         height: auto;
     }
 }
+
 
 
 
