@@ -143,26 +143,29 @@
                         </div>
                     </div>
                 </div>
+                <div id="trigger1"></div>
                 <div class="block_of-level2-links">
+                       
                     <div class="link_to-level2">
                         <a href="about_us.html#nameandlogo">
                             <div class="level2_title"> <img class="black_line" src="home-images/about_us/black_title_line.png">
                                 <div>NAME
                                     <br>AND LOGO</div>
-                            </div> <img class="back_square" src="home-images/about_us/green-rectangle.png"> <img class="theme_picture" src="home-images/index/name_and_logo.jpg"> </a>
+                            </div> <img class="back_square" src="home-images/about_us/green-rectangle.png"> <img id="pic_name_logo1" class="theme_picture" src="home-images/index/name_and_logo.jpg"> </a>
                     </div>
                     <div class="link_to-level2">
+                         <!-- <div id="trigger2"></div> -->
                         <a href="about_us.html#team">
-                            <div class="level2_title"> <img class="black_line" src="home-images/about_us/black_title_line.png">
+                            <div class="level2_title"> <img id="pic_name_logo2" class="black_line" src="home-images/about_us/black_title_line.png">
                                 <div> OUR
                                     <br> TEAM</div>
-                            </div> <img class="back_square" src="home-images/about_us/green-rectangle.png"> <img class="theme_picture" src="home-images/index/our_team.jpg"> </a>
+                            </div> <img class="back_square" src="home-images/about_us/green-rectangle.png"> <img id="pic_name_logo3" class="theme_picture" src="home-images/index/our_team.jpg"> </a>
                     </div>
                     <div class="link_to-level2">
                         <a href="about_us.html#founder">
                             <div class="level2_title"> <img class="black_line" src="home-images/about_us/black_title_line.png">
                                 <div>FOUNDER</div>
-                            </div> <img class="back_square" src="home-images/about_us/green-rectangle.png"> <img class="theme_picture" src="home-images/index/founder.jpg"> </a>
+                            </div> <img class="back_square" src="home-images/about_us/green-rectangle.png"> <img id="pic_name_logo4" class="theme_picture" src="home-images/index/founder.jpg"> </a>
                     </div>
                     <div class="link_to-level2">
                         <a href="about_us.html#values">
@@ -170,7 +173,7 @@
                                 <div>VALUES,
                                     <br>MISSION
                                     <br> AND VISION</div>
-                            </div> <img class="back_square" src="home-images/about_us/green-rectangle.png"> <img class="theme_picture" src="home-images/index/mission.jpg"> </a>
+                            </div> <img class="back_square" src="home-images/about_us/green-rectangle.png"> <img id="pic_name_logo4" class="theme_picture" src="home-images/index/mission.jpg"> </a>
                     </div>
                 </div>
             </div>
@@ -639,6 +642,11 @@
     <script src="js/tether.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scrollreveal.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/animation.gsap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/debug.addIndicators.js"></script>
+
     <script src="js/js_script-v02.js"></script>
     <script src="js/index.js"></script>
     <script type="text/javascript">
@@ -664,6 +672,18 @@
     });
   }
   </script>
+<!--   <script type="text/javascript">
+      var controller = new ScrollMagic.Controller();
+
+    var tween1 = TweenMax.staggerFromTo(".back_square", 10 ,{left:"43%", marginTop: "30"}, {left:"23%",  marginTop: "-31", ease: Back.easeIn}, 0.15 );
+    var tween2 = TweenMax.staggerFromTo(".theme_picture", 5 ,{marginTop: "100"}, {marginTop: "0", ease: Back.easeIn}, 0.15 );
+    var tween3 = TweenMax.staggerFromTo(".level2_title", 2 ,{marginTop: "-60"}, {marginTop: "-13", ease: Back.easein}, 0.15 );
+
+    new ScrollMagic.Scene({triggerElement: "#trigger1", duration:900})
+                     .setTween(tween1, tween2, tween3)
+                     .addIndicators()
+                     .addTo(controller);
+  </script> -->
 </body>
 
 </html>
