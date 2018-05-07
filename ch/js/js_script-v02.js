@@ -10,6 +10,7 @@ $(window).on('resize', checkSize);
         $(".main-submenu").children().css({ position: "relative" });
         document.getElementById("mySidenav").style.overflowY = "visible";
         document.getElementById("mySidenav").style.display = "inherit";
+        $(".l2-boxes-in .overlay").css({opacity:1});
 });
 
 
@@ -107,6 +108,7 @@ function openNav() {
     setTimeout(change_width, 200);
     setTimeout(change_opacity, 200);
     document.querySelector("#nav-toggle").setAttribute('onclick', 'closeNav()');
+    document.getElementById("nav-toggle").className = "active";
 };
 
 function closeNav() {
@@ -152,7 +154,7 @@ function change_opacity() {
 }
 // $(".border-intro a").on("click",function(){$(".border-intro").find(".active").removeClass("active");$(this).addClass("active");});
 // $(".border-vertical a").on("click",function(){$(".border-vertical").find(".active").removeClass("active");$(this).addClass("active");});
-document.querySelector("#nav-toggle").addEventListener("click", function() { this.classList.toggle("active"); });
+//document.querySelector("#nav-toggle").addEventListener("click", function() { this.classList.toggle("active"); });
 document.querySelector("#nav-toggle").addEventListener("mouseover", function() { this.classList.add("closer"); });
 document.querySelector("#nav-toggle").addEventListener("mouseout", function() { this.classList.remove("closer"); });
 
