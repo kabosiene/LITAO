@@ -1,820 +1,787 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>LITAO</title>
-    <link href="css/font.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/litao_style-v03.css" rel="stylesheet">
-    <link rel="icon" type="image/png" href="icons_logo/logo.png"> </head>
-
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>LITAO</title>
+<link href="css/font.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/animate.css" rel="stylesheet">
+<link href="css/litao_style-v03.css" rel="stylesheet">
+<link rel="icon" type="image/png" href="icons_logo/logo.png"></head>
 <body data-spy="scroll" data-target="#our_work-navigation" data-offset="0">
-    <header class="header" id="header">
-        <div class=" hidden-md-up litao_logo-black"> 
-            <a href="index.html#home">
-                <img src="icons_logo/logo-black-transparent.png"></a> 
-        </div>
-         <a id="nav-toggle" onclick="openNav()" href="javascript:void(0)"><span></span></a>
-        <div id="mySidenav" class="sidenav">
-            <div class="sidenav-links" id="myMenu" onclick="closeNav()"> <a data-menuanchor="home" class="sidenav_link home-menu" href="index.html#home" style="width: 0;">HOME</a>
-                <br>
-                <div class=""> <a data-menuanchor="about_us" class="sidenav_link about-menu" href="index.html#about_us" style="width: 0;">ABOUT&nbsp;US</a>
-                    <div class="main-submenu">
-                        <ul id="about_us-id" class="about_us-submenu " style="display: none;">
-                            <li class="intro-left-v animated-fast2 fadeIn"> <a class="border_link" href="about_us.html#nameandlogo"> <span class="border-text">NAME&nbsp;AND&nbsp;LOGO</span> </a> </li>
-                            <li class="intro-left-v animated-fast3 fadeIn"> <a class="border_link" href="about_us.html#team"><span class="border-text">OUR&nbsp;TEAM</span></a> </li>
-                            <li class="intro-left-v animated-fast4 fadeIn"> <a class="border_link" href="about_us.html#founder"><span class="border-text">FOUNDER</span></a> </li>
-                            <li class="intro-left-v animated-fast5 fadeIn"> <a class="border_link" href="about_us.html#values"><span class="border-text">VALUES&nbsp;/&nbsp;MISSION&nbsp;/&nbsp;VISION</span></a> </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class=""> <a data-menuanchor="our_work" class="active sidenav_link work-menu" href="index.html#our_work" style="width: 0;"> OUR&nbsp;WORK</a>
-                    <div class="main-submenu">
-                        <ul id="our_work-id" class="our_work-submenu " style="display: none;">
-                            <li class="intro-left-v animated-fast2 fadeIn"> <a class="border_link" href="our_work.html#services"><span class="border-text">SERVICES</span></a> </li>
-                            <li class="intro-left-v animated-fast3 fadeIn"> <a class="border_link" href="our_work.html#case_studies"><span class="border-text">CASE&nbsp;STUDIES</span> </a> </li>
-                            <li class="intro-left-v animated-fast4 fadeIn"> <a class="border_link" href="our_work.html#process"><span class="border-text">PROCESS</span></a> </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class=""> <a data-menuanchor="why_us" class="sidenav_link why-menu" href="index.html#why_us" style="width: 0;">WHY&nbsp;US</a>
-                    <div class="main-submenu">
-                        <ul id="why_us-id" class="why_us-submenu " style="display: none;">
-                            <li class="intro-left-v animated-fast1 fadeIn"> <a class="border_link" href="why_us.html#experience_litao"><span class="border-text">EXPERIENCE LITAO</span></a> </li>
-                            <li class="intro-left-v animated-fast2 fadeIn"> <a class="border_link" href="why_us.html#our_guanxi"><span class="border-text">OUR GUANXI</span></a> </li>
-                            <li class="intro-left-v animated-fast3 fadeIn"> <a class="border_link" href="why_us.html#recognitions"><span class="border-text">RECOGNITIONS</span></a> </li>
-                            <li class="intro-left-v animated-fast4 fadeIn"> <a class="border_link" href="why_us.html#brochure"><span class="border-text">BROCHURE</span></a> </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class=""> <a data-menuanchor="crossing_cultures" class="sidenav_link china-menu" href="index.html#crossing_cultures" style="width: 0;">CROSSING&nbsp;CULTURES</a>
-                    <div class="main-submenu">
-                        <ul id="crossing_cultures-id" class="crossing_cultures-submenu " style="display: none;">
-                            <li class="intro-left-v animated-fast2 fadeIn"> <a class="border_link" href="crossing_cultures.html#raq"> <span class="border-text">RARELY&nbsp;ASKED&nbsp;QUESTIONS</span></a> </li>
-                            <li class="intro-left-v animated-fast3 fadeIn"> <a class="border_link" href="crossing_cultures.html#useful_resources"><span class="border-text">USEFUL&nbsp;RESOURCES</span></a> </li>
-                            <li class="intro-left-v animated-fast4 fadeIn"> <a class="border_link" href="http://litao.lt/blog"> <span class="border-text">BLOG</span> </a> </li>
-                        </ul>
-                    </div>
-                </div> <a class="sidenav_link contact-menu" href="connect_with_us.html" style="width: 0;">CONNECT&nbsp;WITH&nbsp;US</a> </div>
-            <div class="color-green" id="menu-footer">
-                <div class="menu-footer_content"> © 2017, LITAO. All rights reserved. <a href="mailto:labas@litao.lt">labas@litao.lt</a> </div>
-            </div>
-        </div>
-        <div class="header-lang nav">
-            <div class="row">
-                <div class="header-lang-item nav-item col-sm-6 col-xs-4"> <a href="ch/our_work.html" title="LITAO" class="header-lang-link nav-link " data-page=""> <span class="header-lang-text">CH</span></a> </div>
-                <div class="header-lang-item  nav-item col-sm-6 col-xs-4"> <a href="#" title="LITAO" class="header-lang-link nav-link active" data-page=""><span class="header-lang-text">EN</span></a> </div>
-                <div class="header-lang-item hidden-sm-up  nav-item col-xs-4"> <a href="lt/our_work.html" title="LITAO" class="header-lang-link nav-link" data-page=""><span class="header-lang-text">LT</span></a> </div>
-            </div>
-            <div class="row hidden-xs-down">
-                <div class="header-lang-item  nav-item offset-sm-6"> <a href="lt/our_work.html" title="LITAO" class="header-lang-link nav-link" data-page=""><span class="header-lang-text">LT</span></a> </div>
-            </div>
-        </div>
-    </header>
-    <div class="container-fluid page_id" id="our_work_id">
-        <div class=" hidden-sm-down side-border color-green">
-            <div class="logo-white-round"> <a href="index.html#home"><img src="icons_logo/logo-white-round.png"></a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-1 " id="our_work-navigation" role='navigation'>
-                <ul class="nav submenu" role="tablist">
-                    <li class="intro-left-v nav-item"> <a class="nav-link rotated-links " href="index.html#our_work"><span class="border-text">INTRO</span></a> </li>
-                    <li class="intro-left-v nav-item"> <a class="nav-link rotated-links active" href="#services"><span class="border-text">SERVICES</span></a> </li>
-                    <li class="intro-left-v nav-item"> <a class="nav-link rotated-links " href="#case_studies"><span class="border-text">CASE&nbsp;STUDIES</span></a> </li>
-                    <li class="intro-left-v nav-item"> <a class="nav-link rotated-links" href="#process"><span class="border-text">PROCESS</span></a> </li>
-                </ul>
-            </div>
-            <div class="col-xs-11 col-md-10 ">
-                <div class="section" id="services">
-                    <div class="row">
-                        <div class="col-md-6 col-xs-12">
-                            <h3 class="text-uppercase level2-main-title">OUR <br>SERVICES</h3>
-                            <div class="level2-titles-box-margin">
-                                <div class="level2-titles-box">
-                                    <p class="lead"> We provide everything you need for a successful venture in China, from dealing with the government to training your employees and everything in between. We care about how you look to others, where you get your products from, how you get your money, what your long-term plans are. </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6"> <img src="home-images/our_work/services/main-services.jpg" alt="main image" class="img-fluid main-image mobile"> </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <p class="content-main"> Simply put, we’re invested in your future. And so we don’t just tell you what to do and not do; our services help you learn and understand this country for yourself, because true service is helping you serve yourself. </p>
-                        </div>
-                    </div>
-                    <div class="row folding-section">
-                        <div class="folding-section_heading color-green" data-toggle="collapse" data-target="#s1"> <span class="collapsable_plus color-red"></span>
-                            <div class="flex-column">
-                                <div class="folding-section_heading_title"> LEGAL ADVICE </div>
-                                <div class="folding-section_heading_subtitle color-red"> A Hand Through the Bureaucracy </div>
-                            </div>
-                        </div>
-                        <div id="s1" class="collapse">
-                            <div class="row folding-section_content">
-                                <div class="col-md-6">
-                                    <div class="level2-titles-box-margin">
-                                        <div class="level2-titles-box"> <img class="level2-titles-box-line" src="home-images/about_us/black_title_line.png" alt=""> <img class="level2-titles-box-pic-square" src="home-images/about_us/green-rectangle.png" alt="">
-                                            <h4 class="text-uppercase level2-titles">LEGAL ADVICE</h4> <span class="subtitle">A Hand Through The Bureaucracy</span> </div>
-                                    </div>
-                                    <div class="listing"> <span class="list-title"><b> Services include:</b></span>
-                                        <ul class="services-list">
-                                            <li><span class="li-content">Company & trademark registration</span> </li>
-                                            <li><span class="li-content">JV, M&A, transfer of companies</span> </li>
-                                            <li><span class="li-content">Import/export regulations</span> </li>
-                                            <li><span class="li-content">Customs information & compliance reports</span> </li>
-                                            <li><span class="li-content">Legal trouble-shooting</span> </li>
-                                            <li><span class="li-content">Z visa applications</span> </li>
-                                            <li><span class="li-content">Employment & partner contracts</span> </li>
-                                            <li><span class="li-content">Due diligence & inspections</span> </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="content_title-margin">
-                                        <h5 class="content_title">DESCRIPTION<br>AND SERVICES</h5> <img class="img-fluid services_green-circle" src="home-images/about_us/green-circle.png" alt="square"> </div>
-                                    <p class="content"> Your guide to company & trademark registration, customs information, visas, import/export regulations, contract negotiation & supervision, inspection & other forms of due diligence, rules for web domains in China—<b>anything and everything related to bureaucratic red tape</b> that could tie you down or trip you up. Our advice always serves to protect your company’s <b>best interests</b>. </p>
-                                </div>
-                                <div class="col-md-6"> <img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
-                                    <h6>Why is this important ?</h6>
-                                    <p class="content">China’s legal system is <b>notoriously complex</b> and often contradictory to common sense. Paper <b>cannot always protect you</b> from the realities of China. For example: </p>
-                                    <ul class="important-list">
-                                        <li><span class="li-content"><b>Unless you have connections</b>, you might never know which rule or regulation you’re not meeting, as <a href="#" data-toggle="collapse" data-target="#c11" target="blank">this company</a> found out <b>the hard way</b> for six years - before it hired professionals to help.</span> </li>
-                                        <li><span class="li-content"><b>Don’t think you can do business in China right away.</b> <a href="#" data-toggle="collapse" data-target="#c12" target="blank">Trade approval</a> may take longer and be more complex than you think, even in high-profile cases.</span> </li>
-                                        <li><span class="li-content">Intellectual property <a href="#" data-toggle="collapse" data-target="#c13" target="blank">works differently</a> in China, which has a <b>first-to-file system</b>, a rule that has cost foreign companies <b>millions of dollars</b> in court cases when Chinese companies register their name or technology first.</span> </li>
-                                    </ul>
-                                </div>
-                                <div class="col-md-6"> <img src="home-images/our_work/services/legal_advice.jpg" class="img-fluid picture">
-                                    <div class="links_to_cases">
-                                        <p class="content"><b>Read about how we helped a client who believed their <a href="#" data-toggle="collapse" data-target="#c14" >trademark was stolen</a>.</b> </p>
-                                        <!--  <p class="content"><b>And how we caught manufacturers with <a href="The LITAO Approach to Due Diligence" target="blank">falsified credentials</a> before our clients made any deals.</b></p> -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row folding-section">
-                        <div class="folding-section_heading color-green" data-toggle="collapse" data-target="#s2"> <span class="collapsable_plus color-red"></span>
-                            <div class="flex-column">
-                                <div class="folding-section_heading_title"> BRAND DEVELOPMENT </div>
-                                <div class="folding-section_heading_subtitle color-red"> The Public Face </div>
-                            </div>
-                        </div>
-                        <div id="s2" class="collapse">
-                            <div class="row folding-section_content">
-                                <div class="col-md-6">
-                                    <div class="level2-titles-box-margin">
-                                        <div class="level2-titles-box"> <img class="level2-titles-box-line" src="home-images/about_us/black_title_line.png" alt=""> <img class="level2-titles-box-pic-square" src="home-images/about_us/green-rectangle.png" alt="">
-                                            <h4 class="text-uppercase level2-titles">BRAND DEVELOPMENT</h4> <span class="subtitle">The Public Face</span> </div>
-                                    </div>
-                                    <div class="listing"> <span class="list-title"><b> Services include:</b></span>
-                                        <ul class="services-list">
-                                            <li><span class="li-content">Re-branding & Chinese branding</span> </li>
-                                            <li><span class="li-content">Company catalogues and presentation</span> </li>
-                                            <li><span class="li-content">In-depth market research</span> </li>
-                                            <li><span class="li-content">Consumer studies</span> </li>
-                                            <li><span class="li-content">PR strategy</span> </li>
-                                            <li><span class="li-content">SEO-optimization</span> </li>
-                                            <li><span class="li-content">Social media strategy</span> </li>
-                                            <li><span class="li-content">Content development</span> </li>
-                                            <li><span class="li-content">Design, logo, slogans</span> </li>
-                                            <li><span class="li-content">Advertising plan</span> </li>
-                                            <li><span class="li-content">WeChat OA development</span> </li>
-                                            <li><span class="li-content">E-mail marketing & newsletters</span> </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="content_title-margin">
-                                        <h5 class="content_title">DESCRIPTION<br>AND SERVICES</h5> <img class="img-fluid services_green-circle" src="home-images/about_us/green-circle.png" alt="square"> </div>
-                                    <p class="content"> <b>Brand development in all its forms:</b>
-                                        <br>
-                                        <br> In-depth customer comprehension, market research, and competitor analysis to form a <b>solid</b>, <b>culturally-inspired marketing plan</b>. We integrate <b>business</b>, <b>culture</b>, and <b>psychology</b>, new and traditional <b>media</b>, and local and international <b>trends</b> to give you the latest insights on the market—and how to <b>best present your product</b>. Can also include design, local logo, name, and slogans. </p>
-                                </div>
-                                <div class="col-md-6"> <img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
-                                    <h6>Why is this important ?</h6>
-                                    <p class="content"><b>Your brand is your message to the world.</b> When you translate that message to a different language and country, you <b>cannot just copy & paste</b> and expect to connect to the people there. </p>
-                                    <ul class="important-list">
-                                        <li><span class="li-content"><b>Branding as a Western status symbol</b> and experience is what allowed <b>Starbucks</b> to <a href="" target="blank">break into</a> a thousand-year-plus <b>tea culture</b>. It wasn’t really about the coffee at all.</span> </li>
-                                        <li><span class="li-content">Things that work in other places may not work for China, but <b>the reverse is also true</b> and Chinese culture provides many <b>particular branding opportunities</b>. For example, disposable diapers finally started selling in China after <b>Procter & Gamble</b>’s <a href="" target="blank">ingenious marketing campaign</a> linking Pampers-wearing to <b>better sleep and ergo, smarter children</b>. A ploy that works only with Chinese parents.</span> </li>
-                                        <li><span class="li-content"><b>Without officially localized brand names</b>, Chinese consumers can <a href="">demean brands</a> with their own <b>made-up nicknames</b>. Referring to them by their logos, <b>Quaker Oatmeal</b> thus became “Lao Ren Pai,” meaning “Old Man Brand,” and <b>Ralph Lauren</b> “San Jiao Ma,” or “Three-Legged Horse.”</span> </li>
-                                        <li><span class="li-content">Meanwhile, when branding works, it works: <b>Coca-Cola</b> employees in China <b>took a year</b> to come up a phonetically similar name that also had an <a href="">appealing meaning</a> in Chinese.</span> </li>
-                                    </ul>
-                                </div>
-                                <div class="col-md-6"> <img src="home-images/our_work/services/brand_development.jpg" class="img-fluid picture">
-                                    <div class="links_to_cases">
-                                        <p class="content"><b>Here’s how we <a href="#" data-toggle="collapse" data-target="#c24" target="blank">rebranded a cultural product</a> to fit Chinese culture.</b> </p>
-                                        <p class="content"><b>We also took an ordinary product and <a href="#" data-toggle="collapse" data-target="#c25" target="blank">made it premium</a> in China.</b> </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row folding-section">
-                        <div class="folding-section_heading color-green" data-toggle="collapse" data-target="#s3"> <span class="collapsable_plus color-red"></span>
-                            <div class="flex-column">
-                                <div class="folding-section_heading_title"> COMMUNICATIONS </div>
-                                <div class="folding-section_heading_subtitle color-red"> Found in Translation </div>
-                            </div>
-                        </div>
-                        <div id="s3" class="collapse">
-                            <div class="row folding-section_content">
-                                <div class="col-md-6">
-                                    <div class="level2-titles-box-margin">
-                                        <div class="level2-titles-box"> <img class="level2-titles-box-line" src="home-images/about_us/black_title_line.png" alt=""> <img class="level2-titles-box-pic-square" src="home-images/about_us/green-rectangle.png" alt="">
-                                            <h4 class="text-uppercase level2-titles">COMMUNICATIONS</h4> <span class="subtitle">Found in Translation</span> </div>
-                                    </div>
-                                    <div class="listing"> <span class="list-title"><b> Services include:</b></span>
-                                        <ul class="services-list">
-                                            <li><span class="li-content">Translation & interpretation, both casual & high-profile</span> </li>
-                                            <li><span class="li-content">Deal negotiations</span> </li>
-                                            <li><span class="li-content">Exhibit representation</span> </li>
-                                            <li><span class="li-content">Trade missions</span> </li>
-                                            <li><span class="li-content">Match-making</span> </li>
-                                            <li><span class="li-content">Corporate relations</span> </li>
-                                            <li><span class="li-content">Local team-building</span> </li>
-                                            <li><span class="li-content">Sales personnel training</span> </li>
-                                            <li><span class="li-content">Recruitment in China</span> </li>
-                                            <li><span class="li-content">Employee communications</span> </li>
-                                            <li><span class="li-content">KOL marketing</span> </li>
-                                            <li><span class="li-content">Virtual & physical office set-up</span> </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="content_title-margin">
-                                        <h5 class="content_title">DESCRIPTION<br>AND SERVICES</h5> <img class="img-fluid services_green-circle" src="home-images/about_us/green-circle.png" alt="square"> </div>
-                                    <p class="content"> Translation, interpretation, negotiation, exhibit representation, match-making & corporate relationship-building. With <b>years of experience officially representing foreign entities</b> in China, we will speak for you to get the <b>best deals</b>, find you potential <b>partners</b>, <b>clients</b>, and <b>employees</b>, and train you on how to approach Chinese <b>investors</b> and other <b>opportunities</b>. </p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6"> <img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
-                                    <h6>Why is this important ?</h6>
-                                    <p class="content">You wouldn’t translate your business documents using Google Translate; <b>only a human being understands the real context</b>. In negotiations <b>between cultures</b>, this is more important than ever. </p>
-                                    <ul class="important-list">
-                                        <li><span class="li-content"><b>Interpretation is not something to take lightly</b>, as the interpreter can represent someone for <a href="" target="blank">better or worse</a>. The interpreter who serves China’s top leaders has been named one of the <b>most powerful women</b> in the world.</span> </li>
-                                        <li><span class="li-content"><b>A single detail can derail a whole effort.</b> The <b>U.S. State Department</b> and <b>Hillary Clinton</b> <a href="" target="blank">embarrassed themselves</a> when they used the wrong Russian word for what was supposed to be a friendly gesture.</span> </li>
-                                        <li><span class="li-content"><b>In China, friendships can defy traditional business logic.</b> When a group of foreigners took over a Chinese hotel chain, they optimized Western performance but <a href="" target="blank">neglected guanxi</a>: <b>the slow, local process of fostering connections or relationships</b>. They quickly lost almost all their client base.</span> </li>
-                                    </ul>
-                                </div>
-                                <div class="col-md-6"> <img src="home-images/our_work/services/communication.jpg" class="img-fluid picture">
-                                    <div class="links_to_cases">
-                                        <p class="content"><b>We were praised for our interpretation on a <a href="#" data-toggle="collapse" data-target="#c34" target="blank">Lithuanian diplomatic visit</a> to China.</b> </p>
-                                        <p class="content"><b>We made the right contacts at a <a href="#" data-toggle="collapse" data-target="#c35" target="blank">3-day children’s book exhibition</a> that led to successful sales of copyrights for our client.</b> </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row folding-section">
-                        <div class="folding-section_heading color-green" data-toggle="collapse" data-target="#s4"> <span class="collapsable_plus color-red"></span>
-                            <div class="flex-column">
-                                <div class="folding-section_heading_title"> SUPPLY SIDE SUPPORT </div>
-                                <div class="folding-section_heading_subtitle color-red"> From the Bottom Up </div>
-                            </div>
-                        </div>
-                        <div id="s4" class="collapse">
-                            <div class="row folding-section_content">
-                                <div class="col-md-6">
-                                    <div class="level2-titles-box-margin">
-                                        <div class="level2-titles-box"> <img class="level2-titles-box-line" src="home-images/about_us/black_title_line.png" alt=""> <img class="level2-titles-box-pic-square" src="home-images/about_us/green-rectangle.png" alt="">
-                                            <h4 class="text-uppercase level2-titles">SUPPLY SIDE SUPPORT</h4> <span class="subtitle">From the Bottom Up</span> </div>
-                                    </div>
-                                    <div class="listing"> <span class="list-title"><b> Services include:</b></span>
-                                        <ul class="services-list">
-                                            <li><span class="li-content">Contacting manufacturers</span> </li>
-                                            <li><span class="li-content">Sourcing</span> </li>
-                                            <li><span class="li-content">Sample-gathering</span> </li>
-                                            <li><span class="li-content">Distribution channel analysis</span> </li>
-                                            <li><span class="li-content">Operational logistics</span> </li>
-                                            <li><span class="li-content">Quality inspections</span> </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="content_title-margin">
-                                        <h5 class="content_title">DESCRIPTION<br>AND SERVICES</h5> <img class="img-fluid services_green-circle" src="home-images/about_us/green-circle.png" alt="square"> </div>
-                                    <p class="content"> Every business needs to <b>come from somewhere</b>, and <b>we make it easy for you</b> with contact lists for manufacturers, supply chain management, distribution channel analysis, and other handling of sourcing & operational logistics. Also supply side quality-control inspection and due diligence to ensure your products are <b>coming from and going to the right places</b>. All so retail can go smooth as silk. </p>
-                                </div>
-                                <div class="col-md-6"> <img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
-                                    <h6>Why is this important ?</h6>
-                                    <p class="content">Due diligence on the <b>supply side</b> is especially important; these are the people who are going to be <b>literally creating and delivering your products</b>. </p>
-                                    <ul class="important-list">
-                                        <li><span class="li-content"><b>Chinese manufacturers and deliverers often take advantage of foreign companies</b> by claiming <a href="" target="blank">nonexistent rules and regulations</a> so that you enter unfair agreements. You need to know what is best for both of you, not just them. </span> </li>
-                                        <li><span class="li-content"><b>Quality reputation affects you as a visible brand</b> more than it can affect your supplier. When quality goes bad in one place, your whole <a href="" target="blank">international reputation is at stake</a>.</span> </li>
-                                        <li><span class="li-content"><b>How your product is distributed and reaches customers</b> may be just as important as the product itself. Installing its own lower-temperature freezers in trucks and stores is how Häagen-Dasz ensured <a href="#" data-toggle="collapse" data-target="#c43" target="blank">brand quality</a>. </span> </li>
-                                    </ul>
-                                </div>
-                                <div class="col-md-6"> <img src="home-images/our_work/services/supply_side.jpg" class="img-fluid picture">
-                                    <div class="links_to_cases">
-                                        <p class="content"><b>We conducted all supplier searches, production, and quality inspection work for a thermos manufacturer, <a href="#" data-toggle="collapse" data-target="#c44" target="blank">starting from scratch</a>.</b> </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row folding-section">
-                        <div class="folding-section_heading color-green" data-toggle="collapse" data-target="#s5"> <span class="collapsable_plus color-red"></span>
-                            <div class="flex-column">
-                                <div class="folding-section_heading_title"> STRATEGY </div>
-                                <div class="folding-section_heading_subtitle color-red"> The Art of Business </div>
-                            </div>
-                        </div>
-                        <div id="s5" class="collapse">
-                            <div class="row folding-section_content">
-                                <div class="col-md-6">
-                                    <div class="level2-titles-box-margin">
-                                        <div class="level2-titles-box"> <img class="level2-titles-box-line" src="home-images/about_us/black_title_line.png" alt=""> <img class="level2-titles-box-pic-square" src="home-images/about_us/green-rectangle.png" alt="">
-                                            <h4 class="text-uppercase level2-titles"> STRATEGY </h4> <span class="subtitle">The Art of Business</span> </div>
-                                    </div>
-                                    <div class="listing"> <span class="list-title"><b> Services include:</b></span>
-                                        <ul class="services-list">
-                                            <li><span class="li-content">In-depth regional analysis</span> </li>
-                                            <li><span class="li-content">Localization strategy</span> </li>
-                                            <li><span class="li-content">Competitor analysis</span> </li>
-                                            <li><span class="li-content">Market overview report</span> </li>
-                                            <li><span class="li-content">Consumer & pricing studies</span> </li>
-                                            <li><span class="li-content">Identifying opportunities</span> </li>
-                                            <li><span class="li-content">Sales plan</span> </li>
-                                            <li><span class="li-content">Local team-building & training</span> </li>
-                                            <li><span class="li-content">Long-term plan</span> </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="content_title-margin">
-                                        <h5 class="content_title">DESCRIPTION<br>AND SERVICES</h5> <img class="img-fluid services_green-circle" src="home-images/about_us/green-circle.png" alt="square"> </div>
-                                    <p class="content"> Using market research & cultural know-how to form a <b>comprehensive localized corporate strategy</b>. Includes in-depth industry analysis, a sales plan, opportunity identification, and market overview reports—a <b>big-picture strategic action plan</b> that will help your expansion run <b>smoothly and intelligently</b>. Can also include local team-building & training so employees across the board are aware of your overall strategy. </p>
-                                </div>
-                                <div class="col-md-6"> <img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
-                                    <h6>Why is this important ?</h6>
-                                    <p class="content">So much of business is <b>down in the details</b>, but sometimes you need to see the <b>whole forest</b>. </p>
-                                    <ul class="important-list">
-                                        <li><span class="li-content"><b>What works in one country, or even most countries, may not work in China.</b> Groupon has been an international success, but it <a href="" target="blank">lost out in China</a>, the land of <b>copy-cat sites and ideas</b>, to local Chinese competitors. It didn’t help that they were employing the strategies they were using in Germany, and that only one person on their senior management team was from mainland China.</span> </li>
-                                        <li><span class="li-content"><b>If your goal is not just to float short-term</b>, but to establish your presence, you need a <a href="" target="blank">win-win strategy</a> with the place you settle down in. Part of why Nestlé has done so well in China is because of the <b>local strategy</b> it’s developed, sharing their milk expertise with regional farmers, paving roads, and donating millions of RMB to Chinese disaster relief. </span> </li>
-                                        <li><span class="li-content"><b>If you play your long-term strategy right</b>, you can actually <a href="" target="blank">plant the seeds for future demand</a>. China was not a country without any kind of green lawn culture until Chinese businesswoman <b>Chin-Ning Chu</b>, working for an American grass-seed company, came up with a <b>counterintuitive proposal</b>. </span> </li>
-                                    </ul>
-                                </div>
-                                <div class="col-md-6"> <img src="home-images/our_work/services/nestle.jpg" class="img-fluid picture">
-                                    <div class="links_to_cases">
-                                        <p class="content"><b>We gave a grocery retail chain a <a href="#" data-toggle="collapse" data-target="#c55" target="blank">strategy for true localization</a> in the age of on-line shopping.</b> </p>
-                                        <p class="content"><b>We helped a bottled water company figure out how to <a href="#" data-toggle="collapse" data-target="#c56" target="blank">differentiate themselves</a> from their competitors, and when to come to China.</b> </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row folding-section">
-                        <div class="folding-section_heading color-green" data-toggle="collapse" data-target="#s6"> <span class="collapsable_plus color-red"></span>
-                            <div class="flex-column">
-                                <div class="folding-section_heading_title"> SALES AND FINANCIAL SERVICES </div>
-                                <div class="folding-section_heading_subtitle color-red"> The Money </div>
-                            </div>
-                        </div>
-                        <div id="s6" class="collapse">
-                            <div class="row folding-section_content">
-                                <div class="col-md-6">
-                                    <div class="level2-titles-box-margin">
-                                        <div class="level2-titles-box"> <img class="level2-titles-box-line" src="home-images/about_us/black_title_line.png" alt=""> <img class="level2-titles-box-pic-square" src="home-images/about_us/green-rectangle.png" alt="">
-                                            <h4 class="text-uppercase level2-titles"> SALES AND FINANCIAL SERVICES </h4> <span class="subtitle">The Money</span> </div>
-                                    </div>
-                                    <div class="listing"> <span class="list-title"><b> Services include:</b></span>
-                                        <ul class="services-list">
-                                            <li><span class="li-content">Sales plan & contacts</span> </li>
-                                            <li><span class="li-content">Sales training</span> </li>
-                                            <li><span class="li-content">Bank and transfer management</span> </li>
-                                            <li><span class="li-content">Daily, up-dated accounting</span> </li>
-                                            <li><span class="li-content">Bank reconciliation</span> </li>
-                                            <li><span class="li-content">Bookkeeping</span> </li>
-                                            <li><span class="li-content">Financial planning</span> </li>
-                                            <li><span class="li-content">Investment & ROI calculations</span> </li>
-                                            <li><span class="li-content">Tax and fee processing</span> </li>
-                                            <li><span class="li-content">Social Security registration</span> </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="content_title-margin">
-                                        <h5 class="content_title">DESCRIPTION<br>AND SERVICES</h5> <img class="img-fluid services_green-circle" src="home-images/about_us/green-circle.png" alt="square"> </div>
-                                    <p class="content"> From pricing studies to contract negotiation to foreign & domestic accounting, <b>we help you handle your money before, during, and after you get it</b>. Cross-border payments <b>made easy</b> for a country <b>without a fully internationalized currency</b> and that doesn’t generally use Visa or Mastercard. We do China banking services, Internet pay schemes (including WeChat and Alipay), off-shore accounts, bookkeeping, ROI follow-ups, VAT and other tax calculations, and more. </p>
-                                </div>
-                                <div class="col-md-6"> <img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
-                                    <h6>Why is this important ?</h6>
-                                    <p class="content"></p>
-                                    <ul class="important-list">
-                                        <li><span class="li-content"><b>The RMB still isn’t a fully global currency</b> and must be converted. <a href="" target="blank">Getting money in and out of China</a> also requires maneuvering with popular e-payment platforms <b>WeChat</b> and <b>Alipay</b>, which are scarcely used elsewhere in the world. Not to mention the Chinese government is <b>tightening its scrutiny</b> to corporate transactions to prevent money outflow. </span> </li>
-                                        <li><span class="li-content"><b>Financial fraud and various phone and Internet scams are commonplace</b> in China, so much so that even toy giant <b>Mattel</b> fell for a simple <a href="" target="blank">e-mail scam</a>, with USD 3 million on the line.</span> </li>
-                                    </ul>
-                                </div>
-                                <div class="col-md-6"> <img src="home-images/our_work/services/sales.jpg" class="img-fluid picture">
-                                    <div class="links_to_cases">
-                                        <p class="content"><b>Our trusted sales techniques and easy payment schemes <a href="#" data-toggle="collapse" data-target="#c63" target="blank">sold USD 500,000 in containers</a> for a meat trading corporation their first month in China.</b> </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row folding-section">
-                        <div class="folding-section_heading color-green" data-toggle="collapse" data-target="#s7"> <span class="collapsable_plus color-red"></span>
-                            <div class="flex-column">
-                                <div class="folding-section_heading_title"> EXPERT INDUSTRY GUIDANCE </div>
-                                <div class="folding-section_heading_subtitle color-red"> Sectors We Know Best </div>
-                            </div>
-                        </div>
-                        <div id="s7" class="collapse">
-                            <div class="row folding-section_content">
-                                <div class="col-md-6">
-                                    <div class="level2-titles-box-margin">
-                                        <div class="level2-titles-box"> <img class="level2-titles-box-line" src="home-images/about_us/black_title_line.png" alt=""> <img class="level2-titles-box-pic-square" src="home-images/about_us/green-rectangle.png" alt="">
-                                            <h4 class="text-uppercase level2-titles"> EXPERT INDUSTRY GUIDANCE </h4> <span class="subtitle">Sectors We Know Best</span> </div>
-                                    </div>
-                                    <div class="listing"> <span class="list-title"><b> Services include:</b></span>
-                                        <ul class="services-list">
-                                            <li><span class="li-content">Industry overview reports</span> </li>
-                                            <li><span class="li-content">Special sector analysis</span> </li>
-                                            <li><span class="li-content">Connections to KOLs</span> </li>
-                                            <li><span class="li-content">Mystery shopping experience</span> </li>
-                                            <li><span class="li-content">Industry contacts and relationship-building</span> </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="content_title-margin">
-                                        <h5 class="content_title">DESCRIPTION<br>AND SERVICES</h5> <img class="img-fluid services_green-circle" src="home-images/about_us/green-circle.png" alt="square"> </div>
-                                    <p class="content"> We have years of <b>hands-on experience</b> in F&B, FMCG, manufacturing & equipment, the public sector, educational services, real estate, & specialty/bespoke items. We offer not generalities but <b>industry-specific insights</b> packed with firsthand knowledge. <b>Details make the difference</b>. </p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6"> <img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
-                                    <h6>Why is this important ?</h6>
-                                    <p class="content"></p>
-                                    <ul class="important-list">
-                                        <li><span class="li-content"><b>Different rules will apply to different industries</b>, each with their particular opportunities and difficulties. <b>Quality control</b> may be a bigger issue in F&B and technology, while in China, educational services often require more <b>relationship-fostering</b> than other fields since it’s connected to the public sector.</span> </li>
-                                        <li><span class="li-content"><b>Special sector knowledge</b> is what allowed Chinese local brand <b>Blue Moon</b> to <a href="" target="blank">break into a detergent market</a> filled with huge multinational companies. They truly knew what was missing in the laundry detergent sector for a particular set of clients larger companies had ignored.</span> </li>
-                                    </ul>
-                                </div>
-                                <div class="col-md-6"> <img src="home-images/our_work/services/expert.jpg" class="img-fluid picture">
-                                    <div class="links_to_cases">
-                                        <p class="content"><b>Here’s how we helped a bespoke diamond company <a href="#" data-toggle="collapse" data-target="#c72" target="blank">understand the China market</a>.</b> </p>
-                                        <p class="content"><b>And this is how we helped a huge fish manufacturer <a href="#" data-toggle="collapse" data-target="#c73" target="blank">pass notoriously strict F&B import regulations</a> in China.</b> </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row folding-section">
-                        <div class="folding-section_heading color-green" data-toggle="collapse" data-target="#s8"> <span class="collapsable_plus color-red"></span>
-                            <div class="flex-column">
-                                <div class="folding-section_heading_title "> QUICK CONSULTATION </div>
-                                <div class="folding-section_heading_subtitle color-red "> When in Need of a Shortcut </div>
-                            </div>
-                        </div>
-                        <div id="s8" class="collapse">
-                            <div class="row folding-section_content">
-                                <div class="col-md-6">
-                                    <div class="level2-titles-box-margin">
-                                        <div class="level2-titles-box"> <img class="level2-titles-box-line" src="home-images/about_us/black_title_line.png" alt="">
-                                            <h4 class="text-uppercase level2-titles"> QUICK CONSULTATION </h4> <span class="subtitle">When in Need of a Shortcut</span> </div>
-                                    </div> <img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark"> </div>
-                                <div class="col-md-6">
-                                    <div class="content_title-margin">
-                                        <h5 class="content_title">DESCRIPTION<br>AND SERVICES</h5> <img class="img-fluid services_green-circle" src="home-images/about_us/green-circle.png" alt="square"> </div>
-                                    <p class="content"> <b>Not sure yet what you’re looking for? Or have most things figured out and just a bit stuck? </b>
-                                        <br>
-                                        <br> We’re confident our China business expertise can help you, <b>whatever the situation may be</b>. If you have the <b>right questions</b>, we have the right answers; if you don’t have the right questions, we can <b>point you to them</b>.
-                                        <br>
-                                        <br>Consulting doesn’t have to be a complex, drawn-out process. <a href="connect_with_us.html" class="color-red"><b>Schedule a problem-solving phone chat</b></a> with us today for a simple 50 € / hour fee. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="section" id="case_studies">
-                    <div class="row">
-                        <div class="col-md-6 col-xs-12">
-                            <h3 class="text-uppercase level2-main-title">CASE <br>STUDIES </h3>
-                            <div class="level2-titles-box-margin">
-                                <div class="level2-titles-box">
-                                    <p class="lead"> The best mistakes to learn from... are those of others, of course. </p>
-                                    <p class="sublead color-red"> And, since history tends to repeat itself, so do the best successes. </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6"> <img src="home-images/our_work/case/DSC_2314-case-studies1.jpg" alt="main image" class=" img-fluid main-image mobile"> </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <p class="content-main">We have collected here some of the <b>best and worst things companies have done</b> in seeking to conquer the China market—the mistakes that have <b>broken them</b> and the strategies that have <b>pushed them to the top</b>. Our expertise is rooted in <b>experience</b>—we don’t just talk the talk—so we also present our unique <b>LITAO approach</b> in <b>real-life cases</b> with our clients. </p>
-                        </div>
-                        <div class="col-xs-12">
-                            <p class="last-content">We share others’ experience with you so you don’t have to make their mistakes, but you can repeat their triumphs. </p>
-                        </div>
-                    </div>
-                    <div class="row box-row">
-                        <div class="case_square">
-                            <div class="color-green l2-boxes-in">
-                                <img src="home-images/our_work/case/7.jpg">
-                                <a class="info" href="./case/case4.html">
-                                    <div class="overlay">
-                                        <p>FEATURED CASE</p>
-                                        <h2>The LITAO Approach to Exhibition Excellence.</h2>
-                                        <div class="case_read">READ MORE ></div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="case_square">
-                            <div class="color-green l2-boxes-in">
-                                <img src="home-images/our_work/case/14.jpg">
-                                <a class="info" href="./case/case7.html">
-                                    <div class="overlay">
-                                        <p>FEATURED CASE</p>
-                                        <h2>The LITAO Approach to Building Trusted Sales.</h2>
-                                        <div class="case_read">READ MORE ></div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="case_square">
-                            <div class="color-green l2-boxes-in">
-                                <img src="home-images/our_work/case/5.jpg">
-                                <a class="info" href="./case/case3.html">
-                                    <div class="overlay">
-                                        <p>FEATURED CASE</p>
-                                        <h2>The LITAO Approach to High-profile Interpretation.</h2>
-                                        <div class="case_read">READ MORE ></div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="case_square">
-                            <div class="color-green l2-boxes-in">
-                                <img src="home-images/our_work/case/4.jpg">
-                                <a class="info" href="./case/case2.html">
-                                    <div class="overlay">
-                                        <p>FEATURED CASE</p>
-                                        <h2>The LITAO Approach to Cultural Intergation.</h2>
-                                        <div class="case_read">READ MORE ></div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="case_square">
-                            <div class="color-green l2-boxes-in">
-                                <img src="home-images/our_work/case/12.jpg">
-                                <a class="info" href="./case/case6.html">
-                                    <div class="overlay">
-                                        <p>FEATURED CASE</p>
-                                        <h2>The LITAO Approach to Specialty Items.</h2>
-                                        <div class="case_read">READ MORE ></div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="case_square">
-                            <div class="color-green l2-boxes-in">
-                                <img src="home-images/our_work/case/15.jpg">
-                                <a class="info" href="./case/case8.html">
-                                    <div class="overlay">
-                                        <p>FEATURED CASE</p>
-                                        <h2>The LITAO Approach to Premiumization.</h2>
-                                        <div class="case_read">READ MORE ></div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="case_square">
-                            <div class="color-green l2-boxes-in">
-                                <img src="home-images/our_work/case/20.jpg">
-                                <a class="info" href="./case/case10.html">
-                                    <div class="overlay">
-                                        <p>FEATURED CASE</p>
-                                        <h2>The LITAO Approach to Brand Differentiation.</h2>
-                                        <div class="case_read">READ MORE ></div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="case_square">
-                            <div class="color-green l2-boxes-in">
-                                <img src="home-images/our_work/case/1.png">
-                                <a class="info" href="./case/case1.html">
-                                    <div class="overlay">
-                                        <p>FEATURED CASE</p>
-                                        <h2>The LITAO Approach to Stolen Trademark.</h2>
-                                        <div class="case_read">READ MORE ></div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="case_square">
-                            <div class="color-green l2-boxes-in">
-                                <img src="home-images/our_work/case/9.jpg">
-                                <a class="info" href="./case/case5.html">
-                                    <div class="overlay">
-                                        <p>FEATURED CASE</p>
-                                        <h2>The LITAO Approach to Quality Control.</h2>
-                                        <div class="case_read">READ MORE ></div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="section" id="process">
-                    <div class="row">
-                        <div class="col-md-6 col-xs-12">
-                            <h3 class="text-uppercase level2-main-title">OUR <br>PROCESS</h3>
-                            <div class="level2-titles-box-margin">
-                                <div class="level2-titles-box">
-                                    <p class="lead"> From concept to completion, we are with you every step of the way. </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6"> <img src="home-images/our_work/process/DSC_0372-OUR-PROCESS.jpg" alt="main image" class="img-fluid main-image mobile"> </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="level2-titles-box-margin">
-                                <div class="level2-titles-box"> <img class="level2-titles-box-line" src="home-images/about_us/black_title_line.png" alt=""> <img class="level2-titles-box-pic-square" src="home-images/about_us/green-rectangle.png" alt="">
-                                    <h4 class="text-uppercase level2-titles">7 STAGES TO SUCCESS FOR CHINA ENTRY AND EXPANSION</h4> <span class="subtitle">Below is a standard time-line of what to expect for a product entering China.</span> <span class="subtitle-second">Whatever stage you may be in, we help you optimize and implement your next steps.</span> </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6"> <img src="home-images/our_work/process/DSC_3695-DEFINING-&-PROTECTING-THE-PRODUCT.jpg" alt="image" class="photo_process img-fluid mobile"> </div>
-                        <div class="col-md-6">
-                            <div class="content_title-margin">
-                                <h5 class="content_title">1. DEFINING & PROTECTING<br>THE PRODUCT</h5> <img class="img-fluid services_green-circle" src="home-images/about_us/green-circle.png" alt="square"> </div>
-                            <p class="content"> This is where we <b>find out who you are</b>.
-                                <span class="break"></span> Whether you’re selling a product, service, or raw material, we help you <b>define and delineate exactly what you’re looking for</b>. Whether you’re importing or exporting, here is where we develop your KEY MESSAGE: the <b>words, images, and values</b> that best describe your end product and that will <b>resonate best</b> with your target audience.
-                                <span class="break"></span> Once you have the <b>best definition of what you want</b>, we protect your brand by starting the <b>trademark process</b> before you even enter the country. With China’s first-to-file trademarking system and notorious copy-cat businesses, protecting your product is <b>first priority</b>.
-                                <span class="break"></span> Read more about the importance of <a href="#" data-toggle="collapse" data-target="#c13" class="color-red" target="blank">protecting your trademark</a> as early as possible. </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="content_title-margin">
-                                <h5 class="content_title">2. ESTABLISHING PRICING,<br> MARKET, & REGULATIONS</h5> <img class="img-fluid services_green-circle" src="home-images/about_us/green-circle.png" alt="square"> </div>
-                            <p class="content"> We do <b>extensive market research</b> so you can find out <b>exactly where you fit</b> into the China market.
-                                <span class="break"></span> Are you going for <b>premium</b>? <b>Mass-market</b>? In China, it’s almost impossible to beat local brands in terms of cheapness, so <b>quality trumps all</b>. We help you establish your <b>unique selling proposition</b> that grants you a place in the market while simultaneously finding the <b>right price point</b> for you and your clients, keeping in mind costs of suppliers and manufacturers. We also go in-depth into what other <b>niche brands</b> are doing as comparison.
-                                <span class="break"></span> Here is where we inform you of any <b>legal hoops</b> you’ll have to jump through to bring your product or service into the country, from taxation to import regulations. <b>No last-minute surprises.</b> </p>
-                        </div>
-                        <div class="col-md-6"> <img src="home-images/our_work/process/DSC_0050-ESTABLISHING-PRICING-MARKET-&-REGULATIONS.jpg" alt="image" class="photo_process img-fluid mobile"> </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6"> <img src="home-images/our_work/process/DSC_4169-STRATEGIZING-FOR-PROMOTIONS-AND-SALES.jpg" alt="image" class="photo_process img-fluid mobile"> </div>
-                        <div class="col-md-6">
-                            <div class="content_title-margin">
-                                <h5 class="content_title">3. STRATEGIZING FOR<br> PROMOTIONS AND SALES</h5> <img class="img-fluid services_green-circle" src="home-images/about_us/green-circle.png" alt="square"> </div>
-                            <p class="content"> Now you know <b>who you are and where you’re going</b>. But you need a <b>communication strategy</b> to bring it to the <b>outside world</b>.
-                                <span class="break"></span> This means strategies not only for communicating to your end client, but also your suppliers, manufacturers, distributors, and investors. We provide <b>tailored communications strategies</b> for each audience, and can provide <b>interpretation</b> for negotiations, signings, trade shows with promised leads, and other events.
-                                <span class="break"></span> Here is where we apply your brand’s KEY MESSAGE from Stage 1. <b>What differentiates premium brands from run-of-the-mill ones is how well they tell their story</b>. (For a premium water brand in China, for example, the term “purified water” doesn’t sound good. The Chinese simply boil tap water to “purify” it—why would they buy it?)
-                                <span class="break"></span> This stage is about BUILDING the demand with <b>clear, new value propositions</b>. We hire and train <b>sales representatives</b> to answer tough questions with <b>pitch-perfect responses</b>.
-                                <span class="break"></span> This stage also includes setting up your <b>WeChat Official Account</b>—the <b>king of social platforms in China</b> and so much more important in this country than a web-site. </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="content_title-margin">
-                                <h5 class="content_title">4. SUPPLY & INVESTIGATING<br>INVENTORY</h5> <img class="img-fluid services_green-circle" src="home-images/about_us/green-circle.png" alt="square"> </div>
-                            <p class="content"> If you don’t have a <b>ready-made product</b> already, here is where we <b>match-make</b> you with vetted suppliers and manufacturers, according to your specifications, to make your imagination reality.
-                                <span class="break"></span> Even if you already have sourcing, we provide invaluable <b>due diligence</b> on all potential distributors and retailers. Since you will be establishing a long-term relationship with your source, it is essential to find out as much as possible <b>before any deals are made</b>. We are experts at spotting <b>hidden intentions</b>.
-                                <span class="break"></span> Remember that <b>your own reputation</b> hinges on whether or not you have a trustworthy and reliable supplier; <b>you are held responsible for the final product</b>, so a good supplier can make or break your brand both in China and overseas.
-                                <span class="break"></span> After careful vetting of reputation and facilities, we can also coordinate on-site pre-shipment QC checks and warehousing/inventory management. </p>
-                        </div>
-                        <div class="col-md-6"> <img src="home-images/our_work/process/DSC_3186-SUPPLY-&-INVESTIGATIN-INVENTORY.jpg" alt="image" class="photo_process img-fluid mobile"> </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6"> <img src="home-images/our_work/process/DSC_0319-FULFILLING-DISTRIBUTION-NEEDS.jpg" alt="image" class="photo_process img-fluid mobile"> </div>
-                        <div class="col-md-6">
-                            <div class="content_title-margin">
-                                <h5 class="content_title">5. FULFILLING<br>DISTRIBUTION NEEDS</h5> <img class="img-fluid services_green-circle" src="home-images/about_us/green-circle.png" alt="square"> </div>
-                            <p class="content"> Now your product is ready to go, but <b>don’t forget the middlemen: distributors</b>.
-                                <span class="break"></span>
-                                <b>Import and distribution channels in China are complex and change frequently</b>. Import procedures must be handled by licensed importers who sometimes act as distributors as well. However, most food distributors and traders are unlikely to hold import licenses so once again, we depend on <b>insider reputations</b> to find you the best distributor for your needs. This is also the stage for preparing all <b>customs documentation</b>.
-                                <span class="break"></span> Distribution in China is quite fragmented, being generally handled on a <b>store-by-store</b> or <b>city-by-city</b> basis, with stores receiving most imports through a series of local distributors. This means that depending on where you want your product to go, you may need <b>multiple different regional distributors</b>. We help you <b>keep track of them</b> all through our own sustainable network of local distribution channels.
-                                <span class="break"></span>
-                                <a href="#" data-toggle="collapse" data-target="#c43" class="color-red" target="blank">Click here to read how Häagen-Dazs made a difference with distribution</a>. </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="content_title-margin">
-                                <h5 class="content_title">6. SUPPORT<br>FOR SERVICES</h5> <img class="img-fluid services_green-circle" src="home-images/about_us/green-circle.png" alt="square"> </div>
-                            <p class="content"> This stage includes all <b>follow-up with clients</b> for sustainable sales and other CRM, as well as employee relations.
-                                <span class="break"></span> At all points, we will <b>instruct and assist</b> in keeping the integrity of your brand and making sure its vision and mission in China is clearly understood. We can also <b>help you in technical services</b> such as setting up a virtual office system, budgeting, quotes processing, merchandising, claims, and legal services. </p>
-                        </div>
-                        <div class="col-md-6"> <img src="home-images/our_work/process/DSC_0005-SUPPORT-FOR-SERVICES.jpg" alt="image" class="photo_process img-fluid mobile"> </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6"> <img src="home-images/our_work/process/DSC_0092-SETTLING-FINANCES-&-FURTHER-DEVELOPMENTS.jpg" alt="image" class="photo_process img-fluid mobile"> </div>
-                        <div class="col-md-6">
-                            <div class="content_title-margin">
-                                <h5 class="content_title">7. SETTLING FINANCES<br>& FURTHER DEVELOPMENTS</h5> <img class="img-fluid services_green-circle" src="home-images/about_us/green-circle.png" alt="square"> </div>
-                            <p class="content"> We help you settle all problems with <b>cross-border payments</b>, including Internet payment and currency conversion.
-                                <span class="break"></span> Unlike most international traders, Chinese ones can be reluctant to open <b>lines of credit</b>, so here is making sure your bottom line is met and <b>all strings are tied</b>. Includes regular up-dates, tax services, budgeting, auditing, financial planning and outlook, and ROI projections.
-                                <span class="break"></span>
-                                <a href="#" data-toggle="collapse" data-target="#c61" target="blank" class="color-red">Click here to read more about our Financial Services.</a> </p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 last">
-                            <div class="level2-titles-box-margin">
-                                <div class="level2-titles-box"> <img class="level2-titles-box-line" src="home-images/about_us/black_title_line.png" alt=""> <img class="level2-titles-box-pic-square" src="home-images/about_us/green-rectangle.png" alt="">
-                                    <h4 class="text-uppercase level2-titles">THE BIGGER<br>PICTURE</h4> <span class="subtitle-second">Consulting exists because you have a need that you cannot address alone. A space between what you currently have and what you want.</span> </div>
-                            </div>
-                            <p class="content"> <b>A problem or an opportunity.</b> You call us because we have the <b>unique expertise</b> you need. And indeed, what you think is the problem may not be the real problem, and the solution too may not be what you expect.
-                                <span class="break"></span> When you have a consultation with us, we leave you with clarity: <b>who you are, why you’re unique, and why others should pay attention to you / work with you / buy from you.</b>
-                                <span class="break"></span> For a niche brand to penetrate a new market and succeed in China, it is essential to have a <b>clear brand definition</b> that is in line with the needs of the target audience. <b>Miscommunication</b> of both product and purpose is a huge reason <b>why brands fail</b>. And the responsibility for a clear message is always <b>up to the communicator, not the listener</b>. </p>
-                        </div>
-                        <div class="col-md-6"> <img src="home-images/our_work/process/DSC_0547-THE-BIGGER-PICTURE.jpg" alt="image" class="photo_process img-fluid mobile">
-                            <p class="content"> <b>The market is competitive</b>, but our process helps you find your <b>unique selling points</b> and <b>prioritize accordingly</b>—so that you are not merely competing with other brands, but educating consumers and building a new market segment for your product.
-                                <span class="break"></span> We believe in <b>conscious business</b>, which means working together for sustainable, long-term relationships—<b>making allies out of competitors</b>.
-                                <span class="break"></span> You are <b>on your way to success</b> when you truly know <b>what</b> you want to achieve, <b>why</b> you can do it, and <b>who</b> else can help you. </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <footer>
-        <div class="container-fluid">
-            <div class="row">
-                <div class=" col-xs-11 col-md-10 offset-xs-1">
-                    <div class="row">
-                        <div class="col-md-6 left">
-                            <p class="call-to-action"><b>Talk to us—you won’t regret it</b> </p>
-                            <ul>
-                                <li> Tel: 021-51061063 </li>
-                            </ul>
-                            <a href="mailto:lina@litao.lt">
-                                <button class="color-red">CONTACT</button>
-                            </a>
-                        </div>
-                        <div class="col-md-6 right">
-                            <ul>
-                                <li> <a class="color-red" href="./about_us.html">ABOUT US</a> </li>
-                                <li> <a class="color-red" href="./our_work.html">OUR WORK</a> </li>
-                                <li> <a class="color-red" href="./why_us.html">WHY US</a> </li>
-                                <li> <a class="color-red" href="./crossing_cultures.html">CROSSING CULTURES</a> </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="row page-bottom">
-                        <div class="col-md-6 padding-0">
-                            <p style="float: left;">Guangfu rd. 195, Suite 306, Jing'an district, Shanghai </p>
-                        </div>
-                        <div class="col-md-6 padding-0">
-                            <p style="float: right;"> © 2017, LITAO. All rights reserved. <a href="mailto:labas@litao.lt">labas@litao.lt</a> </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- </div> -->
-    </footer>
-    <script src="js/jquery-3.1.1.min.js"></script>
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/tether.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scrollreveal.min.js"></script>
-    <script src="js/js_script-v02.js"></script>
-    <script type="text/javascript">
-    function toggleIcon() { $(this).find("span").toggleClass("added") }
-
-    $(document).ready(function() {
-        $("#services .folding-section").on('hidden.bs.collapse', toggleIcon);
-        $("#services .folding-section").on('show.bs.collapse', toggleIcon);
-        $("#case_studies .f-section").on('hidden.bs.collapse', toggleIcon);
-        $("#case_studies .f-section").on('show.bs.collapse', toggleIcon);
-
-        $('#services .folding-section').on('shown.bs.collapse', function() {
-            var panel = $(this).find('.in');
-            $('html, body').animate({ scrollTop: panel.offset().top }, 500);
-        });
-        $('#case_studies .f-section').on('shown.bs.collapse', function() {
-            var panel = $(this).find('.in');
-            $('html, body').animate({ scrollTop: panel.offset().top }, 500);
-        });
-
-        $('.collapse').on('show.bs.collapse', function(e) { $('.collapse').collapse("hide"); });
-
-        $('body').scrollspy({ target: '#our_work-navigation' });
-        window.sr = ScrollReveal({ reset: true });
-        sr.reveal('.level2-main-title', { duration: 700 }, 30);
-        sr.reveal('.img-fluid', { duration: 500 });
-        sr.reveal('.level2-titles-box-line', { duration: 800 });
-        sr.reveal('.level2-titles-box-pic-square', { duration: 900 });
-
-    });
-    </script>
+<header class="header" id="header">
+<div class="hidden-md-up litao_logo-black">
+<a href="index.html#home">
+<img src="icons_logo/logo-black-transparent.png"></a>
+</div>
+<a id="nav-toggle" onclick="openNav()" href="javascript:void(0)"><span></span></a>
+<div id="mySidenav" class="sidenav">
+<div class="sidenav-links" id="myMenu" onclick="closeNav()"><a data-menuanchor="home" class="sidenav_link home-menu" href="index.html#home" style="width:0">HOME</a>
+<br>
+<div><a data-menuanchor="about_us" class="sidenav_link about-menu" href="index.html#about_us" style="width:0">ABOUT&nbsp;US</a>
+<div class="main-submenu">
+<ul id="about_us-id" class="about_us-submenu" style="display:none">
+<li class="intro-left-v animated-fast2 fadeIn"><a class="border_link" href="about_us.html#nameandlogo"><span class="border-text">NAME&nbsp;AND&nbsp;LOGO</span></a></li>
+<li class="intro-left-v animated-fast3 fadeIn"><a class="border_link" href="about_us.html#team"><span class="border-text">OUR&nbsp;TEAM</span></a></li>
+<li class="intro-left-v animated-fast4 fadeIn"><a class="border_link" href="about_us.html#founder"><span class="border-text">FOUNDER</span></a></li>
+<li class="intro-left-v animated-fast5 fadeIn"><a class="border_link" href="about_us.html#values"><span class="border-text">VALUES&nbsp;/&nbsp;MISSION&nbsp;/&nbsp;VISION</span></a></li>
+</ul>
+</div>
+</div>
+<div><a data-menuanchor="our_work" class="active sidenav_link work-menu" href="index.html#our_work" style="width:0">OUR&nbsp;WORK</a>
+<div class="main-submenu">
+<ul id="our_work-id" class="our_work-submenu" style="display:none">
+<li class="intro-left-v animated-fast2 fadeIn"><a class="border_link" href="our_work.html#services"><span class="border-text">SERVICES</span></a></li>
+<li class="intro-left-v animated-fast3 fadeIn"><a class="border_link" href="our_work.html#case_studies"><span class="border-text">CASE&nbsp;STUDIES</span></a></li>
+<li class="intro-left-v animated-fast4 fadeIn"><a class="border_link" href="our_work.html#process"><span class="border-text">PROCESS</span></a></li>
+</ul>
+</div>
+</div>
+<div><a data-menuanchor="why_us" class="sidenav_link why-menu" href="index.html#why_us" style="width:0">WHY&nbsp;US</a>
+<div class="main-submenu">
+<ul id="why_us-id" class="why_us-submenu" style="display:none">
+<li class="intro-left-v animated-fast1 fadeIn"><a class="border_link" href="why_us.html#experience_litao"><span class="border-text">EXPERIENCE LITAO</span></a></li>
+<li class="intro-left-v animated-fast2 fadeIn"><a class="border_link" href="why_us.html#our_guanxi"><span class="border-text">OUR GUANXI</span></a></li>
+<li class="intro-left-v animated-fast3 fadeIn"><a class="border_link" href="why_us.html#recognitions"><span class="border-text">RECOGNITIONS</span></a></li>
+<li class="intro-left-v animated-fast4 fadeIn"><a class="border_link" href="why_us.html#brochure"><span class="border-text">BROCHURE</span></a></li>
+</ul>
+</div>
+</div>
+<div><a data-menuanchor="crossing_cultures" class="sidenav_link china-menu" href="index.html#crossing_cultures" style="width:0">CROSSING&nbsp;CULTURES</a>
+<div class="main-submenu">
+<ul id="crossing_cultures-id" class="crossing_cultures-submenu" style="display:none">
+<li class="intro-left-v animated-fast2 fadeIn"><a class="border_link" href="crossing_cultures.html#raq"><span class="border-text">RARELY&nbsp;ASKED&nbsp;QUESTIONS</span></a></li>
+<li class="intro-left-v animated-fast3 fadeIn"><a class="border_link" href="crossing_cultures.html#useful_resources"><span class="border-text">USEFUL&nbsp;RESOURCES</span></a></li>
+<li class="intro-left-v animated-fast4 fadeIn"><a class="border_link" href="http://litao.lt/blog"><span class="border-text">BLOG</span></a></li>
+</ul>
+</div>
+</div><a class="sidenav_link contact-menu" href="connect_with_us.html" style="width:0">CONNECT&nbsp;WITH&nbsp;US</a></div>
+<div class="color-green" id="menu-footer">
+<div class="menu-footer_content">© 2017, LITAO. All rights reserved. <a href="mailto:labas@litao.lt">labas@litao.lt</a></div>
+</div>
+</div>
+<div class="header-lang nav">
+<div class="row">
+<div class="header-lang-item nav-item col-sm-6 col-xs-4"><a href="ch/our_work.html" title="LITAO" class="header-lang-link nav-link" data-page=""><span class="header-lang-text">CH</span></a></div>
+<div class="header-lang-item nav-item col-sm-6 col-xs-4"><a href="#" title="LITAO" class="header-lang-link nav-link active" data-page=""><span class="header-lang-text">EN</span></a></div>
+<div class="header-lang-item hidden-sm-up nav-item col-xs-4"><a href="lt/our_work.html" title="LITAO" class="header-lang-link nav-link" data-page=""><span class="header-lang-text">LT</span></a></div>
+</div>
+<div class="row hidden-xs-down">
+<div class="header-lang-item nav-item offset-sm-6"><a href="lt/our_work.html" title="LITAO" class="header-lang-link nav-link" data-page=""><span class="header-lang-text">LT</span></a></div>
+</div>
+</div>
+</header>
+<div class="container-fluid page_id" id="our_work_id">
+<div class="hidden-sm-down side-border color-green">
+<div class="logo-white-round"><a href="index.html#home"><img src="icons_logo/logo-white-round.png"></a>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-1" id="our_work-navigation" role="navigation">
+<ul class="nav submenu" role="tablist">
+<li class="intro-left-v nav-item"><a class="nav-link rotated-links" href="index.html#our_work"><span class="border-text">INTRO</span></a></li>
+<li class="intro-left-v nav-item"><a class="nav-link rotated-links active" href="#services"><span class="border-text">SERVICES</span></a></li>
+<li class="intro-left-v nav-item"><a class="nav-link rotated-links" href="#case_studies"><span class="border-text">CASE&nbsp;STUDIES</span></a></li>
+<li class="intro-left-v nav-item"><a class="nav-link rotated-links" href="#process"><span class="border-text">PROCESS</span></a></li>
+</ul>
+</div>
+<div class="col-xs-11 col-md-10">
+<div class="section" id="services">
+<div class="row">
+<div class="col-md-6 col-xs-12">
+<h3 class="text-uppercase level2-main-title">OUR<br>SERVICES</h3>
+<div class="level2-titles-box-margin">
+<div class="level2-titles-box">
+<p class="lead">We provide everything you need for a successful venture in China, from dealing with the government to training your employees and everything in between. We care about how you look to others, where you get your products from, how you get your money, what your long-term plans are.</p>
+</div>
+</div>
+</div>
+<div class="col-md-6"><img src="home-images/our_work/services/main-services.jpg" alt="main image" class="img-fluid main-image mobile"></div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<p class="content-main">Simply put, we’re invested in your future. And so we don’t just tell you what to do and not do; our services help you learn and understand this country for yourself, because true service is helping you serve yourself.</p>
+</div>
+</div>
+<div class="row folding-section">
+<div class="folding-section_heading color-green" data-toggle="collapse" data-target="#s1"><span class="collapsable_plus color-red"></span>
+<div class="flex-column">
+<div class="folding-section_heading_title">LEGAL ADVICE</div>
+<div class="folding-section_heading_subtitle color-red">A Hand Through the Bureaucracy</div>
+</div>
+</div>
+<div id="s1" class="collapse">
+<div class="row folding-section_content">
+<div class="col-md-6">
+<div class="level2-titles-box-margin">
+<div class="level2-titles-box"><img class="level2-titles-box-line" src="home-images/about_us/black_title_line.png" alt=""> <img class="level2-titles-box-pic-square" src="home-images/about_us/green-rectangle.png" alt="">
+<h4 class="text-uppercase level2-titles">LEGAL ADVICE</h4><span class="subtitle">A Hand Through The Bureaucracy</span></div>
+</div>
+<div class="listing"><span class="list-title"><b>Services include:</b></span>
+<ul class="services-list">
+<li><span class="li-content">Company & trademark registration</span></li>
+<li><span class="li-content">JV, M&A, transfer of companies</span></li>
+<li><span class="li-content">Import/export regulations</span></li>
+<li><span class="li-content">Customs information & compliance reports</span></li>
+<li><span class="li-content">Legal trouble-shooting</span></li>
+<li><span class="li-content">Z visa applications</span></li>
+<li><span class="li-content">Employment & partner contracts</span></li>
+<li><span class="li-content">Due diligence & inspections</span></li>
+</ul>
+</div>
+</div>
+<div class="col-md-6">
+<div class="content_title-margin">
+<h5 class="content_title">DESCRIPTION<br>AND SERVICES</h5><img class="img-fluid services_green-circle" src="home-images/about_us/green-circle.png" alt="square"></div>
+<p class="content">Your guide to company & trademark registration, customs information, visas, import/export regulations, contract negotiation & supervision, inspection & other forms of due diligence, rules for web domains in China—<b>anything and everything related to bureaucratic red tape</b> that could tie you down or trip you up. Our advice always serves to protect your company’s <b>best interests</b>.</p>
+</div>
+<div class="col-md-6"><img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
+<h6>Why is this important ?</h6>
+<p class="content">China’s legal system is <b>notoriously complex</b> and often contradictory to common sense. Paper <b>cannot always protect you</b> from the realities of China. For example:</p>
+<ul class="important-list">
+<li><span class="li-content"><b>Unless you have connections</b>, you might never know which rule or regulation you’re not meeting, as <a href="#" data-toggle="collapse" data-target="#c11" target="blank">this company</a> found out <b>the hard way</b> for six years - before it hired professionals to help.</span></li>
+<li><span class="li-content"><b>Don’t think you can do business in China right away.</b> <a href="#" data-toggle="collapse" data-target="#c12" target="blank">Trade approval</a> may take longer and be more complex than you think, even in high-profile cases.</span></li>
+<li><span class="li-content">Intellectual property <a href="#" data-toggle="collapse" data-target="#c13" target="blank">works differently</a> in China, which has a <b>first-to-file system</b>, a rule that has cost foreign companies <b>millions of dollars</b> in court cases when Chinese companies register their name or technology first.</span></li>
+</ul>
+</div>
+<div class="col-md-6"><img src="home-images/our_work/services/legal_advice.jpg" class="img-fluid picture">
+<div class="links_to_cases">
+<p class="content"><b>Read about how we helped a client who believed their <a href="#" data-toggle="collapse" data-target="#c14">trademark was stolen</a>.</b></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row folding-section">
+<div class="folding-section_heading color-green" data-toggle="collapse" data-target="#s2"><span class="collapsable_plus color-red"></span>
+<div class="flex-column">
+<div class="folding-section_heading_title">BRAND DEVELOPMENT</div>
+<div class="folding-section_heading_subtitle color-red">The Public Face</div>
+</div>
+</div>
+<div id="s2" class="collapse">
+<div class="row folding-section_content">
+<div class="col-md-6">
+<div class="level2-titles-box-margin">
+<div class="level2-titles-box"><img class="level2-titles-box-line" src="home-images/about_us/black_title_line.png" alt=""> <img class="level2-titles-box-pic-square" src="home-images/about_us/green-rectangle.png" alt="">
+<h4 class="text-uppercase level2-titles">BRAND DEVELOPMENT</h4><span class="subtitle">The Public Face</span></div>
+</div>
+<div class="listing"><span class="list-title"><b>Services include:</b></span>
+<ul class="services-list">
+<li><span class="li-content">Re-branding & Chinese branding</span></li>
+<li><span class="li-content">Company catalogues and presentation</span></li>
+<li><span class="li-content">In-depth market research</span></li>
+<li><span class="li-content">Consumer studies</span></li>
+<li><span class="li-content">PR strategy</span></li>
+<li><span class="li-content">SEO-optimization</span></li>
+<li><span class="li-content">Social media strategy</span></li>
+<li><span class="li-content">Content development</span></li>
+<li><span class="li-content">Design, logo, slogans</span></li>
+<li><span class="li-content">Advertising plan</span></li>
+<li><span class="li-content">WeChat OA development</span></li>
+<li><span class="li-content">E-mail marketing & newsletters</span></li>
+</ul>
+</div>
+</div>
+<div class="col-md-6">
+<div class="content_title-margin">
+<h5 class="content_title">DESCRIPTION<br>AND SERVICES</h5><img class="img-fluid services_green-circle" src="home-images/about_us/green-circle.png" alt="square"></div>
+<p class="content"><b>Brand development in all its forms:</b>
+<br>
+<br>In-depth customer comprehension, market research, and competitor analysis to form a <b>solid</b>, <b>culturally-inspired marketing plan</b>. We integrate <b>business</b>, <b>culture</b>, and <b>psychology</b>, new and traditional <b>media</b>, and local and international <b>trends</b> to give you the latest insights on the market—and how to <b>best present your product</b>. Can also include design, local logo, name, and slogans.</p>
+</div>
+<div class="col-md-6"><img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
+<h6>Why is this important ?</h6>
+<p class="content"><b>Your brand is your message to the world.</b> When you translate that message to a different language and country, you <b>cannot just copy & paste</b> and expect to connect to the people there.</p>
+<ul class="important-list">
+<li><span class="li-content"><b>Branding as a Western status symbol</b> and experience is what allowed <b>Starbucks</b> to <a href="" target="blank">break into</a> a thousand-year-plus <b>tea culture</b>. It wasn’t really about the coffee at all.</span></li>
+<li><span class="li-content">Things that work in other places may not work for China, but <b>the reverse is also true</b> and Chinese culture provides many <b>particular branding opportunities</b>. For example, disposable diapers finally started selling in China after <b>Procter & Gamble</b>’s <a href="" target="blank">ingenious marketing campaign</a> linking Pampers-wearing to <b>better sleep and ergo, smarter children</b>. A ploy that works only with Chinese parents.</span></li>
+<li><span class="li-content"><b>Without officially localized brand names</b>, Chinese consumers can <a href="">demean brands</a> with their own <b>made-up nicknames</b>. Referring to them by their logos, <b>Quaker Oatmeal</b> thus became “Lao Ren Pai,” meaning “Old Man Brand,” and <b>Ralph Lauren</b> “San Jiao Ma,” or “Three-Legged Horse.”</span></li>
+<li><span class="li-content">Meanwhile, when branding works, it works: <b>Coca-Cola</b> employees in China <b>took a year</b> to come up a phonetically similar name that also had an <a href="">appealing meaning</a> in Chinese.</span></li>
+</ul>
+</div>
+<div class="col-md-6"><img src="home-images/our_work/services/brand_development.jpg" class="img-fluid picture">
+<div class="links_to_cases">
+<p class="content"><b>Here’s how we <a href="#" data-toggle="collapse" data-target="#c24" target="blank">rebranded a cultural product</a> to fit Chinese culture.</b></p>
+<p class="content"><b>We also took an ordinary product and <a href="#" data-toggle="collapse" data-target="#c25" target="blank">made it premium</a> in China.</b></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row folding-section">
+<div class="folding-section_heading color-green" data-toggle="collapse" data-target="#s3"><span class="collapsable_plus color-red"></span>
+<div class="flex-column">
+<div class="folding-section_heading_title">COMMUNICATIONS</div>
+<div class="folding-section_heading_subtitle color-red">Found in Translation</div>
+</div>
+</div>
+<div id="s3" class="collapse">
+<div class="row folding-section_content">
+<div class="col-md-6">
+<div class="level2-titles-box-margin">
+<div class="level2-titles-box"><img class="level2-titles-box-line" src="home-images/about_us/black_title_line.png" alt=""> <img class="level2-titles-box-pic-square" src="home-images/about_us/green-rectangle.png" alt="">
+<h4 class="text-uppercase level2-titles">COMMUNICATIONS</h4><span class="subtitle">Found in Translation</span></div>
+</div>
+<div class="listing"><span class="list-title"><b>Services include:</b></span>
+<ul class="services-list">
+<li><span class="li-content">Translation & interpretation, both casual & high-profile</span></li>
+<li><span class="li-content">Deal negotiations</span></li>
+<li><span class="li-content">Exhibit representation</span></li>
+<li><span class="li-content">Trade missions</span></li>
+<li><span class="li-content">Match-making</span></li>
+<li><span class="li-content">Corporate relations</span></li>
+<li><span class="li-content">Local team-building</span></li>
+<li><span class="li-content">Sales personnel training</span></li>
+<li><span class="li-content">Recruitment in China</span></li>
+<li><span class="li-content">Employee communications</span></li>
+<li><span class="li-content">KOL marketing</span></li>
+<li><span class="li-content">Virtual & physical office set-up</span></li>
+</ul>
+</div>
+</div>
+<div class="col-md-6">
+<div class="content_title-margin">
+<h5 class="content_title">DESCRIPTION<br>AND SERVICES</h5><img class="img-fluid services_green-circle" src="home-images/about_us/green-circle.png" alt="square"></div>
+<p class="content">Translation, interpretation, negotiation, exhibit representation, match-making & corporate relationship-building. With <b>years of experience officially representing foreign entities</b> in China, we will speak for you to get the <b>best deals</b>, find you potential <b>partners</b>, <b>clients</b>, and <b>employees</b>, and train you on how to approach Chinese <b>investors</b> and other <b>opportunities</b>.</p>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6"><img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
+<h6>Why is this important ?</h6>
+<p class="content">You wouldn’t translate your business documents using Google Translate; <b>only a human being understands the real context</b>. In negotiations <b>between cultures</b>, this is more important than ever.</p>
+<ul class="important-list">
+<li><span class="li-content"><b>Interpretation is not something to take lightly</b>, as the interpreter can represent someone for <a href="" target="blank">better or worse</a>. The interpreter who serves China’s top leaders has been named one of the <b>most powerful women</b> in the world.</span></li>
+<li><span class="li-content"><b>A single detail can derail a whole effort.</b> The <b>U.S. State Department</b> and <b>Hillary Clinton</b> <a href="" target="blank">embarrassed themselves</a> when they used the wrong Russian word for what was supposed to be a friendly gesture.</span></li>
+<li><span class="li-content"><b>In China, friendships can defy traditional business logic.</b> When a group of foreigners took over a Chinese hotel chain, they optimized Western performance but <a href="" target="blank">neglected guanxi</a>: <b>the slow, local process of fostering connections or relationships</b>. They quickly lost almost all their client base.</span></li>
+</ul>
+</div>
+<div class="col-md-6"><img src="home-images/our_work/services/communication.jpg" class="img-fluid picture">
+<div class="links_to_cases">
+<p class="content"><b>We were praised for our interpretation on a <a href="#" data-toggle="collapse" data-target="#c34" target="blank">Lithuanian diplomatic visit</a> to China.</b></p>
+<p class="content"><b>We made the right contacts at a <a href="#" data-toggle="collapse" data-target="#c35" target="blank">3-day children’s book exhibition</a> that led to successful sales of copyrights for our client.</b></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row folding-section">
+<div class="folding-section_heading color-green" data-toggle="collapse" data-target="#s4"><span class="collapsable_plus color-red"></span>
+<div class="flex-column">
+<div class="folding-section_heading_title">SUPPLY SIDE SUPPORT</div>
+<div class="folding-section_heading_subtitle color-red">From the Bottom Up</div>
+</div>
+</div>
+<div id="s4" class="collapse">
+<div class="row folding-section_content">
+<div class="col-md-6">
+<div class="level2-titles-box-margin">
+<div class="level2-titles-box"><img class="level2-titles-box-line" src="home-images/about_us/black_title_line.png" alt=""> <img class="level2-titles-box-pic-square" src="home-images/about_us/green-rectangle.png" alt="">
+<h4 class="text-uppercase level2-titles">SUPPLY SIDE SUPPORT</h4><span class="subtitle">From the Bottom Up</span></div>
+</div>
+<div class="listing"><span class="list-title"><b>Services include:</b></span>
+<ul class="services-list">
+<li><span class="li-content">Contacting manufacturers</span></li>
+<li><span class="li-content">Sourcing</span></li>
+<li><span class="li-content">Sample-gathering</span></li>
+<li><span class="li-content">Distribution channel analysis</span></li>
+<li><span class="li-content">Operational logistics</span></li>
+<li><span class="li-content">Quality inspections</span></li>
+</ul>
+</div>
+</div>
+<div class="col-md-6">
+<div class="content_title-margin">
+<h5 class="content_title">DESCRIPTION<br>AND SERVICES</h5><img class="img-fluid services_green-circle" src="home-images/about_us/green-circle.png" alt="square"></div>
+<p class="content">Every business needs to <b>come from somewhere</b>, and <b>we make it easy for you</b> with contact lists for manufacturers, supply chain management, distribution channel analysis, and other handling of sourcing & operational logistics. Also supply side quality-control inspection and due diligence to ensure your products are <b>coming from and going to the right places</b>. All so retail can go smooth as silk.</p>
+</div>
+<div class="col-md-6"><img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
+<h6>Why is this important ?</h6>
+<p class="content">Due diligence on the <b>supply side</b> is especially important; these are the people who are going to be <b>literally creating and delivering your products</b>.</p>
+<ul class="important-list">
+<li><span class="li-content"><b>Chinese manufacturers and deliverers often take advantage of foreign companies</b> by claiming <a href="" target="blank">nonexistent rules and regulations</a> so that you enter unfair agreements. You need to know what is best for both of you, not just them.</span></li>
+<li><span class="li-content"><b>Quality reputation affects you as a visible brand</b> more than it can affect your supplier. When quality goes bad in one place, your whole <a href="" target="blank">international reputation is at stake</a>.</span></li>
+<li><span class="li-content"><b>How your product is distributed and reaches customers</b> may be just as important as the product itself. Installing its own lower-temperature freezers in trucks and stores is how Häagen-Dasz ensured <a href="#" data-toggle="collapse" data-target="#c43" target="blank">brand quality</a>.</span></li>
+</ul>
+</div>
+<div class="col-md-6"><img src="home-images/our_work/services/supply_side.jpg" class="img-fluid picture">
+<div class="links_to_cases">
+<p class="content"><b>We conducted all supplier searches, production, and quality inspection work for a thermos manufacturer, <a href="#" data-toggle="collapse" data-target="#c44" target="blank">starting from scratch</a>.</b></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row folding-section">
+<div class="folding-section_heading color-green" data-toggle="collapse" data-target="#s5"><span class="collapsable_plus color-red"></span>
+<div class="flex-column">
+<div class="folding-section_heading_title">STRATEGY</div>
+<div class="folding-section_heading_subtitle color-red">The Art of Business</div>
+</div>
+</div>
+<div id="s5" class="collapse">
+<div class="row folding-section_content">
+<div class="col-md-6">
+<div class="level2-titles-box-margin">
+<div class="level2-titles-box"><img class="level2-titles-box-line" src="home-images/about_us/black_title_line.png" alt=""> <img class="level2-titles-box-pic-square" src="home-images/about_us/green-rectangle.png" alt="">
+<h4 class="text-uppercase level2-titles">STRATEGY</h4><span class="subtitle">The Art of Business</span></div>
+</div>
+<div class="listing"><span class="list-title"><b>Services include:</b></span>
+<ul class="services-list">
+<li><span class="li-content">In-depth regional analysis</span></li>
+<li><span class="li-content">Localization strategy</span></li>
+<li><span class="li-content">Competitor analysis</span></li>
+<li><span class="li-content">Market overview report</span></li>
+<li><span class="li-content">Consumer & pricing studies</span></li>
+<li><span class="li-content">Identifying opportunities</span></li>
+<li><span class="li-content">Sales plan</span></li>
+<li><span class="li-content">Local team-building & training</span></li>
+<li><span class="li-content">Long-term plan</span></li>
+</ul>
+</div>
+</div>
+<div class="col-md-6">
+<div class="content_title-margin">
+<h5 class="content_title">DESCRIPTION<br>AND SERVICES</h5><img class="img-fluid services_green-circle" src="home-images/about_us/green-circle.png" alt="square"></div>
+<p class="content">Using market research & cultural know-how to form a <b>comprehensive localized corporate strategy</b>. Includes in-depth industry analysis, a sales plan, opportunity identification, and market overview reports—a <b>big-picture strategic action plan</b> that will help your expansion run <b>smoothly and intelligently</b>. Can also include local team-building & training so employees across the board are aware of your overall strategy.</p>
+</div>
+<div class="col-md-6"><img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
+<h6>Why is this important ?</h6>
+<p class="content">So much of business is <b>down in the details</b>, but sometimes you need to see the <b>whole forest</b>.</p>
+<ul class="important-list">
+<li><span class="li-content"><b>What works in one country, or even most countries, may not work in China.</b> Groupon has been an international success, but it <a href="" target="blank">lost out in China</a>, the land of <b>copy-cat sites and ideas</b>, to local Chinese competitors. It didn’t help that they were employing the strategies they were using in Germany, and that only one person on their senior management team was from mainland China.</span></li>
+<li><span class="li-content"><b>If your goal is not just to float short-term</b>, but to establish your presence, you need a <a href="" target="blank">win-win strategy</a> with the place you settle down in. Part of why Nestlé has done so well in China is because of the <b>local strategy</b> it’s developed, sharing their milk expertise with regional farmers, paving roads, and donating millions of RMB to Chinese disaster relief.</span></li>
+<li><span class="li-content"><b>If you play your long-term strategy right</b>, you can actually <a href="" target="blank">plant the seeds for future demand</a>. China was not a country without any kind of green lawn culture until Chinese businesswoman <b>Chin-Ning Chu</b>, working for an American grass-seed company, came up with a <b>counterintuitive proposal</b>.</span></li>
+</ul>
+</div>
+<div class="col-md-6"><img src="home-images/our_work/services/nestle.jpg" class="img-fluid picture">
+<div class="links_to_cases">
+<p class="content"><b>We gave a grocery retail chain a <a href="#" data-toggle="collapse" data-target="#c55" target="blank">strategy for true localization</a> in the age of on-line shopping.</b></p>
+<p class="content"><b>We helped a bottled water company figure out how to <a href="#" data-toggle="collapse" data-target="#c56" target="blank">differentiate themselves</a> from their competitors, and when to come to China.</b></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row folding-section">
+<div class="folding-section_heading color-green" data-toggle="collapse" data-target="#s6"><span class="collapsable_plus color-red"></span>
+<div class="flex-column">
+<div class="folding-section_heading_title">SALES AND FINANCIAL SERVICES</div>
+<div class="folding-section_heading_subtitle color-red">The Money</div>
+</div>
+</div>
+<div id="s6" class="collapse">
+<div class="row folding-section_content">
+<div class="col-md-6">
+<div class="level2-titles-box-margin">
+<div class="level2-titles-box"><img class="level2-titles-box-line" src="home-images/about_us/black_title_line.png" alt=""> <img class="level2-titles-box-pic-square" src="home-images/about_us/green-rectangle.png" alt="">
+<h4 class="text-uppercase level2-titles">SALES AND FINANCIAL SERVICES</h4><span class="subtitle">The Money</span></div>
+</div>
+<div class="listing"><span class="list-title"><b>Services include:</b></span>
+<ul class="services-list">
+<li><span class="li-content">Sales plan & contacts</span></li>
+<li><span class="li-content">Sales training</span></li>
+<li><span class="li-content">Bank and transfer management</span></li>
+<li><span class="li-content">Daily, up-dated accounting</span></li>
+<li><span class="li-content">Bank reconciliation</span></li>
+<li><span class="li-content">Bookkeeping</span></li>
+<li><span class="li-content">Financial planning</span></li>
+<li><span class="li-content">Investment & ROI calculations</span></li>
+<li><span class="li-content">Tax and fee processing</span></li>
+<li><span class="li-content">Social Security registration</span></li>
+</ul>
+</div>
+</div>
+<div class="col-md-6">
+<div class="content_title-margin">
+<h5 class="content_title">DESCRIPTION<br>AND SERVICES</h5><img class="img-fluid services_green-circle" src="home-images/about_us/green-circle.png" alt="square"></div>
+<p class="content">From pricing studies to contract negotiation to foreign & domestic accounting, <b>we help you handle your money before, during, and after you get it</b>. Cross-border payments <b>made easy</b> for a country <b>without a fully internationalized currency</b> and that doesn’t generally use Visa or Mastercard. We do China banking services, Internet pay schemes (including WeChat and Alipay), off-shore accounts, bookkeeping, ROI follow-ups, VAT and other tax calculations, and more.</p>
+</div>
+<div class="col-md-6"><img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
+<h6>Why is this important ?</h6>
+<p class="content"></p>
+<ul class="important-list">
+<li><span class="li-content"><b>The RMB still isn’t a fully global currency</b> and must be converted. <a href="" target="blank">Getting money in and out of China</a> also requires maneuvering with popular e-payment platforms <b>WeChat</b> and <b>Alipay</b>, which are scarcely used elsewhere in the world. Not to mention the Chinese government is <b>tightening its scrutiny</b> to corporate transactions to prevent money outflow.</span></li>
+<li><span class="li-content"><b>Financial fraud and various phone and Internet scams are commonplace</b> in China, so much so that even toy giant <b>Mattel</b> fell for a simple <a href="" target="blank">e-mail scam</a>, with USD 3 million on the line.</span></li>
+</ul>
+</div>
+<div class="col-md-6"><img src="home-images/our_work/services/sales.jpg" class="img-fluid picture">
+<div class="links_to_cases">
+<p class="content"><b>Our trusted sales techniques and easy payment schemes <a href="#" data-toggle="collapse" data-target="#c63" target="blank">sold USD 500,000 in containers</a> for a meat trading corporation their first month in China.</b></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row folding-section">
+<div class="folding-section_heading color-green" data-toggle="collapse" data-target="#s7"><span class="collapsable_plus color-red"></span>
+<div class="flex-column">
+<div class="folding-section_heading_title">EXPERT INDUSTRY GUIDANCE</div>
+<div class="folding-section_heading_subtitle color-red">Sectors We Know Best</div>
+</div>
+</div>
+<div id="s7" class="collapse">
+<div class="row folding-section_content">
+<div class="col-md-6">
+<div class="level2-titles-box-margin">
+<div class="level2-titles-box"><img class="level2-titles-box-line" src="home-images/about_us/black_title_line.png" alt=""> <img class="level2-titles-box-pic-square" src="home-images/about_us/green-rectangle.png" alt="">
+<h4 class="text-uppercase level2-titles">EXPERT INDUSTRY GUIDANCE</h4><span class="subtitle">Sectors We Know Best</span></div>
+</div>
+<div class="listing"><span class="list-title"><b>Services include:</b></span>
+<ul class="services-list">
+<li><span class="li-content">Industry overview reports</span></li>
+<li><span class="li-content">Special sector analysis</span></li>
+<li><span class="li-content">Connections to KOLs</span></li>
+<li><span class="li-content">Mystery shopping experience</span></li>
+<li><span class="li-content">Industry contacts and relationship-building</span></li>
+</ul>
+</div>
+</div>
+<div class="col-md-6">
+<div class="content_title-margin">
+<h5 class="content_title">DESCRIPTION<br>AND SERVICES</h5><img class="img-fluid services_green-circle" src="home-images/about_us/green-circle.png" alt="square"></div>
+<p class="content">We have years of <b>hands-on experience</b> in F&B, FMCG, manufacturing & equipment, the public sector, educational services, real estate, & specialty/bespoke items. We offer not generalities but <b>industry-specific insights</b> packed with firsthand knowledge. <b>Details make the difference</b>.</p>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6"><img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
+<h6>Why is this important ?</h6>
+<p class="content"></p>
+<ul class="important-list">
+<li><span class="li-content"><b>Different rules will apply to different industries</b>, each with their particular opportunities and difficulties. <b>Quality control</b> may be a bigger issue in F&B and technology, while in China, educational services often require more <b>relationship-fostering</b> than other fields since it’s connected to the public sector.</span></li>
+<li><span class="li-content"><b>Special sector knowledge</b> is what allowed Chinese local brand <b>Blue Moon</b> to <a href="" target="blank">break into a detergent market</a> filled with huge multinational companies. They truly knew what was missing in the laundry detergent sector for a particular set of clients larger companies had ignored.</span></li>
+</ul>
+</div>
+<div class="col-md-6"><img src="home-images/our_work/services/expert.jpg" class="img-fluid picture">
+<div class="links_to_cases">
+<p class="content"><b>Here’s how we helped a bespoke diamond company <a href="#" data-toggle="collapse" data-target="#c72" target="blank">understand the China market</a>.</b></p>
+<p class="content"><b>And this is how we helped a huge fish manufacturer <a href="#" data-toggle="collapse" data-target="#c73" target="blank">pass notoriously strict F&B import regulations</a> in China.</b></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row folding-section">
+<div class="folding-section_heading color-green" data-toggle="collapse" data-target="#s8"><span class="collapsable_plus color-red"></span>
+<div class="flex-column">
+<div class="folding-section_heading_title">QUICK CONSULTATION</div>
+<div class="folding-section_heading_subtitle color-red">When in Need of a Shortcut</div>
+</div>
+</div>
+<div id="s8" class="collapse">
+<div class="row folding-section_content">
+<div class="col-md-6">
+<div class="level2-titles-box-margin">
+<div class="level2-titles-box"><img class="level2-titles-box-line" src="home-images/about_us/black_title_line.png" alt="">
+<h4 class="text-uppercase level2-titles">QUICK CONSULTATION</h4><span class="subtitle">When in Need of a Shortcut</span></div>
+</div><img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark"></div>
+<div class="col-md-6">
+<div class="content_title-margin">
+<h5 class="content_title">DESCRIPTION<br>AND SERVICES</h5><img class="img-fluid services_green-circle" src="home-images/about_us/green-circle.png" alt="square"></div>
+<p class="content"><b>Not sure yet what you’re looking for? Or have most things figured out and just a bit stuck? </b>
+<br>
+<br>We’re confident our China business expertise can help you, <b>whatever the situation may be</b>. If you have the <b>right questions</b>, we have the right answers; if you don’t have the right questions, we can <b>point you to them</b>.
+<br>
+<br>Consulting doesn’t have to be a complex, drawn-out process. <a href="connect_with_us.html" class="color-red"><b>Schedule a problem-solving phone chat</b></a> with us today for a simple 50 € / hour fee.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="case_studies">
+<div class="row">
+<div class="col-md-6 col-xs-12">
+<h3 class="text-uppercase level2-main-title">CASE<br>STUDIES</h3>
+<div class="level2-titles-box-margin">
+<div class="level2-titles-box">
+<p class="lead">The best mistakes to learn from... are those of others, of course.</p>
+<p class="sublead color-red">And, since history tends to repeat itself, so do the best successes.</p>
+</div>
+</div>
+</div>
+<div class="col-md-6"><img src="home-images/our_work/case/DSC_2314-case-studies1.jpg" alt="main image" class="img-fluid main-image mobile"></div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<p class="content-main">We have collected here some of the <b>best and worst things companies have done</b> in seeking to conquer the China market—the mistakes that have <b>broken them</b> and the strategies that have <b>pushed them to the top</b>. Our expertise is rooted in <b>experience</b>—we don’t just talk the talk—so we also present our unique <b>LITAO approach</b> in <b>real-life cases</b> with our clients.</p>
+</div>
+<div class="col-xs-12">
+<p class="last-content">We share others’ experience with you so you don’t have to make their mistakes, but you can repeat their triumphs.</p>
+</div>
+</div>
+<div class="row box-row">
+<div class="case_square">
+<div class="color-green l2-boxes-in">
+<img src="home-images/our_work/case/7.jpg">
+<a class="info" href="./case/case4.html">
+<div class="overlay">
+<p>FEATURED CASE</p>
+<h2>The LITAO Approach to Exhibition Excellence.</h2>
+<div class="case_read">READ MORE ></div>
+</div>
+</a>
+</div>
+</div>
+<div class="case_square">
+<div class="color-green l2-boxes-in">
+<img src="home-images/our_work/case/14.jpg">
+<a class="info" href="./case/case7.html">
+<div class="overlay">
+<p>FEATURED CASE</p>
+<h2>The LITAO Approach to Building Trusted Sales.</h2>
+<div class="case_read">READ MORE ></div>
+</div>
+</a>
+</div>
+</div>
+<div class="case_square">
+<div class="color-green l2-boxes-in">
+<img src="home-images/our_work/case/5.jpg">
+<a class="info" href="./case/case3.html">
+<div class="overlay">
+<p>FEATURED CASE</p>
+<h2>The LITAO Approach to High-profile Interpretation.</h2>
+<div class="case_read">READ MORE ></div>
+</div>
+</a>
+</div>
+</div>
+<div class="case_square">
+<div class="color-green l2-boxes-in">
+<img src="home-images/our_work/case/4.jpg">
+<a class="info" href="./case/case2.html">
+<div class="overlay">
+<p>FEATURED CASE</p>
+<h2>The LITAO Approach to Cultural Intergation.</h2>
+<div class="case_read">READ MORE ></div>
+</div>
+</a>
+</div>
+</div>
+<div class="case_square">
+<div class="color-green l2-boxes-in">
+<img src="home-images/our_work/case/12.jpg">
+<a class="info" href="./case/case6.html">
+<div class="overlay">
+<p>FEATURED CASE</p>
+<h2>The LITAO Approach to Specialty Items.</h2>
+<div class="case_read">READ MORE ></div>
+</div>
+</a>
+</div>
+</div>
+<div class="case_square">
+<div class="color-green l2-boxes-in">
+<img src="home-images/our_work/case/15.jpg">
+<a class="info" href="./case/case8.html">
+<div class="overlay">
+<p>FEATURED CASE</p>
+<h2>The LITAO Approach to Premiumization.</h2>
+<div class="case_read">READ MORE ></div>
+</div>
+</a>
+</div>
+</div>
+<div class="case_square">
+<div class="color-green l2-boxes-in">
+<img src="home-images/our_work/case/20.jpg">
+<a class="info" href="./case/case10.html">
+<div class="overlay">
+<p>FEATURED CASE</p>
+<h2>The LITAO Approach to Brand Differentiation.</h2>
+<div class="case_read">READ MORE ></div>
+</div>
+</a>
+</div>
+</div>
+<div class="case_square">
+<div class="color-green l2-boxes-in">
+<img src="home-images/our_work/case/1.png">
+<a class="info" href="./case/case1.html">
+<div class="overlay">
+<p>FEATURED CASE</p>
+<h2>The LITAO Approach to Stolen Trademark.</h2>
+<div class="case_read">READ MORE ></div>
+</div>
+</a>
+</div>
+</div>
+<div class="case_square">
+<div class="color-green l2-boxes-in">
+<img src="home-images/our_work/case/9.jpg">
+<a class="info" href="./case/case5.html">
+<div class="overlay">
+<p>FEATURED CASE</p>
+<h2>The LITAO Approach to Quality Control.</h2>
+<div class="case_read">READ MORE ></div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="process">
+<div class="row">
+<div class="col-md-6 col-xs-12">
+<h3 class="text-uppercase level2-main-title">OUR<br>PROCESS</h3>
+<div class="level2-titles-box-margin">
+<div class="level2-titles-box">
+<p class="lead">From concept to completion, we are with you every step of the way.</p>
+</div>
+</div>
+</div>
+<div class="col-md-6"><img src="home-images/our_work/process/DSC_0372-OUR-PROCESS.jpg" alt="main image" class="img-fluid main-image mobile"></div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="level2-titles-box-margin">
+<div class="level2-titles-box"><img class="level2-titles-box-line" src="home-images/about_us/black_title_line.png" alt=""> <img class="level2-titles-box-pic-square" src="home-images/about_us/green-rectangle.png" alt="">
+<h4 class="text-uppercase level2-titles">7 STAGES TO SUCCESS FOR CHINA ENTRY AND EXPANSION</h4><span class="subtitle">Below is a standard time-line of what to expect for a product entering China.</span> <span class="subtitle-second">Whatever stage you may be in, we help you optimize and implement your next steps.</span></div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6"><img src="home-images/our_work/process/DSC_3695-DEFINING-&-PROTECTING-THE-PRODUCT.jpg" alt="image" class="photo_process img-fluid mobile"></div>
+<div class="col-md-6">
+<div class="content_title-margin">
+<h5 class="content_title">1. DEFINING & PROTECTING<br>THE PRODUCT</h5><img class="img-fluid services_green-circle" src="home-images/about_us/green-circle.png" alt="square"></div>
+<p class="content">This is where we <b>find out who you are</b>.
+<span class="break"></span> Whether you’re selling a product, service, or raw material, we help you <b>define and delineate exactly what you’re looking for</b>. Whether you’re importing or exporting, here is where we develop your KEY MESSAGE: the <b>words, images, and values</b> that best describe your end product and that will <b>resonate best</b> with your target audience.
+<span class="break"></span> Once you have the <b>best definition of what you want</b>, we protect your brand by starting the <b>trademark process</b> before you even enter the country. With China’s first-to-file trademarking system and notorious copy-cat businesses, protecting your product is <b>first priority</b>.
+<span class="break"></span> Read more about the importance of <a href="#" data-toggle="collapse" data-target="#c13" class="color-red" target="blank">protecting your trademark</a> as early as possible.</p>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="content_title-margin">
+<h5 class="content_title">2. ESTABLISHING PRICING,<br>MARKET, & REGULATIONS</h5><img class="img-fluid services_green-circle" src="home-images/about_us/green-circle.png" alt="square"></div>
+<p class="content">We do <b>extensive market research</b> so you can find out <b>exactly where you fit</b> into the China market.
+<span class="break"></span> Are you going for <b>premium</b>? <b>Mass-market</b>? In China, it’s almost impossible to beat local brands in terms of cheapness, so <b>quality trumps all</b>. We help you establish your <b>unique selling proposition</b> that grants you a place in the market while simultaneously finding the <b>right price point</b> for you and your clients, keeping in mind costs of suppliers and manufacturers. We also go in-depth into what other <b>niche brands</b> are doing as comparison.
+<span class="break"></span> Here is where we inform you of any <b>legal hoops</b> you’ll have to jump through to bring your product or service into the country, from taxation to import regulations. <b>No last-minute surprises.</b></p>
+</div>
+<div class="col-md-6"><img src="home-images/our_work/process/DSC_0050-ESTABLISHING-PRICING-MARKET-&-REGULATIONS.jpg" alt="image" class="photo_process img-fluid mobile"></div>
+</div>
+<div class="row">
+<div class="col-md-6"><img src="home-images/our_work/process/DSC_4169-STRATEGIZING-FOR-PROMOTIONS-AND-SALES.jpg" alt="image" class="photo_process img-fluid mobile"></div>
+<div class="col-md-6">
+<div class="content_title-margin">
+<h5 class="content_title">3. STRATEGIZING FOR<br>PROMOTIONS AND SALES</h5><img class="img-fluid services_green-circle" src="home-images/about_us/green-circle.png" alt="square"></div>
+<p class="content">Now you know <b>who you are and where you’re going</b>. But you need a <b>communication strategy</b> to bring it to the <b>outside world</b>.
+<span class="break"></span> This means strategies not only for communicating to your end client, but also your suppliers, manufacturers, distributors, and investors. We provide <b>tailored communications strategies</b> for each audience, and can provide <b>interpretation</b> for negotiations, signings, trade shows with promised leads, and other events.
+<span class="break"></span> Here is where we apply your brand’s KEY MESSAGE from Stage 1. <b>What differentiates premium brands from run-of-the-mill ones is how well they tell their story</b>. (For a premium water brand in China, for example, the term “purified water” doesn’t sound good. The Chinese simply boil tap water to “purify” it—why would they buy it?)
+<span class="break"></span> This stage is about BUILDING the demand with <b>clear, new value propositions</b>. We hire and train <b>sales representatives</b> to answer tough questions with <b>pitch-perfect responses</b>.
+<span class="break"></span> This stage also includes setting up your <b>WeChat Official Account</b>—the <b>king of social platforms in China</b> and so much more important in this country than a web-site.</p>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="content_title-margin">
+<h5 class="content_title">4. SUPPLY & INVESTIGATING<br>INVENTORY</h5><img class="img-fluid services_green-circle" src="home-images/about_us/green-circle.png" alt="square"></div>
+<p class="content">If you don’t have a <b>ready-made product</b> already, here is where we <b>match-make</b> you with vetted suppliers and manufacturers, according to your specifications, to make your imagination reality.
+<span class="break"></span> Even if you already have sourcing, we provide invaluable <b>due diligence</b> on all potential distributors and retailers. Since you will be establishing a long-term relationship with your source, it is essential to find out as much as possible <b>before any deals are made</b>. We are experts at spotting <b>hidden intentions</b>.
+<span class="break"></span> Remember that <b>your own reputation</b> hinges on whether or not you have a trustworthy and reliable supplier; <b>you are held responsible for the final product</b>, so a good supplier can make or break your brand both in China and overseas.
+<span class="break"></span> After careful vetting of reputation and facilities, we can also coordinate on-site pre-shipment QC checks and warehousing/inventory management.</p>
+</div>
+<div class="col-md-6"><img src="home-images/our_work/process/DSC_3186-SUPPLY-&-INVESTIGATIN-INVENTORY.jpg" alt="image" class="photo_process img-fluid mobile"></div>
+</div>
+<div class="row">
+<div class="col-md-6"><img src="home-images/our_work/process/DSC_0319-FULFILLING-DISTRIBUTION-NEEDS.jpg" alt="image" class="photo_process img-fluid mobile"></div>
+<div class="col-md-6">
+<div class="content_title-margin">
+<h5 class="content_title">5. FULFILLING<br>DISTRIBUTION NEEDS</h5><img class="img-fluid services_green-circle" src="home-images/about_us/green-circle.png" alt="square"></div>
+<p class="content">Now your product is ready to go, but <b>don’t forget the middlemen: distributors</b>.
+<span class="break"></span>
+<b>Import and distribution channels in China are complex and change frequently</b>. Import procedures must be handled by licensed importers who sometimes act as distributors as well. However, most food distributors and traders are unlikely to hold import licenses so once again, we depend on <b>insider reputations</b> to find you the best distributor for your needs. This is also the stage for preparing all <b>customs documentation</b>.
+<span class="break"></span> Distribution in China is quite fragmented, being generally handled on a <b>store-by-store</b> or <b>city-by-city</b> basis, with stores receiving most imports through a series of local distributors. This means that depending on where you want your product to go, you may need <b>multiple different regional distributors</b>. We help you <b>keep track of them</b> all through our own sustainable network of local distribution channels.
+<span class="break"></span>
+<a href="#" data-toggle="collapse" data-target="#c43" class="color-red" target="blank">Click here to read how Häagen-Dazs made a difference with distribution</a>.</p>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="content_title-margin">
+<h5 class="content_title">6. SUPPORT<br>FOR SERVICES</h5><img class="img-fluid services_green-circle" src="home-images/about_us/green-circle.png" alt="square"></div>
+<p class="content">This stage includes all <b>follow-up with clients</b> for sustainable sales and other CRM, as well as employee relations.
+<span class="break"></span> At all points, we will <b>instruct and assist</b> in keeping the integrity of your brand and making sure its vision and mission in China is clearly understood. We can also <b>help you in technical services</b> such as setting up a virtual office system, budgeting, quotes processing, merchandising, claims, and legal services.</p>
+</div>
+<div class="col-md-6"><img src="home-images/our_work/process/DSC_0005-SUPPORT-FOR-SERVICES.jpg" alt="image" class="photo_process img-fluid mobile"></div>
+</div>
+<div class="row">
+<div class="col-md-6"><img src="home-images/our_work/process/DSC_0092-SETTLING-FINANCES-&-FURTHER-DEVELOPMENTS.jpg" alt="image" class="photo_process img-fluid mobile"></div>
+<div class="col-md-6">
+<div class="content_title-margin">
+<h5 class="content_title">7. SETTLING FINANCES<br>& FURTHER DEVELOPMENTS</h5><img class="img-fluid services_green-circle" src="home-images/about_us/green-circle.png" alt="square"></div>
+<p class="content">We help you settle all problems with <b>cross-border payments</b>, including Internet payment and currency conversion.
+<span class="break"></span> Unlike most international traders, Chinese ones can be reluctant to open <b>lines of credit</b>, so here is making sure your bottom line is met and <b>all strings are tied</b>. Includes regular up-dates, tax services, budgeting, auditing, financial planning and outlook, and ROI projections.
+<span class="break"></span>
+<a href="#" data-toggle="collapse" data-target="#c61" target="blank" class="color-red">Click here to read more about our Financial Services.</a></p>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6 last">
+<div class="level2-titles-box-margin">
+<div class="level2-titles-box"><img class="level2-titles-box-line" src="home-images/about_us/black_title_line.png" alt=""> <img class="level2-titles-box-pic-square" src="home-images/about_us/green-rectangle.png" alt="">
+<h4 class="text-uppercase level2-titles">THE BIGGER<br>PICTURE</h4><span class="subtitle-second">Consulting exists because you have a need that you cannot address alone. A space between what you currently have and what you want.</span></div>
+</div>
+<p class="content"><b>A problem or an opportunity.</b> You call us because we have the <b>unique expertise</b> you need. And indeed, what you think is the problem may not be the real problem, and the solution too may not be what you expect.
+<span class="break"></span> When you have a consultation with us, we leave you with clarity: <b>who you are, why you’re unique, and why others should pay attention to you / work with you / buy from you.</b>
+<span class="break"></span> For a niche brand to penetrate a new market and succeed in China, it is essential to have a <b>clear brand definition</b> that is in line with the needs of the target audience. <b>Miscommunication</b> of both product and purpose is a huge reason <b>why brands fail</b>. And the responsibility for a clear message is always <b>up to the communicator, not the listener</b>.</p>
+</div>
+<div class="col-md-6"><img src="home-images/our_work/process/DSC_0547-THE-BIGGER-PICTURE.jpg" alt="image" class="photo_process img-fluid mobile">
+<p class="content"><b>The market is competitive</b>, but our process helps you find your <b>unique selling points</b> and <b>prioritize accordingly</b>—so that you are not merely competing with other brands, but educating consumers and building a new market segment for your product.
+<span class="break"></span> We believe in <b>conscious business</b>, which means working together for sustainable, long-term relationships—<b>making allies out of competitors</b>.
+<span class="break"></span> You are <b>on your way to success</b> when you truly know <b>what</b> you want to achieve, <b>why</b> you can do it, and <b>who</b> else can help you.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer>
+<div class="container-fluid">
+<div class="row">
+<div class="col-xs-11 col-md-10 offset-xs-1">
+<div class="row">
+<div class="col-md-6 left">
+<p class="call-to-action"><b>Talk to us—you won’t regret it</b></p>
+<ul>
+<li>Tel: 021-51061063</li>
+</ul>
+<a href="mailto:lina@litao.lt">
+<button class="color-red">CONTACT</button>
+</a>
+</div>
+<div class="col-md-6 right">
+<ul>
+<li><a class="color-red" href="./about_us.html">ABOUT US</a></li>
+<li><a class="color-red" href="./our_work.html">OUR WORK</a></li>
+<li><a class="color-red" href="./why_us.html">WHY US</a></li>
+<li><a class="color-red" href="./crossing_cultures.html">CROSSING CULTURES</a></li>
+</ul>
+</div>
+</div>
+<div class="row page-bottom">
+<div class="col-md-6 padding-0">
+<p style="float:left">Guangfu rd. 195, Suite 306, Jing'an district, Shanghai</p>
+</div>
+<div class="col-md-6 padding-0">
+<p style="float:right">© 2017, LITAO. All rights reserved. <a href="mailto:labas@litao.lt">labas@litao.lt</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/tether.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/scrollreveal.min.js"></script>
+<script src="js/js_script-v02.js"></script>
+<script>function toggleIcon(){$(this).find("span").toggleClass("added")}$(document).ready(function(){$("#services .folding-section").on("hidden.bs.collapse",toggleIcon),$("#services .folding-section").on("show.bs.collapse",toggleIcon),$("#case_studies .f-section").on("hidden.bs.collapse",toggleIcon),$("#case_studies .f-section").on("show.bs.collapse",toggleIcon),$("#services .folding-section").on("shown.bs.collapse",function(){var o=$(this).find(".in");$("html, body").animate({scrollTop:o.offset().top},500)}),$("#case_studies .f-section").on("shown.bs.collapse",function(){var o=$(this).find(".in");$("html, body").animate({scrollTop:o.offset().top},500)}),$(".collapse").on("show.bs.collapse",function(o){$(".collapse").collapse("hide")}),$("body").scrollspy({target:"#our_work-navigation"}),window.sr=ScrollReveal({reset:!0}),sr.reveal(".level2-main-title",{duration:700},30),sr.reveal(".img-fluid",{duration:500}),sr.reveal(".level2-titles-box-line",{duration:800}),sr.reveal(".level2-titles-box-pic-square",{duration:900})})</script>
 </body>
-
 </html>
