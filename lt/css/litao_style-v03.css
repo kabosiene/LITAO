@@ -597,6 +597,17 @@ section {
     transition-delay: 0s;
 }
 
+.carousel-item .carousel-text-mobile {
+    position: absolute;
+    top: 30%;
+    left: 1.8%;
+    right: auto;
+    width: 96.66666666666666%;
+    color: #fff;
+    background: rgb(0, 0, 0, .6);
+    padding: 10px;
+}
+
 .about-china-img {
     background: url('../home-images/crossing_cultures_home.jpg') no-repeat center center;
     background-repeat: no-repeat;
@@ -811,7 +822,7 @@ section {
 }
 
 
-#our_work_id-l3{
+#our_work_id-l3 {
     /*background-color: #fff;*/
     margin-bottom: 50px;
 }
@@ -880,9 +891,11 @@ section {
     /*position: relative;*/
     /*text-align: center;*/
     cursor: default;
-    position:absolute;
-    height:100%; /* = 100% - 2*10% padding */
-    width:100%; /* = 100% - 2*5% padding */
+    position: absolute;
+    height: 100%;
+    /* = 100% - 2*10% padding */
+    width: 100%;
+    /* = 100% - 2*5% padding */
 }
 
 .l2-boxes-in .overlay {
@@ -902,12 +915,12 @@ section {
 
 .overlay h2 {
     font-family: 'BrandonGrotesque-Bold';
-/*    font-size: 20vw;
+    /*    font-size: 20vw;
     padding-right: 67px;
     padding-left: 20px;
     letter-spacing: 0.1em;
     line-height: 33px;*/
- font-size: 4vw;
+    font-size: 4vw;
     padding-right: 6vw;
     padding-left: 2vw;
     letter-spacing: 0.1vw;
@@ -916,7 +929,7 @@ section {
 
 .overlay p {
     font-family: 'BrandonGrotesque-Light';
-/*    font-size: 1em;
+    /*    font-size: 1em;
     padding-top: 25px;
     padding-left: 20px;
     padding-bottom: 25px;*/
@@ -934,9 +947,14 @@ section {
     padding-right: 24px;
     padding-top: 20px;
 }
-.case_read{    font-family: 'BrandonGrotesque-Light'; float: right; font-size: 2.2vw;
+
+.case_read {
+    font-family: 'BrandonGrotesque-Light';
+    float: right;
+    font-size: 2.2vw;
     padding-top: 0vw;
-    padding-right: 2vw;}
+    padding-right: 2vw;
+}
 
 
 /*.l2-boxes-in .overlay {
@@ -2124,14 +2142,16 @@ font-size:calc(0.75em + 1.15vw);*/
     width: 80%;
     padding-top: 70px;
 }
-    #case_studies .case_square {
-        float:left;
+
+#case_studies .case_square {
+    float: left;
     position: relative;
     width: 100%;
-    padding-bottom: 100%; /* = width for a 1:1 aspect ratio */
-    margin:1.66%;
-    overflow:hidden;
-    }
+    padding-bottom: 100%;
+    /* = width for a 1:1 aspect ratio */
+    margin: 1.66%;
+    overflow: hidden;
+}
 
 /*    #case_studies .case_square:after {
         content: "";
@@ -2524,8 +2544,8 @@ fieldset {
 
 .modal-dialog .submit-button span:hover {
     text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
-    0px 8px 13px rgba(0, 0, 0, 0.1),
-    0px 18px 23px rgba(0, 0, 0, 0.1);
+        0px 8px 13px rgba(0, 0, 0, 0.1),
+        0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 
 .modal-body {
@@ -2756,6 +2776,7 @@ footer .page-bottom .col-md-6 {
     .team_green-square {
         width: 255px;
     }
+
     #contact_id .page-heading {
         margin-left: 40px;
         text-align: left;
@@ -2766,67 +2787,78 @@ footer .page-bottom .col-md-6 {
     .values_green-circle {
         margin-left: 75px;
     }
+
     .services_green-circle {
         margin-left: 75px;
     }
-        #case_studies .case_square {
-        float:left;
-    position: relative;
-    width: 46%;
-    padding-bottom: 46%; /* = width for a 1:1 aspect ratio */
-    margin:1.66%;
-    overflow:hidden;
+
+    #case_studies .case_square {
+        float: left;
+        position: relative;
+        width: 46%;
+        padding-bottom: 46%;
+        /* = width for a 1:1 aspect ratio */
+        margin: 1.66%;
+        overflow: hidden;
     }
+
     .l2-boxes-in .overlay {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    overflow: hidden;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.6);
-    /*opacity: 0;*/
-    filter: alpha(opacity=0);
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    color: #fff;
-}
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        overflow: hidden;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.6);
+        /*opacity: 0;*/
+        filter: alpha(opacity=0);
+        -webkit-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+        color: #fff;
+    }
 
     .overlay h2 {
-    font-family: 'BrandonGrotesque-Bold';
-/*    font-size: 20vw;
+        font-family: 'BrandonGrotesque-Bold';
+        /*    font-size: 20vw;
     padding-right: 67px;
     padding-left: 20px;
     letter-spacing: 0.1em;
     line-height: 33px;*/
-    font-size: 2.5vw;
-    padding-right: 9vw;
-    padding-left: 2vw;
-    letter-spacing: 0.1vw;
-    line-height: 3.5vw;
-}
+        font-size: 2.5vw;
+        padding-right: 9vw;
+        padding-left: 2vw;
+        letter-spacing: 0.1vw;
+        line-height: 3.5vw;
+    }
 
-.overlay p {
-    font-family: 'BrandonGrotesque-Light';
-/*    font-size: 1em;
+    .overlay p {
+        font-family: 'BrandonGrotesque-Light';
+        /*    font-size: 1em;
     padding-top: 25px;
     padding-left: 20px;
     padding-bottom: 25px;*/
-    font-size: 1.5vw;
-    padding-top: 2.5vw;
-    padding-left: 2vw;
-    padding-bottom: 0.5vw;
-}
+        font-size: 1.5vw;
+        padding-top: 2.5vw;
+        padding-left: 2vw;
+        padding-bottom: 0.5vw;
+    }
 
-.l2-boxes-in .overlay a {
-    color: #fff;
-    float: right;
-    font-family: 'BrandonGrotesque-Light';
-    font-size: 15px;
-    padding-right: 24px;
-    padding-top: 20px;
-}
-.case_read{    font-family: 'BrandonGrotesque-Light'; float: right; font-size: 1.2vw; padding-top: 1vw;padding-right: 2vw;}
+    .l2-boxes-in .overlay a {
+        color: #fff;
+        float: right;
+        font-family: 'BrandonGrotesque-Light';
+        font-size: 15px;
+        padding-right: 24px;
+        padding-top: 20px;
+    }
+
+    .case_read {
+        font-family: 'BrandonGrotesque-Light';
+        float: right;
+        font-size: 1.2vw;
+        padding-top: 1vw;
+        padding-right: 2vw;
+    }
 
 }
 
@@ -2835,25 +2867,32 @@ footer .page-bottom .col-md-6 {
         margin-left: 0;
         margin-right: 0;
     }
+
     #mobile-view.container-fluid {
         padding: 0;
     }
+
     .menu-footer_content {
         padding: 0px 10px;
     }
+
     .sidenav {
         display: inherit;
         overflow-y: visible;
     }
+
     .sidenav-links {
         width: 100vw;
     }
+
     .content-left {
         height: 100%;
     }
+
     .header-lang {
         top: 10px;
     }
+
     .founder-kid,
     .founder-edu,
     .founder-expo,
@@ -2867,55 +2906,68 @@ footer .page-bottom .col-md-6 {
         max-width: 80%;
         padding-bottom: 40px;
     }
+
     .level2-titles-box-pic {
         max-height: 319px;
     }
+
     .rotated-links {
         letter-spacing: normal;
     }
+
     #founder img.mobile {
         margin-left: 20px;
         margin-top: 20px;
         padding-right: 0;
     }
+
     .founder-background-city {
         margin-top: 40px;
     }
+
     #founder p.lead,
     #values p.lead,
     #nameandlogo p.lead {
         font-size: 1.5em;
     }
+
     .team-member-picture {
         margin-top: 25px;
         margin-bottom: 25px;
     }
+
     .vision_picture {
         margin-top: 50px;
         margin-bottom: 50px;
         max-width: 100%;
         margin-left: 0;
     }
+
     .values_compassion-section-margin,
     .values_picture-compassion,
     .values_picture-approach {
         margin-bottom: 70px;
     }
+
     .member_name {
         margin-top: 40px;
     }
+
     .page_id .submenu {
         width: calc(100vh - 50px);
         height: 40px;
         padding-right: 0;
         margin-top: 50px;
     }
+
     .intro-left-v {
         line-height: 39px;
     }
+
     .intro-content {
         margin-bottom: 50px;
     }
+
     .header {
         background-color: #dfeae1;
         height: 50px;
@@ -2923,6 +2975,7 @@ footer .page-bottom .col-md-6 {
         position: fixed;
         z-index: 999;
     }
+
     .litao_logo-black {
         width: 100vw;
         height: 50px;
@@ -2930,99 +2983,124 @@ footer .page-bottom .col-md-6 {
         align-items: center;
         justify-content: center;
     }
+
     .litao_logo-black img {
         height: 30px;
         width: auto;
     }
+
     .level2-main-title {
         padding-top: 50px;
         padding-bottom: 30px;
     }
+
     .level2-titles-box-margin,
     .mission_level2-titles-box-margin {
         margin-top: 70px;
     }
+
     #nav-toggle {
         top: 15px;
     }
+
     #nav-toggle span,
     #nav-toggle span:before,
     #nav-toggle span:after {
         height: 2px;
         width: 22px;
     }
+
     #nav-toggle span:before {
         top: -7px;
     }
+
     #nav-toggle span:after {
         bottom: -7px;
     }
+
     .col-xs-11 {
         margin-left: 20px;
         padding-right: 1px;
     }
+
     .col-md-6.mobile-img {
         text-align: center;
     }
+
     #nameandlogo .level2-titles-box {
         margin-top: 80px;
     }
+
     #nameandlogo p.title,
     #nameandlogo p.title.second {
         margin-top: 40px;
     }
+
     .home-logo {
         margin-top: 15%;
     }
+
     address p {
         min-height: initial;
     }
+
     #values img.mobile {
         position: relative;
         padding-right: 0;
         max-width: 100%;
         margin-left: 0;
     }
+
     #experience_litao img.mobile {
         position: relative;
         margin-top: 0;
         padding-right: 0;
     }
+
     #experience_litao .content-image {
         margin-top: 0
     }
+
     #experience_litao .level2-main-title {
         font-size: 34px;
     }
+
     #recognitions .level2-main-title {
         font-size: 34px;
     }
+
     #recognitions .level2-titles-box-line {
         width: 10.75em;
     }
+
     #recognitions .level2-titles {
         font-size: 28px;
     }
+
     #recognitions img.mobile {
         position: relative;
         margin-top: 0;
         padding-right: 0;
     }
+
     .publication {
         margin-top: 0;
         margin-left: 15px;
         margin-bottom: 0;
         border: none;
     }
+
     .publication_content {
         border: none;
         padding-bottom: 0;
         padding-top: 0;
     }
+
     .publication_content p {
         padding-top: 40px;
         padding-bottom: 40px;
     }
+
     .publication_title h4 {
         margin-left: auto;
         font-size: 14px;
@@ -3031,6 +3109,7 @@ footer .page-bottom .col-md-6 {
         padding-right: 20px;
         padding-bottom: 0
     }
+
     #recognitions .mobile_collapse {
         border-style: dotted;
         border-color: black;
@@ -3046,175 +3125,220 @@ footer .page-bottom .col-md-6 {
         align-items: center;
         background-color: #dfeae1;
     }
+
     #recognitions .collapsable_plus {
         margin-bottom: .5em;
         margin-left: auto;
     }
+
     #recognitions .mobile_collapse:hover {
         cursor: pointer;
     }
+
     #brochure img.mobile {
         position: relative;
         margin-top: 0;
         padding-right: 0;
     }
+
     #brochure .folding-section_heading {
         margin-left: 0;
         margin-right: -20px;
     }
+
     #raq p.lead {
         padding-left: 0;
     }
+
     #raq .folding-section_heading {
         margin-left: -5px;
         margin-right: -20px;
         flex-direction: row-reverse;
     }
+
     #raq .folding-section_heading_title {
         word-spacing: initial;
         letter-spacing: 0.05em;
         margin-left: auto;
         margin-right: 0;
     }
+
     #raq .collapsable_plus {
         margin-left: auto;
         margin-right: 5px;
     }
+
     #raq .folding-section_content {
         margin-right: -20px;
         margin-left: 0;
         padding-bottom: 0;
     }
+
     #raq .folding-section_content h5 {
         display: none;
     }
+
     #raq .question-mark {
         display: none;
     }
+
     #raq .folding-section_heading_title {
         font-size: 14px;
         max-width: 280px;
     }
+
     #raq img.mobile {
         position: relative;
         margin-top: 0;
         padding-right: 0;
     }
+
     #useful_resources .chapter {
         margin-left: 0;
         margin-right: 0;
         text-align: center;
     }
+
     #useful_resources .chapter_title {
         font-size: 18px;
         text-align: left;
     }
+
     #useful_resources .chapter_link {
         font-size: 14px;
         word-wrap: break-word;
         text-align: left;
     }
+
     #useful_resources .collapsable_plus {
         padding: 20px;
     }
+
     #useful_resources .chapter_content {
         text-align: justify;
     }
+
     #useful_resources img.mobile {
         position: relative;
         margin-top: 0;
         padding-right: 0;
     }
+
     #services .folding-section_heading {
         margin-left: -5px;
         margin-right: -20px;
     }
+
     #services .folding-section_heading_title {
         word-spacing: initial;
         letter-spacing: 0.05em;
         margin-left: auto;
         margin-right: 0;
     }
+
     #services .content {
         margin-right: 0;
     }
+
     .important-list {
         padding-right: 0;
     }
+
     #services h6 {
         font-size: 21px;
         margin-top: 0
     }
+
     #services .level2-titles-box-pic-square {
         padding-right: 0;
     }
+
     #services .question-mark {
         display: none;
     }
+
     #services .content_title-margin {
         margin-top: 150px;
     }
+
     #services .folding-section_content {
         margin-bottom: 0
     }
+
     #services img.mobile {
         position: relative;
         margin-top: 0;
         margin-bottom: 40px;
         padding-right: 0;
     }
+
     #case_studies img.mobile {
         position: relative;
         margin-top: 0;
         margin-bottom: 40px;
         padding-right: 0;
     }
+
     .level2-titles {
         word-wrap: break-word;
     }
+
     .guanxi-explanation {
         padding-bottom: 40px;
     }
+
     #our_guanxi p.title {
         padding-top: 40px;
     }
+
     #case_studies .content-main {
         margin-left: 0
     }
+
     #case_studies .last-content {
         padding-left: 0
     }
+
     #case_studies .folding-section_heading {
         margin-left: -5px;
         margin-right: -20px;
     }
+
     #case_studies .folding-section_heading_subtitle {
         margin-left: -5px;
         margin-right: -20px;
     }
+
     #case_studies .content {
         margin-right: 0;
         margin-bottom: 20px;
     }
+
     #case_studies .folding-section_content {
         padding-bottom: 40px;
     }
+
     #case_studies .padding-from-top_20 {
         padding-top: 0
     }
+
     #case_studies h6 {
         margin-top: 60px
     }
+
     #case_studies .eye {
         margin-top: -10px;
     }
+
     #case_studies .content_title_approach {
         margin-top: 40px;
     }
+
     #case_studies .more {
         padding: 15px 0;
         display: inline-block;
     }
+
     .photo_case {
         padding-top: 30px;
         padding-bottom: 30px;
@@ -3226,77 +3350,96 @@ footer .page-bottom .col-md-6 {
         margin-bottom: 4em;
         padding-right: 0;
     }
+
     #process .level2-titles-box-margin {
         padding-right: 0
     }
+
     #process .subtitle-second {
         margin-top: 50px;
     }
+
     #process .content_title-margin {
         margin-top: 70px;
     }
+
     #process .content {
         margin-right: 0;
     }
+
     #process .last .subtitle-second {
         padding-right: 0
     }
+
     footer {
         margin-top: 50px;
     }
+
     footer .left {
         text-align: center;
         padding-left: 15px;
     }
+
     footer .right {
         text-align: center;
         padding-top: 40px;
         padding-right: 0;
         padding-left: 0;
     }
+
     footer .page-bottom {
         margin: 0 0px 0 0px;
     }
+
     footer .page-bottom a {
         padding-top: 10px;
     }
 }
 
 @media only screen and (min-width:768px) {
+
     /*.border-vertical{display:block;height:100%;height:100vh;}*/
     /*.page_id .section{margin-bottom: 10em;}*/
     .home-logo {
         padding-bottom: 5%;
     }
+
     .home-arrow {
         visibility: hidden;
         position: absolute;
         bottom: 5%;
     }
+
     .carousel-inner>.carousel-item>img {
         object-fit: cover;
         width: 50vw;
         height: 100vh;
     }
+
     .founder-column {
         margin: 50px 0 0 130px;
     }
+
     #team p.lead {
         font-size: 22px;
     }
+
     /*.team-picture{margin-top:-13em;}*/
     .values_picture {
         /*margin-top:-13em;*/
         width: 100%;
         /*padding-right: 6em;*/
     }
+
     .page-heading {
         padding-top: 2em;
         color: #595a5a;
     }
+
     .chinabg-color {
         background-color: #dfeae1;
     }
+
     #square {
         position: absolute;
         left: 50%;
@@ -3306,11 +3449,13 @@ footer .page-bottom .col-md-6 {
         width: 38%;
         background: #dfeae1;
     }
+
     #square:after {
         content: "";
         display: block;
         padding-bottom: 100%;
     }
+
     #rectangle {
         position: absolute;
         left: 13%;
@@ -3321,6 +3466,7 @@ footer .page-bottom .col-md-6 {
         height: 83%;
         background: #f6f3f0;
     }
+
     #circle {
         position: absolute;
         left: 50%;
@@ -3333,11 +3479,13 @@ footer .page-bottom .col-md-6 {
         -webkit-border-radius: 50%;
         border-radius: 50%;
     }
+
     #circle:after {
         content: "";
         display: block;
         padding-bottom: 100%;
     }
+
     #triangle-topleft {
         position: absolute;
         top: 0;
@@ -3347,21 +3495,27 @@ footer .page-bottom .col-md-6 {
         border-top: 125vh solid #dfeae1;
         border-right: 26vw solid transparent;
     }
+
     .intro-column {
         margin: 15% 20% 0 20%;
     }
+
     .intro-content {
         line-height: 20px;
     }
+
     .level2-titles-box-padding {
         margin: 36px 0 105px 0;
     }
+
     .level2-titles-box-pic {
         max-height: 420px;
     }
+
     .side-text-padding {
         padding-top: 120px;
     }
+
     /*.side-text-padding-2{padding-top:83px;}*/
     /*.side-date-padding{padding-top:160px;}*/
     .girls-game {
@@ -3373,6 +3527,7 @@ footer .page-bottom .col-md-6 {
         padding-left: 2em;
         padding-right: 2em;
     }
+
     .founder-edu {
         /*padding-right:93px;*/
         /*padding-right: 18%;*/
@@ -3385,9 +3540,11 @@ footer .page-bottom .col-md-6 {
         z-index: -2;
         position: relative;
     }
+
     .founder-sitting {
         margin-top: 9em;
     }
+
     /*.founder-kid, .founder-expo{position:relative;z-index:-2;float:right;}*/
     .founder-kid {
         /*margin-top:135px;*/
@@ -3395,11 +3552,13 @@ footer .page-bottom .col-md-6 {
         width: 110%;
         max-width: none;
     }
+
     .move-up-1 {
         position: relative;
         top: -115px;
         height: 180px;
     }
+
     /*.move-up-2{position:relative;
   top:-5em;
 }*/
@@ -3408,47 +3567,59 @@ footer .page-bottom .col-md-6 {
         top: -120px;
         height: 280px;
     }
+
     .move-up-4 {
         position: relative;
         top: -130px;
     }
+
     .move-up-5 {
         position: relative;
         top: -238px;
     }
+
     .move-up-6 {
         position: relative;
         top: -60px;
     }
+
     .move-up-7 {
         position: relative;
         top: -30px;
     }
+
     .move-up-8 {
         position: relative;
         top: -8em;
     }
+
     .move-up-9 {
         position: relative;
         top: -200px;
     }
+
     .member-section {
         margin-top: 10em;
     }
+
     .first_member-section {
         margin-top: 150px;
         margin-bottom: 40px;
     }
+
     .side-border {
         width: 62px;
     }
+
     #recognitions {
         padding-right: 92px;
     }
+
     .publication_content p {
         margin-left: 180px;
         display: block;
     }
+
     .lithuanian-section,
     .english-section,
     .chinese-section,
@@ -3456,38 +3627,47 @@ footer .page-bottom .col-md-6 {
     .lina_c-section {
         padding-left: 86px;
     }
+
     .page_id .col-md-6 {
         /*padding-left:92px;*/
         padding-left: 30px;
         padding-right: 15px;
     }
+
     .header-lang {
         right: 18px;
     }
+
     .level2-titles-box {
         margin: 106px 0 94px 0;
     }
+
     .l3-boxes {
-    display: flex;
-}
-.l3-boxes-in{
-    margin-top: 0px;
-}
+        display: flex;
+    }
+
+    .l3-boxes-in {
+        margin-top: 0px;
+    }
 }
 
 @media only screen and (min-width:992px) {
     .intro-column {
         margin: 5% 24% 0 24%;
     }
+
     .intro-content {
         line-height: 25px;
     }
+
     .section {
         text-align: left;
     }
+
     .side-border {
         width: 95px;
     }
+
     .level2-main-title {
         font-family: 'BrandonGrotesque-Bold';
         margin-bottom: 0px;
@@ -3496,20 +3676,25 @@ footer .page-bottom .col-md-6 {
         letter-spacing: 3px;
         text-transform: uppercase;
     }
+
     .level2-titles-box-margin {
         margin-bottom: 60px;
     }
+
     .level2-titles-box {
         margin: 106px 0 94px 0;
     }
+
     .level2-titles-box-padding {
         margin: 36px 0 105px 0;
     }
+
     .level2-titles-box-line {
         position: absolute;
         height: auto;
         width: 127px;
     }
+
     /*.level2-titles-box-pic,.level2-titles-box-pic-bigger{position:absolute;z-index:-1;width:310px;height:295px;margin-left:64px;margin-top:-45px;}*/
     /*.level2-titles-box-founder{
   position:absolute;z-index:-2;
@@ -3521,6 +3706,7 @@ footer .page-bottom .col-md-6 {
         letter-spacing: 2px;
         padding-top: 42px;
     }
+
     .founder-content,
     .name_content,
     .our_guanxi-content,
@@ -3533,6 +3719,7 @@ footer .page-bottom .col-md-6 {
         line-height: 1.5;
         margin-right: 50px;
     }
+
     .founder-content b,
     .our_guanxi-content b,
     .experience_litao-content b,
@@ -3541,6 +3728,7 @@ footer .page-bottom .col-md-6 {
         font-family: 'BrandonGrotesque-Regular';
         letter-spacing: 0.05em;
     }
+
     #founder p.lead {
         font-family: 'BrandonGrotesque-Bold';
         color: #a55f60;
@@ -3548,10 +3736,12 @@ footer .page-bottom .col-md-6 {
         padding-right: 106px;
         line-height: 1.2;
     }
+
     .calendar-date {
         height: 110px;
         margin-bottom: 17px;
     }
+
     .calendar-pic {
         position: absolute;
         z-index: -1;
@@ -3559,9 +3749,11 @@ footer .page-bottom .col-md-6 {
         width: auto;
         padding-left: 25px;
     }
+
     .dot {
         position: absolute;
     }
+
     .date,
     .title-date {
         font-family: 'BrandonGrotesque-Bold';
@@ -3572,86 +3764,104 @@ footer .page-bottom .col-md-6 {
         margin-top: 36px;
         margin-left: 4px;
     }
+
     .title-date {
         margin-top: -8px;
     }
+
     .side-text-padding {
         padding-top: 182px;
     }
+
     /*.side-text-padding-2{padding-top:83px;}*/
     .girls-game {
         margin-left: -40px;
     }
+
     .team_green-square {
         width: 300px;
     }
+
     .page_id .form-group.col-md-6 {
         padding-bottom: 30px;
     }
+
     .experience_litao-list,
     .experience_litao-content_break {
         margin-right: 50px;
     }
+
     .publication_content p {
         margin-left: 250px;
     }
+
     #services .folding-section_heading {
         margin-left: 92px;
         margin-right: 92px;
     }
+
     .header-lang {
         right: 30px;
     }
-        #case_studies .case_square {
-        float:left;
-    position: relative;
-    width: 30%;
-    padding-bottom: 30%; /* = width for a 1:1 aspect ratio */
-    margin:1.66%;
-    overflow:hidden;
+
+    #case_studies .case_square {
+        float: left;
+        position: relative;
+        width: 30%;
+        padding-bottom: 30%;
+        /* = width for a 1:1 aspect ratio */
+        margin: 1.66%;
+        overflow: hidden;
     }
+
     .l2-boxes-in .overlay {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    overflow: hidden;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.6);
-    opacity: 0;
-    filter: alpha(opacity=0);
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    color: #fff;
-}
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        overflow: hidden;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.6);
+        opacity: 0;
+        filter: alpha(opacity=0);
+        -webkit-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+        color: #fff;
+    }
 
     .overlay h2 {
-    font-family: 'BrandonGrotesque-Bold';
-/*    font-size: 20vw;
+        font-family: 'BrandonGrotesque-Bold';
+        /*    font-size: 20vw;
     padding-right: 67px;
     padding-left: 20px;
     letter-spacing: 0.1em;
     line-height: 33px;*/
-    font-size: 2vw;
-    padding-right: 6vw; 
-    padding-left: 2vw;
-    letter-spacing: 0.1vw;
-    line-height: 2.5vw;
-}
+        font-size: 2vw;
+        padding-right: 6vw;
+        padding-left: 2vw;
+        letter-spacing: 0.1vw;
+        line-height: 2.5vw;
+    }
 
-.overlay p {
-    font-family: 'BrandonGrotesque-Light';
-/*    font-size: 1em;
+    .overlay p {
+        font-family: 'BrandonGrotesque-Light';
+        /*    font-size: 1em;
     padding-top: 25px;
     padding-left: 20px;
     padding-bottom: 25px;*/
-    font-size: 1.5vw;
-    padding-top: 2.5vw;
-    padding-left: 2vw;
-    padding-bottom: 0.5vw;
-}
+        font-size: 1.5vw;
+        padding-top: 2.5vw;
+        padding-left: 2vw;
+        padding-bottom: 0.5vw;
+    }
 
-.case_read{    font-family: 'BrandonGrotesque-Light'; float: right; font-size: 1.2vw; padding-top: 1vw;padding-right: 2vw;}
+    .case_read {
+        font-family: 'BrandonGrotesque-Light';
+        float: right;
+        font-size: 1.2vw;
+        padding-top: 1vw;
+        padding-right: 2vw;
+    }
 
 }
 
@@ -3660,9 +3870,11 @@ footer .page-bottom .col-md-6 {
         /*padding-left:6em;*/
         padding-left: 3em;
     }
+
     .level2-titles-box-pic {
         max-height: 100%;
     }
+
     .level2-titles {
         font-family: 'BrandonGrotesque-Bold';
         font-size: 35px;
@@ -3670,6 +3882,7 @@ footer .page-bottom .col-md-6 {
         padding-top: 42px;
         max-width: 500px;
     }
+
     .founder-content,
     .name_content,
     .our_guanxi-content,
@@ -3678,51 +3891,64 @@ footer .page-bottom .col-md-6 {
         /*max-width:370px;*/
         padding-bottom: 85px;
     }
+
     #founder p.lead {
         max-width: 500px;
     }
+
     .calendar-date {
         margin-bottom: 20px;
     }
+
     .side-text-padding {
         padding-top: 110px;
     }
+
     /*.side-text-padding-2{padding-top:83px;}*/
     .founder-sitting {
         padding-right: 4em;
     }
+
     .move-up-1 {
         position: relative;
         top: -135px;
         height: 180px;
     }
+
     /*.move-up-2{position:relative;top:-130px;height:155px;}*/
     .move-up-3 {
         position: relative;
         top: -120px;
         height: 280px;
     }
+
     .move-up-4 {
         position: relative;
         top: -130px;
     }
+
     .move-up {
         position: absolute;
         top: -200px;
     }
+
     #nameandlogo .name_content {
         padding-bottom: 20px;
     }
+
     .experience_litao-list,
     .experience_litao-content_break {
         margin-right: 86px;
     }
+
     .publication_content p {
         padding-right: 40px;
     }
+
     .header-lang {
         right: 30px;
     }
+
     /*.vision_picture, .values_picture-compassion{margin-left: -8em;}*/
 }
 
@@ -3731,6 +3957,7 @@ footer .page-bottom .col-md-6 {
         width: 500px;
         height: 590px;
     }
+
     /*.level2-titles-box-pic{width:400px;height:auto;}*/
     .level2-titles-box-founder {
         width: 800px;
