@@ -1,0 +1,7 @@
+#useful_resources .collapsable_plus.added:before {
+    content: 'SLĖPTI -';
+}
+
+#useful_resources .collapsable_plus:before {
+    content: 'DAUGIAU +';
+}
