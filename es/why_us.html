@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>LITAO - ¿Porque Litao?</title>
+    <link href="css/font.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/litao_style-v03.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="icons_logo/logo.png">
+</head>
+
+<body data-spy="scroll" data-target="#why_us-navigation" data-offset="0">
+    <header class="header" id="header">
+        <div class=" hidden-md-up litao_logo-black"> <a href="index.html#home"> <img src="icons_logo/logo-black-transparent.png"> </a> </div> <a id="nav-toggle" onclick="openNav()" href="javascript:void(0)"><span></span> </a>
+        <div id="mySidenav" class="sidenav">
+            <div class="sidenav-links" id="myMenu" onclick="closeNav()"> <a data-menuanchor="home" class="sidenav_link home-menu" href="index.html#home" style="width: 0;"> HOME </a>
+                <br>
+                <div class=""> <a data-menuanchor="about_us" class="sidenav_link about-menu" href="index.html#about_us" style="width: 0;"> ABOUT&nbsp;US </a>
+                    <div class="main-submenu">
+                        <ul id="about_us-id" class="about_us-submenu " style="display: none;">
+                            <li class="intro-left-v animated-fast2 fadeIn"> <a class="border_link" href="about_us.html#nameandlogo"> <span class="border-text">NAME&nbsp;AND&nbsp;LOGO</span> </a> </li>
+                            <li class="intro-left-v animated-fast3 fadeIn"> <a class="border_link" href="about_us.html#team"> <span class="border-text">OUR&nbsp;TEAM</span> </a> </li>
+                            <li class="intro-left-v animated-fast4 fadeIn"> <a class="border_link" href="about_us.html#founder"> <span class="border-text">FOUNDER</span> </a> </li>
+                            <li class="intro-left-v animated-fast5 fadeIn"> <a class="border_link" href="about_us.html#values"> <span class="border-text">VALUES&nbsp;/&nbsp;MISSION&nbsp;/&nbsp;VISION</span> </a> </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class=""> <a data-menuanchor="our_work" class="sidenav_link work-menu" href="index.html#our_work" style="width: 0;"> OUR&nbsp;WORK </a>
+                    <div class="main-submenu">
+                        <ul id="our_work-id" class="our_work-submenu " style="display: none;">
+                            <li class="intro-left-v animated-fast2 fadeIn"> <a class="border_link" href="our_work.html#services"><span class="border-text">SERVICES</span> </a> </li>
+                            <li class="intro-left-v animated-fast3 fadeIn"> <a class="border_link" href="our_work.html#case_studies"><span class="border-text">CASE&nbsp;STUDIES</span> </a> </li>
+                            <li class="intro-left-v animated-fast4 fadeIn"> <a class="border_link" href="our_work.html#process"><span class="border-text">PROCESS</span> </a> </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class=""> <a data-menuanchor="why_us" class="sidenav_link why-menu active" href="index.html#why_us" style="width: 0;"> ¿Porque Litao? </a>
+                    <div class="main-submenu">
+                        <ul id="why_us-id" class="why_us-submenu " style="display: none;">
+                            <li class="intro-left-v animated-fast1 fadeIn"> <a class="border_link" href="why_us.html#experience_litao"> <span class="border-text">EXPERIENCE LITAO</span> </a> </li>
+                            <li class="intro-left-v animated-fast2 fadeIn"> <a class="border_link" href="why_us.html#our_guanxi"> <span class="border-text">OUR GUANXI</span> </a> </li>
+                            <li class="intro-left-v animated-fast3 fadeIn"> <a class="border_link" href="why_us.html#recognitions"> <span class="border-text">RECOGNITIONS</span> </a> </li>
+                            <li class="intro-left-v animated-fast4 fadeIn"> <a class="border_link" href="why_us.html#brochure"> <span class="border-text">BROCHURE</span> </a> </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class=""> <a data-menuanchor="crossing_cultures" class="sidenav_link china-menu" href="index.html#crossing_cultures" style="width: 0;"> CROSSING&nbsp;CULTURES </a>
+                    <div class="main-submenu">
+                        <ul id="crossing_cultures-id" class="crossing_cultures-submenu " style="display: none;">
+                            <li class="intro-left-v animated-fast2 fadeIn"> <a class="border_link" href="crossing_cultures.html#raq"> <span class="border-text">RARELY&nbsp;ASKED&nbsp;QUESTIONS</span> </a> </li>
+                            <li class="intro-left-v animated-fast3 fadeIn"> <a class="border_link" href="crossing_cultures.html#useful_resources"> <span class="border-text">USEFUL&nbsp;RESOURCES</span> </a> </li>
+                            <li class="intro-left-v animated-fast4 fadeIn"> <a class="border_link" href="http://litao.lt/blog"> <span class="border-text">BLOG</span> </a> </li>
+                        </ul>
+                    </div>
+                </div> <a class="sidenav_link contact-menu" href="connect_with_us.html" style="width: 0;"> CONNECT&nbsp;WITH&nbsp;US </a>
+            </div>
+            <div class="color-green" id="menu-footer">
+                <div class="menu-footer_content"> © 2019, LITAO. All rights reserved. <a href="mailto:labas@litao.lt">labas@litao.lt</a> </div>
+            </div>
+        </div>
+        <div class="header-lang nav">
+            <div class="row">
+                <div class="header-lang-item nav-item col-sm-6 col-xs-4"> <a href="ch/why_us.html" title="LITAO" class="header-lang-link nav-link " data-page=""> <span class="header-lang-text">CN</span> </a> </div>
+                <div class="header-lang-item  nav-item col-sm-6 col-xs-4"> <a href="#" title="LITAO" class="header-lang-link nav-link active" data-page=""> <span class="header-lang-text">EN</span> </a> </div>
+                <div class="header-lang-item hidden-sm-up  nav-item col-xs-4"> <a href="lt/why_us.html" title="LITAO" class="header-lang-link nav-link" data-page=""> <span class="header-lang-text">LT</span> </a> </div>
+            </div>
+            <div class="row hidden-xs-down">
+                <div class="header-lang-item  nav-item offset-sm-6"> <a href="lt/why_us.html" title="LITAO" class="header-lang-link nav-link" data-page=""> <span class="header-lang-text">LT</span> </a> </div>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid page_id" id="why_us_id">
+        <div class=" hidden-sm-down side-border color-green">
+            <div class="logo-white-round"> <a href="index.html#home"> <img src="icons_logo/logo-white-round.png"> </a> </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-1" id="why_us-navigation" role='navigation'>
+                <ul class="nav submenu" role="tablist">
+                    <li class="intro-left-v nav-item"> <a class="nav-link rotated-links " href="index.html#why_us"> <span class="border-text">INTRO</span> </a> </li>
+                    <li class="intro-left-v nav-item"> <a class="nav-link rotated-links  active" href="#experience_litao"> <span class="border-text">EXPERIENCE LITAO</span> </a> </li>
+                    <li class="intro-left-v nav-itemnav-item"> <a class="nav-link rotated-links " href="#our_guanxi"> <span class="border-text">OUR GUANXI</span> </a> </li>
+                    <li class="intro-left-v nav-item"> <a class="nav-link rotated-links  " href="#recognitions"> <span class="border-text">RECOGNITIONS</span> </a> </li>
+                    <li class="intro-left-v nav-item"> <a class="nav-link rotated-links  " href="#brochure"> <span class="border-text">BROCHURE</span> </a> </li>
+                </ul>
+            </div>
+            <div class="col-xs-11 col-md-10">
+                <div class="section" id="experience_litao">
+                    <div class="row">
+                        <div class="col-md-6 col-xs-12">
+                            <h3 class="text-uppercase level2-main-title"> EXPERIENCIA<br> LITAO </h3>
+                        </div>
+                        <div class="col-md-6"> <img src="home-images/why_us/experience/experience-litao.jpg" alt="" class="img-fluid  main-image mobile"> </div>
+                    </div>
+                    <div class="row experience_litao-intro-margin">
+                        <div class="col-md-6">
+                            <p class="title color-red"> ¿Porque nosotros? </p> <span class="break"></span>
+                            <p class="experience_litao-content">
+                                Porque somos consultores que hacemos más que asesorar. Viejos conocedores de China y a la vez jóvenes y conocedores del mundo. Gente de negocios que va más allá del negocio.
+                            </p> <span class="break"></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="title color-red"> Caminamos por el camino trazado. </p> <span class="break"></span>
+                            <p class="experience_litao-content">
+                                A diferencia de la mayoría de los consultores que asesoran sobre cómo entrar a determinado mercado, no solo les decimos a nuestros clientes qué hacer, en realidad ponemos en práctica lo sugerido. Desde simples tareas administrativas hasta la contratación de empleados y supervisores de control de calidad. Investigamos e incluso organizamos y atendemos reuniones para que tú no tengas que hacerlo. Los consultores suelen cobrar por pensar sin en realidad poner en práctica lo planeado. Nosotros pensamos profundamente y lo llevamos a la práctica ampliamente. No hay caminos cortos que te conduzcan a la experiencia.
+                            </p> <span class="break"></span>
+                            <p class="title color-red">
+                                Somos un grupo global.
+                            </p> <span class="break"></span>
+                            <p class="experience_litao-content">
+                                Todo nuestro equipo está formado por nacionales chinos o extranjeros educados en distintas partes del mundo. Todos nosotros hemos tenido experiencia multicultural. Es por eso que entendemos a China como lo hacen los chinos, pero con una mentalidad occidental que nos permite responder preguntas culturales que no pueden responderse pensando con una lógica común. Hemos experimentado situaciones desconocidas toda nuestra vida y hemos sobrevivimos a ellas. Sabemos organizar el caos.
+                            </p> <span class="break"></span>
+                            <p class="title color-red">
+                                Valoramos la integridad por encima del orgullo.
+                            </p> <span class="break"></span>
+                            <p class="experience_litao-content">
+                                Si no sabemos algo, no afirmaremos lo contrario. Lo remitiremos a un experto que lo haga. Y si no creemos que debas venir a China, o al menos no en este momento, también lo dejaremos claro en nuestra recomendación.
+                            </p> <span class="break"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="title color-red">
+                                Amamos nuestro trabajo.
+                            </p> <span class="break"></span>
+                            <p class="experience_litao-content">
+                                No trabajamos por un salario fijo y horarios de ocho horas. Esa fue la generación de nuestros padres, la generación de grandes corporaciones. Esta es la generación de lo joven, lo pequeño, lo adaptable. Trabajo basado en las relaciones y el talento, no solo en la antigüedad laboral.
+                                <span class="break"></span>
+                                No tenemos grandes gastos organizacionales como los grandes corporativo. Tu dinero va directamente a la ejecución de tus propias soluciones. Lo pequeño puede hacer cosas grandes.
+                                <span class="break"></span>
+                                Queremos innovar, encontrar la forma más eficiente de hacer las cosas. Porque LITAO no es solo un trabajo; es un estilo de vida.
+                            </p> <span class="break"></span>
+                            <p class="title color-red">
+                                Entonces, ¿Por qué nosotros?
+                            </p> <span class="break"></span>
+                            <p class="experience_litao-content">
+                                Porque a lo largo de los años, hemos cultivado cuidadosamente esa mezcla precisa de conocimiento moderno y profunda comprensión cultural que nos permite prosperar en este país. China anhela el crecimiento, pero solo si sabe lo que se está haciendo. Permítenos mostrarte lo que queremos decir.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="level2-titles-box-margin">
+                                <div class="level2-titles-box"> <img class="level2-titles-box-line" src="home-images/about_us/black_title_line.png" alt=""> <img class="level2-titles-box-pic-square" src="home-images/about_us/green-rectangle.png" alt="">
+                                    <h4 class="text-uppercase level2-titles"> UNA HISTORIA DE DOS <br> COMPAÑÍAS </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="title color-red"> ESCENARIO: Sin LITAO </p>
+                            <br>
+                            <br>
+                            <p class="experience_litao-content">
+                                Imagina que eres un soñador buscando vender algo. Crees que China es el mercado perfecto para ello: hambrientos, urbanos, gente con dinero para derrochar.
+                                <span class="break"></span>
+                                Desempolvas tus contactos, encuentras algunos contactos en China que te dicen, sí, sí, China es donde las posibilidades se vuelven realidad. Te dicen que te presentarán a sus amigos. Vuelas ocho incómodas horas a Beijing solo con un puño de esperanza.
+                                <span class="break"></span>
+                                Eres recibido por empresarios, clientes potenciales o socios, cabello oscuro y ojos oscuros. Es la primera vez que le pones cara a los nombres. Te presentan a un traductor, facilitado tu contraparte. Lo consideras un gesto amable de su parte. Le describes tu producto con tanto detalle como sea posible. El traductor explica tu producto con aún más detalle. Los chinos presentes asienten la cabeza y sonríen, asienten y sonríen por toda la sala de juntas.
+                            </p>
+                            <span class="break"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="experience_litao-content add_padding">
+                                Ahora es el turno de ellos para hablar. Esperas pero no pasa mucho tiempo. Todos están de acuerdo: eres muy amable, pero tu producto no es para ellos. Solo dicen una cosa: "es demasiado caro". Tu tiempo terminó.
+                                <span class="break"></span>
+                                Se van con reverencias y sonrisas, reverencias y sonrisas. La cortesía, se les ha dicho, es algo que les gusta a los extranjeros. No necesariamente es la verdad.
+                                <span class="break"></span>
+                                China no es solo una puerta abierta, es una puerta giratoria. Ya han pasado por ahí miles como tú. ¿Qué te hará diferente?
+                            </p>
+                            <span class="break"></span>
+                        </div>
+                    </div>
+                    <div class="row"> <span class="break"></span>
+                        <div class="col-md-6">
+                            <p class="title color-red"> ESCENARIO: Con LITAO</p>
+                            <br>
+                            <br>
+                            <p class="experience_litao-content_break">
+                                Por supuesto que siempre has sido un soñador. China es en verdad una tierra de posibilidades.
+                                <span class="break"></span>
+                                Pero antes de venir a este país, nos aseguraremos de que estés bien preparado.
+                                <span class="break"></span>
+                                Te ayudamos a encontrar la respuesta a cuatro preguntas importantes:
+                            </p>
+                            <ul class="experience_litao-list">
+                                <li> <span class="li-content"><b>¿Qué</b> quieres lograr? </span> </li>
+                                <li> <span class="li-content"><b>¿Quién</b> puede ayudarte a lograrlo? </span> </li>
+                                <li> <span class="li-content"><b>¿Cómo</b> los convences de que tu visión es de su interés?</span> </li>
+                                <li> <span class="li-content"><b>¿Por qué</b> la gente debería confiar en ti?</span> </li>
+                            </ul>
+                            <span class="break"></span>
+                            <p class="experience_litao-content">
+                                Así que ya sabes con quien contar, y contra qué estás compitiendo. Ahora tienes las herramientas que realmente te servirán venderte, o como solemos decir “persuadir”. Realizamos la investigación de mercado por tí en un país con pocas opciones de acceso a la información. Te conectamos con nuestra red de contactos.
+                                <span class="break"></span>
+                                Cuando llegues a China, ya habremos encontrado el mercado correcto para tu producto: no en el mercado de precios bajos, sino en el mercado de productos de alta calidad. Ya hemos presentado tu producto con distribuidores, fabricantes y socios relevantes. De esta manera no te encontraras en una junta con un grupo de extraños con intereses diferentes, sino con personas que trabajan específicamente para tu mercado meta, personas que ya tienen interés en tu producto.
+                                <span class="break"></span>
+                                Imagínate sentado en el avión con tu laptop sobre las piernas dando los toques finales a tu presentación bilingüe que hemos preparado para ti y leyendo nuevamente los puntos principales de nuestro informe del análisis de mercado.
+                            </p>
+                            <span class="break"></span>
+                            <span class="break"></span>
+                        </div>
+                        <div class="col-md-6"> <img class="img-fluid mobile content-image" src="home-images/why_us/experience/a_tale.jpg" alt="">
+                            <p class="experience_litao-content">
+                                Cuando te encuentras con socios o inversionistas potenciales, no solo tienes un producto y una visión, sino también las estadísticas concretas que lo respaldan. Sabes con seguridad que las compañías extranjeras nunca podrán competir con empresas chinas en cuestiones de precios, pero el mercado demanda productos Premium. Esa es la idea que vendes a tus clientes potenciales.
+                                <span class="break"></span>
+                                Te acompañamos como tu intérprete. Durante toda la reunión, te susurramos al oído sobre los diferentes detalles de la reunión. Cuando hablamos por tí, es siempre protegiendo tus intereses. No estamos trabajando para tu contraparte.
+                                <span class="break"></span>
+                                Esta vez, asienten y sonríen, pero "es demasiado caro" no entra en la conversación. La conversación se lleva a un nivel diferente. Hace mucho que decidieron que valía la pena trabajar contigo. Ellos conocen nuestro historial. La reunión era solo una formalidad después de todo.
+                                <span class="break"></span>
+                                Eras un soñador. Ahora finalmente estás comenzando construir.
+                                <span class="break"></span>
+                                No hacemos promesas basadas en expectativas, prometemos claridad. Así que puedes estar seguro de que tu próximo paso es el correcto. No te haremos perder el tiempo.
+                            </p>
+                            <span class="break"></span>
+                            <span class="break"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="section" id="our_guanxi">
+                    <div class="row">
+                        <div class="col-md-6 col-xs-12">
+                            <h3 class="text-uppercase level2-main-title"> NUESTRO <br> GUANXI </h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="guanxi-explanation"> <span class="color-red guanxi-characters"> 关系</span>
+                                <br> <span class="color-red guanxi_noun"><b>(gwæn’si)</b></span> <span class="break"></span> es un concepto social chino
+                                <br> basado en el Intercambio de favores,
+                                <br>tiene mucho que ver con las relaciones personales.
+                                <br>Es considerado más importante
+                                <br>que leyes y contratos por escrito. <span class="break"></span>
+                                <!-- <span class="color-red text-reference">Collins English Dictionary – Complete<br> and Unabridged, 12th Edition 2014</span> -->
+                            </p>
+                        </div>
+                        <div class="col-md-6"> <img src="home-images/why_us/guanxi.jpg" alt="main guanxi picture" class="main-image img-fluid mobile"> </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="title">Si no sabes el significado de guanxi<br>realmente no conoces China. </p>
+                            <br>
+                            <br>
+                            <p class="our_guanxi-content">
+                                Guanxi en chino significa relaciones o conexiones personales, pero más que eso, es esa red inefable de personas que conocemos y que nos abrirán puertas, puertas que de otra manera están protegidas o cerradas. Cuando estás buscando una solución en China, "conozco a alguien..." son las tres palabras más dulces que puedes escuchar.
+                            </p>
+                        </div>
+                        <div class="col-md-6"> <span class="padding-from-top_98"></span>
+                            <p class="our_guanxi-content">
+                                Nuestro guanxi incluye clientes actuales y anteriores, socios de negocios, funcionarios de gobierno, expertos y líderes de opinión en diversas áreas, asesores y asesorados: personas a las que hemos servido, de las que hemos aprendido y con las que hemos entablado una buena amistad. Son personas y empresas que admiramos y que tienen la amabilidad de compartir su grandeza con nosotros. Estamos muy agradecidos por ellos y por el increíble trabajo que realizan.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="level2-titles-box-margin">
+                                <div class=""> <img class="level2-titles-box-line" src="home-images/about_us/black_title_line.png" alt="">
+                                    <!-- <img class=" hidden-sm-down img-fluid level2-titles-box-pic-square" src="home-images/about_us/green-rectangle.png" alt=""> -->
+                                    <h4 class="text-uppercase level2-titles"> ELLOS CONFIARON EN NOSOTROS </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row company-grid">
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="card"> <img class="card-img-top" src="home-images/why_us/siemens.png" alt="Card image cap">
+                                <div class="card-block">
+                                    <p class="card-title">Carlos Gallegos </p>
+                                    <p class="card-text"> Head of Procurement,
+                                        <br> Wind Power </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="card"> <a href="http://www.freshdeli.lt/?lang=0"><img class="card-img-top" src="home-images/why_us/freshdeli.png" alt="Card image cap"></a>
+                                <div class="card-block">
+                                    <p class="card-title"> Jorūnė Gaučaitė </p>
+                                    <p class="card-text"> CEO </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="card"> <a href="http://www.viciunaigroup.eu/en"><img class="card-img-top" src="home-images/why_us/vici.png" alt="Card image cap"></a>
+                                <div class="card-block">
+                                    <p class="card-title"> Dmitrij Bogatko </p>
+                                    <p class="card-text"> Regional Sales Director </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="card"> <img class="card-img-top" src="home-images/why_us/achema.png" alt="Card image cap">
+                                <div class="card-block">
+                                    <p class="card-title"> Rytis Budrius </p>
+                                    <p class="card-text"> Chief Legal Officer </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="card"> <a href="http://www.sirpa-en.fudan.edu.cn/"><img class="card-img-top" src="home-images/why_us/professor.png" alt="Card image cap"></a>
+                                <div class="card-block">
+                                    <p class="card-title"> Pang Zhongqi </p>
+                                    <p class="card-text"> Professor,
+                                        <br> SIRPA </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="card"> <img class="card-img-top" src="home-images/why_us/alvo.png" alt="Card image cap">
+                                <div class="card-block">
+                                    <p class="card-title"> Lina Adomavičienė </p>
+                                    <p class="card-text"> Export Manager </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="card"> <a href="http://www.zabolis.com/"><img class="card-img-top" src="home-images/why_us/zabolis.png" alt="Card image cap"></a>
+                                <div class="card-block">
+                                    <p class="card-title"> Guido Wolf </p>
+                                    <p class="card-text"> Director
+                                        <br> Group Development </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--     <div class="col-sm-6 col-md-4 col-lg-2"> <div class="card"> <img class="card-img-top" src="home-images/why_us/melt.png" alt="Card image cap"> <div class="card-block"> <p class="card-title"> Aiva Jokubauskaite </p> <p class="card-text"> Head of Export & Sales </p> </div> </div> </div> -->
+                        <!--  <div class="col-sm-6 col-md-4 col-lg-2"> <div class="card"> <img class="card-img-top" src="home-images/why_us/vershold.png" alt="Card image cap"> <div class="card-block"> <p class="card-title"> Paulo Carvalho </p> <p class="card-text"> Managing Director </p> </div> </div> </div> -->
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="card"> <img class="card-img-top" src="home-images/why_us/baltic.png" alt="Card image cap">
+                                <div class="card-block">
+                                    <p class="card-title"> Simonas Petrulis </p>
+                                    <p class="card-text"> CEO </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="card"> <a href="https://www.naujienos.lt/leidinys/iq/"><img class="card-img-top" src="home-images/why_us/iq.png" alt="Card image cap"></a>
+                                <div class="card-block">
+                                    <p class="card-title"> Ovidijus Lukosius </p>
+                                    <p class="card-text"> Editor in Chief </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="card"> <a href="http://www.oc.vu.lt/en/"><img class="card-img-top" src="home-images/why_us/vuni.png" alt="Card image cap"></a>
+                                <div class="card-block">
+                                    <p class="card-title"> Vytis Silius </p>
+                                    <p class="card-text"> Director
+                                        <br> of Institute for Asian and Transcultural Studies </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="card"> <a href="https://www.amazon.co.uk/Vacuum-Insulated-Travel-Coffee-Stainless/dp/B01COX9LFU"><img class="card-img-top" src="home-images/why_us/liquid.png" alt="Card image cap"></a>
+                                <div class="card-block">
+                                    <p class="card-title"> Karolis Brazys </p>
+                                    <p class="card-text"> Founder </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="card"> <img class="card-img-top" src="home-images/why_us/mains.png" alt="Card image cap">
+                                <div class="card-block">
+                                    <p class="card-title"> Simon de Raadt </p>
+                                    <p class="card-text"> CEO </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="card"> <a href="https://www.julietflowers.com/"><img class="card-img-top" src="home-images/why_us/juliet.png" alt="Card image cap"></a>
+                                <div class="card-block">
+                                    <p class="card-title"> David Perez </p>
+                                    <p class="card-text"> General Manager </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="card"> <a href="https://www.facebook.com/LitMarket-1079662582065816/"><img class="card-img-top" src="home-images/why_us/lit.png" alt="Card image cap"></a>
+                                <div class="card-block">
+                                    <p class="card-title"> Tomas Valauskas </p>
+                                    <p class="card-text"> Founder </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="card"> <img class="card-img-top" src="home-images/why_us/gold.png" alt="Card image cap">
+                                <div class="card-block">
+                                    <p class="card-title"> Leo Chu </p>
+                                    <p class="card-text"> Director </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="card"> <a href="http://linearistranslations.com/en1313/"><img class="card-img-top" src="home-images/why_us/linearis.png" alt="Card image cap"></a>
+                                <div class="card-block">
+                                    <p class="card-title"> Agnese Sturmane </p>
+                                    <p class="card-text"> Country Manager </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="card"> <a href="http://www.reach24h.com/en-us/"><img class="card-img-top" src="home-images/why_us/reach.png" alt="Card image cap"></a>
+                                <div class="card-block">
+                                    <p class="card-title"> Helen Ye </p>
+                                    <p class="card-text"> Deputy Director </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="card"> <a href="https://www.kadence.com/"><img class="card-img-top" src="home-images/why_us/kadence.png" alt="Card image cap"></a>
+                                <div class="card-block">
+                                    <p class="card-title"> Vivek Thomas </p>
+                                    <p class="card-text"> Managing Director </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="card"> <img class="card-img-top" src="home-images/why_us/cancham.png" alt="Card image cap">
+                                <div class="card-block">
+                                    <p class="card-title"> Rebecca Copelovici </p>
+                                    <p class="card-text"> Founder </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="col-sm-6 col-md-4 col-lg-2"> <div class="card"> <img class="card-img-top" src="home-images/why_us/cocomojo.png" alt="Card image cap"> <div class="card-block"> <p class="card-title"> Lindsey Fine </p> <p class="card-text"> CEO </p> </div> </div> </div> -->
+                        <div class="col-sm-6 col-md-4 col-lg-2">
+                            <div class="card"> <a href="http://www.wiredin.asia/"><img class="card-img-top" src="home-images/why_us/wiredin.png" alt="Card image cap"></a>
+                                <div class="card-block">
+                                    <p class="card-title"> Amirsan Roberto </p>
+                                    <p class="card-text"> CEO </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="col-sm-6 col-md-4 col-lg-2"> <div class="card"> <a href="https://www.tinggly.com/"><img class="card-img-top" src="home-images/why_us/tinggly.png" alt="Card image cap"></a> <div class="card-block"> <p class="card-title"> Linas Čeikus </p> <p class="card-text"> CEO </p> </div> </div> </div> -->
+                        <!-- <div class="col-sm-6 col-md-4 col-lg-2"> <div class="card"> <img class="card-img-top" src="home-images/why_us/foreo.png" alt="Card image cap"> <div class="card-block"> <p class="card-title"> Ignas Gargalevičius </p> <p class="card-text"> Global Digital<br> Media Manager </p> </div> </div> </div> -->
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6"> <span class="break"></span>
+                            <p class="our_guanxi-content"> El ecosistema de los negocios chinos está construida sobre un Guanxi confiable y nada en China se hace sin él. Cultivar buenas conexiones en China lleva años, pero al unirse a la red LITAO, nuestras relaciones serán sus relaciones.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="section" id="recognitions">
+                    <div class="row">
+                        <div class="col-md-6 col-xs-12">
+                            <h4 class="text-uppercase level2-main-title"> RECONOCIMIENTOS </h4>
+                        </div>
+                        <div class="col-md-6"> <img src="home-images/why_us/publication/r-main.jpg" alt="main image" class="img-fluid main-image mobile"> </div>
+                    </div>
+                    <div class="row publication-intro-margin">
+                        <div class="col-md-6">
+                            <p class="publication-intro-content"> Una cosa es adquirir conocimiento para uno mismo, la verdadera experiencia llega cuando puedes enseñar y compartirlo con otros.
+                                <br>
+                                <br> A lo largo de los años, LITAO ha transformado su experiencia cultural y comercial en China en varias ideas, entrevistas y presentaciones. Nos sentimos honrados de compartir nuestro conocimiento en medios de comunicación en inglés, español, chino y lituano, así como en conferencias académicas. Estamos felices de compartirlo contigo. </p>
+                        </div>
+                    </div>
+                    <div class="lithuanian-section">
+                        <div class="row">
+                            <div class="publication-section">
+                                <div class="level2-titles-box-margin">
+                                    <div class="level2-titles-box"> <img class="level2-titles-box-line" src="home-images/about_us/black_title_line.png" alt="">
+                                        <h4 class="text-uppercase level2-titles"> PUBLICACIONES EN LITUANO</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="publication">
+                                <div class="publication_title">
+                                    <div class="mobile_collapse" data-toggle="collapse" data-target="#p1">
+                                        <h4>La impresión de un lituano sobre Shanghai: aquí se puede crear la vida que desees</h4> <span class="collapsable_plus color-red hidden-md-up">+</span>
+                                    </div>
+                                    <div class="publication_subtitle">
+                                        <h5 class="hidden-sm-down">Kamilė Baubinaitė, sección "Ciudadanos" de delfi.lt</h5>
+                                        <div class="publication_content">
+                                            <div class="hidden-sm-down publication_image"> <img class="img-fluid" src="home-images/why_us/publication/11.png" alt=""> </div>
+                                            <p id="p1" class="collapse"> 
+                                                El sitio de noticias lituano Delfi descubrió el blog en línea de Lina en el 2012 y ha publicado regularmente sus ideas sobre China y Shanghai. Redactado mientras estudiaba una maestría en la Universidad de Fudan, Lina le da vida a la mega ciudad internacional de Shanghai, un lugar que reúne a los soñadores y empresarios del mundo. En este artículo en particular, Lina defiende similitudes en lugar de diferencias: los lituanos, con sus particulares antecedentes históricos y políticos, se parecen a los chinos más de lo que piensas. Esto le da a los lituanos una ventaja cultural sobre los estadounidenses y otras nacionalidades occidentales a la hora de hacer negocios en China. 
+                                            </p>
+                                            <div class="publication_link hidden-sm-down"> <a href="http://www.delfi.lt/news/daily/emigrants/lietuves-ispudziai-is-sanchajaus-cia-gali-susikurti-toki-gyvenima-kurio-tau-paciam-norisi.d?id=59244911" target="blank">Read More</a> </div>
+                                            <div class="publication_date hidden-sm-down">
+                                                <date>October 4th, 2012</date>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="publication">
+                                <div class="publication_title">
+                                    <div class="mobile_collapse" data-toggle="collapse" data-target="#p2">
+                                        <h4>¿Qué es más importante que el precio?</h4> <span class="collapsable_plus color-red hidden-md-up">+</span>
+                                    </div>
+                                    <div class="publication_subtitle">
+                                        <h5 class="hidden-sm-down">Sección de Política, Revista IQ</h5>
+                                        <div class="publication_content clearfix">
+                                            <div class="hidden-sm-down publication_image"> <img class="img-fluid" src="home-images/why_us/publication/12.png" alt=""> </div>
+                                            <p id="p2" class="collapse"> 
+                                            Los chinos suelen elegir socios basandose en sus emociones. Deciden trabajar con alguien por sus cualidades. Esto significa que a veces cuando se trabaja con chinos un buen precio no es tan importante como un trato respetuoso y mostrar la correcta atención.
+                                           </p>
+                                            <div class="publication_link hidden-sm-down"> <a href="https://www.naujienos.lt/leidinys/iq/demesys-svarbiau-uz-kaina/" target="blank">Read More </a> </div>
+                                            <div class="publication_date hidden-sm-down">
+                                                <date>March 30th, 2016</date>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="publication">
+                                <div class="publication_title">
+                                    <div class="mobile_collapse" data-toggle="collapse" data-target="#p3">
+                                        <h4>Una perspectiva de primera mano del mercado de valores chino</h4> <span class="collapsable_plus color-red hidden-md-up">+</span>
+                                    </div>
+                                    <div class="publication_subtitle">
+                                        <h5 class="hidden-sm-down">Lina Bartusevičiūtė, BalticAsia</h5>
+                                        <div class="publication_content clearfix">
+                                            <div class="hidden-sm-down publication_image"> <img class="img-fluid" src="home-images/why_us/publication/13.png" alt=""> </div>
+                                            <p id="p3" class="collapse"> 
+                                            Cuando en 2016 el mercado bursátil chino se desplomó, Lina fue encargada de escribir un artículo sobre el mercado bursátil chino, decidió darle un enfoque más personal y entrevistó a una amiga que es corredora de bolsa. Al preguntarle cuál es la causa de las fluctuaciones, explicó que a los chinos les encantan los juegos de azar, pero como está prohibido en China, recurren al mercado de valores. El amor por los juegos de azar y el hecho de que los chinos anhelan dinero, hace que el mercado sea inestable y riesgoso.
+                                             </p>
+                                            <div class="publication_link hidden-sm-down"> <a href="http://www.balticasia.lt/uncategorized/akciju-birza-kinijoje-pirmu-lupu/" target="blank">Read More </a> </div>
+                                            <div class="publication_date hidden-sm-down">
+                                                <date>2016</date>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="publication">
+                                <div class="publication_title">
+                                    <div class="mobile_collapse" data-toggle="collapse" data-target="#p4">
+                                        <h4>Un país multilateral</h4> <span class="collapsable_plus color-red hidden-md-up">+</span>
+                                    </div>
+                                    <div class="publication_subtitle">
+                                        <h5 class="hidden-sm-down">Lina Bartusevičiūtė, Veidas</h5>
+                                        <div class="publication_content clearfix">
+                                            <div class="hidden-sm-down publication_image"> <img class="img-fluid" src="home-images/why_us/publication/14.png" alt=""> </div>
+                                            <p id="p4" class="collapse"> 
+                                            Lina afirma que China tiene más que ofrecer que lo que dice el turista común dice: "No haber visto La Gran Muralla China, no haber ido a la Ciudad Prohibida o no haber comido Pato Laqueado de Beijing es como no haber estado en China". En su opinión, China es tan rica en variedad que cada persona podría encontrar algo con lo que relacionarse. Ya sea antiguo o moderno.
+                                        </p>
+                                            <div class="publication_link hidden-sm-down"> <a href="http://www.veidas.lt/kinija-milziniska- ivairialype-ir- ne-visada- suprantama" target="blank">Read More </a> </div>
+                                            <div class="publication_date hidden-sm-down">
+                                                <date>November 3rd, 2013</date>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="publication">
+                                <div class="publication_title">
+                                    <div class="mobile_collapse" data-toggle="collapse" data-target="#p5">
+                                        <h4>Un paseo por Shanghai</h4> <span class="collapsable_plus color-red hidden-md-up">+</span>
+                                    </div>
+                                    <div class="publication_subtitle">
+                                        <h5 class="hidden-sm-down">Lina Bartusevičiūtė, Agencia de Viajes Quovadis</h5>
+                                        <div class="publication_content clearfix">
+                                            <div class="hidden-sm-down publication_image"> <img class="img-fluid" src="home-images/why_us/publication/15.png" alt=""> </div>
+                                            <p id="p5" class="collapse"> 
+                                            Lina escribe sobre un paseo matutino por los modernos bulevares y los viejos callejones de Shanghai, habiendo dejado atrás la pequeña burbuja europea que ella misma se creó. Incluso cinco años en la ciudad no son suficientes para entenderla realmente, tal vez ni siquiera una vida entera. La ciudad está cambiando cada día en formas impredecibles, grandes y pequeñas. Es una ciudad de Oriente y Occidente, pasado y futuro, una ciudad donde coexisten contrastes y compromisos. Es una ciudad que mira hacia el futuro, donde todos buscan un lugar para hacer el suyo.
+                                        </p>
+                                            <div class="publication_link hidden-sm-down"> <a href="http://quovadis.lt/lt/kelioniu-naujienos/pasivaiksciojimas-sanchajuje/" target="blank">Read More </a> </div>
+                                            <div class="publication_date hidden-sm-down">
+                                                <date>2014</date>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="publication">
+                                <div class="publication_title">
+                                    <div class="mobile_collapse" data-toggle="collapse" data-target="#p6">
+                                        <h4>China</h4> <span class="collapsable_plus color-red hidden-md-up">+</span>
+                                    </div>
+                                    <div class="publication_subtitle">
+                                        <h5 class="hidden-sm-down">Ieva Varkojytė, Laikas.lt</h5>
+                                        <div class="publication_content clearfix">
+                                            <div class="hidden-sm-down publication_image"> <img class="img-fluid" src="home-images/why_us/publication/16.png" alt=""> </div>
+                                            <p id="p6" class="collapse"> 
+                                               Es difícil describir lo que es "típicamente chino". China está en constante cambio todos los días, por lo que las personas que viven aquí también cambian constantemente. Lina admira a los chinos por su optimismo, su arduo trabajo, curiosidad y amabilidad con los extranjeros. China tiene un sistema económico y político único que es diferente de otros regímenes comunistas, anteriores y actuales. No es un estado totalitario, este es el primer estereotipo que debe ser destruido. Los empresarios pueden pertenecer al Partido, algo que difícilmente podría ocurrir en cualquier otro país comunista. 
+                                            </p>
+                                            <div class="publication_link hidden-sm-down"> <a href="http://laikas.tv3.lt/lt/info/7698/sanchajuje-gyvenanti-lina-zavisi-kinu-nuosirdumu-foto-interviu/" target="blank"> Read More </a> </div>
+                                            <div class="publication_date hidden-sm-down">
+                                                <date>October 4th, 2012</date>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="publication">
+                                <div class="publication_title">
+                                    <div class="mobile_collapse" data-toggle="collapse" data-target="#p7">
+                                        <h4>Estudiantes de Excelencia reconocidos por el gobierno lituano</h4> <span class="collapsable_plus color-red hidden-md-up">+</span>
+                                    </div>
+                                    <div class="publication_subtitle">
+                                        <h5 class="hidden-sm-down">Giedrė Petkevičiūtė, Vakarų Ekspresas</h5>
+                                        <div class="publication_content clearfix">
+                                            <div class="hidden-sm-down publication_image"> <img class="img-fluid" src="home-images/why_us/publication/17.jpg" alt=""> </div>
+                                            <p id="p7" class="collapse"> 
+                                            En 2006, Lina fue una de las once estudiantes reconocidas por el gobierno lituano por sus altas calificaciones en los exámenes universitarios nacionales.
+                                        </p>
+                                            <div class="publication_link hidden-sm-down"> <a href="http://www.ve.lt/naujienos/lietuva/lietuvos-naujienos/vyriausybeje-pagerbti-simtukininkai-401584/" target="blank">Read More</a> </div>
+                                            <div class="publication_date hidden-sm-down">
+                                                <date>July 13th, 2006</date>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="publication">
+                                <div class="publication_title">
+                                    <div class="mobile_collapse" data-toggle="collapse" data-target="#p8">
+                                        <h4>No te arrepentirás de levantarte temprano</h4> <span class="collapsable_plus color-red hidden-md-up">+</span>
+                                    </div>
+                                    <div class="publication_subtitle">
+                                        <h5 class="hidden-sm-down">Ignas Krasauskas, revista IQ</h5>
+                                        <div class="publication_content clearfix">
+                                            <div class="hidden-sm-down publication_image"> <img class="img-fluid" src="home-images/why_us/publication/18.jpg" alt=""> </div>
+                                            <p id="p8" class="collapse"> 
+                                            Habiendo vivido en China durante siete años y emprendiendo su propia empresa, Lina dice que China aún carece de talentos y necesita extranjeros que puedan entender el contexto internacional. Pero los extranjeros también deben venir al país con un sentido de respeto: los clientes de Lina a menudo le dicen que los chinos están equivocados sobre algo o simplemente no entienden, pero no se puede llegar a ninguna parte con esta mentalidad. Los chinos y los extranjeros son ciertamente diferentes, pero son iguales, los extranjeros deberían renunciar a su complejo de superioridad.
+                                        </p>
+                                            <div class="publication_link hidden-sm-down"> <a href="http://iq.notyet.live/tema/anksti-keles-nesigailesi-2" target="blank">Read More </a> </div>
+                                            <div class="publication_date hidden-sm-down">
+                                                <date>July 13th, 2006</date>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="publication">
+                                <div class="publication_title">
+                                    <div class="mobile_collapse" data-toggle="collapse" data-target="#p9">
+                                        <h4>Carta desde Oriente</h4> <span class="collapsable_plus color-red hidden-md-up">+</span>
+                                    </div>
+                                    <div class="publication_subtitle">
+                                        <h5 class="hidden-sm-down">Greta Tikužytė, Citadelė - revista estudiantil de la Universidad de Vilnius</h5>
+                                        <div class="publication_content clearfix">
+                                            <div class="hidden-sm-down publication_image"> <img class="img-fluid" src="home-images/why_us/publication/19.png" alt=""> </div>
+                                            <p id="p9" class="collapse"> 
+                                            El concepto de un Oriente exótico fue creado por occidentales. Parece exótico si viajas a China como turista, pero si realmente hablas con la gente, es difícil clasificarlo dentro de Este u Oeste. La propia Lina cree que el Shanghai del siglo XXI es diferente, pero no exótico.
+                                             </p>
+                                            <div class="publication_link hidden-sm-down"> <a href="http://www.flf.vu.lt/naujienos/bendros-naujienos/1175-citadele-nr-9" target="blank">Read More </a> </div>
+                                            <div class="publication_date hidden-sm-down">
+                                                <date>October 4th, 2012</date>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="english-section">
+                        <div class="row">
+                            <div class="publication-section">
+                                <div class="level2-titles-box-margin">
+                                    <div class="level2-titles-box"> <img class="level2-titles-box-line" src="home-images/about_us/black_title_line.png" alt="">
+                                        <h4 class="text-uppercase level2-titles"> PUBLICACIONES EN INGLÉS</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="publication">
+                                <div class="publication_title">
+                                    <div class="mobile_collapse" data-toggle="collapse" data-target="#p10">
+                                        <h4>Derechos de las Mujeres y Confucionismo</h4> <span class="collapsable_plus color-red hidden-md-up">+</span>
+                                    </div>
+                                    <div class="publication_subtitle">
+                                        <h5 class="hidden-sm-down">Lina Bartusevičiūtė, entrevista para Global Times</h5>
+                                        <div class="publication_content clearfix">
+                                            <div class="hidden-sm-down publication_image"> <img class="img-fluid" src="home-images/why_us/publication/21.jpg" alt=""> </div>
+                                            <p id="p10" class="collapse"> 
+                                           Mientras realizaba una investigación sobre el feminismo en China, Lina aprendió que aunque la conciencia sobre los derechos de las mujeres sigue siendo escasa, el confucionismo ofrece un contexto cultural interesante. En el confucionismo, los hombres y las mujeres son vistos como intrínsecamente diferentes, por lo que no hay necesidad de definir en exceso ciertos roles de género cuando la diferencia es aparente, no importa lo que uno haga. Tampoco hay necesidad de luchar por la igualdad, ya que uno no puede comparar dos cosas diferentes. En China, a menudo hay contradicciones en los roles: una mujer puede ocupar el cargo de cabeza de la familia en privado, pero en público aún debe obedecer a su esposo. Es obvio que el feminismo, como cualquier otra cosa en China, está cambiando. 
+                                        </p>
+                                            <div class="publication_link hidden-sm-down"> <a href="http://gbtimes.com/life/looking-future-womens-rights-china" target="blank">Read More </a> </div>
+                                            <div class="publication_date hidden-sm-down">
+                                                <date>2012</date>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="publication">
+                                <div class="publication_title">
+                                    <div class="mobile_collapse" data-toggle="collapse" data-target="#p11">
+                                        <h4>Lituana Expatriada en Shanghai</h4> <span class="collapsable_plus color-red hidden-md-up">+</span>
+                                    </div>
+                                    <div class="publication_subtitle">
+                                        <h5 class="hidden-sm-down">Zhang Ru, CRI podcast en inglés</h5>
+                                        <div class="publication_content clearfix">
+                                            <div class="hidden-sm-down publication_image"> <img class="img-fluid" src="home-images/why_us/publication/22.png" alt=""> </div>
+                                            <p id="p11" class="collapse"> 
+                                            Lina fue entrevistada por el periodista de Expat Tales. Cuenta su historia de cómo terminó en Shanghai y comparte sus experiencias de trabajo en el Shanghai World Expo Pavillion, donde fue contratada como intérprete entre chino, inglés, lituano y ruso.
+                                        </p>
+                                            <div class="publication_link hidden-sm-down"> <a href="http://english.cri.cn/8706/2010/12/08/2661s609142.htm" target="blank">Read More </a> </div>
+                                            <div class="publication_date hidden-sm-down">
+                                                <date>March 30th, 2016</date>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chinese-section">
+                        <div class="row">
+                            <div class="publication-section">
+                                <div class="level2-titles-box-margin">
+                                    <div class="level2-titles-box"> <img class="level2-titles-box-line" src="home-images/about_us/black_title_line.png" alt="">
+                                        <h4 class="text-uppercase level2-titles"> PUBLICACIONES EN CHINO </h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="publication">
+                                <div class="publication_title">
+                                    <div class="mobile_collapse" data-toggle="collapse" data-target="#p12">
+                                        <h4>La influencia de los medios de comunicación chinos en la diplomacia pública y otros asuntos estatales</h4> <span class="collapsable_plus color-red hidden-md-up">+</span>
+                                    </div>
+                                    <div class="publication_subtitle">
+                                        <h5 class="hidden-sm-down">Lina Bartusevičiūtė, China Newspaper Industry Journal</h5>
+                                        <div class="publication_content clearfix">
+                                            <div class="hidden-sm-down publication_image"> <img class="img-fluid" src="home-images/why_us/publication/31.png" alt=""> </div>
+                                            <p id="p12" class="collapse"> 
+                                            A medida que China crece en el escenario mundial, la diplomacia pública del país se ha desarrollado rápidamente como un medio de representación y comunicación en  política internacional. Como tal, los medios con su amplio alcance y su capacidad de viralizar contenido e información, pueden influir enormemente en la imagen del país en todo el mundo. Este documento académico explora cómo los medios de comunicación chinos carecen de medidas de diplomacia pública y qué maneras existen de contrarrestar eso para promover el entendimiento general de China en otros países.
+                                        </p>
+                                            <div class="publication_link hidden-sm-down"> <a href="http://www.cnki.com.cn/Article/CJFDTotal-ZGBT201606009.htm" target="blank">Read More </a> </div>
+                                            <div class="publication_date hidden-sm-down">
+                                                <date>March, 2016</date>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="publication">
+                                <div class="publication_title">
+                                    <div class="mobile_collapse" data-toggle="collapse" data-target="#p13">
+                                        <h4>Opinión: China necesita una educación más diversificada.</h4> <span class="collapsable_plus color-red hidden-md-up">+</span>
+                                    </div>
+                                    <div class="publication_subtitle">
+                                        <h5 class="hidden-sm-down">Lina Bartusevičiūtė, portal de noticias en línea de Huanqiu</h5>
+                                        <div class="publication_content clearfix">
+                                            <div class="hidden-sm-down publication_image"> <img class="img-fluid" src="home-images/why_us/publication/32.png" alt=""> </div>
+                                            <p id="p13" class="collapse"> 
+                                           Como estudiante de una de las mejores universidades de China, Fudan University, Lina habla sobre lo que espera de la educación en las próximas sesiones de las entidades políticas más importantes de China, la Asamblea Popular Nacional de China y la Conferencia Política Consultiva de China. Lina espera más medidas para la diversificación de la educación en el país.
+                                        </p>
+                                            <div class="publication_link hidden-sm-down"> <a href="http://roll.sohu.com/20130304/n367723758.shtml" target="blank">Read More </a> </div>
+                                            <div class="publication_date hidden-sm-down">
+                                                <date>March 4th, 2013</date>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conferences-section">
+                        <div class="row">
+                            <div class="publication-section">
+                                <div class="level2-titles-box-margin">
+                                    <div class="level2-titles-box"> <img class="level2-titles-box-line" src="home-images/about_us/black_title_line.png" alt="">
+                                        <h4 class="text-uppercase level2-titles"> CONFERENCIA Y APARICIONES EN TV </h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="publication">
+                                <div class="publication_title">
+                                    <div class="mobile_collapse" data-toggle="collapse" data-target="#p14">
+                                        <h4>Conferencia en la Universidad de Vilnius: Orientalismo,<br> El pensamiento colonial y la antigua periferia soviética </h4> <span class="collapsable_plus color-red hidden-md-up">+</span>
+                                    </div>
+                                    <div class="publication_subtitle">
+                                        <h5 class="hidden-sm-down">Vilnius University </h5>
+                                        <div class="publication_content clearfix">
+                                            <div class="hidden-sm-down publication_image"> <img class="img-fluid" src="home-images/why_us/publication/41.jpg" alt=""> </div>
+                                            <p id="p14" class="collapse"> 
+                                            La conferencia exploró el pos colonialismo y el papel de los antiguos países soviéticos. Lina fue invitada a dar su opinión sobre cómo se ven estos países ex soviéticos desde el punto de vista chino; también habló sobre las dificultades en China para cambiar la percepción y marca país de Lituania y orientarla más a una entidad política independiente. 
+                                        </p>
+                                            <div class="publication_link hidden-sm-down"> <a href="https://theotherorient.files.wordpress.com/2015/08/orientalism-conference-latest-programme-with-maps1.pdf" target="blank">Read More</a> </div>
+                                            <div class="publication_date hidden-sm-down">
+                                                <date>August 27-29th, 2015</date>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="publication">
+                                <div class="publication_title">
+                                    <div class="mobile_collapse" data-toggle="collapse" data-target="#p15">
+                                        <h4> Conferencia IQ Magazine 2016: El poder de Occidente </h4> <span class="collapsable_plus color-red hidden-md-up">+</span>
+                                    </div>
+                                    <div class="publication_subtitle">
+                                        <h5 class="hidden-sm-down"> Sección de Política, Revista IQ </h5>
+                                        <div class="publication_content clearfix">
+                                            <div class="hidden-sm-down publication_image"> <img class="img-fluid" src="home-images/why_us/publication/42.png" alt=""> </div>
+                                            <p id="p15" class="collapse"> 
+                                            Cuando en 2016 el mercado bursátil chino se desplomó, Lina fue encargada de escribir un artículo sobre el mercado bursátil chino, decidió darle un enfoque más personal y entrevistó a una amiga que es corredora de bolsa. Al preguntarle cuál es la causa de las fluctuaciones, explicó que a los chinos les encantan los juegos de azar, pero como está prohibido en China, recurren al mercado de valores. Esto y el hecho de que los chinos anhelan dinero hace que el mercado sea inestable y riesgoso. 
+                                        </p>
+                                            <div class="publication_link hidden-sm-down"> <a href="https://www.naujienos.lt/leidinys/iq/vakaru-galia-ambicijos-ir-galimybes/" target="blank">Read More </a> </div>
+                                            <div class="publication_date hidden-sm-down">
+                                                <date> May 19th, 2015 </date>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lina_c-section">
+                        <div class="row">
+                            <div class="publication-section">
+                                <div class="level2-titles-box-margin">
+                                    <div class="level2-titles-box"> <img class="level2-titles-box-line" src="home-images/about_us/black_title_line.png" alt="">
+                                        <h4 class="text-uppercase level2-titles">LINA ČIAPAITĖ</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="publication">
+                                <div class="publication_title">
+                                    <div class="mobile_collapse" data-toggle="collapse" data-target="#p16">
+                                        <h4>Conferencia: Viajeros con una misión 2016.</h4> <span class="collapsable_plus color-red hidden-md-up">+</span>
+                                    </div>
+                                    <div class="publication_subtitle">
+                                        <h5 class="hidden-sm-down">Entrevista a Lina Čiapaitė, Vakarų Ekspresas</h5>
+                                        <div class="publication_content clearfix">
+                                            <div class="hidden-sm-down publication_image"> <img class="img-fluid" src="home-images/why_us/publication/43.png" alt=""> </div>
+                                            <p id="p16" class="collapse"> 
+                                            Lina C. se presentó en una conferencia y ceremonia de premios dedicada a "viajeros con una misión". A través de palabras y elementos visuales, comparó la forma en que los chinos y los lituanos actúan en la vida diaria y los negocios, sorprendiendo a la audiencia al observar más similitudes que diferencias entre las dos nacionalidades. 
+                                        </p>
+                                            <div class="publication_link hidden-sm-down"> <a href="http://www.ve.lt/naujienos/laisvalaikis/keliones/isrinktas-kelione-su-misija-2016-nugaletojas-1513048/" target="blank"> Read More </a> </div>
+                                            <div class="publication_date hidden-sm-down">
+                                                <date> December 5th, 2016 </date>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="publication">
+                                <div class="publication_title">
+                                    <div class="mobile_collapse" data-toggle="collapse" data-target="#p17">
+                                        <h4> TV nacional lituana </h4> <span class="collapsable_plus color-red hidden-md-up">+</span>
+                                    </div>
+                                    <div class="publication_subtitle">
+                                        <h5 class="hidden-sm-down"> Entrevista a Lina Čiapaitė, Buenos días, Lituania </h5>
+                                        <div class="publication_content clearfix">
+                                            <div class="hidden-sm-down publication_image"> <img class="img-fluid" src="home-images/why_us/publication/44.png" alt=""> </div>
+                                            <p id="p17" class="collapse"> 
+                                            Lina C fue invitada a hablar en la televisión nacional lituana sobre destinos no turísticos en China. Ella habló sobre su viaje a Garze en la Prefectura Autónoma del Tíbet, y se pronunció en contra del estereotipo de que los chinos no están interesados ​​en otras culturas o idiomas. A lo largo de su trabajo y viajes, los chinos siempre han sido corteses y hospitalarios, deteniéndose no solo para hacer convesaciones cortar, sino haciendo todo lo posible por ayudar a un extranjero en problemas, incluso si el extranjero no habla chino. 
+                                        </p>
+                                            <div class="publication_link hidden-sm-down"> <a href="http://www.lrt.lt/mediateka/irasas/160469/paieska/%23/content/lina%2520ciapaite" target="blank">Read More </a> </div>
+                                            <div class="publication_date hidden-sm-down">
+                                                <date> January 20th, 2017 </date>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section" id="brochure">
+                    <div class="row">
+                        <div class="col-md-6 col-xs-12">
+                            <h3 class="text-uppercase level2-main-title"> BROCHURE </h3>
+                        </div>
+                        <div class="col-md-6"> <img src="home-images/why_us/brochure/main-brochure.jpg" alt="main image" class=" img-fluid main-image mobile"> </div>
+                    </div>
+                    <div class="row publication-intro-margin">
+                        <div class="col-md-6">
+                            <p class="publication-intro-content"> Download our brochure for a quick glance at LITAO & what we do.
+                                <br>
+                                <br> Share if you like what you see :)
+                                <span class="break"></span>
+                                <a href="../LITAO Company Profile.pdf" class="brochure_pdf" download><b>LITAO COMPANY PROFILE</b></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class=" col-xs-11 col-md-10 offset-xs-1">
+                    <div class="row">
+                        <div class="col-md-6 left">
+                            <p class="call-to-action"><b>Talk to us—you won’t regret it</b></p>
+                            <ul>
+                                <li> Tel: 021-51061063 </li>
+                            </ul>
+                            <a href="mailto:lina@litao.lt">
+                                <button class="color-red">CONTACT</button>
+                            </a>
+                        </div>
+                        <div class="col-md-6 right">
+                            <ul>
+                                <li><a class="color-red" href="./about_us.html">ABOUT US</a></li>
+                                <li><a class="color-red" href="./our_work.html">OUR WORK</a></li>
+                                <li><a class="color-red" href="./why_us.html">WHY US</a></li>
+                                <li><a class="color-red" href="./crossing_cultures.html">CROSSING CULTURES</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row page-bottom">
+                        <div class="col-md-6">
+                            <p style="float: left;">Guangfu rd. 195, Suite 306, Jing'an district, Shanghai</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p style="float: right;"> © 2019, LITAO. All rights reserved. <a href="mailto:labas@litao.lt">labas@litao.lt</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- </div> -->
+    </footer>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrollreveal.min.js"></script>
+    <script src="js/js_script-v02.js"></script>
+    <script type="text/javascript">
+    $(document).ready(removeCollapse);
+    $(window).on('resize', removeCollapse);
+
+    function removeCollapse() { var isMobile = window.matchMedia("only screen and (min-width: 768px)"); if (isMobile.matches) { $('.mobile_collapse').removeAttr('data-toggle'); } } $(document).ready(function() { $('.collapse').on('show.bs.collapse', function(e) { $('.collapse').collapse("hide") }) })
+    </script>
+    <script type="text/javascript">
+    $('body').scrollspy({ target: '#why_us-navigation' });
+    window.sr = ScrollReveal({ reset: true });
+    sr.reveal('.publication_link', { duration: 400 });
+    sr.reveal('.img-fluid', { duration: 500 });
+    sr.reveal('.level2-main-title', { duration: 700 }, 30);
+    sr.reveal('#our_guanxi .card', { duration: 700 }, 30);
+    sr.reveal('.level2-titles-box-line', { duration: 800 });
+    sr.reveal('.level2-titles-box-pic-square', { duration: 900 });
+    </script>
+</body>
+
+</html>
