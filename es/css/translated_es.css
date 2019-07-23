@@ -1,7 +1,7 @@
 #useful_resources .collapsable_plus.added:before {
-    content: 'SLĖPTI -';
+    content: 'OCULTAR -';
 }
 
 #useful_resources .collapsable_plus:before {
-    content: 'DAUGIAU +';
+    content: 'LEER MÁS +';
 }
