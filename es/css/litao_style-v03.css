@@ -3066,7 +3066,7 @@ footer .page-bottom .col-md-6 {
     }
 
     #recognitions .level2-main-title {
-        font-size: 34px;
+        font-size: 26px;
     }
 
     #recognitions .level2-titles-box-line {
@@ -3649,6 +3649,11 @@ footer .page-bottom .col-md-6 {
     .l3-boxes-in {
         margin-top: 0px;
     }
+
+    #recognitions .main-image {
+        margin-top: 9em;
+
+    }
 }
 
 @media only screen and (min-width:992px) {
@@ -3947,6 +3952,10 @@ footer .page-bottom .col-md-6 {
 
     .header-lang {
         right: 30px;
+    }
+
+    #recognitions .main-image {
+        margin-top: -7em;
     }
 
     /*.vision_picture, .values_picture-compassion{margin-left: -8em;}*/

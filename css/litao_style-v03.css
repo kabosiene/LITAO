@@ -592,6 +592,7 @@ section {
     -webkit-transition-delay: 0s;
     transition-delay: 0s
 }
+
 .carousel-item .carousel-text-mobile {
     position: absolute;
     top: 30%;
@@ -601,7 +602,7 @@ section {
     color: #fff;
     background: rgb(0, 0, 0, .6);
     padding: 10px;
- }
+}
 
 .about-china-img {
     background: url(../home-images/crossing_cultures_home.jpg) no-repeat center center;
@@ -3523,6 +3524,11 @@ footer .page-bottom .col-md-6 {
     .l3-boxes-in {
         margin-top: 0
     }
+
+    #recognitions .main-image {
+        margin-top: 9em;
+
+    }
 }
 
 @media only screen and (min-width:992px) {
@@ -3717,6 +3723,10 @@ footer .page-bottom .col-md-6 {
         font-size: 1.2vw;
         padding-top: 1vw;
         padding-right: 2vw
+    }
+
+    #recognitions .main-image {
+        margin-top: -7em;
     }
 }
 
