@@ -1,0 +1,7 @@
+#useful_resources .collapsable_plus.added:before {
+    content: '隐藏 -';
+}
+
+#useful_resources .collapsable_plus:before {
+    content: '阅读更多 +';
+}

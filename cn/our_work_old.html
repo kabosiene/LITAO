@@ -1,0 +1,1207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>LITAO</title>
+    <link href="css/font.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="../css/litao_style-v03.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="icons_logo/logo.png"> </head>
+
+<body data-spy="scroll" data-target="#our_work-navigation" data-offset="0">
+    <header class="header" id="header">
+        <div class=" hidden-md-up litao_logo-black"> 
+            <a href="index.html#home"> <img src="icons_logo/logo-black-transparent.png"> </a> 
+        </div> 
+        <a id="nav-toggle" onclick="openNav()" href="javascript:void(0)"> <span></span> 
+        </a>
+        <div id="mySidenav" class="sidenav">
+            <div class="sidenav-links" id="myMenu" onclick="closeNav()"> <a data-menuanchor="home" class="sidenav_link home-menu" href="index.html#home" style="width: 0;"> 主页 </a>
+                <br>
+                <div class=""> <a data-menuanchor="about_us" class="sidenav_link about-menu" href="index.html#about_us" style="width: 0;"> 关于我们 </a>
+                    <div class="main-submenu">
+                        <ul id="about_us-id" class="about_us-submenu" style="display: none;">
+                            <li class="intro-left-v animated-fast2 fadeIn"> 
+                                <a class="border_link" href="about_us.html#nameandlogo"> <span class="border-text">名称和标志</span> </a> 
+                            </li>
+                            <li class="intro-left-v animated-fast3 fadeIn"> 
+                                <a class="border_link" href="about_us.html#team"> <span class="border-text">我们的团队</span> </a> 
+                            </li>
+                            <li class="intro-left-v animated-fast4 fadeIn"> 
+                                <a class="border_link" href="about_us.html#founder"> <span class="border-text">创始人</span> </a> 
+                            </li>
+                            <li class="intro-left-v animated-fast5 fadeIn"> <a class="border_link" href="about_us.html#values"> <span class="border-text"> 价值观&nbsp;/&nbsp;使命&nbsp;/&nbsp;愿景 </span> </a> </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class=""> <a data-menuanchor="our_work" class="active sidenav_link work-menu" href="index.html#our_work" style="width: 0;"> 我们的工作 </a>
+                    <div class="main-submenu">
+                        <ul id="our_work-id" class="our_work-submenu " style="display: none;">
+                            <li class="intro-left-v animated-fast2 fadeIn"> <a class="border_link" href="our_work.html#services"><span class="border-text">我们的服务</span> </a> </li>
+                            <li class="intro-left-v animated-fast3 fadeIn"> <a class="border_link" href="our_work.html#case_studies"><span class="border-text">案例学习</span> </a> </li>
+                            <li class="intro-left-v animated-fast4 fadeIn"> <a class="border_link" href="our_work.html#process"><span class="border-text">业务流程</span> </a> </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class=""> <a data-menuanchor="why_us" class="sidenav_link why-menu" href="index.html#why_us" style="width: 0;"> 我们的优势 </a>
+                    <div class="main-submenu">
+                        <ul id="why_us-id" class="why_us-submenu " style="display: none;">
+                            <li class="intro-left-v animated-fast1 fadeIn"> <a class="border_link" href="why_us.html#experience_litao"> <span class="border-text">体验黎涛</span> </a> </li>
+                            <li class="intro-left-v animated-fast2 fadeIn"> <a class="border_link" href="why_us.html#our_guanxi"> <span class="border-text">我们的关系</span> </a> </li>
+                            <li class="intro-left-v animated-fast3 fadeIn"> <a class="border_link" href="why_us.html#recognitions"> <span class="border-text">荣誉榜</span> </a> </li>
+                            <li class="intro-left-v animated-fast4 fadeIn"> <a class="border_link" href="why_us.html#brochure"> <span class="border-text">宣传手册</span> </a> </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class=""> <a data-menuanchor="crossing_cultures" class="sidenav_link china-menu" href="index.html#crossing_cultures" style="width: 0;"> 跨文化 </a>
+                    <div class="main-submenu">
+                        <ul id="crossing_cultures-id" class="crossing_cultures-submenu " style="display: none;">
+                            <li class="intro-left-v animated-fast2 fadeIn"> <a class="border_link" href="crossing_cultures.html#raq"> <span class="border-text">絮语有问</span> </a> </li>
+                            <li class="intro-left-v animated-fast3 fadeIn"> <a class="border_link" href="crossing_cultures.html#useful_resources"> <span class="border-text">絮语有问</span> </a> </li>
+                            <li class="intro-left-v animated-fast4 fadeIn"> <a class="border_link" href="http://litao.lt/blog"> <span class="border-text">博客</span> </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div> <a class="sidenav_link contact-menu" href="connect_with_us.html" style="width: 0;"> 联系&nbsp;我们 </a> </div>
+            <div class="color-green" id="menu-footer">
+                <div class="menu-footer_content">  © 2019, 黎涛. 版权所有 <a href="mailto:nihao@litao.lt">nihao@litao.lt</a> </div>
+            </div>
+        </div>
+        <div class="header-lang nav">
+            <div class="row">
+                <div class="header-lang-item nav-item col-sm-6 col-xs-4"> <a href="#" title="LITAO" class="header-lang-link nav-link active" data-page=""> <span class="header-lang-text">CH</span> </a> </div>
+                <div class="header-lang-item  nav-item col-sm-6 col-xs-4"> <a href="../our_work.html" title="LITAO" class="header-lang-link nav-link" data-page=""> <span class="header-lang-text">EN</span> </a> </div>
+                <div class="header-lang-item hidden-sm-up  nav-item col-xs-4"> <a href="../lt/our_work.html" title="LITAO" class="header-lang-link nav-link" data-page=""> <span class="header-lang-text">LT</span> </a> </div>
+            </div>
+            <div class="row hidden-xs-down">
+                <div class="header-lang-item  nav-item offset-sm-6"> <a href="../lt/our_work.html" title="LITAO" class="header-lang-link nav-link" data-page=""> <span class="header-lang-text">LT</span> </a> </div>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid page_id" id="our_work_id">
+        <div class=" hidden-sm-down side-border color-green">
+            <div class="logo-white-round"> <a href="index.html#home"> <img src="icons_logo/logo-white-round.png"> </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-1 " id="our_work-navigation" role='navigation'>
+                <ul class="nav submenu" role="tablist">
+                    <li class="intro-left-v nav-item"> <a class="nav-link rotated-links " href="index.html#our_work"> <span class="border-text">介绍</span> </a> </li>
+                    <li class="intro-left-v nav-item"> <a class="nav-link rotated-links active" href="#services"> <span class="border-text">我们的服务</span> </a> </li>
+                    <li class="intro-left-v nav-item"> <a class="nav-link rotated-links " href="#case_studies"> <span class="border-text">案例学习</span> </a> </li>
+                    <li class="intro-left-v nav-item"> <a class="nav-link rotated-links" href="#process"> <span class="border-text">业务流程</span> </a> </li>
+                </ul>
+            </div>
+            <div class="col-xs-11 col-md-10 ">
+                <div class="section" id="services">
+                    <div class="row">
+                        <div class="col-md-6 col-xs-12">
+                            <h3 class="text-uppercase level2-main-title"> 我们的 <br> 服务 </h3>
+                            <div class="level2-titles-box-margin">
+                                <div class="level2-titles-box">
+                                    <p class="lead"> 我们为企业提供在中国市场的一系列服务，所有涉及区块。我们为您维护企业形象、进货渠道、收款方式，甚至是远景规划。 </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6"> <img src="home-images/our_work/services/main-services.jpg" alt="main image" class="img-fluid main-image mobile"> </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="content-main"> 简而言之，我们愿意投资您的未来。我们提供的服务不仅帮您分辨机遇与雷区，更将帮助您真实理解中国市场，让您更好的服务自我。 </p>
+                        </div>
+                    </div>
+                    <div class="row folding-section">
+                        <div class="folding-section_heading color-green" data-toggle="collapse" data-target="#s1"> <span class="collapsable_plus color-red"></span>
+                            <div class="flex-column">
+                                <div class="folding-section_heading_title"> 法律咨询 </div>
+                                <div class="folding-section_heading_subtitle color-red"> 一站式政府机构相关服务 </div>
+                            </div>
+                        </div>
+                        <div id="s1" class="collapse">
+                            <div class="row folding-section_content">
+                                <div class="col-md-6">
+                                    <div class="level2-titles-box-margin">
+                                        <div class="level2-titles-box"> <img class="level2-titles-box-line" src="home-images/about_us/black_title_line.png" alt=""> <img class="level2-titles-box-pic-square" src="home-images/about_us/green-rectangle.png" alt="">
+                                            <h4 class="text-uppercase level2-titles">法律咨询</h4> <span class="subtitle">一站式政府机构相关服务</span> </div>
+                                    </div>
+                                    <div class="listing"> <span class="list-title"><b> 服务包括：</b></span>
+                                        <ul class="services-list">
+                                            <li><span class="li-content">公司以及商标注册</span> </li>
+                                            <li><span class="li-content">合资企业，企业并购，公司转让</span> </li>
+                                            <li><span class="li-content">进出口条例</span> </li>
+                                            <li><span class="li-content">海关信息以及一致性报告</span> </li>
+                                            <li><span class="li-content">法律问题明确</span> </li>
+                                            <li><span class="li-content">工作签证申请</span> </li>
+                                            <li><span class="li-content">雇佣以及合伙人合同</span> </li>
+                                            <li><span class="li-content">尽职调查和审查</span> </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="content_title-margin">
+                                        <h5 class="content_title">描述<br>和服务</h5> <img class="img-fluid services_green-circle" src="home-images/about_us/green-circle.png" alt="square"> </div>
+                                    <p class="content"> 为您领航公司、商标注册，海关信息，签证，进出口条例，合同谈判、监督，审查以及其他形式的尽职调查，中国网域法规——及其他政府机构相关，牵绊企业运作的繁文缛节。我们的咨询服务将始终以保护您公司的最佳利益为前提。 </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6"> <img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
+                                    <h6>法律咨询为什么非常重要？</h6>
+                                    <p class="content"> 中国司法系统的复杂程度早就名声在外，常常会让外国人觉得匪夷所思。在中国，现实情况是，几张文件是不可能永远保护你的。参考以下： </p>
+                                    <ul class="important-list">
+                                        <li><span class="li-content"> <a href="#" data-toggle="collapse" data-target="#c11" target="blank"><b>除非你有相关人脉</b>，否则你可能永远都不知道没有满足哪条法规</a>。在过去的六年时间里，我们就深有体会——这也是为什么我们雇佣了相关专家。</span> </li>
+                                        <li><span class="li-content"><b>不要认为在中国做生意可以说干就干。</b> <ahref="#" data-toggle="collapse" data-target="#c12" target="blank">贸易批准过程比你预期的更为复杂和耗时，对于大企业也是一样。</a></span> </li>
+                                        <li><span class="li-content"><a href="#" data-toggle="collapse" data-target="#c13" target="blank"><b>知识产权在中国的运作方式截然不同</b></a>，当有中国公司先注册了名称或技术后，注册优先制系统就可以让国外企业付出数以百万美元的诉讼代价。</span> </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6"> <img src="home-images/our_work/services/legal_advice.jpg" class="img-fluid picture">
+                                    <div class="links_to_cases">
+                                        <p class="content"> <a href="#" data-toggle="collapse" data-target="#c14" target="blank"><b>了解黎涛如何帮助商标被盗客户的案例：即将上线</b></a> </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row folding-section">
+                        <div class="folding-section_heading color-green" data-toggle="collapse" data-target="#s2"> <span class="collapsable_plus color-red"></span>
+                            <div class="flex-column">
+                                <div class="folding-section_heading_title"> 品牌发展 </div>
+                                <div class="folding-section_heading_subtitle color-red"> 公众形象 </div>
+                            </div>
+                        </div>
+                        <div id="s2" class="collapse">
+                            <div class="row folding-section_content">
+                                <div class="col-md-6">
+                                    <div class="level2-titles-box-margin">
+                                        <div class="level2-titles-box"> <img class="level2-titles-box-line" src="home-images/about_us/black_title_line.png" alt=""> <img class="level2-titles-box-pic-square" src="home-images/about_us/green-rectangle.png" alt="">
+                                            <h4 class="text-uppercase level2-titles">品牌发展 </h4> <span class="subtitle">公众形象</span> </div>
+                                    </div>
+                                    <div class="listing"> <span class="list-title"><b> 服务包括 :</b></span>
+                                        <ul class="services-list">
+                                            <li><span class="li-content">品牌重塑和中国推广</span> </li>
+                                            <li><span class="li-content">企业目录和介绍</span> </li>
+                                            <li><span class="li-content">深度市场调查</span> </li>
+                                            <li><span class="li-content">消费者调研</span> </li>
+                                            <li><span class="li-content">公关策略</span> </li>
+                                            <li><span class="li-content">SEO 优化</span> </li>
+                                            <li><span class="li-content">社交媒体策略</span> </li>
+                                            <li><span class="li-content">内容发展</span> </li>
+                                            <li><span class="li-content">设计，公司标志，广告语</span> </li>
+                                            <li><span class="li-content">广告策划</span> </li>
+                                            <li><span class="li-content">微信公众号开发</span> </li>
+                                            <li><span class="li-content">电子邮件和新闻推广</span> </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="content_title-margin">
+                                        <h5 class="content_title">描述<br>和服务</h5> <img class="img-fluid services_green-circle" src="home-images/about_us/green-circle.png" alt="square"> </div>
+                                    <p class="content"> <b>品牌发展的基本形式:</b>
+                                        <br>
+                                        <br> 详尽的客户认知，市场调查和竞争对手分析，并以此建立一个站得住脚的，有文化背景支持的市场计划。我们将商务、文化、心理学、新型和传统媒介、本地和国际趋势融合，向您提供基于市场的最新视角——如何才能最好的呈现您的产品。本项服务也可能包含设计、当地商标、名称和广告语筹划。 </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6"> <img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
+                                    <h6>品牌发展为什么非常重要 ?</h6>
+                                    <p class="content">品牌是您向世界传递的信息。当您将信息翻译成另一门语言，到另一个国家去时，不要认为简单的复制黏贴就可以和当地的人们连接起来。 </p>
+                                    <ul class="important-list">
+                                        <li><span class="li-content">让星巴克成功打入一个拥有千年茶文化市场，是将咖啡作为彰显西方身份的推广。这种推广和咖啡本身并没有关联。</span> </li>
+                                        <li><span class="li-content">在其他市场有效的策略也许在中国行不通，但中国文化也提供了许多特别的推广机会。保洁通过将穿帮宝适的孩子塑造为睡眠更优，更聪明的方式，成就了一场别出心裁的市场推广运动，成功在中国开始了一次性尿布的销售。显然，这样的策略对中国家长非常有效。</span> </li>
+                                        <li><span class="li-content">没有本地化的官方品牌名称，中国消费者有可能为品牌起绰号，让品牌掉价。一般通过公司标志来起绰号，桂格成了“老人牌”，拉夫尔·劳伦则成了“三脚马”。</span> </li>
+                                        <li><span class="li-content">与此同时，当品牌推广成功的时候，效果是非凡的：可口可乐的中国员工花了一整年时间，才发明了一个从中文语音和意义上都十分具有感染力的名称。</span> </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6"> <img src="home-images/our_work/services/brand_development.jpg" class="img-fluid picture">
+                                    <div class="links_to_cases">
+                                        <p class="content"><b>了解阅读黎涛如何重塑一款文化产品并使其符合中国文化：即将上线</b> </p>
+                                        <p class="content"><b>了解黎涛如何将一款面向大众市场的产品在中国市场精品化：即将上线</b> </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row folding-section">
+                        <div class="folding-section_heading color-green" data-toggle="collapse" data-target="#s3"> <span class="collapsable_plus color-red"></span>
+                            <div class="flex-column">
+                                <div class="folding-section_heading_title"> 交流 </div>
+                                <div class="folding-section_heading_subtitle color-red"> 翻译所获 </div>
+                            </div>
+                        </div>
+                        <div id="s3" class="collapse">
+                            <div class="row folding-section_content">
+                                <div class="col-md-6">
+                                    <div class="level2-titles-box-margin">
+                                        <div class="level2-titles-box"> <img class="level2-titles-box-line" src="home-images/about_us/black_title_line.png" alt=""> <img class="level2-titles-box-pic-square" src="home-images/about_us/green-rectangle.png" alt="">
+                                            <h4 class="text-uppercase level2-titles">交流</h4> <span class="subtitle">翻译所获</span> </div>
+                                    </div>
+                                    <div class="listing"> <span class="list-title"><b> 服务包括 :</b></span>
+                                        <ul class="services-list">
+                                            <li><span class="li-content">翻译和口译，非正式口译、高级口译</span> </li>
+                                            <li><span class="li-content">商务谈判</span> </li>
+                                            <li><span class="li-content">会展代表</span> </li>
+                                            <li><span class="li-content">贸易代表团</span> </li>
+                                            <li><span class="li-content">商务配对</span> </li>
+                                            <li><span class="li-content">企业关系</span> </li>
+                                            <li><span class="li-content">本地队伍建立</span> </li>
+                                            <li><span class="li-content">销售培训</span> </li>
+                                            <li><span class="li-content">中国招聘</span> </li>
+                                            <li><span class="li-content">雇员交流</span> </li>
+                                            <li><span class="li-content">网络红人营销</span> </li>
+                                            <li><span class="li-content">虚拟和现实办公室建立</span> </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="content_title-margin">
+                                        <h5 class="content_title">描述<br>和服务</h5> <img class="img-fluid services_green-circle" src="home-images/about_us/green-circle.png" alt="square"> </div>
+                                    <p class="content"> 笔译，口译，谈判，会展代表，商务配对和企业关系建立。依靠多年在中国官方代表国外企业的经验，黎涛助您得到最佳协议，找到潜在合作伙伴，客户，和雇员，带领您找到中国投资者以及其他机遇。 </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6"> <img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
+                                    <h6>交流为什么非常重要 ?</h6>
+                                    <p class="content"> 没有人会用谷歌翻译来翻译商务文件；因为只有人类理解文件的真实含义。在不同文化间的谈判中，翻译的位置举足轻重。 </p>
+                                    <ul class="important-list">
+                                        <li><span class="li-content"> 口译绝不能草率，因为口译员或好或坏代表着客户。中国顶尖领导人的口译员就已被提名为世界最具权威女性之一。</span> </li>
+                                        <li><span class="li-content"> 一点细节就可能导致全盘皆输。美国国务院和希拉里克林顿就曾经因为用错一个俄罗斯语的单词，让本该是友好的信号变成了让人尴尬的失误。</span> </li>
+                                        <li><span class="li-content"> 在中国，友谊胜过传统的商务逻辑。曾有一群外国人接手了一家中国连锁旅馆，快速优化了西方的绩效值，但忽略了关系：一种缓慢的，本地的培养联系人或关系的过程。很快这群外国人就失去了他们所有的客户群。</span> </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6"> <img src="home-images/our_work/services/communication.jpg" class="img-fluid picture">
+                                    <div class="links_to_cases">
+                                        <p class="content"><b> 黎涛曾为立陶宛到中国的外交访问进行口译，获得高度赞赏：即将上线</b> </p>
+                                        <p class="content"><b> 黎涛在为期三天的儿童书展为客户成功配对，出售版权：即将上线</b> </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row folding-section">
+                        <div class="folding-section_heading color-green" data-toggle="collapse" data-target="#s4"> <span class="collapsable_plus color-red"></span>
+                            <div class="flex-column">
+                                <div class="folding-section_heading_title"> 供应侧支持 </div>
+                                <div class="folding-section_heading_subtitle color-red"> 自下而上 </div>
+                            </div>
+                        </div>
+                        <div id="s4" class="collapse">
+                            <div class="row folding-section_content">
+                                <div class="col-md-6">
+                                    <div class="level2-titles-box-margin">
+                                        <div class="level2-titles-box"> <img class="level2-titles-box-line" src="home-images/about_us/black_title_line.png" alt=""> <img class="level2-titles-box-pic-square" src="home-images/about_us/green-rectangle.png" alt="">
+                                            <h4 class="text-uppercase level2-titles">供应侧支持</h4> <span class="subtitle">自下而上</span> </div>
+                                    </div>
+                                    <div class="listing"> <span class="list-title"><b> 服务包括 :</b></span>
+                                        <ul class="services-list">
+                                            <li><span class="li-content">联系厂商</span> </li>
+                                            <li><span class="li-content">采购</span> </li>
+                                            <li><span class="li-content">收集样品</span> </li>
+                                            <li><span class="li-content">配送渠道分析</span> </li>
+                                            <li><span class="li-content">物流运作</span> </li>
+                                            <li><span class="li-content">品质监控</span> </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="content_title-margin">
+                                        <h5 class="content_title">描述<br>和服务</h5> <img class="img-fluid services_green-circle" src="home-images/about_us/green-circle.png" alt="square"> </div>
+                                    <p class="content"> 不同的商业拥有不同的渠道，我们提供生产商，供应链管理，经销渠道分析，以及其他负责采购和物流运作的联系人清单，为您提供便捷。供应侧的质量监控和尽职责任调查可以为您的产品质量提供保障。零售，不必繁琐。 </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6"> <img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
+                                    <h6>交流为什么非常重要 ?</h6>
+                                    <p class="content"> 供应侧的尽职调查尤其重要；因为这些人正是创造和传递您的产品的人。 </p>
+                                    <ul class="important-list">
+                                        <li><span class="li-content"> 生产商和物流人员经常通过子虚乌有的规则来将您引入<a href="" target="blank">不公平的协议</a> 您需要了解什么方案对双方有利，不仅是有利对方。 </span> </li>
+                                        <li><span class="li-content"> 作为可见商标所有人，产品质量口碑影响您多过影响您的供应商。当质量出现问题时，<a href="" target="blank">您的整个国际信誉都将陷入危机。</a> </span> </li>
+                                        <li><span class="li-content"> 产品到消费者手中的过程和产品本身一样重要。哈根达斯确保品质的方式是，<a href="Häagen-Dasz " target="blank">在卡车和仓库安装品牌自己的低温冷柜。</a> </span> </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6"> <img src="home-images/our_work/services/supply_side.jpg" class="img-fluid picture">
+                                    <div class="links_to_cases">
+                                        <p class="content"> 黎涛从零开始，为一家保温杯厂商进行供应商搜索，生产以及品质查验工作: 即将上线 </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row folding-section">
+                        <div class="folding-section_heading color-green" data-toggle="collapse" data-target="#s5"> <span class="collapsable_plus color-red"></span>
+                            <div class="flex-column">
+                                <div class="folding-section_heading_title"> 策略 </div>
+                                <div class="folding-section_heading_subtitle color-red"> 商务的艺术 </div>
+                            </div>
+                        </div>
+                        <div id="s5" class="collapse">
+                            <div class="row folding-section_content">
+                                <div class="col-md-6">
+                                    <div class="level2-titles-box-margin">
+                                        <div class="level2-titles-box"> <img class="level2-titles-box-line" src="home-images/about_us/black_title_line.png" alt=""> <img class="level2-titles-box-pic-square" src="home-images/about_us/green-rectangle.png" alt="">
+                                            <h4 class="text-uppercase level2-titles"> 策略 </h4> <span class="subtitle">商务的艺术</span> </div>
+                                    </div>
+                                    <div class="listing"> <span class="list-title"><b> 服务包括 :</b></span>
+                                        <ul class="services-list">
+                                            <li><span class="li-content">深度地理区块分析</span> </li>
+                                            <li><span class="li-content">本地化策略</span> </li>
+                                            <li><span class="li-content">竞争者分析</span> </li>
+                                            <li><span class="li-content">市场概括报告</span> </li>
+                                            <li><span class="li-content">消费者和定价调研</span> </li>
+                                            <li><span class="li-content">机遇辨别</span> </li>
+                                            <li><span class="li-content">销售计划</span> </li>
+                                            <li><span class="li-content">本地队伍建立和培训</span> </li>
+                                            <li><span class="li-content">长期计划</span> </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="content_title-margin">
+                                        <h5 class="content_title">描述<br>和服务</h5> <img class="img-fluid services_green-circle" src="home-images/about_us/green-circle.png" alt="square"> </div>
+                                    <p class="content"> 我们用市场调查和文化背景来建立本地化综合企业策略。其中包括深度产业分析，销售计划，机遇辨别，和市场概况报告——有远见的战略行动计划将助您更顺利、更智慧的扩张。本项也可包括当地队伍建立和培训，培训所有雇员学习全方位战略。 </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6"> <img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
+                                    <h6>交流为什么非常重要 ?</h6>
+                                    <p class="content"> 许多企业因为细节倒闭，但需知道青山仍在。 </p>
+                                    <ul class="important-list">
+                                        <li><span class="li-content"> 在一个国家，甚至大多数国家成功的方法，到中国可能就行不通了。高朋网取得了国际性的成功，不过到中国，<a href="groupon" target="blank">由于山寨的盛行败给了本地的竞争者。</a>采取用于德国的战略并没有帮助，而且在高鹏高级管理团队里，仅有一人来自中国大陆。</span> </li>
+                                        <li><span class="li-content"> 如果您的目标不仅是短期漂浮，而是要占据一席之地，您就需要设身处地的制定<a href="win-win strategy" target="blank">双赢策略。</a> 雀巢之所以在中国如此成功，部分原因是发展了本地策略，与地区农民分享牛奶的专业知识，铺平未来的道路，并在中国赈灾时捐款数以百万人民币。 </span> </li>
+                                        <li><span class="li-content">正确的长期策略，将帮你<a href="lawn seeds" target="blank">撒下未来需求的种子。</a>中国本来并没有草坪种植文化，直到为美国草种公司工作的中国女商人朱津宁向农民们提出，如果他们种美国的草种，可以把种出来的草卖回给公司。在此过程中，美国的专家指导中国农民如何种植品质好的种子，意外地，农民们看到了美国草的价值，于是开始向美国公司直接购买草种。 </span> </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6"> <img src="home-images/our_work/services/nestle.jpg" class="img-fluid picture">
+                                    <div class="links_to_cases">
+                                        <p class="content">黎涛在线上购物的年代向杂货零售链提供了真正本地化的策略： 即将上线 </p>
+                                        <p class="content">黎涛帮助瓶装水公司将自己与竞争者区分开，辨别何时进入中国： 即将上线 </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row folding-section">
+                        <div class="folding-section_heading color-green" data-toggle="collapse" data-target="#s6"> <span class="collapsable_plus color-red"></span>
+                            <div class="flex-column">
+                                <div class="folding-section_heading_title"> 销售和财务 </div>
+                                <div class="folding-section_heading_subtitle color-red"> 金钱 </div>
+                            </div>
+                        </div>
+                        <div id="s6" class="collapse">
+                            <div class="row folding-section_content">
+                                <div class="col-md-6">
+                                    <div class="level2-titles-box-margin">
+                                        <div class="level2-titles-box"> <img class="level2-titles-box-line" src="home-images/about_us/black_title_line.png" alt=""> <img class="level2-titles-box-pic-square" src="home-images/about_us/green-rectangle.png" alt="">
+                                            <h4 class="text-uppercase level2-titles"> 销售和财务 </h4> <span class="subtitle">金钱</span> </div>
+                                    </div>
+                                    <div class="listing"> <span class="list-title"><b> 服务包括 :</b></span>
+                                        <ul class="services-list">
+                                            <li><span class="li-content">销售计划和联系人发展</span> </li>
+                                            <li><span class="li-content">销售培训</span> </li>
+                                            <li><span class="li-content">银行以及转账管理</span> </li>
+                                            <li><span class="li-content">每日会计信息更新</span> </li>
+                                            <li><span class="li-content">银行对账单</span> </li>
+                                            <li><span class="li-content">对账</span> </li>
+                                            <li><span class="li-content">金融计划</span> </li>
+                                            <li><span class="li-content">投资和回报率计算</span> </li>
+                                            <li><span class="li-content">税务和费用处理</span> </li>
+                                            <li><span class="li-content">社保注册</span> </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="content_title-margin">
+                                        <h5 class="content_title">描述<br>和服务</h5> <img class="img-fluid services_green-circle" src="home-images/about_us/green-circle.png" alt="square"> </div>
+                                    <p class="content"> 从定价调研到合同谈判，再到国外及国内会计，我们可以在您收取资金前后以及过程中控制进程。在一个货币没有完全国际化，Visa和Mastercard不是主流的国家，跨境支付相对简单。黎涛支持操作中国地区银行事务，互联网支付计划（包括微信和支付宝），离岸账户，记账，ROI后续，附加税和其他税率计算，及其他服务。 </p>
+                                </div>
+                                <div class="col-md-6"> <img src="home-images/crossing_cultures/question-mark.png" class="img-fluid question-mark">
+                                    <h6>交流为什么非常重要 ?</h6>
+                                    <p class="content"></p>
+                                    <ul class="important-list">
+                                        <li><span class="li-content"> 人民币还未完全成为国际货币，因此必须转换。<a href="Getting money in and out of China" target="blank">将资金转入和转出中国</a>，需要运用流行的网络支付平台微信和支付宝，而这两样在世界其他国家很少使用。并且为了防止资金外流，中国正在缩紧企业转账审查。</span> </li>
+                                        <li><span class="li-content">金融诈骗，电话诈骗和互联网诈骗在中国盛行，<a href="mattle e-mail scam" target="blank">甚至玩具巨头美泰都曾因简单的邮件诈骗而损失三百万美元。</a> </span> </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6"> <img src="home-images/our_work/services/sales.jpg" class="img-fluid picture">
+                                    <div class="links_to_cases">
+                                        <p class="content"> 黎涛可靠的销售和收款方式，帮助肉类贸易客户在中国的第一个月就达成50万美元的销售额： 即将上线 </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row folding-section">
+                        <div class="folding-section_heading color-green" data-toggle="collapse" data-target="#s7"> <span class="collapsable_plus color-red"></span>
+                            <div class="flex-column">
+                                <div class="folding-section_heading_title"> 业界专家指导 </div>
+                                <div class="folding-section_heading_subtitle color-red"> 我们的专业领域 </div>
+                            </div>
+                        </div>
+                        <div id="s7" class="collapse">
+                            <div class="row folding-section_content">
+                                <div class="col-md-6 ">
+                                    <div class="level2-titles-box-margin ">
+                                        <div class="level2-titles-box "> <img class="level2-titles-box-line " src="home-images/about_us/black_title_line.png " alt=" "> <img class="level2-titles-box-pic-square " src="home-images/about_us/green-rectangle.png " alt=" ">
+                                            <h4 class="text-uppercase level2-titles "> 业界专家指导 </h4> <span class="subtitle ">我们的专业领域</span> </div>
+                                    </div>
+                                    <div class="listing "> <span class="list-title "><b> 服务包括 :</b></span>
+                                        <ul class="services-list ">
+                                            <li><span class="li-content ">产业概述报告</span> </li>
+                                            <li><span class="li-content ">专门行业分析</span> </li>
+                                            <li><span class="li-content ">网络红人联系</span> </li>
+                                            <li><span class="li-content ">神秘顾客经验</span> </li>
+                                            <li><span class="li-content ">行业联络信息和关系建立</span> </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 ">
+                                    <div class="content_title-margin ">
+                                        <h5 class="content_title ">描述<br>和服务</h5> <img class="img-fluid services_green-circle " src="home-images/about_us/green-circle.png " alt="square "> </div>
+                                    <p class="content "> 我们在食品和饮料，快消品，生产和设备，公众行业，教育服务，房地产以及其他/定制行业，具有多年一手经验。细节决定成败。 </p>
+                                </div>
+                            </div>
+                            <div class="row ">
+                                <div class="col-md-6 "> <img src="home-images/crossing_cultures/question-mark.png " class="img-fluid question-mark ">
+                                    <h6>交流为什么非常重要 ?</h6>
+                                    <p class="content "></p>
+                                    <ul class="important-list ">
+                                        <li><span class="li-content "> 不同的法规应用不同的产业，相对应的是不同机遇和难题。质量控制在食品和饮料，以及科技方面更为重要，而在中国，由于和公众行业有关，教育服务通常需要更多培养更多关系。</span> </li>
+                                        <li><span class="li-content "> 中国本土品牌<a href="blue moon detergent " target="blank ">蓝月亮凭借特殊的行业知识 </a>，在国际品牌纷繁的洗衣液市场脱颖而出。蓝月亮真正发现了洗衣液产业中一部分消费者的需要：手洗衣物专用洗涤剂。</span> </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6 "> <img src="home-images/our_work/services/expert.jpg " class="img-fluid picture ">
+                                    <div class="links_to_cases ">
+                                        <p class="content "> 点此阅读黎涛如何帮助定制钻石企业了解中国市场： 即将上线 </p>
+                                        <p class="content "> 点此阅读黎涛如何帮助海鲜生产巨头将产品改善符合中国食品饮料规范： 即将上线 </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row folding-section ">
+                        <div class="folding-section_heading color-green " data-toggle="collapse " data-target="#s8 "> <span class="collapsable_plus color-red "></span>
+                            <div class="flex-column ">
+                                <div class="folding-section_heading_title "> 快速咨询 </div>
+                                <div class="folding-section_heading_subtitle color-red "> 这里有捷径 </div>
+                            </div>
+                        </div>
+                        <div id="s8" class="collapse ">
+                            <div class="row folding-section_content ">
+                                <div class="col-md-6 ">
+                                    <div class="level2-titles-box-margin ">
+                                        <div class="level2-titles-box "> <img class="level2-titles-box-line " src="home-images/about_us/black_title_line.png " alt=" ">
+                                            <h4 class="text-uppercase level2-titles "> 快速咨询 </h4> <span class="subtitle ">这里有捷径</span> </div>
+                                    </div> <img src="home-images/crossing_cultures/question-mark.png " class="img-fluid question-mark "> </div>
+                                <div class="col-md-6 ">
+                                    <div class="content_title-margin ">
+                                        <h5 class="content_title ">描述<br>和服务</h5> <img class="img-fluid services_green-circle " src="home-images/about_us/green-circle.png " alt="square "> </div>
+                                    <p class="content "> <b> 还不确定自己在找什么，或是遇到了坎坷，不知所措？</b>
+                                        <br>
+                                        <br> 告诉我们，黎涛的中国专家团队可以为你指路。如果你已经明确了问题，那我们可以解答；如果你的问题还不确定，我们可以帮助明确。
+                                        <br>
+                                        <br> 现代的商务咨询并不复杂，也并非抽离环境的纸上谈兵。找个时间<a href="connect_with_us.html " class="color-red "><b>联系黎涛</b></a>解答你的问题 ，服务费用仅为50欧元/小时。 </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section" id="case_studies">
+                    <div class="row ">
+                        <div class="col-md-6 col-xs-12 ">
+                            <h3 class="text-uppercase level2-main-title "> 案例<br>学习 </h3>
+                            <div class="level2-titles-box-margin ">
+                                <div class="level2-titles-box ">
+                                    <p class="lead "> 从别人的错误里吸取经验，是最好的方法。 </p>
+                                    <p class="sublead color-red "> 历史总是惊人的相似，成功往往也是。 </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 "> <img src="home-images/our_work/case/DSC_2314-case-studies1.jpg " alt="main image " class=" img-fluid main-image mobile "> </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-md-12 ">
+                            <p class="content-main "> 我们搜集了一些企业为攻克中国市场所做过的案例，一些流芳百世，一些遗臭万年——这里有那些走上云端的策略和那些血淋淋的失误。知识来源于实践——我们不是空想家——所以，我们也会展示黎涛的真实案例。 </p>
+                        </div>
+                        <div class="col-xs-12 ">
+                            <p class="last-content "> 以史为鉴，重复辉煌。 </p>
+                        </div>
+                    </div>
+                    <!-- begins ************************************************* -->
+                    <div class="row folding-section ">
+                        <div class="folding-section_heading color-dark-green ">
+                            <div class="folding-section_heading_title "> 法律咨询 </div>
+                        </div>
+                        <div class="f-section ">
+                            <div class="folding-section_heading_subtitle color-green " data-toggle="collapse " data-target="#c11 "> <span class="collapsable_plus color-red "></span> <span class="subtitle color-red ">与海关规定不一致</span> </div>
+                            <div class="collapse " id="c11">
+                                <div class="row folding-section_content ">
+                                    <div class="col-md-6 ">
+                                        <div class="content_title-margin ">
+                                            <h5 class="content_title "> 与海关规定<br> 不一致</h5> <img class="img-fluid services_green-circle " src="home-images/about_us/green-circle.png " alt="square "> </div>
+                                        <p class="content "> 某美国企业，连续六年没有通过中国质检总局的审查。质检总局独立于海关总署外，坚持声称该产品的硝酸盐和亚硝酸盐含量超标——虽然进出口双方测试结果都显示含量并没有超标。 <span class="break "></span> 这家美国企业最后找到一家律所，来帮助和当地质监局协调，双边同时进行相同产品测试，对比结果。然而中国质检局只承认三类测试方法，其中两类美国人是从不使用的。于是双方同意采用第三种方法，选取相同的材料，通过了质检，这家公司才终于可以把货物运到中国来了。如果没有律所与当地质监局的关系，这家美国企业的产品大概还得在彼岸望洋兴叹着呢。 </p>
+                                    </div>
+                                    <div class="col-md-6 "> <img src="home-images/our_work/case/1._DSC_0023-trouble_with_customs_compliance.jpg " alt="image " class="photo_case img-fluid picture "> <span class="padding-from-top_20 "></span> <img src="home-images/our_work/case/eye.png " class="img-fluid eye ">
+                                        <h6>重点摘要</h6>
+                                        <p class="content "> 即使你认为一切就位，但仍然可能因为不可知的原因被禁止进入中国。这种时候，去找当地专家寻一下路子。采取的测试方法不会，检验标准也会有所不同。 </p> <a href="http://www.chinalawblog.com/2013/06/china-importation-101-part-iv-aqsiq.html " class="color-red more " target="blank ">阅读更多</a> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="f-section ">
+                            <div class="folding-section_heading_subtitle color-green " data-toggle="collapse " data-target="#c12 "> <span class="collapsable_plus color-red "></span> <span class="subtitle color-red ">漫长的贸易批准过程</span> </div>
+                            <div class="collapse " id="c12">
+                                <div class="row folding-section_content ">
+                                    <div class="col-md-6 ">
+                                        <div class="content_title-margin ">
+                                            <h5 class="content_title "> 漫长的<br>贸易批准过程</h5> <img class="img-fluid services_green-circle " src="home-images/about_us/green-circle.png " alt="square "> </div>
+                                        <p class="content "> 想要让一个产品通过贸易批准，过程可并不轻松，即使国家最高领导人出面也是一样 <span class="break "></span> 2014年俄罗斯对欧盟产品进行制裁，波兰的苹果贸易在一年时间内降低了将近20%，由本来的110万吨跌到了88万吨。在过去，波兰三分之一的苹果都是出口到俄罗斯去的。为了促进苹果贸易，波兰于2014年八月向中国提交进口苹果的贸易协定。 <span class="break "></span> 中国新鲜蔬果的进口批准特别严格；即使通常进口蔬果的污染风险更小，中国政府仍然十分看重水果进口，用常规对动物产品的严格程序来处理。所有的卫生和品质管理方案都要接受调整和检验，每个苹果都要做到可以追溯回原产地。 <span class="break "></span> 此项贸易协定最终在两年后，2016的6月定案——波兰总理亲自要求协定加快处理，两国国家首脑多次会议，以及一系列查验后。而据驻北京波兰大使馆称，实际上，这已经是同类欧盟国家进入中国市场最快的一次谈判了。 </p>
+                                    </div>
+                                    <div class="col-md-6 "> <img src="home-images/our_work/case/2._A-LONG-PROCESS-DSC_1721.jpg " alt="image " class="photo_case img-fluid picture "> <span class="padding-from-top_20 "></span> <img src="home-images/our_work/case/eye.png " class="img-fluid eye ">
+                                        <h6>重点摘要</h6>
+                                        <p class="content "> 申请贸易批准至少要做好等待一年以上的准备。若是没有做好充足准备，贸易批准可能会无限期推迟你的市场进入战略。还要记住：仅仅符合法规是不够的；因为法规时刻都可能改变。在这个案例中，虽然蔬果的品质检验标准严格程度较低，政府仍然用与动物产品相同的标准来处理。 <span class="break "></span> 较几十年前改革开放初期想要吸引外资的时期而言，由于众多外企都想入市，现在的法规严格了许多。 </p> <a href="http://www.chinadaily.com.cn/world/2016xivisitee/2016-06/21/content_25780358.htm " target="blank " class="color-red more ">阅读更多：中国日报</a>
+                                        <br> <a href="http://www.freshplaza.com/article/166531/Polish-apples-to-China-is-a-fact " class="color-red more " target="blank ">阅读更多：Fresh Plaza</a> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="f-section ">
+                            <div class="folding-section_heading_subtitle color-green " data-toggle="collapse " data-target="#c13 "> <span class="collapsable_plus color-red "></span> <span class="subtitle color-red ">苹果： 昂贵的商标盗窃案</span> </div>
+                            <div class="collapse " id="c13">
+                                <div class="row folding-section_content ">
+                                    <div class="col-md-6 ">
+                                        <div class="content_title-margin ">
+                                            <h5 class="content_title ">昂贵的商标 <br> 盗窃案</h5> <img class="img-fluid services_green-circle " src="home-images/about_us/green-circle.png " alt="square "> </div>
+                                        <p class="content "> 与欧盟，美国和大多数其他国家不同，中国的商标系统采用“申请优先制”。 <span class="break "></span> 像苹果这样的企业不得不支付数以百万美元进行诉讼和纠纷裁定，即使不是第一个发展该项技术的人，中国企业仍可以提前申请专利——只要他们是第一个将技术运用到中国市场的产品上去的就行了。 <span class="break "></span> 2012年七月，苹果向一个小供应商支付了六千万美元，购买当地中国公司抢注的“IPAD”商标。这一事件导致IPAD 2在中国延迟上市。之后，一个不为人知的创业公司又起诉苹果，赢得了 IPHONE 6和6Plus的智能手机设计专利。 <span class="break "></span> 在中国，外企经常会陷入知识产权纠纷，而法院通常会保护当地知识产权。市场上有这么多的企业，名称当然就得不到保障。相比前一年，2015年中国提出的专利申请增加了12.5%，商标申请增加18.2%，并且这些数字仍在持续增长。域名也是一样；当高朋网尝试注册groupon.cn和groupon.com.cn时，域名早被中国的山寨竞争者抢注，连公司名，标志，和网站设计都抄的一模一样。高鹏对此山寨行为没有任何办法，只得选用认知度低的多的域名。 </p>
+                                    </div>
+                                    <div class="col-md-6 "> <img src="home-images/our_work/case/3._DSC_4120-COSTLY-TRADEMARK-THEFT.jpg " alt="image " class="photo_case img-fluid picture "> <span class="padding-from-top_20 "></span> <img src="home-images/our_work/case/eye.png " class="img-fluid eye ">
+                                        <h6>重点摘要</h6>
+                                        <p class="content "> 在申请优先制下，要保护商标，动作一定要快，甚至在公司涉足中国之前就要做好。依照我们的经验，外企成功注册一个商标需要约18个月的时间——考虑到如果出了乱子在诉讼中花费的时间和金钱，这十八个月可值得多了。 </p> <a href="http://www.ebnonline.com/author.asp?section_id=1056&doc_id=281039 " class="color-red more ">阅读更多: EbnoOnline</a>
+                                        <br> <a href="http://chinadigitaltimes.net/2011/03/groupon-chases-china/ " class="color-red more ">阅读更多: China Digital Times</a> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="f-section ">
+                            <div class="folding-section_heading_subtitle color-green " data-toggle="collapse " data-target="#c14 "> <span class="collapsable_plus color-red "></span> <span class="subtitle color-red ">商标被盗黎涛的方式</span> </div>
+                            <div class="collapse " id="c14">
+                                <div class="row folding-section_content ">
+                                    <div class="col-md-6 ">
+                                        <div class="content_title-margin ">
+                                            <h5 class="content_title ">商标被盗 <br> 黎涛的方式</h5> <img class="img-fluid services_green-circle " src="home-images/about_us/green-circle.png " alt="square "> </div>
+                                        <p class="content "> 我们的客户是一家自美国的非政府组织，招募中国的学生到美国去参加他们组织的夏季项目。他们与一家中国中介合作进行海外宣传，不过当这家非政府组织想要在中国开设自己的办公室时，发现自己的中介竟已经注册了其HOBY商标，于是找到了黎涛来协商。 </p> <span class="subtitle color-red ">黎涛的方式:</span>
+                                        <p class="content "> 这样情况会让人第一时间感觉到背叛：由于商标被抢注，这家非政府机构甚至没办法使用自己的商标来进行宣传。 <span class="break "></span> 从表面上看，若是这家机构找到中介，狠狠的质问指控一番也无可厚非，但黎涛劝解客户不要轻举妄动。我们深知在中国知识产权运作的方式不一样，律师也肯定了这一点。于是，黎涛向客户建议，并提出了一项策略来进行交流，试探情况，结果发现，中介之所以抢注商标，只是为了保护自己和这家非政府组织的利益——避免其他的组织山寨他们的项目，而在中国，这是常见的保护方式。 </p>
+                                    </div>
+                                    <div class="col-md-6 "> <img src="home-images/our_work/case/4.DSC_0413-LITAO-approach-to-stolen-trademark.jpg " alt="image " class="photo_case img-fluid picture "> <span class="padding-from-top_20 "></span> <img src="home-images/our_work/case/eye.png " class="img-fluid eye ">
+                                        <h6>成果</h6>
+                                        <p class="content "> 商标战争中如果出现问题，就可能会造成巨大的经济损失，尤其是法院体系更偏向那些先注册的中国企业。但双方互相理解，想要维持合作关系，所以中介同意将知识产权免费转到这家非政府组织名下。就这样，双方继续合作——不过要是使用了错误的策略去交流，诉诸责备和指控，就不可能产生这么好的结果了。 <span class="break "></span> <b><em>*在此不展示公司名称，若需更多细节，敬请与我们联系。</em></b> </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row folding-section ">
+                        <div class="folding-section_heading color-dark-green ">
+                            <div class="folding-section_heading_title "> 品牌发展 </div>
+                        </div>
+                        <div class="f-section ">
+                            <div class="folding-section_heading_subtitle color-green " data-toggle="collapse " data-target="#c21 "> <span class="collapsable_plus color-red "></span> <span class="subtitle color-red ">帮宝适：精明的文化广告</span> </div>
+                            <div class="collapse " id="c21">
+                                <div class="row folding-section_content ">
+                                    <div class="col-md-6 ">
+                                        <div class="content_title-margin ">
+                                            <h5 class="content_title ">帮宝适：精明的文化广告</h5> <img class="img-fluid services_green-circle " src="home-images/about_us/green-circle.png " alt="square "> </div>
+                                        <p class="content "> 在中国，婴儿尿布产业很长一段时间都没有踏上正轨——直到2007年，宝洁发动了一场广告运动，将穿着尿布和更好的睡眠联系到一起——加上调查证明这样的“黄金睡眠”意味着更好的大脑发育。在一个父母会不惜一切保证孩子学习成功的国度，销售额上涨了55%——另外，这场市场推广运动帮助宝洁得到了20万张身穿其品牌尿布的熟睡婴儿照片。 <span class="break "></span> 世界上还有什么地方能让你通过“考试考得更好”来卖尿布？这就是通过文化，精明推广品牌的力量。 </p>
+                                    </div>
+                                    <div class="col-md-6 "> <img src="home-images/our_work/case/5_._IMG_1194-pampers.jpg " alt="image " class="photo_case img-fluid picture "> <span class="padding-from-top_20 "></span> <img src="home-images/our_work/case/eye.png " class="img-fluid eye ">
+                                        <h6>重点摘要</h6>
+                                        <p class="content "> 要想深入人心的推广品牌，就要用当地群众可以理解的方式来介绍自己。中国人不信小孩是鹳鸟刁来的，所以不要用这样的方法去宣传你的产品。除此之外，中国人痴迷于孩子的教育和成绩，所以要充分利用这一点。要将你的产品和要销售去的地方的文化联系起来，发现当地人真正关注什么，如何在这一点上满足他们。 </p> <a href="http://adage.com/article/global-news/foreign-brands-figure-china/301603/ " class="color-red more " target="blank ">阅读更多</a> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="f-section ">
+                            <div class="folding-section_heading_subtitle color-green " data-toggle="collapse " data-target="#c22 "> <span class="collapsable_plus color-red "></span> <span class="subtitle color-red ">星巴克：销售“体验”</span> </div>
+                            <div class="collapse " id="c22">
+                                <div class="row folding-section_content ">
+                                    <div class="col-md-6 ">
+                                        <div class="content_title-margin ">
+                                            <h5 class="content_title ">星巴克：销售 <br>“体验”</h5> <img class="img-fluid services_green-circle " src="home-images/about_us/green-circle.png " alt="square "> </div>
+                                        <p class="content "> 有些时候，当地文化与你的产品无法联系到一起。品牌推广能帮助你提供其他东西。 <span class="break "></span> 这是星巴克的著名故事：一个咖啡公司渗透到拥有千年的茶文化的市场里去。星巴克的调查员们意识到，咖啡不仅可以作为产品销售，而且可以其为中心，销售一系列的体验。 <span class="break "></span> 他们在高档的中央商务区投资；皮躺椅，绒沙发，和其他豪华时髦的装饰品，被陈列在灯光昏暗的环境中；室外座椅配上小阳伞，彰显欧式风情。生意人可以在繁忙却私密的环境里开会；虚荣的人们领着女朋友在大玻璃窗前坐下，抿抿咖啡，照照自拍，希望别人能向他们投来目光。 <span class="break "></span> 咖啡作为西方身份的象征，在一个中上阶级不断成长，崇尚夸耀性消费的国家里简直是完美。星巴克赋予消费者的不仅仅是一杯饮料；它赋予这些人某种令人羡慕的经历和生活方式。除美国以外，中国已经成为星巴克海外最大的市场。 </p>
+                                    </div>
+                                    <div class="col-md-6 "> <img src="home-images/our_work/case/6._DSC_0665-STARBUCKS.jpg " alt="image " class="photo_case img-fluid picture "> <span class="padding-from-top_20 "></span> <img src="home-images/our_work/case/eye.png " class="img-fluid eye ">
+                                        <h6>重点摘要</h6>
+                                        <p class="content "> 很多时候，消费者想要的不仅仅是产品——他们需要和产品相关的，一种好的感觉或者经历。弄清你有什么独特的地方可以提供给他们，并且用这种方式来进行品牌推广，星巴克，必胜客，和哈根达斯在中国如此成功，就是用对了方式。他们销售的不仅是食物和饮料；他们销售的是豪华的坏境，身份，和与西方的关联。只要你找准小众市场和品牌推广方式，甚至可以销售人文情怀。 </p> <a href="http://www.forbes.com/sites/helenwang/2012/08/10/five-things-starbucks-did-to-get-china-right/#1a85fbf848e3 " class="color-red more " target="blank ">阅读更多</a> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="f-section ">
+                            <div class="folding-section_heading_subtitle color-green " data-toggle="collapse " data-target="#c23 "> <span class="collapsable_plus color-red "></span> <span class="subtitle color-red ">可口可乐：锻造中文名的艺术</span> </div>
+                            <div class="collapse " id="c23">
+                                <div class="row folding-section_content ">
+                                    <div class="col-md-6 ">
+                                        <div class="content_title-margin ">
+                                            <h5 class="content_title ">锻造中文名的艺术</h5> <img class="img-fluid services_green-circle " src="home-images/about_us/green-circle.png " alt="square "> </div>
+                                        <p class="content "> 品牌名称和商标非常重要，不过中国的社交媒介可是在用各类同音词做成双关语上赫赫有名，而这些中文版本可以决定你的成败。 <span class="break "></span> 一个好的名称将成为强大的市场推广工具；若是你不起一个，中国消费者们自己起的名字可能会不太招你喜欢。两个在进入中国市场前没定好中文名字的著名品牌就厄运降临了。中国人发现用中文来念这两个品牌的名字十分困难，于是就按照商标来称呼：桂格成了“老人牌”，而拉尔夫·劳伦则成了“三脚马”。这种推广品牌的方式可一点也不性感。 <span class="break "></span> 可口可乐是一个早期品牌推广成功的例子；1927年，可口可乐第一次在中国销售，但当地的店主却不知道如何来称呼它。他们试着去找和英文名听起来相似的中国字，总共找了两百多个。但店主所找到的名字含义都很奇怪：虽然听上去差不多，意思却都是像“母马扣蜡”，或者“咬蜡蝌蚪”这样的。 <span class="break "></span> 一年以后，可口可乐公司的雇员才最终注册了现在的名字：意思为“心必喜，口也欢喜”的字符结合——这可是跨越了马和蝌蚪的巨大一步。 </p>
+                                    </div>
+                                    <div class="col-md-6 "> <img src="home-images/our_work/case/7._DSC_3170-the_art_of_crafting_a_chinese_name.jpg " alt="image " class="photo_case img-fluid picture "> <span class="padding-from-top_20 "></span> <img src="home-images/our_work/case/eye.png " class="img-fluid eye ">
+                                        <h6>重点摘要</h6>
+                                        <p class="content "> 不要等别人来定义你；别人不在意你的名声，他们思路随意且不屑一顾，起的名字永远都不如你找本地语言专家精心锻造的要好。选择当地化的品牌名称时，是对企业再次洗礼，要像为孩子起名一样精心考虑意义，或是像第一次约会那样谨慎。 </p> <a href="http://barkerbrettell.co.uk/china-how-to-choose-your-trade-mark/ " class="color-red more " target="blank ">阅读更多: Barker Brettell</a>
+                                        <br> <a href="http://www.coca-colacompany.com/stories/bite-the-wax-ta " class="color-red more " target="blank ">阅读更多: Coca-Cola</a> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="f-section ">
+                            <div class="folding-section_heading_subtitle color-green " data-toggle="collapse " data-target="#c24 "> <span class="collapsable_plus color-red "></span> <span class="subtitle color-red ">黎涛的文化融合方式</span> </div>
+                            <div class="collapse " id="c24">
+                                <div class="row folding-section_content ">
+                                    <div class="col-md-6 ">
+                                        <div class="content_title-margin ">
+                                            <h5 class="content_title ">黎涛的文化<br>融合方式</h5> <img class="img-fluid services_green-circle " src="home-images/about_us/green-circle.png " alt="square "> </div>
+                                        <p class="content "> “停电大楼”是明道加斯 纳斯塔拉维奇最著名的剧作——立陶宛最高戏剧作品奖“舞台金十字”获得者。 <span class="break "></span> 黎涛受邀为2016国际书虫节翻译并改编此部剧作。 </p>
+                                        <h5 class="content_title_approach ">黎涛的方式:</h5>
+                                        <p class="content "> 真正的文学翻译意味着文化整合。除了语言之外，我们必须要保证，从名字到角色，再到笑话和文化指涉，每一味元素都要在中国行得通。 <span class="break "></span> 仅仅是戏剧的标题——民主——就有可能在中国招致意想不到的政治眼球。于是我们将中文名改成了更温良的“停电大楼”——这样审查方面就更便利一些。 <span class="break "></span> 作者的原意是单纯的将作品的理念和思想翻译出来——他深知作品的中心思想并不少见，而其中的文化指涉却独树一帜——通过与作者密切接触，我们明确了作品的本意，并将作品和中国联系到一起去。 <span class="break "></span> 作品侧重描述了社会阶级不同的各种立陶宛人，他们的性格特点都是为立陶宛人所熟知的；我们把这些人改编成了相应的中国角色。因此，考虑到浓厚的口音和饮酒习惯，俄罗斯立陶宛人被编为东北大汉。所有的天主教指涉也被改编为佛教，来更好的反映中国本土实质。 <span class="break "></span> 协调整部作品并让作者满意，我们仅用了不到一个月的时间。 </p>
+                                    </div>
+                                    <div class="col-md-6 "> <img src="home-images/our_work/case/8._DSC_3170-integration.jpg " alt="image " class="photo_case img-fluid picture "> <span class="padding-from-top_20 "></span> <img src="home-images/our_work/case/eye.png " class="img-fluid eye ">
+                                        <h6>成果</h6>
+                                        <p class="content "> 2016年中国成都书虫展上，黎涛翻译改编的舞台剧朗诵受到观众好评；精明的文化改编给展览组织者留下了深刻的印象，中国大陆的剧院联系到了作者，提出要将此部作品搬上舞台，并以中文出版。 </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="f-section ">
+                            <div class="folding-section_heading_subtitle color-green " data-toggle="collapse " data-target="#c25 "> <span class="collapsable_plus color-red "></span> <span class="subtitle color-red ">黎涛的精品化方式</span> </div>
+                            <div class="collapse " id="c25">
+                                <div class="row folding-section_content ">
+                                    <div class="col-md-6 ">
+                                        <div class="content_title-margin ">
+                                            <h5 class="content_title ">黎涛的<br>精品化方式</h5> <img class="img-fluid services_green-circle " src="home-images/about_us/green-circle.png " alt="square "> </div>
+                                        <p class="content "> 蔚旗耐集团是欧洲最大，世界第五的鱼靡生产商（每年生产16万吨的食品），需要进一步全球化的时候找到了黎涛。但中国本身就是世界上最大（且最廉价）的鱼靡和其他鱼类产品制造基地，在这进口管控严格，供应大于需要，又缺乏规范的市场里，怎样才能把蔚旗耐的产品和其他产品区分开呢？ </p>
+                                        <h5 class="content_title_approach ">黎涛的方式:</h5>
+                                        <p class="content "> 在一系列广泛的市场调查，以及探访上海所有国外杂货零售商店后，为了测定表现最佳的SKU，我们制定了走上精品化道路的主要策略。无论如何，蔚旗耐的产品是没办法和中国的品牌打价格战的。数据表明，越来越多的消费者对于食品质量的意识正在提高，对肉制品的消费在降低——预示着海鲜产品的机遇。然而我们发现，要抓住这一机遇，海鲜产品必要代表高品质的蛋白质，并且融合品牌背后的故事；精品品牌都有企业陈述，而大众品牌在这一方面是缺失的。 <span class="break "></span> 为了创建企业故事，我们了解了立陶宛的鱼类来源，并向顶级的认证机构，如海洋管理委员会，调查产品规格，研究消费者在品质问题上最关注的重点。我们也对包装便利性和地理位置等因素进行了调研，来迎合现代城市的高端消费群体，我们的目标市场。 </p>
+                                    </div>
+                                    <div class="col-md-6 "> <img src="home-images/our_work/case/9._-DSC_0060-The-LITAO-Approach-to-Premiumization.jpg " alt="image " class="photo_case img-fluid picture "> <span class="padding-from-top_20 "></span> <img src="home-images/our_work/case/eye.png " class="img-fluid eye ">
+                                        <h6>重点摘要</h6>
+                                        <p class="content "> 蔚旗耐集团在欧洲走的是大众品牌路线，但在中国，我们通过本地化品牌、名称、商标、产品描述和其他企业需要呈现的因素来将其提升到精品市场。通过这样，企业成功吸引了侧重生态环保和健康产品的经销商，并且雇佣了黎涛作为其在大中华地区的官方代理。 <span class="break "></span> 同样，我们创造并叙述了真实的，产品从立陶宛到中国的故事，强调产品野生，绿色环保，富含奥米茄3——确保与海洋管理委员会认证的规格一致。 <span class="break "></span> 除了品牌发展以外，我们帮助达成了蔚旗耐集团成功的基础：将他们的产品真正带进中国来。点此阅读更多黎涛关于进口法规的支持：<a href="vici link " target="blank ">黎涛对于食品和饮料进口的支持。</a> <span class="break "></span> <b><em>*在此不展示公司名称，若需更多细节，敬请与我们联系。</em></b> </p> <a href="# " data-toggle="collapse " data-target="#c73 " target="blank " class="color-red more ">阅读更多: F&B Imports</a> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row folding-section ">
+                        <div class="folding-section_heading color-dark-green ">
+                            <div class="folding-section_heading_title "> 交流 </div>
+                        </div>
+                        <div class="f-section ">
+                            <div class="folding-section_heading_subtitle color-green " data-toggle="collapse " data-target="#c31 "> <span class="collapsable_plus color-red "></span> <span class="subtitle color-red ">口译员的重要性</span> </div>
+                            <div class="collapse " id="c31">
+                                <div class="row folding-section_content ">
+                                    <div class="col-md-6 ">
+                                        <div class="content_title-margin ">
+                                            <h5 class="content_title ">口译员<br>的重要性</h5> <img class="img-fluid services_green-circle " src="home-images/about_us/green-circle.png " alt="square "> </div>
+                                        <p class="content "> 口译的地位举足轻重。《财富》杂志就已将口译员张璐列为“世界最具影响力女性”之一。张璐作为中国最高领导者的声音，服务的包括李克强总理。在外交情形下，口译员的声音代表了权威，任何意义或语音上的偏差都会造成对国家的控诉。 <span class="break "></span> 美国国务院就不得不从惨痛的教训中学到这一点。2009年，美国国务卿希拉里克林顿会见俄罗斯外交部长拉夫罗夫，作为礼物和玩笑她送了一个“重启”的按钮模型——标志了美国和俄罗斯过去紧张关系的重启。但国务院为“重启”选择的俄罗斯词语却是“peregruzka”，错误的表示“超负荷”——与他们想要表达的意义恰恰相反（紧张关系超负荷从来都不是一件好事），拉夫罗夫迅速的指出了这个错误。 <span class="break "></span> 俄罗斯语中相对“重启”的词语要多一个音节：“perezagruzka”。要是美国国务院提前找俄罗斯语专家查过翻译那就好啦！ </p>
+                                    </div>
+                                    <div class="col-md-6 "> <img src="home-images/our_work/case/10._DSC_3344-_The_Importance_of_Interpreters.jpg " alt="image " class="photo_case img-fluid picture "> <span class="padding-from-top_20 "></span> <img src="home-images/our_work/case/eye.png " class="img-fluid eye ">
+                                        <h6>重点摘要</h6>
+                                        <p class="content "> 口译是由一系列的细节和细微差异组成更大的意义体，当意义准确时，其微妙的差异不会被注意到，但如果有意义缺失，一定会使人察觉。像语言这样变幻无常的东西，总是值得弄清细节的。一个好的口译员，不仅能站在你的立场理解字面意义，而且能懂你话里的深意。 </p> <a href="http://www.scmp.com/news/china/policies-politics/article/1934922/her-own-words-translator-chinas-top-leaders-takes " class="color-red more " target="blank ">阅读更多</a>
+                                        <br> <a href="https://www.youtube.com/watch?v=Ee4PfhogtdQ " class="color-red more " target="blank ">点此观看</a> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="f-section ">
+                            <div class="folding-section_heading_subtitle color-green " data-toggle="collapse " data-target="#c33 "> <span class="collapsable_plus color-red "></span> <span class="subtitle color-red ">用中国方式做事：关系</span> </div>
+                            <div class="collapse " id="c33">
+                                <div class="row folding-section_content ">
+                                    <div class="col-md-6 ">
+                                        <div class="content_title-margin ">
+                                            <h5 class="content_title ">用中国<br>方式做事：关系</h5> <img class="img-fluid services_green-circle " src="home-images/about_us/green-circle.png " alt="square "> </div>
+                                        <p class="content "> 90年代初期，作为拥有独特的少数民族和丰饶自然资源的西南省市，云南的旅游业和投资业前景极好。在那时，拥有40年历史的龙吟四星级酒店是非常著名的，它不仅抢占先机，为省政府所有，而且由本地中国人管理。但作为国有企业，稳定的薪酬使得将近700名员工缺乏积极性，因为无论业绩，如何国家工资照发。虽然酒店仍在盈利，但政府认为酒店并没有完全发挥潜力。 <span class="break "></span> 于是政府请来了国外的管理企业来接管： 1993年的这一接管一年里就亏损了9百万人民币。 第二次是在1999年，由Nothill国际酒店品牌接管，四个月内亏损了超过1千万人民币，最后旅馆几乎丧失接待能力。 <span class="break "></span> 但在这两次接管期间，中国人重拾管理系统的时候，酒店的生意又开始变得很好。国外的管理企业的确在服务方面更强，高级酒店管理经验更为丰富，但游客并不会因为他们的国际声誉而受到吸引；事实上，有时候这一点还显得十分妄自菲薄。 <span class="break "></span> 两次接管，以外国方式培训的管理者都忽略了中国元素，关系，也可以理解为社会联系。这些联系总是有所回报的：它是一种“你帮我，我帮你”的关系。给旅行社里的朋友折扣意味着他们会把自己的旅游团带到你的酒店。设宴招待政府官员意味着政府相关的事务能进行的顺利得多。雇佣自己的朋友和亲戚意味着他们会想方设法回报你的恩情。定期更新这些关系——譬如请客吃饭，喝茶，赠礼，或聊一些有的没的——对于维持互惠互利的关系，都是必不少的。 </p>
+                                    </div>
+                                    <div class="col-md-6 "> <img src="home-images/our_work/case/11._DSC_2793-guanxi-.jpg " alt="image " class="photo_case img-fluid picture "> <span class="padding-from-top_20 "></span>
+                                        <p class="content "> 关系是有用的，但并不是永远都很高效率。龙吟国外的管理者将其单纯的视为徇私或是裙带关系；他们下令禁止折扣，不准雇佣亲信，磨灭了基于关系的一切动机。有一次，一名外籍的餐饮部经理直截了当的拒绝了旅行团的酒宴要求，因为他认为过于廉价。这家旅行团正是另一名中国经理长期以来小心翼翼培养关系，经常带大型旅游团到酒店来的客户，此事过后，再没出现了。关系毁了，旅游团转向了酒店的竞争对手。政府官员也因为没有了星级待遇和折扣而离开了。 <span class="break "></span> 员工们也抱怨“外国管理不懂中国方式”：他们再也不允许长时间休息，没事邀请朋友到酒店来，甚至因为新的日程表，一起吃饭都不行了。长期员工们由于被列为冗余而受到裁员，按天数拿工资，并且开工前没有通知，觉得不被尊重。即使是在新政策下没有受到裁员的员工，也都士气大减，许多高等级的，有许多关系的员工也都主动请辞了。 <span class="break "></span> 关系是个人化的，是无法转让的。在追求更加高效的过程中，国外的管理者实际上丢失了他们试图吸引的那些客户和商机。 </p>
+                                    </div>
+                                    <div class="col-md-6 "> <img src="home-images/our_work/case/eye.png " class="img-fluid eye ">
+                                        <h6>重点摘要</h6>
+                                        <p class="content "> 关系是中国版的商业网络，但范围更大，也更非正式。许多中国的企业就力生于这样小心培养的，互相交错的网络之中。在中国，关系不仅仅是友谊；它是通过一个又一个的恩惠来成事的方式。正如龙吟的外国管理者学到的那样，切不可因为冰冷的绩效忽略关系，因为它比你想象中的更为重要。回答你的问题，下达订单，给你客户，最后执行工作的，是你的支持者。 <a href="http://mams.rmit.edu.au/3je3klf7vrprz.pdf " target="blank " class="color-red more ">阅读更多</a> </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="f-section ">
+                            <div class="folding-section_heading_subtitle color-green " data-toggle="collapse " data-target="#c34 "> <span class="collapsable_plus color-red "></span> <span class="subtitle color-red ">黎涛的高级口译</span> </div>
+                            <div class="collapse " id="c34">
+                                <div class="row folding-section_content ">
+                                    <div class="col-md-6 ">
+                                        <div class="content_title-margin ">
+                                            <h5 class="content_title ">黎涛的<br>高级<br>口译</h5> <img class="img-fluid services_green-circle " src="home-images/about_us/green-circle.png " alt="square "> </div>
+                                        <p class="content "> 立陶宛文化部长访问上海，与中国五大文化业巨头代表商讨合作事宜，上海副市长翁铁慧出席。 <span class="break "></span> 2016年，莉娜作为外交口译员与两大文化代表团出席了一系列正式与非正式会议。 </p>
+                                        <h5 class="content_title_approach ">黎涛的方式:</h5>
+                                        <p class="content "> 立陶宛文化代表团不仅包括文化部长，随行的还有立陶宛国家芭蕾舞、歌剧、戏剧和艺术馆人员。作为国际大都市，上海对国际艺术作品有所选择，所以任何潜在的合作都要建立于理解和友爱的基础上。 <span class="break "></span> 事实上，莉娜出席的意义是：展示立陶宛人也能说高水平的中文，作为一个文化性的友好尊重举措。由于立陶宛语直接翻译中文的专业口译员很少，大多数代表团交流的主要媒介是英文。中方有英语翻译，而在这样一个以文化为主题的会议中，很有必要让立陶宛人，尤其是文化部长，直接用自己的文化来发言：通过自己的语言。 <span class="break "></span> 会谈之前，我们就代表团的交流点和上海以及立陶宛最新的文化趋势做了调研，研究了外交与非正式语言的精妙之处，深入调查了每场会谈参与人背景，以备发言时致以恰当的尊重和职称头衔。 </p>
+                                    </div>
+                                    <div class="col-md-6 "> <img src="home-images/our_work/case/12._5.5-LITAO_approach_to_high-profile_interpretation.jpg " alt="image " class="photo_case img-fluid picture "> <span class="padding-from-top_20 "></span> <img src="home-images/our_work/case/eye.png " class="img-fluid eye ">
+                                        <h6>成果</h6>
+                                        <p class="content "> 通过安排一名立陶宛人进行流畅、高品质的翻译，使立陶宛部长和中国副市长在会谈期间都能说自己的语言成为了可能，而且——黎涛使得双方都能最高程度的在文化上尊重彼此。2016年，中国成了立陶宛文化作品的最大市场，尤其是戏剧。 <span class="break "></span> 国家间的文化合作需要数年的时间缔造，但一切都要从互相尊重和付出友谊开始。莉娜在官方陈述的基础上用更贴近国家文化的方式进行解释。立陶宛文化部长评论道：“拥有一个明白语境的口译员是一种享受。” </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="f-section ">
+                            <div class="folding-section_heading_subtitle color-green " data-toggle="collapse " data-target="#c35 "> <span class="collapsable_plus color-red "></span> <span class="subtitle color-red ">黎涛的会展支持</span> </div>
+                            <div class="collapse " id="c35">
+                                <div class="row folding-section_content ">
+                                    <div class="col-md-6 ">
+                                        <div class="content_title-margin ">
+                                            <h5 class="content_title ">黎涛的<br>会展支持</h5> <img class="img-fluid services_green-circle " src="home-images/about_us/green-circle.png " alt="square "> </div>
+                                        <p class="content "> Flintas是一个立陶宛儿童书出版社，第一次参加到上海中国国际儿童书展。虽然在立陶宛做的很好，他们的工作人员却对中国严格的审查法律以及出版社之间的区分一无所知。黎涛和Flintas合作，在书展期间准备报价，并寻找潜在的配对合作伙伴。 </p>
+                                        <h5 class="content_title_approach ">黎涛的方式:</h5>
+                                        <p class="content "> 首先，我们整理了这家出版商的几百个头衔，来决定针对总共十二本以五岁以下儿童为市场的书籍，哪一个的效果最好。这一年龄限制本身就是策略性的一步：插图越多，文字越少，需要被审查的内容就越少。我们集中研究的是具有立竿见影的正面使用性的那些，例如可以提高孩童手部移动能力的书籍。 <span class="break "></span> 在会展上，我们为找到合作伙伴提起了十二分精神——要找到购买中国地区版权的正式出版商收购人，还要避开那些企图抄袭立陶宛书籍创意教育方式，秘密工作的创意总监们。由于这样，给出的信息必须十分具有选择性，通过多层对话过滤出真正有价值的询价人。 </p>
+                                    </div>
+                                    <div class="col-md-6 "> <img src="home-images/our_work/case/13._DSC_0037_The_LITAO_Approach_to_Exhibition_Excellence.jpg " alt="image " class="photo_case img-fluid picture "> <span class="padding-from-top_20 "></span> <img src="home-images/our_work/case/eye.png " class="img-fluid eye ">
+                                        <h6>成果</h6>
+                                        <p class="content "> 通过书展，这家出版社得到了150个有效的联系信息，一年之内成功出售了版权——通过三天的书展，就达到了非常好的效果。 </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row folding-section ">
+                        <div class="folding-section_heading color-dark-green ">
+                            <div class="folding-section_heading_title "> 供应侧支持 </div>
+                        </div>
+                        <div class="f-section ">
+                            <div class="folding-section_heading_subtitle color-green " data-toggle="collapse " data-target="#c41 "> <span class="collapsable_plus color-red "></span> <span class="subtitle color-red ">你的采购来源并非总是可信</span> </div>
+                            <div class="collapse " id="c41">
+                                <div class="row folding-section_content ">
+                                    <div class="col-md-6 ">
+                                        <div class="content_title-margin ">
+                                            <h5 class="content_title ">你的采购来源并非总是可信</h5> <img class="img-fluid services_green-circle " src="home-images/about_us/green-circle.png " alt="square "> </div>
+                                        <p class="content "> 乘国外企业不知道真正的法规，一些制造商和物流商经常会通过说“这或那是中国法律规定的”来欺骗外国人：例如要求国外企业给中国公司转让知识产权或者签订独家经销协议。 <span class="break "></span> 其实根本就没有必须转让知识产权或是独家经销的法律。并且，不跟经销商/市场商人/销售者签订独家协议是非常重要的，因为即使他们在一个地方做的非常好，在中国其他地区可能就不是了。 <span class="break "></span> 另外，如果他们和你签独家协议，很有可能本身和另一家竞争公司也有协议。他们有可能选择不销售你的产品，来帮助另一家公司避免竞争，这样的情况下，如果签了长达数年的独家协议，你拿他们根本没有办法。 <span class="break "></span> 独家经销是好时在中国坠入无底洞的一部分原因：2015年，好时的销售额是9000万美元，少于预期的2亿美元，主要就是因为收购了当地名为“上海金丝猴”的糖果制造企业来扩张本地经销网络。然而这一公司的经销商和客户网络并没有预期的广泛以及稳定——由于已经花了5.84亿美元收购这家公司，好时只能和他们一起“耗时”了。 </p>
+                                    </div>
+                                    <div class="col-md-6 "> <img src="home-images/our_work/case/14._DSC_1062-DON’T-ALWAYS-TRUST.jpg " alt="image " class="photo_case img-fluid picture "> <span class="padding-from-top_20 "></span> <img src="home-images/our_work/case/eye.png " class="img-fluid eye ">
+                                        <h6>重点摘要</h6>
+                                        <p class="content "> 不要相信其他公司口头上说说的内容。在确信或推翻他们的言论之前，要做好功课，尤其是关于那些陌生的法律规定。产生疑惑的时候，就咨询专家。 </p> <a href="http://www.chinalawblog.com/2013/02/china-distribution-agreements-exclusivity-is-optional.html " class="color-red more " target="blank ">阅读更多: China Law</a>
+                                        <br> <a href="http://www.foodbusinessnews.net/articles/news_home/Financial-Performance/2015/08/Hershey_troubled_in_China.aspx?ID=%7B76ED83E8-D0BC-4157-9DFF-628F7141CDC8%7D&cck=1 " class="color-red more " target="blank ">阅读更多: Food Business News</a>
+                                        <br> <a href="http://shanghaiscrap.com/2015/08/the-more-things-change-in-china-hersheys-chocolate-edition/ " class="color-red more " target="blank ">阅读更多: Shanghai is Crap</a> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="f-section ">
+                            <div class="folding-section_heading_subtitle color-green " data-toggle="collapse " data-target="#c42 "> <span class="collapsable_plus color-red "></span> <span class="subtitle color-red ">质量随时间下降</span> </div>
+                            <div class="collapse " id="c42">
+                                <div class="row folding-section_content ">
+                                    <div class="col-md-6 ">
+                                        <div class="content_title-margin ">
+                                            <h5 class="content_title ">质量随<br>时间下降</h5> <img class="img-fluid services_green-circle " src="home-images/about_us/green-circle.png " alt="square "> </div>
+                                        <p class="content "> 你有值得信赖的供应商，协议也很让人满意。初始阶段，生产的样品也毫无瑕疵。然而，你是否真能保证品质一直不变？当厂商想要更多利润的时候，质量就会下降——通常通过降低品质来实现——通常悄无声息，渐行渐远。 <span class="break "></span> 一家美国企业设计并将铝合金建造支撑结构注册为专利，从中国供应部件。由于这些支撑结构是用来建造高楼大厦的，结构的每一个部件都要求非常精密的测算；工程规格不准确就意味着建筑的稳定性要受到影响。无论如何，供应商还是降低了规格，一直到铝合金总量的10%都不翼而飞了。 <span class="break "></span> 即使抓到了供应商，国外企业能做的也很少。如果想将产品召回——产品在自己的国家却已经使用了——而产品离开中国前全款也已经都付了。 <span class="break "></span> 在初始阶段，找到以及培养供应商就不容易，后期要更换的话，其他供应商又可能故技重施。想要通过名声找到别人的供应商也不容易，因为供应商信息通常是贸易机密。 <span class="break "></span> 当质量出现问题时，就会影响你在当地以及国际上的名声，恰如肯德基和麦当劳的供应商上海喜福食品有限公司，在被电视节目中被曝光在产品里掺加过期肉那样。 </p>
+                                    </div>
+                                    <div class="col-md-6 "> <img src="home-images/our_work/case/15._DSC_1830--Quality-Fade-Over-Time.jpg " alt="image " class="photo_case img-fluid picture "> <span class="padding-from-top_20 "></span> <img src="home-images/our_work/case/eye.png " class="img-fluid eye ">
+                                        <h6>重点摘要</h6>
+                                        <p class="content "> 不起眼的品质问题有可能随时间累积成大问题。当品质问题迫在眉睫的时候，背后的生产商并不用负担。负面的事件影响将由信任这些供应商的企业独立承担，因此质检必须谨慎且不断的进行。 </p> <a href="http://knowledge.wharton.upenn.edu/article/quality-fade-chinas-great-business-challenge " class="color-red more " target="blank ">阅读更多: Knowledge Wharton</a>
+                                        <br> <a href="http://www.reuters.com/article/us-yum-brands-food-safety-idUSKBN0FQ01P20140721 " class="color-red more " target="blank ">阅读更多: Reuters</a> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="f-section ">
+                            <div class="folding-section_heading_subtitle color-green " data-toggle="collapse " data-target="#c43 "> <span class="collapsable_plus color-red "></span> <span class="subtitle color-red ">哈根达斯：专业配送</span> </div>
+                            <div class="collapse " id="c43">
+                                <div class="row folding-section_content ">
+                                    <div class="col-md-6 ">
+                                        <div class="content_title-margin ">
+                                            <h5 class="content_title ">哈根达斯：<br>专业配送</h5> <img class="img-fluid services_green-circle " src="home-images/about_us/green-circle.png " alt="square "> </div>
+                                        <p class="content "> 拥有可靠的供应商还不够，挑选经销商也要谨慎，尤其是如果产品比较特殊的话。想想冰激凌中的奢侈品牌哈根达斯，在这个国家的人们尚未消费许多乳制品的年代，就已经主宰了整个中国市场。考虑到中国对于乳制品的经验尚浅，哈根达斯并不信任当地的厂商，于是所有的冰激凌都要从国外进口——不过因此却向前进了一大步。 <span class="break "></span> 哈根达斯的产品口味最好是稳定在零下26摄氏度，而这一温度较大多数冰激凌而言都要低，并且市场调查显示，中国的冷柜无法满足这样持续稳定的低温。于是公司投资了专门的冷藏卡车来进行所有的经销。之后，不计自己的店铺，哈根达斯在各大超市就安装了5000台专门冷柜来销售其产品。 <span class="break "></span> 对于承诺品质的品牌而言，这是根本保障。 </p>
+                                    </div>
+                                    <div class="col-md-6 "> <img src="home-images/our_work/case/16._DSC_2086-hagendaas.jpg " alt="image " class="photo_case img-fluid picture "> <span class="padding-from-top_20 "></span> <img src="home-images/our_work/case/eye.png " class="img-fluid eye ">
+                                        <h6>重点摘要</h6>
+                                        <p class="content "> 在考虑供应商和消费者的时候，不要忘了中间人：经销商。如果你的产品需要格外用心来保证最终品质，你的经销商很有影响。哈根达斯购置了专门的冷柜和配送卡车，但你也不是必须承包所有环节；我们可以根据你的特别需求，帮你找到最佳的经销商。 </p> <a href="http://www.businesstoday.in/magazine/lbs-case-study/case-study-haagen-dazs-in-china/story/184779.html " class="color-red more " target="blank ">阅读更多</a> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="f-section ">
+                            <div class="folding-section_heading_subtitle color-green " data-toggle="collapse " data-target="#c44 "> <span class="collapsable_plus color-red "></span> <span class="subtitle color-red
+                                ">黎涛的质量监控方式</span> </div>
+                            <div class="collapse " id="c44">
+                                <div class="row folding-section_content ">
+                                    <div class="col-md-6 ">
+                                        <div class="content_title-margin ">
+                                            <h5 class="content_title "> 黎涛的质量<br>监控方式</h5> <img class="img-fluid services_green-circle " src="home-images/about_us/green-circle.png " alt="square "> </div>
+                                        <p class="content "> 一位私人老板想要在亚马逊上出售贴牌的绝热保温咖啡杯，所有的生产都在中国进行。他有自己的品牌，但需要依照欧洲标准进行高质量的生产，而不是简单的中国制造。 </p>
+                                        <h5 class="content_title_approach ">黎涛的方式:</h5>
+                                        <p class="content "> 严谨彻底和系统性的质量监控是重点。我们向客户提供了已知直接供应商中最佳的三名；和生产商直接合作——而不是经销商——使控制生产成果变得可能。 <span class="break "></span> 在欧洲，生产商预期要与企业的要求达成100%的一致，但在中国，标准不严格，产品颜色甚至尺寸都会有差别；有时工厂甚至不通知客户就会开始使用截然不同的原料。中国的批发商也许可以接受，但我们绝对不能。 <span class="break "></span> 在定制样品和选择生厂商之后，我们雇佣了一名上海的质检员，每周亲自去工厂检验。生产的所有阶段都有检查点：样品的生产，装运前全面的质量监控，装载监控——在保证生产日程的基础上，同时安排。 </div>
+                                    <div class="col-md-6 "> <img src="home-images/our_work/case/17._DSC_2466-LITAO-approach-to-quality-control.jpg " alt="image " class="photo_case img-fluid picture "> <span class="padding-from-top_20 "></span> <img src="home-images/our_work/case/eye.png " class="img-fluid eye ">
+                                        <h6>成果</h6>
+                                        <p class="content "> 在质检过程中，我们过滤了达到2%有品质问题的产品——包括一批标签印刷错误的货物——并且要求工厂在几个小时的时间内印刷出合适的产品，保证在发货时间前完成。只有通过仔细的审查，才能确保快速、精确的货物品质改善。这一客户继续下单，第三季销售利润持续增长。现在他的生产线不仅包括多色保温咖啡杯，而且包括玻璃瓶和保温瓶，接受全面质检；其他产品也进入了开发阶段。 </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row folding-section ">
+                        <div class="folding-section_heading color-dark-green ">
+                            <div class="folding-section_heading_title "> 策略 </div>
+                        </div>
+                        <div class="f-section ">
+                            <div class="folding-section_heading_subtitle color-green " data-toggle="collapse " data-target="#c51 "> <span class="collapsable_plus color-red "></span> <span class="subtitle color-red ">高朋网：没有本地化品牌的危机</span> </div>
+                            <div class="collapse " id="c51">
+                                <div class="row folding-section_content ">
+                                    <div class="col-md-6 ">
+                                        <div class="content_title-margin ">
+                                            <h5 class="content_title ">高朋网：没有<br>本地化品牌的危机</h5> <img class="img-fluid services_green-circle " src="home-images/about_us/green-circle.png " alt="square "> </div>
+                                        <p class="content "> 高朋网在全球市场独占鳌头，但是到了中国中国，虽然投资了百万美元打进市场，合作伙伴也很好，却做的不甚理想。造成这样的原因是从一开始就采用了失败的长期策略：这种策略套用高朋网的国际模型，而不是用其它方式。高朋网的高层管理人员几乎全是外国商学院毕业的，而不是使用当地专家（在高朋网的高级管理团队中，只有两个人是中国人，其中一个还来自香港）。这家企业预期使用和在德国市场一样的策略，通过高薪厚禄将竞争对手的销售人员挖走，但中国的团购网站结成联盟，以至于如果雇员去为高朋网工作，将来就没有办法再到加入中国联盟的企业去工作了。 <span class="break "></span> 在最初阶段一切看起来都很美好：高朋网和中国最大的两个科技公司结成联盟，获得腾讯网40%的股份支持（目前无处不在的微信的创始机构）以及阿里巴巴的一部分股份支持。但由于协议中不包含无竞争条约，而且两家科技公司在其他的中国团购企业也有投资，并且这些中国团购企业要比高朋网发展的好的多。 <span class="break "></span> 在中国，高朋网对腾讯的依赖性远超腾讯对一个团购网站的需要性，尤其是中国有许多团购网站。高朋网甚至十分震惊中国最大的团购网站拉手网拒绝了其重金收购的提议。单单有钱和傍上有利益矛盾的中国的大公司绝非明智的本地化策略。这直接导致了高朋网第三季度的获利仅为210万美元，净损4600万美元，并且这一趋势从未得到好转。 </p>
+                                    </div>
+                                    <div class="col-md-6 "> <img src="home-images/our_work/case/18._DSC_0326-_Groupon__The_Dangers_of_Not_Localizing.jpg " alt="image " class="photo_case img-fluid picture "> <span class="padding-from-top_20 "></span>
+                                        <p class="content "> 有时候，和大公司合作的确能带来很大的帮助。领英就成为了社交媒体巨人微信的一个拓展图标，并收获了超过2000万的中国用户。领英知道中国正变得越来越手机化，而对传统互联网浏览甚至电子邮件的依赖逐渐减少，所以将界面做的十分适合手机浏览。之所以和微信合作，是因为其提供了现成的、独家的关系来源。然而，准备进入中国之前，领英用了四年时间进行市场调查。 </p>
+                                        <div> <img src="home-images/our_work/case/eye.png " class="img-fluid eye ">
+                                            <h6>重点摘要</h6> </div>
+                                        <p class="content "> 让自己的品牌本地化。不要相信合作伙伴能代替你做你的工作。即使是在其他许多国家都有效的方法，也不要认为你将一门技术简单复制黏贴过来，就能取得成功。在中国，要把自己和别人区别开，因为山寨一个品牌可比购买便宜多了。 </p> <a href="https://www.techinasia.com/4-mistakes-behind-groupons-failure-in-china " class="color-red more " target="blank ">阅读更多: Techinasia</a>
+                                        <br> <a href="http://digicha.com/index.php/2011/08/is-tencent-the-wrong-partner-for-groupon-in-china/ " class="color-red more " target="blank ">阅读更多: Digicha</a>
+                                        <br> <a href="http://www.businessinsider.com/groupons-china-train-wreck-gaopeng-jv-posts-46-mln-loss-only-21-mln-in-revenues-2011-10 " class="color-red more " target="blank ">阅读更多: Business Insider</a> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="f-section ">
+                            <div class="folding-section_heading_subtitle color-green " data-toggle="collapse " data-target="#c52 "> <span class="collapsable_plus color-red "></span> <span class="subtitle color-red ">雀巢：商誉策略</span> </div>
+                            <div class="collapse " id="c52">
+                                <div class="row folding-section_content ">
+                                    <div class="col-md-6 ">
+                                        <div class="content_title-margin ">
+                                            <h5 class="content_title ">雀巢：<br>商誉策略</h5> <img class="img-fluid services_green-circle " src="home-images/about_us/green-circle.png " alt="square "> </div>
+                                        <p class="content "> 2008年中国西部大地震过后，雀巢无偿向灾区捐款1千万人民币支持救灾。当三聚氰胺牛奶丑闻席卷中国时，雀巢二十年前就种下了优质牛奶的种子：通过聘请瑞士的专家来训练当地的奶农，帮助增强信任，为牛奶销售在偏远地区铺路。并不是所有公司都像雀巢一样拥有这么多资源，但值得信赖的品牌推广意味着你对产品，用户群，地区规模，和中间所有操作人员的关怀。罗马不是一天建成的；培养当地关系以及展示你对所在地区的关怀将向当地人展示原来你能做到如此的本地化。 </p>
+                                    </div>
+                                    <div class="col-md-6 "> <img src="home-images/our_work/case/19.-DSC_2027--Nestle.jpg " alt="image " class="photo_case img-fluid picture "> <span class="padding-from-top_20 "></span> <img src="home-images/our_work/case/eye.png " class="img-fluid eye ">
+                                        <h6>重点摘要</h6>
+                                        <p class="content "> 策略并不只有实现短期利益的策略。策略也可以是长期的计划，恰如在雀巢的“商誉策略”中，去讨好东道主国家的消费者。 </p> <a href="http://www.chinabusinessreview.com/got-milk-hownestle-won-chinas-goodwill " class="color-red more " target="blank ">阅读更多</a> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="f-section ">
+                            <div class="folding-section_heading_subtitle color-green " data-toggle="collapse " data-target="#c54 "> <span class="collapsable_plus color-red "></span> <span class="subtitle color-red ">长期策略</span> </div>
+                            <div class="collapse " id="c54">
+                                <div class="row folding-section_content ">
+                                    <div class="col-md-6 ">
+                                        <div class="content_title-margin ">
+                                            <h5 class="content_title ">长期<br>策略</h5> <img class="img-fluid services_green-circle " src="home-images/about_us/green-circle.png " alt="square "> </div>
+                                        <p class="content "> 如果你做好了长期战斗的准备，可以参考一下女商人朱津宁所使用，她的畅销商务书“商定和生活中挑战的哲学”中所谈论的落地生根策略。 <span class="break "></span> 追溯到1980年代早期，当时她的客户是来自美国俄勒冈州的草种生产商——俄勒冈州是世界上顶级的草种生产区域，满足世界50%的草种需求——下定决心要卖到中国去。但对于中国人而言，草是用来除的；叫别人“草”被视为一种侮辱，多年以来都没有中国人接受这个工作——直到朱津宁接了这个案子。 <span class="break "></span> 在当时，外汇受限，要用人民币兑换非常困难，所以朱津宁向中国官员提出一家美国公司想再中国种草然后以支付美国农民的酬劳用美元把草买回去。很多中国人都认为外国人很天真，她向官员重复表示了这一点，所以大家对于这个提案都非常满意。 <span class="break "></span> 当然，中国是不可能在没有经验的情况下种出高品质的草种的，朱津宁认为这是“不用说谎的骗局。”另一方面美国的草种专家开始频繁访问中国，教会中国的农民如何去生产高品质的草种和确保草坪的茁壮成长。 <span class="break "></span> 几年后，中国人开始意识到生产高品质草种的代价不小，但出乎意料的他们学会了分辨不同草的价值，尤其是美国的草。他们开始从美国公司直接购买草种，并在1990年亚运会上得到了很好的反响。亚运会后，草种开始变得史无前例的好卖，以在美国的五倍价格进行销售。在当代的中国，甚至是在空间紧凑的都市里，公共舞台、私家宅院、甚至是优秀的官员府邸中的草坪，都很有可能来自俄勒冈。 </p>
+                                    </div>
+                                    <div class="col-md-6 "> <img src="home-images/our_work/case/20._DSC_3543-_Strategy_for_the_Long_Term.jpg " alt="image " class="photo_case img-fluid picture "> <span class="padding-from-top_20 "></span> <img src="home-images/our_work/case/eye.png " class="img-fluid eye ">
+                                        <h6>重点摘要</h6>
+                                        <p class="content "> 不要低估提前种植概念的种子的力量，尤其是当你向另一种国家/文化展示他们能如何以此盈利的时候。价值观需要很多时间来培养，但一单它们生根，未来的岁月里你都将能获得丰收。 </p> <a href="https://www.amazon.com/dp/B0033WPCRI/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1 " class="color-red more " target="blank ">阅读更多</a> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="f-section ">
+                            <div class="folding-section_heading_subtitle color-green " data-toggle="collapse " data-target="#c55 "> <span class="collapsable_plus color-red "></span> <span class="subtitle color-red ">黎涛的真正本地化方式</span> </div>
+                            <div class="collapse " id="c55">
+                                <div class="row folding-section_content ">
+                                    <div class="col-md-6 ">
+                                        <div class="content_title-margin ">
+                                            <h5 class="content_title ">黎涛的真正本地化方式</h5> <img class="img-fluid services_green-circle " src="home-images/about_us/green-circle.png " alt="square "> </div>
+                                        <p class="content "> 一家欧洲的快消品经销商具有很大的规模，有几十年的中国采购，西方销售经验。然而现在他们想将趋势逆转，在中国大陆自己发展零售商超链。他们找到黎涛来做本地化的中国的进入市场策略，但不知道应该从哪里开始。 </p>
+                                        <h5 class="content_title_approach ">黎涛的方式:</h5>
+                                        <p class="content "> 作为欧洲公司，在欧洲当地他们有广泛的数据做参考——企业KPI，关键绩效指标，商超销售最佳SKU——来计算投资回报率和做出策略决议。但对在中国的国外企业而言，这样的方式是行不通的，因为这样的信息由中国连锁经营协会分类并保护。尼尔森公司有相应的数据，但代价过于昂贵。我们通过与专家以及网络红人的会谈了解了以消费者为基础的产品需求，通过地理位置和人口统计学进行了研究，从而就不需要大数据了。 <span class="break "></span> 在调查过程中我们意识到，在初始阶段商超并不是最切实可行的的选择；由于在线购物越来越流行，需要长途跋涉才能到达的大型超市已经开始倒闭。本地化的杂货商店更为优质，但这家公司需要先决定专注于中国的哪个区域，并从当地开始拓展。我们经常告诉客户“中国并不是简单的一个地方”。毕竟，这里有23个省市，每个地方都有自己的文化和传统，这里有超过200种方言，有一线到四线城市。 </p>
+                                    </div>
+                                    <div class="col-md-6 "> <img src="home-images/our_work/case/21._DSC_3562-The_LITAO_approach_to_true_localization.jpg " alt="image " class="photo_case img-fluid picture "> <span class="padding-from-top_20 "></span> <img src="home-images/our_work/case/eye.png " class="img-fluid eye ">
+                                        <h6>成果</h6>
+                                        <p class="content "> 我们帮助客户调整进入中国大陆的市场策略，囊括更多O2O形式，而不是慢慢腐朽的实体商店。客户逐渐意识到中国并不是简单的一个地方，这个国家的人们基于地方差异，消费者在消费习惯上的差异比国与国之间的差异更大。目前这家企业正专注于选择一个更明确的目标观众来真正理解当地消费者，并且通过这样不仅将产品销售出去，还能销售一种生活方式——在这个互联网购物的年代，这是唯一行得通的方法。 </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="f-section ">
+                            <div class="folding-section_heading_subtitle color-green " data-toggle="collapse " data-target="#c56 "> <span class="collapsable_plus color-red "></span> <span class="subtitle color-red ">黎涛的品牌区分方式</span> </div>
+                            <div class="collapse " id="c56">
+                                <div class="row folding-section_content ">
+                                    <div class="col-md-6 ">
+                                        <div class="content_title-margin ">
+                                            <h5 class="content_title ">黎涛的<br>品牌区分方式</h5> <img class="img-fluid services_green-circle " src="home-images/about_us/green-circle.png " alt="square "> </div>
+                                        <p class="content "> 来自欧洲的高端饮用水品牌有自创的净化技术，想要销售到中国市场来。但由于中国市场饮用水供应商和几近饱和，关于水质丑闻的报道让经销商变得十分谨慎，他们无从入手。黎涛在保护知识产权和国际品牌权益的前提下，帮助这家企业确定了向中国潜在B2B合作伙伴宣传的卖点。 </p>
+                                        <h5 class="content_title_approach ">黎涛的方式:</h5>
+                                        <p class="content "> 鼎盛国际和欧睿的数据趋势显示，在接下去的五年内瓶装水的消费量将有可能翻倍，所以瓶装水在中国是有市场的。客户想立即开始入市，而黎涛指出，他们的科技和商标在中国还没有受到保护，还不是最佳的时机。 <span class="break "></span> 我们首先确定和分析了表现最佳的中国以及外来饮用水品牌，尤其是与客户产品类似的精品饮用水，再考虑他们在中国的品牌地位。我们聚焦于五个相关品牌，两个本土，三个国外，进行了详细调研，就如何通过附加亮点（除了来自欧洲），建立优秀的品牌和视觉形象，以及将产品和其他竞争对手区分开，提供了见解。 <span class="break "></span> 在进入中国市场前就建立好坚实的品牌形象，能更好的保护企业避免山寨品牌的影响。 </p>
+                                    </div>
+                                    <div class="col-md-6 "> <img src="home-images/our_work/case/22._DSC_0402-LITAO_approach_to_brand_differentiation.jpg " alt="image " class="photo_case img-fluid picture "> <span class="padding-from-top_20 "></span> <img src="home-images/our_work/case/eye.png " class="img-fluid eye ">
+                                        <h6>成果</h6>
+                                        <p class="content "> 我们说服了客户不要过早进入中国市场——尤其是在他们的饮用水净化专利以及商标在中国内外都尚未受到保护的情况下。在商标和专利注册进程中，黎涛成为了这家企业在中国的官方代理。 </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row folding-section ">
+                        <div class="folding-section_heading color-dark-green ">
+                            <div class="folding-section_heading_title "> 财务 </div>
+                        </div>
+                        <div class="f-section ">
+                            <div class="folding-section_heading_subtitle color-green " data-toggle="collapse " data-target="#c61 "> <span class="collapsable_plus color-red "></span> <span class="subtitle color-red ">资金的转入和转出</span> </div>
+                            <div class="collapse " id="c61">
+                                <div class="row folding-section_content ">
+                                    <div class="col-md-6 ">
+                                        <div class="content_title-margin ">
+                                            <h5 class="content_title ">资金的<br>转入和转出</h5> <img class="img-fluid services_green-circle " src="home-images/about_us/green-circle.png " alt="square "> </div>
+                                        <p class="content "> 随着政府大力支持，人民币变得越来越全球化。而要达到与美元、欧元、英镑甚至日元相等的地位，还需要一些时间。多数欧洲和美国银行不接受人民币，所以资金必须要先到香港进行转换。在中国，资金的转入和转出需要技巧，因为无论是个人还是企业，用微信和支付宝进行手机支付都非常流行——就像西方的贝宝，不过使用范围更大。 <span class="break "></span> 由于一些富人假借企业采购的名义来将现金打入海外银行或者购置房产，政府也加大了对大公司转出资金的监控（个人一年在海外只允许使用5万美金）。汇款需要受到政府审查，从2016年政策开始收紧，对国外企业来说的确可能造成资金滞留。如果你没有能证明汇款真实性的联系人，虽然不会有什么麻烦，但资金会受到延误。 </p>
+                                    </div>
+                                    <div class="col-md-6 "> <img src="home-images/our_work/case/23._DSC_0719-_Moving_Money_In_and_Out_of_China.jpg " alt="image " class="photo_case img-fluid picture "> <span class="padding-from-top_20 "></span> <img src="home-images/our_work/case/eye.png " class="img-fluid eye ">
+                                        <h6>重点摘要</h6>
+                                        <p class="content "> 由于人民币尚未完全国际化，知道如何合法、便捷的收款就非常重要。近些年，由于大批富人移居海外，政府开始缩紧货币政策，转账都要经过严格的审查。 </p> <a href="http://www.chinalawblog.com/2016/12/getting-money-out-of-china-its-complicated.html " class="color-red more " target="blank ">阅读更多: It’s Complicated Pt. 1</a>
+                                        <br> <a href="http://www.chinalawblog.com/2016/12/getting-money-out-of-china-its-complicated-part-2.html " class="color-red more " target="blank ">阅读更多: It’s Complicated Pt. 2</a>
+                                        <br> <a href="http://www.chinalawblog.com/2016/01/getting-money-out-of-china-what-the-heck-is-happening.html " class="color-red more " target="blank ">阅读更多: What The Heck Is Happenning?</a> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="f-section ">
+                            <div class="folding-section_heading_subtitle color-green " data-toggle="collapse " data-target="#c62 "> <span class="collapsable_plus color-red "></span> <span class="subtitle color-red ">金融诈骗</span> </div>
+                            <div class="collapse " id="c62">
+                                <div class="row folding-section_content ">
+                                    <div class="col-md-6 ">
+                                        <div class="content_title-margin ">
+                                            <h5 class="content_title ">金融<br>诈骗</h5> <img class="img-fluid services_green-circle " src="home-images/about_us/green-circle.png " alt="square "> </div>
+                                        <p class="content "> 要格外小心金融诈骗，政府在监管这个问题上也不是特别有效。供应商要求你将货款打到新的银行账户就是典型的诈骗形式之一。然而你在被诈骗汇款以后，供应商并不会收到，届时不仅要支付滞纳金，而且仍要付清货款。 <span class="break "></span> 极富经验的企业，也有可能中招。玩具制造龙头美泰，也曾因为收到声称他们的公司总裁下了订单的邮件，向温州银行转款三百万美金。 <span class="break "></span> 美泰反映迅速，及时上报了FBI和中国当局，最终将骗款追回，然而其他公司就没这么幸运了。有时候受骗者可以说服中国供应商作出一些赔款——基于是供应商的电脑系统出了差错——不过这就要看你和供应商的关系了。 <span class="break "></span> 关于汇款的事务，我们建议要重复审核，做好安全防护措施，如通过座机进行付款核实，因为座机被黑客攻击的可能性更小，提前索要供应商银行信息，或者在进行大数额汇款前通过企业内部核查系统检验。 <span class="break "></span> 你的供应商不仅会理解，甚至会赞赏你在安全问题上的付出，因为他们也有可能会遭受诈骗。 </p>
+                                    </div>
+                                    <div class="col-md-6 "> <img src="home-images/our_work/case/24._DSC_0074-_Financial_Fraud.jpg " alt="image " class="photo_case img-fluid picture "> <span class="padding-from-top_20 "></span> <img src="home-images/our_work/case/eye.png " class="img-fluid eye ">
+                                        <h6>重点摘要</h6>
+                                        <p class="content "> 即使是大规模，极富经验的企业也有可能遭受最简单的金融诈骗，所以不要认为自己可以例外。再三确认，和收款人建立相互核查系统，因为组织架构上的失误往往是个人造成的。 </p> <a href="http://www.chinalawblog.com/2016/04/the-china-bank-switch-scam-conquered.html " class="color-red more " target="blank ">阅读更多: The China Bank Switch Scam Conquered</a> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="f-section ">
+                            <div class="folding-section_heading_subtitle color-green " data-toggle="collapse " data-target="#c63 "> <span class="collapsable_plus color-red "></span> <span class="subtitle color-red ">黎涛的可靠销售建立方式</span> </div>
+                            <div class="collapse " id="c63">
+                                <div class="row folding-section_content ">
+                                    <div class="col-md-6 ">
+                                        <div class="content_title-margin ">
+                                            <h5 class="content_title ">黎涛的可靠<br>销售建立方式</h5> <img class="img-fluid services_green-circle " src="home-images/about_us/green-circle.png " alt="square "> </div>
+                                        <p class="content "> 某欧洲的冷冻肉类贸易公司在中国的市场占有率为零，但想要打入中国市场。黎涛的角色是帮助其创建市场份额——建立一个可靠的形象来促进销售。 </p>
+                                        <h5 class="content_title_approach ">黎涛的方式:</h5>
+                                        <p class="content "> 这家企业最大的劣势就是在中国没有名声。作为贸易商，竞争对手包括了其他进口类似产品的企业和直营生产商。在有熟悉渠道的情况下，谁会选择在一家默默无闻的公司进行采购呢？ <span class="break "></span> 我们通过海关购置了中国市场表现最佳的肉制品类目和最大的进口商信息，并与他们的销售和管理人员逐个进行联系，来研究最佳策略。在代表这家企业参加上海中食展之前，我们发展了一系列的潜在客户，通过注册并维护企业的微信公众号进行市场推广，建立了虚拟办公室和数据管理系统，雇佣并培训了忠诚的员工队伍。 <span class="break "></span> 我们意识到目标客户群体是相对经验较少的销售商和进口商，并不是拥有自己社交网络的知名大型企业，所以较小的企业成了我们关注的重点。这样的策略意味着面向不会说英文的，想要更简单的，包括微信或者支付宝这样跨境支付方式的，需要更多解释性说明的客户；我们甚至向他们提供了B2B2C的建议以供他们更好的向自己的客户推广产品。 </p>
+                                    </div>
+                                    <div class="col-md-6 "> <img src="home-images/our_work/case/25._DSC_0917-LITAO_approach_to_building_trusted_sales_2.jpg " alt="image " class="photo_case img-fluid picture "> <span class="padding-from-top_20 "></span>
+                                        <p class="content "> 新兴企业永恒不变的危机就是信任——中国客户通常采取货到付款的方式，但通过长期不懈的交流和跟进，我们成功说服了客户支付30%的定金。 </p>
+                                        <div> <img src="home-images/our_work/case/eye.png " class="img-fluid eye ">
+                                            <h6>成果</h6></div>
+                                        <p class="content "> 中食展后的一个月内，我们的客户在中国达成了50万美元的成交额——而这一数字完全是从无到有。通过微信公众号，得到了200+的有效客户信息，其中一些在展会上直接下了订单，另一些之后成了忠实客户。 </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row folding-section ">
+                        <div class="folding-section_heading color-dark-green ">
+                            <div class="folding-section_heading_title "> 业界专家指导 </div>
+                        </div>
+                        <div class="f-section ">
+                            <div class="folding-section_heading_subtitle color-green " data-toggle="collapse " data-target="#c71 "> <span class="collapsable_plus color-red "></span> <span class="subtitle color-red ">填补小众市场</span> </div>
+                            <div class="collapse " id="c71">
+                                <div class="row folding-section_content ">
+                                    <div class="col-md-6 ">
+                                        <div class="content_title-margin ">
+                                            <h5 class="content_title ">填补<br>小众市场</h5> <img class="img-fluid services_green-circle " src="home-images/about_us/green-circle.png " alt="square "> </div>
+                                        <p class="content "> 2008年，中国本地的洗衣液品牌蓝月亮通过行业专门化和调查成功打入了被联合利华，宝洁以及其他多国企业占领的中国市场。这家较小的企业之所以能成功是因为其注意到了洗衣液行业中被其他企业忽略的东西。 <span class="break "></span> 当其他多国企业集中研究机洗新产品的时候，蓝月亮意识到相当一部分的中国人还很传统，仍然手洗衣物。市场上手洗洗衣粉是有的，但蓝月亮引进了一种手洗液（不会结团），提供了更好的体验。其他企业迎头赶上的时候，蓝月亮已抢先获得了洗衣液30%的稳定市场份额。 <span class="break "></span> 当你把文化和产业趋势融合到一起的时候，就能达成这样的成功。当然，亚洲顶级的对冲基金高瓴资本提供的投资和建议支持也帮了这家中国创业公司的忙。 <span class="break "></span> 但在获得了初期成功后，蓝月亮并没有停下势头。他们继续上新获得成功的洗衣液，专注于最佳SKU，而不是开发其他新的洗衣液。 <span class="break "></span> 蓝月亮在调研和市场推广上做了头资。2011年是蓝月亮成功打入市场三周年，光在广告方面，蓝月亮就投入了500万美元。蓝月亮的领导层也和中国最大的线上购物平台之一，京东的队伍，进行了会面，来研究更有效的送货流程；为了适应京东的在线送货箱，蓝月亮重新设计了洗衣液的包装箱。 </p>
+                                    </div>
+                                    <div class="col-md-6 "> <img src="home-images/our_work/case/26._DSC_0138-FILLING-A-NICHE-NEED.jpg " alt="image " class="photo_case img-fluid picture "> <span class="padding-from-top_20 "></span>
+                                        <p class="content "> 2012年，蓝月亮在广告预算上做了削减，但开始雇佣销售直接在商超进行互动，邀请顾客就像在百货商店里试香水那样试闻洗衣液的样品包。蓝月亮一直在采用新的策略来使自己获得市场份额，不做最低价的产品，而是“与众不同并且值得拥有”。 </p> <img src="home-images/our_work/case/eye.png " class="img-fluid eye ">
+                                        <h6>重点摘要</h6>
+                                        <p class="content "> 即使只是小品牌，也能够打败多国大型品牌，只要比竞争对手更清楚特殊顾客的需要。蓝月亮用其专为手洗衣物人群设计的突破性的洗衣液印证了这一点。它为这些顾客解决了其他公司没有解决的问题，因此赢得了忠实客户。在取得初步成功之后，蓝月亮也没有停止研发以及市场推广：他们继续坚持学习并将学习到的东西展现给客户。 </p> <a href="http://www.millwardbrown.com/global-navigation/blogs/post/mb-blog/2013/01/14/Blue-Moon-engages-consumers-in-store.aspx " class="color-red more " target="blank ">阅读更多</a> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="f-section ">
+                            <div class="folding-section_heading_subtitle color-green " data-toggle="collapse " data-target="#c72 "> <span class="collapsable_plus color-red "></span> <span class="subtitle color-red ">黎涛的特色产品支持</span> </div>
+                            <div class="collapse " id="c72">
+                                <div class="row folding-section_content ">
+                                    <div class="col-md-6 ">
+                                        <div class="content_title-margin ">
+                                            <h5 class="content_title ">黎涛的<br>特色产品支持</h5> <img class="img-fluid services_green-circle " src="home-images/about_us/green-circle.png " alt="square "> </div>
+                                        <p class="content "> 英国的定制钻戒品牌Rare Pink想要在中国市场扩展。其品牌90%的戒指都是作为订婚戒使用的，但在中国订婚的整个意义都是不同的。在与重要的潜在中国合作伙伴、投资商会面前，Rare Pink找到了黎涛。 </p>
+                                        <h5 class="content_title_approach ">黎涛的方式:</h5>
+                                        <p class="content "> 我们明白Rare Pink真正需要的是强有力的卖点陈述，在案例中打动投资人。投资人看重的不仅是好的产品，更是好的机会。 <span class="break "></span> 我们发现，美国市场更偏爱0.8克拉到1克拉，而相较而言，0.3克拉到0.7克拉的钻石在中国更有市场。随着中国人均GDP的增长，钻石订单的增长潜力得到了证明。桌面调研印证了许多非常有趣的见解，不久后，我们就完成了消费者焦点，投资计划和目标收益等内容。 <span class="break "></span> 然而，若是没有在中国市场的经验，品牌如何凸显他们对中国的了解呢？黎涛为这家企业的CEO安排了饰演未婚妻的女伴，在上海进行了一系列以购物为掩护的调查。通过我们策略性设计的问题，这家企业从珠宝商那里获得了诸如销售最佳的设计（中国人对有颜色的钻石更加向往）；店铺是如何开设的；以及销售人员是如何提供服务的（中国的情侣大多对于悬而未决的订婚较为沉默）等一手信息。 </p>
+                                    </div>
+                                    <div class="col-md-6 "> <img src="home-images/our_work/case/27._DSC_3130-LITAO_approach_to_specialty_items.jpg " alt="image " class="photo_case img-fluid picture "> <span class="padding-from-top_20 "></span> <img src="home-images/our_work/case/eye.png " class="img-fluid eye ">
+                                        <h6>成果</h6>
+                                        <p class="content "> 这家企业得出了10页的备忘录和全方面的商业计划书，包括调研结果和一手信息，触动了中国的投资者们。目前，该项目的细节仍在讨论中。 </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="f-section ">
+                            <div class="folding-section_heading_subtitle color-green " data-toggle="collapse " data-target="#c73 "> <span class="collapsable_plus color-red "></span> <span class="subtitle color-red ">黎涛的食品饮料进口支持</span> </div>
+                            <div class="collapse " id="c73">
+                                <div class="row folding-section_content ">
+                                    <div class="col-md-6 ">
+                                        <div class="content_title-margin ">
+                                            <h5 class="content_title ">黎涛的食品饮料进口支持</h5> <img class="img-fluid services_green-circle " src="home-images/about_us/green-circle.png " alt="square "> </div>
+                                        <p class="content "> 蔚旗耐集团是欧洲最大，世界第五的鱼靡生产商（每年生产16万吨的食品），需要进一步全球化的时候找到了黎涛。但中国的食品进口法规如此严格的情况下，蔚旗耐要如何进入中国市场呢？ </p>
+                                        <h5 class="content_title_approach ">黎涛的方式:</h5>
+                                        <p class="content "> 中国本身就是世界上最大的鱼靡和其他鱼产品产地，而且在过去的几十年里，为了保护本地利益，进口法规变得非常严格，虽然国内的食品质量不佳——但对进口食品的品质检验标准比在欧洲还要严格。 <span class="break "></span> 除非一样产品在过去一直有进口，并且让人满意，不然要进入中国市场基本不可能。我们提前知会了蔚旗耐相关的法规，然后对目前立陶宛可以允许进口中国的鱼类进行了调查，确定了只有六种库存鱼类是可以进口的。 <span class="break "></span> 受到六种允许进口鱼类的限制，这就意味着蔚旗耐要修改其鱼靡配方了。 </p>
+                                    </div>
+                                    <div class="col-md-6 "> <img src="home-images/our_work/case/9._-DSC_0060-The-LITAO-Approach-to-Premiumization.jpg " alt="image " class="photo_case img-fluid picture "> <span class="padding-from-top_20 "></span> <img src="home-images/our_work/case/eye.png " class="img-fluid eye ">
+                                        <h6>成果</h6>
+                                        <p class="content "> 在产品根据中国进口限制和法规进行生产的的同时，这家企业雇佣了黎涛作为其大中华地区的代理人，而如果仅凭他们当时的产品，是永远不可能通过这些限制和法规的。 <span class="break "></span> 除了帮助蔚旗耐集团进口产品，我们还改变了其整个市场推广的方式。点此阅读我们如何帮助这家企业精品化：<a href="# " data-toggle="collapse " data-target="#c25 " target="blank ">黎涛的精品化方式。</a> </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                        <!-- ends**************************************************** -->
+                    </div>
+                </div>
+                <div class="section " id="process">
+                    <div class="row ">
+                        <div class="col-md-6 col-xs-12 ">
+                            <h3 class="text-uppercase level2-main-title "> 业务 <br> 流程 </h3>
+                            <div class="level2-titles-box-margin ">
+                                <div class="level2-titles-box ">
+                                    <p class="lead "> 从概念到成型，每一步，我们与您同行。 </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 "> <img src="home-images/our_work/process/DSC_0372-OUR-PROCESS.jpg " alt="main image " class="img-fluid main-image mobile "> </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-md-6 ">
+                            <div class="level2-titles-box-margin ">
+                                <div class="level2-titles-box "> <img class="level2-titles-box-line " src="home-images/about_us/black_title_line.png " alt=" "> <img class="level2-titles-box-pic-square " src="home-images/about_us/green-rectangle.png " alt=" ">
+                                    <h4 class="text-uppercase level2-titles ">成功进入和在中国市场扩张的七部曲</h4> <span class="subtitle ">以下为产品要进入中国市场的标准期待值时间线。</span> <span class="subtitle-second ">每个阶段，我们均会优化和执行后续进程。</span> </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-md-6 "> <img src="home-images/our_work/process/DSC_3695-DEFINING-&-PROTECTING-THE-PRODUCT.jpg " alt="image " class="photo_process img-fluid mobile "> </div>
+                        <div class="col-md-6 ">
+                            <div class="content_title-margin ">
+                                <h5 class="content_title ">1. 产品的明确 <br> 和保护</h5> <img class="img-fluid services_green-circle " src="home-images/about_us/green-circle.png " alt="square "> </div>
+                            <p class="content "> 在这一步，我们定义你是谁。 <span class="break "></span> 无论销售的是产品、服务还是原材料，都需要定义并且准确勾画你真正的需要。无论是出口还是进口，都要通过这些方面来阐述你要传达的主要信息：能最好的诠释最终产品，引起与消费者共鸣的文案、图片和理念 <span class="break "></span> 一旦对产品进行了明确，就可以启动商标注册程序来保护品牌了，这一点在进入目标国家市场前就要做好。中国市场采用申请优先制的商标系统，再考虑到山寨现象的层出不穷，保护好自己的产品是要完成的首要任务。 <span class="break "></span> <a href="# " data-toggle="collapse " data-target="#c13 " class="color-red " target="blank ">阅读更多关于为什么要尽快保护商标</a> </p>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-md-6 ">
+                            <div class="content_title-margin ">
+                                <h5 class="content_title ">2. 建立定价、营销 <br> 以及规章制度</h5> <img class="img-fluid services_green-circle " src="home-images/about_us/green-circle.png " alt="square "> </div>
+                            <p class="content "> 通过广泛的市场调查，我们帮助您准确了解在中国市场的业务定位。 <span class="break "></span> 产品是要精品化？还是面向大众市场？在中国，通过打价格战来击败本地品牌几乎是不可能的，因此品质是致胜一切的关键。我们帮助您建立独一无二的销售计划，在市场占据一席之位，根据供应商和生产成本制定更适合您和客户的销售价格。其他竞争的小众品牌，我们也将进行深入的研究。 <span class="break "></span> 在该阶段，我们将知会您进入中国市场所要经过的法律步骤，税收和进口法规等要求，做好万全准备。 </p>
+                        </div>
+                        <div class="col-md-6 "> <img src="home-images/our_work/process/DSC_0050-ESTABLISHING-PRICING-MARKET-&-REGULATIONS.jpg " alt="image " class="photo_process img-fluid mobile "> </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-md-6 "> <img src="home-images/our_work/process/DSC_4169-STRATEGIZING-FOR-PROMOTIONS-AND-SALES.jpg " alt="image " class="photo_process img-fluid mobile "> </div>
+                        <div class="col-md-6 ">
+                            <div class="content_title-margin ">
+                                <h5 class="content_title ">3. 制定促销以及销售战略</h5> <img class="img-fluid services_green-circle " src="home-images/about_us/green-circle.png " alt="square "> </div>
+                            <p class="content "> 到了这一阶段，你已经确定了未来的走向。但是要将信息向外界传达，交流策略是必不可少的。 <span class="break "></span> 交流策略不仅意味着你和最终客户的沟通方式，也包括了供应商，生产商，经销商和投资人。针对不同受众，我们为你量身定制交流策略，在谈判，签约，商展等活动中，带来可观的收益。 <span class="break "></span> 在这一阶段，就是应用先前建立的品牌的关键信息的时候了。区分精品和普通品牌的主要因素是品牌故事。（例如，在中国市场“净化水”听起来就不怎么样。大多数消费者居家饮用的就是通过煮沸来“净化”的自来水——为什么要花钱去买呢？） <span class="break "></span> 最主要是通过明确的，新颖的立意来建立需求。我们帮助客户雇佣和培训销售人员，确保再刁难的问题，也可以得到完美解答。 <span class="break "></span> 这一阶段也包括微信公众号的建设——微信是社交平台之王，可以带来的影响是网页无法比拟的。 </p>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-md-6 ">
+                            <div class="content_title-margin ">
+                                <h5 class="content_title ">4. 供应和 <br> 库存检查</h5> <img class="img-fluid services_green-circle " src="home-images/about_us/green-circle.png " alt="square "> </div>
+                            <p class="content "> 在没有现成产品的情况下，我们可以根据您的需求，配对值得信赖的供应商和生产商，实现您的构想。 <span class="break "></span> 采购已经完成的情况下，针对供应商和零售商，我们提供尽职调查报告。要和采购来源建立长期的合作关系，在正式进行业务往来之前，进行全面的调查，获取尽可能多的信息是非常重要的。我们拥有辨别隐藏信息的专家团队。 <span class="break "></span> 名誉取决于供应商是否可靠；对于最终产品，承担风险的是你自己，所以一个好的供应商将是成功的关键。 <span class="break "></span> 信誉审核和设施考察后段，我们提供就地质量检验以及厂房/库存管理服务。 </p>
+                        </div>
+                        <div class="col-md-6 "> <img src="home-images/our_work/process/DSC_3186-SUPPLY-&-INVESTIGATIN-INVENTORY.jpg " alt="image " class="photo_process img-fluid mobile "> </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-md-6 "> <img src="home-images/our_work/process/DSC_0319-FULFILLING-DISTRIBUTION-NEEDS.jpg " alt="image " class="photo_process img-fluid mobile "> </div>
+                        <div class="col-md-6 ">
+                            <div class="content_title-margin ">
+                                <h5 class="content_title ">5. 满足 <br> 派送需求</h5> <img class="img-fluid services_green-circle " src="home-images/about_us/green-circle.png " alt="square "> </div>
+                            <p class="content "> 产品完成后，物流商作为中间人是十分重要的。</b>. <span class="break "></span> 中国进口以及经销渠道十分复杂，经常变化。进口程序必须由持有执照的进口商完成，进口商有时候即是经销商。然而，大多数的食品经销商和进口商都没有进口执照，所以，为了与您的要求达成一致，要找到最好的经销商必须依赖于可靠的业内人士推荐。所有的海关文件，也是在此阶段完成的。 <span class="break "></span> 在中国市场，经销是比较分化的，通常是以店铺与店铺或者城市与城市为基础，由当地的经销商配送，再由店铺来接收绝大多数进口货物。这一点就意味着，根据您对产品走势的需求，可能需要许多不同的区域经销商。通过我们稳定的本土经销渠道，可以为您追踪相应的经销商。 <span class="break "></span> <a href="# " data-toggle="collapse " data-target="#c43 " class="color-red " target="blank ">点击阅读哈根达斯的派送如何特别</a> </p>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-md-6 ">
+                            <div class="content_title-margin ">
+                                <h5 class="content_title ">6. 服务 <br> 支持 </h5> <img class="img-fluid services_green-circle " src="home-images/about_us/green-circle.png " alt="square "> </div>
+                            <p class="content "> 该阶段包括客户跟进和关系管理，也包含雇员关系管理，以达成稳定销售。 <span class="break "></span> 我们协助维持品牌完整性，使命和愿景诠释的清楚明白。在技术服务上，我们提供虚拟办公室系统建设，预算编制，报价处理，销售规划，索赔以及法律服务。 </p>
+                        </div>
+                        <div class="col-md-6 "> <img src="home-images/our_work/process/DSC_0005-SUPPORT-FOR-SERVICES.jpg " alt="image " class="photo_process img-fluid mobile "> </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-md-6 "> <img src="home-images/our_work/process/DSC_0092-SETTLING-FINANCES-&-FURTHER-DEVELOPMENTS.jpg " alt="image " class="photo_process img-fluid mobile "> </div>
+                        <div class="col-md-6 ">
+                            <div class="content_title-margin ">
+                                <h5 class="content_title ">7. 解决财务问题 <br> 探索未来发展</h5> <img class="img-fluid services_green-circle " src="home-images/about_us/green-circle.png " alt="square "> </div>
+                            <p class="content "> 我们协助解决跨境支付问题，包括互联网支付和货币兑换。 <span class="break "></span> 与大多数国际贸易商不同，中国的贸易商通常会拒绝公开信贷额度，所以，要确保自己的底线得到保障，这一阶段非常重要。项目包括定期业内情报订阅，税务服务，预算编制，审计，财政规划与展望和投资回报预测。 <span class="break "></span> <a href="# " data-toggle="collapse " data-target="#c61 " target="blank " class="color-red ">点击阅读更多关于黎涛的金融服务</a> </p>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-md-6 last ">
+                            <div class="level2-titles-box-margin ">
+                                <div class="level2-titles-box "> <img class="level2-titles-box-line " src="home-images/about_us/black_title_line.png " alt=" "> <img class="level2-titles-box-pic-square " src="home-images/about_us/green-rectangle.png " alt=" ">
+                                    <h4 class="text-uppercase level2-titles ">大格局</h4> <span class="subtitle-second ">咨询，是帮助客户指出需求。我们存在于在当前拥有和未来需要之间，机遇与挑战之中。</span> </div>
+                            </div>
+                            <p class="content "> 我们拥有您需要的专业技能。其实，问题往往不是表面上的样子，解决方式也不一定有预期的那么困难。 <span class="break "></span> 当客户有所疑问的时候，我们总是能明确：你是谁，你的优势，以及说服他人与您合作/向您购买产品的方式。 <span class="break "></span> 小众产品想要渗透新的市场取得成功，就要面向目标对象，设立明确的品牌定位。产品信息或者品牌立意的错误传递，已经成了绝大多数品牌失败的原因。并且要知道，清楚的传递讯息是沟通者的责任，而不是受众的责任。 </p>
+                        </div>
+                        <div class="col-md-6 "> <img src="home-images/our_work/process/DSC_0547-THE-BIGGER-PICTURE.jpg " alt="image " class="photo_process img-fluid mobile ">
+                            <p class="content "> 在一个充满竞争的市场里，我们的流程为您指出产品的营销特性，并进行优先级的排列。这样不仅能提高品牌的市场竞争力，还可以教育消费者，为产品建立一个新的市场。 <span class="break "></span> 我们相信觉知商业，也就是建立长期稳定的合作关系——在竞争中建立联盟。 <span class="break "></span> 当您真正知道目标是什么，自己有什么优势，以及谁能帮助达成的时候，就真正踏上了成功的道路。 </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container-fluid ">
+            <div class="row ">
+                <div class=" col-xs-11 col-md-10 offset-xs-1 ">
+                    <div class="row ">
+                        <div class="col-md-6 left ">
+                            <p class="call-to-action "><b>和黎涛对话，收获精彩</b></p>
+                            <ul>
+                                <li> Tel: 021-51061063 </li>
+                            </ul>
+                            <a href="mailto:lina@litao.lt ">
+                                <button class="color-red ">联系方式</button>
+                            </a>
+                        </div>
+                        <div class="col-md-6 right ">
+                            <ul>
+                                <li><a class="color-red " href="./about_us.html ">关于我们</a></li>
+                                <li><a class="color-red " href="./our_work.html ">我们的工作</a></li>
+                                <li><a class="color-red " href="./why_us.html ">为什么选择我们</a></li>
+                                <li><a class="color-red " href="./crossing_cultures.html ">跨文化</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row page-bottom ">
+                        <div class="col-md-6 ">
+                            <p style="float: left; ">上海市静安区光复路195号306室 </p>
+                        </div>
+                        <div class="col-md-6 ">
+                            <p style="float: right; "> © 2019, 黎涛. 版权所有 <a href="mailto:nihao@litao.lt ">nihao@litao.lt</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  </div> -->
+    </footer>
+    <script src="js/jquery-3.1.1.min.js "></script>
+    <script src="js/jquery.easing.min.js "></script>
+    <script src="js/tether.min.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+    <script src="js/scrollreveal.min.js "></script>
+    <script src="js/js_script-v02.js "></script>
+    <script type="text/javascript">
+    function toggleIcon() { $(this).find("span").toggleClass("added") }
+
+    $(document).ready(function() {
+        $("#services .folding-section").on('hidden.bs.collapse', toggleIcon);
+        $("#services .folding-section").on('show.bs.collapse', toggleIcon);
+        $("#case_studies .f-section").on('hidden.bs.collapse', toggleIcon);
+        $("#case_studies .f-section").on('show.bs.collapse', toggleIcon);
+
+        $('#services .folding-section').on('shown.bs.collapse', function() {
+            var panel = $(this).find('.in');
+            $('html, body').animate({ scrollTop: panel.offset().top }, 500);
+        });
+        $('#case_studies .f-section').on('shown.bs.collapse', function() {
+            var panel = $(this).find('.in');
+            $('html, body').animate({ scrollTop: panel.offset().top }, 500);
+        });
+
+        $('.collapse').on('show.bs.collapse', function(e) { $('.collapse').collapse("hide"); });
+
+        $('body').scrollspy({ target: '#our_work-navigation' });
+        window.sr = ScrollReveal({ reset: true });
+        sr.reveal('.level2-main-title', { duration: 700 }, 30);
+        sr.reveal('.img-fluid', { duration: 500 });
+        sr.reveal('.level2-titles-box-line', { duration: 800 });
+        sr.reveal('.level2-titles-box-pic-square', { duration: 900 });
+
+    });
+    </script>
+</body>
+
+</html>
